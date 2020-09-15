@@ -10,15 +10,15 @@ Decentralization will progress across four [phases](phases.md) rapidly over the 
 
 **Timelock**
 
-Prior to full decentralized governance, we have implemented a [timelock](../architecture/timelock.md) in front of all admin function calls, giving OUSD users time \(72 hours\) to withdraw their funds if they have objections to our proposed upgrades.
+Prior to full decentralized governance, we have implemented a [timelock](../architecture/timelock.md) in front of all admin function calls, giving OUSD users time \(48 hours\) to withdraw their funds if they have objections to our proposed upgrades.
 
 **New and Existing Stakeholders**
 
 OUSD is a new project founded by Origin Protocol [team](www.originprotocol.com/team) and will be supported by the existing Origin community as well as many new stakeholders that choose to mint, hold, use, and provide liquidity for OUSD. 
 
-We also want to ensure high participation from our existing Origin Token \(OGN\) holders, community of over 250,000 individuals, and buyers/sellers on the Platform. We will be providing thoughtful incentive mechanisms to reward those users as well. OUSD and the Origin commerce network will fuel growth in both initiatives in a virtuous cycle.
+In addition, we also want to ensure high participation from our existing Origin Token \(OGN\) holders, community of close to 500,000 members, and buyers/sellers on the Platform. Existing OGN holders will be able to stake their OGN to participate in governance and earn incentives for driving value to OUSD. More details will be provided in the near future.
 
-We’re taking extra time to balance the incentives of both new and existing stakeholders to ensure long-term success. More details will be forthcoming.
+The strong connection between OUSD and the rest of the Origin commerce platform will fuel growth in both initiatives.
 
 
 
