@@ -4,7 +4,11 @@
 
 OUSD generates yield by depositing stablecoins into lending platforms and market maker liquidity pools. It is important to understand that these platforms do carry technological risk and funds can be lost if there is a major security event. We are choosing to work with the platforms that have had their smart contracts audited and that we feel are most secure.
 
-Currently, OUSD is earning yield from the following platforms:
+Currently, OUSD is earning yield from the following platform\(s\):
+
+{% page-ref page="compound.md" %}
+
+Integrations are currently planned for the following platforms:
 
 {% page-ref page="yearn.finance.md" %}
 
