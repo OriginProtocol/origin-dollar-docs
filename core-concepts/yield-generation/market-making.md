@@ -1,6 +1,6 @@
 # Market Making
 
-**Own a Stake in Decentralized Exchanges**
+**Own your Stake in Decentralized Exchanges**
 
 Automated market makers \(AMMs\) have quickly risen as the preferred form of decentralized exchange on the Ethereum network. This is in part due to the difficulty of supporting order book DEXes on Ethereum 1.0 that can rival the instant and low-slippage experiences on centralized exchanges. Further, AMMs like Uniswap are relatively user-friendly and gas-efficient to use.
 
@@ -12,7 +12,7 @@ AMMs can only enable new markets when liquidity providers supply liquidity \(e.g
 
 The OUSD protocol routes USDT, USDC, and DAI to highly-performing liquidity pools as determined by trading volume and rewards tokens \(e.g. Balancer rewards BAL tokens to liquidity providers\). Yields are then passed on to OUSD holders.
 
-We intend to integrate directly with the following automated market makers:
+We intend to integrate directly with at least the following automated market makers:
 
 {% page-ref page="../supported-platforms/uniswap.md" %}
 

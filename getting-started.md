@@ -10,7 +10,7 @@ The OUSD Mint allows anyone to create or trade in OUSD tokens using our [DApp](w
 
 For small amounts, the easiest way to start earning with OUSD is to buy it on a decentralized exchange like Uniswap.
 
-We anticipate that OUSD will soon be widely available on additional decentralized and centralized exchanges.
+In addition, we anticipate that OUSD will soon be widely available on additional decentralized and centralized exchanges.
 
 **Integrating OUSD**
 

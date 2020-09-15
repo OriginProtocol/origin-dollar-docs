@@ -16,17 +16,17 @@ Users convert their existing stablecoins \(currently USDT, USDC, and DAI\) to OU
 
 **Redeeming OUSD**
 
+Users can convert their OUSD back into other stablecoins at any time using the [Origin Dollar DApp](www.ousd.com). A 0.5% exit fee is charged upon redemption and is distributed in the form of additional yield to the remaining participants in the pool. The fee serves as a security feature to make it difficult for attackers to take advantage of lagging oracles, preventing them from draining the pool of stablecoins in the event of  mispricings of of the underlying assets. The fee exists to incentivize long-term holders over short-term speculators.
+
+Upon redemption, the smart contract will determine which stablecoin\(s\) to return to the user. Internally, the pool will attempt to maintain equal parts of each supported stablecoin and will liquidate whichever coin is in surplus. This lack of user optionality also protects the pool in the event that any of the supported stablecoins loses its peg to the dollar.
+
 {% hint style="info" %}
-There is a **0.5% exit fee** and you don't get to pick which stablecoin you will receive
+There is a **0.5% exit fee** and you don't get to pick which stablecoins you will receive
 {% endhint %}
-
-Users can convert their OUSD back into other stablecoins at any time using the [Origin Dollar DApp](www.ousd.com). The 0.5% exit fee is charged upon redemption and is distributed in the form of additional yield to the remaining participants in the pool. This fee exists to incentivize long-term holders over short-term speculators. It's also a security feature as it makes it more difficult for attackers to take advantage of mispriced or lagging oracles to drain the pool.
-
-Upon redemption, the smart contract will determine which stablecoin\(s\) to return to the user. Internally, the pool will try to maintain equal parts of each supported stablecoin and will liquidate whichever coin is in surplus. This lack of user optionality also acts to protect the pool in the event that any of the supported stablecoins lose their peg to the dollar.
 
 #### A**utomated Yield Farming**
 
-OUSD generates yields by deploying the underlying stablecoins that were deposited to the OUSD smart contract to other DeFi protocols such as Compound, Aave, Uniswap, Uniswap, and Curve. Initially, much of the pool's investment strategy will be directed through a single strategy \(FILL THIS IN LATER\), but it is expected there will be new diversified strategies added to the pool every month. Collected interest, trading fees, and rewards tokens are pooled and liquidated to produce OUSD-denominated yields. Over time, the protocol will programmatically move assets in and out of different liquidity pools in order to provide the best yield to the holders of OUSD. 
+OUSD generates yields by deploying the underlying stablecoins that were deposited to the OUSD smart contract to other DeFi protocols such as Compound, Aave, Uniswap, Balancer, and Curve. It is expected there will be new diversified strategies added to the pool every month. Collected interest, trading fees, and rewards tokens are pooled and converted to stablecoins to produce OUSD-denominated yields. Over time, the protocol will move assets in and out of different liquidity pools in order to provide the best yield to the holders of OUSD. 
 
 #### **Elastic Supply**
 
