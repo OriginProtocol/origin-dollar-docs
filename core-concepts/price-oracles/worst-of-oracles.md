@@ -2,7 +2,7 @@
 
 The OUSD oracle contract fetches prices from multiple reputable on-chain oracles and chooses the exchange rate that is most advantageous for the pool and the least beneficial for the individual. This is done for several reasons:
 
-* First, we want to prevent arbitrageurs from draining the pool's funds if there is an error with one of the oracles being used. For example, if Chainlink says USDT is worth $0.50 when the consensus market price is still $1, an attacker would be able to deposit 1 DAI to withdraw 2 units of USDT if this was the only oracle that was used. However, if the Open Price Feed, a second oracle, says that USDT is worth $1, then the pool prices USDT correctly at and prevents funds from being drained.
+* First, we want to prevent arbitrageurs from draining the pool's funds if there is an error with one of the oracles being used. For example, if Chainlink says DAI is worth $0.50 when the consensus market price is still $1, an attacker would be able to deposit 1 USDT to withdraw 2 units of DAI if this was the only oracle that was used. However, if the Open Price Feed, a second oracle, says that DAI is worth $1, then the pool prices DAI correctly and prevents funds from being drained.
 * Secondly, we want to encourage long-term depositors of OUSD. Therefore, individuals that frequently enter and exit OUSD are slightly penalized by receiving the least beneficial exchange rate on both the buy-side and sell-side. The overall pool benefits when it accrues these negligible spreads.
 
 {% tabs %}
