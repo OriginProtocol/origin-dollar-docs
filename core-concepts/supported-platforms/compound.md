@@ -1,7 +1,5 @@
 # Compound
 
-![](../../.gitbook/assets/compound.png)
-
 Compound is a lending protocol and platform built on Ethereum and launched in September 2018. Users can earn compounding interest on or borrow assets against collateral. Each supported asset is aggregated in its own liquidity pool and interest rates are adjusted automatically based on supply and demand.
 
 Collateral balances are represented by ERC-20 cTokens, which automatically accrue interest and increase in value over time relative to the underlying asset they represent. Users can borrow assets against the value of their cTokens. cTokens are freely transferable and can be used on many other DeFi protocols. cTokens can be redeemed for their underlying collateral at any time.

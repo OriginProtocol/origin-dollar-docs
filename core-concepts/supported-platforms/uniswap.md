@@ -1,7 +1,5 @@
 # Uniswap
 
-![](../../.gitbook/assets/uniswap2.png)
-
 {% hint style="info" %}
 Coming soon. Uniswap has not yet been integrated.
 {% endhint %}

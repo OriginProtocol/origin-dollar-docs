@@ -1,7 +1,5 @@
 # Balancer
 
-![](../../.gitbook/assets/balancer.png)
-
 {% hint style="info" %}
 Coming soon. Balancer has not yet been integrated.
 {% endhint %}

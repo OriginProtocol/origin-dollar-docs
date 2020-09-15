@@ -1,6 +1,8 @@
 # Yearn.finance
 
-![](../../.gitbook/assets/screen-shot-2020-08-27-at-12.33.22-pm.png)
+{% hint style="info" %}
+Coming soon. Yearn.finance has not yet been integrated.
+{% endhint %}
 
 Yearn.finance, formerly iEarn.finance, is a yield aggregation platform built on Ethereum and launched in January 2020 by Andre Cronje. Yearn manages yield farming and rebalancing strategies using a combination of automation and human decision making on behalf of users who have deposited capital.
 

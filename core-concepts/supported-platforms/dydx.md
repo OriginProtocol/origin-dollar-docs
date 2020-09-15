@@ -1,7 +1,5 @@
 # dYdX
 
-![](../../.gitbook/assets/dydx.png)
-
 {% hint style="info" %}
 Coming soon. DyDx has not yet been integrated.
 {% endhint %}

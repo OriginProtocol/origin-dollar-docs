@@ -1,7 +1,5 @@
 # Curve
 
-![](../../.gitbook/assets/screen-shot-2020-08-21-at-4.02.22-pm.png)
-
 {% hint style="info" %}
 Coming soon. Curve has not yet been integrated.
 {% endhint %}
