@@ -10,14 +10,9 @@ Think of it as interest accruing in your bank account. The unit of account and v
 
 ![](../.gitbook/assets/ousd_docs_graphics_4.png)
 
-{% hint style="warning" %}
-Smart contracts that hold OUSD \(such as multisig wallets\) must manually opt-in before earning yield. This allows OUSD to be safely added to AMM's without loss.
-{% endhint %}
-
 This mechanism was inspired by the novel approach taken by [Ampleforth](https://www.ampleforth.org/), but there are some key differences that are worth highlighting:
 
 1. OUSD is 100% backed by other stablecoins and will not have the same challenge maintaining the peg to the dollar. Given the ease of minting and redeeming OUSD, we can count on arbitrageurs to ensure the peg is maintained. 
 2. OUSD rebasing is heavily biased towards increasing supply since the amount of OUSD minted is tied to the realized gains earned by the underlying strategies. Other than the minor fluctuations in price that are common with the underlying stablecoins, you should not see your OUSD balance go down. Your principal is protected as long as nothing goes wrong with the underlying lending/AMM and stablecoin protocols. Any major decrease in your balance would be an indication of trouble in the system.
-3. By default, OUSD rebases only impact the balances of EOA wallets and not smart contracts. This allows OUSD to be safely added to AMM's. Multi-sig wallets or other smart contracts that wish to participate in rebasing should call the `rebaseOptIn()` function.
-4. Unlike Ampleforth, which rebases once a day, the monetary supply of OUSD is constantly being updated in real-time as yield is generated.
+3. Unlike Ampleforth, which rebases once a day, the monetary supply of OUSD is constantly being updated in real-time as yield is generated.
 
