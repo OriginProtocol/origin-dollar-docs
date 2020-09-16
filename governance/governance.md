@@ -6,11 +6,13 @@ OUSD is designed to be a decentralized protocol governed by many stakeholders al
 
 That being said, in the very early days, it is imperative that the core engineering team can act quickly and decisively to build the foundational parts of the protocol.
 
-Decentralization will progress across four [phases](phases.md) rapidly over the next few months. It is our intent to relinquish control and governance to the community as soon as possible.
+Decentralization will progress across four phases rapidly over the next few months. It is our intent to relinquish control and governance to the community as soon as possible.
+
+![](../.gitbook/assets/ousd_docs_graphics_2%20%283%29.png)
 
 **Timelock**
 
-Prior to full decentralized governance, we have implemented a [timelock](../architecture/timelock.md) in front of all admin function calls, giving OUSD users time \(48 hours\) to withdraw their funds if they have objections to our proposed upgrades.
+Prior to full decentralized governance, we have implemented a [timelock](../architecture/timelock.md) in front of all admin function calls, giving OUSD users time \(48 hours\) to withdraw their funds if they have objections to our proposed upgrades. This timelock will be added within 7 days after launch.
 
 **New and Existing Stakeholders**
 

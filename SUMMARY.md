@@ -15,14 +15,14 @@
   * [USDT](core-concepts/supported-assets/usdt.md)
   * [USDC](core-concepts/supported-assets/usdc.md)
   * [DAI](core-concepts/supported-assets/dai.md)
-* [Supported DeFi Platforms](core-concepts/supported-defi-platforms/README.md)
-  * [Compound](core-concepts/supported-defi-platforms/compound.md)
-  * [Aave](core-concepts/supported-defi-platforms/aave.md)
-  * [dYdX](core-concepts/supported-defi-platforms/dydx.md)
-  * [Uniswap](core-concepts/supported-defi-platforms/uniswap.md)
-  * [Curve](core-concepts/supported-defi-platforms/curve.md)
-  * [Balancer](core-concepts/supported-defi-platforms/balancer.md)
-  * [Yearn.finance](core-concepts/supported-defi-platforms/yearn.finance.md)
+* [Supported Strategies](core-concepts/supported-strategies/README.md)
+  * [Compound](core-concepts/supported-strategies/compound.md)
+  * [Aave](core-concepts/supported-strategies/aave.md)
+  * [dYdX](core-concepts/supported-strategies/dydx.md)
+  * [Uniswap](core-concepts/supported-strategies/uniswap.md)
+  * [Curve](core-concepts/supported-strategies/curve.md)
+  * [Balancer](core-concepts/supported-strategies/balancer.md)
+  * [Yearn.finance](core-concepts/supported-strategies/yearn.finance.md)
 * [Fund Management](core-concepts/fund-management/README.md)
   * [Earning Strategies](core-concepts/fund-management/earning-strategies.md)
   * [Diversification](core-concepts/fund-management/diversification.md)
@@ -34,7 +34,6 @@
 
 * [Principles](governance/governance.md)
 * [Admin Privileges](governance/admin-privileges.md)
-* [Phases](governance/phases.md)
 
 ## Architecture
 

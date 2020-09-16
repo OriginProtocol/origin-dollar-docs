@@ -14,11 +14,11 @@ The OUSD protocol routes USDT, USDC, and DAI to highly-performing liquidity pool
 
 We intend to integrate directly with at least the following automated market makers:
 
-{% page-ref page="../supported-defi-platforms/uniswap.md" %}
+{% page-ref page="../supported-strategies/uniswap.md" %}
 
-{% page-ref page="../supported-defi-platforms/curve.md" %}
+{% page-ref page="../supported-strategies/curve.md" %}
 
-{% page-ref page="../supported-defi-platforms/balancer.md" %}
+{% page-ref page="../supported-strategies/balancer.md" %}
 
 
 
