@@ -52,10 +52,7 @@
 ## Security & Risks
 
 * [Risks](security-and-risks/risks.md)
-* [Audits](security-and-risks/untitled/README.md)
-  * [OUSD](security-and-risks/untitled/ousd.md)
-  * [Compound](security-and-risks/untitled/compound.md)
-  * [Aave](security-and-risks/untitled/aave.md)
+* [Audits](security-and-risks/untitled.md)
 * [Bug Bounties](security-and-risks/asset-risk.md)
 * [Contributing](security-and-risks/contributing.md)
 
