@@ -51,10 +51,7 @@
 
 ## Security & Risks
 
-* [Risks](security-and-risks/risks/README.md)
-  * [Asset Risks](security-and-risks/risks/asset-risks.md)
-  * [Platform Risks](security-and-risks/risks/platform-risks.md)
-  * [Smart Contract Risks](security-and-risks/risks/smart-contract-risks.md)
+* [Risks](security-and-risks/risks.md)
 * [Audits](security-and-risks/untitled/README.md)
   * [OUSD](security-and-risks/untitled/ousd.md)
   * [Compound](security-and-risks/untitled/compound.md)
