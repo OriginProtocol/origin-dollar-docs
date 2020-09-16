@@ -20,7 +20,7 @@ Users can convert their OUSD back into other stablecoins at any time using the [
 
 Upon redemption, the smart contract will determine which stablecoin\(s\) to return to the user. Internally, the pool will attempt to maintain equal parts of each supported stablecoin and will liquidate whichever coin is in surplus. This lack of user optionality also protects the pool in the event that any of the supported stablecoins loses its peg to the dollar.
 
-{% hint style="info" %}
+{% hint style="warning" %}
 There is a **0.5% exit fee** and you don't get to pick which stablecoins you will receive
 {% endhint %}
 

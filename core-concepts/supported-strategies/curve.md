@@ -18,8 +18,8 @@ Curve has undergone two audits by Trail of Bits and maintains a bug bounty progr
 
 | Resources |  |
 | :--- | :--- |
-| Official site | [https://uniswap.org/](https://uniswap.org/) |
-| Developer docs | [https://uniswap.org/docs/v2](https://uniswap.org/docs/v2) |
-| GitHub | [https://github.com/Uniswap](https://github.com/Uniswap) |
-| Discord | [https://discord.com/invite/EwFs3Pp](https://discord.com/invite/EwFs3Pp) |
+| Official site | [https://www.curve.fi/](https://www.curve.fi/) |
+| Developer docs | [https://www.curve.fi/devdocs](https://www.curve.fi/devdocs) |
+| GitHub | [https://github.com/curvefi](https://github.com/curvefi) |
+| Discord | [https://discord.com/invite/9uEHakc](https://discord.com/invite/9uEHakc) |
 
