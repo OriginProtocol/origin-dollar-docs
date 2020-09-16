@@ -10,7 +10,7 @@ The timelock contract enforces a 48 hour wait period before any changes to the O
 The timelock is a safety measure that gives OUSD holders 48 hours to withdraw their funds if they have objections to any proposed upgrades to the protocol.
 {% endhint %}
 
-OUSD is using a slightly modified version of the [Compound Timelock](https://compound.finance/docs/governance) which has been [audited by OpenZeppelin](https://blog.openzeppelin.com/compound-finance-patch-audit/). The three notable differences that are worth mentioning are:
+OUSD is using a slightly modified version of the [Compound Timelock](https://compound.finance/docs/governance) which has been [audited by OpenZeppelin](https://blog.openzeppelin.com/compound-finance-patch-audit/). The 3 notable differences are:
 
 1. OUSD will initially use a shorter wait period \(48 hours\) than Compound \(72 hours\) to allow for a faster response if any issues are discovered. 
 2. Once the 48 hours have passed, anyone is free to execute the call, not just the owner of the contract.
