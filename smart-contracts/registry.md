@@ -9,7 +9,7 @@ Here is the list of OUSD smart contracts that have been deployed on the Ethereum
 | ERC20 | 0x... | ousd.eth |
 | Vault | 0x... | originvault.eth |
 | Timelock | 0x... | origintimelock.eth |
-| Multisig | [0xe011fA2a6Df98c69383457d87a056Ed0103aA352](https://etherscan.io/address/0xe011fA2a6Df98c69383457d87a056Ed0103aA352) | [originprotocol.eth](https://etherscan.io/address/originprotocol.eth) |
+| 5 of 8 Multisig | [0xe011fA2a6Df98c69383457d87a056Ed0103aA352](https://etherscan.io/address/0xe011fA2a6Df98c69383457d87a056Ed0103aA352) | [originprotocol.eth](https://etherscan.io/address/originprotocol.eth) |
 | Oracle | 0x... | originoracle.eth |
 {% endtab %}
 
