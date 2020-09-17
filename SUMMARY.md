@@ -26,9 +26,7 @@
 * [Fund Management](core-concepts/fund-management/README.md)
   * [Earning Strategies](core-concepts/fund-management/earning-strategies.md)
   * [Diversification](core-concepts/fund-management/diversification.md)
-* [Price Oracles](core-concepts/price-oracles/README.md)
-  * [Collectivist Pricing](core-concepts/price-oracles/onchain-oracles.md)
-  * [Supported Oracles](core-concepts/price-oracles/worst-of-oracles.md)
+* [Price Oracles](core-concepts/price-oracles.md)
 
 ## Governance
 

@@ -84,11 +84,11 @@ OUSD is designed to stay pegged at 1 USD and be 1:1 backed with its underlying s
         <p>May 27, 2017</p>
       </td>
       <td style="text-align:left">$0.360191</td>
+      <td style="text-align:left"><a href="https://www.coingecko.com/en/coins/tether">CoinGecko</a>
+      </td>
     </tr>
     <tr>
       <td style="text-align:left">USDT</td>
-      <td style="text-align:left"><a href="https://www.coingecko.com/en/coins/tether">CoinGecko</a>
-      </td>
       <td style="text-align:left">
         <p>$0.572521</p>
         <p>Mar 02, 2015</p>
@@ -106,23 +106,21 @@ OUSD is designed to stay pegged at 1 USD and be 1:1 backed with its underlying s
 
 In order to mint and burn the appropriate number of OUSD on entry and exit, the smart contracts need to accurately price the USDT, USDC, and DAI that is entering and exiting the system. It also needs a reliable way of expanding the supply to distribute the interest that is earned, or contracting supply if there is a negative change in the value of the underlying assets. As a decentralized protocol, OUSD must rely on non-centralized sources for these prices.
 
-In order to prevent malicious attacks and to encourage long-term investors over short-term speculators, the OUSD contract compares price feeds from multiple sources and will use whichever exchange rate benefits the entire pool over the individual. This mechanism protects the pool's funds from arbitrageurs and prevents any individual from being able to take advantage of any temporary inefficiencies caused by mispriced oracles to deplete the shared pool of assets. 
-
 {% hint style="info" %}
 OUSD fetches the price from multiple on-chain oracles and uses the exchange rate that is most advantageous for the pool.
 {% endhint %}
 
+In order to prevent malicious attacks and to encourage long-term investors over short-term speculators, the OUSD contract compares price feeds from multiple sources and will use whichever exchange rate benefits the entire pool over the individual. This mechanism protects the pool's funds from arbitrageurs and prevents any individual from being able to take advantage of any temporary inefficiencies caused by mispriced oracles to deplete the shared pool of assets.
+
 This protects the funds in the pool while rewarding long-term holders. Since the safest price depends on the direction of the trade, the Origin oracle exposes both a `mintPrice()` and a `redeemPrice()`. The rebasing function utilizes the `mintPrice()` for consistency.
 
-Here is the initial set of oracles that are being used by OUSD: 
+Here is the initial set of oracles that are being used by OUSD:
 
+{% embed url="https://compound.finance/docs/prices" caption="" %}
 
-{% embed url="https://compound.finance/docs/prices" %}
+{% embed url="https://feeds.chain.link/eth-usd" caption="" %}
 
-{% embed url="https://feeds.chain.link/eth-usd" %}
-
-{% embed url="https://uniswap.org/docs/v2/core-concepts/oracles/" %}
-
+{% embed url="https://uniswap.org/docs/v2/core-concepts/oracles/" caption="" %}
 
 {% tabs %}
 {% tab title="DAI/USD" %}
@@ -142,9 +140,8 @@ The following oracles are used to fetch or compute a price for **USDT/USD:**
 | O**racle** | Pair | Contract |
 | :--- | :--- | :--- |
 
-| Chainlink | USDT/ETH | 0xa874fe207DF445ff19E7482C746C4D3fD0CB9AcE |
-| Uniswap v2 | USDT/ETH | 0x0d4a11d5eeaac28ec3f61d100daf4d40471f1852 |
-| Open Price Feed | USDC/USD | 0xc629c26dced4277419cde234012f8160a0278a79 |
+
+\| Chainlink \| USDT/ETH \| 0xa874fe207DF445ff19E7482C746C4D3fD0CB9AcE \| \| Uniswap v2 \| USDT/ETH \| 0x0d4a11d5eeaac28ec3f61d100daf4d40471f1852 \| \| Open Price Feed \| USDC/USD \| 0xc629c26dced4277419cde234012f8160a0278a79 \|
 {% endtab %}
 
 {% tab title="USDC/USD" %}
@@ -158,7 +155,7 @@ The following oracles are used to fetch or compute a price for **USDC/USD:**
 {% endtab %}
 
 {% tab title="ETH/USD" %}
-Since not all oracles have direct USD pairs, the protocol also fetches the prices for **ETH/USD** in order to calculate USD prices using ETH. Again, to be safe, the protocol chooses the most advantgeous for the fund instead of the individual. 
+Since not all oracles have direct USD pairs, the protocol also fetches the prices for **ETH/USD** in order to calculate USD prices using ETH. Again, to be safe, the protocol chooses the most advantgeous for the fund instead of the individual.
 
 | Oracle | Pair | Contract |
 | :--- | :--- | :--- |
@@ -167,6 +164,5 @@ Since not all oracles have direct USD pairs, the protocol also fetches the price
 {% endtab %}
 {% endtabs %}
 
-It is possible that additional oracles will be added to the protocol over time. Support may also be removed if any of these oracles become unreliable. 
-
+It is possible that additional oracles will be added to the protocol over time. Support may also be removed if any of these oracles become unreliable.
 
