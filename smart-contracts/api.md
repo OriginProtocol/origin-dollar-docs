@@ -58,7 +58,7 @@ On redemptions, it is the protocol and not the user that decides which stablecoi
 
 **`function rebase()`**
 
-Updates the balances for all users based on the value of the assets currently stored in the pool. Returns total value of the underlying assets and strategies of `uint256` type.
+Updates the balances for all users based on the value of the assets currently stored in the pool. Returns total value of the underlying assets and strategies represented by `uint256` type.
 
 ### allocate\(\)
 
@@ -80,7 +80,7 @@ Returns total value of underlying assets and strategies.
 
 **`function checkBalance(address _asset)`**
 
-Returns the balance of an asset specified by the`_asset` parameter held in Vault and all strategies of `uint256` type.
+Returns the balance of an asset specified by the`_asset` parameter held in Vault and all strategies represented by `uint256` type.
 
 | Parameter Name | Type | Description |
 | :--- | :--- | :--- |
@@ -110,17 +110,73 @@ The index of an array that is returned by the `calculateRedeemOutputs` correspon
 
 **`function getAssetCount()`**
 
-Return the number of supported stablecoin assets of `uint256` type.
+Return the number of supported stablecoin assets represented by `uint256` type.
 
 ### getAllAssets\(\)
 
 **`function getAllAssets()`**
 
-Return all assets addresses of supported stablecoin assets in order of `uint256` type.
+Return all assets addresses of supported stablecoin assets in order represented by `uint256` type.
 
 ### getStrategyCount\(\)
 
 **`function getStrategyCount()`**
 
-Return the number of strategies active on the Vault of uint.
+Return the number of strategies active on the Vault represented by `uint256` type.
+
+### getAPR\(\)
+
+**`function getAPR()`**
+
+Return the total annual percentage yield \(APR\) ****of the Vault and all Strategies represented by `uint256` type. Resulting number has 18 decimal spaces.
+
+### isSupportedAsset\(\)
+
+**`function isSupportedAsset(address _asset)`**
+
+Return the boolean that is true if the asset specified by the `_asset` parameter is supported by the Vault.
+
+| Parameter Name | Type | Description |
+| :--- | :--- | :--- |
+| \_asset | address | Address of the stablecoin  |
+
+### priceUSDMint\(\) <a id="issupportedasset"></a>
+
+**`function priceUSDMint(string symbol)`**‌
+
+Returns the exchange rate price of a stable coin specified by the `symbol` parameters used when minting OUSD represented by `uint256` type. Resulting number has 18 decimal spaces.
+
+| Parameter Name | Type | Description |
+| :--- | :--- | :--- |
+| symbol | string | Symbol of the stablecoin |
+
+### priceUSDRedeem\(\) <a id="issupportedasset"></a>
+
+**`function priceUSDRedeem(string symbol)`**‌
+
+Returns the exchange rate price of a stable coin specified by the `symbol` parameters used when redeeming OUSD represented by `uint256` type. Resulting number has 18 decimal spaces.
+
+| Parameter Name | Type | Description |
+| :--- | :--- | :--- |
+| symbol | string | Symbol of the stablecoin |
+
+### priceAssetUSDMint\(\)‌ <a id="issupportedasset"></a>
+
+**`function priceAssetUSDMint(address _asset)`**‌
+
+Returns the exchange rate price of a stable coin specified by the `_asset` parameters used when minting OUSD represented by `uint256` type. Resulting number has 18 decimal spaces.
+
+| Parameter Name | Type | Description |
+| :--- | :--- | :--- |
+| \_asset | address | Address of the stablecoin |
+
+### priceAssetUSDRedeem\(\)‌ <a id="issupportedasset-3"></a>
+
+**`function priceAssetUSDRedeem(address _asset)`**‌‌
+
+Returns the exchange rate price of a stable coin specified by the `_asset` parameters used when redeeming OUSD represented by `uint256` type. Resulting number has 18 decimal spaces.
+
+| Parameter Name | Type | Description |
+| :--- | :--- | :--- |
+| \_asset | address | Address of the stablecoin |
 
