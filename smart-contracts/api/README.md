@@ -1,4 +1,4 @@
-# Api
+# API
 
 Documentation of contracts API used by the protocol: 
 
