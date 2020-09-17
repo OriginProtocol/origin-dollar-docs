@@ -139,9 +139,9 @@ The following oracles are used to fetch or compute a price for **USDT/USD:**
 
 | O**racle** | Pair | Contract |
 | :--- | :--- | :--- |
-
-
-\| Chainlink \| USDT/ETH \| 0xa874fe207DF445ff19E7482C746C4D3fD0CB9AcE \| \| Uniswap v2 \| USDT/ETH \| 0x0d4a11d5eeaac28ec3f61d100daf4d40471f1852 \| \| Open Price Feed \| USDC/USD \| 0xc629c26dced4277419cde234012f8160a0278a79 \|
+| Chainlink | USDT/ETH | 0xa874fe207DF445ff19E7482C746C4D3fD0CB9AcE |
+| Uniswap v2 | USDT/ETH | 0x0d4a11d5eeaac28ec3f61d100daf4d40471f1852 |
+| Open Price Feed | USDC/USD | 0xc629c26dced4277419cde234012f8160a0278a79 |
 {% endtab %}
 
 {% tab title="USDC/USD" %}
