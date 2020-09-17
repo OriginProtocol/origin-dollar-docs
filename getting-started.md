@@ -20,7 +20,7 @@ If you are a wallet provider or crypto exchange that is interested in supporting
 
 {% page-ref page="architecture/erc-20.md" %}
 
-{% page-ref page="smart-contracts/api.md" %}
+{% page-ref page="smart-contracts/api/" %}
 
 **Getting Help**
 
