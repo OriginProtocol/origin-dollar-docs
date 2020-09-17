@@ -112,7 +112,7 @@ OUSD fetches the price from multiple on-chain oracles and uses the exchange rate
 
 In order to prevent malicious attacks and to encourage long-term investors over short-term speculators, the OUSD contract compares price feeds from multiple sources and will use whichever exchange rate benefits the entire pool over the individual. This mechanism protects the pool's funds from arbitrageurs and prevents any individual from being able to take advantage of any temporary inefficiencies caused by mispriced oracles to deplete the shared pool of assets.
 
-This protects the funds in the pool while rewarding long-term holders. Since the safest price depends on the direction of the trade, the Origin oracle exposes both a `mintPrice()` and a `redeemPrice()`. The rebasing function utilizes the `mintPrice()` for consistency.
+This protects the funds in the pool while rewarding long-term holders. Since the safest price depends on the direction of the trade, the Origin oracle exposes both a `priceUSDMint()` and a `priceUSDRedeem()`. The rebasing function utilizes the `priceUSDMint()` for consistency.
 
 Here is the initial set of oracles that are being used by OUSD:
 
