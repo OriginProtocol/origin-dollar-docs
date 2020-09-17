@@ -16,9 +16,9 @@ Users convert their existing stablecoins \(currently USDT, USDC, and DAI\) to OU
 
 **Redeeming OUSD**
 
-Users can convert their OUSD back into other stablecoins at any time using the [Origin Dollar DApp](www.ousd.com). A 0.5% exit fee is charged upon redemption and is distributed in the form of additional yield to the remaining participants in the pool. The fee serves as a security feature to make it difficult for attackers to take advantage of lagging oracles, preventing them from draining the pool of stablecoins in the event of  mispricings of of the underlying assets. The fee exists to incentivize long-term holders over short-term speculators.
+Users can convert their OUSD back into other stablecoins at any time using the [Origin Dollar DApp](www.ousd.com). A 0.5% exit fee is charged upon redemption and is distributed as additional yield to the remaining participants in the pool. The fee serves as a security feature to make it difficult for attackers to take advantage of lagging oracles, preventing them from syphoning stablecoins from the pool in the event of mispricings of of the underlying assets. The fee exists to incentivize long-term holders over short-term speculators.
 
-Upon redemption, the smart contract will determine which stablecoin\(s\) to return to the user. Internally, the pool will attempt to maintain equal parts of each supported stablecoin and will liquidate whichever coin is in surplus. This lack of user optionality also protects the pool in the event that any of the supported stablecoins loses its peg to the dollar.
+Upon redemption, the smart contract will determine which stablecoin\(s\) to return to the user. In the current implementation, the pool will return coins in the same ratio as the current holdings. This lack of user optionality also protects the pool as a whole in the event that any of the supported stablecoins loses its peg to the dollar.
 
 {% hint style="warning" %}
 There is a **0.5% exit fee** and you don't get to pick which stablecoins you will receive

@@ -14,7 +14,7 @@ OUSD is using a slightly modified version of the [Compound Timelock](https://com
 
 1. OUSD will initially use a shorter wait period \(48 hours\) than Compound \(72 hours\) to allow for a faster response if any issues are discovered. 
 2. Once the 48 hours have passed, anyone is free to execute the call, not just the owner of the contract.
-3. Deposits \(but not withdrawals\) can be immediately frozen without requiring the 48 waiting period. This is in case a major vulnerability is discovered. 
+3. Deposits \(but not withdrawals or transfers\) can be immediately frozen without requiring the 48 waiting period. This is in case a major vulnerability is discovered.
 
 
 
