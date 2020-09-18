@@ -46,7 +46,6 @@
 * [Registry](smart-contracts/registry.md)
 * [API](smart-contracts/api/README.md)
   * [Vault](smart-contracts/api/vault.md)
-* [Gas Costs](smart-contracts/gas-costs.md)
 
 ## Security & Risks
 
