@@ -2,7 +2,7 @@
 
 Here is the full registry of OUSD smart contracts that have been deployed to the Ethereum mainnet.
 
-{% hint style="info" %}
+{% hint style="success" %}
 The main ERC20 address for Origin Dollar \(OUSD\) is:   
 **0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86**
 {% endhint %}
