@@ -12,6 +12,15 @@ For small amounts, the easiest way to start earning with OUSD is to buy it on a 
 
 In addition, we anticipate that OUSD will soon be widely available on additional decentralized and centralized exchanges.
 
+**Adding OUSD to Your Wallet**
+
+{% hint style="info" %}
+The main ERC20 address for Origin Dollar \(OUSD\) is:   
+**0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86**
+{% endhint %}
+
+If your OUSD does not automatically show up in your wallet, you should be able to add it manually using the address above. We want to have OUSD supported by as many wallets as possible and included on all the various lists of well-known tokens. We would greatly appreciate any help you can offer in this area. 
+
 **Integrating OUSD**
 
 OUSD is a non-standard ERC-20 token that requires custom integration work for most applications that wish to support it. In particular, it is important for developers to understand how our elastic supply works as this can easily cause unexpected behavior.
