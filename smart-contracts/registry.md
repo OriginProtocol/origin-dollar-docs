@@ -1,10 +1,15 @@
 # Registry
 
-Here is the list of OUSD smart contracts that have been deployed on the Ethereum mainnet:
+Here is the full registry of OUSD smart contracts that have been deployed to the Ethereum mainnet.
+
+{% hint style="info" %}
+The main ERC20 address for Origin Dollar \(OUSD\) is:   
+**0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86**
+{% endhint %}
 
 {% tabs %}
 {% tab title="Core" %}
-Well-known addresses \(proxy wrappers\):
+Well-known addresses \(often proxy wrappers\):
 
 | Contract | Address | ENS |
 | :--- | :--- | :--- |
@@ -21,7 +26,7 @@ Internal implementation contracts:
 | OUSD | [0x3c09b440F9E46c0e4A665539Aeca80FCAA92c36e](https://etherscan.io/address/0x3c09b440F9E46c0e4A665539Aeca80FCAA92c36e) |
 | Vault | [0x2BEdB429F94040Ea4D150e9cBa39B23eA362B1bd](https://etherscan.io/address/0x2BEdB429F94040Ea4D150e9cBa39B23eA362B1bd) |
 | Chainlink Oracle | [0x8DE3Ac42F800a1186b6D70CB91e0D6876cC36759](https://etherscan.io/address/0x8DE3Ac42F800a1186b6D70CB91e0D6876cC36759) |
-| OpenUniswapOracle | [0xa8f14F558aC70F5f52C37cD96d802ef9210023C5](https://etherscan.io/address/0xa8f14F558aC70F5f52C37cD96d802ef9210023C5) |
+| Open Uniswap Oracle | [0xa8f14F558aC70F5f52C37cD96d802ef9210023C5](https://etherscan.io/address/0xa8f14F558aC70F5f52C37cD96d802ef9210023C5) |
 {% endtab %}
 
 {% tab title="Strategies" %}
