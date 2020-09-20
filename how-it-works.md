@@ -4,7 +4,7 @@
 
 Origin Dollar \(OUSD\) is a non-standard ERC-20 token for the Ethereum network. 
 
-OUSD is a stable currency that is backed 1:1 by other proven stablecoins like USDT, USDC and DAI. As a result, 1 OUSD should always be very close to 1 USD in value.
+OUSD is a stable currency that is backed 1:1 by other stablecoins like USDT, USDC and DAI. As a result, 1 OUSD should always be very close to 1 USD in value.
 
 {% hint style="success" %}
 1 OUSD = 1 USD 
@@ -21,7 +21,7 @@ Users can convert their OUSD back into other stablecoins at any time using the [
 Upon redemption, the smart contract will determine which stablecoin\(s\) to return to the user. In the current implementation, the pool will return coins in the same ratio as the current holdings. This lack of user optionality also protects the pool as a whole in the event that any of the supported stablecoins loses its peg to the dollar.
 
 {% hint style="warning" %}
-There is a **0.5% exit fee** and you don't get to pick which stablecoins you will receive
+There is a **0.5% exit fee** and the user doesn't get to pick which stablecoins they receive.
 {% endhint %}
 
 #### A**utomated Yield Farming**
