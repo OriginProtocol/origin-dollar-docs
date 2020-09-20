@@ -33,22 +33,16 @@
 * [Principles](governance/governance.md)
 * [Admin Privileges](governance/admin-privileges.md)
 
-## Architecture
-
-* [Overview](architecture/erc-20.md)
-* [ERC-20](architecture/erc-20-1.md)
-* [Vault](architecture/vault.md)
-* [Strategies](architecture/strategies.md)
-* [Timelock](architecture/timelock.md)
-
 ## Smart Contracts
 
+* [Architecture](smart-contracts/erc-20.md)
 * [Registry](smart-contracts/registry.md)
 * [API](smart-contracts/api/README.md)
   * [Vault](smart-contracts/api/vault.md)
-  * [OUSD](smart-contracts/api/ousd.md)
-  * [Timelock](smart-contracts/api/timelock.md)
-  * [Oracle](smart-contracts/api/oracle.md)
+  * [ERC-20](smart-contracts/api/erc-20-1.md)
+  * [Timelock](smart-contracts/api/timelock-1.md)
+  * [Oracles](smart-contracts/api/oracle.md)
+  * [Strategies](smart-contracts/api/strategies.md)
 
 ## Security & Risks
 

@@ -12,7 +12,7 @@ Decentralization will progress across four phases rapidly over the next few mont
 
 **Timelock**
 
-Prior to full decentralized governance, we will implement a [timelock](../architecture/timelock.md) in front of all admin function calls, giving OUSD users time \(48 hours\) to withdraw their funds if they have objections to our proposed upgrades. This timelock will be added shortly after launch.
+Prior to full decentralized governance, we will implement a [timelock](../smart-contracts/api/timelock-1.md) in front of all admin function calls, giving OUSD users time \(48 hours\) to withdraw their funds if they have objections to our proposed upgrades. This timelock will be added shortly after launch.
 
 **New and Existing Stakeholders**
 
