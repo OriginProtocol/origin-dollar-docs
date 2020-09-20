@@ -46,6 +46,9 @@
 * [Registry](smart-contracts/registry.md)
 * [API](smart-contracts/api/README.md)
   * [Vault](smart-contracts/api/vault.md)
+  * [OUSD](smart-contracts/api/ousd.md)
+  * [Timelock](smart-contracts/api/timelock.md)
+  * [Oracle](smart-contracts/api/oracle.md)
 
 ## Security & Risks
 
