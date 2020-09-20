@@ -120,6 +120,8 @@ Here is the initial set of oracles that are being used by OUSD:
 
 {% embed url="https://feeds.chain.link/eth-usd" caption="" %}
 
+The following oracles have been implemented, but are not currently being used due to gas costs:
+
 {% embed url="https://uniswap.org/docs/v2/core-concepts/oracles/" caption="" %}
 
 {% tabs %}
@@ -131,7 +133,7 @@ The following oracles are used to fetch or compute a price for **DAI/USD:**
 | Open Price Feed | DAI/USD | 0xc629c26dced4277419cde234012f8160a0278a79 |
 | Chainlink | DAI/USD | 0xa7D38FBD325a6467894A13EeFD977aFE558bC1f0 |
 | Chainlink | DAI/ETH | 0x037E8F2125bF532F3e228991e051c8A7253B642c |
-| Uniswap v2 | DAI/ETH | 0xA478c2975Ab1Ea89e8196811F51A7B7Ade33eB11 |
+| _Uniswap v2_ | _DAI/ETH_ | _0xA478c2975Ab1Ea89e8196811F51A7B7Ade33eB11_ |
 {% endtab %}
 
 {% tab title="USDT/USD" %}
@@ -140,8 +142,8 @@ The following oracles are used to fetch or compute a price for **USDT/USD:**
 | O**racle** | Pair | Contract |
 | :--- | :--- | :--- |
 | Chainlink | USDT/ETH | 0xa874fe207DF445ff19E7482C746C4D3fD0CB9AcE |
-| Uniswap v2 | USDT/ETH | 0x0d4a11d5eeaac28ec3f61d100daf4d40471f1852 |
 | Open Price Feed | USDC/USD | 0xc629c26dced4277419cde234012f8160a0278a79 |
+| _Uniswap v2_ | _USDT/ETH_ | _0x0d4a11d5eeaac28ec3f61d100daf4d40471f1852_ |
 {% endtab %}
 
 {% tab title="USDC/USD" %}
@@ -150,12 +152,12 @@ The following oracles are used to fetch or compute a price for **USDC/USD:**
 | O**racle** | Pair | Contract |
 | :--- | :--- | :--- |
 | Chainlink | USDC/ETH | 0xdE54467873c3BCAA76421061036053e371721708 |
-| Uniswap v2 | USDC/ETH | 0xb4e16d0168e52d35cacd2c6185b44281ec28c9dc |
 | Open Price Feed | USDC/USD | 0xc629c26dced4277419cde234012f8160a0278a79 |
+| _Uniswap v2_ | _USDC/ETH_ | _0xb4e16d0168e52d35cacd2c6185b44281ec28c9dc_ |
 {% endtab %}
 
 {% tab title="ETH/USD" %}
-Since not all oracles have direct USD pairs, the protocol also fetches the prices for **ETH/USD** in order to calculate USD prices using ETH. Again, to be safe, the protocol chooses the most advantgeous for the fund instead of the individual.
+Since not all oracles have direct USD pairs, the protocol also fetches the prices for **ETH/USD** in order to calculate USD prices using ETH. Again, to be safe, the protocol chooses the most advantageous for the fund instead of the individual.
 
 | Oracle | Pair | Contract |
 | :--- | :--- | :--- |
