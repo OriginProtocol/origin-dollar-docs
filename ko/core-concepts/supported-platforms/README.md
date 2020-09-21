@@ -26,7 +26,7 @@ OUSD generates yield by depositing stablecoins into lending platforms and market
 
 Although DeFi has grown very quickly and there are now billions of dollars worth of value deposited on these platforms, several of these projects are still in beta and are highly experimental. There may be hidden vulnerabilities in the smart contracts that power these platforms, and there have been multi-million dollar losses caused by vulnerabilities in Ethereum applications in the past.
 
-We closely monitor security events on the platforms we support and will immediately move to secure OUSD holder funds if we identify any threats.
+오리진은 지원되는 플랫폼 상에서 보안 이벤트들을 면밀히 모니터링 할 것입니다. 또한, 위협이 식별되면 즉시 OUSD 보유자 자금을 안전하게 확보 할 것입니다.
 
 
 
