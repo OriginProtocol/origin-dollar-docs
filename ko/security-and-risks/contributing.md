@@ -56,7 +56,7 @@ We want to keep the Origin community awesome, growing and collaborative. We need
 
 If you find bugs, mistakes or inconsistencies in Origin’s code or documents, please let us know by filing a GitHub issue. No issue is too small. Help us fix our tpyos!
 
-#### Security Issues
+#### 보안 이슈
 
 OUSD is still in early development, which means there may be problems with the protocol or in our implementations. We take security vulnerabilities very seriously. If you discover a security issue, please bring it to our attention right away!
 
@@ -64,7 +64,7 @@ If you find a security vulnerability please send your report privately to [secur
 
 {% page-ref page="asset-risk.md" %}
 
-#### **Community Improvement**
+#### **커뮤니티 개선**
 
 Origin is just as much about community as it is about our technology.
 
