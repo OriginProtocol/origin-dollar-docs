@@ -42,7 +42,7 @@ OUSD specified by the `_amount` parameter is redeemed in exchange for one or mul
 | \_amount | uint256 | amount of OUSD expressed in decimal units |
 
 {% hint style="warning" %}
-On redemptions, it is the protocol and not the user that decides which stablecoin\(s\) are returned to the user. This decision of which coin\(s\) to return is based on the internal ratios of the assets that are being held in the pool.‌
+On redemptions, it is the protocol and not the user that decides which stablecoin\(s\) are returned to the user. This decision of which coin\(s\) to return is based on the internal ratios of the assets that are being held in the vault.‌
 {% endhint %}
 
 ### redeemAll\(\)‌ <a id="redeemall"></a>
@@ -52,14 +52,14 @@ On redemptions, it is the protocol and not the user that decides which stablecoi
 All OUSD in user's possession is redeemed in exchange for one or multiple supported stablecoins. Amount of stablecoins received depends on the **exchange rate**.
 
 {% hint style="warning" %}
-On redemptions, it is the protocol and not the user that decides which stablecoin\(s\) are returned to the user. This decision of which coin\(s\) to return is based on the internal ratios of the assets that are being held in the pool.‌
+On redemptions, it is the protocol and not the user that decides which stablecoin\(s\) are returned to the user. This decision of which coin\(s\) to return is based on the internal ratios of the assets that are being held in the vault.‌
 {% endhint %}
 
 ### rebase\(\) <a id="rebase"></a>
 
 **`function rebase()`**‌
 
-Updates the balances for all users based on the value of the assets currently stored in the pool. Returns total value of the underlying assets and strategies represented by `uint256` type.‌
+Updates the balances for all users based on the value of the assets currently stored in the vault. Returns total value of the underlying assets and strategies represented by `uint256` type.‌
 
 ### allocate\(\) <a id="allocate"></a>
 
