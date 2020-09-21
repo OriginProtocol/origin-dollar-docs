@@ -26,7 +26,7 @@
 * [자금 관리](core-concepts/fund-management/README.md)
   * [수익 전략](core-concepts/fund-management/earning-strategies.md)
   * [다각화](core-concepts/fund-management/diversification.md)
-* [가격 오라클(Oracle)](core-concepts/price-oracles.md)
+* [가격 오라클](core-concepts/price-oracles.md)
 
 ## 거버넌스(Governance)
 
