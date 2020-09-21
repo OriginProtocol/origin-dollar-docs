@@ -7,11 +7,11 @@
 ## 핵심 개념
 
 * [공급 탄력성](core-concepts/elastic-supply.md)
-* [수율 창출](core-concepts/yield-generation/README.md)
+* [이자 생산](core-concepts/yield-generation/README.md)
   * [대출](core-concepts/yield-generation/lending.md)
   * [마켓메이킹](core-concepts/yield-generation/market-making.md)
-  * [리워드](core-concepts/yield-generation/rewards.md)
-* [지원되는 스테이블코인](core-concepts/supported-assets/README.md)
+  * [보상](core-concepts/yield-generation/rewards.md)
+* [지원되는 스테이블 코인](core-concepts/supported-assets/README.md)
   * [USDT](core-concepts/supported-assets/usdt.md)
   * [USDC](core-concepts/supported-assets/usdc.md)
   * [DAI](core-concepts/supported-assets/dai.md)
