@@ -1,8 +1,9 @@
 "project_id": "420042"
-"api_token": "f52c96a70cb219519c775303ddb24c28"
+"api_token": "ad99f27b53a180c580e74e40a639790544762b5d6d05a03236360ce03b2cba838985d6674c37717c"
 
 "files": [
   {
     "source": "**/*.md",
     "translation": "/%two_letters_code%/%original_path%/%original_file_name%"
+  }
 ]
