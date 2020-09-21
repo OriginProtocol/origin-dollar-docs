@@ -1,9 +1,7 @@
-# Balancer
-
-![](../../.gitbook/assets/balancer.png)
+# 밸런서(Balancer)
 
 {% hint style="info" %}
-Coming soon. Balancer has not yet been integrated.
+곧 출시 예정. 밸런서(Balancer) 는 아직 통합되지 않았습니다.
 {% endhint %}
 
 Balancer is a decentralized liquidity protocol and exchange on Ethereum, launched in March 2020. Users can swap ERC-20 tokens for a fee or contribute tokens to liquidity pools to earn fees.
@@ -20,10 +18,10 @@ Trading volumes on Balancer are often over $25 million daily. Balancer has a Tot
 
 Balancer has undergone a security audit by Trail of Bits and has a bug bounty program. However, Balancer has suffered a major exploit in June 2020.
 
-| Resources |  |
-| :--- | :--- |
-| Official site | [https://balancer.finance/](https://balancer.finance/) |
-| Developer docs | [https://docs.balancer.finance/](https://docs.balancer.finance/) |
-| GitHub | [https://github.com/balancer-labs](https://github.com/balancer-labs) |
-| Discord | [https://discord.gg/ARJWaeF](https://discord.gg/ARJWaeF) |
+| 리소스           |                                                                      |
+|:------------- |:-------------------------------------------------------------------- |
+| 공식 사이트        | [https://balancer.finance/](https://balancer.finance/)               |
+| 개발자 문서        | [https://docs.balancer.finance/](https://docs.balancer.finance/)     |
+| 깃허브(Github)   | [https://github.com/balancer-labs](https://github.com/balancer-labs) |
+| 디스코드(Discord) | [https://discord.gg/ARJWaeF](https://discord.gg/ARJWaeF)             |
 

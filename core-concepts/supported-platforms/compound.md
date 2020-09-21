@@ -1,6 +1,4 @@
-# Compound
-
-![](../../.gitbook/assets/compound.png)
+# 컴파운드(Compound)
 
 Compound is a lending protocol and platform built on Ethereum and launched in September 2018. Users can earn compounding interest on or borrow assets against collateral. Each supported asset is aggregated in its own liquidity pool and interest rates are adjusted automatically based on supply and demand.
 
@@ -10,12 +8,12 @@ Compound is governed by COMP, an ERC-20 governance token. COMP holders can propo
 
 Compound's total value locked \(TVL\) has quickly grown to nearly $800 million, making it one of the largest DeFi protocols. COMP has a circulating market cap of over $500 million.
 
-Compound has undergone multiple security audits by OpenZeppelin and Trail of Bits. The Compound protocol was formally verified by Certora and has undergone economic stress testing by Gauntlet. Compound maintains a bug bounty program.
+Compound has undergone multiple security audits by OpenZeppelin and Trail of Bits. The Compound protocol was formally verified by CertiK and has undergone economic stress testing by Gauntlet. Compound maintains a bug bounty program.
 
-| Resources |  |
-| :--- | :--- |
-| Official site | [https://compound.finance/](https://compound.finance/) |
-| Developer docs | [https://compound.finance/docs](https://compound.finance/docs) |
-| GitHub | [https://github.com/compound-finance/compound-protocol](https://github.com/compound-finance/compound-protocol) |
-| Discord | [https://discord.com/invite/cU7vmVW](https://discord.com/invite/cU7vmVW) |
+| 리소스           |                                                                                                                |
+|:------------- |:-------------------------------------------------------------------------------------------------------------- |
+| 공식 사이트        | [https://compound.finance/](https://compound.finance/)                                                         |
+| 개발자 문서        | [https://compound.finance/docs](https://compound.finance/docs)                                                 |
+| 깃허브(Github)   | [https://github.com/compound-finance/compound-protocol](https://github.com/compound-finance/compound-protocol) |
+| 디스코드(Discord) | [https://discord.com/invite/cU7vmVW](https://discord.com/invite/cU7vmVW)                                       |
 

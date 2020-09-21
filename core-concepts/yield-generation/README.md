@@ -2,9 +2,13 @@
 
 **Automated Yield Farming**
 
-[Yearn](https://yearn.finance/) is a recent example of how lending interest & market making fees can be combined with bonus rewards to maximize yield while automatically rebalancing the fund as earning opportunities change over time. 
+While the Cambrian explosion of new lending and automated market maker pools has fueled total value locked \(TVL\), it has also made it increasingly challenging for yield farmers to manually allocate capital in efficient and optimal ways.
 
-There are 3 ways that OUSD generates a yield: 
+[Yearn](https://yearn.finance/) has demonstrated that smart contracts can automate the rebalancing of funds across various strategies to optimally earn lending interest, market making fees, and rewards tokens. The first version of OUSD will employ a simple Compound strategy, but new strategies will be deployed every month that maximize returns while minimizing risk and dependencies.
+
+![](../../.gitbook/assets/ousd_docs_graphics_1.png)
+
+Effectively, there are 3 ways that OUSD generates yield:
 
 {% page-ref page="lending.md" %}
 
