@@ -1,4 +1,4 @@
-# Admin Privileges
+# 관리자 권한
 
 The OUSD smart contracts are designed to be owner upgradable.
 

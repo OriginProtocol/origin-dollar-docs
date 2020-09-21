@@ -1,4 +1,4 @@
-# Principles
+# 원리
 
 **Progressive Decentralization**
 
@@ -12,15 +12,13 @@ Decentralization will progress across four phases rapidly over the next few mont
 
 **Timelock**
 
-Prior to full decentralized governance, we will implement a [timelock](../smart-contracts/api/timelock-1.md) in front of all admin function calls, giving OUSD users time \(48 hours\) to withdraw their funds if they have objections to our proposed upgrades. This timelock will be added shortly after launch.
+Prior to full decentralized governance, we will implement a [timelock](../undefined-1/api/timelock-1.md) in front of all admin function calls, giving OUSD users time \(48 hours\) to withdraw their funds if they have objections to our proposed upgrades. This timelock will be added shortly after launch.
 
 **New and Existing Stakeholders**
 
-OUSD is a new project founded by Origin Protocol [team](www.originprotocol.com/team) and will be supported by the existing Origin community as well as many new stakeholders that choose to mint, hold, use, and provide liquidity for OUSD.
+OUSD is a new project founded by Origin Protocol [team](https://github.com/oplabs/origin-dollar-docs/tree/fcbb45ee8da4bb026f7706157523003e0a849df4/governance/www.originprotocol.com/team/README.md) and will be supported by the existing Origin community as well as many new stakeholders that choose to mint, hold, use, and provide liquidity for OUSD.
 
 In addition, we also want to ensure high participation from our existing Origin Token \(OGN\) holders, community of close to 500,000 members, and buyers/sellers on the Platform. Existing OGN holders will be able to stake their OGN to participate in governance and earn incentives for driving value to OUSD. More details will be provided in the near future.
 
 The strong connection between OUSD and the rest of the Origin commerce platform will fuel growth in both initiatives.
-
-
 
