@@ -1,7 +1,7 @@
-# Uniswap
+# 유니스왑(Uniswap)
 
 {% hint style="info" %}
-Coming soon. Uniswap has not yet been integrated.
+곧 출시 예정. 유니스왑(Uniswap) 은 아직 통합되지 않았습니다.
 {% endhint %}
 
 Uniswap is a decentralized liquidity protocol and exchange on Ethereum, launched in November 2018. Uniswap v2 launched in May 2020. Users can swap ERC-20 tokens for a fee or contribute tokens to liquidity pools to earn fees.
@@ -16,12 +16,12 @@ Token issuers seeking to improve liquidity of their token have offered incentive
 
 Trading volumes on Uniswap now eclipse that of many traditional exchanges and regularly surpass $200 million daily. Uniswap has over $170 million in Total Value Locked \(TVL\) by liquidity providers. Uniswap does not have a native platform or governance token.
 
-Uniswap has had its smart contracts audited and formally verfied by dapp.org. Uniswap maintains a bug bounty program.
+유니스왑은 dapp.org에서 감사하고, 공식적으로 검증한 스마트 컨트렉트를 가지고 있습니다. 유니스왑은 버그 현상금 프로그램을 운영합니다.
 
-| Resources      |                                                                          |
-|:-------------- |:------------------------------------------------------------------------ |
-| Official site  | [https://uniswap.org/](https://uniswap.org/)                             |
-| Developer docs | [https://uniswap.org/docs/v2](https://uniswap.org/docs/v2)               |
-| GitHub         | [https://github.com/Uniswap](https://github.com/Uniswap)                 |
-| Discord        | [https://discord.com/invite/EwFs3Pp](https://discord.com/invite/EwFs3Pp) |
+| 리소스           |                                                                          |
+|:------------- |:------------------------------------------------------------------------ |
+| 공식 사이트        | [https://uniswap.org/](https://uniswap.org/)                             |
+| 개발자 문서        | [https://uniswap.org/docs/v2](https://uniswap.org/docs/v2)               |
+| 깃허브(Github)   | [https://github.com/Uniswap](https://github.com/Uniswap)                 |
+| 디스코드(Discord) | [https://discord.com/invite/EwFs3Pp](https://discord.com/invite/EwFs3Pp) |
 
