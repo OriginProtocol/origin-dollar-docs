@@ -1,14 +1,14 @@
-# Supported Platforms
+# 지원되는 플랫폼
 
-**Supported Platforms**
+**지원되는 플랫폼**
 
 OUSD generates yield by depositing stablecoins into lending platforms and market maker liquidity pools. It is important to understand that these platforms do carry technological risk and funds can be lost if there is a major security event. We are choosing to work with the platforms that have had their smart contracts audited and that we feel are most secure.
 
-Currently, we plan to earn yields from the following platforms:
+현재 이자를 생산하기 위해 다음의 플랫폼들을 활용할 계획입니다:
 
 {% page-ref page="compound.md" %}
 
-Integrations are currently planned for the following platforms:
+현재 다음 플랫폼에 대해 통합이 계획되어 있습니다:
 
 {% page-ref page="yearn.finance.md" %}
 
