@@ -38,7 +38,7 @@
 * [아키텍처(Architecture)](smart-contracts/erc-20.md)
 * [레지스트리(Registry)](smart-contracts/registry.md)
 * [API](smart-contracts/api/README.md)
-  * [볼트(Vault)](smart-contracts/api/vault.md)
+  * [금고(Vault)](smart-contracts/api/vault.md)
   * [ERC-20](smart-contracts/api/erc-20-1.md)
   * [시간자물쇠(Timelock)](smart-contracts/api/timelock-1.md)
   * [오라클](smart-contracts/api/oracle.md)
