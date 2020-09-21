@@ -14,12 +14,12 @@ dYdX has around $40 million in total value locked \(TVL\) at the time of this wr
 
 dYdX has undergone security audits by OpenZeppelin and Bramah Systems.
 
-| Resources |  |
-| :--- | :--- |
-| Official site | [https://dydx.exchange/](https://dydx.exchange/) |
-| Developer docs | [https://docs.dydx.exchange/](https://docs.dydx.exchange/) |
-| GitHub | [https://github.com/dydxprotocol/](https://github.com/dydxprotocol/) |
-| Discord | [https://discord.gg/yah42Rb](https://discord.gg/yah42Rb) |
+| Resources      |                                                                      |
+|:-------------- |:-------------------------------------------------------------------- |
+| Official site  | [https://dydx.exchange/](https://dydx.exchange/)                     |
+| Developer docs | [https://docs.dydx.exchange/](https://docs.dydx.exchange/)           |
+| GitHub         | [https://github.com/dydxprotocol/](https://github.com/dydxprotocol/) |
+| Discord        | [https://discord.gg/yah42Rb](https://discord.gg/yah42Rb)             |
 
 
 

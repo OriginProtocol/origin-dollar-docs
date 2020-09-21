@@ -16,10 +16,10 @@ Trading volumes on Curve are often over $50 million daily. Curve has a Total Val
 
 Curve has undergone two audits by Trail of Bits and maintains a bug bounty program.
 
-| Resources |  |
-| :--- | :--- |
-| Official site | [https://uniswap.org/](https://uniswap.org/) |
-| Developer docs | [https://uniswap.org/docs/v2](https://uniswap.org/docs/v2) |
-| GitHub | [https://github.com/Uniswap](https://github.com/Uniswap) |
-| Discord | [https://discord.com/invite/EwFs3Pp](https://discord.com/invite/EwFs3Pp) |
+| Resources      |                                                                          |
+|:-------------- |:------------------------------------------------------------------------ |
+| Official site  | [https://uniswap.org/](https://uniswap.org/)                             |
+| Developer docs | [https://uniswap.org/docs/v2](https://uniswap.org/docs/v2)               |
+| GitHub         | [https://github.com/Uniswap](https://github.com/Uniswap)                 |
+| Discord        | [https://discord.com/invite/EwFs3Pp](https://discord.com/invite/EwFs3Pp) |
 

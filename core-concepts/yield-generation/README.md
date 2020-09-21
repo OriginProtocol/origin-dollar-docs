@@ -8,7 +8,7 @@ While the Cambrian explosion of new lending and automated market maker pools has
 
 ![](../../.gitbook/assets/ousd_docs_graphics_1.png)
 
-Effectively, there are 3 ways that OUSD generates yield: 
+Effectively, there are 3 ways that OUSD generates yield:
 
 {% page-ref page="lending.md" %}
 

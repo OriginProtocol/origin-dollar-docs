@@ -8,15 +8,15 @@ Each Tether issued into circulation is said to be backed by a one-to-one ratio w
 
 Despite the controversy ****around ****the company's failure to provide a promised audit showing adequate reserves backing tether, USDT is still the world's largest stablecoin by market cap and currently the fourth-largest cryptocurrency after BTC, ETH and XRP.
 
-| Key Facts |  |
-| :--- | :--- |
-| Issued by | Tether Limited |
-| Name | Tether |
-| Symbol | USDT |
-| Address | [0xdac17f958d2ee523a2206206994597c13d831](https://etherscan.io/token/0xdac17f958d2ee523a2206206994597c13d831ec7) |
-| Decimals | 6 |
-| Official site | [https://tether.to/ ](https://tether.to/%20) |
-| Holders | Over 1.8M addresses |
+| Key Facts     |                                                                                                                  |
+|:------------- |:---------------------------------------------------------------------------------------------------------------- |
+| Issued by     | Tether Limited                                                                                                   |
+| Name          | Tether                                                                                                           |
+| Symbol        | USDT                                                                                                             |
+| Address       | [0xdac17f958d2ee523a2206206994597c13d831](https://etherscan.io/token/0xdac17f958d2ee523a2206206994597c13d831ec7) |
+| Decimals      | 6                                                                                                                |
+| Official site | [https://tether.to/ ](https://tether.to/%20)                                                                     |
+| Holders       | Over 1.8M addresses                                                                                              |
 
 
 

@@ -1,17 +1,17 @@
-# Table of contents
+# 目录
 
-* [Introduction](README.md)
-* [How It Works](how-it-works.md)
-* [Getting Started](getting-started.md)
+* [介绍](README.md)
+* [OUSD 如何运作](how-it-works.md)
+* [开始](getting-started.md)
 
-## Core Concepts
+## 核心概念
 
-* [Elastic Supply](core-concepts/elastic-supply.md)
-* [Yield Generation](core-concepts/yield-generation/README.md)
-  * [Lending](core-concepts/yield-generation/lending.md)
-  * [Market Making](core-concepts/yield-generation/market-making.md)
-  * [Rewards](core-concepts/yield-generation/rewards.md)
-* [Supported Stablecoins](core-concepts/supported-assets/README.md)
+* [弹性供应](core-concepts/elastic-supply.md)
+* [产生收益](core-concepts/yield-generation/README.md)
+  * [借贷](core-concepts/yield-generation/lending.md)
+  * [做市](core-concepts/yield-generation/market-making.md)
+  * [奖励](core-concepts/yield-generation/rewards.md)
+* [支持的稳定币](core-concepts/supported-assets/README.md)
   * [USDT](core-concepts/supported-assets/usdt.md)
   * [USDC](core-concepts/supported-assets/usdc.md)
   * [DAI](core-concepts/supported-assets/dai.md)
@@ -23,15 +23,15 @@
   * [Curve](core-concepts/supported-strategies/curve.md)
   * [Balancer](core-concepts/supported-strategies/balancer.md)
   * [Yearn.finance](core-concepts/supported-strategies/yearn.finance.md)
-* [Fund Management](core-concepts/fund-management/README.md)
-  * [Earning Strategies](core-concepts/fund-management/earning-strategies.md)
-  * [Diversification](core-concepts/fund-management/diversification.md)
-* [Price Oracles](core-concepts/price-oracles.md)
+* [基金管理](core-concepts/fund-management/README.md)
+  * [收益策略](core-concepts/fund-management/earning-strategies.md)
+  * [多样化](core-concepts/fund-management/diversification.md)
+* [价格神谕](core-concepts/price-oracles.md)
 
-## Governance
+## 治理
 
-* [Principles](governance/governance.md)
-* [Admin Privileges](governance/admin-privileges.md)
+* [原则](governance/governance.md)
+* [管理员权限](governance/admin-privileges.md)
 
 ## Smart Contracts
 

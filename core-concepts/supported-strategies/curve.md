@@ -16,10 +16,10 @@ Trading volumes on Curve are often over $50 million daily. Curve has a Total Val
 
 Curve has undergone two audits by Trail of Bits and maintains a bug bounty program.
 
-| Resources |  |
-| :--- | :--- |
-| Official site | [https://www.curve.fi/](https://www.curve.fi/) |
-| Developer docs | [https://www.curve.fi/devdocs](https://www.curve.fi/devdocs) |
-| GitHub | [https://github.com/curvefi](https://github.com/curvefi) |
-| Discord | [https://discord.com/invite/9uEHakc](https://discord.com/invite/9uEHakc) |
+| Resources      |                                                                          |
+|:-------------- |:------------------------------------------------------------------------ |
+| Official site  | [https://www.curve.fi/](https://www.curve.fi/)                           |
+| Developer docs | [https://www.curve.fi/devdocs](https://www.curve.fi/devdocs)             |
+| GitHub         | [https://github.com/curvefi](https://github.com/curvefi)                 |
+| Discord        | [https://discord.com/invite/9uEHakc](https://discord.com/invite/9uEHakc) |
 

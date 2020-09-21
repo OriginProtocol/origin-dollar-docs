@@ -8,15 +8,15 @@ Each USDC is backed by a 1:1 ratio with the equivalent amount of fiat currency h
 
 USDC is the world's second-largest stablecoin after USDT and has quickly grown to over $1 billion in circulation. However, USDC remains far behind USDT's $12+ billion in circulation.
 
-| Key Facts |  |
-| :--- | :--- |
-| Issued by | Centre |
-| Name | USD Coin |
-| Symbol | USDC |
-| Address | [0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48](https://etherscan.io/token/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48) |
-| Decimals | 6 |
-| Official site | [https://www.centre.io/usdc](https://www.centre.io/usdc) |
-| Holders | Over 200k addresses |
+| Key Facts     |                                                                                                                     |
+|:------------- |:------------------------------------------------------------------------------------------------------------------- |
+| Issued by     | Centre                                                                                                              |
+| Name          | USD Coin                                                                                                            |
+| Symbol        | USDC                                                                                                                |
+| Address       | [0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48](https://etherscan.io/token/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48) |
+| Decimals      | 6                                                                                                                   |
+| Official site | [https://www.centre.io/usdc](https://www.centre.io/usdc)                                                            |
+| Holders       | Over 200k addresses                                                                                                 |
 
 
 

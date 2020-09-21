@@ -10,10 +10,10 @@ Compound's total value locked \(TVL\) has quickly grown to nearly $800 million, 
 
 Compound has undergone multiple security audits by OpenZeppelin and Trail of Bits. The Compound protocol was formally verified by CertiK and has undergone economic stress testing by Gauntlet. Compound maintains a bug bounty program.
 
-| Resources |  |
-| :--- | :--- |
-| Official site | [https://compound.finance/](https://compound.finance/) |
-| Developer docs | [https://compound.finance/docs](https://compound.finance/docs) |
-| GitHub | [https://github.com/compound-finance/compound-protocol](https://github.com/compound-finance/compound-protocol) |
-| Discord | [https://discord.com/invite/cU7vmVW](https://discord.com/invite/cU7vmVW) |
+| Resources      |                                                                                                                |
+|:-------------- |:-------------------------------------------------------------------------------------------------------------- |
+| Official site  | [https://compound.finance/](https://compound.finance/)                                                         |
+| Developer docs | [https://compound.finance/docs](https://compound.finance/docs)                                                 |
+| GitHub         | [https://github.com/compound-finance/compound-protocol](https://github.com/compound-finance/compound-protocol) |
+| Discord        | [https://discord.com/invite/cU7vmVW](https://discord.com/invite/cU7vmVW)                                       |
 
