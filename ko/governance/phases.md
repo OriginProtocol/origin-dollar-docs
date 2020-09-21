@@ -1,4 +1,4 @@
-# Phases
+# 단계
 
 Progressive decentralization will follow four phases as outlined below.
 
