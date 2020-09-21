@@ -1,4 +1,4 @@
-# Rewards
+# 奖励
 
 **Collecting Rewards**
 
@@ -9,6 +9,4 @@ While the vault safely stores any unexpected rewards that it receives, custom st
 {% endhint %}
 
 Today, rewards are a significant factor for yield farmers as they represent a large percentage of their returns. We anticipate that the OUSD protocol will be upgraded over time to take advantage of the most attractive yields available across the DeFi landscape. The protocol will factor in the market value of the various rewards being offered when deciding how to best allocate resources.
-
-
 

@@ -18,10 +18,10 @@ Trading volumes on Uniswap now eclipse that of many traditional exchanges and re
 
 Uniswap has had its smart contracts audited and formally verfied by dapp.org. Uniswap maintains a bug bounty program.
 
-| Resources      |                                                                          |
-|:-------------- |:------------------------------------------------------------------------ |
-| Official site  | [https://uniswap.org/](https://uniswap.org/)                             |
-| Developer docs | [https://uniswap.org/docs/v2](https://uniswap.org/docs/v2)               |
-| GitHub         | [https://github.com/Uniswap](https://github.com/Uniswap)                 |
-| Discord        | [https://discord.com/invite/EwFs3Pp](https://discord.com/invite/EwFs3Pp) |
+| Resources |  |
+| :--- | :--- |
+| Official site | [https://uniswap.org/](https://uniswap.org/) |
+| Developer docs | [https://uniswap.org/docs/v2](https://uniswap.org/docs/v2) |
+| GitHub | [https://github.com/Uniswap](https://github.com/Uniswap) |
+| Discord | [https://discord.com/invite/EwFs3Pp](https://discord.com/invite/EwFs3Pp) |
 

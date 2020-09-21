@@ -4,7 +4,7 @@
 
 **铸币或赎回**
 
-OUSD Mint （铸造）允许任何人使用我们的 [DApp](www.ousd.com) 和 Web-3 的加密钱包（如 [Metamask](https://www.metamask.io)）来制造或交易 OUSD 代币。 这是获取 OUSD 的本地方法，尤其是如果您想要带来可能在其他交易所上转移市场的风险的大量的 OUSD 。
+OUSD Mint （铸造）允许任何人使用我们的 [DApp](https://github.com/oplabs/origin-dollar-docs/tree/0c8c4fe1b7fa9ae3c66881983a8cf542864e9cd7/www.ousd.com) 和 Web-3 的加密钱包（如 [Metamask](https://www.metamask.io)）来制造或交易 OUSD 代币。 这是获取 OUSD 的本地方法，尤其是如果您想要带来可能在其他交易所上转移市场的风险的大量的 OUSD 。
 
 **在交易所购买**
 
@@ -15,7 +15,7 @@ In addition, we anticipate that OUSD will soon be widely available on additional
 **Adding OUSD to Your Wallet**
 
 {% hint style="success" %}
-The main ERC20 address for Origin Dollar \(OUSD\) is:   
+The main ERC20 address for Origin Dollar \(OUSD\) is:  
 **0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86**
 {% endhint %}
 
@@ -33,5 +33,5 @@ If you are a wallet provider or crypto exchange that is interested in supporting
 
 **Getting Help**
 
-Please join the Origin Dollar \#engineering room in Origin's [Discord](www.originprotocol.com/discord) server.  Our team and members of our community look forward to helping you build. Your questions help us improve, so please don't hesitate to ask if you can't find what you are looking for here.
+Please join the Origin Dollar \#engineering room in Origin's [Discord](https://github.com/oplabs/origin-dollar-docs/tree/0c8c4fe1b7fa9ae3c66881983a8cf542864e9cd7/www.originprotocol.com/discord/README.md) server. Our team and members of our community look forward to helping you build. Your questions help us improve, so please don't hesitate to ask if you can't find what you are looking for here.
 

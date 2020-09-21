@@ -1,4 +1,4 @@
-# Principles
+# 原则
 
 **Progressive Decentralization**
 
@@ -16,11 +16,9 @@ Prior to full decentralized governance, we will implement a [timelock](../smart-
 
 **New and Existing Stakeholders**
 
-OUSD is a new project founded by Origin Protocol [team](www.originprotocol.com/team) and will be supported by the existing Origin community as well as many new stakeholders that choose to mint, hold, use, and provide liquidity for OUSD.
+OUSD is a new project founded by Origin Protocol [team](https://github.com/oplabs/origin-dollar-docs/tree/0c8c4fe1b7fa9ae3c66881983a8cf542864e9cd7/governance/www.originprotocol.com/team/README.md) and will be supported by the existing Origin community as well as many new stakeholders that choose to mint, hold, use, and provide liquidity for OUSD.
 
 In addition, we also want to ensure high participation from our existing Origin Token \(OGN\) holders, community of close to 500,000 members, and buyers/sellers on the Platform. Existing OGN holders will be able to stake their OGN to participate in governance and earn incentives for driving value to OUSD. More details will be provided in the near future.
 
 The strong connection between OUSD and the rest of the Origin commerce platform will fuel growth in both initiatives.
-
-
 

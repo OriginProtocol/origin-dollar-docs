@@ -18,10 +18,10 @@ Trading volumes on Balancer are often over $25 million daily. Balancer has a Tot
 
 Balancer has undergone a security audit by Trail of Bits and has a bug bounty program. However, Balancer has suffered a major exploit in June 2020.
 
-| Resources      |                                                                      |
-|:-------------- |:-------------------------------------------------------------------- |
-| Official site  | [https://balancer.finance/](https://balancer.finance/)               |
-| Developer docs | [https://docs.balancer.finance/](https://docs.balancer.finance/)     |
-| GitHub         | [https://github.com/balancer-labs](https://github.com/balancer-labs) |
-| Discord        | [https://discord.gg/ARJWaeF](https://discord.gg/ARJWaeF)             |
+| Resources |  |
+| :--- | :--- |
+| Official site | [https://balancer.finance/](https://balancer.finance/) |
+| Developer docs | [https://docs.balancer.finance/](https://docs.balancer.finance/) |
+| GitHub | [https://github.com/balancer-labs](https://github.com/balancer-labs) |
+| Discord | [https://discord.gg/ARJWaeF](https://discord.gg/ARJWaeF) |
 

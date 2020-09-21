@@ -1,4 +1,4 @@
-# Yield Generation
+# 产生收益
 
 **Automated Yield Farming**
 
@@ -15,10 +15,4 @@ Effectively, there are 3 ways that OUSD generates yield:
 {% page-ref page="market-making.md" %}
 
 {% page-ref page="rewards.md" %}
-
-
-
-
-
-
 

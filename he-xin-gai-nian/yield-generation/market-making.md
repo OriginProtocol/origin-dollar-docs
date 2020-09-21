@@ -1,4 +1,4 @@
-# Market Making
+# 做市
 
 **Own your Stake in Decentralized Exchanges**
 
@@ -19,8 +19,4 @@ We intend to integrate directly with at least the following automated market mak
 {% page-ref page="../supported-strategies/curve.md" %}
 
 {% page-ref page="../supported-strategies/balancer.md" %}
-
-
-
-
 

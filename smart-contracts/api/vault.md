@@ -1,6 +1,8 @@
 ---
 description: >-
-  The vault is the main contract of the protocol. The vault is responsible for minting/redeeming OUSD tokens, rebalancing funds between the various supported strategies, and liquidating rewards tokens.
+  The vault is the main contract of the protocol. The vault is responsible for
+  minting/redeeming OUSD tokens, rebalancing funds between the various supported
+  strategies, and liquidating rewards tokens.
 ---
 
 # Vault
@@ -13,10 +15,10 @@ description: >-
 
 Mints OUSD in exchange for a deposit of a certain `_amount` of stablecoin specified by the `_asset` parameter. The caller receives a certain amount of OUSD depending on the **exchange rate**.
 
-| Parameter Name | Type    | Description                                                                                                                                        |
-|:-------------- |:------- |:-------------------------------------------------------------------------------------------------------------------------------------------------- |
-| \_asset      | address | Address of the [supported](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/core-concepts/supported-assets) stablecoin |
-| \_amount     | uint256 | amount deposited, expressed in decimal units                                                                                                       |
+| Parameter Name | Type | Description |
+| :--- | :--- | :--- |
+| \_asset | address | Address of the [supported](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/core-concepts/supported-assets) stablecoin |
+| \_amount | uint256 | amount deposited, expressed in decimal units |
 
 ### mintMultiple\(\) <a id="mintmultiple"></a>
 
@@ -24,10 +26,10 @@ Mints OUSD in exchange for a deposit of a certain `_amount` of stablecoin specif
 
 Mints OUSD in exchange for a deposit of multiple stablecoins in a single call. Stablecoins are specified by the `_assets` array parameter and the amounts by the `_amounts` array parameter. The caller receives a certain amount of OUSD depending on the **exchange rate**.
 
-| Parameter Name | Type          | Description                                                                                                                                           |
-|:-------------- |:------------- |:----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| \_assets     | address\[\] | Addresses of the [supported](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/core-concepts/supported-assets) stablecoins |
-| \_amounts    | uint256\[\] | amounts deposited, expressed in decimal units                                                                                                         |
+| Parameter Name | Type | Description |
+| :--- | :--- | :--- |
+| \_assets | address\[\] | Addresses of the [supported](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/core-concepts/supported-assets) stablecoins |
+| \_amounts | uint256\[\] | amounts deposited, expressed in decimal units |
 
 ### redeem\(\) <a id="redeem"></a>
 
@@ -35,9 +37,9 @@ Mints OUSD in exchange for a deposit of multiple stablecoins in a single call. S
 
 OUSD specified by the `_amount` parameter is redeemed in exchange for one or multiple supported stablecoins. Amount of stablecoins received depends on the **exchange rate**.
 
-| Parameter Name | Type    | Description                               |
-|:-------------- |:------- |:----------------------------------------- |
-| \_amount     | uint256 | amount of OUSD expressed in decimal units |
+| Parameter Name | Type | Description |
+| :--- | :--- | :--- |
+| \_amount | uint256 | amount of OUSD expressed in decimal units |
 
 {% hint style="warning" %}
 On redemptions, it is the protocol and not the user that decides which stablecoin\(s\) are returned to the user. This decision of which coin\(s\) to return is based on the internal ratios of the assets that are being held in the pool.‌
@@ -71,9 +73,9 @@ Moves the assets under management into their prescribed [Stategies](https://app.
 
 Returns total value of underlying assets and strategies.
 
-| `return` name | Type    | Description                                      |
-|:------------- |:------- |:------------------------------------------------ |
-| value         | uint256 | total value of underlying assets and strategies. |
+| `return` name | Type | Description |
+| :--- | :--- | :--- |
+| value | uint256 | total value of underlying assets and strategies. |
 
 ### checkBalance\(\) <a id="checkbalance"></a>
 
@@ -81,9 +83,9 @@ Returns total value of underlying assets and strategies.
 
 Returns the balance of an asset specified by the`_asset` parameter held in Vault and all strategies represented by `uint256` type.
 
-| Parameter Name | Type    | Description                                                                                                                                        |
-|:-------------- |:------- |:-------------------------------------------------------------------------------------------------------------------------------------------------- |
-| \_asset      | address | Address of the [supported](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/core-concepts/supported-assets) stablecoin |
+| Parameter Name | Type | Description |
+| :--- | :--- | :--- |
+| \_asset | address | Address of the [supported](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/core-concepts/supported-assets) stablecoin |
 
 ### calculateRedeemOutputs\(\) <a id="calculateredeemoutputs"></a>
 
@@ -95,13 +97,13 @@ To attribute the stablecoin values to the correct stablecoin currency this call 
 
 The index of an array that is returned by the `calculateRedeemOutputs` corresponds to the stablecoin address with the same index in an array returned by the `getAllAssets` function.
 
-| Parameter Name | Type    | Description                               |
-|:-------------- |:------- |:----------------------------------------- |
-| \_amount     | uint256 | amount of OUSD expressed in decimal units |
+| Parameter Name | Type | Description |
+| :--- | :--- | :--- |
+| \_amount | uint256 | amount of OUSD expressed in decimal units |
 
-| `return` name | Type          | Description                                                                 |
-|:------------- |:------------- |:--------------------------------------------------------------------------- |
-| outputs       | uint256\[\] | array of the amount of the stablecoin assets `redeem` function would return |
+| `return` name | Type | Description |
+| :--- | :--- | :--- |
+| outputs | uint256\[\] | array of the amount of the stablecoin assets `redeem` function would return |
 
 ### getAssetCount\(\) <a id="getassetcount"></a>
 
@@ -133,9 +135,9 @@ Return the total annual percentage yield \(APR\) of the Vault and all Strategies
 
 Return the boolean that is true if the asset specified by the `_asset` parameter is supported by the Vault.
 
-| Parameter Name | Type    | Description               |
-|:-------------- |:------- |:------------------------- |
-| \_asset      | address | Address of the stablecoin |
+| Parameter Name | Type | Description |
+| :--- | :--- | :--- |
+| \_asset | address | Address of the stablecoin |
 
 ### priceUSDMint\(\) <a id="issupportedasset-1"></a>
 
@@ -143,9 +145,9 @@ Return the boolean that is true if the asset specified by the `_asset` parameter
 
 Returns the exchange rate price of a stable coin specified by the `symbol` parameters used when minting OUSD represented by `uint256` type. Resulting number has 18 decimal spaces.
 
-| Parameter Name | Type   | Description              |
-|:-------------- |:------ |:------------------------ |
-| symbol         | string | Symbol of the stablecoin |
+| Parameter Name | Type | Description |
+| :--- | :--- | :--- |
+| symbol | string | Symbol of the stablecoin |
 
 ### priceUSDRedeem\(\) <a id="issupportedasset-2"></a>
 
@@ -153,9 +155,9 @@ Returns the exchange rate price of a stable coin specified by the `symbol` param
 
 Returns the exchange rate price of a stable coin specified by the `symbol` parameters used when redeeming OUSD represented by `uint256` type. Resulting number has 18 decimal spaces.
 
-| Parameter Name | Type   | Description              |
-|:-------------- |:------ |:------------------------ |
-| symbol         | string | Symbol of the stablecoin |
+| Parameter Name | Type | Description |
+| :--- | :--- | :--- |
+| symbol | string | Symbol of the stablecoin |
 
 ### priceAssetUSDMint\(\)‌ <a id="issupportedasset-3"></a>
 
@@ -163,9 +165,9 @@ Returns the exchange rate price of a stable coin specified by the `symbol` param
 
 Returns the exchange rate price of a stable coin specified by the `_asset` parameters used when minting OUSD represented by `uint256` type. Resulting number has 18 decimal spaces.
 
-| Parameter Name | Type    | Description                |
-|:-------------- |:------- |:-------------------------- |
-| \_asset      | address | Address of the stablecoin‌ |
+| Parameter Name | Type | Description |
+| :--- | :--- | :--- |
+| \_asset | address | Address of the stablecoin‌ |
 
 ### priceAssetUSDRedeem\(\)‌ <a id="issupportedasset-3-1"></a>
 
@@ -173,7 +175,7 @@ Returns the exchange rate price of a stable coin specified by the `_asset` param
 
 Returns the exchange rate price of a stable coin specified by the `_asset` parameters used when redeeming OUSD represented by `uint256` type. Resulting number has 18 decimal spaces.
 
-| Parameter Name | Type    | Description               |
-|:-------------- |:------- |:------------------------- |
-| \_asset      | address | Address of the stablecoin |
+| Parameter Name | Type | Description |
+| :--- | :--- | :--- |
+| \_asset | address | Address of the stablecoin |
 

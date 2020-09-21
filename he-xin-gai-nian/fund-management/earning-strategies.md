@@ -1,4 +1,4 @@
-# Earning Strategies
+# 收益策略
 
 Earning strategies put deployed capital to work across various DeFi platforms. The Vault will determine which strategies are active and what percentage of deployed capital they will receive.
 

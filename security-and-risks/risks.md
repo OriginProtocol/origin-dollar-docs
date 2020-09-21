@@ -26,9 +26,3 @@ It is important to note that each of the supported stablecoins introduces non-tr
 
 **In summary, OUSD is beta software. Use at your own risk. Don't deploy more capital than you are willing to lose.**
 
-
-
-
-
-
-

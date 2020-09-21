@@ -14,7 +14,3 @@ Multiple audits for Compound have already been completed and are available on th
 
 {% page-ref page="untitled.md" %}
 
-
-
-
-

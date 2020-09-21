@@ -1,4 +1,4 @@
-# Lending
+# 借贷
 
 **Unbank the Banked**
 
@@ -13,14 +13,4 @@ OUSD integrates with leading lending providers that have a proven track record, 
 {% page-ref page="../supported-strategies/aave.md" %}
 
 {% page-ref page="../supported-strategies/dydx.md" %}
-
-
-
-
-
-
-
-
-
-
 

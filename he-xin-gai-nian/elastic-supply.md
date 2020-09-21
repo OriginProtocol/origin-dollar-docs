@@ -1,4 +1,4 @@
-# Elastic Supply
+# 弹性供应
 
 **Elastic Supply. Stable Price.**
 
