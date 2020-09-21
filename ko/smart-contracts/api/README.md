@@ -1,8 +1,8 @@
 # API
 
-Documentation of contracts API used by the protocol:
+프로토콜에서 사용하는 컨트렉트 API 문서:
 
-* [Vault](vault.md)
+* [금고(Vault)](vault.md)
 
 
 
