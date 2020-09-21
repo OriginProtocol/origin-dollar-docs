@@ -72,9 +72,9 @@ We need constant help in improving our documentation, building new tools to inte
 
 Please get in touch if you would like to help out. Our `general` channel on [Discord](https://www.originprotocol.com/discord) is a great place to share ideas and volunteer to help.
 
-#### Full-Time Positions
+#### 정규직
 
-Origin occasionally hires developers for part-time or full-time positions.
+오리진(Origin) 은 간혹 파트 타임 또는 풀 타임 개발자를 채용합니다.
 
 We have a strong preference for hiring people who have already started contributing to the project. If you want a full time position on our team, your best shot is to engage with our team and start contributing code. It is very unlikely that we would offer you a full-time position on our engineering team unless you’ve had at least a few pull requests merged.
 
