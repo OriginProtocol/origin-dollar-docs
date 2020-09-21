@@ -1,7 +1,7 @@
-# Curve
+# 커브(Curve)
 
 {% hint style="info" %}
-Coming soon. Curve has not yet been integrated.
+곧 출시 예정. 커브(Curve) 는 아직 통합되지 않았습니다.
 {% endhint %}
 
 Curve is a decentralized liquidity protocol and exchange on Ethereum for stablecoins and wrapped BTC, launched in January 2020. Users can swap between popular ERC-20 stablecoins or between ERC-20 representations of bitcoin. Liquidity providers facilitate trading and earn fees.
@@ -16,10 +16,10 @@ Trading volumes on Curve are often over $50 million daily. Curve has a Total Val
 
 Curve has undergone two audits by Trail of Bits and maintains a bug bounty program.
 
-| Resources      |                                                                          |
-|:-------------- |:------------------------------------------------------------------------ |
-| Official site  | [https://uniswap.org/](https://uniswap.org/)                             |
-| Developer docs | [https://uniswap.org/docs/v2](https://uniswap.org/docs/v2)               |
-| GitHub         | [https://github.com/Uniswap](https://github.com/Uniswap)                 |
-| Discord        | [https://discord.com/invite/EwFs3Pp](https://discord.com/invite/EwFs3Pp) |
+| 리소스           |                                                                          |
+|:------------- |:------------------------------------------------------------------------ |
+| 공식 사이트        | [https://uniswap.org/](https://uniswap.org/)                             |
+| 개발자 문서        | [https://uniswap.org/docs/v2](https://uniswap.org/docs/v2)               |
+| 깃허브(Github)   | [https://github.com/Uniswap](https://github.com/Uniswap)                 |
+| 디스코드(Discord) | [https://discord.com/invite/EwFs3Pp](https://discord.com/invite/EwFs3Pp) |
 
