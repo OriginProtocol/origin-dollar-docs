@@ -1,6 +1,6 @@
-# Contributing
+# 기여
 
-**100% Open-source**
+**100% 오픈소스**
 
 OUSD is an entirely open-source project and we welcome contributions of all sorts. There are many ways to help, from reporting issues, contributing code, and helping us improve our community.
 
@@ -10,9 +10,9 @@ We work in public and our company Discord is open to all. If you have questions 
 
 Our branching strategy is similar to [GitFlow](http://nvie.com/posts/a-successful-git-branching-model/), but we do all of our development in the `master` branch and have a `stable` branch for code that has been released.
 
-Your development flow should look like:
+개발 과정은 다음과 같습니다:
 
-1. Find an interesting issue and communicate! Please let the `#engineering` [Discord](https://discord.gg/jyxpUSe) channel know what you want to work on.
+1. 흥미로운 문제를 찾아 소통을 시작합니다! Please let the `#engineering` [Discord](https://discord.gg/jyxpUSe) channel know what you want to work on.
 2. Ping a [core team member](https://github.com/orgs/OriginProtocol/teams/core/members) member on Discord and ask to be added to our [contributors team](https://github.com/orgs/OriginProtocol/teams/contributors). Otherwise, you’ll need to fork the relevant repository and push feature branches to your own fork.
 3. Add a comment to the issue or self-assign so we don’t have multiple contributors unintentionally working on the same task.
 4. Start with the `master` branch and check out a new feature branch unless you’re contributing to an existing feature.
@@ -23,15 +23,15 @@ Your development flow should look like:
 
 The `master` branch is locked so that only members of the [core team](https://github.com/orgs/OriginProtocol/teams/core) are able to merge your pull requests. Pull requests that are peer-reviewed by other trusted contributors will be fast-tracked and merged faster! Check in the `#engineering` Discord channel for appropriate reviewers.
 
-#### Coding Style
+#### 코딩 스타일
 
-We use a variety of programming languages in our repositories. When contributing, please follow existing coding conventions and refer to the CONTRIBUTING.md file in the repository, if one exists.
+오리진은 리포지토리(repositories) 에서 다양한 프로그래밍 언어를 사용합니다. 기여 하실 때에는 기존 코딩 규약을 준수해주실 것을 부탁드리며, 만약 리포지토리에 CONTRIBUTING.md 파일이 있을 경우에는 해당 파일을 참조해주세요.
 
-For JavaScript, we use [NPM’s style](https://docs.npmjs.com/misc/coding-style), which is automatically enforced via [prettier](https://prettier.io/).
+자바 스크립트의 경우에는, [prettier](https://prettier.io/)을 통해 자동으로 적용되는 [NPM 스타일](https://docs.npmjs.com/misc/coding-style)을 사용합니다.
 
-For Solidity, we use two-space indents.
+솔리티디(Solidity) 의 경우에는, 두 개의 공백 들여 쓰기를 사용합니다.
 
-#### Protocol Design
+#### 프로토콜 설계
 
 When considering protocol or implementation design proposals, we are looking for:
 
@@ -43,7 +43,7 @@ When considering protocol or implementation design proposals, we are looking for
 
 Please note that protocol design is hard and meticulous work. You may need to review existing literature and think through generalized use cases.
 
-#### Community Guidelines
+#### 커뮤니티 가이드라인
 
 We want to keep the Origin community awesome, growing and collaborative. We need your help to keep it that way. To help with this we’ve come up with some general guidelines for the community as a whole:
 
@@ -52,7 +52,7 @@ We want to keep the Origin community awesome, growing and collaborative. We need
 * Keep it legal: Basically, don’t get anybody in trouble. Share only content that you own, do not share private or sensitive information, and don’t break laws.
 * Stay on topic: Make sure that you are posting to the correct channel and avoid off-topic discussions. Remember when you update an issue or respond to an email you are potentially sending to a large number of people. Please consider this before you update. Also remember that nobody likes spam.
 
-#### Reporting Issues
+#### 문제 보고
 
 If you find bugs, mistakes or inconsistencies in Origin’s code or documents, please let us know by filing a GitHub issue. No issue is too small. Help us fix our tpyos!
 
