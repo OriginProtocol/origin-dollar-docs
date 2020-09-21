@@ -4,9 +4,9 @@
 
 OUSD는 일련의 스마트 컨트렉트로 구성됩니다. 이러한 각 계약은 거버넌스 프로토콜을 통해 업그레이드할 수 있는 프록시 계약으로 포장됩니다.
 
-내부적으로 풀의 소유권은 각 홀더에 대한 풀의 소유권 비율을 나타내는 크레딧 시스템을 사용하여 추적됩니다. The ERC-20 contract handles the conversion to USD terms when viewing a balance or initiating a transfer between wallets.
+내부적으로 풀의 소유권은 각 홀더에 대한 풀의 소유권 비율을 나타내는 크레딧 시스템을 사용하여 추적됩니다. ERC-20 컨트렉트는 잔액을 확인하거나 지갑 간 송금을 시작할 때 USD 조건에서 변환을 처리합니다.
 
-The Vault is responsible for minting and burning OUSD. It also enforces the percentage of assets that are deployed to each of the supported [Strategies](../core-concepts/supported-strategies/). To optimize gas costs, the vault maintains a buffer to allow most deposits and redemptions to occur without winding/unwinding assets from strategies.
+금고(Vault) 는 OUSD의 채굴 및 소각를 담당합니다. 또한 지원되는 각 [전략 ](../core-concepts/supported-strategies/)에 배포되는 자산의 비율도 적용합니다. To optimize gas costs, the vault maintains a buffer to allow most deposits and redemptions to occur without winding/unwinding assets from strategies.
 
 
 
