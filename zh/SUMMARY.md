@@ -15,7 +15,7 @@
   * [USDT](core-concepts/supported-assets/usdt.md)
   * [USDC](core-concepts/supported-assets/usdc.md)
   * [DAI](core-concepts/supported-assets/dai.md)
-* [Supported Strategies](core-concepts/supported-strategies/README.md)
+* [支持策略](core-concepts/supported-strategies/README.md)
   * [Compound](core-concepts/supported-strategies/compound.md)
   * [Aave](core-concepts/supported-strategies/aave.md)
   * [dYdX](core-concepts/supported-strategies/dydx.md)
@@ -33,25 +33,25 @@
 * [原则](governance/governance.md)
 * [管理员权限](governance/admin-privileges.md)
 
-## Smart Contracts
+## 智能合约
 
-* [Architecture](smart-contracts/erc-20.md)
-* [Registry](smart-contracts/registry.md)
+* [架构](smart-contracts/erc-20.md)
+* [登记处](smart-contracts/registry.md)
 * [API](smart-contracts/api/README.md)
-  * [Vault](smart-contracts/api/vault.md)
+  * [保险库 （Vault）](smart-contracts/api/vault.md)
   * [ERC-20](smart-contracts/api/erc-20-1.md)
-  * [Timelock](smart-contracts/api/timelock-1.md)
-  * [Oracles](smart-contracts/api/oracle.md)
-  * [Strategies](smart-contracts/api/strategies.md)
+  * [时间锁（Timelock）](smart-contracts/api/timelock-1.md)
+  * [神谕 (Oracles)](smart-contracts/api/oracle.md)
+  * [策略](smart-contracts/api/strategies.md)
 
-## Security & Risks
+## 安全 & 风险
 
-* [Risks](security-and-risks/risks.md)
-* [Audits](security-and-risks/untitled.md)
-* [Bug Bounties](security-and-risks/asset-risk.md)
-* [Contributing](security-and-risks/contributing.md)
+* [风险](security-and-risks/risks.md)
+* [审核](security-and-risks/untitled.md)
+* [错误赏金](security-and-risks/asset-risk.md)
+* [如何贡献](security-and-risks/contributing.md)
 
-## Links
+## 链接
 
 * [Github](https://www.github.com/originprotocol/origin-dollar)
 * [Discord](https://www.originprotocol.com/discord)
