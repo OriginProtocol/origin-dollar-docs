@@ -21,12 +21,13 @@ Well-known addresses \(often proxy wrappers\):
 
 Internal implementation contracts:
 
-| Contract            | Address                                                                                                               |
-|:------------------- |:--------------------------------------------------------------------------------------------------------------------- |
-| OUSD                | [0x3c09b440F9E46c0e4A665539Aeca80FCAA92c36e](https://etherscan.io/address/0x3c09b440F9E46c0e4A665539Aeca80FCAA92c36e) |
-| Vault               | [0x2BEdB429F94040Ea4D150e9cBa39B23eA362B1bd](https://etherscan.io/address/0x2BEdB429F94040Ea4D150e9cBa39B23eA362B1bd) |
-| Chainlink Oracle    | [0x8DE3Ac42F800a1186b6D70CB91e0D6876cC36759](https://etherscan.io/address/0x8DE3Ac42F800a1186b6D70CB91e0D6876cC36759) |
-| Open Uniswap Oracle | [0xa8f14F558aC70F5f52C37cD96d802ef9210023C5](https://etherscan.io/address/0xa8f14F558aC70F5f52C37cD96d802ef9210023C5) |
+| Contract                                      | Address                                                                                                               |
+|:--------------------------------------------- |:--------------------------------------------------------------------------------------------------------------------- |
+| OUSD                                          | [0xB72b3f5523851C2EB0cA14137803CA4ac7295f3F](https://etherscan.io/address/0xB72b3f5523851C2EB0cA14137803CA4ac7295f3F) |
+| Vault                                         | [0xf251Cb9129fdb7e9Ca5cad097dE3eA70caB9d8F9](https://etherscan.io/address/0xf251Cb9129fdb7e9Ca5cad097dE3eA70caB9d8F9) |
+| Mix Oracle                                    | [0xCf67e56965AD7CEC05eBf88bAd798A875E0460EB](https://etherscan.io/address/0xCf67e56965AD7CEC05eBf88bAd798A875E0460EB) |
+| Chainlink Oracle                              | [0x8DE3Ac42F800a1186b6D70CB91e0D6876cC36759](https://etherscan.io/address/0x8DE3Ac42F800a1186b6D70CB91e0D6876cC36759) |
+| Open Uniswap Oracle  \(not currently used\) | [0xa8f14F558aC70F5f52C37cD96d802ef9210023C5](https://etherscan.io/address/0xa8f14F558aC70F5f52C37cD96d802ef9210023C5) |
 {% endtab %}
 
 {% tab title="Strategies" %}
@@ -40,7 +41,7 @@ Internal implementation contracts:
 
 | Strategy | Address                                                                                                               |
 |:-------- |:--------------------------------------------------------------------------------------------------------------------- |
-| Compound | [0xfCEea3923dd126D8fb3873389187307519c1DE37](https://etherscan.io/address/0xfCEea3923dd126D8fb3873389187307519c1DE37) |
+| Compound | [0x5B57e808b0ddCF097e25C5f5E3d8d3c2b0D26319](https://etherscan.io/address/0x5B57e808b0ddCF097e25C5f5E3d8d3c2b0D26319) |
 {% endtab %}
 
 {% tab title="Stablecoins" %}
