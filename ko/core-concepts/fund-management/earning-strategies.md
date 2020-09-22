@@ -1,6 +1,6 @@
 # 수익 전략
 
-Earning strategies put deployed capital to work across various DeFi platforms. The Vault will determine which strategies are active and what percentage of deployed capital they will receive.
+수익 전략은 배치 된 자본을 다양한 디파이(DeFi) 플랫폼 상에서 작동하도록 하는 것입니다. 금고(Vault) 는 어떤 전략이 활성화되어 있고, 어떤 비율로 배치 된 자본을 받을 것인지 결정합니다.
 
-In addition, strategies will be upgraded over time. For example, at launch, there will be an initial [Compound strategy](../supported-strategies/compound.md). Over time, this may be replaced by a v2 or v3 Compound strategy.
+또한 전략은 시간이 지남에 따라 업그레이드됩니다. 예를 들어, 출시 당시, 초기에는 [컴파운드(Compound) 전략](../supported-strategies/compound.md)이 있습니다. 시간이 지남에 따라 v2 또는 v3 복합 전략으로 대체 될 수 있습니다.
 
