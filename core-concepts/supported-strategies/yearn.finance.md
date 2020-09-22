@@ -12,7 +12,7 @@ Vaults 提供了一个更加自动化的体验。 用户存放诸如 LINK 和 Cu
 
 Yearn 由 YFI（ERC-20）治理。 YFI 持有者同意锁定他们的 YFI 后（锁定三天）就可以对协议更改进行投票。 YFI 持有者可以通过治理网站来抵押其代币，以赚取一定比例协议产生的收益。 该收益来自 Yearn 产品向用户收取的费用。 YFI 全部都分发给 Curve 和 Balancer 上的流动性提供商。 YFI 没有分配给团队成员或投资者。
 
-Yearn 的总锁定价值 \(TVL\) 已迅速增长至超过 8亿美元，使其成为最大的 DeFi 协议之一。 YFI 的流通市值超过4亿美元。
+Yearn 的总锁定价值 \(TVL\) 已迅速增长至超过 18亿美元，使其成为最大的 DeFi 协议之一。 YFI 的流通市值超过4亿美元。
 
 Yearn 已通过 CertiK，Quantstamp，HackMD 和 CryptoManiacs 的多次安全和智能合约审核。 Yearn 以迅速推出实验产品并警告用户其产品处于测试阶段而闻名。
 
