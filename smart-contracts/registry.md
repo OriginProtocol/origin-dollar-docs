@@ -41,7 +41,7 @@ Internal implementation contracts:
 
 | Strategy | Address |
 | :--- | :--- |
-| Compound | [0xfCEea3923dd126D8fb3873389187307519c1DE37](https://etherscan.io/address/0xfCEea3923dd126D8fb3873389187307519c1DE37) |
+| Compound | [0x5B57e808b0ddCF097e25C5f5E3d8d3c2b0D26319](https://etherscan.io/address/0x5B57e808b0ddCF097e25C5f5E3d8d3c2b0D26319) |
 {% endtab %}
 
 {% tab title="Stablecoins" %}
