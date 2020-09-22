@@ -4,10 +4,6 @@ description: 지갑에 있는동안 수익을 만들어 내는 최초의 스테�
 
 # 소개
 
-{% hint style="success" %}
-Want to help improve these translations? [Volunteer!](https://goo.gl/PqT326)
-{% endhint %}
-
 ## **더 나은 형태의 돈**
 
 Origin Dollar \(OUSD\) is a new stablecoin that was initially launched in September 2020 on the Ethereum network. Its design is superior to existing stablecoins because OUSD captures competitive yields while being passively held in wallets.
