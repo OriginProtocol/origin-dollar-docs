@@ -19,7 +19,7 @@
 | 리소스           |                                                                                |
 |:------------- |:------------------------------------------------------------------------------ |
 | 공식 사이트        | [https://aave.com/](https://aave.com/)                                         |
-| 개발자 문서        | [https://compound.finance/docs](https://compound.finance/docs)                 |
+| 개발자 문서        | [http://docs.aave.com/](https://compound.finance/docs)                         |
 | 깃허브(Github)   | [https://github.com/aave/aave-protocol](https://github.com/aave/aave-protocol) |
 | 디스코드(Discord) | [https://discordapp.com/invite/AnSqnvV](https://discordapp.com/invite/AnSqnvV) |
 
