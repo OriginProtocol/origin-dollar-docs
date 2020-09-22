@@ -25,6 +25,7 @@ Internal implementation contracts:
 | :--- | :--- |
 | OUSD | [0xB72b3f5523851C2EB0cA14137803CA4ac7295f3F](https://etherscan.io/address/0xB72b3f5523851C2EB0cA14137803CA4ac7295f3F) |
 | Vault | [0xf251Cb9129fdb7e9Ca5cad097dE3eA70caB9d8F9](https://etherscan.io/address/0xf251Cb9129fdb7e9Ca5cad097dE3eA70caB9d8F9) |
+| Mix Oracle | [0xCf67e56965AD7CEC05eBf88bAd798A875E0460EB](https://etherscan.io/address/0xCf67e56965AD7CEC05eBf88bAd798A875E0460EB) |
 | Chainlink Oracle | [0x8DE3Ac42F800a1186b6D70CB91e0D6876cC36759](https://etherscan.io/address/0x8DE3Ac42F800a1186b6D70CB91e0D6876cC36759) |
 | Open Uniswap Oracle  \(not currently used\) | [0xa8f14F558aC70F5f52C37cD96d802ef9210023C5](https://etherscan.io/address/0xa8f14F558aC70F5f52C37cD96d802ef9210023C5) |
 {% endtab %}
