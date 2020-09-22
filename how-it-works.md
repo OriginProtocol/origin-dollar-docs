@@ -1,36 +1,36 @@
 # 작동 방법
 
-## 100 % 지원 및 안정
+#### 100 % 지원 및 안정
 
-Origin Dollar \(OUSD\) is an ERC-20 compliant token for the Ethereum network.
+오리진 달러 \ (OUSD \) 는 이더리움 네트워크를 위한 비표준 ERC-20 토큰입니다.
 
-OUSD is a stable currency that is backed 1:1 by other stablecoins like USDT, USDC and DAI. 결과적으로 1 OUSD는 항상 1 USD 가치에 매우 가깝습니다.
+OUSD는 USDT, USDC 및 DAI와 같은 검증된 스테이블 코인이 1:1로 지원되는 안정적인 통화입니다. 결과적으로, 1 OUSD는 항상 1 USD와 비슷한 가치를 가지게 됩니다.
 
 {% hint style="success" %}
 1 OUSD = 1 USD
 {% endhint %}
 
-## OUSD 민팅\(Minting\)
+#### OUSD 발행(Minting)
 
-사용자는 공식 [Origin Dollar DApp](https://github.com/oplabs/origin-dollar-docs/tree/fcbb45ee8da4bb026f7706157523003e0a849df4/www.ousd.com)에서 기존 스테이블코인  \(현재 USDT, USDC, DAI \) 을 OUSD로 전환합니다. 발행된 OUSD는 즉시 복리로 수익을 발생시키기 시작합니다.
+사용자는 공식 [오리진 달러 디앱(DApp)](www.ousd.com)에서 기존 스테이블 코인 \ (현재 USDT, USDC, DAI \) 을 OUSD로 전환합니다. 발행된 OUSD는 즉시 복리로 수익을 발생시키기 시작합니다.
 
 **OUSD 사용하기**
 
-Users can convert their OUSD back into other stablecoins at any time using the [Origin Dollar DApp](https://github.com/oplabs/origin-dollar-docs/tree/fcbb45ee8da4bb026f7706157523003e0a849df4/www.ousd.com). A 0.5% exit fee is charged upon redemption and is distributed as additional yield to the remaining participants in the pool. The fee serves as a security feature to make it difficult for attackers to take advantage of lagging oracles, preventing them from syphoning stablecoins from the pool in the event of mispricings of of the underlying assets. The fee exists to incentivize long-term holders over short-term speculators.
+사용자는 [오리진 달러 디앱(DApp)](www.ousd.com)을 사용하여 언제든지 OUSD를 다른 스테이블 코인(stablecoin) 으로 전환 할 수 있습니다. 0.5 %의 출금 수수료는 상환시 부과되며, 풀(pool) 의 나머지 참가자에게 추가 수익률 형태로 분배됩니다. 이 수수료는 공격자가 지연된 오라클을 이용하기 어렵게 만드는 보안 기능으로, 기본 자산의 가격이 잘못 책정되는 경우 풀에서 스테이블 코인을 연결하는 것을 방지합니다. 해당 수수료는 단기 투기자 보다는 장기 보유자가 될 것을 장려하기 위해 존재합니다.
 
-Upon redemption, the smart contract will determine which stablecoin\(s\) to return to the user. In the current implementation, the pool will return coins in the same ratio as the current holdings. This lack of user optionality also protects the pool as a whole in the event that any of the supported stablecoins loses its peg to the dollar.
+상환시 스마트 컨트렉트는 사용자에게 반환할 스테이블 코인을 결정합니다. 현재 실행 단계에서는, 풀은 현재 보유량과 동일한 비율로 코인을 반환합니다. 이러한 사용자 선택의 부재는 지원되는 스테이블 코인중 하나가 달러에 대한 페그(peg) 를 잃는 경우에 풀을 보호하는 역할을 수행합니다.
 
 {% hint style="warning" %}
-There is a **0.5% exit fee** and the user doesn't get to pick which stablecoins they receive.
+**0.5 % 출금 수수료** 가 있으며, 사용자는 어떤 종류의 스테이블 코인을 받을지를 직접 선택할 수는 없습니다.
 {% endhint %}
 
-## **수확량 농업\(Automated Yield Farming\)**
+#### **자동화 이자 농사(Automated Yield Farming)**
 
-OUSD generates yields by deploying the underlying stablecoins that were deposited to the OUSD smart contract to other DeFi protocols such as Compound, Aave, Uniswap, Balancer, and Curve. It is expected there will be new diversified strategies added to the pool every month. Collected interest, trading fees, and rewards tokens are pooled and converted to stablecoins to produce OUSD-denominated yields. Over time, the protocol will move assets in and out of different liquidity pools in order to provide the best yield to the holders of OUSD.
+OUSD는 OUSD 스마트 컨트렉트에 예치된 기본 스테이블 코인을 컴파운드(Compound), 에이브(Aave), 유니스왑(Uniswap), 밸런서(Balance) 및 커브(Curve) 와 같은 다른 디파이(DeFi) 프로토콜에 배포하여 수익을 창출합니다. 매달 풀에는 새롭게 다각화 된 새로운 전략이 추가 될 것으로 예상 됩니다. 수집된 이자, 거래 수수료 및 보상 토큰은 OUSD 표시 수익률을 생성하기 위해 풀링(pooling) 되고 청산됩니다. 시간이 지남에 따라 프로토콜은 OUSD 보유자에게 최상의 수익을 제공하기 위해 프로그래밍 방식으로 자산을 다른 유동성 풀(liquidity pool) 안팎으로 이동합니다.
 
-## **공급 탄력성**
+#### **공급 탄력성**
 
-생성된 수익은 통화 공급의 지속적인 리베이스\(rebase\) 를 통해 OUSD 보유자에게 전달됩니다. OUSD는 프로토콜이 생성한 수익률에 따라 통화 공급을 지속적으로 조정합니다. 이를 통해 OUSD의 가격은 1달러로 고정되는 반면 토큰 보유자의 지갑 잔액은 프로토콜로 얻은 수익률을 반영하기 위해 실시간으로 조정됩니다.
+생성된 수익은 통화 공급의 지속적인 리베이스(rebase) 를 통해 OUSD 보유자에게 전달됩니다. OUSD는 프로토콜이 생성한 수익률에 따라 통화 공급을 지속적으로 조정합니다. 이를 통해 OUSD의 가격은 1달러로 고정되는 반면 토큰 보유자의 지갑 잔액은 프로토콜로 얻은 수익률을 반영하기 위해 실시간으로 조정됩니다.
 
-최종 결과는 사용하기 쉽고 자동으로 큰 수익을 얻으며 기존 스테이블코인 보다 더 보유하는 것이 바람직한 스테이블코인 입니다.
+결론적으로 OUSD는 사용하기 쉬우며, 자동으로 큰 수익을 제공하기에 기존 스테이블 코인 보다 보유시에 더 많은 이익을 제공하는 스테이블 코인입니다.
 

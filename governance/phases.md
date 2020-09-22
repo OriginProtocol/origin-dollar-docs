@@ -1,6 +1,6 @@
 # 단계
 
-Progressive decentralization will follow four phases as outlined below.
+점진적 탈 중앙화는 아래에 설명 된대로 4 단계를 따릅니다.
 
-![](../.gitbook/assets/ousd_docs_graphics_2%20%282%29.png)
+![](../.gitbook/assets/ousd_docs_graphics_3.png)
 
