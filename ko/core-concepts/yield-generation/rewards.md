@@ -1,14 +1,14 @@
-# Rewards
+# 보상
 
-**Collecting Rewards**
+**보상 수집**
 
-In addition to collecting interest from lending and fees from market making, we intend to automatically claim and convert the bonus incentives that are being distributed by many of the DeFi protocols. For example, Compound gives away COMP tokens, Balancer gives away BAL tokens, and Curve gives away CRV tokens. These bonus rewards will be regularly converted into stablecoins, deployed in the market, and distributed to OUSD holders in the form of additional yield.
+대출이자 및 시장 조성 수수료 외에도 많은 디파이(DeFi) 프로토콜에 의해 배포되는 보너스 인센티브를 자동으로 청구하고 전환 할 계획입니다. 예를 들어 컴파운드(Compound) 는 COMP 토큰을, 밸런서(Balancer) 는 BAL 토큰을, 커브(Curve) 는 CRV 토큰을 제공합니다. 이러한 보너스 보상은 정기적으로 스테이블 코인으로 전환되고, 시장에 배포되며 추가 수익의 형태로 OUSD 보유자에게 배포됩니다.
 
 {% hint style="info" %}
-While the vault safely stores any unexpected rewards that it receives, custom strategies will need to be written and deployed to decide when and how the protocol should convert them to stablecoins.
+금고(vault) 는 예상치 못한 보상을 안전하게 저장하지만, 사용자 지정 전략을 작성하고 배포하여 프로토콜이 언제 어떻게 이를 안정 코인으로 변환해야 하는지 결정해야 합니다.
 {% endhint %}
 
-Today, rewards are a significant factor for yield farmers as they represent a large percentage of their returns. We anticipate that the OUSD protocol will be upgraded over time to take advantage of the most attractive yields available across the DeFi landscape. The protocol will factor in the market value of the various rewards being offered when deciding how to best allocate resources.
+오늘날 보상은 수확량의 상당 부분을 차지하기 때문에 이자 농사에서 중요한 요소입니다. OUSD 프로토콜은 디파이(DeFi) 환경에서 가장 매력적인 수익률을 활용하기 위해 시간이 지남에 따라 업그레이드 될 것으로 예상됩니다. 프로토콜은 자원을 가장 잘 할당하는 방법을 결정할 때 제공되는 다양한 보상의 시장 가치를 고려합니다.
 
 
 
