@@ -40,7 +40,7 @@
 * [API](smart-contracts/api/README.md)
   * [금고(Vault)](smart-contracts/api/vault.md)
   * [ERC-20](smart-contracts/api/erc-20-1.md)
-  * [시간자물쇠(Timelock)](smart-contracts/api/timelock-1.md)
+  * [타임락(TimeLock)](smart-contracts/api/timelock-1.md)
   * [오라클](smart-contracts/api/oracle.md)
   * [전략](smart-contracts/api/strategies.md)
 
