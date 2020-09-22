@@ -1,25 +1,25 @@
-# Curve
+# 커브(Curve)
 
 {% hint style="info" %}
-Coming soon. Curve has not yet been integrated.
+곧 출시 예정. 커브(Curve) 는 아직 통합되지 않았습니다.
 {% endhint %}
 
-Curve is a decentralized liquidity protocol and exchange on Ethereum for stablecoins and wrapped BTC, launched in January 2020. Users can swap between popular ERC-20 stablecoins or between ERC-20 representations of bitcoin. Liquidity providers facilitate trading and earn fees.
+커브(Curve) 는 이더리움(Etherum) 에서 스테이블 코인과 wBTC(wrapped BTC) 를 위한 탈중앙화 유동성 프로토콜 및 거래소이며, 2020년 1월에 출시되었다. 사용자는 인기 있는 ERC-20 스테이블 코인 또는 ERC-20 일종의 비트코인 간에 교환할 수 있습니다. 유동성 공급자는 거래를 촉진하고 수수료를 받습니다.
 
-Curve is an Automated Market Maker \(AMM\) where each market has an associated liquidity pool with two or more assets that should have the same value, like USDT, USDC, DAI and TUSD, which are all US dollar pegged stablecoins. The exchange rate between each stablecoin and their relative weights are determined by an algorithm based on supply and demand. Arbitrageurs act to normalize these exchange rates.
+커브는 자동화된 마켓 메이커(Automated Market Maker) \ (AMM \) 로 각 시장은 USDT, USDC, DAI 및 TUSD와 같이 동일한 가치를 가져야하는 두 개 이상의 자산과 관련된 유동성 풀이 있으며, 모두 미국 달러로 고정 된 스테이블 코인입니다. 각 스테이블 코인과 상대적 가중치 간의 환율은 수요와 공급을 기반으로 한 알고리즘에 의해 결정됩니다. 중재자는 이러한 환율을 정상화하기 위해 행동합니다.
 
-Some of Curve's liquidity pools earn extra fees for liquidity providers on top of the exchange fees from traders. Curve offers stablecoin pools integrated with Compound, yearn.finance, and Synthetix. The assets in each liquidity pool are provided to those platforms to generate additional yield which is passed on to each pool's liquidity providers. Liquidity Provider \(LP\) tokens are given to pool participants and can be redeemed for their initial liquidity supplied plus accrued fees and yield. LP tokens can also transferred for use in other protocols.
+커브의 유동성 풀 중 일부는 거래자로부터의 교환 수수료 외에 유동성 공급자에게 추가 수수료를 받습니다. 커브는 컴파운드(Compound), 와이언 파이낸스(yearn.finance) 및 신세틱스(Synthetix) 와 통합된 스테이블 코인 풀을 제공합니다. 각 유동성 풀의 자산은 각 풀의 유동성 공급자에게 전달되는 추가 수익을 생성하기 위해 해당 플랫폼에 제공됩니다. 유동성 공급자 \ (LP \) 토큰은 풀 참여자에게 제공되며 초기 유동성 공급과 발생한 수수료 및 수익으로 상환 될 수 있습니다. LP 토큰을 다른 프로토콜에서 사용하기 위해 전송할 수도 있습니다.
 
-Curve is governed by CRV, an ERC-20 governance token. CRV holders can vote on protocol changes. CRV holders can stake their tokens for additional voting power proportional to time staked. CRV is continuously awarded to liquidity providers and a large portion of the total supply of CRV was allocated to the team and investors on a continuous vesting schedule.
+커브는 ERC-20 거버넌스 토큰인 CRV에 의해 관리됩니다. CRV 보유자는 프로토콜 변경에 대해 투표 할 수 있습니다. CRV 보유자는 보유 시간에 비례하여 추가 투표권을 얻기 위해 토큰을 보유 할 수 있습니다. CRV은 유동성 공급자에게 지속적으로 지급되며, CRV의 총 공급의 상당 부분은 지속적 베스팅 스케쥴에 따라 팀과 투자자에게 할당되었습니다.
 
-Trading volumes on Curve are often over $50 million daily. Curve has a Total Value Locked \(TVL\) of over $1 billion by liquidity providers at the time of writing.
+커브의 거래량은 종종 매일 5,000만 달러가 넘습니다. 커브는 (해당 글 작성 시점) 유동성 공급자에 의해 10억 달러가 넘는 총 가치 잠금 \(TVL\) 을 가지고 있습니다.
 
-Curve has undergone two audits by Trail of Bits and maintains a bug bounty program.
+커브는 트레일 오브 비츠(Trail of Bits) 의 보안 감사를 2번 받았으며 버그 현상금 프로그램을 운영하고 있습니다.
 
-| Resources      |                                                                          |
-|:-------------- |:------------------------------------------------------------------------ |
-| Official site  | [https://www.curve.fi/](https://www.curve.fi/)                           |
-| Developer docs | [https://www.curve.fi/devdocs](https://www.curve.fi/devdocs)             |
-| GitHub         | [https://github.com/curvefi](https://github.com/curvefi)                 |
-| Discord        | [https://discord.com/invite/9uEHakc](https://discord.com/invite/9uEHakc) |
+| 리소스           |                                                                          |
+|:------------- |:------------------------------------------------------------------------ |
+| 공식 사이트        | [https://www.curve.fi/](https://www.curve.fi/)                           |
+| 개발자 문서        | [https://www.curve.fi/devdocs](https://www.curve.fi/devdocs)             |
+| 깃허브(Github)   | [https://github.com/curvefi](https://github.com/curvefi)                 |
+| 디스코드(Discord) | [https://discord.com/invite/9uEHakc](https://discord.com/invite/9uEHakc) |
 
