@@ -1,26 +1,26 @@
-# Principles
+# 원리
 
-**Progressive Decentralization**
+**점진적 탈 중앙화**
 
-OUSD is designed to be a decentralized protocol governed by many stakeholders all over the world. We believe that the minters and holders of OUSD should collectively determine important protocol decisions as soon as possible.
+OUSD는 전 세계의 많은 이해 관계자들이 함께 관리하는 탈 중앙화 프로토콜로 설계되었습니다. 오리진(Origin) 은 OUSD의 채굴자와 보유자가 가능한 한 빨리 중요한 프로토콜 결정 사항을 집단적으로 결정할 수 있도록 해야 한다고 믿습니다.
 
-That being said, in the very early days, it is imperative that the core engineering team can act quickly and decisively to build the foundational parts of the protocol.
+즉, 아주 초기 단계에는 오리진 팀의 핵심 엔지니어 팀이 프로토콜의 기초적인 부분 구축을 위해 신속하고 결단력 있게 행동해야 합니다.
 
-Decentralization will progress across four phases rapidly over the next few months. It is our intent to relinquish control and governance to the community as soon as possible.
+탈 중앙화는 향후 몇 달 동안 4 단계에 걸쳐 빠르게 진행될 것입니다. 오리진은 가능한 한 빨리 커뮤니티에 통제 및 거버넌스를 양도하고자 합니다.
 
-![](../.gitbook/assets/ousd_docs_graphics_2%20%283%29.png)
+![](../.gitbook/assets/ousd_docs_graphics_3.png)
 
-**Timelock**
+**타임락(Timelock)**
 
-Prior to full decentralized governance, we will implement a [timelock](../smart-contracts/api/timelock-1.md) in front of all admin function calls, giving OUSD users time \(48 hours\) to withdraw their funds if they have objections to our proposed upgrades. This timelock will be added shortly after launch.
+완전한 탈 중앙화 거버넌스 이전에, 오리진은 모든 관리 기능 호출 앞에 [타임락(timelock)](../smart-contracts/api/timelock-1.md)을 구현하여, OUSD 사용자가 제안된 업그레이드에 대해 거부 의사를 표명할 경우 자금을 회수할 수 있는 시간을 제공합니다. 타임락은 출시 7 일 후에 추가됩니다.
 
-**New and Existing Stakeholders**
+**신규 및 기존 이해 관계자**
 
-OUSD is a new project founded by Origin Protocol [team](www.originprotocol.com/team) and will be supported by the existing Origin community as well as many new stakeholders that choose to mint, hold, use, and provide liquidity for OUSD.
+OUSD는 오리진 프로토콜(Origin Protocol) [팀](www.originprotocol.com/team)에서 창안한 새로운 프로젝트이며, OUSD를 위해 주조, 보유, 사용 및 유동성 제공을 선택하는 많은 새로운 이해관계자 뿐만 아니라 기존 오리진(Origin) 커뮤니티의 지원을 받을 것입니다.
 
-In addition, we also want to ensure high participation from our existing Origin Token \(OGN\) holders, community of close to 500,000 members, and buyers/sellers on the Platform. Existing OGN holders will be able to stake their OGN to participate in governance and earn incentives for driving value to OUSD. More details will be provided in the near future.
+또한 기존 오리진 토큰 \(OGN\) 보유자, 50만 명에 가까운 회원으로 구성된 오리진 커뮤니티, 오리진 플랫폼의 구매자/판매자 등의 높은 참여도 보장하고자 합니다. 기존 OGN 보유자는 OGN을 투자하여 거버넌스에 참여하고 가치를 창출하는 인센티브를 획득할 수 있습니다. 보다 자세한 내용은 가까운 시일 내에 발표될 예정입니다.
 
-The strong connection between OUSD and the rest of the Origin commerce platform will fuel growth in both initiatives.
+OUSD와 나머지 Origin 커머스 플랫폼 간의 강력한 연결은 두 이니셔티브 모두에서 성장을 촉진할 것입니다.
 
 
 
