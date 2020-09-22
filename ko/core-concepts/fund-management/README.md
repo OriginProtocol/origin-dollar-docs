@@ -1,6 +1,8 @@
 # 자금 관리
 
-The OUSD [Vault]() smart contract aggregates all users' stablecoin deposits into a single pool of investable assets. Funds are then allocated across one or more [earning strategies](earning-strategies.md) at any given moment in time. The Vault favors high-yield strategies but also seeks to maintain diversification across multiple strategies. Diversification removes single points of failures and mitigates risks.
+The OUSD smart contract aggregates all users' stablecoin deposits into a single pool of investable assets. 그 후, 해당 기금은 특정 시점에 하나 이상의
 
-In contrast to Yearn Vaults, TokenSets, or Zapper opportunities, users do not select individual strategies. All deposited stablecoins and consequently all OUSD tokens are fungible.
+ 수익 전략<0>에 걸쳐 할당됩니다. 금고(Vault) 는 고수익 전략을 선호하지만, 여러 전략에서의 다양성을 유지하려고합니다. 다양성은 단일 장애 지점(single points of failures) 을 제거하고 위험을 완화합니다.</p> 
+
+와이언 볼트(Yearn Vaults), 토큰 셋 (TokenSets), 또는 재회 기회(Zapper opportunities) 와는 달리 사용자는 개별 전략을 선택하지 않습니다. 예치된 모든 스테이블 코인들은 결과적으로 모든 OUSD 토큰으로 대체 가능합니다.
 
