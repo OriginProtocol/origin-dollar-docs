@@ -1,6 +1,6 @@
-# Earning Strategies
+# 收益策略
 
-Earning strategies put deployed capital to work across various DeFi platforms. The Vault will determine which strategies are active and what percentage of deployed capital they will receive.
+收益策略将资金部署到各种DeFi平台。 保险库将决定哪些策略处于有效状态，以及它们将收到多少已部署资金。
 
-In addition, strategies will be upgraded over time. For example, at launch, there will be an initial [Compound strategy](../supported-strategies/compound.md). Over time, this may be replaced by a v2 or v3 Compound strategy.
+此外，策略会随着时间的推移而升级。 例如，在刚推出时，将有一个初始的 [Compound 策略](../supported-strategies/compound.md)。 随着时间的流逝，这可能会被 v2 或 v3 版本的 Compound 策略所取代。
 
