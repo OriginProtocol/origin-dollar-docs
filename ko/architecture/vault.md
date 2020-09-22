@@ -1,17 +1,17 @@
-# Vault
+# 금고(Vault)
 
-The vault is at the core of the protocol. The vault is responsible for minting/redeeming OUSD tokens, rebalancing funds between the various supported strategies, and liquidating rewards tokens.
+금고(vault) 는 프로토콜의 핵심입니다. 금고는 OUSD 토큰의 채굴 / 교환, 다양한 지원 전략 간의 자금 재조정, 보상 토큰 청산을 담당합니다.
 
-The most important publicly callable functions on the Vault are:
+금고에서 공개적으로 사용할 수 있는 가장 중요한 기능은 다음과 같습니다.
 
-* `mint()`allows a single supported stablecoin to be converted to OUSD
-* `mintMultiple()`allows multiple supported stablecoins to be converted to OUSD in a single call
-* `redeem()`allows a specified amount of OUSD to be redeemed for other supported stablecoins.
-* `redeemAll()`allows a user to redeem their entire balance of OUSD for other supported stablecoins. This is particularly useful since user balances are constantly growing as yield is accrued.
-* `rebase()`updates the balances for all users based on the value of the assets currently stored in the pool.
-* `allocate()`moves the assets under management into their prescribed [Stategies](strategies.md) to maximize yield and diversify risk.
+* `mint()`에서 지원되는 스테이블 코인 하나를 OUSD로 변환할 수 있습니다.
+* `mintMultiple()`을 사용하면, 지원되는 여러 스테이블 코인을 한 번의 호출로 OUSD로 변환할 수 있습니다.
+* `redeem ()`은 지정된 양의 OUSD를 지원되는 다른 스테이블 코인에 상환 할 수 있도록 합니다.
+* `redeemAll ()`은 사용자가 지원되는 다른 스테이블 코인을 위해 OUSD의 전체 잔액을 상환 할 수 있도록 합니다. 이는 수익이 발생함에 따라 사용자 잔액이 지속적으로 증가하기 때문에 특히 유용한 기능입니다.
+* `rebase ()`은 현재 풀에 저장된 자산의 값을 기반으로 모든 사용자의 잔액을 업데이트 합니다.
+* `allocate ()`은 관리중인 자산을 규정 된 [Stategies](strategies.md) 으로 이동하여 수익을 극대화하고 위험을 다각화 합니다.
 
-On redemptions, it is the protocol and not the user that decides which stablecoin\(s\) to return to the user. This decision of which coin\(s\) to return is based on the internal ratios of the assets that are being held in the pool.
+상환 시, 사용자에게 반환 할 스테이블 코인을 결정하는 것은 사용자가 아닌 프로토콜 입니다. 반환할 코인\(s\) 에 대한 결정은 풀에 보관 중인 자산의 내부 비율을 기반으로 합니다.
 
 
 
