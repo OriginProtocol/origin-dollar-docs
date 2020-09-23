@@ -10,7 +10,7 @@ OUSD Mint （铸造）允许任何人使用我们的 [DApp](www.ousd.com) 和 We
 
 For small amounts, the easiest way to start earning with OUSD is to buy it on a decentralized exchange like Uniswap. The current pairs are currently available:
 
-* [OUSD/USDT ](https://app.uniswap.org/#/swap?inputCurrency=0x2a8e1e676ec238d8a992307b495b45b3feaa5e86&outputCurrency=0xdac17f958d2ee523a2206206994597c13d831ec7)on Uniswap
+* [Buy OUSD on Uniswap](https://app.uniswap.org/#/swap?outputCurrency=0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86)
 
 此外，我们预计 OUSD 将很快在其他分去中心化和中心化交易所上广泛使用。
 
