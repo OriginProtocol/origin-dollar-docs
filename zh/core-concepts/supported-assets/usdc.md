@@ -4,7 +4,7 @@
 
 USD Coin （USDC）是与法定货币挂钩的ERC-20稳定币，于2018年10月在以太坊区块链上推出。 USDC 与美元挂钩，可以轻松地兑换成美元。
 
-每个 USDC 1：1 的比例支持，并由 Circle 和 Coinbase 成立的财团Centre 的成员在保管账户中持有等值的法定货币。 该中心的成员是设在美国的受监管金融机构。 每月的储备金审计由 Grant Thornton LLP 发布。
+每个 USDC 1：1 的比例支持，并由 Circle 和 Coinbase 成立的财团Centre 的成员在保管账户中持有等值的法定货币。 Centre的成员是设在美国的受监管金融机构。 每月的储备金审计由 Grant Thornton LLP 发布。
 
 USDC 是仅次于 USDT 全球第二大稳定币，并已迅速增长至超过 10 亿美元的流通量。 然而，USDC 仍远远落后于  USDT的 12 亿美元+ 的流通量。
 
