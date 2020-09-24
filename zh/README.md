@@ -1,10 +1,10 @@
 ---
-description: 首个在您的钱包中赚取收益的稳定币
+description: The first stablecoin that earns a yield while it's still in your wallet
 ---
 
-# 介绍
+# Introduction
 
-## **一种更好的货币形式**
+## **A Better Form of Money**
 
 Origin Dollar \(OUSD\) is a new stablecoin that was initially launched in September 2020 on the Ethereum network. Its design is superior to existing stablecoins because OUSD captures competitive yields while being passively held in wallets.
 
