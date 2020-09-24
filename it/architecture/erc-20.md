@@ -4,9 +4,9 @@
 
 OUSD è costituito da una serie di smart contract. Ciascuno di questi contratti è racchiuso in un contratto delega che può essere aggiornato tramite i protocolli di governance.
 
-Internamente, il possesso nella pool viene monitorata utilizzando un sistema di crediti che rappresenta la percentuale di possesso della pool per ciascun detentore. The ERC-20 contract handles the conversion to USD terms when viewing a balance or initiating a transfer between wallets.
+Internamente, il possesso nella pool viene monitorata utilizzando un sistema di crediti che rappresenta la percentuale di possesso della pool per ciascun detentore. Il contratto ERC-20 gestisce la conversione in USD quando si visualizza un saldo o si inizia un trasferimento tra wallet.
 
-The Vault is responsible for minting and burning OUSD. It also enforces the percentage of assets that are deployed to each of the supported [Strategies](../core-concepts/supported-strategies/). To optimize gas costs, the vault maintains a buffer to allow most deposits and redemptions to occur without winding/unwinding assets from strategies.
+Il Vault è responsabile del minting e del burning di OUSD. Inoltre, applica la percentuale di risorse da distribuire a ciascuna delle [Strategies](../core-concepts/supported-strategies/)supportate. To optimize gas costs, the vault maintains a buffer to allow most deposits and redemptions to occur without winding/unwinding assets from strategies.
 
 
 
