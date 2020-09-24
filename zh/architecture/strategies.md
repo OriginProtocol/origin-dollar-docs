@@ -1,10 +1,10 @@
-# Strategies
+# 策略
 
-New strategies can be added or removed at any time to respond to new market realities and diversify risk.
+新策略可以隨時被添加或刪除，以應對新的市場現實並分散風險。
 
-At launch, OUSD will take advantage of a single strategy and deploy deposited capital to Compound. We intend to deploy many other strategies soon thereafter.
+剛推出時，OUSD 將利用單一策略的優勢，並將已存入的資金部署到 Compound。 緊接著，我們打算部署許多其他策略。
 
-Once we migrate to decentralized governance, it is our intent for the community to propose new strategies and to vote on the appropriate weight for each strategy in the pool. We anticipate that most OUSD holders will value having some exposure to higher yield opportunities while maintaining more conservative positions for a portion of the funds.
+我們一旦遷移到去中心化治理方式，我們的目的是讓社區提出新的策略，並對池中每種策略的適當權重進行投票。 我們預計大多數 OUSD 持有者將珍視有較高收益率機會，同時對部分資金保持更為保守的頭寸。
 
 
 
