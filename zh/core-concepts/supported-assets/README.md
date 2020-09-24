@@ -1,10 +1,10 @@
-# Supported Stablecoins
+# 支持的穩定幣
 
-**Supported Stablecoins**
+**支持的穩定幣**
 
-It is important to understand that OUSD is only as strong as the stablecoins that are backing it. Any loss to the underlying assets will cause a similar loss to the value of OUSD.
+必須了解的是，OUSD 僅與支持它的穩定幣一樣強大。 底層資產的任何損失都將造成 OUSD 相似的損失。
 
-Currently, OUSD supports the following stablecoins:
+目前，OUSD 支持以下穩定幣：
 
 {% page-ref page="usdt.md" %}
 
@@ -12,9 +12,9 @@ Currently, OUSD supports the following stablecoins:
 
 {% page-ref page="dai.md" %}
 
-None of these stablecoins are perfect, but we selected them because of their widespread usage. While these stablecoins have lost their USD peg on multiple occasions, they have demonstrated resiliency in eventually getting back to their 1 USD targets.
+雖然這些穩定幣都不是完美的，但我們還是因為它們的廣泛使用而選擇它們。 儘管這些穩定幣多次失去與美元的掛鉤，但它們最終還是恢復到 1 美元的目標，表現出了韌性。
 
-It is important to note that all these stablecoins introduce non-trivial counter-party risk. Tether, in particular, has had well-documented banking troubles and regulatory challenges. In addition, both USDT and USDC have backdoors that grant their issuers the power to freeze money in their holder's wallets. While DAI does not have any direct backdoors, it's assets can also be negatively impacted since USDC is accepted as collateral for minting DAI.
+值得注意的是，所有這些穩定幣都會帶來重要的交易對手風險。 尤其是 Tether 遇到了許多銀行業麻煩和監管挑戰。 此外，USDT 和 USDC 都有後門，可以讓發行者有權凍結持有者錢包中的資金。 儘管 DAI 沒有任何直接後門程序，但由於 USDC 可以作為鑄造 DAI 的抵押品，因此 DAI 的資產也可能受到負面影響。
 
-Despite these concerns, there are already billions of dollars betting on the security of these stablecoins. It is possible that additional stablecoins will be added to the protocol over time. Support may also be removed if any of these stablecoins prove to be too unreliable or put OUSD holders funds in jeopardy. 
+儘管存在這些擔憂，現在已經有數十億美元押注於這些穩定幣的安全性。 接下來，其他的穩定幣也可能會被添加到協議中。 如果我們認為這些穩定幣中的任何一個變得不可靠或將 OUSD 持有者的資金處於危險之中，則可能會取消對其穩定幣的支持。 
 
