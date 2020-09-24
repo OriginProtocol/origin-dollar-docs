@@ -1,6 +1,6 @@
-# Supported Stablecoins
+# Stablecoin supportate
 
-**Supported Stablecoins**
+**Stablecoin supportate**
 
 It is important to understand that OUSD is only as strong as the stablecoins that are backing it. Any loss to the underlying assets will cause a similar loss to the value of OUSD.
 
