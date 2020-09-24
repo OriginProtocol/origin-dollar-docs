@@ -1,17 +1,17 @@
-# Vault
+# 保險庫 （Vault）
 
-The vault is at the core of the protocol. The vault is responsible for minting/redeeming OUSD tokens, rebalancing funds between the various supported strategies, and liquidating rewards tokens.
+保險庫是協議的核心。 保險庫負責鑄造/兌現 OUSD 代幣，在各種支持的策略之間重新平衡資金以及清算獎勵代幣。
 
-The most important publicly callable functions on the Vault are:
+保險庫最重要的可公開調用的功能是：
 
-* `mint()`allows a single supported stablecoin to be converted to OUSD
-* `mintMultiple()`allows multiple supported stablecoins to be converted to OUSD in a single call
-* `redeem()`allows a specified amount of OUSD to be redeemed for other supported stablecoins.
-* `redeemAll()`allows a user to redeem their entire balance of OUSD for other supported stablecoins. This is particularly useful since user balances are constantly growing as yield is accrued.
-* `rebase()`updates the balances for all users based on the value of the assets currently stored in the pool.
-* `allocate()`moves the assets under management into their prescribed [Stategies](strategies.md) to maximize yield and diversify risk.
+* `mint()`允許將一種受支持的穩定幣轉換為 OUSD
+* `mintMultiple()`允許在一次調用中將多種受支持的穩定幣轉同時換為 OUSD
+* `redeem()`允許將指定數量的 OUSD 兌換成其他受支持的穩定幣。
+* `redeemAll()`允許一個用戶將 OUSD 的全部餘額兌換成其他受支持的穩定幣。 這特別有用，因為隨著收益的增加，用戶的餘額會不斷增長。
+* `rebase()`根據當前存儲在池中的資產總值更新所有用戶的餘額。
+* `allocate()`將被管理的資產轉移到其規定的 [策略](strategies.md) 以將收益最大化和分散風險。
 
-On redemptions, it is the protocol and not the user that decides which stablecoin\(s\) to return to the user. This decision of which coin\(s\) to return is based on the internal ratios of the assets that are being held in the pool.
+兌現時，是由協議（而不是用戶）決定將哪個穩定幣退還給用戶。 決定退還哪個硬幣是基於池中所持有資產的比率。
 
 
 
