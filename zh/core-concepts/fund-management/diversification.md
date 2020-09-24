@@ -1,8 +1,8 @@
-# Diversification
+# 多样化
 
-The initial version of the OUSD Vault smart contract gives each valid strategy a simple weight between 0% and 100% to perform simple asset allocation. These weights will be shifted often via updates by Origin in the short-term and by decentralized governance in the long-term.
+OUSD 保险库智能合约的初始版本为每个有效策略赋予介于0％和100％之间的简单权重，以执行简单的资产分配。 在短期内这些权重会经常通过 Origin 发布的更新被调整，而长期会由去中心化的治理来进行调整。
 
-Diversification across multiple underlying DeFi [platforms](../supported-strategies/) will reduce smart contract and other systemic risks. The smart contract will calculate current and expected APYs in an effort to provide competitive returns to OUSD holders. Over time, the Vault contract will be upgraded to intelligently and autonomously shift between strategies without any manual intervention. For example, the Vault will automatically shift capital between various lending strategies to optimize for yields.
+使用多个底层 DeFi [平台](../supported-strategies/) 以多元化将降低智能合约和其他系统性风险。 智能合约将计算当前和预期的 APY，以为 OUSD 持有者提供有竞争力的回报。 随着时间的推移，保险库合同将升级为可以在多个策略之间进行智能和自动地切换，而无需任何手动干预。 例如，保险库会自动在各种借贷策略之间转移资金，以优化收益。
 
-However, it is still expected that certain risk parameters or decisions on whether certain strategies will be included in the automated decision-making engine will be made through governance votes. 
+但是，我们还是希望通过治理投票来做出一些类似风险参数或是否将某些策略包括在自动决策引擎中的决策。 
 
