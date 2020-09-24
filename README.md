@@ -20,11 +20,11 @@ description: 지갑에 넣어두면 이자가 생기는 최초의 스테이블 �
 
 설상가상으로 대출 및 거래 활동으로 인한 수익률은 빠르게 변합니다. 디파이 시장에 대한 경험이 있는 디파 수익 창출자는 여러 경쟁 플랫폼에서 자산 포트폴리오를 지속적으로 재조정 하는것에 익숙합니다. 그러나 아직 디파이 시장에 익숙하지 않은 사람들에게 디파이 시장은 다소 진입 장벽이 높습니다. 또한, 디파이 활동시 소요되는 스 요금은 다시 수확량을 낮추게 되므로, 시간과 비용이 많이 듭니다. 무엇보 APY가 불안정하고 지속적으로 변동하므로 실제 ROI를 계산하는데 시간이 많이 걸립니다. 쉬운 계정 단위\(unit of account\) 는 없습니다. 결과적으로 DeFi는 매우 빠르게 성장하고 있지만 여전히 많은 암호화폐 사용자가 참여하기 어렵습니다.
 
-OUSD 사용법이 훨씬 간편합니다. OUSD 를 사용하기 위하여, 복잡한 포지션을 풀 필요가 없습니다. 지출 가능한 자본의 잠금해제\(Unlock\)를 위해 가스를 지불하지 않고도 자유롭게 자본의 이동이 가능합니다. 또한 OUSD는 번거로움없이 DeFi에서 가장 높은 수익을 올릴 수있는 기회를 제공합니다. The OUSD smart contract will deploy your underlying capital to a diversified set of yield-earning strategies, rebalancing over time to achieve great yields while diversifying risk. 수익은 지갑에 자동으로 누적되고 OUSD를 보유하는 동안 지속적으로 복리가 붙습니다. 다시 말하지만, 스테이킹\(staking\) 이나 락업\(lockup\) 이 필요하지 않습니다. OUSD는 이상적인 계정 단위\(unit of account\) 역할도 합니다. DeFi 투자자는 수익을 계산하기 위해 더 이상 복잡한 스프레드시트\(spreadsheet\) 가 필요하지 않습니다. 복리 이자가 자동으로 붙으면서 지속적으로 업데이트되는 OUSD 잔액을 실시간으로 쉽게 볼 수 있기 때문입니다. OUSD는 DeFi 이자 농부\(yield farmer\) 와 초보 암호화폐 사용자 모두에게 이상적인 스테이블코인입니다.
+OUSD 사용법이 훨씬 간편합니다. OUSD 를 사용하기 위하여, 복잡한 포지션을 풀 필요가 없습니다. 지출 가능한 자본의 잠금해제\(Unlock\)를 위해 가스를 지불하지 않고도 자유롭게 자본의 이동이 가능합니다. 또한 OUSD는 번거로움없이 디파이 시에서 가장 높은 수익을 올릴 수있는 기회를 제공합니다. OUSD의 스마트 컨트렉트 기본 자본을 다양한 수익률 수익 전략에 배치하여 시간이 지남에 따라 균형을 재조정하고 리스크를 다양화할 것입니다. 수익은 지갑에 자동으로 누적되고 OUSD를 보유하는 동안 지속적으로 복리가 붙습니다. 다시 말하지만, 스테이킹\(staking\) 이나 락업\(lockup\) 이 필요하지 않습니다. OUSD는 이상적인 계정 단위\(unit of account\) 역할도 합니다. 디파 투자자는 수익을 계산하기 위해 더 이상 복잡한 스프레드시트\(spreadsheet\) 가 필요하지 않습니다. 복리 이자가 자동으로 붙으면서 지속적으로 업데이트되는 OUSD 잔액을 실시간으로 쉽게 볼 수 있기 때문입니다. OUSD는 디파이 자 농부\(yield farmer\) 와 초보 암호화폐 사용자 모두에게 이상적인 스테이블코인입니다.
 
-암호화폐 및 핀테크 베테랑이 만든 Origin Dollar는 연쇄 창업가, 초기 암호 화폐 투자자, YouTube의 초기 직원, Google / Dropbox의 엔지니어링 관리자, Paypal 중 하나를 포함하는 [Origin Protocol](https://www.originprotocol.com) 의 [팀](https://www.originprotocol.com/team) 에서 제공합니다. 공동 창립자, Yu Pan.
+암호화폐 및 핀테크 베테랑이 만든 오리진 달러\(Origin Dollar\)는 연쇄 창업가, 초기 암호 화폐 투자자, 유투브\(YouTube\)의 초기 직원, 구글\(Google\) / 드랍박스\(Dropbox\)의 엔지니어링 관리자, 페이팔\(Paypal\) 공동 창립자 중 한 명인 유팬\(Yu Pan\)이 함께하  오리진 프로토콜\([Origin Protocol](https://www.originprotocol.com)\)  [팀](https://www.originprotocol.com/team) 에서 제공합니다. 
 
-이 문서는 작동 방식에 대한 기술적 세부사항에 관심있는 사람들이 시작하기에 좋은 곳입니다. 개발자가 [Github](http://www.github.com/OriginProtocol)  \(100 % 오픈 소스 \)를 감사하고 기여하도록 권장합니다. 질문이 있거나 시작하는 데 도움이 필요한 경우 저희 팀이 많은 시간을 보내는 [Discord](https://www.originprotocol.com/discord)를 찾아주세요.
+이 문서는 OUSD 작동 방식에 대한 기술적 세부 사항에 관심있는 사람들을 위해 준비되었습니. 개발자가 [Github](http://www.github.com/OriginProtocol)  \(100 % 오픈소스\)를 감사하고 개발에 함께 기여하도록 권장합니다. 질문이 있거나 시작하는 데 도움이 필요한 경우 저희 팀이 많은 시간을 보내는 디스코드\([Discord](https://www.originprotocol.com/discord)\)를 찾아주세요.
 
-'미래의 돈'에 오신 것을 환영합니다.
+'돈의 미래\(Future of Money\)'에 오신 것을 환영합니다.
 
