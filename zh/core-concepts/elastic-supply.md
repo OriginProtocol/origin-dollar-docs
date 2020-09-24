@@ -1,18 +1,18 @@
-# Elastic Supply
+# 弹性供应
 
-**Elastic Supply. Stable Price.**
+**弹性供应。 价格稳定。**
 
-OUSD works differently than most tokens. Instead of the price increasing as the value of the assets under management increase \(as with Compound cTokens or Yearn yTokens\), the value of one OUSD remains constant at approximately $1. Instead, the contracts constantly adjust the monetary supply and automatically updates the balance in every token holder’s wallet to reflect the yield that has been earned by the protocol.
+OUSD 与大多数代币的运作方式不同。 与 Compound cToken 或 Yearn yTokens 不一样的是，一个 OUSD 的价值保持在大约 1 美元。 合余额不断调整货币供应量，并自动更新每个代币持有者钱包中的余额，以反映协议所赚取的收益。
 
 {% hint style="info" %}
-Think of it as interest accruing in your bank account. The unit of account and value for the US dollar doesn’t change. You just get more US dollars over time as you earn interest.
+您可以将其视为银行帐户中的利息。 美元的帐户单位和价值不变。 当您赚取利息时，您将获得更多美元。
 {% endhint %}
 
 ![](../.gitbook/assets/ousd_docs_graphics_4.png)
 
-This mechanism was inspired by the novel approach taken by [Ampleforth](https://www.ampleforth.org/), but there are some key differences that are worth highlighting:
+这个机制的灵感来自于 [Ampleforth](https://www.ampleforth.org/)，但是也有一些重要的区别值得强调：
 
-1. OUSD is 100% backed by other stablecoins and will not have the same challenge maintaining the peg to the dollar. Given the ease of minting and redeeming OUSD, we can count on arbitrageurs to ensure the peg is maintained.
-2. OUSD rebasing is heavily biased towards increasing supply since the amount of OUSD minted is tied to the realized gains earned by the underlying strategies. Other than the fluctuations in price that are common with the underlying stablecoins, you should not see your OUSD balance go down. Your principal is protected as long as nothing goes wrong with the underlying lending/AMM and stablecoin protocols. Any major decrease in your balance would be an indication of trouble in the system.
-3. Unlike Ampleforth, which rebases once a day, the monetary supply of OUSD is constantly being updated in real-time as yield is generated.
+1. OUSD 100％ 由其他稳定币支持，在保持与美元挂钩方面不会遇到相同的挑战。 由于 OUSD 的发行和赎回很容易，我们可以依靠套利者来确保OUSD, 钉住美元。
+2. OUSD 的重新平衡机制非常偏向于增加供应量，因为 OUSD 的铸造量与基础策略所获得的收益相关。 除了基础稳定币常见的价格波动之外，您应该不会看到 OUSD 余额下降。 只要基础贷款 / AMM和稳定币协议没有任何问题，您的资金就会受到保护。 余额的重大减少将代表系统出现了问题。
+3. 不像 Ampleforth 每天重新平衡的机制，OUSD 的货币供应随着收益的产生而持续地实时更新。
 
