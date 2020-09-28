@@ -1,10 +1,10 @@
-# Supported Stablecoins
+# Desteklenen Stablecoinler
 
-**Supported Stablecoins**
+**Desteklenen Stablecoinler**
 
-It is important to understand that OUSD is only as strong as the stablecoins that are backing it. Any loss to the underlying assets will cause a similar loss to the value of OUSD.
+OUSD'nin yalnızca onu destekleyen stabilcoinler kadar güçlü olduğunu anlamak önemlidir. Dayanak varlıklardaki herhangi bir kayıp, OUSD değerinde benzer bir kayba neden olacaktır.
 
-Currently, OUSD supports the following stablecoins:
+Şu anda, OUSD aşağıdaki stabilcoinleri desteklemektedir:
 
 {% page-ref page="usdt.md" %}
 
@@ -12,9 +12,9 @@ Currently, OUSD supports the following stablecoins:
 
 {% page-ref page="dai.md" %}
 
-None of these stablecoins are perfect, but we selected them because of their widespread usage. While these stablecoins have lost their USD peg on multiple occasions, they have demonstrated resiliency in eventually getting back to their 1 USD targets.
+Bu stabilcoinlerin hiçbiri mükemmel değil, ancak yaygın kullanımları nedeniyle onları seçtik. Bu stabilcoinler, birçok durumda USD sabitlerini kaybetmiş olsalar da, sonunda 1 USD hedeflerine geri dönme esnekliğini gösterdiler.
 
-It is important to note that all these stablecoins introduce non-trivial counter-party risk. Tether, in particular, has had well-documented banking troubles and regulatory challenges. In addition, both USDT and USDC have backdoors that grant their issuers the power to freeze money in their holder's wallets. While DAI does not have any direct backdoors, it's assets can also be negatively impacted since USDC is accepted as collateral for minting DAI.
+Tüm bu stablecoin'lerin önemsiz olmayan karşı taraf riski oluşturduğuna dikkat etmek önemlidir. Özellikle Tether, iyi belgelenmiş bankacılık sorunları ve yasal zorluklar yaşadı. Ek olarak, hem USDT hem de USDC, ihraççılarına sahiplerinin cüzdanlarında para dondurma yetkisi veren arka kapılara sahiptir. DAI'nin herhangi bir doğrudan arka kapısı bulunmamakla birlikte, USDC'nin DAI basımı için teminat olarak kabul edilmesi nedeniyle varlıkları da olumsuz etkilenebilir.
 
-Despite these concerns, there are already billions of dollars betting on the security of these stablecoins. It is possible that additional stablecoins will be added to the protocol over time. Support may also be removed if any of these stablecoins prove to be too unreliable or put OUSD holders funds in jeopardy. 
+Bu endişelere rağmen, bu stabilcoinlerin güvenliği için zaten milyarlarca dolar bahis var. Zamanla protokole ek stabilcoinlerin eklenmesi mümkündür. Bu stabilcoinlerden herhangi birinin çok güvenilmez olduğu veya OUSD sahiplerinin fonlarını tehlikeye attığı durumlarda destek de kaldırılabilir. 
 
