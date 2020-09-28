@@ -1,12 +1,12 @@
-# Overview
+# Genel Bakış
 
 ![](../.gitbook/assets/ousd_docs_graphics_3.png)
 
-OUSD is made up of a series of smart contracts. Each of these contracts is wrapped in a proxy contract that can be upgraded via the governance protocols.
+OUSD, bir dizi akıllı sözleşmeden oluşur. Bu sözleşmelerin her biri, yönetişim protokolleri aracılığıyla yükseltilebilen bir vekil sözleşmesine sarılmıştır.
 
-Internally, ownership in the pool is tracked using a credits system that represents the percent ownership of the pool for each holder. The ERC-20 contract handles the conversion to USD terms when viewing a balance or initiating a transfer between wallets.
+Dahili olarak, havuzdaki sahiplik, her bir sahip için havuzun sahiplik yüzdesini temsil eden bir kredi sistemi kullanılarak izlenir. ERC-20 sözleşmesi, bir bakiyeyi görüntülerken veya cüzdanlar arasında bir transfer başlatırken USD şartlarına dönüştürmeyi ele alır.
 
-The Vault is responsible for minting and burning OUSD. It also enforces the percentage of assets that are deployed to each of the supported [Strategies](../core-concepts/supported-strategies/). To optimize gas costs, the vault maintains a buffer to allow most deposits and redemptions to occur without winding/unwinding assets from strategies.
+Kasa, OUSD'yi basmaktan ve yakmaktan sorumludur. Ayrıca, desteklenen [ Stratejileri ](../core-concepts/supported-strategies/) 'nin her birine dağıtılan varlıkların yüzdesini de uygular. Depo, gaz maliyetlerini optimize etmek için, çoğu biriktirme ve itfanın varlıkları stratejilerden sarmadan / çözmeden gerçekleşmesine izin veren bir tampon bulundurur.
 
 
 
