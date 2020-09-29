@@ -1,21 +1,21 @@
-# Table of contents
+# Tabla de contenido
 
-* [Introduction](README.md)
-* [How It Works](how-it-works.md)
-* [Getting Started](getting-started.md)
+* [Introducción](README.md)
+* [Cómo funciona](how-it-works.md)
+* [Empezando](getting-started.md)
 
-## Core Concepts
+## Conceptos básicos
 
-* [Elastic Supply](core-concepts/elastic-supply.md)
-* [Yield Generation](core-concepts/yield-generation/README.md)
-  * [Lending](core-concepts/yield-generation/lending.md)
-  * [Market Making](core-concepts/yield-generation/market-making.md)
-  * [Rewards](core-concepts/yield-generation/rewards.md)
-* [Supported Stablecoins](core-concepts/supported-assets/README.md)
+* [Suministro elástico](core-concepts/elastic-supply.md)
+* [Generación de rendimiento](core-concepts/yield-generation/README.md)
+  * [Préstamo](core-concepts/yield-generation/lending.md)
+  * [Creación de Mercado](core-concepts/yield-generation/market-making.md)
+  * [Recompensas](core-concepts/yield-generation/rewards.md)
+* [Monedas Estables Soportadas](core-concepts/supported-assets/README.md)
   * [USDT](core-concepts/supported-assets/usdt.md)
   * [USDC](core-concepts/supported-assets/usdc.md)
   * [DAI](core-concepts/supported-assets/dai.md)
-* [Supported Strategies](core-concepts/supported-strategies/README.md)
+* [Estrategias Apoyadas](core-concepts/supported-strategies/README.md)
   * [Compound](core-concepts/supported-strategies/compound.md)
   * [Aave](core-concepts/supported-strategies/aave.md)
   * [dYdX](core-concepts/supported-strategies/dydx.md)
@@ -23,19 +23,19 @@
   * [Curve](core-concepts/supported-strategies/curve.md)
   * [Balancer](core-concepts/supported-strategies/balancer.md)
   * [Yearn.finance](core-concepts/supported-strategies/yearn.finance.md)
-* [Fund Management](core-concepts/fund-management/README.md)
-  * [Earning Strategies](core-concepts/fund-management/earning-strategies.md)
-  * [Diversification](core-concepts/fund-management/diversification.md)
-* [Price Oracles](core-concepts/price-oracles.md)
+* [Gestión de fondos](core-concepts/fund-management/README.md)
+  * [Estrategias de ganancias](core-concepts/fund-management/earning-strategies.md)
+  * [Diversificación](core-concepts/fund-management/diversification.md)
+* [Precio de Oráculos](core-concepts/price-oracles.md)
 
-## Governance
+## Gobernancia
 
-* [Principles](governance/governance.md)
-* [Admin Privileges](governance/admin-privileges.md)
+* [Principios](governance/governance.md)
+* [Privilegios de Administrador](governance/admin-privileges.md)
 
-## Smart Contracts
+## Contratos Inteligentes
 
-* [Architecture](smart-contracts/erc-20.md)
+* [Arquitectura](smart-contracts/erc-20.md)
 * [Registry](smart-contracts/registry.md)
 * [API](smart-contracts/api/README.md)
   * [Vault](smart-contracts/api/vault.md)
