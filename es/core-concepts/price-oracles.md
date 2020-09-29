@@ -149,20 +149,20 @@ Los siguientes oráculos se utilizan para obtener o calcular un precio de **DAI 
 {% tab title = "DAI / USD"%}
 Los siguientes oráculos se utilizan para obtener o calcular un precio de **DAI / USD:**
 
-| Oráculo                  | Par        | Contrato                                     |
-|:------------------------ |:---------- |:-------------------------------------------- |
-| Chainlink                | USDT / ETH | 0xdE54467873c3BCAA76421061036053e371721708   |
-| Feed de Precios Abiertos | USDC / USD | 0xc629c26dced4277419cde234012f8160a0278a79   |
-| _Uniswap v2_             | _USDC/ETH_ | _0xb4e16d0168e52d35cacd2c6185b44281ec28c9dc_ |
+| Oráculo                  | Par          | Contrato                                     |
+|:------------------------ |:------------ |:-------------------------------------------- |
+| Chainlink                | USDT / ETH   | 0xdE54467873c3BCAA76421061036053e371721708   |
+| Feed de Precios Abiertos | USDC / USD   | 0xc629c26dced4277419cde234012f8160a0278a79   |
+| _Uniswap v2_             | _USDT / ETH_ | _0xb4e16d0168e52d35cacd2c6185b44281ec28c9dc_ |
 {% endtab %}
 
-{% tab title="ETH/USD" %}
-Since not all oracles have direct USD pairs, the protocol also fetches the prices for **ETH/USD** in order to calculate USD prices using ETH. Again, to be safe, the protocol chooses the most advantageous for the fund instead of the individual.
+{% tab title = "DAI / USD"%}
+Dado que no todos los oráculos tienen pares de USD directos, el protocolo también obtiene los precios de **ETH / USD** para calcular los precios en USD utilizando ETH. Nuevamente, para estar seguro, el protocolo elige lo más ventajoso para el fondo en lugar del individuo.
 
-| Oracle          | Pair    | Contract                                   |
-|:--------------- |:------- |:------------------------------------------ |
-| Open Price Feed | ETH/USD | 0xc629c26dced4277419cde234012f8160a0278a79 |
-| Chainlink       | ETH/USD | 0xF79D6aFBb6dA890132F9D7c355e3015f15F3406F |
+| Oráculo                  | Par       | Contrato                                   |
+|:------------------------ |:--------- |:------------------------------------------ |
+| Feed de Precios Abiertos | ETH / USD | 0xc629c26dced4277419cde234012f8160a0278a79 |
+| Chainlink                | ETH / USD | 0xF79D6aFBb6dA890132F9D7c355e3015f15F3406F |
 {% endtab %}
 {% endtabs %}
 
