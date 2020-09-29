@@ -1,12 +1,14 @@
-# Getting Started
+# Empezando
 
-These docs are intended to explain how OUSD works, communicate the potential risks and benefits, and provide a guide for developers who wish to contribute to our codebase or integrate OUSD into their products. Here are a few ways for you to dive in and get started.
+Estos documentos están destinados a explicar cómo funciona OUSD, comunicar los riesgos y beneficios potenciales y proporcionar una guía para los desarrolladores que deseen contribuir a nuestro código base o integrar OUSD en sus productos. Aquí hay algunas formas en las que puede sumergirse y comenzar.
 
-**Mint or Redeem**
+**Acuñar o Canjear**
 
-The OUSD Mint allows anyone to create or trade in OUSD tokens using our [DApp](www.ousd.com) and a web-3 enabled cryptocurrency wallet like [Metamask](https://www.metamask.io). This is the native way to get OUSD, especially if you want a large amount that could risk moving the market on other exchanges.
+Acuñar OUSD permite a cualquier persona crear o intercambiar tokens OUSD utilizando nuestra [DApp](www.ousd.com) y una billetera
 
-**Buy on Exchanges**
+ de criptomonedas habilitada para web-3 como [ Metamask](https://www.metamask.io). Esta es la forma nativa de obtener OUSD, especialmente si desea una gran cantidad que podría correr el riesgo de mover el mercado en otras plataformas de intercambio.</p> 
+
+**Comprar en Plataformas de Intercambio**
 
 For small amounts, the easiest way to start earning with OUSD is to buy it on a decentralized exchange like Uniswap. The current pairs are currently available:
 
@@ -18,17 +20,19 @@ In addition, we anticipate that OUSD will soon be widely available on additional
 **Adding OUSD to Your Wallet**
 
 {% hint style="success" %}
+
 The main ERC20 address for Origin Dollar \(OUSD\) is:   
-**0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86**
+**0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86** 
+
 {% endhint %}
 
-If your OUSD does not automatically show up in your wallet, you should be able to add it manually using the address above. We want to have OUSD supported by as many wallets as possible and included on all the various lists of well-known tokens. We would greatly appreciate any help you can offer in this area.
+If your OUSD does not automatically show up in your wallet, you should be able to add it manually using the address above. We want to have OUSD supported by as many wallets as possible and included on all the various lists of well-known tokens. We would greatly appreciate any help you can offer in this area. 
 
 **Integrating OUSD**
 
 OUSD is a non-standard ERC-20 token that requires custom integration work for most applications that wish to support it. In particular, it is important for developers to understand how our elastic supply works as this can easily cause unexpected behavior.
 
-If you are a wallet provider or crypto exchange that is interested in supporting OUSD, please refer to the following guides:
+If you are a wallet provider or crypto exchange that is interested in supporting OUSD, please refer to the following guides: 
 
 {% page-ref page="smart-contracts/erc-20.md" %}
 
