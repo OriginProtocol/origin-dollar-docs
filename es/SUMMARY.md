@@ -36,22 +36,22 @@
 ## Contratos Inteligentes
 
 * [Arquitectura](smart-contracts/erc-20.md)
-* [Registry](smart-contracts/registry.md)
+* [Registro](smart-contracts/registry.md)
 * [API](smart-contracts/api/README.md)
-  * [Vault](smart-contracts/api/vault.md)
+  * [Bóveda](smart-contracts/api/vault.md)
   * [ERC-20](smart-contracts/api/erc-20-1.md)
-  * [Timelock](smart-contracts/api/timelock-1.md)
-  * [Oracles](smart-contracts/api/oracle.md)
-  * [Strategies](smart-contracts/api/strategies.md)
+  * [Bloqueo de Tiempo](smart-contracts/api/timelock-1.md)
+  * [Oráculos](smart-contracts/api/oracle.md)
+  * [Estrategias](smart-contracts/api/strategies.md)
 
-## Security & Risks
+## Seguridad & Riesgos
 
-* [Risks](security-and-risks/risks.md)
-* [Audits](security-and-risks/untitled.md)
-* [Bug Bounties](security-and-risks/asset-risk.md)
-* [Contributing](security-and-risks/contributing.md)
+* [Riesgos](security-and-risks/risks.md)
+* [Auditorias](security-and-risks/untitled.md)
+* [Recompensas de Errores](security-and-risks/asset-risk.md)
+* [Contribuyendo](security-and-risks/contributing.md)
 
-## Links
+## Enlaces
 
 * [Github](https://www.github.com/originprotocol/origin-dollar)
 * [Discord](https://www.originprotocol.com/discord)
