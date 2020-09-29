@@ -1,17 +1,17 @@
-# Table of contents
+# Daftar Isi
 
-* [Introduction](README.md)
-* [How It Works](how-it-works.md)
-* [Getting Started](getting-started.md)
+* [Pengantar](README.md)
+* [Cara kerjanya](how-it-works.md)
+* [Mulai](getting-started.md)
 
-## Core Concepts
+## Konsep inti
 
-* [Elastic Supply](core-concepts/elastic-supply.md)
-* [Yield Generation](core-concepts/yield-generation/README.md)
-  * [Lending](core-concepts/yield-generation/lending.md)
-  * [Market Making](core-concepts/yield-generation/market-making.md)
-  * [Rewards](core-concepts/yield-generation/rewards.md)
-* [Supported Stablecoins](core-concepts/supported-assets/README.md)
+* [Pasokan Elastis](core-concepts/elastic-supply.md)
+* [Menghasilkan keuntungan](core-concepts/yield-generation/README.md)
+  * [Pinjaman](core-concepts/yield-generation/lending.md)
+  * [Pembuatan Pasar](core-concepts/yield-generation/market-making.md)
+  * [Hadiah](core-concepts/yield-generation/rewards.md)
+* [Stablecoin yang Didukung](core-concepts/supported-assets/README.md)
   * [USDT](core-concepts/supported-assets/usdt.md)
   * [USDC](core-concepts/supported-assets/usdc.md)
   * [DAI](core-concepts/supported-assets/dai.md)
