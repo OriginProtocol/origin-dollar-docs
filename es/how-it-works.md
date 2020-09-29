@@ -4,7 +4,7 @@
 
 Origin Dollar \ (OUSD \) es un token compatible con ERC-20 para la red de Ethereum.
 
-OUSD es una moneda estable que está respaldada 1:1 por otras monedas estables como USDT, USDC y DAI. As a result, 1 OUSD should always be very close to 1 USD in value.
+OUSD es una moneda estable que está respaldada 1:1 por otras monedas estables como USDT, USDC y DAI. Como resultado, 1 OUSD siempre debería estar muy cerca de 1 USD en valor.
 
 {% hint style="success" %}
 1 OUSD = 1 USD
