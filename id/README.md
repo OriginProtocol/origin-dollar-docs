@@ -1,30 +1,30 @@
 ---
-description: The first stablecoin that earns a yield while it's still in your wallet
+description: Stablecoin pertama yang menghasilkan keuntungan saat masih ada di dompet Anda
 ---
 
-# Introduction
+# Pengantar
 
-## **A Better Form of Money**
+## **Bentuk Uang yang Lebih Baik**
 
-Origin Dollar \(OUSD\) is a new stablecoin that was initially launched in September 2020 on the Ethereum network. Its design is superior to existing stablecoins because OUSD captures competitive yields while being passively held in wallets.
+Origin Dollar \ (OUSD \) adalah stablecoin baru yang pertama kali diluncurkan pada September 2020 di jaringan Ethereum. Desainnya lebih unggul dari stablecoin yang sudah ada karena OUSD menangkap hasil yang kompetitif saat disimpan secara pasif di dompet.
 
 ![](.gitbook/assets/origin-dollar-summary.jpeg)
 
-**Background**
+**Latar Belakang**
 
-In 1999, Yu Pan, Origin’s R&D engineer, and his fellow PayPal co-founders [conceived](https://www.cnbc.com/2017/08/14/david-sacks-cryptocurrency-interview.html) of creating “the new world currency”, complete with interest yielding strategies and debit cards without having to connect to traditional banking systems. Several pivots and an eBay acquisition later, PayPal dropped its ambitions in this area.
+Pada tahun 1999, Yu Pan, insinyur R&D Origin, dan rekan sesama pendiri PayPal [memahami](https://www.cnbc.com/2017/08/14/david-sacks-cryptocurrency-interview.html) menciptakan "mata uang dunia baru", lengkap dengan strategi menghasilkan bunga dan kartu debit tanpa harus terhubung ke sistem perbankan tradisional. Beberapa pivot dan akuisisi eBay kemudian, PayPal menjatuhkan ambisinya di bidang ini.
 
-Almost two decades later, Tether introduced the concept of a USD-denominated stablecoin in 2014. Since then, stablecoins have proven themselves as an ideal way of transferring value without exposing users to the price volatility of free-floating currencies. Today, more value is [transferred via Tether](https://www.bloomberg.com/news/articles/2019-10-01/tether-not-bitcoin-likely-the-world-s-most-used-cryptocurrency) than with Bitcoin. Meanwhile, Decentralized Finance \(DeFi\) has experienced an explosion of growth with [billions of dollars](https://defipulse.com/) of capital now locked up in smart contracts that generate yields from lending and trading protocols.
+Hampir dua dekade kemudian, Tether memperkenalkan konsep stablecoin dalam mata uang USD pada tahun 2014. Sejak saat itu, stablecoin telah membuktikan dirinya sebagai cara ideal untuk mentransfer nilai tanpa membuat pengguna rentan terhadap volatilitas harga mata uang yang mengambang bebas. Saat ini, lebih banyak nilai [ditransfer melalui Tether](https://www.bloomberg.com/news/articles/2019-10-01/tether-not-bitcoin-likely-the-world-s-most-used-cryptocurrency) daripada dengan Bitcoin. Sementara itu, Keuangan Terdesentralisasi \ (DeFi \) telah mengalami ledakan pertumbuhan dengan modal [miliar dolar](https://defipulse.com/) sekarang terkunci dalam kontrak pintar yang menghasilkan imbal hasil dari protokol pinjaman dan perdagangan.
 
-One of the problems with existing stablecoins is that users have to constantly choose between holding an easily spendable coin and earning yields by locking their tokens up in smart contracts. For example, users that lock up USDC in Aave cannot spend a portion of that USDC simultaneously. Expensive Ethereum gas fees serve as "switching costs" each time those users want to switch between spending mode and earning mode.
+Salah satu masalah dengan stablecoin yang ada adalah bahwa pengguna harus terus-menerus memilih antara memegang koin yang mudah digunakan dan mendapatkan hasil dengan mengunci token mereka dalam kontrak pintar. Misalnya, pengguna yang mengunci USDC di Aave tidak dapat membelanjakan sebagian dari USDC tersebut secara bersamaan. Biaya gas Ethereum yang mahal berfungsi sebagai "biaya peralihan" setiap kali pengguna tersebut ingin beralih antara mode pengeluaran dan mode penghasilan.
 
-To make matters worse, yields from lending and trading activities change rapidly. Sophisticated DeFi yield earners are familiar with constantly having to rebalance their portfolio of assets across many competing platforms. This is time-consuming and expensive as gas fees once again eat into yields. In addition, it is time-consuming to calculate real ROI as APYs are unstable and constantly fluctuating. There isn't an easy unit of account. As a result, while DeFi is growing extremely rapidly, it still makes it difficult for many cryptocurrency users to participate.
+Lebih buruk lagi, hasil dari aktivitas pinjaman dan perdagangan berubah dengan cepat. Para penerima imbal hasil DeFi yang canggih terbiasa dengan keharusan untuk terus menyeimbangkan kembali portofolio aset mereka di banyak platform yang bersaing. Ini memakan waktu dan mahal karena biaya gas sekali lagi menggerogoti hasil panen. Selain itu, menghitung ROI nyata memakan waktu karena APY tidak stabil dan terus berfluktuasi. Tidak ada unit akun yang mudah. Akibatnya, sementara DeFi berkembang sangat pesat, itu masih menyulitkan banyak pengguna cryptocurrency untuk berpartisipasi.
 
-With OUSD, there’s no need to unwind complicated positions when you want to spend your OUSD. You can transfer it freely without having to pay gas to unlock spendable capital. In addition, OUSD gives you access to some of the highest-earning opportunities across DeFi with none of the hassles. The OUSD smart contract will deploy your underlying capital to a diversified set of yield-earning strategies, rebalancing over time to achieve great yields while diversifying risk. Earnings automatically accrue in your wallet and compound continuously while you hold OUSD. Again, no staking or lockups are required. OUSD also serves as an ideal unit of account. DeFi investors no longer need complicated spreadsheets to calculate their earnings as they can easily see their constantly updated OUSD balances in real-time as their interest compounds automatically. OUSD is an ideal stablecoin for DeFi yield farmers and novice cryptocurrency users alike.
+Dengan OUSD, tidak perlu melepaskan posisi yang rumit saat Anda ingin membelanjakan OUSD. Anda dapat mentransfernya dengan bebas tanpa harus membayar gas untuk membuka kunci modal yang dapat dihabiskan. Selain itu, OUSD memberi Anda akses ke beberapa peluang berpenghasilan tertinggi di DeFi tanpa kerepotan. Kontrak pintar OUSD akan menyebarkan modal dasar Anda ke serangkaian strategi perolehan hasil yang terdiversifikasi, menyeimbangkan kembali dari waktu ke waktu untuk mencapai hasil yang besar sambil mendiversifikasi risiko. Penghasilan secara otomatis bertambah di dompet Anda dan terus bertambah selama Anda memegang OUSD. Sekali lagi, tidak diperlukan staking atau lockup. OUSD juga berfungsi sebagai unit akun yang ideal. Investor DeFi tidak lagi membutuhkan spreadsheet yang rumit untuk menghitung pendapatan mereka karena mereka dapat dengan mudah melihat saldo OUSD mereka yang terus diperbarui secara real-time karena bunga mereka bertambah secara otomatis. OUSD adalah stablecoin ideal untuk petani hasil DeFi dan pengguna cryptocurrency pemula.
 
-Created by cryptocurrency and fintech veterans, the Origin Dollar is brought to you by the [team](https://www.originprotocol.com/team) at [Origin Protocol](https://www.originprotocol.com) that includes serial entrepreneurs, early cryptocurrency investors, early employees at YouTube, engineering managers at Google/Dropbox, and one of the Paypal co-founders, Yu Pan.
+Dibuat oleh para veteran cryptocurrency dan fintech, Origin Dollar dipersembahkan oleh [tim](https://www.originprotocol.com/team) di [Origin Protocol](https://www.originprotocol.com) yang mencakup pengusaha serial, investor cryptocurrency awal, karyawan awal di YouTube, manajer teknik di Google / Dropbox, dan salah satu pendiri Paypal, Yu Pan.
 
-For those interested in diving into the technical details of how it works, these docs are a great place to start. We encourage developers to audit and contribute to our [Github](http://www.github.com/OriginProtocol) \(100% open-source\). Our team hangs out in [Discord](https://www.originprotocol.com/discord) if you have questions or need help getting started.
+Bagi mereka yang tertarik mempelajari detail teknis tentang cara kerjanya, dokumen ini adalah tempat yang tepat untuk memulai. Kami mendorong para pengembang untuk mengaudit dan berkontribusi pada [Github](http://www.github.com/OriginProtocol) \ (100% open-source \) kami. Tim kami berkumpul di [Discord](https://www.originprotocol.com/discord) jika Anda memiliki pertanyaan atau membutuhkan bantuan untuk memulai.
 
-Welcome to the future of money.
+Selamat datang di masa depan uang.
 
