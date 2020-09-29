@@ -11,7 +11,7 @@ Las funciones que se pueden llamar públicamente más importantes en la Bóveda 
 * `Rebasar ()`actualiza los saldos de todos los usuarios en función del valor de los activos almacenados actualmente en el grupo de liquidez.
 * `Asignar ()`mueve los activos bajo administración a sus [estrategias prescritas](strategies.md) para maximizar el rendimiento y diversificar el riesgo.
 
-En los canjes, es el protocolo y no el usuario el que decide qué moneda estable \ (s \) devolver al usuario. Esta decisión de qué moneda \ (s \) devolver se basa en las relaciones internas de los activos que se mantienen en el fondo común.
+En los canjes, es el protocolo y no el usuario el que decide qué moneda estable \ (s \) devolver al usuario. Esta decisión de qué moneda \ (s \) devolver se basa en las relaciones internas de los activos que se mantienen en el grupo de liquidez.
 
 
 
