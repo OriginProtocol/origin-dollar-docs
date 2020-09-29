@@ -1,17 +1,17 @@
-# Vault
+# Bóveda
 
-The vault is at the core of the protocol. The vault is responsible for minting/redeeming OUSD tokens, rebalancing funds between the various supported strategies, and liquidating rewards tokens.
+La bóveda es el núcleo del protocolo. La bóveda es responsable de acuñar / canjear tokens OUSD, reequilibrar fondos entre las diversas estrategias compatibles y liquidar tokens de recompensa.
 
-The most important publicly callable functions on the Vault are:
+Las funciones que se pueden llamar públicamente más importantes en la Bóveda son:
 
-* `mint()`allows a single supported stablecoin to be converted to OUSD
-* `mintMultiple()`allows multiple supported stablecoins to be converted to OUSD in a single call
-* `redeem()`allows a specified amount of OUSD to be redeemed for other supported stablecoins.
-* `redeemAll()`allows a user to redeem their entire balance of OUSD for other supported stablecoins. This is particularly useful since user balances are constantly growing as yield is accrued.
-* `rebase()`updates the balances for all users based on the value of the assets currently stored in the pool.
-* `allocate()`moves the assets under management into their prescribed [Stategies](strategies.md) to maximize yield and diversify risk.
+* `Acuñar ()`permite convertir una única moneda estable compatible a OUSD
+* ` Acuña-Multiple ()`permite convertir múltiples monedas estables compatibles a OUSD en una sola llamada
+* `Canjear ()`permite canjear una cantidad específica de OUSD por otras monedas estables admitidas.
+* `Canjear todo ()`permite a un usuario canjear su saldo completo de OUSD por otras monedas estables compatibles. Esto es particularmente útil ya que los saldos de los usuarios aumentan constantemente a medida que se acumula el rendimiento.
+* `Rebasar ()`actualiza los saldos de todos los usuarios en función del valor de los activos almacenados actualmente en el grupo de liquidez.
+* `Asignar ()`mueve los activos bajo administración a sus [estrategias prescritas](strategies.md) para maximizar el rendimiento y diversificar el riesgo.
 
-On redemptions, it is the protocol and not the user that decides which stablecoin\(s\) to return to the user. This decision of which coin\(s\) to return is based on the internal ratios of the assets that are being held in the pool.
+En los canjes, es el protocolo y no el usuario el que decide qué moneda estable \ (s \) devolver al usuario. Esta decisión de qué moneda \ (s \) devolver se basa en las relaciones internas de los activos que se mantienen en el fondo común.
 
 
 
