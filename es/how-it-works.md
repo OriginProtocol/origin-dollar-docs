@@ -10,27 +10,27 @@ OUSD is a stable currency that is backed 1:1 by other stablecoins like USDT, USD
 1 OUSD = 1 USD
 {% endhint %}
 
-#### Minting OUSD
+#### Acuñar OUSD
 
-Users convert their existing stablecoins \(currently USDT, USDC, and DAI\) to OUSD at the official [Origin Dollar DApp](www.ousd.com). Issued OUSD begins accruing compounding yield immediately.
+Los usuarios convierten sus monedas estables existentes \ (actualmente USDT, USDC y DAI \) a OUSD en el [Origin Dollar DApp](www.ousd.com)oficial. El OUSD emitido comienza a acumular rendimiento compuesto de inmediato.
 
-**Redeeming OUSD**
+**Canjeando OUSD**
 
-Users can convert their OUSD back into other stablecoins at any time using the [Origin Dollar DApp](www.ousd.com). A 0.5% exit fee is charged upon redemption and is distributed as additional yield to the remaining participants in the pool. The fee serves as a security feature to make it difficult for attackers to take advantage of lagging oracles, preventing them from syphoning stablecoins from the pool in the event of mispricings of of the underlying assets. The fee exists to incentivize long-term holders over short-term speculators.
+Los usuarios pueden volver a convertir su OUSD en otras monedas estables en cualquier momento utilizando [Origin Dollar DApp](www.ousd.com). Se cobra una tarifa de salida del 0,5% en el momento del canje y se distribuye como rendimiento adicional a los participantes restantes en el pool. La tarifa sirve como una característica de seguridad para dificultar que los atacantes aprovechen los oráculos rezagados, lo que les impide desviar monedas estables del pool en caso de errores en los precios de los activos subyacentes. La tarifa existe para incentivar a los holders a largo plazo sobre los especuladores a corto plazo.
 
-Upon redemption, the smart contract will determine which stablecoin\(s\) to return to the user. In the current implementation, the pool will return coins in the same ratio as the current holdings. This lack of user optionality also protects the pool as a whole in the event that any of the supported stablecoins loses its peg to the dollar.
+Tras el canje, el contrato inteligente determinará qué moneda estable \ (s \) devolver al usuario. En la implementación actual, el pool devolverá monedas en la misma proporción que las existencias actuales. Esta falta de opciones para el usuario también protege al pool en su conjunto en caso de que alguna de las monedas estables admitidas pierda su vínculo con el dólar.
 
 {% hint style="warning" %}
-There is a **0.5% exit fee** and the user doesn't get to pick which stablecoins they receive.
+Hay una tarifa de salida de **0.5%** y el usuario no puede elegir qué monedas estables recibe.
 {% endhint %}
 
-#### A**utomated Yield Farming**
+#### **Rendimiento de Cultivo Automatizado **
 
-OUSD generates yields by deploying the underlying stablecoins that were deposited to the OUSD smart contract to other DeFi protocols such as Compound, Aave, Uniswap, Balancer, and Curve. It is expected there will be new diversified strategies added to the pool every month. Collected interest, trading fees, and rewards tokens are pooled and converted to stablecoins to produce OUSD-denominated yields. Over time, the protocol will move assets in and out of different liquidity pools in order to provide the best yield to the holders of OUSD.
+OUSD genera rendimientos mediante la implementación de las monedas estables subyacentes que se depositaron en el contrato inteligente de OUSD en otros protocolos DeFi como Compound, Aave, Uniswap, Balancer y Curve. Se espera que cada mes se agreguen nuevas estrategias diversificadas al pool. Los intereses cobrados, las tarifas de tradeo y los tokens de recompensa se agrupan y se convierten en monedas estables para producir rendimientos denominados en OUSD. Con el tiempo, el protocolo moverá activos dentro y fuera de diferentes grupos de liquidez para brindar el mejor rendimiento a los holders de OUSD.
 
-#### **Elastic Supply**
+#### **Suministro Elástico**
 
-The generated returns are passed on to the holders of OUSD via constant rebasing of the money supply. OUSD constantly adjusts the money supply in response to the yield the protocol has generated. This allows the price of OUSD to stay pegged at $1 while the balances in token holders' wallets adjust in real-time to reflect yields that have been earned by the protocol.
+Los rendimientos generados se transmiten a los holders de OUSD a través de un constante rebase de la oferta monetaria. OUSD ajusta constantemente la oferta monetaria en respuesta al rendimiento que ha generado el protocolo. Esto permite que el precio de OUSD se mantenga fijo en $1 USD mientras que los saldos en las billeteras de los holders de tokens se ajustan en tiempo real para reflejar los rendimientos que se han obtenido mediante el protocolo.
 
-The end result is a stablecoin that is easy to spend, earns outsized yields automatically, and is more desirable to hold than existing stablecoins.
+El resultado final es una moneda estable que es fácil de gastar, obtiene rendimientos enormes automáticamente y es más deseable de mantener que las monedas estables existentes.
 
