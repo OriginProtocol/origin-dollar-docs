@@ -1,20 +1,20 @@
 ---
-description: The first stablecoin that earns a yield while it's still in your wallet
+description: La primera moneda estable que obtiene un rendimiento mientras está en su billetera
 ---
 
-# Introduction
+# Introducción
 
-## **A Better Form of Money**
+## **Una mejor forma de dinero**
 
-Origin Dollar \(OUSD\) is a new stablecoin that was initially launched in September 2020 on the Ethereum network. Its design is superior to existing stablecoins because OUSD captures competitive yields while being passively held in wallets.
+Origin Dollar \ (OUSD \) es una nueva moneda estable que se lanzó inicialmente en septiembre de 2020 en la red de Ethereum. Su diseño es superior a las monedas estables existentes porque OUSD captura rendimientos competitivos mientras se mantiene pasivamente en billeteras.
 
 ![](.gitbook/assets/origin-dollar-summary.jpeg)
 
-**Background**
+**Antecedentes**
 
-In 1999, Yu Pan, Origin’s R&D engineer, and his fellow PayPal co-founders [conceived](https://www.cnbc.com/2017/08/14/david-sacks-cryptocurrency-interview.html) of creating “the new world currency”, complete with interest yielding strategies and debit cards without having to connect to traditional banking systems. Several pivots and an eBay acquisition later, PayPal dropped its ambitions in this area.
+En 1999, Yu Pan, Origin Rde&D ingeniero, y sus compañeros de PayPal co-fundadores [concebidas](https://www.cnbc.com/2017/08/14/david-sacks-cryptocurrency-interview.html) de crear “la nueva moneda mundial”, con intereses que rinden las estrategias y las tarjetas de débito sin tener que conectarse a los sistemas bancarios tradicionales. Varios pivotes y una adquisición de eBay más tarde, PayPal abandonó sus ambiciones en esta área.
 
-Almost two decades later, Tether introduced the concept of a USD-denominated stablecoin in 2014. Since then, stablecoins have proven themselves as an ideal way of transferring value without exposing users to the price volatility of free-floating currencies. Today, more value is [transferred via Tether](https://www.bloomberg.com/news/articles/2019-10-01/tether-not-bitcoin-likely-the-world-s-most-used-cryptocurrency) than with Bitcoin. Meanwhile, Decentralized Finance \(DeFi\) has experienced an explosion of growth with [billions of dollars](https://defipulse.com/) of capital now locked up in smart contracts that generate yields from lending and trading protocols.
+Casi dos décadas después, Tether introdujo el concepto de moneda estable denominada en USD en 2014. Desde entonces, las monedas estables han demostrado ser una forma ideal de transferir valor sin exponer a los usuarios a la volatilidad de los precios de las monedas flotantes. Today, more value is [transferred via Tether](https://www.bloomberg.com/news/articles/2019-10-01/tether-not-bitcoin-likely-the-world-s-most-used-cryptocurrency) than with Bitcoin. Meanwhile, Decentralized Finance \(DeFi\) has experienced an explosion of growth with [billions of dollars](https://defipulse.com/) of capital now locked up in smart contracts that generate yields from lending and trading protocols.
 
 One of the problems with existing stablecoins is that users have to constantly choose between holding an easily spendable coin and earning yields by locking their tokens up in smart contracts. For example, users that lock up USDC in Aave cannot spend a portion of that USDC simultaneously. Expensive Ethereum gas fees serve as "switching costs" each time those users want to switch between spending mode and earning mode.
 
