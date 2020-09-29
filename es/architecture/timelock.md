@@ -10,11 +10,11 @@ El contrato de bloqueo de tiempo impone un período de espera de 48 horas antes 
 El bloqueo de tiempo es una medida de seguridad que les da a los holders de OUSD 48 horas para retirar sus fondos si tienen objeciones a las actualizaciones propuestas al protocolo.
 {% endhint %}
 
-OUSD is using a slightly modified version of the [Compound Timelock](https://compound.finance/docs/governance) which has been [audited by OpenZeppelin](https://blog.openzeppelin.com/compound-finance-patch-audit/). The 3 notable differences are:
+OUSD está utilizando una versión ligeramente modificada del [Tiempo de Bloqueo de Compound](https://compound.finance/docs/governance) que ha sido [auditado por OpenZeppelin](https://blog.openzeppelin.com/compound-finance-patch-audit/). Las 3 diferencias notables son:
 
-1. OUSD will initially use a shorter wait period \(48 hours\) than Compound \(72 hours\) to allow for a faster response if any issues are discovered.
-2. Once the 48 hours have passed, anyone is free to execute the call, not just the owner of the contract.
-3. Deposits \(but not withdrawals or transfers\) can be immediately frozen without requiring the 48 waiting period. This is in case a major vulnerability is discovered.
+1. OUSD inicialmente utilizará un período de espera más corto \ (48 horas \) que Compound \ (72 horas \) para permitir una respuesta más rápida si se descubre algún problema.
+2. Una vez transcurridas las 48 horas, cualquiera es libre de ejecutar la llamada, no sólo el dueño del contrato.
+3. Los depósitos \ (pero no los retiros \) se pueden congelar inmediatamente sin requerir el período de espera de 48. Esto es en caso de que se descubra una vulnerabilidad importante.
 
 
 
