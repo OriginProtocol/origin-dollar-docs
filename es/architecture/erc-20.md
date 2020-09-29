@@ -1,12 +1,12 @@
-# Overview
+# Visión General
 
 ![](../.gitbook/assets/ousd_docs_graphics_3.png)
 
-OUSD is made up of a series of smart contracts. Each of these contracts is wrapped in a proxy contract that can be upgraded via the governance protocols.
+OUSD se compone de una serie de contratos inteligentes. Cada uno de estos contratos está envuelto en un contrato de poder que se puede actualizar a través de los protocolos de gobernancia.
 
-Internally, ownership in the pool is tracked using a credits system that represents the percent ownership of the pool for each holder. The ERC-20 contract handles the conversion to USD terms when viewing a balance or initiating a transfer between wallets.
+Internamente, la propiedad en el pool se rastrea mediante un sistema de créditos que representa el porcentaje de propiedad del pool para cada holder. El contrato ERC-20 maneja la conversión a términos en USD cuando se ve un saldo o se inicia una transferencia entre billeteras.
 
-The Vault is responsible for minting and burning OUSD. It also enforces the percentage of assets that are deployed to each of the supported [Strategies](../core-concepts/supported-strategies/). To optimize gas costs, the vault maintains a buffer to allow most deposits and redemptions to occur without winding/unwinding assets from strategies.
+La Bóveda es responsable de acuñar y quemar OUSD. También aplica el porcentaje de activos que se implementan en cada una de las [Estrategias](../core-concepts/supported-strategies/)admitidas. Para optimizar los costos de GAS, la bóveda mantiene un búfer para permitir que la mayoría de los depósitos y reembolsos ocurran sin liquidar / deshacer los activos de las estrategias.
 
 
 
