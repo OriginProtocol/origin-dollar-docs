@@ -1,18 +1,18 @@
-# Price Oracles
+# Precio de Oráculos
 
-OUSD is designed to stay pegged at 1 USD and be 1:1 backed with its underlying stablecoins. This is trickier than it sounds because these underlying stablecoins are constantly deviating from their own desired 1 USD pegs. While the majority of daily fluctuations are minor, there have been major swings in price that have occurred in the past and are likely to occur again in the future.
+OUSD está diseñado para mantenerse vinculado a 1 USD y tener un respaldo 1:1 con sus monedas estables subyacentes. Esto es más complicado de lo que parece porque estas monedas estables subyacentes se desvían constantemente de sus propias clavijas de 1 USD deseadas. Si bien la mayoría de las fluctuaciones diarias son menores, ha habido cambios importantes en el precio que se han producido en el pasado y es probable que vuelvan a ocurrir en el futuro.
 
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">Coin</th>
-      <th style="text-align:left"><b>Low</b>
+      <th style="text-align:left">Moneda</th>
+      <th style="text-align:left"><b>Bajo</b>
       </th>
-      <th style="text-align:left"><b>High</b>
+      <th style="text-align:left"><b>Alto</b>
       </th>
       <th style="text-align:left"><b>Delta</b>
       </th>
-      <th style="text-align:left"><b>Source</b>
+      <th style="text-align:left"><b>Fuente</b>
       </th>
     </tr>
   </thead>
@@ -21,11 +21,11 @@ OUSD is designed to stay pegged at 1 USD and be 1:1 backed with its underlying s
       <td style="text-align:left">USDC</td>
       <td style="text-align:left">
         <p>$0.929222</p>
-        <p>Mar 13, 2020</p>
+        <p>13 de marzo de 2020</p>
       </td>
       <td style="text-align:left">
-        <p>$1.11</p>
-        <p>Oct 15, 2018</p>
+        <p>1,11 USD</p>
+        <p>15 de octubre de 2018</p>
       </td>
       <td style="text-align:left">$0.180778</td>
       <td style="text-align:left"><a href="https://coinmarketcap.com/currencies/usd-coin/">CoinMarketCap</a>
@@ -35,11 +35,11 @@ OUSD is designed to stay pegged at 1 USD and be 1:1 backed with its underlying s
       <td style="text-align:left">USDC</td>
       <td style="text-align:left">
         <p>$0.924188</p>
-        <p>Aug 02, 2020</p>
+        <p>02 de agosto de 2020</p>
       </td>
       <td style="text-align:left">
-        <p>$1.17</p>
-        <p>May 08, 2019</p>
+        <p>1,17 USD</p>
+        <p>08 de mayo de 2019</p>
       </td>
       <td style="text-align:left">$0.245812</td>
       <td style="text-align:left"><a href="https://www.coingecko.com/en/coins/usd-coin">CoinGecko</a>
@@ -49,11 +49,11 @@ OUSD is designed to stay pegged at 1 USD and be 1:1 backed with its underlying s
       <td style="text-align:left">DAI</td>
       <td style="text-align:left">
         <p>$0.945505</p>
-        <p>May 10, 2020</p>
+        <p>10 de mayo de 2020</p>
       </td>
       <td style="text-align:left">
-        <p>$1.11</p>
-        <p>Mar 13, 2020</p>
+        <p>1,11 USD</p>
+        <p>13 de marzo de 2020</p>
       </td>
       <td style="text-align:left">$0.164495</td>
       <td style="text-align:left"><a href="https://coinmarketcap.com/currencies/multi-collateral-dai/">CoinMarketCap</a>
@@ -63,11 +63,11 @@ OUSD is designed to stay pegged at 1 USD and be 1:1 backed with its underlying s
       <td style="text-align:left">DAI</td>
       <td style="text-align:left">
         <p>$0.903243</p>
-        <p>Nov 25, 2019</p>
+        <p>25 de noviembre de 2019</p>
       </td>
       <td style="text-align:left">
-        <p>$1.22</p>
-        <p>Mar 13, 2020</p>
+        <p>1.22 USD</p>
+        <p>13 de marzo de 2020</p>
       </td>
       <td style="text-align:left">$0.316757</td>
       <td style="text-align:left"><a href="https://www.coingecko.com/en/coins/dai">CoinGecko</a>
@@ -77,11 +77,11 @@ OUSD is designed to stay pegged at 1 USD and be 1:1 backed with its underlying s
       <td style="text-align:left">USDT</td>
       <td style="text-align:left">
         <p>$0.849809</p>
-        <p>Feb 02, 2017</p>
+        <p>02 de febrero de 2017</p>
       </td>
       <td style="text-align:left">
-        <p>$1.21</p>
-        <p>May 27, 2017</p>
+        <p>1.21 USD</p>
+        <p>27 de mayo de 2017</p>
       </td>
       <td style="text-align:left">$0.360191</td>
       <td style="text-align:left"><a href="https://www.coingecko.com/en/coins/tether">CoinGecko</a>
@@ -91,69 +91,69 @@ OUSD is designed to stay pegged at 1 USD and be 1:1 backed with its underlying s
       <td style="text-align:left">USDT</td>
       <td style="text-align:left">
         <p>$0.572521</p>
-        <p>Mar 02, 2015</p>
+        <p>02 de marzo de 2015</p>
       </td>
       <td style="text-align:left">
-        <p>$1.32</p>
-        <p>Jul 24, 2018</p>
+        <p>1.32 USD</p>
+        <p>24 de julio de 2018</p>
       </td>
-      <td style="text-align:left">$0.747479</td>
+      <td style="text-align:left">$0,747479</td>
       <td style="text-align:left"><a href="https://coinmarketcap.com/currencies/tether/">CoinMarketCap</a>
       </td>
     </tr>
   </tbody>
 </table>
 
-In order to mint and burn the appropriate number of OUSD on entry and exit, the smart contracts need to accurately price the USDT, USDC, and DAI that is entering and exiting the system. It also needs a reliable way of expanding the supply to distribute the interest that is earned, or contracting supply if there is a negative change in the value of the underlying assets. As a decentralized protocol, OUSD must rely on non-centralized sources for these prices.
+Para acuñar y quemar la cantidad apropiada de OUSD al entrar y salir, los contratos inteligentes deben fijar el precio con precisión del USDT, USDC y DAI que ingresa y sale del sistema. También necesita una forma confiable de expandir la oferta para distribuir el interés que se gana, o contratar la oferta si hay un cambio negativo en el valor de los activos subyacentes. Como protocolo descentralizado, OUSD debe depender de fuentes no centralizadas para estos precios.
 
 {% hint style="info" %}
-OUSD fetches the price from multiple on-chain oracles and uses the exchange rate that is most advantageous for the pool.
+OUSD obtiene el precio de múltiples oráculos en cadena y usa el tipo de cambio que es más ventajoso para el grupo.
 {% endhint %}
 
-In order to prevent malicious attacks and to encourage long-term investors over short-term speculators, the OUSD contract compares price feeds from multiple sources and will use whichever exchange rate benefits the entire pool over the individual. This mechanism protects the pool's funds from arbitrageurs and prevents any individual from being able to take advantage of any temporary inefficiencies caused by mispriced oracles to deplete the shared pool of assets.
+Con el fin de prevenir ataques maliciosos y alentar a los inversores a largo plazo sobre los especuladores a corto plazo, el contrato de OUSD compara las fuentes de precios de múltiples fuentes y utilizará el tipo de cambio que beneficie a todo el grupo sobre el individuo. Este mecanismo protege los fondos del grupo de liquidez de los arbitrajistas y evita que cualquier individuo pueda aprovechar cualquier ineficiencia temporal causada por oráculos mal valorados para agotar el grupo de liquidez de activos.
 
-This protects the funds in the pool while rewarding long-term holders. Since the safest price depends on the direction of the trade, the Origin oracle exposes both a `priceUSDMint()` and a `priceUSDRedeem()`. The rebasing function utilizes the `priceUSDMint()` for consistency.
+Esto protege los fondos en el grupo de liquidez mientras recompensa a los holders a largo plazo. Dado que el precio más seguro depende de la dirección de la operación, el oráculo de Origin expone tanto un `priceUSDMint ()` y un `priceUSDRedeem ()`. La función de reajuste utiliza `priceUSDMint ()` para mantener la coherencia.
 
-Here is the initial set of oracles that are being used by OUSD:
+Aquí está el conjunto inicial de oráculos que está siendo utilizado por OUSD:
 
-{% embed url="https://compound.finance/docs/prices" caption="" %}
+{% embed url = "https://compound.finance/docs/prices" caption = ""%}
 
-{% embed url="https://feeds.chain.link/eth-usd" caption="" %}
+{% embed url = "https://feeds.chain.link/eth-usd" caption = ""%}
 
-The following oracles have been implemented, but are not currently being used due to gas costs:
+Se han implementado los siguientes oráculos, pero actualmente no se utilizan debido a los costos del gas:
 
-{% embed url="https://uniswap.org/docs/v2/core-concepts/oracles/" caption="" %}
+{% embed url = "https://uniswap.org/docs/v2/core-concepts/oracles/" caption = ""%}
 
 {% tabs %}
-{% tab title="DAI/USD" %}
-The following oracles are used to fetch or compute a price for **DAI/USD:**
+{% tab title = "DAI / USD"%}
+Los siguientes oráculos se utilizan para obtener o calcular un precio de **DAI / USD:**
 
-| Oracle          | Pair      | Contract                                     |
-|:--------------- |:--------- |:-------------------------------------------- |
-| Open Price Feed | DAI/USD   | 0xc629c26dced4277419cde234012f8160a0278a79   |
-| Chainlink       | DAI/USD   | 0xa7D38FBD325a6467894A13EeFD977aFE558bC1f0   |
-| Chainlink       | DAI/ETH   | 0x037E8F2125bF532F3e228991e051c8A7253B642c   |
-| _Uniswap v2_    | _DAI/ETH_ | _0xA478c2975Ab1Ea89e8196811F51A7B7Ade33eB11_ |
+| Oráculo                  | Par         | Contrato                                     |
+|:------------------------ |:----------- |:-------------------------------------------- |
+| Feed de Precios Abiertos | DAI / USD   | 0xc629c26dced4277419cde234012f8160a0278a79   |
+| Chainlink                | DAI / USD   | 0xa7D38FBD325a6467894A13EeFD977aFE558bC1f0   |
+| Chainlink                | DAI / ETH   | 0x037E8F2125bF532F3e228991e051c8A7253B642c   |
+| _Uniswap v2_             | _DAI / ETH_ | _0xA478c2975Ab1Ea89e8196811F51A7B7Ade33eB11_ |
 {% endtab %}
 
-{% tab title="USDT/USD" %}
-The following oracles are used to fetch or compute a price for **USDT/USD:**
+{% tab title = "DAI / USD"%}
+Los siguientes oráculos se utilizan para obtener o calcular un precio de **DAI / USD:**
 
-| O**racle**      | Pair       | Contract                                     |
-|:--------------- |:---------- |:-------------------------------------------- |
-| Chainlink       | USDT/ETH   | 0xa874fe207DF445ff19E7482C746C4D3fD0CB9AcE   |
-| Open Price Feed | USDC/USD   | 0xc629c26dced4277419cde234012f8160a0278a79   |
-| _Uniswap v2_    | _USDT/ETH_ | _0x0d4a11d5eeaac28ec3f61d100daf4d40471f1852_ |
+| Oráculo                  | Par          | Contrato                                     |
+|:------------------------ |:------------ |:-------------------------------------------- |
+| Chainlink                | USDT / ETH   | 0xa874fe207DF445ff19E7482C746C4D3fD0CB9AcE   |
+| Feed de Precios Abiertos | USDC / USD   | 0xc629c26dced4277419cde234012f8160a0278a79   |
+| _Uniswap v2_             | _USDT / ETH_ | _0x0d4a11d5eeaac28ec3f61d100daf4d40471f1852_ |
 {% endtab %}
 
-{% tab title="USDC/USD" %}
-The following oracles are used to fetch or compute a price for **USDC/USD:**
+{% tab title = "DAI / USD"%}
+Los siguientes oráculos se utilizan para obtener o calcular un precio de **DAI / USD:**
 
-| O**racle**      | Pair       | Contract                                     |
-|:--------------- |:---------- |:-------------------------------------------- |
-| Chainlink       | USDC/ETH   | 0xdE54467873c3BCAA76421061036053e371721708   |
-| Open Price Feed | USDC/USD   | 0xc629c26dced4277419cde234012f8160a0278a79   |
-| _Uniswap v2_    | _USDC/ETH_ | _0xb4e16d0168e52d35cacd2c6185b44281ec28c9dc_ |
+| Oráculo                  | Par        | Contrato                                     |
+|:------------------------ |:---------- |:-------------------------------------------- |
+| Chainlink                | USDT / ETH | 0xdE54467873c3BCAA76421061036053e371721708   |
+| Feed de Precios Abiertos | USDC / USD | 0xc629c26dced4277419cde234012f8160a0278a79   |
+| _Uniswap v2_             | _USDC/ETH_ | _0xb4e16d0168e52d35cacd2c6185b44281ec28c9dc_ |
 {% endtab %}
 
 {% tab title="ETH/USD" %}
