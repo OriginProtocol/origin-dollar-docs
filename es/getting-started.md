@@ -10,35 +10,35 @@ Acuñar OUSD permite a cualquier persona crear o intercambiar tokens OUSD utiliz
 
 **Comprar en Plataformas de Intercambio**
 
-For small amounts, the easiest way to start earning with OUSD is to buy it on a decentralized exchange like Uniswap. The current pairs are currently available:
+Para pequeñas cantidades, la forma más fácil de comenzar a ganar con OUSD es comprarlo en una plataforma de intercambio descentralizado como Uniswap. Los pares que están disponibles actualmente:
 
-* [Buy OUSD on Uniswap](https://app.uniswap.org/#/swap?outputCurrency=0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86)
-* [Buy OUSD on Mooniswap](https://mooniswap.exchange/#/swap?outputToken=0x2a8e1e676ec238d8a992307b495b45b3feaa5e86)
+* [Compre OUSD en Uniswap](https://app.uniswap.org/#/swap?outputCurrency=0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86)
+* [Compre OUSD en Mooniswap](https://mooniswap.exchange/#/swap?outputToken=0x2a8e1e676ec238d8a992307b495b45b3feaa5e86)
 
-In addition, we anticipate that OUSD will soon be widely available on additional decentralized and centralized exchanges.
+Además, anticipamos que OUSD pronto estará ampliamente disponible en intercambios descentralizados y centralizados adicionales.
 
-**Adding OUSD to Your Wallet**
+**Agregar OUSD a su billetera**
 
 {% hint style="success" %}
 
-The main ERC20 address for Origin Dollar \(OUSD\) is:   
+La dirección ERC20 principal para Origin Dollar \ (OUSD \) es:   
 **0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86** 
 
 {% endhint %}
 
-If your OUSD does not automatically show up in your wallet, you should be able to add it manually using the address above. We want to have OUSD supported by as many wallets as possible and included on all the various lists of well-known tokens. We would greatly appreciate any help you can offer in this area. 
+Si su OUSD no aparece automáticamente en su billetera, debería poder agregarlo manualmente usando la dirección anterior. Queremos que OUSD sea compatible con tantas carteras como sea posible y que se incluya en todas las diversas listas de tokens conocidos. Agradeceríamos enormemente cualquier ayuda que pueda ofrecer en esta área. 
 
-**Integrating OUSD**
+**Integrando OUSD**
 
-OUSD is a non-standard ERC-20 token that requires custom integration work for most applications that wish to support it. In particular, it is important for developers to understand how our elastic supply works as this can easily cause unexpected behavior.
+OUSD es un token ERC-20 no estándar que requiere un trabajo de integración personalizado para la mayoría de las aplicaciones que desean admitirlo. En particular, es importante que los desarrolladores comprendan cómo funciona nuestro suministro elástico, ya que esto puede causar fácilmente un comportamiento inesperado.
 
-If you are a wallet provider or crypto exchange that is interested in supporting OUSD, please refer to the following guides: 
+Si usted es un proveedor de billetera o una plataforma de intercambio cripto que está interesado en respaldar OUSD, consulte las siguientes guías: 
 
-{% page-ref page="smart-contracts/erc-20.md" %}
+{% page-ref page = "contratos-inteligentes / erc-20.md"%}
 
-{% page-ref page="smart-contracts/api/" %}
+{% page-ref page = "contratos-inteligentes / erc-md"%}
 
-**Getting Help**
+**Obtener ayuda**
 
-Please join the Origin Dollar \#engineering room in Origin's [Discord](www.originprotocol.com/discord) server.  Our team and members of our community look forward to helping you build. Your questions help us improve, so please don't hesitate to ask if you can't find what you are looking for here.
+Únase a la chat de ingeniería de Origin Dollar \ #engineering en el servidor de Origin [Discord](www.originprotocol.com/discord).  Nuestro equipo y los miembros de nuestra comunidad esperan poder ayudarlo a construir. Sus preguntas nos ayudan a mejorar, así que no dude en preguntar si no puede encontrar lo que busca aquí.
 
