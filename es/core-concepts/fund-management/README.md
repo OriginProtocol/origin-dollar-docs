@@ -1,6 +1,6 @@
 # Gestión de fondos
 
-El contrato inteligente de OUSD agrega los depósitos de monedas estables de todos los usuarios en un solo grupo de activos invertibles. Luego, los fondos se asignan a través de una o más [estrategias de ingresos](earning-strategies.md) en cualquier momento dado. The Vault favors high-yield strategies but also seeks to maintain diversification across multiple strategies. Diversification removes single points of failures and mitigates risks.
+El contrato inteligente de OUSD agrega los depósitos de monedas estables de todos los usuarios en un solo grupo de activos invertibles. Luego, los fondos se asignan a través de una o más [estrategias de ingresos](earning-strategies.md) en cualquier momento dado. La Bóveda favorece las estrategias de alto rendimiento, pero también busca mantener la diversificación en múltiples estrategias. La diversificación elimina los puntos únicos de fallas y mitiga los riesgos.
 
-In contrast to Yearn Vaults, TokenSets, or Zapper opportunities, users do not select individual strategies. All deposited stablecoins and consequently all OUSD tokens are fungible.
+A diferencia de las oportunidades de Yearn Vaults, TokenSets o Zapper, los usuarios no seleccionan estrategias individuales. Todas las monedas estables depositadas y, en consecuencia, todos los tokens OUSD son fungibles.
 
