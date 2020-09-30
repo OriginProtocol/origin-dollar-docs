@@ -30,7 +30,7 @@ OUSD는 비표준 ERC-20 토큰으로 이를 지원하려는 대부분의 애플
 
 만약, OUSD 지원에 관심이 있는 지갑 공급자 또는 암호화폐 거래소인 경우에는 다음 가이드를 참고하시길 바랍니다:
 
-{% page-ref page = "smart-contracts / api.md"%}
+{% page-ref page="smart-contracts/architecture.md" %}
 
 {% page-ref page = "smart-contracts / api.md"%}
 
