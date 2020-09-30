@@ -1,6 +1,6 @@
-# Admin Privileges
+# Privilegios de administrador
 
-The OUSD smart contracts are designed to be owner upgradable.
+Los contratos inteligentes de OUSD están diseñados para que el propietario pueda actualizarlos.
 
 At launch, the OUSD contracts are owned by a 5 of 8 Gnosis multi-sig contract which has been [audited by OpenZeppelin](https://blog.openzeppelin.com/gnosis-multisig-wallet-audit-d702ff0e2b1e/), [ConsenSys Dilligence](https://blog.gnosis.pm/the-gnosis-multisig-wallet-and-our-commitment-to-security-ce9aca0d17f6), Origin’s team, and others. The keys to this multi-sig are held by individuals with close ties to the company, and not even the Origin founders acting together have enough control to execute owner functions on their own.
 
