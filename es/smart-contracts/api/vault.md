@@ -11,43 +11,43 @@ description: >-
 
 **`función mint (dirección _asset, uint256 _amount)`**
 
-Acuñar OUSD a cambio de un depósito de un determinado `_amount` de moneda estable especificado por el `_asset` parámetro. The caller receives a certain amount of OUSD depending on the **exchange rate**.
+Acuñar OUSD a cambio de un depósito de un determinado `_amount` de moneda estable especificado por el `_asset` parámetro. La persona que llama recibe una cierta cantidad de OUSD dependiendo del **tipo de cambio**.
 
-| Nombre del parámetro | Tipo      | Descripción                                                                                                                                        |
-|:-------------------- |:--------- |:-------------------------------------------------------------------------------------------------------------------------------------------------- |
-| \_asset            | dirección | Address of the [supported](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/core-concepts/supported-assets) stablecoin |
-| \_amount           | uint256   | monto depositado, expresado en unidades decimales                                                                                                  |
+| Nombre del parámetro | Tipo      | Descripción                                                                                                                                             |
+|:-------------------- |:--------- |:------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| \_asset            | dirección | Dirección de la moneda estable [admitida](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/core-concepts/supported-assets). |
+| \_amount           | uint256   | cantidad depositada, expresada en unidades decimales                                                                                                    |
 
 ### mintMultiple\(\) <a id="mintmultiple"></a>
 
 **`function mintMultiple(address[] _assets, uint256[] _amounts)`**‌
 
-Mints OUSD in exchange for a deposit of multiple stablecoins in a single call. Stablecoins are specified by the `_assets` array parameter and the amounts by the `_amounts` array parameter. The caller receives a certain amount of OUSD depending on the **exchange rate**.
+Acuñar OUSD a cambio de un depósito de múltiples monedas estables en una sola llamada. Stablecoins are specified by the `_assets` array parameter and the amounts by the `_amounts` array parameter. The caller receives a certain amount of OUSD depending on the **exchange rate**.
 
-| Parameter Name | Type          | Description                                                                                                                                           |
-|:-------------- |:------------- |:----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| \_assets     | address\[\] | Addresses of the [supported](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/core-concepts/supported-assets) stablecoins |
-| \_amounts    | uint256\[\] | amounts deposited, expressed in decimal units                                                                                                         |
+| Nombre del parámetro | Tipo            | Descripción                                                                                                                                                   |
+|:-------------------- |:--------------- |:------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| \_assets           | dirección\[\] | Direcciones de las monedas estables [admitidas](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/core-concepts/supported-assets). |
+| \_amounts          | uint256\[\]   | cantidades depositadas, expresadas en unidades decimales                                                                                                      |
 
 {% hint style="warning" %}
-On redemptions, it is the protocol and not the user that decides which stablecoin\(s\) are returned to the user. This decision of which coin\(s\) to return is based on the internal ratios of the assets that are being held in the vault.‌
+En los canjes, es el protocolo y no el usuario el que decide qué moneda estable \(s\) devolver al usuario. Esta decisión de qué moneda \(s\) devolver se basa en las relaciones internas de los activos que se mantienen en la bóveda.
 {% endhint %}
 
 ### redeem\(\) <a id="redeem"></a>
 
 **`function redeem(uint256 _amount)`**‌
 
-OUSD specified by the `_amount` parameter is redeemed in exchange for one or multiple supported stablecoins. Amount of stablecoins received depends on the **exchange rate**.
+OUSD specified by the `_amount` parameter is redeemed in exchange for one or multiple supported stablecoins. La cantidad de monedas estables recibidas depende del **tipo de cambio**.
 
-| Parameter Name | Type    | Description                               |
-|:-------------- |:------- |:----------------------------------------- |
-| \_amount     | uint256 | amount of OUSD expressed in decimal units |
+| Nombre del parámetro | Tipo    | Descripción                                      |
+|:-------------------- |:------- |:------------------------------------------------ |
+| \_amount           | uint256 | cantidad de OUSD expresada en unidades decimales |
 
 ### redeemAll\(\)‌ <a id="redeemall"></a>
 
 **`function redeemAll()`**‌
 
-All OUSD in user's possession is redeemed in exchange for one or multiple supported stablecoins. Amount of stablecoins received depends on the **exchange rate**.
+Todo el OUSD en posesión del usuario se canjea a cambio de una o varias monedas estables compatibles. La cantidad de monedas estables recibidas depende del **tipo de cambio**.
 
 ### rebase\(\) <a id="rebase"></a>
 
