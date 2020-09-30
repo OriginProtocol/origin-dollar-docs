@@ -1,8 +1,8 @@
-# Architecture
+# Arquitectura
 
 ![](../.gitbook/assets/ousd_docs_graphics_3.png)
 
-OUSD is made up of a series of smart contracts. Each of these contracts is wrapped in a proxy contract that can be upgraded via the governance protocols.
+OUSD está compuesto por una serie de contratos inteligentes. Cada uno de estos contratos está envuelto en un contrato proxy que se puede actualizar a través de los protocolos de gobernanza.
 
 Internally, ownership in the pool is tracked using a credits system that represents the percent ownership of the pool for each holder. The [ERC-20](api/erc-20-1.md) contract handles the conversion to USD terms when viewing a balance or initiating a transfer between wallets.
 
