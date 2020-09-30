@@ -10,7 +10,7 @@ OUSD 智能合约尚未经过审核。 我们强烈建议您在存入大量资�
 
 **支持策略**
 
-Compound 已完成多次审核，可以在它们的网站上查看细节。 这包括 OUSD 修改的 [时间锁（Timelock）](../smart-contracts/api/timelock-1.md) 所使用的的原始代码。
+Compound 已完成多次审核，可以在它们的网站上查看细节。 This includes the original code for the modified [Timelock](../smart-contracts/api/timelock.md) that OUSD is using.
 
 {% page-ref page="audits.md" %}
 
