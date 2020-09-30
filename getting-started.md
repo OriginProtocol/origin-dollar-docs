@@ -4,7 +4,7 @@
 
 **铸币或赎回**
 
-OUSD Mint （铸造）允许任何人使用我们的 [DApp](www.ousd.com) 和 Web-3 的加密钱包（如 [Metamask](https://www.metamask.io)）来制造或交易 OUSD 代币。 这是获取 OUSD 的本地方法，尤其是如果您想要带来可能在其他交易所上转移市场的风险的大量的 OUSD 。
+OUSD Mint （铸造）允许任何人使用我们的 [DApp](https://github.com/oplabs/origin-dollar-docs/tree/fdaf99fed08d851f7f6d2e329dc23faa76e0d39c/www.ousd.com) 和 Web-3 的加密钱包（如 [Metamask](https://www.metamask.io)）来制造或交易 OUSD 代币。 这是获取 OUSD 的本地方法，尤其是如果您想要带来可能在其他交易所上转移市场的风险的大量的 OUSD 。
 
 **在交易所购买**
 
@@ -17,7 +17,7 @@ For small amounts, the easiest way to start earning with OUSD is to buy it on a 
 **将 OUSD 加入您的钱包**
 
 {% hint style="success" %}
-Origin Dollar\（OUSD \）的主要 ERC20 地址为：   
+Origin Dollar\（OUSD \）的主要 ERC20 地址为：  
 **0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86**
 {% endhint %}
 
@@ -29,11 +29,11 @@ OUSD是非标准的ERC-20令牌，对于希望支持它的大多数应用程序�
 
 如果您是有兴趣支持 OUSD 的钱包提供商或加密货币交易所，请参阅以下指南：
 
-{% page-ref page="smart-contracts/erc-20.md" %}
+{% page-ref page="zhi-neng-he-yue/erc-20.md" %}
 
-{% page-ref page="smart-contracts/api/" %}
+{% page-ref page="zhi-neng-he-yue/api/" %}
 
 **帮助**
 
-请加入 Origin [Discord](www.originprotocol.com/discord) 中的 Origin Dollar #engineering 聊天室。  我们的团队和社区成员期待帮助您开发。 您所提出的问题可以帮助我们改善产品，所以如果在这里找不到需要的信息，请随时联系我们。
+请加入 Origin [Discord](https://github.com/oplabs/origin-dollar-docs/tree/fdaf99fed08d851f7f6d2e329dc23faa76e0d39c/www.originprotocol.com/discord/README.md) 中的 Origin Dollar \#engineering 聊天室。 我们的团队和社区成员期待帮助您开发。 您所提出的问题可以帮助我们改善产品，所以如果在这里找不到需要的信息，请随时联系我们。
 
