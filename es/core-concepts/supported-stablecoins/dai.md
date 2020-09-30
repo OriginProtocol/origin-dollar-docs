@@ -4,11 +4,11 @@
 
 Dai es una moneda estable con vinculación fiduciaria lanzada como un token ERC-20 en la cadena de bloques Ethereum en diciembre de 2017. En noviembre de 2019 se completó una importante actualización de Dai \(DAI\) de colateral única a Dai \(DAI\) de colateral múltiple. Dai está vinculado al dólar estadounidense.
 
-Dai is minted by users locking up crypto assets such as ETH or USDC as collateral in a collateralized debt position \(CDP\) called a vault. Anteriormente, solo se aceptaba ETH como colateral. Las reservas y el estado de cada bóveda se pueden ver en la cadena de bloques en tiempo real. The health of these vaults and the Dai stablecoin are closely monitored.
+Dai está acuñada por usuarios que bloquean activos criptográficos como ETH o USDC como garantía en una posición de deuda garantizada \ (CDP \) llamada bóveda. Anteriormente, solo se aceptaba ETH como colateral. Las reservas y el estado de cada bóveda se pueden ver en la cadena de bloques en tiempo real. La salud de estas bóvedas y la moneda estable Dai se supervisan de cerca.
 
 Dai es la tercera moneda estable más grande del mundo con más de $400 millones en circulación. Además, cDAI y aDAI, versiones sintéticas de Dai en las plataformas de préstamos Compound y Aave, se combinan por más de $600 millones en circulación.
 
-| Key Facts     |                                                                                                                     |
+| Hechos Clave  |                                                                                                                     |
 |:------------- |:------------------------------------------------------------------------------------------------------------------- |
 | Emitido por   | MakerDAO                                                                                                            |
 | Nombre        | Dai                                                                                                                 |
