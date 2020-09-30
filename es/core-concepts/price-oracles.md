@@ -166,5 +166,5 @@ Dado que no todos los oráculos tienen pares de USD directos, el protocolo tambi
 {% endtab %}
 {% endtabs %}
 
-It is possible that additional oracles will be added to the protocol over time. Support may also be removed if any of these oracles become unreliable.
+Es posible que con el tiempo se agreguen más oráculos al protocolo. También pueden eliminarse si alguno de estos oráculos deja de ser confiable.
 
