@@ -1,15 +1,15 @@
 ---
 description: >-
-  The vault is the main contract of the protocol. The vault is responsible for minting/redeeming OUSD tokens, rebalancing funds between the various supported strategies, and liquidating rewards tokens.
+  La bóveda es el contrato principal del protocolo. La bóveda es responsable de acuñar/canjear tokens OUSD, reequilibrar fondos entre las diversas estrategias compatibles y liquidar tokens de recompensa.
 ---
 
-# Vault
+# Bóveda
 
-## Methods‌
+## Métodos
 
 ### mint\(\) <a id="mint"></a>
 
-**`function mint(address _asset, uint256 _amount)`**‌
+**`función mint (dirección _asset, uint256 _amount)`**
 
 Mints OUSD in exchange for a deposit of a certain `_amount` of stablecoin specified by the `_asset` parameter. The caller receives a certain amount of OUSD depending on the **exchange rate**.
 
