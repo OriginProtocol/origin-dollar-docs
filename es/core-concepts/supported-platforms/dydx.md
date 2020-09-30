@@ -8,18 +8,18 @@ dYdX es una plataforma y un protocolo de tradeo y préstamos construido sobre la
 
 La liquidez de los activos disponibles para empréstitos y préstamos se agrupa por tipo de activo. Los intereses que se pagan a los prestamistas se acumulan automáticamente y los prestatarios deben aportar una garantía para obtener un préstamo.
 
-dYdX also supports flash loans, which are uncollateralized loans where users borrow and repay the balance of the loan in a single transaction, meaning flash loan users do not need to put up any initial capital. Flash loans are a complex product aimed at developers and can be used to arbitrage across multiple DeFi protocols.
+dYdX también admite préstamos de tipo flash, que son préstamos sin garantía en los que los usuarios piden prestado y reembolsan el saldo del préstamo en una sola transacción, lo que significa que los usuarios de préstamos tipo flash no necesitan aportar capital inicial. Los préstamos de tipo flash son un producto complejo dirigido a desarrolladores y se pueden utilizar para arbitrar a través de múltiples protocolos DeFi.
 
-dYdX has around $40 million in total value locked \(TVL\) at the time of this writing. dYdX does not have a native token.
+dYdX tiene alrededor de $40 millones de dólares en valor total bloqueado \ (TVL \) al momento de escribir este artículo. dYdX no tiene un token nativo.
 
-dYdX has undergone security audits by OpenZeppelin and Bramah Systems.
+dYdX ha sido sometido a auditorías de seguridad por OpenZeppelin y Bramah Systems.
 
-| Resources      |                                                                      |
-|:-------------- |:-------------------------------------------------------------------- |
-| Official site  | [https://dydx.exchange/](https://dydx.exchange/)                     |
-| Developer docs | [https://docs.dydx.exchange/](https://docs.dydx.exchange/)           |
-| GitHub         | [https://github.com/dydxprotocol/](https://github.com/dydxprotocol/) |
-| Discord        | [https://discord.gg/yah42Rb](https://discord.gg/yah42Rb)             |
+| Recursos                        |                                                                      |
+|:------------------------------- |:-------------------------------------------------------------------- |
+| Sitio oficial                   | [https://dydx.exchange/](https://dydx.exchange/)                     |
+| Documentos para desarrolladores | [https://docs.dydx.exchange/](https://docs.dydx.exchange/)           |
+| GitHub                          | [https://github.com/dydxprotocol/](https://github.com/dydxprotocol/) |
+| Discord                         | [https://discord.gg/yah42Rb](https://discord.gg/yah42Rb)             |
 
 
 
