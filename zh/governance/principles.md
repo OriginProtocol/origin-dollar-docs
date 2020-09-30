@@ -12,7 +12,7 @@
 
 **时间锁**
 
-在实时完全去中心化式治理之前，我们将为所有管理员功能调用实施 [时间锁](../smart-contracts/api/timelock-1.md) 。如果 OUSD 用户对我们提出的升级有异议，他们会有\(48 小时\) 提取资金。 时间锁将在 OUSD 推出后添加。
+Prior to full decentralized governance, we will implement a [timelock](../smart-contracts/api/timelock.md) in front of all admin function calls, giving OUSD users time \(48 hours\) to withdraw their funds if they have objections to our proposed upgrades. 时间锁将在 OUSD 推出后添加。
 
 **新的和现有的利益相关者**
 
