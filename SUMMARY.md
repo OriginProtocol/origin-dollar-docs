@@ -35,7 +35,7 @@
 
 ## Smart Contracts
 
-* [Architecture](smart-contracts/erc-20.md)
+* [Architecture](smart-contracts/architecture.md)
 * [Registry](smart-contracts/registry.md)
 * [API](smart-contracts/api/README.md)
   * [Vault](smart-contracts/api/vault.md)
