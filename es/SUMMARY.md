@@ -47,7 +47,7 @@
 ## Seguridad & Riesgos
 
 * [Riesgos](security-and-risks/risks.md)
-* [Auditorias](security-and-risks/untitled.md)
+* [Auditorias](security-and-risks/audits.md)
 * [Recompensas de Errores](security-and-risks/asset-risk.md)
 * [Contribuyendo](security-and-risks/contributing.md)
 
