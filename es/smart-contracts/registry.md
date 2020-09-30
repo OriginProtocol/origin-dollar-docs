@@ -1,9 +1,9 @@
-# Registry
+# Registro
 
-Here is the full registry of OUSD smart contracts that have been deployed to the Ethereum mainnet.
+Aquí está el registro completo de los contratos inteligentes de OUSD que se han implementado en la red principal de Ethereum.
 
 {% hint style="success" %}
-The main ERC20 address for Origin Dollar \(OUSD\) is:   
+La dirección ERC20 principal para Origin Dollar \(OUSD\) es:   
 **0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86**
 {% endhint %}
 
@@ -11,13 +11,13 @@ The main ERC20 address for Origin Dollar \(OUSD\) is:
 {% tab title="Core" %}
 Well-known addresses \(often proxy wrappers\):
 
-| Contract        | Address                                                                                                               | ENS                                                                   |
+| Contrato        | Dirección                                                                                                             | ENS                                                                   |
 |:--------------- |:--------------------------------------------------------------------------------------------------------------------- |:--------------------------------------------------------------------- |
 | OUSD            | [0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86](https://etherscan.io/address/0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86) | [ousd.eth](https://etherscan.io/address/ousd.eth)                     |
 | Vault           | [0x277e80f3E14E7fB3fc40A9d6184088e0241034bD](https://etherscan.io/address/0x277e80f3E14E7fB3fc40A9d6184088e0241034bD) | [originvault.eth](https://etherscan.io/address/originvault.eth)       |
 | Timelock        | [0x2693C0eCcb5734EBd3910E9c23a8039401a73c87](https://etherscan.io/address/0x2693C0eCcb5734EBd3910E9c23a8039401a73c87) | [origintimelock.eth](https://etherscan.io/address/origintimelock.eth) |
 | 5 of 8 Multisig | [0xe011fA2a6Df98c69383457d87a056Ed0103aA352](https://etherscan.io/address/0xe011fA2a6Df98c69383457d87a056Ed0103aA352) | [originprotocol.eth](https://etherscan.io/address/originprotocol.eth) |
-| Oracle          | [0xCf67e56965AD7CEC05eBf88bAd798A875E0460EB](https://etherscan.io/address/0xCf67e56965AD7CEC05eBf88bAd798A875E0460EB) | [originoracle.eth](https://etherscan.io/address/originoracle.eth)     |
+| Oráculo         | [0xCf67e56965AD7CEC05eBf88bAd798A875E0460EB](https://etherscan.io/address/0xCf67e56965AD7CEC05eBf88bAd798A875E0460EB) | [originoracle.eth](https://etherscan.io/address/originoracle.eth)     |
 
 Internal implementation contracts:
 
