@@ -12,7 +12,7 @@ Audits have already been scheduled with the respected security firm, [Trail of B
 
 Multiple audits for Compound have already been completed and are available on their website. This includes the original code for the modified [Timelock](../smart-contracts/api/timelock-1.md) that OUSD is using.
 
-{% page-ref page="untitled.md" %}
+{% page-ref page="audits.md" %}
 
 
 
