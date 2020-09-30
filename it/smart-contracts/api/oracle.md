@@ -1,6 +1,6 @@
-# Oracles
+# Oracoli
 
 {% hint style="info" %}
-Documentation coming soon.
+La documentazione arriverà a breve.
 {% endhint %}
 
