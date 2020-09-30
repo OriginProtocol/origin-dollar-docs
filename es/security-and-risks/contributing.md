@@ -25,44 +25,56 @@ La rama `master` está bloqueada para que solo los miembros del equipo [central]
 
 #### Estilo de Codificación
 
-We use a variety of programming languages in our repositories. When contributing, please follow existing coding conventions and refer to the CONTRIBUTING.md file in the repository, if one exists.
+Usamos una variedad de lenguajes de programación en nuestros repositorios. Cuando contribuya, siga las convenciones de codificación existentes y consulte el archivo CONTRIBUTING.md en el repositorio, si existe.
 
-For JavaScript, we use [NPM’s style](https://docs.npmjs.com/misc/coding-style), which is automatically enforced via [prettier](https://prettier.io/).
+Para JavaScript, usamos el estilo </a>
 
-For Solidity, we use two-space indents.
+NPM, que se aplica automáticamente a través de [prettier](https://prettier.io/).</p> 
 
-#### Protocol Design
+Para Solidity, usamos sangrías de dos espacios.
 
-When considering protocol or implementation design proposals, we are looking for:
 
-* A description of the problem this design proposal solves
-* Discussion of the trade-offs involved
-* Review of other existing solutions
-* Links to relevant literature \(RFCs, papers, etc\)
-* Discussion of the proposed solution
 
-Please note that protocol design is hard and meticulous work. You may need to review existing literature and think through generalized use cases.
+#### Diseño de Protocolo
 
-#### Community Guidelines
+Al considerar propuestas de diseño de protocolo o implementación, buscamos:
 
-We want to keep the Origin community awesome, growing and collaborative. We need your help to keep it that way. To help with this we’ve come up with some general guidelines for the community as a whole:
+* Una descripción del problema que resuelve esta propuesta de diseño
+* Discusión de las compensaciones involucradas
+* Revisión de otras soluciones existentes
+* Enlaces a literatura relevante \ (RFC, artículos, etc \)
+* Discusión de la solución propuesta
 
-* Be nice: Be courteous, respectful and polite to fellow community members: no regional, racial, gender, or other abuse will be tolerated. We like nice people way better than mean ones!
-* Encourage diversity and participation: Make everyone in our community feel welcome, regardless of their background and the extent of their contributions, and do everything possible to encourage participation in our community.
-* Keep it legal: Basically, don’t get anybody in trouble. Share only content that you own, do not share private or sensitive information, and don’t break laws.
-* Stay on topic: Make sure that you are posting to the correct channel and avoid off-topic discussions. Remember when you update an issue or respond to an email you are potentially sending to a large number of people. Please consider this before you update. Also remember that nobody likes spam.
+Tenga en cuenta que el diseño del protocolo es un trabajo arduo y meticuloso. Es posible que deba revisar la literatura existente y pensar en casos de uso generalizados.
 
-#### Reporting Issues
 
-If you find bugs, mistakes or inconsistencies in Origin’s code or documents, please let us know by filing a GitHub issue. No issue is too small. Help us fix our tpyos!
 
-#### Security Issues
+#### Principios de la Comunidad
+
+Queremos que la comunidad de Origin siga siendo increíble, en crecimiento y colaborativa. Necesitamos su ayuda para mantenerlo así. Para ayudar con esto, hemos elaborado algunas pautas generales para la comunidad en su conjunto:
+
+* Sea amable: sea cortés, respetuoso y cortés con los miembros de la comunidad: no se tolerará ningún abuso regional, racial, de género o de otro tipo. ¡Nos gustan las personas agradables mucho más que las malas!
+* Fomentar la diversidad y la participación: hacer que todos en nuestra comunidad se sientan bienvenidos, independientemente de sus antecedentes y el alcance de sus contribuciones, y hacer todo lo posible para fomentar la participación en nuestra comunidad.
+* Manténgala legal: Básicamente, no meta a nadie en problemas. Comparta solo el contenido de su propiedad, no comparta información privada o confidencial y no infrinja las leyes.
+* Mantente en el tema: asegúrate de publicar en el canal correcto y evita discusiones fuera del tema. Recuerde cuando actualiza un problema o responde a un correo electrónico que potencialmente está enviando a una gran cantidad de personas. Considere esto antes de actualizar. Recuerde también que a nadie le gusta el spam.
+
+
+
+#### Informar Problemas
+
+Si encuentra errores o inconsistencias en el código o los documentos de Origin, háganoslo saber presentando un problema de GitHub. Ningún problema es demasiado pequeño. ¡Ayúdanos a arreglar nuestros errores de tipografía!
+
+
+
+#### Temas de Seguridad
 
 OUSD is still in early development, which means there may be problems with the protocol or in our implementations. We take security vulnerabilities very seriously. If you discover a security issue, please bring it to our attention right away!
 
 If you find a security vulnerability please send your report privately to [security@originprotocol.com](mailto:security@originprotocol.com) or send an encrypted message to [@joshfraser on Keybase](https://keybase.io/joshfraser). Please DO NOT file a public issue. Be sure to review our guidelines for responsible disclosure and eligibility for bug bounties.
 
 {% page-ref page="bug-bounties.md" %}
+
+
 
 #### **Community Improvement**
 
@@ -71,6 +83,8 @@ Origin is just as much about community as it is about our technology.
 We need constant help in improving our documentation, building new tools to interface with our platform, spreading the word to new users, helping new users getting setup and much more.
 
 Please get in touch if you would like to help out. Our `general` channel on [Discord](https://www.originprotocol.com/discord) is a great place to share ideas and volunteer to help.
+
+
 
 #### Full-Time Positions
 
