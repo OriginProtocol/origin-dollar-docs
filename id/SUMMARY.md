@@ -23,35 +23,35 @@
   * [Curve](core-concepts/supported-strategies/curve.md)
   * [Balancer](core-concepts/supported-strategies/balancer.md)
   * [Yearn.finance](core-concepts/supported-strategies/yearn.finance.md)
-* [Fund Management](core-concepts/fund-management/README.md)
-  * [Earning Strategies](core-concepts/fund-management/earning-strategies.md)
-  * [Diversification](core-concepts/fund-management/diversification.md)
-* [Price Oracles](core-concepts/price-oracles.md)
+* [Pengelolaan Dana](core-concepts/fund-management/README.md)
+  * [Strategi Penghasilan](core-concepts/fund-management/earning-strategies.md)
+  * [Diversifikasi](core-concepts/fund-management/diversification.md)
+* [Harga Oracles](core-concepts/price-oracles.md)
 
-## Governance
+## Pemerintahan
 
-* [Principles](governance/principles.md)
-* [Admin Privileges](governance/admin-privileges.md)
+* [Prinsip](governance/principles.md)
+* [Hak Istimewa Admin](governance/admin-privileges.md)
 
-## Smart Contracts
+## Kontrak Pintar
 
-* [Architecture](smart-contracts/architecture.md)
-* [Registry](smart-contracts/registry.md)
+* [Arsitektur](smart-contracts/architecture.md)
+* [Registri](smart-contracts/registry.md)
 * [API](smart-contracts/api/README.md)
-  * [Vault](smart-contracts/api/vault.md)
+  * [Kubah](smart-contracts/api/vault.md)
   * [ERC-20](smart-contracts/api/erc-20-1.md)
   * [Timelock](smart-contracts/api/timelock-1.md)
-  * [Oracles](smart-contracts/api/oracle.md)
-  * [Strategies](smart-contracts/api/strategies.md)
+  * [Oracle](smart-contracts/api/oracle.md)
+  * [Strategi](smart-contracts/api/strategies.md)
 
-## Security & Risks
+## Keamanan & Risiko
 
-* [Risks](security-and-risks/risks.md)
-* [Audits](security-and-risks/audits.md)
+* [Resiko](security-and-risks/risks.md)
+* [Audit](security-and-risks/audits.md)
 * [Bug Bounties](security-and-risks/bug-bounties.md)
-* [Contributing](security-and-risks/contributing.md)
+* [Berkontribusi](security-and-risks/contributing.md)
 
-## Links
+## Tautan
 
 * [Github](https://www.github.com/originprotocol/origin-dollar)
 * [Discord](https://www.originprotocol.com/discord)
