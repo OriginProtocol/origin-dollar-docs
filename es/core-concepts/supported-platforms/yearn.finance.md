@@ -1,10 +1,10 @@
 # Yearn.finance
 
 {% hint style="info" %}
-Coming soon. Yearn.finance has not yet been integrated.
+Próximamente. Yearn.finance aún no se ha integrado.
 {% endhint %}
 
-Yearn.finance, formerly iEarn.finance, is a yield aggregation platform built on Ethereum and launched in January 2020 by Andre Cronje. Yearn manages yield farming and rebalancing strategies using a combination of automation and human decision making on behalf of users who have deposited capital.
+Yearn.finance, anteriormente iEarn.finance, es una plataforma de agregación de rendimiento construida sobre la red de Ethereum y lanzada en enero de 2020 por Andre Cronje. Yearn manages yield farming and rebalancing strategies using a combination of automation and human decision making on behalf of users who have deposited capital.
 
 Yearn has two yield aggregation products, Earn and Vaults. Earn allows users to deposit stablecoins or wrapped BTC into liquidity pools on Curve to earn fees and governance token rewards. These assets are also lent out on platforms offering high yield and token rewards, adding to the yield earned.
 
