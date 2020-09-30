@@ -2,21 +2,21 @@
 
 ![](../../.gitbook/assets/image%20%281%29.png)
 
-Tether \(USDT\) is a fiat-pegged stablecoin that was initially built on top of Bitcoin via the Omni Layer Protocol.  In September 2017, Tether announced they would be launching additional ERC-20 tokens for United States dollars on the Ethereum blockchain.
+Tether \ (USDT \) es una moneda estable con vinculación fiduciaria que se construyó inicialmente sobre Bitcoin a través del Protocolo Omni Layer.  En septiembre de 2017, Tether anunció que lanzarían tokens ERC-20 adicionales por dólares estadounidenses en la blockchain de Ethereum.
 
-Each Tether issued into circulation is said to be backed by a one-to-one ratio with the equivalent amount of fiat currency held in a custodial account by Tether Limited, a Hong Kong-based company with close ties to the cryptocurrency exchange, Bitfinex.
+Se dice que cada Tether emitido en circulación está respaldado por una proporción de uno a uno con la cantidad equivalente de moneda fiduciaria mantenida en una cuenta de custodia de Tether Limited, una empresa con sede en Hong Kong con estrechos vínculos con el intercambio de criptomonedas, Bitfinex.
 
-Despite the controversy ****around ****the company's failure to provide a promised audit showing adequate reserves backing tether, USDT is still the world's largest stablecoin by market cap and currently the fourth-largest cryptocurrency after BTC, ETH and XRP.
+A pesar de la controversia **** en torno **** a que la compañía no proporcionó una auditoría prometida que muestre reservas adecuadas que respaldan Tether, USDT sigue siendo la moneda estable más grande del mundo por capitalización de mercado y actualmente la cuarta criptomoneda más grande después de BTC, ETH y XRP.
 
-| Key Facts     |                                                                                                                  |
+| Hechos Clave  |                                                                                                                  |
 |:------------- |:---------------------------------------------------------------------------------------------------------------- |
-| Issued by     | Tether Limited                                                                                                   |
-| Name          | Tether                                                                                                           |
-| Symbol        | USDT                                                                                                             |
-| Address       | [0xdac17f958d2ee523a2206206994597c13d831](https://etherscan.io/token/0xdac17f958d2ee523a2206206994597c13d831ec7) |
-| Decimals      | 6                                                                                                                |
-| Official site | [https://tether.to/ ](https://tether.to/%20)                                                                     |
-| Holders       | Over 1.8M addresses                                                                                              |
+| Emitido por   | Tether Limited                                                                                                   |
+| Nombre        | Tether                                                                                                           |
+| Símbolo       | USDT                                                                                                             |
+| Dirección     | [0xdac17f958d2ee523a2206206994597c13d831](https://etherscan.io/token/0xdac17f958d2ee523a2206206994597c13d831ec7) |
+| Decimales     | 6                                                                                                                |
+| Sitio oficial | [https://tether.to/ ](https://tether.to/%20)                                                                     |
+| Holders       | Más de 1.8 millones de direcciones                                                                               |
 
 
 
