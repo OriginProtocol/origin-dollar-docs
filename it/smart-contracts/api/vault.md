@@ -20,14 +20,14 @@ Genera OUSD in cambio di un deposito di un certo ` _amount` di stable coin speci
 
 ### mintMultiple\(\) <a id="mintmultiple"></a>
 
-**`function mintMultiple(address[] _assets, uint256[] _amounts)`**‌
+**`function mintMultiple(address[] _assets, uint256[] _amounts)`**
 
-Mints OUSD in exchange for a deposit of multiple stablecoins in a single call. Stablecoins are specified by the `_assets` array parameter and the amounts by the `_amounts` array parameter. The caller receives a certain amount of OUSD depending on the **exchange rate**.
+Mints OUSD in exchange for a deposit of multiple stablecoins in a single call. Le stablecoin sono specificate dal parametro array `_assets` e gli importi dal parametro array `_amounts`. Il chiamante riceve un certo numero di OUSD dipendentemente dal **tasso di cambio**.
 
-| Parameter Name | Type          | Description                                                                                                                                           |
-|:-------------- |:------------- |:----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| \_assets     | address\[\] | Addresses of the [supported](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/core-concepts/supported-assets) stablecoins |
-| \_amounts    | uint256\[\] | amounts deposited, expressed in decimal units                                                                                                         |
+| Nome del parametro | Tipo          | Descrizione                                                                                                                                          |
+|:------------------ |:------------- |:---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| \_assets         | address\[\] | Indirizzi delle stablecoin [supportate](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/core-concepts/supported-assets) |
+| \_amounts        | uint256\[\] | importi depositati, espressi in unità decimali                                                                                                       |
 
 {% hint style="warning" %}
 On redemptions, it is the protocol and not the user that decides which stablecoin\(s\) are returned to the user. This decision of which coin\(s\) to return is based on the internal ratios of the assets that are being held in the vault.‌
