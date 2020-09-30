@@ -47,7 +47,7 @@
 ## 보안 & 위험
 
 * [위험](security-and-risks/risks.md)
-* [감사](security-and-risks/untitled.md)
+* [감사](security-and-risks/audits.md)
 * [버그 현상금](security-and-risks/asset-risk.md)
 * [기여](security-and-risks/contributing.md)
 
