@@ -7,14 +7,14 @@ Il timelock verrà aggiunto subito dopo che tutto sia verificato come funzionant
 Il contratto timelock applica un periodo di attesa di 48 ore prima che qualsiasi modifica ai contratti OUSD possano essere eseguiti. Il timelock può essere chiamato dal nostro multi-sig ed è il proprietario dei nostri contratti [ERC-20](../architecture.md),[Vault](vault.md), e [Strategie](strategies.md). Le azioni di amministrazione ritardate offrono agli utenti la possibilità di uscire da OUSD se i suoi amministratori diventano malevoli, se vengono compromessi o apportano una modifica che agli utenti non piace.
 
 {% hint style="info" %}
-The timelock is a safety measure that gives OUSD holders 48 hours to withdraw their funds if they have objections to any proposed upgrades to the protocol.
+Il blocco temporale è una misura di sicurezza che offre ai titolari di OUSD 48 ore per ritirare i propri fondi se dovessero avere obiezioni a qualsiasi aggiornamento proposto al protocollo.
 {% endhint %}
 
-OUSD is using a slightly modified version of the [Compound Timelock](https://compound.finance/docs/governance) which has been [audited by OpenZeppelin](https://blog.openzeppelin.com/compound-finance-patch-audit/). The 3 notable differences are:
+OUSD utilizza una versione leggermente modificata di [Compound Timelock](https://compound.finance/docs/governance) che è stata [verificata da OpenZeppelin](https://blog.openzeppelin.com/compound-finance-patch-audit/). Le 3 differenze importanti sono:
 
-1. OUSD will initially use a shorter wait period \(48 hours\) than Compound \(72 hours\) to allow for a faster response if any issues are discovered.
-2. Once the 48 hours have passed, anyone is free to execute the call, not just the owner of the contract.
-3. Deposits \(but not withdrawals or transfers\) can be immediately frozen without requiring the 48 waiting period. This is in case a major vulnerability is discovered.
+1. OUSD inizialmente utilizzerà un periodo di attesa più breve \(48 ore\) rispetto a quello di Compund \(72 ore\), per permettere una più rapida risposta a qualsiasi tipo di problema riscontrato.
+2. Una volta che le 48 ore saranno passate, chiunque sarà libero di eseguire le chiamate, e non più solo il proprietario del contratto.
+3. I depositi \(ma non i ritiri o i trasferimenti\) potranno essere immediatamente congelati senza richiedere il periodo di attesa di 48 ore. Questo è nel caso in cui venga scoperta una grave vulnerabilità.
 
 
 
