@@ -14,14 +14,14 @@ Token issuers seeking to improve liquidity of their token have offered incentive
 
 Balancer is governed by BAL, an ERC-20 governance token. BAL holders can vote on protocol changes. BAL is continuously awarded to liquidity providers and a large portion of the total supply of BAL was allocated to the team and investors on a continuous vesting schedule.
 
-Trading volumes on Balancer are often over $25 million daily. Balancer has a Total Value Locked \(TVL\) of over $250 million by liquidity providers at the time of writing.
+Los volúmenes de negociación en Balancer suelen superar los 25 millones de dólares diarios. Balancer tiene un Valor Total Bloqueado \(TVL\) de más de $250 millones por parte de los proveedores de liquidez al momento de escribir este artículo.
 
-Balancer has undergone a security audit by Trail of Bits and has a bug bounty program. However, Balancer has suffered a major exploit in June 2020.
+Balancer ha sido sometido a una auditoria de seguridad por Trail of Bits y tiene un programa de recompensas por errores. Sin embargo, Balancer sufrió una gran vulnerabilidad en junio de 2020.
 
-| Resources      |                                                                      |
-|:-------------- |:-------------------------------------------------------------------- |
-| Official site  | [https://balancer.finance/](https://balancer.finance/)               |
-| Developer docs | [https://docs.balancer.finance/](https://docs.balancer.finance/)     |
-| GitHub         | [https://github.com/balancer-labs](https://github.com/balancer-labs) |
-| Discord        | [https://discord.gg/ARJWaeF](https://discord.gg/ARJWaeF)             |
+| Recursos                        |                                                                      |
+|:------------------------------- |:-------------------------------------------------------------------- |
+| Sitio oficial                   | [https://balancer.finance/](https://balancer.finance/)               |
+| Documentos para desarrolladores | [https://docs.balancer.finance/](https://docs.balancer.finance/)     |
+| GitHub                          | [https://github.com/balancer-labs](https://github.com/balancer-labs) |
+| Discord                         | [https://discord.gg/ARJWaeF](https://discord.gg/ARJWaeF)             |
 
