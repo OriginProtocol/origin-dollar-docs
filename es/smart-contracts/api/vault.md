@@ -11,12 +11,12 @@ description: >-
 
 **`función mint (dirección _asset, uint256 _amount)`**
 
-Mints OUSD in exchange for a deposit of a certain `_amount` of stablecoin specified by the `_asset` parameter. The caller receives a certain amount of OUSD depending on the **exchange rate**.
+Acuñar OUSD a cambio de un depósito de un determinado `_amount` de moneda estable especificado por el `_asset` parámetro. The caller receives a certain amount of OUSD depending on the **exchange rate**.
 
-| Parameter Name | Type    | Description                                                                                                                                        |
-|:-------------- |:------- |:-------------------------------------------------------------------------------------------------------------------------------------------------- |
-| \_asset      | address | Address of the [supported](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/core-concepts/supported-assets) stablecoin |
-| \_amount     | uint256 | amount deposited, expressed in decimal units                                                                                                       |
+| Nombre del parámetro | Tipo      | Descripción                                                                                                                                        |
+|:-------------------- |:--------- |:-------------------------------------------------------------------------------------------------------------------------------------------------- |
+| \_asset            | dirección | Address of the [supported](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/core-concepts/supported-assets) stablecoin |
+| \_amount           | uint256   | monto depositado, expresado en unidades decimales                                                                                                  |
 
 ### mintMultiple\(\) <a id="mintmultiple"></a>
 
