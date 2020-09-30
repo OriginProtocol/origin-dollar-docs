@@ -21,31 +21,31 @@ Well-known addresses \(often proxy wrappers\):
 
 Internal implementation contracts:
 
-| Contract            | Address                                                                                                               |
-|:------------------- |:--------------------------------------------------------------------------------------------------------------------- |
-| OUSD                | [0xB72b3f5523851C2EB0cA14137803CA4ac7295f3F](https://etherscan.io/address/0xB72b3f5523851C2EB0cA14137803CA4ac7295f3F) |
-| Vault               | [0xf251Cb9129fdb7e9Ca5cad097dE3eA70caB9d8F9](https://etherscan.io/address/0xf251Cb9129fdb7e9Ca5cad097dE3eA70caB9d8F9) |
-| Mix Oracle          | [0xCf67e56965AD7CEC05eBf88bAd798A875E0460EB](https://etherscan.io/address/0xCf67e56965AD7CEC05eBf88bAd798A875E0460EB) |
-| Chainlink Oracle    | [0x8DE3Ac42F800a1186b6D70CB91e0D6876cC36759](https://etherscan.io/address/0x8DE3Ac42F800a1186b6D70CB91e0D6876cC36759) |
-| Open Uniswap Oracle | [0xa8f14F558aC70F5f52C37cD96d802ef9210023C5](https://etherscan.io/address/0xa8f14F558aC70F5f52C37cD96d802ef9210023C5) |
+| Contrato             | Dirección                                                                                                             |
+|:-------------------- |:--------------------------------------------------------------------------------------------------------------------- |
+| OUSD                 | [0xB72b3f5523851C2EB0cA14137803CA4ac7295f3F](https://etherscan.io/address/0xB72b3f5523851C2EB0cA14137803CA4ac7295f3F) |
+| Vault                | [0xf251Cb9129fdb7e9Ca5cad097dE3eA70caB9d8F9](https://etherscan.io/address/0xf251Cb9129fdb7e9Ca5cad097dE3eA70caB9d8F9) |
+| Mix Oracle           | [0xCf67e56965AD7CEC05eBf88bAd798A875E0460EB](https://etherscan.io/address/0xCf67e56965AD7CEC05eBf88bAd798A875E0460EB) |
+| Oráculo de Chainlink | [0x8DE3Ac42F800a1186b6D70CB91e0D6876cC36759](https://etherscan.io/address/0x8DE3Ac42F800a1186b6D70CB91e0D6876cC36759) |
+| Open Uniswap Oracle  | [0xa8f14F558aC70F5f52C37cD96d802ef9210023C5](https://etherscan.io/address/0xa8f14F558aC70F5f52C37cD96d802ef9210023C5) |
 {% endtab %}
 
 {% tab title="Strategies" %}
 Well-known addresses \(proxy wrappers\):
 
-| Strategy | Address                                                                                                               | Current Allocation |
-|:-------- |:--------------------------------------------------------------------------------------------------------------------- |:------------------ |
-| Compound | [0x47211B1D1F6Da45aaEE06f877266E072Cf8BaA74](https://etherscan.io/address/0x47211B1D1F6Da45aaEE06f877266E072Cf8BaA74) | 100%               |
+| Estrategia | Dirección                                                                                                             | Asignación actual |
+|:---------- |:--------------------------------------------------------------------------------------------------------------------- |:----------------- |
+| Compound   | [0x47211B1D1F6Da45aaEE06f877266E072Cf8BaA74](https://etherscan.io/address/0x47211B1D1F6Da45aaEE06f877266E072Cf8BaA74) | 100%              |
 
 Internal implementation contracts:
 
-| Strategy | Address                                                                                                               |
-|:-------- |:--------------------------------------------------------------------------------------------------------------------- |
-| Compound | [0x5B57e808b0ddCF097e25C5f5E3d8d3c2b0D26319](https://etherscan.io/address/0x5B57e808b0ddCF097e25C5f5E3d8d3c2b0D26319) |
+| Estrategia | Dirección                                                                                                             |
+|:---------- |:--------------------------------------------------------------------------------------------------------------------- |
+| Compound   | [0x5B57e808b0ddCF097e25C5f5E3d8d3c2b0D26319](https://etherscan.io/address/0x5B57e808b0ddCF097e25C5f5E3d8d3c2b0D26319) |
 {% endtab %}
 
 {% tab title="Stablecoins" %}
-| Contract | Address                                                                                                             |
+| Contrato | Dirección                                                                                                           |
 |:-------- |:------------------------------------------------------------------------------------------------------------------- |
 | USDT     | [0xdac17f958d2ee523a2206206994597c13d831ec7](https://etherscan.io/token/0xdac17f958d2ee523a2206206994597c13d831ec7) |
 | USDC     | [0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48](https://etherscan.io/token/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48) |
