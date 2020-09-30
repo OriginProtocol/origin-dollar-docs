@@ -11,10 +11,10 @@
   * [대출](core-concepts/yield-generation/lending.md)
   * [마켓메이킹](core-concepts/yield-generation/market-making.md)
   * [보상](core-concepts/yield-generation/rewards.md)
-* [지원되는 스테이블 코인](core-concepts/supported-assets/README.md)
-  * [USDT](core-concepts/supported-assets/usdt.md)
-  * [USDC](core-concepts/supported-assets/usdc.md)
-  * [DAI](core-concepts/supported-assets/dai.md)
+* [지원되는 스테이블 코인](core-concepts/supported-stablecoins/README.md)
+  * [USDT](core-concepts/supported-stablecoins/usdt.md)
+  * [USDC](core-concepts/supported-stablecoins/usdc.md)
+  * [DAI](core-concepts/supported-stablecoins/dai.md)
 * [지원되는 전략](core-concepts/supported-strategies/README.md)
   * [컴파운드(Compound)](core-concepts/supported-strategies/compound.md)
   * [에이브(Aave)](core-concepts/supported-strategies/aave.md)
@@ -30,12 +30,12 @@
 
 ## 거버넌스(Governance)
 
-* [원리](governance/governance.md)
+* [원리](governance/principles.md)
 * [관리자 권한](governance/admin-privileges.md)
 
 ## 스마트 컨트랙트
 
-* [아키텍처(Architecture)](smart-contracts/erc-20.md)
+* [아키텍처(Architecture)](smart-contracts/architecture.md)
 * [레지스트리(Registry)](smart-contracts/registry.md)
 * [API](smart-contracts/api/README.md)
   * [금고(Vault)](smart-contracts/api/vault.md)
@@ -48,7 +48,7 @@
 
 * [위험](security-and-risks/risks.md)
 * [감사](security-and-risks/audits.md)
-* [버그 현상금](security-and-risks/asset-risk.md)
+* [버그 현상금](security-and-risks/bug-bounties.md)
 * [기여](security-and-risks/contributing.md)
 
 ## 링크
