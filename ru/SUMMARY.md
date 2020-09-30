@@ -11,10 +11,10 @@
   * [Lending](core-concepts/yield-generation/lending.md)
   * [Market Making](core-concepts/yield-generation/market-making.md)
   * [Rewards](core-concepts/yield-generation/rewards.md)
-* [Supported Stablecoins](core-concepts/supported-assets/README.md)
-  * [USDT](core-concepts/supported-assets/usdt.md)
-  * [USDC](core-concepts/supported-assets/usdc.md)
-  * [DAI](core-concepts/supported-assets/dai.md)
+* [Supported Stablecoins](core-concepts/supported-stablecoins/README.md)
+  * [USDT](core-concepts/supported-stablecoins/usdt.md)
+  * [USDC](core-concepts/supported-stablecoins/usdc.md)
+  * [DAI](core-concepts/supported-stablecoins/dai.md)
 * [Supported Strategies](core-concepts/supported-strategies/README.md)
   * [Compound](core-concepts/supported-strategies/compound.md)
   * [Aave](core-concepts/supported-strategies/aave.md)
@@ -30,12 +30,12 @@
 
 ## Governance
 
-* [Principles](governance/governance.md)
+* [Principles](governance/principles.md)
 * [Admin Privileges](governance/admin-privileges.md)
 
 ## Smart Contracts
 
-* [Architecture](smart-contracts/erc-20.md)
+* [Architecture](smart-contracts/architecture.md)
 * [Registry](smart-contracts/registry.md)
 * [API](smart-contracts/api/README.md)
   * [Vault](smart-contracts/api/vault.md)
@@ -47,8 +47,8 @@
 ## Security & Risks
 
 * [Risks](security-and-risks/risks.md)
-* [Audits](security-and-risks/untitled.md)
-* [Bug Bounties](security-and-risks/asset-risk.md)
+* [Audits](security-and-risks/audits.md)
+* [Bug Bounties](security-and-risks/bug-bounties.md)
 * [Contributing](security-and-risks/contributing.md)
 
 ## Links
