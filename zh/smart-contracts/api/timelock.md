@@ -1,4 +1,4 @@
-# Timelock
+# 时间锁
 
 {% hint style="danger" %}
 The timelock will be added soon after everything is verified as working. Until then, the contracts will be governed by Origin's 5 of 8 multi-sig. This allows for a faster response if any critical issues are discovered.
