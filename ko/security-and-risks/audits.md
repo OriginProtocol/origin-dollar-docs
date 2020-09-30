@@ -12,7 +12,7 @@ OUSD 스마트 컨트렉트는 아직 감사되지 않았습니다. 다량의 �
 
 **지원되는 전략**
 
-컴파운드(Compound) 에 대한 여러 감사가 이미 완료 되었으며, 해당 웹 사이트에서 사용할 수 있습니다. 여기에는 OUSD가 사용하는 수정 된 [타임락(Timelock)](../smart-contracts/api/timelock-1.md) 의 원본 코드가 포함됩니다.
+컴파운드(Compound) 에 대한 여러 감사가 이미 완료 되었으며, 해당 웹 사이트에서 사용할 수 있습니다. This includes the original code for the modified [Timelock](../smart-contracts/api/timelock.md) that OUSD is using.
 
 {% page-ref page="audits.md" %}
 
