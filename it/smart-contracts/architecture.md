@@ -1,12 +1,12 @@
-# Architecture
+# Architettura
 
 ![](../.gitbook/assets/ousd_docs_graphics_3.png)
 
-OUSD is made up of a series of smart contracts. Each of these contracts is wrapped in a proxy contract that can be upgraded via the governance protocols.
+OUSD è costituito da una serie di smart contract. Ciascuno di questi contratti è racchiuso in un contratto proxy che può essere migliorato tramite i protocolli di governance.
 
-Internally, ownership in the pool is tracked using a credits system that represents the percent ownership of the pool for each holder. The [ERC-20](api/erc-20-1.md) contract handles the conversion to USD terms when viewing a balance or initiating a transfer between wallets.
+Internamente, il possesso nella pool viene monitorata utilizzando un sistema di crediti che rappresenta la percentuale di possesso della pool per ciascun detentore. Il contratto [ERC-20](api/erc-20-1.md) gestisce la conversione in USD quando si visualizza un saldo o si inizia un trasferimento tra wallet.
 
-The [Vault](api/vault.md) is responsible for minting and burning OUSD. It also enforces the percentage of assets that are deployed to each of the supported [Strategies](../core-concepts/supported-strategies/). To optimize gas costs, the vault maintains a buffer to allow most deposits and redemptions to occur without winding/unwinding assets from strategies.
+Il [Vault](api/vault.md) è responsabile della coniazione (minting) e della distruzione (burning) degli OUSD. Inoltre, applica la percentuale di risorse che sono rilasciate in ciascuna delle [Strategies](../core-concepts/supported-strategies/) supportate. Per ottimizzare i costi del gas, il vault mantiene un buffer per consentire alla maggior parte dei depositi e dei rimborsi, di avvenire senza liquidare/sciogliere asset dalle strategie.
 
 
 
