@@ -1,8 +1,8 @@
 # Diversificación
 
-La versión inicial del contrato inteligente de la Bóveda de OUSD le da a cada estrategia válida un peso simple entre 0% y 100% para realizar una asignación de activos simple. These weights will be shifted often via updates by Origin in the short-term and by decentralized governance in the long-term.
+La versión inicial del contrato inteligente de la Bóveda de OUSD le da a cada estrategia válida un peso simple entre 0% y 100% para realizar una asignación de activos simple. Estos pesos se cambiarán a menudo mediante actualizaciones de Origin a corto plazo y mediante una gobernanza descentralizada a largo plazo.
 
-Diversification across multiple underlying DeFi [platforms](../supported-strategies/) will reduce smart contract and other systemic risks. The smart contract will calculate current and expected APYs in an effort to provide competitive returns to OUSD holders. Over time, the Vault contract will be upgraded to intelligently and autonomously shift between strategies without any manual intervention. For example, the Vault will automatically shift capital between various lending strategies to optimize for yields.
+La diversificación a través de múltiples plataformas DeFi [subyacentes](../supported-strategies/) reducirá el contrato inteligente y otros riesgos sistémicos. El contrato inteligente calculará los APY actuales y esperados en un esfuerzo por proporcionar rendimientos competitivos a los holders de OUSD. Con el tiempo, el contrato de Bóveda se actualizará para cambiar de forma inteligente y autónoma entre estrategias sin ninguna intervención manual. Por ejemplo, la Bóveda cambiará automáticamente el capital entre varias estrategias de préstamos para optimizar los rendimientos.
 
-However, it is still expected that certain risk parameters or decisions on whether certain strategies will be included in the automated decision-making engine will be made through governance votes. 
+Sin embargo, todavía se espera que ciertos parámetros de riesgo o decisiones sobre si ciertas estrategias se incluirán en el motor de toma de decisiones automatizado se tomen a través de votaciones de gobernancia. 
 
