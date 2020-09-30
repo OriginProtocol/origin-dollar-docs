@@ -1,29 +1,29 @@
-# Contributing
+# Contribuyendo
 
-**100% Open-source**
+**100% Código abierto**
 
-OUSD is an entirely open-source project and we welcome contributions of all sorts. There are many ways to help, from reporting issues, contributing code, and helping us improve our community.
+OUSD es un proyecto completamente de código abierto y agradecemos contribuciones de todo tipo. Hay muchas formas de ayudar, desde informar problemas, contribuir con código y ayudarnos a mejorar nuestra comunidad.
 
-We work in public and our company Discord is open to all. If you have questions or need help getting started, our Discord OUSD channels are the best place to get assistance from our team and community.
+Trabajamos en público y nuestra compañía en Discord está abierta a todos. Si tiene preguntas o necesita ayuda para comenzar, nuestros canales de Discord de OUSD son el mejor lugar para obtener ayuda de nuestro equipo y comunidad.
 
-#### Development Process
+#### Proceso de Desarrollo
 
-Our branching strategy is similar to [GitFlow](http://nvie.com/posts/a-successful-git-branching-model/), but we do all of our development in the `master` branch and have a `stable` branch for code that has been released.
+Nuestra estrategia de ramificación es similar a [GitFlow](http://nvie.com/posts/a-successful-git-branching-model/), pero hacemos todo nuestro desarrollo en la rama `master` y tenemos una rama `estable` para el código que se ha lanzado.
 
-Your development flow should look like:
+Su flujo de desarrollo debería verse así:
 
-1. Find an interesting issue and communicate! Please let the `#engineering` [Discord](https://discord.gg/jyxpUSe) channel know what you want to work on.
-2. Ping a [core team member](https://github.com/orgs/OriginProtocol/teams/core/members) member on Discord and ask to be added to our [contributors team](https://github.com/orgs/OriginProtocol/teams/contributors). Otherwise, you’ll need to fork the relevant repository and push feature branches to your own fork.
-3. Add a comment to the issue or self-assign so we don’t have multiple contributors unintentionally working on the same task.
-4. Start with the `master` branch and check out a new feature branch unless you’re contributing to an existing feature.
-5. Follow the appropriate [coding style](https://docs.originprotocol.com/guides/getting_started/contributing.html#contributing-email-coding-style) and write some awesome code.
-6. Pull the latest commits from `master` and confirm that your code works with any other work that has been merged since you started.
-7. Push your branch to the upstream repository \(i.e. https://github.com/OriginProtocol/\[repo\]\) so that other contributors can easily work off of it if necessary.
-8. Please request a review in the PR by clicking on the gear icon next to “Reviewers” in the right column.
+1. ¡Encuentra un tema interesante y comunícate! Por favor informe al canal `#engineering` [Discord](https://discord.gg/jyxpUSe) qué desea trabajar.
+2. Haga ping a un miembro del equipo central, [](https://github.com/orgs/OriginProtocol/teams/core/members) miembro en Discord y pida que lo agreguen a nuestro equipo de [colaboradores](https://github.com/orgs/OriginProtocol/teams/contributors). De lo contrario, deberá bifurcar el repositorio relevante y enviar las ramas de funciones a su propia bifurcación.
+3. Agregue un comentario al problema o autoasignelo para que no tengamos varios colaboradores trabajando involuntariamente en la misma tarea.
+4. Comience con la rama `master` y compruebe una nueva rama de función a menos que esté contribuyendo a una función existente.
+5. Siga el estilo de codificación [apropiado](https://docs.originprotocol.com/guides/getting_started/contributing.html#contributing-email-coding-style) y escriba un código increíble.
+6. Extraiga las últimas confirmaciones de `master` y confirme que su código funciona con cualquier otro trabajo que se haya fusionado desde que comenzó.
+7. Empuje su rama al repositorio de arriba \ (es decir, https: //github.com/OriginProtocol/ \ [repo \] \) para que otros contribuyentes puedan trabajar fácilmente si es necesario.
+8. Solicite una revisión en el RP haciendo clic en el ícono de ajustes junto a "Reviewers" en la columna de la derecha.
 
-The `master` branch is locked so that only members of the [core team](https://github.com/orgs/OriginProtocol/teams/core) are able to merge your pull requests. Pull requests that are peer-reviewed by other trusted contributors will be fast-tracked and merged faster! Check in the `#engineering` Discord channel for appropriate reviewers.
+La rama `master` está bloqueada para que solo los miembros del equipo [central](https://github.com/orgs/OriginProtocol/teams/core) puedan fusionar sus solicitudes de extracción. Las solicitudes de extracción que son revisadas por pares por otros colaboradores de confianza se acelerarán y combinarán ¡más rápido! Consulte el canal `#engineering` de Discord para ver los revisores adecuados.
 
-#### Coding Style
+#### Estilo de Codificación
 
 We use a variety of programming languages in our repositories. When contributing, please follow existing coding conventions and refer to the CONTRIBUTING.md file in the repository, if one exists.
 
