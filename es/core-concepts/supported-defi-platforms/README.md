@@ -1,14 +1,14 @@
-# Supported DeFi Platforms
+# Plataformas DeFi Compatibles
 
-**Supported Platforms**
+**Plataformas Compatibles**
 
-OUSD generates yield by depositing stablecoins into lending platforms and market maker liquidity pools. It is important to understand that these platforms do carry technological risk and funds can be lost if there is a major security event. We are choosing to work with the platforms that have had their smart contracts audited and that we feel are most secure.
+OUSD genera rendimiento al depositar monedas estables en plataformas de préstamos y grupos de liquidez de los creadores de mercado. Es importante comprender que estas plataformas conllevan riesgos tecnológicos y se pueden perder fondos si hay un evento de seguridad importante. Estamos eligiendo trabajar con las plataformas que han auditado sus contratos inteligentes y que creemos que son más seguras.
 
-Currently, we plan to earn yields from the following platforms:
+Actualmente, planeamos obtener rendimientos de las siguientes plataformas:
 
 {% page-ref page="compound.md" %}
 
-Integrations are currently planned for the following platforms:
+Actualmente están previstas integraciones para las siguientes plataformas:
 
 {% page-ref page="aave.md" %}
 
