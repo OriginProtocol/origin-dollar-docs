@@ -34,7 +34,7 @@ OUSD es un token ERC-20 no estándar que requiere un trabajo de integración per
 
 Si usted es un proveedor de billetera o una plataforma de intercambio cripto que está interesado en respaldar OUSD, consulte las siguientes guías: 
 
-{% page-ref page="smart-contracts/architecture.md" %}
+{% page-ref page = "contratos-inteligentes / erc-20.md"%}
 
 {% page-ref page = "contratos-inteligentes / erc-md"%}
 
