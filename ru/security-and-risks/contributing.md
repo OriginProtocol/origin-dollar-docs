@@ -62,7 +62,7 @@ OUSD is still in early development, which means there may be problems with the p
 
 If you find a security vulnerability please send your report privately to [security@originprotocol.com](mailto:security@originprotocol.com) or send an encrypted message to [@joshfraser on Keybase](https://keybase.io/joshfraser). Please DO NOT file a public issue. Be sure to review our guidelines for responsible disclosure and eligibility for bug bounties.
 
-{% page-ref page="asset-risk.md" %}
+{% page-ref page="bug-bounties.md" %}
 
 #### **Community Improvement**
 
