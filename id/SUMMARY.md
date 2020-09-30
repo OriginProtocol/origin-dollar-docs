@@ -40,7 +40,7 @@
 * [API](smart-contracts/api/README.md)
   * [Kubah](smart-contracts/api/vault.md)
   * [ERC-20](smart-contracts/api/erc-20-1.md)
-  * [Timelock](smart-contracts/api/timelock-1.md)
+  * [Timelock](smart-contracts/api/timelock.md)
   * [Oracle](smart-contracts/api/oracle.md)
   * [Strategi](smart-contracts/api/strategies.md)
 
