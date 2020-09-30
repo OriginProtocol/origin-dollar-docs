@@ -40,7 +40,7 @@
 * [API](smart-contracts/api/README.md)
   * [保险库 （Vault）](smart-contracts/api/vault.md)
   * [ERC-20](smart-contracts/api/erc-20-1.md)
-  * [时间锁（Timelock）](smart-contracts/api/timelock-1.md)
+  * [时间锁（Timelock）](smart-contracts/api/timelock.md)
   * [神谕 (Oracles)](smart-contracts/api/oracle.md)
   * [策略](smart-contracts/api/strategies.md)
 
