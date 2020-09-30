@@ -8,7 +8,7 @@ Además de cobrar intereses de préstamos y comisiones de creación de mercado, 
 Si bien la bóveda almacena de forma segura cualquier recompensa inesperada que reciba, será necesario escribir e implementar estrategias personalizadas para decidir cuándo y cómo el protocolo debe convertirlas en monedas estables.
 {% endhint %}
 
-Today, rewards are a significant factor for yield farmers as they represent a large percentage of their returns. Anticipamos que el protocolo OUSD se actualizará con el tiempo para aprovechar los rendimientos más atractivos disponibles en todo el panorama de DeFi. El protocolo tendrá en cuenta el valor de mercado de las diversas recompensas que se ofrecen al decidir cómo distribuir mejor los recursos.
+Hoy en día, las recompensas son un factor importante para los cultivadores de rendimiento, ya que representan un gran porcentaje de sus ganancias. Anticipamos que el protocolo OUSD se actualizará con el tiempo para aprovechar los rendimientos más atractivos disponibles en todo el panorama de DeFi. El protocolo tendrá en cuenta el valor de mercado de las diversas recompensas que se ofrecen al decidir cómo distribuir mejor los recursos.
 
 
 
