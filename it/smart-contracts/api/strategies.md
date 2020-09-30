@@ -1,4 +1,4 @@
-# Strategies
+# Strategie
 
 E' possibile aggiungere o rimuovere nuove strategie in qualsiasi momento, per rispondere alle nuove realtà del mercato e diversificare il rischio.
 
