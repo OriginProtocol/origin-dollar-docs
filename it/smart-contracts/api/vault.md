@@ -1,22 +1,22 @@
 ---
 description: >-
-  The vault is the main contract of the protocol. The vault is responsible for minting/redeeming OUSD tokens, rebalancing funds between the various supported strategies, and liquidating rewards tokens.
+  Il vault è il contratto principale del protocollo. Il vault è responsabile del conio / riscatto dei token OUSD, del ribilanciamento dei fondi tra le varie strategie supportate e della liquidazione dei token ricompensa.
 ---
 
 # Vault
 
-## Methods‌
+## Metodi
 
 ### mint\(\) <a id="mint"></a>
 
-**`function mint(address _asset, uint256 _amount)`**‌
+**`function mint(address _asset, uint256 _amount)`**
 
-Mints OUSD in exchange for a deposit of a certain `_amount` of stablecoin specified by the `_asset` parameter. The caller receives a certain amount of OUSD depending on the **exchange rate**.
+Genera OUSD in cambio di un deposito di un certo ` _amount` di stable coin specificata dal parametro ` _asset`. Il chiamante riceve un certo numero di OUSD dipendentemente dal **exchange rate**.
 
-| Parameter Name | Type    | Description                                                                                                                                        |
-|:-------------- |:------- |:-------------------------------------------------------------------------------------------------------------------------------------------------- |
-| \_asset      | address | Address of the [supported](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/core-concepts/supported-assets) stablecoin |
-| \_amount     | uint256 | amount deposited, expressed in decimal units                                                                                                       |
+| Nome del Parametro | Tipo    | Descrizione                                                                                                                                          |
+|:------------------ |:------- |:---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| \_asset          | address | Indirizzo della stablecoin [supportata](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/core-concepts/supported-assets) |
+| \_amount         | uint256 | cifra depositata, espressa in unità decimali                                                                                                         |
 
 ### mintMultiple\(\) <a id="mintmultiple"></a>
 
