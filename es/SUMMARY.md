@@ -11,10 +11,10 @@
   * [Préstamo](core-concepts/yield-generation/lending.md)
   * [Creación de Mercado](core-concepts/yield-generation/market-making.md)
   * [Recompensas](core-concepts/yield-generation/rewards.md)
-* [Monedas Estables Soportadas](core-concepts/supported-assets/README.md)
-  * [USDT](core-concepts/supported-assets/usdt.md)
-  * [USDC](core-concepts/supported-assets/usdc.md)
-  * [DAI](core-concepts/supported-assets/dai.md)
+* [Monedas Estables Soportadas](core-concepts/supported-stablecoins/README.md)
+  * [USDT](core-concepts/supported-stablecoins/usdt.md)
+  * [USDC](core-concepts/supported-stablecoins/usdc.md)
+  * [DAI](core-concepts/supported-stablecoins/dai.md)
 * [Estrategias Apoyadas](core-concepts/supported-strategies/README.md)
   * [Compound](core-concepts/supported-strategies/compound.md)
   * [Aave](core-concepts/supported-strategies/aave.md)
@@ -30,12 +30,12 @@
 
 ## Gobernancia
 
-* [Principios](governance/governance.md)
+* [Principios](governance/principles.md)
 * [Privilegios de Administrador](governance/admin-privileges.md)
 
 ## Contratos Inteligentes
 
-* [Arquitectura](smart-contracts/erc-20.md)
+* [Arquitectura](smart-contracts/architecture.md)
 * [Registro](smart-contracts/registry.md)
 * [API](smart-contracts/api/README.md)
   * [Bóveda](smart-contracts/api/vault.md)
@@ -48,7 +48,7 @@
 
 * [Riesgos](security-and-risks/risks.md)
 * [Auditorias](security-and-risks/audits.md)
-* [Recompensas de Errores](security-and-risks/asset-risk.md)
+* [Recompensas de Errores](security-and-risks/bug-bounties.md)
 * [Contribuyendo](security-and-risks/contributing.md)
 
 ## Enlaces
