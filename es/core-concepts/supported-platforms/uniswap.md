@@ -4,24 +4,24 @@
 Próximamente. Uniswap aún no se ha integrado.
 {% endhint %}
 
-Uniswap es un protocolo de liquidez descentralizado y un exchange sobre la red de Ethereum, lanzado en Noviembre de 2018. Uniswap v2 se lanzó en Mayo de 2020. Users can swap ERC-20 tokens for a fee or contribute tokens to liquidity pools to earn fees.
+Uniswap es un protocolo de liquidez descentralizado y un exchange sobre la red de Ethereum, lanzado en Noviembre de 2018. Uniswap v2 se lanzó en Mayo de 2020. Los usuarios pueden intercambiar tokens ERC-20 por una comisión o contribuir con tokens a los grupos de liquidez para ganar comisiones.
 
-Markets on Uniswap operate as liquidity pools rather than order books. This type of exchange is called an Automated Market Maker \(AMM\). The exchange rate between the two assets is determined by a constant product formula and moves along a price curve depending on the relative weight of each asset in the pool. This encourages arbitrageurs to enter liquidity pools to rebalance the relative weights and normalize the exchange rate.
+Los mercados de Uniswap operan como grupos de liquidez en lugar de libros de pedidos. Este tipo de exchange se denomina Creador de Mercado Automatizado \(AMM\). El tipo de cambio entre los dos activos se determina mediante una fórmula de producto constante y se mueve a lo largo de una curva de precios según el peso relativo de cada activo en el grupo de liquidez. Esto anima a los arbitrajistas a entrar en grupos de liquidez para reequilibrar las ponderaciones relativas y normalizar el tipo de cambio.
 
-Traders can suffer from slippage if there is not enough liquidity in a given pool and may not be protected from unfavorable exchange rates. Liquidity providers may suffer impermanent loss when the pool exchange rate does not match market realities and arbitrageurs execute trades along the pricing curve.
+Los traders pueden sufrir deslizamientos si no hay suficiente liquidez en un grupo de liquidez determinado y es posible que no estén protegidos de tipos de cambio desfavorables. Los proveedores de liquidez pueden sufrir pérdidas transitorias cuando el tipo de cambio del grupo no coincide con las realidades del mercado y los arbitrajistas ejecutan operaciones a lo largo de la curva de precios.
 
-Pool participants are given Uniswap Liquidity Provider \(LP\) tokens that correspond to their share of liquidity provided in a given pool. These LP tokens are freely transferable. Participants can exit pools at any time by redeeming these tokens for the assets provided and fees accrued.
+Los participantes del grupo de liquidez reciben tokens de Proveedor de Liquidez de Uniswap \(LP\) que corresponden a su parte de liquidez proporcionada en un grupo de liquidez determinado. Estos tokens LP se pueden transferir libremente. Los participantes pueden salir de los grupos de liquidez en cualquier momento canjeando estos tokens por los activos proporcionados y las comisiones acumuladas.
 
-Token issuers seeking to improve liquidity of their token have offered incentives to liquidity providers in liquidity mining campaigns. New token issuers have also launched their tokens on Uniswap pools.
+Los emisores de tokens que buscan mejorar la liquidez de sus tokens han ofrecido incentivos a los proveedores de liquidez en campañas de extracción de liquidez. Los nuevos emisores de tokens también han lanzado sus tokens en grupos de liquidez de Uniswap.
 
-Trading volumes on Uniswap now eclipse that of many traditional exchanges and regularly surpass $200 million daily. Uniswap has over $170 million in Total Value Locked \(TVL\) by liquidity providers. Uniswap does not have a native platform or governance token.
+Los volúmenes de tradeo en Uniswap ahora eclipsan a los de muchos exchanges tradicionales y regularmente superan los $200 millones diarios. Uniswap tiene más de $170 millones de dólares en Valor Total Bloqueado \(TVL\) por proveedores de liquidez. Uniswap no tiene una plataforma nativa o un token de gobernanza.
 
-Uniswap has had its smart contracts audited and formally verfied by dapp.org. Uniswap maintains a bug bounty program.
+Uniswap ha tenido sus contratos inteligentes auditados y verificados formalmente por dapp.org. Uniswap mantiene un programa de recompensas por errores.
 
-| Resources      |                                                                          |
-|:-------------- |:------------------------------------------------------------------------ |
-| Official site  | [https://uniswap.org/](https://uniswap.org/)                             |
-| Developer docs | [https://uniswap.org/docs/v2](https://uniswap.org/docs/v2)               |
-| GitHub         | [https://github.com/Uniswap](https://github.com/Uniswap)                 |
-| Discord        | [https://discord.com/invite/EwFs3Pp](https://discord.com/invite/EwFs3Pp) |
+| Recursos                        |                                                                          |
+|:------------------------------- |:------------------------------------------------------------------------ |
+| Sitio oficial                   | [https://uniswap.org/](https://uniswap.org/)                             |
+| Documentos para desarrolladores | [https://uniswap.org/docs/v2](https://uniswap.org/docs/v2)               |
+| GitHub                          | [https://github.com/Uniswap](https://github.com/Uniswap)                 |
+| Discord                         | [https://discord.com/invite/EwFs3Pp](https://discord.com/invite/EwFs3Pp) |
 
