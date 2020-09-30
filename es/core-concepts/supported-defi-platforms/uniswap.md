@@ -12,7 +12,7 @@ Los comerciantes pueden sufrir deslizamientos si no hay suficiente liquidez en u
 
 Los participantes del grupo reciben tokens de Proveedor de Liquidez de Uniswap \(LP\) que corresponden a su parte de liquidez proporcionada en un grupo determinado. Estos tokens LP se pueden transferir libremente. Los participantes pueden salir de los grupos en cualquier momento canjeando estos tokens por los activos proporcionados y las comisiones acumuladas.
 
-Token issuers seeking to improve liquidity of their token have offered incentives to liquidity providers in liquidity mining campaigns. Los nuevos emisores de tokens también han lanzado sus tokens en grupos de liquidez de Uniswap.
+Los emisores de tokens que buscan mejorar la liquidez de sus tokens han ofrecido incentivos a los proveedores de liquidez en campañas de extracción de liquidez. Los nuevos emisores de tokens también han lanzado sus tokens en grupos de liquidez de Uniswap.
 
 Los volúmenes de operaciones en Uniswap ahora eclipsan a los de muchos exchanges tradicionales y regularmente superan los $200 millones diarios. Uniswap tiene más de $170 millones en Valor Total Bloqueado \(TVL\) por proveedores de liquidez. Uniswap no tiene una plataforma nativa o un token de gobernanza.
 
