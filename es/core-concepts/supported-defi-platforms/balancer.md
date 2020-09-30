@@ -4,7 +4,7 @@
 Próximamente. Balancer aún no se ha integrado.
 {% endhint %}
 
-Balancer es un protocolo de liquidez descentralizado y un exchange en Ethereum, lanzado en marzo de 2020. Los usuarios pueden intercambiar tokens ERC-20 por una comisión o contribuir con tokens a los fondos de liquidez para ganar comisiones.
+Balancer es un protocolo de liquidez descentralizado y un exchange en la red de Ethereum, lanzado en marzo de 2020. Los usuarios pueden intercambiar tokens ERC-20 por una comisión o contribuir con tokens a los fondos de liquidez para ganar comisiones.
 
 Balancer es un Creador de Mercado Automatizado \ (AMM \) que permite conjuntos de liquidez de hasta 8 activos diferentes con pesos personalizados. Los pools de liquidez en Balancer pueden considerarse similares a los Fondos de Inversión Cotizados \(ETF\) o portafolios con objetivos de ponderación para activos específicos. Si el comercio hace que el pool se desplace de su distribución de peso objetivo, los tipos de cambio entre los activos del grupo cambian. Los arbitrajistas pueden ejecutar operaciones para aprovechar esto y actuar para reequilibrar el pool de nuevo a su distribución de peso objetivo. La liquidez también se puede compartir entre pools, a diferencia de otros AMMs.
 
