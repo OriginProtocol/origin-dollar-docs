@@ -1,6 +1,6 @@
-# 时间锁
+# Timelock
 
 {% hint style="info" %}
-文档即将发布。
+Documentation coming soon.
 {% endhint %}
 
