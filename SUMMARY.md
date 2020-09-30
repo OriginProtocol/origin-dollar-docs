@@ -48,7 +48,7 @@
 
 * [Risks](security-and-risks/risks.md)
 * [Audits](security-and-risks/audits.md)
-* [Bug Bounties](security-and-risks/asset-risk.md)
+* [Bug Bounties](security-and-risks/bug-bounties.md)
 * [Contributing](security-and-risks/contributing.md)
 
 ## Links
