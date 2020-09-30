@@ -30,7 +30,7 @@
 
 ## Governance
 
-* [Principles](governance/governance.md)
+* [Principles](governance/principles.md)
 * [Admin Privileges](governance/admin-privileges.md)
 
 ## Smart Contracts
