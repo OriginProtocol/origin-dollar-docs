@@ -10,16 +10,16 @@ Curve es un Creador de Mercado Automatizado \ (AMM \) donde cada mercado tiene u
 
 Algunos de los grupos de liquidez de Curve ganan tarifas adicionales para los proveedores de liquidez además de las tarifas de tradeo en los exchanges. Curve ofrece grupos de liquidez de monedas estables integrados con Compound, yearn.finance y Synthetix. Los activos de cada grupo de liquidez se proporcionan a esas plataformas para generar un rendimiento adicional que se transfiere a los proveedores de liquidez de cada grupo. Los tokens del Proveedor de Liquidez \ (LP \) se entregan a los participantes del grupo de liquidez y se pueden canjear por su liquidez inicial suministrada más las tarifas y el rendimiento acumulados. Los tokens del Proveedor de Liquidez también se pueden transferir para su uso en otros protocolos.
 
-Curve está gobernado por CRV, un token de gobernanza ERC-20. Los holders de CRV pueden votar sobre cambios en el protocolo. Los holders de CRV pueden poner en staking sus tokens para obtener un poder de voto adicional proporcional al tiempo invertido. CRV is continuously awarded to liquidity providers and a large portion of the total supply of CRV was allocated to the team and investors on a continuous vesting schedule.
+Curve está gobernado por CRV, un token de gobernanza ERC-20. Los holders de CRV pueden votar sobre cambios en el protocolo. Los holders de CRV pueden poner en staking sus tokens para obtener un poder de voto adicional proporcional al tiempo invertido. CRV se adjudica continuamente a proveedores de liquidez y una gran parte del suministro total de CRV se asignó al equipo y a los inversores en un cronograma continuo de consolidación.
 
-Trading volumes on Curve are often over $50 million daily. Curve has a Total Value Locked \(TVL\) of over $1 billion by liquidity providers at the time of writing.
+Los volúmenes de tradeo en Curve suelen superar los 50 millones de dólares diarios. Curve tiene un Valor Total Bloqueado \ (TVL \) de más de mil millones de dólares por parte de los proveedores de liquidez al momento de escribir este artículo.
 
-Curve has undergone two audits by Trail of Bits and maintains a bug bounty program.
+Curve se ha sometido a dos auditorías de Trail of Bits y mantiene un programa de recompensas por errores.
 
-| Resources      |                                                                          |
-|:-------------- |:------------------------------------------------------------------------ |
-| Official site  | [https://www.curve.fi/](https://www.curve.fi/)                           |
-| Developer docs | [https://www.curve.fi/devdocs](https://www.curve.fi/devdocs)             |
-| GitHub         | [https://github.com/curvefi](https://github.com/curvefi)                 |
-| Discord        | [https://discord.com/invite/9uEHakc](https://discord.com/invite/9uEHakc) |
+| Recursos                        |                                                                          |
+|:------------------------------- |:------------------------------------------------------------------------ |
+| Sitio oficial                   | [https://www.curve.fi/](https://www.curve.fi/)                           |
+| Documentos para desarrolladores | [https://www.curve.fi/devdocs](https://www.curve.fi/devdocs)             |
+| GitHub                          | [https://github.com/curvefi](https://github.com/curvefi)                 |
+| Discord                         | [https://discord.com/invite/9uEHakc](https://discord.com/invite/9uEHakc) |
 
