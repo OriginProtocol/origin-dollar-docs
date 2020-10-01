@@ -1,6 +1,6 @@
-# Elastic Supply
+# Elastik Tedarik
 
-**Elastic Supply. Stable Price.**
+**Elastik Tedarik. Sabit Fiyat.**
 
 OUSD works differently than most tokens. Instead of the price increasing as the value of the assets under management increase \(as with Compound cTokens or Yearn yTokens\), the value of one OUSD remains constant at approximately $1. Instead, the contracts constantly adjust the monetary supply and automatically updates the balance in every token holder’s wallet to reflect the yield that has been earned by the protocol.
 
