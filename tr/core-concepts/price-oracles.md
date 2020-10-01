@@ -148,34 +148,34 @@ Aşağıdaki oracle'lar **DAI / USD fiyatını almak veya hesaplamak için kulla
 {% endtab %}
 
 {% tab title="USDT/USD" %}
-The following oracles are used to fetch or compute a price for **USDT/USD:**
+Aşağıdaki oracle'lar **DAI / USD fiyatını almak veya hesaplamak için kullanılır:**
 
-| O**racle**      | Pair       | Contract                                     |
+| Oracle          | Per        | Kontrakt                                     |
 |:--------------- |:---------- |:-------------------------------------------- |
 | Chainlink       | USDT/ETH   | 0xa874fe207DF445ff19E7482C746C4D3fD0CB9AcE   |
 | Open Price Feed | USDC/USD   | 0xc629c26dced4277419cde234012f8160a0278a79   |
 | _Uniswap v2_    | _USDT/ETH_ | _0x0d4a11d5eeaac28ec3f61d100daf4d40471f1852_ |
 {% endtab %}
 
-{% tab title="USDC/USD" %}
-The following oracles are used to fetch or compute a price for **USDC/USD:**
+{% tab title="USDT/USD" %}
+Aşağıdaki oracle'lar **DAI / USD fiyatını almak veya hesaplamak için kullanılır:**
 
-| O**racle**      | Pair       | Contract                                     |
+| Oracle          | Per        | Kontrakt                                     |
 |:--------------- |:---------- |:-------------------------------------------- |
-| Chainlink       | USDC/ETH   | 0xdE54467873c3BCAA76421061036053e371721708   |
-| Open Price Feed | USDC/USD   | 0xc629c26dced4277419cde234012f8160a0278a79   |
+| Chainlink       | USDT/ETH   | 0xdE54467873c3BCAA76421061036053e371721708   |
+| Açık fiyat Feed | USDC/USD   | 0xc629c26dced4277419cde234012f8160a0278a79   |
 | _Uniswap v2_    | _USDC/ETH_ | _0xb4e16d0168e52d35cacd2c6185b44281ec28c9dc_ |
 {% endtab %}
 
-{% tab title="ETH/USD" %}
-Since not all oracles have direct USD pairs, the protocol also fetches the prices for **ETH/USD** in order to calculate USD prices using ETH. Again, to be safe, the protocol chooses the most advantageous for the fund instead of the individual.
+{% tab title = "DAI / USD"%}
+Tüm oracle'ların doğrudan USD çiftleri olmadığından, protokol ayrıca ETH kullanarak USD fiyatlarını hesaplamak için **ETH / USD** fiyatlarını da getirir. Yine güvende olmak için protokol, birey yerine fon için en avantajlı olanı seçer.
 
-| Oracle          | Pair    | Contract                                   |
-|:--------------- |:------- |:------------------------------------------ |
-| Open Price Feed | ETH/USD | 0xc629c26dced4277419cde234012f8160a0278a79 |
-| Chainlink       | ETH/USD | 0xF79D6aFBb6dA890132F9D7c355e3015f15F3406F |
+| Oracle          | Per       | Kontrakt                                   |
+|:--------------- |:--------- |:------------------------------------------ |
+| Açık fiyat Feed | ETH / USD | 0xc629c26dced4277419cde234012f8160a0278a79 |
+| Chainlink       | ETH / USD | 0xF79D6aFBb6dA890132F9D7c355e3015f15F3406F |
 {% endtab %}
 {% endtabs %}
 
-It is possible that additional oracles will be added to the protocol over time. Support may also be removed if any of these oracles become unreliable.
+Zamanla protokole ek stabilcoinlerin eklenmesi mümkündür. Bu oracle'lardan herhangi biri güvenilmez hale gelirse destek de kaldırılabilir.
 
