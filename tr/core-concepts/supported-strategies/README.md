@@ -1,14 +1,14 @@
-# Supported Strategies
+# Desteklenen Stratejiler
 
-**Supported DeFi Platforms**
+**Desteklenen DeFi Platformları**
 
-OUSD generates yield by depositing stablecoins into lending platforms and market maker liquidity pools. It is important to understand that these platforms do carry technological risk and funds can be lost if there is a major security event. We are choosing to work with the platforms that have had their smart contracts audited and that we feel are most secure.
+OUSD, stabilcoinleri borç verme platformlarına ve piyasa yapıcı likidite havuzlarına yatırarak getiri üretir. Bu platformların teknolojik risk taşıdığını ve büyük bir güvenlik olayı olması durumunda fonların kaybedilebileceğini anlamak önemlidir. Akıllı sözleşmelerini denetleyen ve en güvende hissettiğimiz platformlarla çalışmayı seçiyoruz.
 
-Currently, OUSD earns yield from the following platform\(s\):
+Şu anda, OUSD aşağıdaki platformlardan getiri elde ediyor \ (lar \):
 
 {% page-ref page="compound.md" %}
 
-Integrations are currently planned or being built for the following platforms:
+Şu anda aşağıdaki platformlar için entegrasyonlar planlanmaktadır:
 
 {% page-ref page="aave.md" %}
 
@@ -22,9 +22,9 @@ Integrations are currently planned or being built for the following platforms:
 
 {% page-ref page="yearn.finance.md" %}
 
-Although DeFi has grown very quickly and there are now billions of dollars worth of value deposited on these platforms, several of these projects are still in beta and are highly experimental. There may be hidden vulnerabilities in the smart contracts that power these platforms, and there have been multi-million dollar losses caused by vulnerabilities in Ethereum applications in the past.
+DeFi çok hızlı bir şekilde büyümesine ve şu anda bu platformlara yatırılan milyarlarca dolar değerinde değer olmasına rağmen, bu projelerin birçoğu hala beta aşamasındadır ve oldukça deneyseldir. Bu platformlara güç veren akıllı sözleşmelerde gizli güvenlik açıkları olabilir ve geçmişte Ethereum uygulamalarındaki güvenlik açıklarının neden olduğu multi milyon dolarlık kayıplar olmuştur.
 
-We closely monitor security events on the platforms we support and will immediately move to secure OUSD holder funds if we identify any threats.
+Desteklediğimiz platformlardaki güvenlik olaylarını yakından izliyoruz ve herhangi bir tehdit tespit edersek, derhal OUSD sahibi fonlarını korumak için harekete geçeceğiz.
 
 
 
