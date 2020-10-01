@@ -1,14 +1,14 @@
-# Rewards
+# Ödüller
 
-**Collecting Rewards**
+**Ödül Toplama**
 
-In addition to collecting interest from lending and fees from market making, we intend to automatically claim and convert the bonus incentives that are being distributed by many of the DeFi protocols. For example, Compound gives away COMP tokens, Balancer gives away BAL tokens, and Curve gives away CRV tokens. These bonus rewards will be regularly converted into stablecoins, deployed in the market, and distributed to OUSD holders in the form of additional yield.
+Borç verme faizinden ve piyasa yapıcılığından ücret toplamaya ek olarak, birçok DeFi protokolü tarafından dağıtılan bonus teşviklerini otomatik olarak talep etmeyi ve dönüştürmeyi planlıyoruz. Örneğin, Compound COMP token'ları verir, Balancer BAL tokenleri verir ve Curve CRV tokenleri dağıtır. Bu bonus ödüller düzenli olarak stabilcoinlere dönüştürülecek, pazarda konuşlandırılacak ve OUSD sahiplerine ek getiri şeklinde dağıtılacaktır.
 
-{% hint style="info" %}
-While the vault safely stores any unexpected rewards that it receives, custom strategies will need to be written and deployed to decide when and how the protocol should convert them to stablecoins.
+{% hint style="bilgi" %}
+Kasa, aldığı beklenmedik ödülleri güvenli bir şekilde saklarken, protokolün bunları ne zaman ve nasıl stabilcoinlere dönüştürmesi gerektiğine karar vermek için özel stratejilerin yazılması ve kullanılması gerekecektir.
 {% endhint %}
 
-Today, rewards are a significant factor for yield farmers as they represent a large percentage of their returns. We anticipate that the OUSD protocol will be upgraded over time to take advantage of the most attractive yields available across the DeFi landscape. The protocol will factor in the market value of the various rewards being offered when deciding how to best allocate resources.
+Bugün, getirilerinin büyük bir yüzdesini temsil ettikleri için ödüller, verim çiftçileri için önemli bir faktördür. DeFi ortamında mevcut olan en cazip getirilerden yararlanmak için OUSD protokolünün zamanla yükseltileceğini tahmin ediyoruz. Protokol, kaynakların en iyi şekilde nasıl tahsis edileceğine karar verirken sunulan çeşitli ödüllerin piyasa değerini hesaba katacaktır.
 
 
 
