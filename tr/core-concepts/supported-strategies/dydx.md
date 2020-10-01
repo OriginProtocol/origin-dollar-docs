@@ -14,12 +14,12 @@ dYdX, bu yazının yazıldığı tarihte kilitlenmiş toplam değeri yaklaşık 
 
 dYdX, OpenZeppelin ve Bramah Systems tarafından güvenlik denetimlerine tabi tutulmuştur.
 
-| Resources      |                                                                      |
-|:-------------- |:-------------------------------------------------------------------- |
-| Official site  | [https://dydx.exchange/](https://dydx.exchange/)                     |
-| Developer docs | [https://docs.dydx.exchange/](https://docs.dydx.exchange/)           |
-| GitHub         | [https://github.com/dydxprotocol/](https://github.com/dydxprotocol/) |
-| Discord        | [https://discord.gg/yah42Rb](https://discord.gg/yah42Rb)             |
+| Kaynaklar             |                                                                      |
+|:--------------------- |:-------------------------------------------------------------------- |
+| Resmi site            | [https://dydx.exchange/](https://dydx.exchange/)                     |
+| Geliştirici belgeleri | [https://docs.dydx.exchange/](https://docs.dydx.exchange/)           |
+| GitHub                | [https://github.com/dydxprotocol/](https://github.com/dydxprotocol/) |
+| Discord               | [https://discord.gg/yah42Rb](https://discord.gg/yah42Rb)             |
 
 
 
