@@ -1,18 +1,18 @@
 # dYdX
 
-{% hint style="info" %}
-Coming soon. DyDx has not yet been integrated.
+{% hint style="bilgi" %}
+Çok yakında. Aave henüz entegre edilmedi.
 {% endhint %}
 
-dYdX is a trading and lending protocol and platform built on Ethereum and launched in May 2019. Users can trade assets on dYdX's non-custodial, decentralized exchange or participate in borrowing and lending. The lending protocol enables margin and futures trading. Interest rates are adjusted based on supply and demand and only short term loans are offered.
+dYdX, Ethereum üzerine kurulmuş bir ticaret ve borç verme protokolü ve platformudur ve Mayıs 2019'da kullanıma sunulmuştur. Kullanıcılar, dYdX'in gözetimsiz, merkezi olmayan borsasında varlık ticareti yapabilir veya borçlanma ve borç verme işlemlerine katılabilir. Borç verme protokolü, marj ve vadeli işlemlere olanak sağlar. Faiz oranları arz ve talebe göre ayarlanır ve sadece kısa vadeli krediler sunulur.
 
-Liquidity for assets available for borrowing and lending are pooled together by asset type. Interest paid to lenders is accrued automatically and borrowers must put up collateral to take out a loan.
+Borçlanma ve ödünç verme için mevcut varlıklar için likidite, varlık türüne göre birlikte havuzlanır. Borç verenlere ödenen faiz otomatik olarak tahakkuk ettirilir ve borçluların kredi almak için teminat vermesi gerekir.
 
-dYdX also supports flash loans, which are uncollateralized loans where users borrow and repay the balance of the loan in a single transaction, meaning flash loan users do not need to put up any initial capital. Flash loans are a complex product aimed at developers and can be used to arbitrage across multiple DeFi protocols.
+dYdX ayrıca, kullanıcıların kredinin bakiyesini tek bir işlemde ödünç aldığı ve geri ödediği teminatsız krediler olan flash kredileri de destekler, yani flaş kredi kullanıcılarının herhangi bir başlangıç sermayesi koymalarına gerek yoktur. Flash krediler, geliştiricilere yönelik karmaşık bir üründür ve birden fazla DeFi protokolünde arbitraj yapmak için kullanılabilir.
 
-dYdX has around $40 million in total value locked \(TVL\) at the time of this writing. dYdX does not have a native token.
+dYdX, bu yazının yazıldığı tarihte kilitlenmiş toplam değeri yaklaşık 40 milyon $ 'dır (TVL \). dYdX'in yerel bir tokenı yoktur.
 
-dYdX has undergone security audits by OpenZeppelin and Bramah Systems.
+dYdX, OpenZeppelin ve Bramah Systems tarafından güvenlik denetimlerine tabi tutulmuştur.
 
 | Resources      |                                                                      |
 |:-------------- |:-------------------------------------------------------------------- |
