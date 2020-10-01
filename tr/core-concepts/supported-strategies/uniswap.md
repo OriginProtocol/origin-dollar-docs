@@ -1,27 +1,27 @@
 # Uniswap
 
-{% hint style="info" %}
-Coming soon. Uniswap has not yet been integrated.
+{% hint style="bilgi" %}
+Çok yakında. Uniswap henüz entegre edilmedi.
 {% endhint %}
 
-Uniswap is a decentralized liquidity protocol and exchange on Ethereum, launched in November 2018. Uniswap v2 launched in May 2020. Users can swap ERC-20 tokens for a fee or contribute tokens to liquidity pools to earn fees.
+Uniswap, Kasım 2018'de başlatılan, merkezi olmayan bir likidite protokolü ve Ethereum üzerinde olan borsadır. Uniswap v2, Mayıs 2020'de kullanıma sunuldu. Kullanıcılar, ERC-20 tokenlerini bir ücret karşılığında takas edebilir veya ücret kazanmak için likidite havuzlarına token katkıda bulunabilir.
 
-Markets on Uniswap operate as liquidity pools rather than order books. This type of exchange is called an Automated Market Maker \(AMM\). The exchange rate between the two assets is determined by a constant product formula and moves along a price curve depending on the relative weight of each asset in the pool. This encourages arbitrageurs to enter liquidity pools to rebalance the relative weights and normalize the exchange rate.
+Uniswap'teki piyasalar, sipariş defterleri yerine likidite havuzları olarak çalışır. Bu tür borsaya Otomatik Piyasa Yapıcı \ (AMM \) denir. İki varlık arasındaki döviz kuru, sabit bir ürün formülüyle belirlenir ve havuzdaki her bir varlığın göreli ağırlığına bağlı olarak bir fiyat eğrisi boyunca hareket eder. Bu, arbitrajcıları nispi ağırlıkları yeniden dengelemek ve döviz kurunu normalleştirmek için likidite havuzlarına girmeye teşvik eder.
 
-Traders can suffer from slippage if there is not enough liquidity in a given pool and may not be protected from unfavorable exchange rates. Liquidity providers may suffer impermanent loss when the pool exchange rate does not match market realities and arbitrageurs execute trades along the pricing curve.
+Belirli bir havuzda yeterli likidite yoksa tüccarlar düşüş yaşayabilir ve uygun olmayan döviz kurlarından korunamayabilir. Likidite sağlayıcıları, havuz döviz kuru piyasa gerçekleriyle eşleşmediğinde ve arbitrajcılar fiyat eğrisi boyunca alım satım gerçekleştirdiğinde süresiz zarara uğrayabilir.
 
-Pool participants are given Uniswap Liquidity Provider \(LP\) tokens that correspond to their share of liquidity provided in a given pool. These LP tokens are freely transferable. Participants can exit pools at any time by redeeming these tokens for the assets provided and fees accrued.
+Havuz katılımcılarına, belirli bir havuzda sağlanan likidite paylarına karşılık gelen Uniswap Likidite Sağlayıcısı \ (LP \) tokenları verilir. Bu LP tokenleri serbestçe transfer edilebilir. Katılımcılar, sağlanan varlıklar ve tahakkuk eden ücretler için bu tokenları kullanarak istedikleri zaman havuzlardan çıkabilirler.
 
-Token issuers seeking to improve liquidity of their token have offered incentives to liquidity providers in liquidity mining campaigns. New token issuers have also launched their tokens on Uniswap pools.
+Tokenlerinin likiditesini artırmak isteyen token ihraççıları, likidite madenciliği kampanyalarında likidite sağlayıcılarına teşvikler sundular. Yeni token ihraç edenler de tokenlerini Uniswap havuzlarında başlattı.
 
-Trading volumes on Uniswap now eclipse that of many traditional exchanges and regularly surpass $200 million daily. Uniswap has over $170 million in Total Value Locked \(TVL\) by liquidity providers. Uniswap does not have a native platform or governance token.
+Uniswap'teki ticaret hacimleri artık birçok geleneksel borsayı gölgede bırakıyor ve düzenli olarak günlük 200 milyon doları aşıyor. Uniswap, likidite sağlayıcıları tarafından Kilitli Toplam Değer \ (TVL \) olarak 170 milyon dolardan fazla var. Uniswap'in yerel bir platformu veya yönetim tokenı yoktur.
 
-Uniswap has had its smart contracts audited and formally verfied by dapp.org. Uniswap maintains a bug bounty program.
+Uniswap, akıllı sözleşmelerini denetledi ve dapp.org tarafından resmi olarak onaylandı. Uniswap, bir hata ödül programı tutar.
 
-| Resources      |                                                                          |
-|:-------------- |:------------------------------------------------------------------------ |
-| Official site  | [https://uniswap.org/](https://uniswap.org/)                             |
-| Developer docs | [https://uniswap.org/docs/v2](https://uniswap.org/docs/v2)               |
-| GitHub         | [https://github.com/Uniswap](https://github.com/Uniswap)                 |
-| Discord        | [https://discord.com/invite/EwFs3Pp](https://discord.com/invite/EwFs3Pp) |
+| Kaynaklar             |                                                                          |
+|:--------------------- |:------------------------------------------------------------------------ |
+| Resmi site            | [https://uniswap.org/](https://uniswap.org/)                             |
+| Geliştirici belgeleri | [https://uniswap.org/docs/v2](https://uniswap.org/docs/v2)               |
+| GitHub                | [https://github.com/Uniswap](https://github.com/Uniswap)                 |
+| Discord               | [https://discord.com/invite/EwFs3Pp](https://discord.com/invite/EwFs3Pp) |
 
