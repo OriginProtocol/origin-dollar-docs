@@ -1,18 +1,18 @@
-# Lending
+# Lending ( Borç Verme )
 
-**Unbank the Banked**
+**Bankalı Bankayı Kaldır**
 
-DeFi lending platforms let users lend and borrow crypto assets without any middlemen. Both lenders and borrowers get more value from their crypto. Lenders earn interest, while borrowers deposit crypto as collateral to gain access to credit without traditional banking headaches. DeFi lending platforms currently provide far superior returns for lenders than are generally available in the traditional markets.
+DeFi borç verme platformları, kullanıcıların herhangi bir aracı olmadan kripto varlıklarını ödünç vermesine ve ödünç almasına izin verir. Hem borç verenler hem de borç alanlar kriptolarından daha fazla değer elde eder. Borç verenler faiz kazanırken, borç alanlar geleneksel bankacılık sorunları olmadan krediye erişim sağlamak için teminat olarak kripto yatırır. DeFi borç verme platformları şu anda kredi verenler için geleneksel piyasalarda genel olarak bulunandan çok daha üstün getiri sağlamaktadır.
 
-OUSD integrates with DeFi lending platforms that provide over-collateralized loans. Over-collateralization, combined with smart rules around liquidations, provide a reasonable level of security for lenders. Aave also additionally secures their lending pools with AAVE tokens respectively, further lowering risk.
+OUSD, aşırı teminatlı krediler sağlayan DeFi borç verme platformlarıyla entegre olur. Tasfiyelerle ilgili akıllı kurallarla birlikte aşırı teminatlandırma, borç verenler için makul bir güvenlik seviyesi sağlar. Aave ayrıca, kredi havuzlarını sırasıyla AAVE tokenleri ile güvence altına alarak riski daha da düşürür.
 
-OUSD integrates with leading lending providers that have a proven track record, audited smart contracts, and have successfully lent hundreds of millions of dollars without issue. We intend to integrate with at least the following lending providers directly:
+OUSD, kanıtlanmış bir sicile sahip, akıllı sözleşmeleri denetleyen ve sorunsuz bir şekilde yüz milyonlarca doları başarıyla borç veren önde gelen kredi sağlayıcılarıyla entegre olur. En azından aşağıdaki kredi sağlayıcılarla doğrudan entegre olmayı planlıyoruz:
 
-{% page-ref page="../supported-strategies/compound.md" %}
+{% page-ref page = "../ supported-Strategies / complex.md"%}
 
-{% page-ref page="../supported-strategies/aave.md" %}
+{% page-ref page = "../ supported-Strategies / complex.md"%}
 
-{% page-ref page="../supported-strategies/dydx.md" %}
+{% page-ref page = "../ supported-Strategies / complex.md"%}
 
 
 
