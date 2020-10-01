@@ -1,25 +1,25 @@
 # Curve
 
-{% hint style="info" %}
-Coming soon. Curve has not yet been integrated.
+{% hint style="bilgi" %}
+Çok yakında. Curve henüz entegre edilmedi.
 {% endhint %}
 
-Curve is a decentralized liquidity protocol and exchange on Ethereum for stablecoins and wrapped BTC, launched in January 2020. Users can swap between popular ERC-20 stablecoins or between ERC-20 representations of bitcoin. Liquidity providers facilitate trading and earn fees.
+Curve, merkezi olmayan bir likidite protokolü ve Ethereum'da stabilcoinler ve sarılmış BTC için takas, Ocak 2020'de başlatıldı. Kullanıcılar, popüler ERC-20 stabilcoinler arasında veya bitcoin'in ERC-20 temsilleri arasında geçiş yapabilirler. Likidite sağlayıcıları ticareti kolaylaştırır ve ücret alır.
 
-Curve is an Automated Market Maker \(AMM\) where each market has an associated liquidity pool with two or more assets that should have the same value, like USDT, USDC, DAI and TUSD, which are all US dollar pegged stablecoins. The exchange rate between each stablecoin and their relative weights are determined by an algorithm based on supply and demand. Arbitrageurs act to normalize these exchange rates.
+Eğri, her bir piyasanın USDT, USDC, DAI ve TUSD gibi aynı değere sahip olması gereken iki veya daha fazla varlığa sahip ilişkili bir likidite havuzuna sahip olduğu bir Otomatik Piyasa Yapıcı \ (AMM \) 'dır. Her bir stablecoin ile bunların nispi ağırlıkları arasındaki döviz kuru, arz ve talebe dayalı bir algoritma tarafından belirlenir. Arbitrajcılar bu döviz kurlarını normalleştirmek için hareket ederler.
 
-Some of Curve's liquidity pools earn extra fees for liquidity providers on top of the exchange fees from traders. Curve offers stablecoin pools integrated with Compound, yearn.finance, and Synthetix. The assets in each liquidity pool are provided to those platforms to generate additional yield which is passed on to each pool's liquidity providers. Liquidity Provider \(LP\) tokens are given to pool participants and can be redeemed for their initial liquidity supplied plus accrued fees and yield. LP tokens can also transferred for use in other protocols.
+Curve'nin likidite havuzlarından bazıları, tüccarlardan alınan döviz ücretlerinin yanı sıra likidite sağlayıcıları için ekstra ücretler kazanır. Curve; Compound, yearn.finance ve Synthetix ile entegre stabilcoin havuzları sunar. Her likidite havuzundaki varlıklar, her havuzun likidite sağlayıcılarına aktarılan ek getiri elde etmek için bu platformlara sağlanır. Likidite Sağlayıcı \ (LP \) tokenlar havuz katılımcılarına verilir ve sağlanan ilk likidite artı tahakkuk eden ücretler ve getiri için kullanılabilir. LP tokenları ayrıca diğer protokollerde kullanılmak üzere aktarılabilir.
 
-Curve is governed by CRV, an ERC-20 governance token. CRV holders can vote on protocol changes. CRV holders can stake their tokens for additional voting power proportional to time staked. CRV is continuously awarded to liquidity providers and a large portion of the total supply of CRV was allocated to the team and investors on a continuous vesting schedule.
+Curve, bir ERC-20 yönetişim tokenı olan CRV tarafından yönetilir. CRV sahipleri protokol değişikliklerine oy verebilir. CRV sahipleri, tokenlerini stake edilen zamanla orantılı ek oylama gücü için stake edebilirler. CRV, sürekli olarak likidite sağlayıcılarına verilir ve toplam CRV arzının büyük bir kısmı, sürekli bir hakediş programına göre ekibe ve yatırımcılara tahsis edilmiştir.
 
-Trading volumes on Curve are often over $50 million daily. Curve has a Total Value Locked \(TVL\) of over $1 billion by liquidity providers at the time of writing.
+Curve'deki işlem hacimleri genellikle günlük 50 milyon doların üzerindedir. Curve, yazım sırasında likidite sağlayıcıları tarafından 1 milyar $ 'ın üzerinde Kilitlenmiş Toplam Değere \ (TVL \) sahiptir.
 
-Curve has undergone two audits by Trail of Bits and maintains a bug bounty program.
+Curve, Trail of Bits tarafından iki denetimden geçmiştir ve bir hata ödül programı sürdürmektedir.
 
-| Resources      |                                                                          |
-|:-------------- |:------------------------------------------------------------------------ |
-| Official site  | [https://www.curve.fi/](https://www.curve.fi/)                           |
-| Developer docs | [https://www.curve.fi/devdocs](https://www.curve.fi/devdocs)             |
-| GitHub         | [https://github.com/curvefi](https://github.com/curvefi)                 |
-| Discord        | [https://discord.com/invite/9uEHakc](https://discord.com/invite/9uEHakc) |
+| Kaynaklar             |                                                                          |
+|:--------------------- |:------------------------------------------------------------------------ |
+| Resmi site            | [https://www.curve.fi/](https://www.curve.fi/)                           |
+| Geliştirici belgeleri | [https://www.curve.fi/devdocs](https://www.curve.fi/devdocs)             |
+| GitHub                | [https://github.com/curvefi](https://github.com/curvefi)                 |
+| Discord               | [https://discord.com/invite/9uEHakc](https://discord.com/invite/9uEHakc) |
 
