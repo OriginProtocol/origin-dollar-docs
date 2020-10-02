@@ -1,7 +1,7 @@
 # Balancer
 
 {% hint style="info" %}
-Coming soon. Balancer has not yet been integrated.
+Coming soon. Balancer belum diintegrasikan.
 {% endhint %}
 
 Balancer is a decentralized liquidity protocol and exchange on Ethereum, launched in March 2020. Users can swap ERC-20 tokens for a fee or contribute tokens to liquidity pools to earn fees.
