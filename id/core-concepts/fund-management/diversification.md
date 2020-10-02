@@ -1,8 +1,8 @@
-# Diversification
+# Diversifikasi
 
-The initial version of the OUSD Vault smart contract gives each valid strategy a simple weight between 0% and 100% to perform simple asset allocation. These weights will be shifted often via updates by Origin in the short-term and by decentralized governance in the long-term.
+Versi awal kontrak pintar OUSD Vault memberikan bobot sederhana antara 0% dan 100% untuk setiap strategi yang valid untuk melakukan alokasi aset sederhana. Bobot ini akan sering diubah melalui pembaruan oleh Origin dalam jangka pendek dan oleh tata kelola yang terdesentralisasi dalam jangka panjang.
 
-Diversification across multiple underlying DeFi [platforms](../supported-strategies/) will reduce smart contract and other systemic risks. The smart contract will calculate current and expected APYs in an effort to provide competitive returns to OUSD holders. Over time, the Vault contract will be upgraded to intelligently and autonomously shift between strategies without any manual intervention. For example, the Vault will automatically shift capital between various lending strategies to optimize for yields.
+Diversifikasi di beberapa platform DeFi [mendasarinya](../supported-strategies/) akan mengurangi kontrak pintar dan risiko sistemik lainnya. Kontrak pintar akan menghitung APY saat ini dan yang diharapkan dalam upaya memberikan pengembalian yang kompetitif kepada pemegang OUSD. Seiring waktu, kontrak Vault akan ditingkatkan untuk secara cerdas dan otonom beralih di antara strategi tanpa intervensi manual apa pun. Misalnya, Vault akan secara otomatis mengalihkan modal di antara berbagai strategi pinjaman untuk mengoptimalkan hasil.
 
-However, it is still expected that certain risk parameters or decisions on whether certain strategies will be included in the automated decision-making engine will be made through governance votes. 
+Namun, masih diharapkan bahwa parameter risiko atau keputusan tertentu tentang apakah strategi tertentu akan dimasukkan dalam mesin pengambilan keputusan otomatis akan dibuat melalui suara tata kelola. 
 
