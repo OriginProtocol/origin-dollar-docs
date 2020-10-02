@@ -9,7 +9,7 @@ description: >-
 
 ### mint\(\) <a id="mint"></a>
 
-**`función mint (dirección _asset, uint256 _amount)`**
+**`function mint(address _asset, uint256 _amount)`**
 
 Acuñar OUSD a cambio de un depósito de un determinado `_amount` de moneda estable especificado por el `_asset` parámetro. La persona que llama recibe una cierta cantidad de OUSD dependiendo del **tipo de cambio**.
 
@@ -20,7 +20,7 @@ Acuñar OUSD a cambio de un depósito de un determinado `_amount` de moneda esta
 
 ### mintMultiple \ (\) <a id="mintmultiple"></a>
 
-**`función mint (dirección _asset, uint256 _amount)`**
+**`function mintMultiple(address[] _assets, uint256[] _amounts)`**
 
 Acuñar OUSD a cambio de un depósito de múltiples monedas estables en una sola llamada. Las monedas estables se especifican mediante el parámetro de matriz `_assets` y las cantidades mediante el parámetro de matriz `_amounts`. La persona que llama recibe una cierta cantidad de OUSD dependiendo del **tipo de cambio**.
 
@@ -35,7 +35,7 @@ En los canjes, es el protocolo y no el usuario el que decide qué moneda estable
 
 ### redeem\(\) <a id="redeem"></a>
 
-**`función redeem(uint256 _amount)`**
+**`function redeem(uint256 _amount)`**
 
 El OUSD especificado parámetro `_amount` canjea a cambio de una o varias monedas estables admitidas. La cantidad de monedas estables recibidas depende del **tipo de cambio**.
 
@@ -45,25 +45,25 @@ El OUSD especificado parámetro `_amount` canjea a cambio de una o varias moneda
 
 ### redeemAll\(\)‌ <a id="redeemall"></a>
 
-**`función redeemAll()`**
+**`function redeemAll()`**
 
 Todo el OUSD en posesión del usuario se canjea a cambio de una o varias monedas estables compatibles. La cantidad de monedas estables recibidas depende del **tipo de cambio**.
 
 ### rebase\(\) <a id="rebase"></a>
 
-**`función rebase()`**
+**`function rebase()`**
 
 Actualiza los saldos de todos los usuarios según el valor de los activos almacenados actualmente en la bóveda. Devuelve el valor total de los activos y estrategias subyacentes representados por el tipo `uint256`.
 
 ### allocate\(\) <a id="allocate"></a>
 
-**`función allocate()`**
+**`function allocate()`**
 
 Mueve los activos bajo administración a sus [estrategias](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/architecture/strategies) prescritas para maximizar el rendimiento y diversificar el riesgo.
 
 ### totalValue\(\) <a id="totalvalue"></a>
 
-**`función totalValue()`**
+**`function totalValue()`**
 
 Devuelve el valor total de los activos y estrategias subyacentes.
 
@@ -73,7 +73,7 @@ Devuelve el valor total de los activos y estrategias subyacentes.
 
 ### checkBalance\(\) <a id="checkbalance"></a>
 
-**`función checkBalance()`**
+**`function checkBalance(address _asset)`**
 
 Devuelve el saldo de un activo especificado por el parámetro`_asset` contenido en la Bóveda y todas las estrategias representadas por el tipo `uint256`.
 
@@ -83,7 +83,7 @@ Devuelve el saldo de un activo especificado por el parámetro`_asset` contenido 
 
 ### calculateRedeemOutputs\(\)<a id="calculateredeemoutputs"></a>
 
-**`función calculateRedeemOutputs(uint256 _amount)`**
+**`function calculateRedeemOutputs(uint256 _amount)`**
 
 Calcule la combinación de monedas estables que una función `redeem` devolvería al canjear cierta cantidad de OUSD especificada por el parámetro `_amount`. Devuelve una matriz de valores de monedas estables.
 
@@ -101,7 +101,7 @@ El índice de una matriz que devuelve `calculateRedeemOutputs` corresponde a la 
 
 ### getAssetCount\(\) <a id="getassetcount"></a>
 
-**`función getAssetCount()`**
+**`function getAssetCount()`**
 
 Devuelve el número de activos de stablecoin admitidos representados por el tipo `uint256`.
 
