@@ -18,11 +18,11 @@ Acuñar OUSD a cambio de un depósito de un determinado `_amount` de moneda esta
 | \_asset            | dirección | Dirección de la moneda estable [admitida](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/core-concepts/supported-assets). |
 | \_amount           | uint256   | cantidad depositada, expresada en unidades decimales                                                                                                    |
 
-### mintMultiple\(\) <a id="mintmultiple"></a>
+### mintMultiple \ (\) <a id="mintmultiple"></a>
 
-**`function mintMultiple(address[] _assets, uint256[] _amounts)`**‌
+**`función mint (dirección _asset, uint256 _amount)`**
 
-Acuñar OUSD a cambio de un depósito de múltiples monedas estables en una sola llamada. Stablecoins are specified by the `_assets` array parameter and the amounts by the `_amounts` array parameter. The caller receives a certain amount of OUSD depending on the **exchange rate**.
+Acuñar OUSD a cambio de un depósito de múltiples monedas estables en una sola llamada. Las monedas estables se especifican mediante el parámetro de matriz `_assets` y las cantidades mediante el parámetro de matriz `_amounts`. La persona que llama recibe una cierta cantidad de OUSD dependiendo del **tipo de cambio**.
 
 | Nombre del parámetro | Tipo            | Descripción                                                                                                                                                   |
 |:-------------------- |:--------------- |:------------------------------------------------------------------------------------------------------------------------------------------------------------- |
