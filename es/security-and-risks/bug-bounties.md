@@ -1,33 +1,33 @@
-# Bug Bounties
+# Recompensas de Errores
 
-**Bug Bounties**
+**Recompensas de Errores**
 
-Bug bounties are granted at the full discretion of Origin Protocol. The rewards range in size from **$100** for minor issues to **$250,000** for major vulnerabilities. Currently, the bounty program only applies to OUSD and not other products from Origin.
+Las recompensas por errores se otorgan a total discreción de Origin Protocol. Las recompensas varían en tamaño desde **$100** para problemas menores hasta **$250.000** para vulnerabilidades importantes. Actualmente, el programa de recompensas solo se aplica a OUSD y no a otros productos de Origin.
 
 {% hint style="warning" %}
-In order to be eligible for a bug bounty, you must follow the rules of Responsible Disclosure outlined below.
+Para ser elegible para una recompensa por errores, debe seguir las reglas de Divulgación Responsable que se describen a continuación.
 {% endhint %}
 
-**Responsible Disclosure**
+**Divulgación Responsable**
 
-Security is our top priority and we've taken every effort to make sure our code is secure and works as intended. However, it's completely possible that vulnerabilities both large and small may have gone undetected.
+La seguridad es nuestra máxima prioridad y hemos hecho todo lo posible para asegurarnos de que nuestro código sea seguro y funcione según lo previsto. Sin embargo, es completamente posible que las vulnerabilidades, tanto grandes como pequeñas, no hayan sido detectadas.
 
-In case you discover a vulnerability, we would like to know about it immediately so we can take steps to address it as quickly as possible.
+En caso de que descubra una vulnerabilidad, nos gustaría conocerla de inmediato para que podamos tomar medidas para abordarla lo más rápido posible.
 
-If you discover a vulnerability, please do the following:
+Si descubre una vulnerabilidad, haga lo siguiente:
 
-* Report your findings to [security@originprotocol.com](mailto:security@originprotcol.com) or contact [Josh Fraser on Keybase](https://keybase.io/joshfraser)
-* Do not take advantage of the vulnerability or problem you have discovered
-* Do not reveal the problem to others until it has been resolved
-* Do not use attacks on physical security, social engineering, distributed denial of service, spam or applications of third parties
-* Do provide sufficient information to reproduce the problem, so we will be able to resolve it as quickly as possible. Complex vulnerabilities may require further explanation so we might ask you for additional information.
+* Informe sus hallazgos a [security@originprotocol.com](mailto:security@originprotcol.com) o comuníquese con [Josh Fraser en Keybase](https://keybase.io/joshfraser)
+* No aproveche la vulnerabilidad o problema que ha descubierto
+* No revele el problema a otros hasta que se haya resuelto
+* No utilice ataques a la seguridad física, ingeniería social, denegación de servicio distribuida, spam o aplicaciones de terceros
+* Proporcione información suficiente para reproducir el problema, de modo que podamos resolverlo lo antes posible. Las vulnerabilidades complejas pueden requerir más explicaciones, por lo que es posible que le pidamos información adicional.
 
-In return, we promise:
+A cambio, prometemos:
 
-* We will respond to your report within 3 business days with our evaluation of the report and an expected resolution date
-* If you have followed the instructions above, we will not take any legal action against you in regard to the report
-* We will handle your report with strict confidentiality, and not pass on your personal details to third parties without your permission
-* If you so wish we will keep you informed of the progress towards resolving the problem
-* In the public information concerning the problem reported, we will give your name as the discoverer of the problem \(unless you desire otherwise\)
-* As a token of our gratitude for your assistance, we offer a reward for every report of a security problem that was not yet known to us. The amount of the reward will be determined based on the severity of the leak, the quality of the report, and any additional assistance you provide.  
+* Responderemos a su informe dentro de los 3 días hábiles con nuestra evaluación del informe y una fecha de resolución esperada
+* Si ha seguido las instrucciones anteriores, no emprenderemos ninguna acción legal en su contra con respecto al informe
+* Trataremos su informe con estricta confidencialidad y no transmitiremos sus datos personales a terceros sin su permiso
+* Si así lo desea, le mantendremos informado del avance hacia la resolución del problema
+* En la información pública sobre el problema informado, daremos su nombre como descubridor del problema \(a menos que desee lo contrario\)
+* Como muestra de nuestra gratitud por su ayuda, ofrecemos una recompensa por cada informe de un problema de seguridad que aún no conocíamos. El monto de la recompensa se determinará en función de la gravedad de la fuga, la calidad del informe y cualquier ayuda adicional que brinde.  
 
