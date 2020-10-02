@@ -1,22 +1,22 @@
-# How It Works
+# Cara kerjanya
 
-#### 100% Backed and Stable
+#### 100% Didukung dan Stabil
 
-Origin Dollar \(OUSD\) is an ERC-20 compliant token for the Ethereum network.
+Origin Dollar \ (OUSD \) adalah token yang sesuai dengan ERC-20 untuk jaringan Ethereum.
 
-OUSD is a stable currency that is backed 1:1 by other stablecoins like USDT, USDC and DAI. As a result, 1 OUSD should always be very close to 1 USD in value.
+OUSD adalah mata uang stabil yang didukung 1: 1 oleh stablecoin lain seperti USDT, USDC, dan DAI. Akibatnya, 1 OUSD seharusnya selalu mendekati nilai 1 USD.
 
 {% hint style="success" %}
 1 OUSD = 1 USD
 {% endhint %}
 
-#### Minting OUSD
+#### Mencetak OUSD
 
-Users convert their existing stablecoins \(currently USDT, USDC, and DAI\) to OUSD at the official [Origin Dollar DApp](www.ousd.com). Issued OUSD begins accruing compounding yield immediately.
+Pengguna mengkonversi stablecoin mereka yang ada \ (saat USDT, USDC, dan DAI \) ke OUSD di resmi [Asal Dollar DAPP](www.ousd.com). OUSD yang diterbitkan mulai memperoleh hasil bunga majemuk segera.
 
-**Redeeming OUSD**
+**Menebus OUSD**
 
-Users can convert their OUSD back into other stablecoins at any time using the [Origin Dollar DApp](www.ousd.com). A 0.5% exit fee is charged upon redemption and is distributed as additional yield to the remaining participants in the pool. The fee serves as a security feature to make it difficult for attackers to take advantage of lagging oracles, preventing them from syphoning stablecoins from the pool in the event of mispricings of of the underlying assets. The fee exists to incentivize long-term holders over short-term speculators.
+Pengguna dapat mengubah OUSD mereka kembali menjadi stablecoin lain kapan saja menggunakan [Origin Dollar DApp](www.ousd.com). Biaya keluar 0,5% dibebankan pada saat penebusan dan didistribusikan sebagai hasil tambahan kepada peserta yang tersisa di kumpulan. Biaya tersebut berfungsi sebagai fitur keamanan untuk mempersulit penyerang untuk memanfaatkan oracle yang tertinggal, mencegah mereka menyalahgunakan stablecoin dari kumpulan jika terjadi kesalahan harga pada aset yang mendasarinya. Biaya tersebut ada untuk memberi insentif kepada pemegang jangka panjang daripada spekulan jangka pendek.
 
 Upon redemption, the smart contract will determine which stablecoin\(s\) to return to the user. In the current implementation, the pool will return coins in the same ratio as the current holdings. This lack of user optionality also protects the pool as a whole in the event that any of the supported stablecoins loses its peg to the dollar.
 
