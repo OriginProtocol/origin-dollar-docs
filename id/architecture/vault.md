@@ -2,16 +2,16 @@
 
 Vault adalah inti dari protokol. Vault bertanggung jawab untuk mencetak / menebus token OUSD, menyeimbangkan kembali dana antara berbagai strategi yang didukung, dan melikuidasi token hadiah.
 
-The most important publicly callable functions on the Vault are:
+Fungsi terpenting yang dapat dipanggil secara publik di Vault adalah:
 
-* `mint()`allows a single supported stablecoin to be converted to OUSD
-* `mintMultiple()`allows multiple supported stablecoins to be converted to OUSD in a single call
-* `redeem()`allows a specified amount of OUSD to be redeemed for other supported stablecoins.
-* `redeemAll()`allows a user to redeem their entire balance of OUSD for other supported stablecoins. This is particularly useful since user balances are constantly growing as yield is accrued.
-* `rebase()`updates the balances for all users based on the value of the assets currently stored in the pool.
-* `allocate()`moves the assets under management into their prescribed [Stategies](strategies.md) to maximize yield and diversify risk.
+* `mint ()`memungkinkan satu stablecoin yang didukung untuk diubah menjadi OUSD
+* `mintMultiple ()`memungkinkan beberapa stablecoin yang didukung untuk dikonversi ke OUSD dalam satu panggilan
+* `redeem ()`memungkinkan sejumlah OUSD ditukarkan dengan stablecoin lain yang didukung.
+* `redeemAll ()`memungkinkan pengguna untuk menebus seluruh saldo OUSD mereka untuk stablecoin lain yang didukung. Ini sangat berguna karena saldo pengguna terus bertambah seiring bertambahnya hasil.
+* `rebase ()`memperbarui saldo untuk semua pengguna berdasarkan nilai aset yang saat ini disimpan di kumpulan.
+* `allocate ()`memindahkan aset di bawah manajemen ke dalam [Stategies](strategies.md) yang ditentukan untuk memaksimalkan hasil dan mendiversifikasi risiko.
 
-On redemptions, it is the protocol and not the user that decides which stablecoin\(s\) to return to the user. This decision of which coin\(s\) to return is based on the internal ratios of the assets that are being held in the pool.
+Saat penebusan, adalah protokol dan bukan pengguna yang memutuskan stablecoin \ (s \) mana yang akan dikembalikan ke pengguna. Keputusan tentang coin mana \(s\) yang akan dikembalikan didasarkan pada rasio internal dari aset yang disimpan di pool.
 
 
 
