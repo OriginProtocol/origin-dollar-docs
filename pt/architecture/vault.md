@@ -8,7 +8,7 @@ As funções mais importantes do Cofre que podem ser chamadas publicamente são:
 * `mintMultiple()`permite que múltiplas stablecoims suportadas sejam convertidas para OUSD numa única chamada
 * `redeem()`permite que um determinado montante de ousd seja resgatado por outras stablecoins suportadas.
 * `redeemAll()`permite que um usuário resgate todo o seu saldo de OUSD por outras stablecoins suportadas. Isto é particularmente útil, visto que os saldos dos usuários estão em constante crescimento à medida que o rendimento é acumulado.
-* `rebase()`updates the balances for all users based on the value of the assets currently stored in the pool.
+* `rebase()`atualiza os saldos de todos os usuários com base no valor dos ativos atualmente armazenados na pool.
 * `allocate()`moves the assets under management into their prescribed [Stategies](strategies.md) to maximize yield and diversify risk.
 
 On redemptions, it is the protocol and not the user that decides which stablecoin\(s\) to return to the user. This decision of which coin\(s\) to return is based on the internal ratios of the assets that are being held in the pool.
