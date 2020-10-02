@@ -77,39 +77,39 @@ Devuelve el valor total de los activos y estrategias subyacentes.
 
 Devuelve el saldo de un activo especificado por el parámetro`_asset` contenido en la Bóveda y todas las estrategias representadas por el tipo `uint256`.
 
-| Parameter Name | Type    | Description                                                                                                                                        |
-|:-------------- |:------- |:-------------------------------------------------------------------------------------------------------------------------------------------------- |
-| \_asset      | address | Address of the [supported](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/core-concepts/supported-assets) stablecoin |
+| Nombre del parámetro | Tipo      | Descripción                                                                                                                                             |
+|:-------------------- |:--------- |:------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| \_asset            | dirección | Dirección de la moneda estable [admitida](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/core-concepts/supported-assets). |
 
-### calculateRedeemOutputs\(\) <a id="calculateredeemoutputs"></a>
+### calculateRedeemOutputs\(\)<a id="calculateredeemoutputs"></a>
 
-**`function calculateRedeemOutputs(uint256 _amount)`**‌
+**`función calculateRedeemOutputs(uint256 _amount)`**
 
-Calculate the mix of stablecoins that a `redeem` function would return when redeeming certain amount of OUSD specified by the `_amount` parameter. Returns an array of stablecoin values.
+Calcule la combinación de monedas estables que una función `redeem` devolvería al canjear cierta cantidad de OUSD especificada por el parámetro `_amount`. Devuelve una matriz de valores de monedas estables.
 
-To attribute the stablecoin values to the correct stablecoin currency this call should be used in conjunction with `getAllAssets` function that returns an array of stablecoin addresses.
+Para atribuir los valores de la moneda estable a la moneda de la moneda estable correcta, esta llamada debe usarse junto con la función `getAllAssets` que devuelve una matriz de direcciones de la moneda estable.
 
-The index of an array that is returned by the `calculateRedeemOutputs` corresponds to the stablecoin address with the same index in an array returned by the `getAllAssets` function.
+El índice de una matriz que devuelve `calculateRedeemOutputs` corresponde a la dirección de la moneda estable con el mismo índice en una matriz devuelta por la función `getAllAssets`.
 
-| Parameter Name | Type    | Description                               |
-|:-------------- |:------- |:----------------------------------------- |
-| \_amount     | uint256 | amount of OUSD expressed in decimal units |
+| Nombre del parámetro | Tipo    | Descripción                                      |
+|:-------------------- |:------- |:------------------------------------------------ |
+| \_amount           | uint256 | cantidad de OUSD expresada en unidades decimales |
 
-| `return` name | Type          | Description                                                                 |
-|:------------- |:------------- |:--------------------------------------------------------------------------- |
-| outputs       | uint256\[\] | array of the amount of the stablecoin assets `redeem` function would return |
+| `return` nombre | Tipo          | Descripción                                                                    |
+|:--------------- |:------------- |:------------------------------------------------------------------------------ |
+| salidas         | uint256\[\] | matriz de la cantidad de activos de moneda estable `redeem` función devolvería |
 
 ### getAssetCount\(\) <a id="getassetcount"></a>
 
-**`function getAssetCount()`**‌
+**`función getAssetCount()`**
 
-Return the number of supported stablecoin assets represented by `uint256` type.‌
+Devuelve el número de activos de stablecoin admitidos representados por el tipo `uint256`.
 
 ### getAllAssets\(\) <a id="getallassets"></a>
 
-**`function getAllAssets()`**‌
+**`function getAllAssets()`**
 
-Return all assets addresses of supported stablecoin assets in order represented by `uint256` type.‌
+Devuelve el número de activos de moneda estable admitidos representados por el tipo `uint256`.
 
 ### getStrategyCount\(\)‌ <a id="getstrategycount"></a>
 
