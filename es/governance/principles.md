@@ -1,18 +1,18 @@
-# Principles
+# Principios
 
-**Progressive Decentralization**
+**Descentralización progresiva**
 
-OUSD is designed to be a decentralized protocol governed by many stakeholders all over the world. We believe that the minters and holders of OUSD should collectively determine important protocol decisions as soon as possible.
+OUSD está diseñado para ser un protocolo descentralizado gobernado por muchos holders en todo el mundo. Creemos que los mineros y holders de OUSD deben determinar colectivamente las decisiones importantes sobre el protocolo lo antes posible.
 
-That being said, in the very early days, it is imperative that the core engineering team can act quickly and decisively to build the foundational parts of the protocol.
+Dicho esto, en los primeros días, es imperativo que el equipo de ingeniería central pueda actuar de manera rápida y decisiva para construir las partes fundamentales del protocolo.
 
-Decentralization will progress across four phases rapidly over the next few months. It is our intent to relinquish control and governance to the community as soon as possible.
+La descentralización progresará rápidamente en cuatro fases durante los próximos meses. Nuestra intención es ceder el control y la gobernanza a la comunidad lo antes posible.
 
 ![](../.gitbook/assets/ousd_docs_graphics_2%20%283%29.png)
 
-**Timelock**
+**Bloqueo de Tiempo**
 
-Prior to full decentralized governance, we will implement a [timelock](../smart-contracts/api/timelock.md) in front of all admin function calls, giving OUSD users time \(48 hours\) to withdraw their funds if they have objections to our proposed upgrades. This timelock will be added shortly after launch.
+Antes de la gobernanza descentralizada total, implementaremos un [bloqueo de tiempo](../smart-contracts/api/timelock.md) frente a todas las llamadas de funciones de administración, lo que dará a los usuarios de OUSD tiempo \(48 horas\) para retirar sus fondos si tienen objeciones a nuestras actualizaciones propuestas. Este bloqueo de tiempo se agregará poco después del lanzamiento.
 
 **New and Existing Stakeholders**
 
