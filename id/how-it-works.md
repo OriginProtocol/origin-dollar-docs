@@ -18,19 +18,19 @@ Pengguna mengkonversi stablecoin mereka yang ada \ (saat USDT, USDC, dan DAI \) 
 
 Pengguna dapat mengubah OUSD mereka kembali menjadi stablecoin lain kapan saja menggunakan [Origin Dollar DApp](www.ousd.com). Biaya keluar 0,5% dibebankan pada saat penebusan dan didistribusikan sebagai hasil tambahan kepada peserta yang tersisa di kumpulan. Biaya tersebut berfungsi sebagai fitur keamanan untuk mempersulit penyerang untuk memanfaatkan oracle yang tertinggal, mencegah mereka menyalahgunakan stablecoin dari kumpulan jika terjadi kesalahan harga pada aset yang mendasarinya. Biaya tersebut ada untuk memberi insentif kepada pemegang jangka panjang daripada spekulan jangka pendek.
 
-Upon redemption, the smart contract will determine which stablecoin\(s\) to return to the user. In the current implementation, the pool will return coins in the same ratio as the current holdings. This lack of user optionality also protects the pool as a whole in the event that any of the supported stablecoins loses its peg to the dollar.
+Setelah penebusan, kontrak pintar akan menentukan stablecoin \ (s \) yang akan dikembalikan kepada pengguna. Dalam implementasi saat ini, kumpulan akan mengembalikan koin dengan rasio yang sama dengan kepemilikan saat ini. Kurangnya pilihan pengguna ini juga melindungi kumpulan secara keseluruhan jika salah satu stablecoin yang didukung kehilangan pasaknya terhadap dolar.
 
 {% hint style="warning" %}
-There is a **0.5% exit fee** and the user doesn't get to pick which stablecoins they receive.
+Ada **0,5% biaya keluar** dan pengguna tidak bisa memilih stablecoin mana yang mereka terima.
 {% endhint %}
 
-#### A**utomated Yield Farming**
+#### Hasil Pertanian O**tomatis**
 
-OUSD generates yields by deploying the underlying stablecoins that were deposited to the OUSD smart contract to other DeFi protocols such as Compound, Aave, Uniswap, Balancer, and Curve. It is expected there will be new diversified strategies added to the pool every month. Collected interest, trading fees, and rewards tokens are pooled and converted to stablecoins to produce OUSD-denominated yields. Over time, the protocol will move assets in and out of different liquidity pools in order to provide the best yield to the holders of OUSD.
+OUSD menghasilkan keuntungan dengan menerapkan stablecoin yang mendasari yang disimpan ke kontrak pintar OUSD ke protokol DeFi lainnya seperti Compound, Aave, Uniswap, Balancer, dan Curve. Diharapkan akan ada strategi diversifikasi baru yang ditambahkan ke kumpulan setiap bulan. Bunga yang terkumpul, biaya perdagangan, dan token hadiah dikumpulkan dan diubah menjadi stablecoin untuk menghasilkan hasil dalam mata uang OUSD. Seiring waktu, protokol akan memindahkan aset masuk dan keluar dari kumpulan likuiditas yang berbeda untuk memberikan hasil terbaik bagi pemegang OUSD.
 
-#### **Elastic Supply**
+#### **Pasokan Elastis**
 
-The generated returns are passed on to the holders of OUSD via constant rebasing of the money supply. OUSD constantly adjusts the money supply in response to the yield the protocol has generated. This allows the price of OUSD to stay pegged at $1 while the balances in token holders' wallets adjust in real-time to reflect yields that have been earned by the protocol.
+Pengembalian yang dihasilkan diteruskan ke pemegang OUSD melalui rebasing konstan dari jumlah uang beredar. OUSD secara konstan menyesuaikan jumlah uang beredar sebagai tanggapan atas hasil yang dihasilkan protokol. Ini memungkinkan harga OUSD untuk tetap dipatok pada $ 1 sementara saldo di dompet pemegang token menyesuaikan secara real-time untuk mencerminkan hasil yang telah diperoleh oleh protokol.
 
-The end result is a stablecoin that is easy to spend, earns outsized yields automatically, and is more desirable to hold than existing stablecoins.
+Hasil akhirnya adalah stablecoin yang mudah dibelanjakan, menghasilkan hasil yang besar secara otomatis, dan lebih diinginkan untuk dipegang daripada stablecoin yang ada.
 
