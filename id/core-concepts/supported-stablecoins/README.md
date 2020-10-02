@@ -1,8 +1,8 @@
-# Supported Stablecoins
+# Stablecoin yang Didukung
 
-**Supported Stablecoins**
+**Stablecoin yang Didukung**
 
-It is important to understand that OUSD is only as strong as the stablecoins that are backing it. Any loss to the underlying assets will cause a similar loss to the value of OUSD.
+Penting untuk dipahami bahwa OUSD hanya sekuat stablecoin yang mendukungnya. Setiap kerugian aset yang mendasarinya akan menyebabkan kerugian yang serupa dengan nilai OUSD.
 
 Currently, OUSD supports the following stablecoins:
 
