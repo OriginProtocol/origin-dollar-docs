@@ -1,25 +1,25 @@
 # Yearn.finance
 
 {% hint style="info" %}
-Coming soon. Yearn.finance has not yet been integrated.
+Próximamente. Yearn.finance aún no se ha integrado.
 {% endhint %}
 
-Yearn.finance, formerly iEarn.finance, is a yield aggregation platform built on Ethereum and launched in January 2020 by Andre Cronje. Yearn manages yield farming and rebalancing strategies using a combination of automation and human decision making on behalf of users who have deposited capital.
+Yearn.finance, anteriormente iEarn.finance, es una plataforma de agregación de rendimiento construida sobre la red de Ethereum y lanzada en enero de 2020 por Andre Cronje. Yearn gestiona el cultivo de rendimiento y las estrategias de reequilibrio mediante una combinación de automatización y toma de decisiones humanas en nombre de los usuarios que han depositado capital.
 
-Yearn has two yield aggregation products, Earn and Vaults. Earn allows users to deposit stablecoins or wrapped BTC into liquidity pools on Curve to earn fees and governance token rewards. These assets are also lent out on platforms offering high yield and token rewards, adding to the yield earned.
+Yearn tiene dos productos de agregación de rendimiento, Ganancias y Bóvedas. Las Ganancias permite a los usuarios depositar monedas estables o BTC envueltos en grupos de liquidez en Curve para ganar tarifas y recompensas de token de gobernanza. Estos activos también se prestan en plataformas que ofrecen alto rendimiento y recompensas simbólicas, lo que aumenta el rendimiento obtenido.
 
-Vaults offer a more automated and managed experience. Users deposit assets such as LINK, Curve liquidity provider tokens, or stablecoins and the Vault pools these assets together and deploys the highest earning yield farming strategy as deemed safe by the community and Andre Cronje. Governance tokens earned as rewards are sold off for the original asset deposited and combined with other fees and automatically rolled into the Vault to compound yield. Strategies can be changed frequently and pooling assets together saves gas costs for users.
+Las Bóvedas ofrecen una experiencia más automatizada y administrada. Los usuarios depositan activos como LINK, tokens del proveedor de liquidez de Curve o monedas estables, y la Bóveda agrupa estos activos y despliega la estrategia de cultivo de mayor rendimiento que la comunidad y Andre Cronje consideran segura. Los tokens de gobernanza obtenidos como recompensas se venden por el activo original depositado y se combinan con otras tarifas y se transfieren automáticamente a la Bóveda para obtener un rendimiento compuesto. Las estrategias se pueden cambiar con frecuencia y la puesta en común de activos ahorra costos de gas para los usuarios.
 
-Yearn is governed by YFI, an ERC-20 governance token. YFI holders can vote on protocol changes after agreeing to lock up their YFI for 3 days. YFI can also be staked for yield in the governance portal. This yield comes from fees charged to users on Yearn products. YFI was distributed entirely to liquidity providers on Curve and Balancer. There was no allocation for team members or investors.
+Yearn está gobernado por YFI, un token de gobernanza ERC-20. Los holders de YFI pueden votar sobre los cambios de protocolo después de aceptar bloquear su YFI durante 3 días. YFI también se puede colocar en staking por rendimiento en el portal de gobernanza. Este rendimiento proviene de las tarifas cobradas a los usuarios por los productos de Yearn. YFI se distribuyó en su totalidad a los proveedores de liquidez en Curve y Balancer. No hubo asignación para miembros del equipo o inversores.
 
-Yearn's total value locked \(TVL\) has quickly grown to over $800 million, making it one of the largest DeFi platforms. YFI has a circulating market cap of over $400 million.
+El valor total bloqueado \(TVL\) de Yearn ha crecido rápidamente a más de $800 millones, lo que lo convierte en uno de los protocolos DeFi más grandes. YFI tiene una capitalización de mercado circulante de más de $400 millones.
 
-Yearn has undergone multiple security and smart contract audits by CertiK, Quantstamp, HackMD, and CryptoManiacs. Yearn has a reputation for launching experimental products very quickly and warns users that their products are in beta.
+Yearn se ha sometido a múltiples auditorías de contratos inteligentes y de seguridad por parte de CertiK, Quantstamp, HackMD y CryptoManiacs. Yearn tiene la reputación de lanzar productos experimentales muy rápidamente y advierte a los usuarios que sus productos están en fase beta.
 
-| Resources      |                                                                      |
-|:-------------- |:-------------------------------------------------------------------- |
-| Official site  | [https://yearn.finance/](https://yearn.finance/)                     |
-| Developer docs | [https://docs.yearn.finance/](https://docs.yearn.finance/)           |
-| GitHub         | [https://github.com/iearn-finance](https://github.com/iearn-finance) |
-| Discord        | [https://discord.gg/uTmHe8r](https://discord.gg/uTmHe8r)             |
+| Recursos                        |                                                                      |
+|:------------------------------- |:-------------------------------------------------------------------- |
+| Sitio oficial                   | [https://yearn.finance/](https://yearn.finance/)                     |
+| Documentos para desarrolladores | [https://docs.yearn.finance/](https://docs.yearn.finance/)           |
+| GitHub                          | [https://github.com/iearn-finance](https://github.com/iearn-finance) |
+| Discord                         | [https://discord.gg/uTmHe8r](https://discord.gg/uTmHe8r)             |
 
