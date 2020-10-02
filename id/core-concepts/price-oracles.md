@@ -136,17 +136,17 @@ The following oracles are used to fetch or compute a price for **DAI/USD:**
 | _Uniswap v2_    | _DAI/ETH_ | _0xA478c2975Ab1Ea89e8196811F51A7B7Ade33eB11_ |
 {% endtab %}
 
-{% tab title="USDT/USD" %}
-The following oracles are used to fetch or compute a price for **USDT/USD:**
+{% tab title = "USDT / USD"%}
+Oracle berikut digunakan untuk mengambil atau menghitung harga **USDT / USD:**
 
-| O**racle**      | Pair       | Contract                                     |
-|:--------------- |:---------- |:-------------------------------------------- |
-| Chainlink       | USDT/ETH   | 0xa874fe207DF445ff19E7482C746C4D3fD0CB9AcE   |
-| Open Price Feed | USDC/USD   | 0xc629c26dced4277419cde234012f8160a0278a79   |
-| _Uniswap v2_    | _USDT/ETH_ | _0x0d4a11d5eeaac28ec3f61d100daf4d40471f1852_ |
+| O**racle**       | Pasangan     | Kontrak                                      |
+|:---------------- |:------------ |:-------------------------------------------- |
+| Rantai           | USDT / ETH   | 0xa874fe207DF445ff19E7482C746C4D3fD0CB9AcE   |
+| Buka Umpan Harga | USDC / USD   | 0xc629c26dced4277419cde234012f8160a0278a79   |
+| _Uniswap v2_     | _USDT / ETH_ | _0x0d4a11d5eeaac28ec3f61d100daf4d40471f1852_ |
 {% endtab %}
 
-{% tab title="USDC/USD" %}
+{% tab title = "USDT / USD"%}
 The following oracles are used to fetch or compute a price for **USDC/USD:**
 
 | O**racle**      | Pair       | Contract                                     |
