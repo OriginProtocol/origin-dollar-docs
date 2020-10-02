@@ -90,7 +90,7 @@ Póngase en contacto si desea ayudar. Nuestro canal `general` en [Discord](https
 
 Origin ocasionalmente contrata desarrolladores para puestos a tiempo parcial o completo.
 
-Tenemos una fuerte preferencia por contratar personas que ya han comenzado a contribuir al proyecto. Si desea un puesto de tiempo completo en nuestro equipo, su mejor oportunidad es interactuar con nuestro equipo y comenzar a contribuir con código. It is very unlikely that we would offer you a full-time position on our engineering team unless you’ve had at least a few pull requests merged.
+Tenemos una fuerte preferencia por contratar personas que ya han comenzado a contribuir al proyecto. Si desea un puesto de tiempo completo en nuestro equipo, su mejor oportunidad es interactuar con nuestro equipo y comenzar a contribuir con código. Es muy poco probable que le ofrezcamos un puesto de tiempo completo en nuestro equipo de ingeniería a menos que haya fusionado al menos algunas solicitudes de extracción.
 
 Si está interesado, consulte [las listas de trabajo de Origin Protocol](https://angel.co/originprotocol/jobs). Si desea ayuda de otras maneras, por favor proponer sus ideas en [nuestro canal Discord](https://www.originprotocol.com/discord).
 
