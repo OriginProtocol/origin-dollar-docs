@@ -1,16 +1,16 @@
 ---
-description: The first stablecoin that earns a yield while it's still in your wallet
+description: Первый стейблкоин, который приносит доход, просто находясь в Вашем кошельке
 ---
 
-# Introduction
+# Введение
 
-## **A Better Form of Money**
+## **Лучшая форма денег**
 
-Origin Dollar \(OUSD\) is a new stablecoin that was initially launched in September 2020 on the Ethereum network. Its design is superior to existing stablecoins because OUSD captures competitive yields while being passively held in wallets.
+Origin Dollar \(OUSD\) - это новый стейблкоин, изначально запущенный в сентябре 2020 года в сети Ethereum. Его дизайн превосходит существующие стейблкоины, потому что OUSD обеспечивает конкурентоспособную доходность, пассивно хранясь в кошельках.
 
 ![](.gitbook/assets/origin-dollar-summary.jpeg)
 
-**Background**
+**Предыстория**
 
 In 1999, Yu Pan, Origin’s R&D engineer, and his fellow PayPal co-founders [conceived](https://www.cnbc.com/2017/08/14/david-sacks-cryptocurrency-interview.html) of creating “the new world currency”, complete with interest yielding strategies and debit cards without having to connect to traditional banking systems. Several pivots and an eBay acquisition later, PayPal dropped its ambitions in this area.
 
