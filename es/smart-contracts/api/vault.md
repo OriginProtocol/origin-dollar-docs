@@ -113,35 +113,35 @@ Devuelve el número de activos de moneda estable admitidos representados por el 
 
 ### getStrategyCount\(\)‌ <a id="getstrategycount"></a>
 
-**`function getStrategyCount()`**‌
+**`function getStrategyCount ()`**
 
-Return the number of strategies active on the Vault represented by `uint256` type.‌
+Devuelve el número de estrategias activas en la Bóveda representado por `uint256` tipo.
 
 ### getAPR\(\) <a id="getapr"></a>
 
-**`function getAPR()`**‌
+**`function getAPR ()`**
 
-Return the total annual percentage yield \(APR\) of the Vault and all Strategies represented by `uint256` type. Resulting number has 18 decimal spaces.‌
+Devuelve el rendimiento porcentual anual total \ (APR \) de la Bóveda y todas las estrategias representadas por el tipo `uint256`. El número resultante tiene 18 espacios decimales.
 
 ### isSupportedAsset\(\) <a id="issupportedasset"></a>
 
-**`function isSupportedAsset(address _asset)`**‌
+**`function isSupportedAsset(address _asset)`**
 
-Return the boolean that is true if the asset specified by the `_asset` parameter is supported by the Vault.
+Devuelve el valor booleano verdadero si el activo especificado por el parámetro `_asset` es compatible con la Bóveda.
 
-| Parameter Name | Type    | Description               |
-|:-------------- |:------- |:------------------------- |
-| \_asset      | address | Address of the stablecoin |
+| Nombre del parámetro | Tipo      | Descripción                    |
+|:-------------------- |:--------- |:------------------------------ |
+| \_asset            | dirección | Dirección de la moneda estable |
 
 ### priceUSDMint\(\) <a id="issupportedasset-1"></a>
 
-**`function priceUSDMint(string symbol)`**‌‌
+**`function priceUSDMint(string symbol)`**
 
-Returns the exchange rate price of a stable coin specified by the `symbol` parameters used when minting OUSD represented by `uint256` type. Resulting number has 18 decimal spaces.
+Devuelve el precio del tipo de cambio de una moneda estable especificado por los parámetros del `symbol` utilizados al acuñar OUSD representado por el tipo `uint256`. El número resultante tiene 18 espacios decimales.
 
-| Parameter Name | Type   | Description              |
-|:-------------- |:------ |:------------------------ |
-| symbol         | string | Symbol of the stablecoin |
+| Nombre del parámetro | Tipo   | Descripción              |
+|:-------------------- |:------ |:------------------------ |
+| symbol               | string | Symbol of the stablecoin |
 
 ### priceUSDRedeem\(\) <a id="issupportedasset-2"></a>
 
