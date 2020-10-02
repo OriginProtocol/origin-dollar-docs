@@ -22,14 +22,14 @@ Well-known addresses \(often proxy wrappers\):
 
 Internal implementation contracts:
 
-| Contrato            | Dirección                                                                                                             |
-|:------------------- |:--------------------------------------------------------------------------------------------------------------------- |
-| OUSD                | [0xB72b3f5523851C2EB0cA14137803CA4ac7295f3F](https://etherscan.io/address/0xB72b3f5523851C2EB0cA14137803CA4ac7295f3F) |
-| VaultAdmin          | [0x69A8b2AE6a3606B766Be99C42328459167F51B25](https://etherscan.io/address/0x69A8b2AE6a3606B766Be99C42328459167F51B25) |
-| VaultCore           | [0x553845F9c44C43224620055eCa64C6cC79f5DdFD](https://etherscan.io/address/0x553845F9c44C43224620055eCa64C6cC79f5DdFD) |
-| Mix Oracle          | [0xCf67e56965AD7CEC05eBf88bAd798A875E0460EB](https://etherscan.io/address/0xCf67e56965AD7CEC05eBf88bAd798A875E0460EB) |
-| Chainlink Oracle    | [0x8DE3Ac42F800a1186b6D70CB91e0D6876cC36759](https://etherscan.io/address/0x8DE3Ac42F800a1186b6D70CB91e0D6876cC36759) |
-| Open Uniswap Oracle | [0xa8f14F558aC70F5f52C37cD96d802ef9210023C5](https://etherscan.io/address/0xa8f14F558aC70F5f52C37cD96d802ef9210023C5) |
+| Contrato                   | Dirección                                                                                                             |
+|:-------------------------- |:--------------------------------------------------------------------------------------------------------------------- |
+| OUSD                       | [0xB72b3f5523851C2EB0cA14137803CA4ac7295f3F](https://etherscan.io/address/0xB72b3f5523851C2EB0cA14137803CA4ac7295f3F) |
+| Administrador de la Bóveda | [0x69A8b2AE6a3606B766Be99C42328459167F51B25](https://etherscan.io/address/0x69A8b2AE6a3606B766Be99C42328459167F51B25) |
+| VaultCore                  | [0x553845F9c44C43224620055eCa64C6cC79f5DdFD](https://etherscan.io/address/0x553845F9c44C43224620055eCa64C6cC79f5DdFD) |
+| Mix Oracle                 | [0xCf67e56965AD7CEC05eBf88bAd798A875E0460EB](https://etherscan.io/address/0xCf67e56965AD7CEC05eBf88bAd798A875E0460EB) |
+| Chainlink Oracle           | [0x8DE3Ac42F800a1186b6D70CB91e0D6876cC36759](https://etherscan.io/address/0x8DE3Ac42F800a1186b6D70CB91e0D6876cC36759) |
+| Open Uniswap Oracle        | [0xa8f14F558aC70F5f52C37cD96d802ef9210023C5](https://etherscan.io/address/0xa8f14F558aC70F5f52C37cD96d802ef9210023C5) |
 {% endtab %}
 
 {% tab title="Strategies" %}
