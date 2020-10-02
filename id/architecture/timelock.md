@@ -14,7 +14,7 @@ OUSD menggunakan versi [Compound Timelock](https://compound.finance/docs/governa
 
 1. OUSD awalnya akan menggunakan periode tunggu yang lebih pendek \ (48 jam \) daripada Compound \ (72 jam \) untuk memungkinkan respons yang lebih cepat jika ditemukan masalah.
 2. Setelah 48 jam berlalu, siapa pun bebas untuk melakukan panggilan, tidak hanya pemilik kontrak.
-3. Deposit \ (tapi bukan penarikan \) dapat langsung dibekukan tanpa memerlukan 48 waktu tunggu. Ini jika kerentanan utama ditemukan.
+3. Deposit \ (tapi bukan penarikan atau transfer \) dapat langsung dibekukan tanpa memerlukan 48 waktu tunggu. Ini apabila sebuah kerentanan besar ditemukan.
 
 
 
