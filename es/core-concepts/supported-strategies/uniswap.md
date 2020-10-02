@@ -1,12 +1,12 @@
 # Uniswap
 
 {% hint style="info" %}
-Coming soon. Uniswap has not yet been integrated.
+Próximamente. Uniswap aún no se ha integrado.
 {% endhint %}
 
-Uniswap is a decentralized liquidity protocol and exchange on Ethereum, launched in November 2018. Uniswap v2 launched in May 2020. Users can swap ERC-20 tokens for a fee or contribute tokens to liquidity pools to earn fees.
+Uniswap es un protocolo de liquidez descentralizado y un exchange sobre la red de Ethereum, lanzado en Noviembre de 2018. Uniswap v2 se lanzó en Mayo de 2020. Los usuarios pueden intercambiar tokens ERC-20 por una comisión o contribuir con tokens a los grupos de liquidez para ganar comisiones.
 
-Markets on Uniswap operate as liquidity pools rather than order books. This type of exchange is called an Automated Market Maker \(AMM\). The exchange rate between the two assets is determined by a constant product formula and moves along a price curve depending on the relative weight of each asset in the pool. This encourages arbitrageurs to enter liquidity pools to rebalance the relative weights and normalize the exchange rate.
+Los mercados de Uniswap operan como grupos de liquidez en lugar de libros de pedidos. Este tipo de exchange se denomina Creador de Mercado Automatizado \(AMM\). The exchange rate between the two assets is determined by a constant product formula and moves along a price curve depending on the relative weight of each asset in the pool. This encourages arbitrageurs to enter liquidity pools to rebalance the relative weights and normalize the exchange rate.
 
 Traders can suffer from slippage if there is not enough liquidity in a given pool and may not be protected from unfavorable exchange rates. Liquidity providers may suffer impermanent loss when the pool exchange rate does not match market realities and arbitrageurs execute trades along the pricing curve.
 
