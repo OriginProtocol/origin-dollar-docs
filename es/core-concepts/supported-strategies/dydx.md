@@ -1,12 +1,12 @@
 # dYdX
 
 {% hint style="info" %}
-Coming soon. DyDx has not yet been integrated.
+Próximamente. DyDx aún no se ha integrado.
 {% endhint %}
 
-dYdX is a trading and lending protocol and platform built on Ethereum and launched in May 2019. Users can trade assets on dYdX's non-custodial, decentralized exchange or participate in borrowing and lending. The lending protocol enables margin and futures trading. Interest rates are adjusted based on supply and demand and only short term loans are offered.
+dYdX es una plataforma y un protocolo de tradeo y préstamos construido sobre la red de Ethereum y lanzado en mayo de 2019. Los usuarios pueden negociar activos en el exchange descentralizado y sin custodia de dYdX o participar en dar préstamos o recibirlos. El protocolo de préstamos permite tradear en futuros o margin. Las tasas de interés se ajustan en función de la oferta y la demanda y sólo se ofrecen préstamos a corto plazo.
 
-Liquidity for assets available for borrowing and lending are pooled together by asset type. Interest paid to lenders is accrued automatically and borrowers must put up collateral to take out a loan.
+La liquidez de los activos disponibles para empréstitos y préstamos se agrupa por tipo de activo. Interest paid to lenders is accrued automatically and borrowers must put up collateral to take out a loan.
 
 dYdX also supports flash loans, which are uncollateralized loans where users borrow and repay the balance of the loan in a single transaction, meaning flash loan users do not need to put up any initial capital. Flash loans are a complex product aimed at developers and can be used to arbitrage across multiple DeFi protocols.
 
