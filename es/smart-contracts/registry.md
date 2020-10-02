@@ -9,18 +9,18 @@ La dirección ERC20 principal para Origin Dollar \(OUSD\) es:
 
 {% tabs %}
 {% tab title="Core" %}
-Well-known addresses \(often proxy wrappers\):
+Direcciones conocidas \ (a menudo envoltorios de proxy\):
 
-| Contrato        | Dirección                                                                                                             | ENS                                                                   |
-|:--------------- |:--------------------------------------------------------------------------------------------------------------------- |:--------------------------------------------------------------------- |
-| OUSD            | [0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86](https://etherscan.io/address/0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86) | [ousd.eth](https://etherscan.io/address/ousd.eth)                     |
-| Vault           | [0x277e80f3E14E7fB3fc40A9d6184088e0241034bD](https://etherscan.io/address/0x277e80f3E14E7fB3fc40A9d6184088e0241034bD) | [originvault.eth](https://etherscan.io/address/originvault.eth)       |
-| Timelock        | [0x52BEBd3d7f37EC4284853Fd5861Ae71253A7F428](https://etherscan.io/address/0x52BEBd3d7f37EC4284853Fd5861Ae71253A7F428) | [origintimelock.eth](https://etherscan.io/address/origintimelock.eth) |
-| 5 of 8 Multisig | [0xe011fA2a6Df98c69383457d87a056Ed0103aA352](https://etherscan.io/address/0xe011fA2a6Df98c69383457d87a056Ed0103aA352) | [originprotocol.eth](https://etherscan.io/address/originprotocol.eth) |
-| Oráculo         | [0xCf67e56965AD7CEC05eBf88bAd798A875E0460EB](https://etherscan.io/address/0xCf67e56965AD7CEC05eBf88bAd798A875E0460EB) | [originoracle.eth](https://etherscan.io/address/originoracle.eth)     |
-| Governor        | [0x8a5fF78BFe0de04F5dc1B57d2e1095bE697Be76E](https://etherscan.io/address/0x8a5fF78BFe0de04F5dc1B57d2e1095bE697Be76E) | [origingovernor.eth](https://etherscan.io/address/origingovernor.eth) |
+| Contrato                | Dirección                                                                                                             | ENS                                                                   |
+|:----------------------- |:--------------------------------------------------------------------------------------------------------------------- |:--------------------------------------------------------------------- |
+| OUSD                    | [0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86](https://etherscan.io/address/0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86) | [ousd.eth](https://etherscan.io/address/ousd.eth)                     |
+| Bóveda                  | [0x277e80f3E14E7fB3fc40A9d6184088e0241034bD](https://etherscan.io/address/0x277e80f3E14E7fB3fc40A9d6184088e0241034bD) | [originvault.eth](https://etherscan.io/address/originvault.eth)       |
+| Bloqueo de Tiempo       | [0x52BEBd3d7f37EC4284853Fd5861Ae71253A7F428](https://etherscan.io/address/0x52BEBd3d7f37EC4284853Fd5861Ae71253A7F428) | [origintimelock.eth](https://etherscan.io/address/origintimelock.eth) |
+| 5 de 8 Multiples-firmas | [0xe011fA2a6Df98c69383457d87a056Ed0103aA352](https://etherscan.io/address/0xe011fA2a6Df98c69383457d87a056Ed0103aA352) | [originprotocol.eth](https://etherscan.io/address/originprotocol.eth) |
+| Oráculo                 | [0xCf67e56965AD7CEC05eBf88bAd798A875E0460EB](https://etherscan.io/address/0xCf67e56965AD7CEC05eBf88bAd798A875E0460EB) | [originoracle.eth](https://etherscan.io/address/originoracle.eth)     |
+| Gobernador              | [0x8a5fF78BFe0de04F5dc1B57d2e1095bE697Be76E](https://etherscan.io/address/0x8a5fF78BFe0de04F5dc1B57d2e1095bE697Be76E) | [origingovernor.eth](https://etherscan.io/address/origingovernor.eth) |
 
-Internal implementation contracts:
+Contratos de ejecución interna:
 
 | Contrato                   | Dirección                                                                                                             |
 |:-------------------------- |:--------------------------------------------------------------------------------------------------------------------- |
