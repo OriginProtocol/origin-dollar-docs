@@ -139,37 +139,37 @@ Devuelve el valor booleano verdadero si el activo especificado por el parámetro
 
 Devuelve el precio del tipo de cambio de una moneda estable especificado por los parámetros del `symbol` utilizados al acuñar OUSD representado por el tipo `uint256`. El número resultante tiene 18 espacios decimales.
 
-| Nombre del parámetro | Tipo   | Descripción              |
-|:-------------------- |:------ |:------------------------ |
-| symbol               | string | Symbol of the stablecoin |
+| Nombre del parámetro | Tipo   | Descripción                  |
+|:-------------------- |:------ |:---------------------------- |
+| symbol               | string | Símbolo de la moneda estable |
 
 ### priceUSDRedeem\(\) <a id="issupportedasset-2"></a>
 
-**`function priceUSDRedeem(string symbol)`**‌‌
+**`function priceUSDRedeem(string symbol)`**
 
-Returns the exchange rate price of a stable coin specified by the `symbol` parameters used when redeeming OUSD represented by `uint256` type. Resulting number has 18 decimal spaces.
+Devuelve el precio del tipo de cambio de una moneda estable especificado por los parámetros del `symbol` utilizados al canjear OUSD representado por el tipo `uint256`. El número resultante tiene 18 espacios decimales.
 
-| Parameter Name | Type   | Description              |
-|:-------------- |:------ |:------------------------ |
-| symbol         | string | Symbol of the stablecoin |
+| Nombre del parámetro | Tipo   | Descripción                  |
+|:-------------------- |:------ |:---------------------------- |
+| symbol               | string | Símbolo de la moneda estable |
 
 ### priceAssetUSDMint\(\)‌ <a id="issupportedasset-3"></a>
 
-**`function priceAssetUSDMint(address _asset)`**‌‌
+**`function priceAssetUSDMint(address _asset)`**
 
-Returns the exchange rate price of a stable coin specified by the `_asset` parameters used when minting OUSD represented by `uint256` type. Resulting number has 18 decimal spaces.
+Devuelve el precio del tipo de cambio de una moneda estable especificado por los parámetros `_asset` utilizados al acuñar OUSD representado por el tipo `uint256`. El número resultante tiene 18 espacios decimales.
 
-| Parameter Name | Type    | Description                |
-|:-------------- |:------- |:-------------------------- |
-| \_asset      | address | Address of the stablecoin‌ |
+| Nombre del parámetro | Tipo      | Descripción                     |
+|:-------------------- |:--------- |:------------------------------- |
+| \_asset            | dirección | Dirección de la moneda estable‌ |
 
 ### priceAssetUSDRedeem\(\)‌ <a id="issupportedasset-3-1"></a>
 
-**`function priceAssetUSDRedeem(address _asset)`**‌‌‌
+**`function priceAssetUSDRedeem(address _asset)`**
 
-Returns the exchange rate price of a stable coin specified by the `_asset` parameters used when redeeming OUSD represented by `uint256` type. Resulting number has 18 decimal spaces.
+Devuelve el precio de tipo de cambio de una moneda estable especificado por los parámetros `_asset` utilizados al canjear OUSD representado por el tipo `uint256`. El número resultante tiene 18 espacios decimales.
 
-| Parameter Name | Type    | Description               |
-|:-------------- |:------- |:------------------------- |
-| \_asset      | address | Address of the stablecoin |
+| Nombre del parámetro | Tipo      | Descripción                    |
+|:-------------------- |:--------- |:------------------------------ |
+| \_asset            | dirección | Dirección de la moneda estable |
 
