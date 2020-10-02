@@ -1,14 +1,14 @@
-# Yield Generation
+# Generación de rendimiento
 
-**Automated Yield Farming**
+**Cultivo de Rendimiento Automatizado**
 
-While the Cambrian explosion of new lending and automated market maker pools has fueled total value locked \(TVL\), it has also made it increasingly challenging for yield farmers to manually allocate capital in efficient and optimal ways.
+Si bien la explosión Cámbrica de nuevos préstamos y grupos de creadores de mercado automatizados ha impulsado el valor total bloqueado \(TVL\), también ha hecho que sea cada vez más difícil para los cultivadores de rendimiento asignar capital manualmente de manera eficiente y óptima.
 
-[Yearn](https://yearn.finance/) has demonstrated that smart contracts can automate the rebalancing of funds across various strategies to optimally earn lending interest, market making fees, and rewards tokens. The first version of OUSD will employ a simple Compound strategy, but new strategies will be deployed every month that maximize returns while minimizing risk and dependencies.
+[Yearn](https://yearn.finance/) ha demostrado que los contratos inteligentes pueden automatizar el reequilibrio de fondos en diversas estrategias para ganar de manera óptima intereses crediticios, tarifas de creación de mercado y tokens de recompensa. La primera versión de OUSD empleará una estrategia compuesta simple, pero cada mes se implementarán nuevas estrategias que maximizan los retornos y minimizan el riesgo y las dependencias.
 
 ![](../../.gitbook/assets/ousd_docs_graphics_1.png)
 
-Effectively, there are 3 ways that OUSD generates yield:
+Efectivamente, hay 3 formas en las que OUSD genera rendimiento:
 
 {% page-ref page="lending.md" %}
 
