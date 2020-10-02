@@ -22,19 +22,19 @@ Alamat ERC20 utama untuk Origin Dollar \ (OUSD \) adalah:
 **0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86**
 {% endhint %}
 
-Jika OUSD Anda tidak muncul secara otomatis di dompet Anda, Anda dapat menambahkannya secara manual menggunakan alamat di atas. Kami ingin OUSD didukung oleh sebanyak mungkin dompet dan dimasukkan ke dalam semua daftar token terkenal. We would greatly appreciate any help you can offer in this area.
+Jika OUSD Anda tidak muncul secara otomatis di dompet Anda, Anda dapat menambahkannya secara manual menggunakan alamat di atas. Kami ingin OUSD didukung oleh sebanyak mungkin dompet dan dimasukkan ke dalam semua daftar token terkenal. Kami sangat menghargai bantuan yang dapat Anda tawarkan di bidang ini.
 
-**Integrating OUSD**
+**Mengintegrasikan OUSD**
 
-OUSD is a non-standard ERC-20 token that requires custom integration work for most applications that wish to support it. In particular, it is important for developers to understand how our elastic supply works as this can easily cause unexpected behavior.
+OUSD adalah token ERC-20 non-standar yang memerlukan integrasi kustom untuk sebagian besar aplikasi yang ingin mendukungnya. Secara khusus, penting bagi pengembang untuk memahami cara kerja pasokan elastis kami karena hal ini dapat dengan mudah menyebabkan perilaku yang tidak terduga.
 
-If you are a wallet provider or crypto exchange that is interested in supporting OUSD, please refer to the following guides:
+Jika Anda adalah penyedia dompet atau bursa kripto yang tertarik untuk mendukung OUSD, silakan lihat panduan berikut ini:
 
-{% page-ref page="smart-contracts/architecture.md" %}
+{% page-ref page = "smart-contract / architecture.md"%}
 
-{% page-ref page="smart-contracts/api/" %}
+{% page-ref page = "smart-contract / api /"%}
 
-**Getting Help**
+**Mendapatkan bantuan**
 
 Please join the Origin Dollar \#engineering room in Origin's [Discord](www.originprotocol.com/discord) server.  Our team and members of our community look forward to helping you build. Your questions help us improve, so please don't hesitate to ask if you can't find what you are looking for here.
 
