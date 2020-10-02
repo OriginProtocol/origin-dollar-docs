@@ -1,6 +1,6 @@
-# Vault
+# Cofre
 
-The vault is at the core of the protocol. The vault is responsible for minting/redeeming OUSD tokens, rebalancing funds between the various supported strategies, and liquidating rewards tokens.
+O cofre está no núcleo do protocolo. The vault is responsible for minting/redeeming OUSD tokens, rebalancing funds between the various supported strategies, and liquidating rewards tokens.
 
 The most important publicly callable functions on the Vault are:
 
