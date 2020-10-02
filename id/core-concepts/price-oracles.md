@@ -1,18 +1,18 @@
-# Price Oracles
+# Harga Oracles
 
-OUSD is designed to stay pegged at 1 USD and be 1:1 backed with its underlying stablecoins. This is trickier than it sounds because these underlying stablecoins are constantly deviating from their own desired 1 USD pegs. While the majority of daily fluctuations are minor, there have been major swings in price that have occurred in the past and are likely to occur again in the future.
+OUSD dirancang untuk tetap dipatok pada 1 USD dan didukung 1: 1 dengan stablecoin yang mendasarinya. Ini lebih rumit daripada kedengarannya karena stablecoin yang mendasari ini terus-menerus menyimpang dari pasak 1 USD yang mereka inginkan. Meskipun sebagian besar fluktuasi harian kecil, ada perubahan besar dalam harga yang telah terjadi di masa lalu dan kemungkinan besar akan terjadi lagi di masa mendatang.
 
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">Coin</th>
-      <th style="text-align:left"><b>Low</b>
+      <th style="text-align:left">Koin</th>
+      <th style="text-align:left"><b>Rendah</b>
       </th>
-      <th style="text-align:left"><b>High</b>
+      <th style="text-align:left"><b>Tinggi</b>
       </th>
       <th style="text-align:left"><b>Delta</b>
       </th>
-      <th style="text-align:left"><b>Source</b>
+      <th style="text-align:left"><b>Sumber</b>
       </th>
     </tr>
   </thead>
@@ -20,54 +20,54 @@ OUSD is designed to stay pegged at 1 USD and be 1:1 backed with its underlying s
     <tr>
       <td style="text-align:left">USDC</td>
       <td style="text-align:left">
-        <p>$0.929222</p>
-        <p>Mar 13, 2020</p>
+        <p>$ 0,929222</p>
+        <p>13 Maret 2020</p>
       </td>
       <td style="text-align:left">
-        <p>$1.11</p>
-        <p>Oct 15, 2018</p>
+        <p>$ 1,11</p>
+        <p>15 Oktober 2018</p>
       </td>
-      <td style="text-align:left">$0.180778</td>
+      <td style="text-align:left">$ 0,180778</td>
       <td style="text-align:left"><a href="https://coinmarketcap.com/currencies/usd-coin/">CoinMarketCap</a>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">USDC</td>
       <td style="text-align:left">
-        <p>$0.924188</p>
-        <p>Aug 02, 2020</p>
+        <p>$ 0,924188</p>
+        <p>02 Agu 2020</p>
       </td>
       <td style="text-align:left">
-        <p>$1.17</p>
-        <p>May 08, 2019</p>
+        <p>$ 1,17</p>
+        <p>08 Mei 2019</p>
       </td>
-      <td style="text-align:left">$0.245812</td>
+      <td style="text-align:left">$ 0,245812</td>
       <td style="text-align:left"><a href="https://www.coingecko.com/en/coins/usd-coin">CoinGecko</a>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">DAI</td>
       <td style="text-align:left">
-        <p>$0.945505</p>
-        <p>May 10, 2020</p>
+        <p>$ 0,945505</p>
+        <p>10 Mei 2020</p>
       </td>
       <td style="text-align:left">
-        <p>$1.11</p>
-        <p>Mar 13, 2020</p>
+        <p>$ 1,11</p>
+        <p>13 Maret 2020</p>
       </td>
-      <td style="text-align:left">$0.164495</td>
+      <td style="text-align:left">$ 0,164495</td>
       <td style="text-align:left"><a href="https://coinmarketcap.com/currencies/multi-collateral-dai/">CoinMarketCap</a>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">DAI</td>
       <td style="text-align:left">
-        <p>$0.903243</p>
-        <p>Nov 25, 2019</p>
+        <p>$ 0,903243</p>
+        <p>25 November 2019</p>
       </td>
       <td style="text-align:left">
-        <p>$1.22</p>
-        <p>Mar 13, 2020</p>
+        <p>$ 1,22</p>
+        <p>13 Maret 2020</p>
       </td>
       <td style="text-align:left">$0.316757</td>
       <td style="text-align:left"><a href="https://www.coingecko.com/en/coins/dai">CoinGecko</a>
