@@ -1,24 +1,24 @@
-# Market Making
+# Creación de Mercado
 
-**Own your Stake in Decentralized Exchanges**
+**Sea dueño de su participación en exchanges descentralizados**
 
-Automated market makers \(AMMs\) have quickly risen as the preferred form of decentralized exchange on the Ethereum network. This is in part due to the difficulty of supporting order book DEXes on Ethereum 1.0 that can rival the instant and low-slippage experiences on centralized exchanges. Further, AMMs like Uniswap are relatively user-friendly and gas-efficient to use.
+Los Creadores de Mercado Automatizados \(AMMs\) se han convertido rápidamente en la forma preferida de intercambio descentralizado en la red de Ethereum. Esto se debe en parte a la dificultad de admitir libros de pedidos en los DEX en la red de Ethereum 1.0 que pueden rivalizar con las experiencias instantáneas y de bajo deslizamiento de los exchanges centralizados. Además, los AMM como Uniswap son relativamente fáciles de usar y de uso eficiente del gas.
 
-AMMs can only enable new markets when liquidity providers supply liquidity \(e.g. multiple tokens for given trading pairs or pools\). In return for providing liquidity, liquidity providers are rewarded with trading fees when other users swap tokens. For example, when traders swap USDT for USDC on Uniswap, they are currently charged 0.3% on top of gas fees. These fees are distributed pro-rata to liquidity providers on the USDT-USDC pair based on the percentage of total liquidity that they have provided.
+AMMs can only enable new markets when liquidity providers supply liquidity \(e.g. multiple tokens for given trading pairs or pools\). A cambio de proporcionar liquidez, los proveedores de liquidez son recompensados con comisiones de trading cuando otros usuarios intercambian tokens. Por ejemplo, cuando los comerciantes intercambian USDT por USDC en Uniswap, actualmente se les cobra un 0,3% además de las tarifas del gas. Estas tarifas se distribuyen proporcionalmente a los proveedores de liquidez en el par USDT-USDC en función del porcentaje de liquidez total que han proporcionado.
 
 {% hint style="info" %}
-[Impermanent loss](https://medium.com/@pintail/uniswap-a-good-deal-for-liquidity-providers-104c0b6816f2) is an important risk factor to understand, but this concern is largely mitigated by OUSD only providing liquidity for stablecoins of approximately equal value.
+[Pérdida impermanente](https://medium.com/@pintail/uniswap-a-good-deal-for-liquidity-providers-104c0b6816f2) es un factor de riesgo importante de comprender, pero esta preocupación se mitiga en gran medida porque OUSD solo proporciona liquidez para monedas estables de aproximadamente el mismo valor.
 {% endhint %}
 
-The OUSD protocol routes USDT, USDC, and DAI to highly-performing liquidity pools as determined by trading volume and rewards tokens \(e.g. Balancer rewards BAL tokens to liquidity providers\). Yields are then passed on to OUSD holders.
+El protocolo OUSD enruta USDT, USDC y DAI a grupos de liquidez de alto rendimiento según lo determinado por el volumen de negociación y recompensa con tokens \(por ejemplo, Balancer recompensa con tokens BAL a proveedores de liquidez\). Luego, los rendimientos se transfieren a los holders de OUSD.
 
-We intend to integrate directly with at least the following automated market makers:
+Tenemos la intención de integrarnos directamente con al menos los siguientes creadores de mercado automatizados:
 
-{% page-ref page="../supported-strategies/uniswap.md" %}
+{% page-ref page = "../ supported-Strategies / uniswap.md"%}
 
-{% page-ref page="../supported-strategies/curve.md" %}
+{% page-ref page = "../ supported-Strategies / curve.md"%}
 
-{% page-ref page="../supported-strategies/balancer.md" %}
+{% page-ref page = "../ supported-Strategies / balancer.md"%}
 
 
 
