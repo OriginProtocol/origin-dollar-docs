@@ -68,31 +68,31 @@ Si encuentra errores o inconsistencias en el código o los documentos de Origin,
 
 #### Temas de Seguridad
 
-OUSD is still in early development, which means there may be problems with the protocol or in our implementations. We take security vulnerabilities very seriously. If you discover a security issue, please bring it to our attention right away!
+OUSD aún se encuentra en desarrollo temprano, lo que significa que puede haber problemas con el protocolo o en nuestras implementaciones. Nos tomamos muy en serio las vulnerabilidades de seguridad. Si descubre un problema de seguridad, háganoslo saber de inmediato!
 
-If you find a security vulnerability please send your report privately to [security@originprotocol.com](mailto:security@originprotocol.com) or send an encrypted message to [@joshfraser on Keybase](https://keybase.io/joshfraser). Please DO NOT file a public issue. Be sure to review our guidelines for responsible disclosure and eligibility for bug bounties.
+Si encuentra una vulnerabilidad de seguridad, envíe su informe de forma privada a [security@originprotocol.com](mailto:security@originprotocol.com) o envíe un mensaje encriptado a [@joshfraser en Keybase](https://keybase.io/joshfraser). Por favor, NO presente el problema de manera pública. Asegúrese de revisar nuestras pautas para la divulgación responsable y la elegibilidad para recompensas por errores.
 
 {% page-ref page="bug-bounties.md" %}
 
 
 
-#### **Community Improvement**
+#### **Mejora de la Comunidad**
 
-Origin is just as much about community as it is about our technology.
+Origin se trata tanto de la comunidad como de nuestra tecnología.
 
-We need constant help in improving our documentation, building new tools to interface with our platform, spreading the word to new users, helping new users getting setup and much more.
+Necesitamos ayuda constante para mejorar nuestra documentación, crear nuevas herramientas para interactuar con nuestra plataforma, hacer correr la voz a nuevos usuarios, ayudar a los nuevos usuarios a configurar y mucho más.
 
-Please get in touch if you would like to help out. Our `general` channel on [Discord](https://www.originprotocol.com/discord) is a great place to share ideas and volunteer to help.
+Póngase en contacto si desea ayudar. Nuestro canal `general` en [Discord](https://www.originprotocol.com/discord) es un gran lugar para compartir ideas y ofrecerte como voluntario para ayudar.
 
 
 
-#### Full-Time Positions
+#### Posiciones de Tiempo Completo
 
-Origin occasionally hires developers for part-time or full-time positions.
+Origin ocasionalmente contrata desarrolladores para puestos a tiempo parcial o completo.
 
-We have a strong preference for hiring people who have already started contributing to the project. If you want a full time position on our team, your best shot is to engage with our team and start contributing code. It is very unlikely that we would offer you a full-time position on our engineering team unless you’ve had at least a few pull requests merged.
+Tenemos una fuerte preferencia por contratar personas que ya han comenzado a contribuir al proyecto. Si desea un puesto de tiempo completo en nuestro equipo, su mejor oportunidad es interactuar con nuestro equipo y comenzar a contribuir con código. It is very unlikely that we would offer you a full-time position on our engineering team unless you’ve had at least a few pull requests merged.
 
-If you are interested, check out [the Origin Protocol job listings](https://angel.co/originprotocol/jobs). If you’d like to help in other ways, please propose your ideas in [our Discord channel](https://www.originprotocol.com/discord).
+Si está interesado, consulte [las listas de trabajo de Origin Protocol](https://angel.co/originprotocol/jobs). Si desea ayuda de otras maneras, por favor proponer sus ideas en [nuestro canal Discord](https://www.originprotocol.com/discord).
 
 
 
