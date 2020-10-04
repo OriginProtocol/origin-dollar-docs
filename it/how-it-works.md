@@ -1,10 +1,10 @@
 # Come Funziona
 
-#### 100% Backed and Stable
+#### 100% garantito e stabile
 
-Origin Dollar \(OUSD\) is an ERC-20 compliant token for the Ethereum network.
+Origin Dollar \(OUSD\) è un token conforme ERC-20 per la rete Ethereum.
 
-OUSD is a stable currency that is backed 1:1 by other stablecoins like USDT, USDC and DAI. As a result, 1 OUSD should always be very close to 1 USD in value.
+OUSD è una stable coin che è garantita in proporzione 1:1 con altre stable coin come USDT, USDC e DAI. Di conseguenza, il valore di 1 OUSD dovrebbe esser sempre molto vicino a quello di 1 USD.
 
 {% hint style="success" %}
 1 OUSD = 1 USD
