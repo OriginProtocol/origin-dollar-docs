@@ -30,30 +30,30 @@ Conia OUSD in cambio di un deposito di più stablecoin in una singola chiamata. 
 | \_amounts        | uint256\[\] | importi depositati, espressi in unità decimali                                                                                                       |
 
 {% hint style="warning" %}
-On redemptions, it is the protocol and not the user that decides which stablecoin\(s\) are returned to the user. This decision of which coin\(s\) to return is based on the internal ratios of the assets that are being held in the vault.‌
+Riguardo le redemption, non è l'utente che decide quale o quali stablecoin vengono restituite all'utente, ma è il protocollo stesso. Questa decisione su quale o quali coin vengono restituite, è basata sui rapporti interni dei beni che sono custoditi all'interno del vault
 {% endhint %}
 
 ### redeem\(\) <a id="redeem"></a>
 
-**`function redeem(uint256 _amount)`**‌
+**`function redeem(uint256 _amount)`**
 
-OUSD specified by the `_amount` parameter is redeemed in exchange for one or multiple supported stablecoins. Amount of stablecoins received depends on the **exchange rate**.
+Gli OUSD specificati dal parametro` _amount` viene riscattato in cambio di una o più stablecoin tra quelle supportate. La quantità di stablecoin ricevute dipende dal **tasso di cambio**.
 
-| Parameter Name | Type    | Description                               |
-|:-------------- |:------- |:----------------------------------------- |
-| \_amount     | uint256 | amount of OUSD expressed in decimal units |
+| Nome del Parametro | Tipo    | Descrizione                                 |
+|:------------------ |:------- |:------------------------------------------- |
+| \_amount         | uint256 | quantità di OUSD espressa in unità decimali |
 
 ### redeemAll\(\)‌ <a id="redeemall"></a>
 
 **`function redeemAll()`**‌
 
-All OUSD in user's possession is redeemed in exchange for one or multiple supported stablecoins. Amount of stablecoins received depends on the **exchange rate**.
+Tutti gli OUSD in possesso dell'utente, vengono riscattati in cambio di una o più stablecoin supportate. La quantità di stablecoin ricevute dipende dal **tasso di cambio**.
 
 ### rebase\(\) <a id="rebase"></a>
 
 **`function rebase()`**‌
 
-Updates the balances for all users based on the value of the assets currently stored in the vault. Returns total value of the underlying assets and strategies represented by `uint256` type.‌
+Aggiorna i saldi di tutti gli utenti, sulla base del valore degli asset attualmente custoditi nel vault. Returns total value of the underlying assets and strategies represented by `uint256` type.‌
 
 ### allocate\(\) <a id="allocate"></a>
 
