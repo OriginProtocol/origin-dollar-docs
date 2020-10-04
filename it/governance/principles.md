@@ -2,25 +2,25 @@
 
 **Decentralizzazione progressiva**
 
-OUSD è progettato per essere un protocollo decentralizzato, la cui governance è detenuta da molti stakeholder in tutto il mondo. We believe that the minters and holders of OUSD should collectively determine important protocol decisions as soon as possible.
+OUSD è progettato per essere un protocollo decentralizzato, la cui governance è detenuta da molti stakeholder in tutto il mondo. Crediamo che il coniatori e gli holders di OUSD dovrebbero determinare collettivamente, e il prima possibile, le decisioni importanti del protocollo.
 
-That being said, in the very early days, it is imperative that the core engineering team can act quickly and decisively to build the foundational parts of the protocol.
+Detto questo, nei primissimi giorni, è imperativo che il core engineering team, possa agire rapidamente e in modo decisivo, al fine di sviluppare le parti fondamentali del protocollo.
 
-Decentralization will progress across four phases rapidly over the next few months. It is our intent to relinquish control and governance to the community as soon as possible.
+La decentralizzazione progredirà rapidamente attraverso 4 fasi nei prossimi 4 mesi. E' nostra intenzione cedere il controllo e la governance alla community, il prima possibile.
 
 ![](../.gitbook/assets/ousd_docs_graphics_2%20%283%29.png)
 
 **Timelock**
 
-Prior to full decentralized governance, we will implement a [timelock](../smart-contracts/api/timelock.md) in front of all admin function calls, giving OUSD users time \(48 hours\) to withdraw their funds if they have objections to our proposed upgrades. This timelock will be added shortly after launch.
+Prima di una governance completamente decentralizzata, implementeremo un [timelock](../smart-contracts/api/timelock.md) davanti a tutte le chiamate alle funzioni di amministrazione, lasciando agli utenti OUSD \(48 ore\) di tempo per prelevare i loro fondi se dovessero avere obiezioni alle nostre proposte di miglioramento. Questo timelock verrà aggiunto poco tempo dopo il lancio.
 
-**New and Existing Stakeholders**
+**Stakeholder nuovi ed esistenti**
 
-OUSD is a new project founded by Origin Protocol [team](www.originprotocol.com/team) and will be supported by the existing Origin community as well as many new stakeholders that choose to mint, hold, use, and provide liquidity for OUSD.
+OUSD è un nuovo progetto fondato dal [team](www.originprotocol.com/team) di Origin Protocol e sarà supportato dalla community già esistente di Origin e anche da molti nuovi stakeholder che sceglieranno di coniare, holdare, utilizzare e fornire liquidità per OUSD.
 
-In addition, we also want to ensure high participation from our existing Origin Token \(OGN\) holders, community of close to 500,000 members, and buyers/sellers on the Platform. Existing OGN holders will be able to stake their OGN to participate in governance and earn incentives for driving value to OUSD. More details will be provided in the near future.
+In aggiunta, ci vogliamo anche assicurare un'alta partecipazione dai nostri holder del già esistente Origin Token \(OGN\), community di circa 500.000 membri, e acquirenti/venditori sulla piattaforma. I titolari già esistenti di OGN, saranno in grado di mettere in stake i loro OGN per partecipare alla governance e ottenere incentivi per indirizzare valore verso OUSD. Maggiori dettagli verranno forniti nel breve futuro.
 
-The strong connection between OUSD and the rest of the Origin commerce platform will fuel growth in both initiatives.
+La forte connessione tra OUSD e il resto della piattaforma di commercio Origin, alimenterà la crescita di entrambe le iniziative.
 
 
 
