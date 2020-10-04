@@ -1,13 +1,13 @@
-# Vault
+# Хранилище (Vault)
 
-The vault is at the core of the protocol. The vault is responsible for minting/redeeming OUSD tokens, rebalancing funds between the various supported strategies, and liquidating rewards tokens.
+Vault лежит в основе протокола. Vault отвечает за создание/выкуп токенов OUSD, перебалансировку средств между различными поддерживаемыми стратегиями и ликвидацию токенов вознаграждения.
 
-The most important publicly callable functions on the Vault are:
+Наиболее важными общедоступными функциями в Vault являются:
 
-* `mint()`allows a single supported stablecoin to be converted to OUSD
-* `mintMultiple()`allows multiple supported stablecoins to be converted to OUSD in a single call
-* `redeem()`allows a specified amount of OUSD to be redeemed for other supported stablecoins.
-* `redeemAll()`allows a user to redeem their entire balance of OUSD for other supported stablecoins. This is particularly useful since user balances are constantly growing as yield is accrued.
+* `mint ()`позволяет конвертировать один поддерживаемый стейблкоин в OUSD
+* `mintMultiple ()`позволяет конвертировать несколько поддерживаемых стейблкоинов в OUSD за один вызов функции
+* `redeem ()`позволяет выкупить определенное количество OUSD за другие поддерживаемые стейблкоины.
+* `redeemAll ()`позволяет пользователю обменять весь свой баланс в OUSD на другие поддерживаемые стейблкоины. This is particularly useful since user balances are constantly growing as yield is accrued.
 * `rebase()`updates the balances for all users based on the value of the assets currently stored in the pool.
 * `allocate()`moves the assets under management into their prescribed [Stategies](strategies.md) to maximize yield and diversify risk.
 
