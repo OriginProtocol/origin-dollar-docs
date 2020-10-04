@@ -18,13 +18,13 @@ OUSD is a stable currency that is backed 1:1 by other stablecoins like USDT, USD
 
 Пользователи могут конвертировать свои OUSD в другие стейблкоины в любое время, используя [Origin Dollar DApp](www.ousd.com). При выкупе взимается комиссия в размере 0,5%, которая распределяется как дополнительный доход между оставшимися участниками пула. Комиссия служит функцией безопасности, чтобы злоумышленникам было сложнее обмануть запаздывающих оракулов, не давая им поглощать стейблкоины из пула в случае неверной оценки базовых активов. Комиссия существует для того, чтобы заинтересовывать долгосрочных держателей, а не краткосрочных спекулянтов.
 
-Upon redemption, the smart contract will determine which stablecoin\(s\) to return to the user. In the current implementation, the pool will return coins in the same ratio as the current holdings. This lack of user optionality also protects the pool as a whole in the event that any of the supported stablecoins loses its peg to the dollar.
+Смарт-контракт после выкупа определит, какой(-ие) стейблкоин (-ы) вернуть пользователю. В текущей реализации пул будет возвращать монеты в том же соотношении, что и текущие вклады. Отсутствие функциональных возможностей у пользователей защищает пул в случае, если какой-либо из поддерживаемых стейблкоинов потеряет привязку к доллару.
 
 {% hint style="warning" %}
-There is a **0.5% exit fee** and the user doesn't get to pick which stablecoins they receive.
+Существует **комиссия за выход 0,5%**, и пользователь не выбрает, какие стейблкоины он получит.
 {% endhint %}
 
-#### A**utomated Yield Farming**
+#### **Автоматизированное получение дохода**
 
 OUSD generates yields by deploying the underlying stablecoins that were deposited to the OUSD smart contract to other DeFi protocols such as Compound, Aave, Uniswap, Balancer, and Curve. It is expected there will be new diversified strategies added to the pool every month. Collected interest, trading fees, and rewards tokens are pooled and converted to stablecoins to produce OUSD-denominated yields. Over time, the protocol will move assets in and out of different liquidity pools in order to provide the best yield to the holders of OUSD.
 
