@@ -30,7 +30,7 @@ Conia OUSD in cambio di un deposito di più stablecoin in una singola chiamata. 
 | \_amounts        | uint256\[\] | importi depositati, espressi in unità decimali                                                                                                       |
 
 {% hint style="warning" %}
-Riguardo le redemption, non è l'utente che decide quale o quali stablecoin vengono restituite all'utente, ma è il protocollo stesso. Questa decisione su quale o quali coin vengono restituite, è basata sui rapporti interni dei beni che sono custoditi all'interno del vault
+Riguardo le redemption, non è l'utente che decide quale o quali stablecoin vengono restituite all'utente, ma è il protocollo stesso. Questa decisione su quale o quali coin vengono restituite, è basata sui cambi interni degli asset che sono custoditi all'interno del vault
 {% endhint %}
 
 ### redeem\(\) <a id="redeem"></a>
