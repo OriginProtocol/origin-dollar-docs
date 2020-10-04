@@ -1,13 +1,13 @@
 # Как это работает
 
-#### 100% Backed and Stable
+#### На 100% поддерживаемый и стабильный
 
-Origin Dollar \(OUSD\) is an ERC-20 compliant token for the Ethereum network.
+Origin Dollar \(OUSD\) - это токен, соответствующий стандарту ERC-20 для сети Ethereum.
 
-OUSD is a stable currency that is backed 1:1 by other stablecoins like USDT, USDC and DAI. As a result, 1 OUSD should always be very close to 1 USD in value.
+OUSD - это стабильная валюта, которая в соотношении 1:1 поддерживается другими стейблкоинами, такими как USDT, USDC и DAI. В результате 1 OUSD всегда должен быть очень близок к стоимости 1 USD.
 
 {% hint style="success" %}
-1 OUSD = 1 USD
+1 OUSD = 1 доллар США
 {% endhint %}
 
 #### "Чеканка" OUSD
@@ -26,11 +26,11 @@ OUSD is a stable currency that is backed 1:1 by other stablecoins like USDT, USD
 
 #### **Автоматизированное получение дохода**
 
-OUSD generates yields by deploying the underlying stablecoins that were deposited to the OUSD smart contract to other DeFi protocols such as Compound, Aave, Uniswap, Balancer, and Curve. It is expected there will be new diversified strategies added to the pool every month. Collected interest, trading fees, and rewards tokens are pooled and converted to stablecoins to produce OUSD-denominated yields. Over time, the protocol will move assets in and out of different liquidity pools in order to provide the best yield to the holders of OUSD.
+OUSD генерирует доходность за счет задействования основных стейблкоинов, которые были внесены в качестве депозита в смарт-контракт OUSD в другие протоколы DeFi, такие как Compound, Aave, Uniswap, Balancer и Curve. Ожидается, что каждый месяц в пул будут добавляться новые диверсификационные стратегии. Собранные проценты, торговые комиссии и токены вознаграждений объединяются и конвертируются в стейблкоины для получения доходности, номинированной в OUSD. Со временем протокол будет перемещать активы в различные пулы ликвидности и из них, чтобы обеспечить максимальную доходность для держателей OUSD.
 
-#### **Elastic Supply**
+#### **Гибкое предложение**
 
-The generated returns are passed on to the holders of OUSD via constant rebasing of the money supply. OUSD constantly adjusts the money supply in response to the yield the protocol has generated. This allows the price of OUSD to stay pegged at $1 while the balances in token holders' wallets adjust in real-time to reflect yields that have been earned by the protocol.
+Сгенерированная прибыль передается держателям OUSD через постоянное перемещение денежной массы. OUSD постоянно корректирует денежную массу в соответствии с доходностью, генерируемой протоколом. Это позволяет цене OUSD оставаться на уровне 1 доллара США, в то время как остатки в кошельках держателей токенов корректируются в режиме реального времени, чтобы отражать доходность, полученную по протоколу.
 
 The end result is a stablecoin that is easy to spend, earns outsized yields automatically, and is more desirable to hold than existing stablecoins.
 
