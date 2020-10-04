@@ -41,13 +41,13 @@
   * [Хранилище](smart-contracts/api/vault.md)
   * [ERC-20](smart-contracts/api/erc-20-1.md)
   * [Timelock](smart-contracts/api/timelock.md)
-  * [Oracles](smart-contracts/api/oracle.md)
-  * [Strategies](smart-contracts/api/strategies.md)
+  * [Оракулы](smart-contracts/api/oracle.md)
+  * [Стратегии](smart-contracts/api/strategies.md)
 
-## Security & Risks
+## Угрозы & Безопасности
 
-* [Risks](security-and-risks/risks.md)
-* [Audits](security-and-risks/audits.md)
+* [Риски](security-and-risks/risks.md)
+* [Аудиты](security-and-risks/audits.md)
 * [Bug Bounties](security-and-risks/bug-bounties.md)
 * [Contributing](security-and-risks/contributing.md)
 
