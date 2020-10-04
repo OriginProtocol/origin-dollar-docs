@@ -1,26 +1,26 @@
-# Table of contents
+# Оглавление
 
-* [Introduction](README.md)
-* [How It Works](how-it-works.md)
-* [Getting Started](getting-started.md)
+* [Введение](README.md)
+* [Как это работает](how-it-works.md)
+* [Приступая к работе](getting-started.md)
 
-## Core Concepts
+## Основные концепции
 
-* [Elastic Supply](core-concepts/elastic-supply.md)
-* [Yield Generation](core-concepts/yield-generation/README.md)
-  * [Lending](core-concepts/yield-generation/lending.md)
-  * [Market Making](core-concepts/yield-generation/market-making.md)
-  * [Rewards](core-concepts/yield-generation/rewards.md)
-* [Supported Stablecoins](core-concepts/supported-stablecoins/README.md)
+* [Гибкое предложение](core-concepts/elastic-supply.md)
+* [Генерирование дохода](core-concepts/yield-generation/README.md)
+  * [Кредитование](core-concepts/yield-generation/lending.md)
+  * [Поддержание котировок на рынке](core-concepts/yield-generation/market-making.md)
+  * [Вознаграждение](core-concepts/yield-generation/rewards.md)
+* [Поддерживаемые стейблкоины](core-concepts/supported-stablecoins/README.md)
   * [USDT](core-concepts/supported-stablecoins/usdt.md)
   * [USDC](core-concepts/supported-stablecoins/usdc.md)
   * [DAI](core-concepts/supported-stablecoins/dai.md)
-* [Supported Strategies](core-concepts/supported-strategies/README.md)
-  * [Compound](core-concepts/supported-strategies/compound.md)
+* [Поддерживаемые стратегии](core-concepts/supported-strategies/README.md)
+  * [Накапливание](core-concepts/supported-strategies/compound.md)
   * [Aave](core-concepts/supported-strategies/aave.md)
   * [dYdX](core-concepts/supported-strategies/dydx.md)
   * [Uniswap](core-concepts/supported-strategies/uniswap.md)
-  * [Curve](core-concepts/supported-strategies/curve.md)
+  * [Кривая](core-concepts/supported-strategies/curve.md)
   * [Balancer](core-concepts/supported-strategies/balancer.md)
   * [Yearn.finance](core-concepts/supported-strategies/yearn.finance.md)
 * [Fund Management](core-concepts/fund-management/README.md)
