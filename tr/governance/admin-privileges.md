@@ -1,12 +1,14 @@
-# Admin Privileges
+# Yönetici Ayrıcalıkları
 
-The OUSD smart contracts are designed to be owner upgradable.
+OUSD akıllı sözleşmeleri, sahibi yükseltilebilir olacak şekilde tasarlanmıştır.
 
-At launch, the OUSD contracts are owned by a 5 of 8 Gnosis multi-sig contract which has been [audited by OpenZeppelin](https://blog.openzeppelin.com/gnosis-multisig-wallet-audit-d702ff0e2b1e/), [ConsenSys Dilligence](https://blog.gnosis.pm/the-gnosis-multisig-wallet-and-our-commitment-to-security-ce9aca0d17f6), Origin’s team, and others. The keys to this multi-sig are held by individuals with close ties to the company, and not even the Origin founders acting together have enough control to execute owner functions on their own.
+Lansmanda, OUSD sözleşmeleri, OpenZeppelin</a>, [ConsenSys Dilligence](https://blog.gnosis.pm/the-gnosis-multisig-wallet-and-our-commitment-to-security-ce9aca0d17f6), Origin'in ekibi ve diğerleri tarafından
 
-Soon after launch, ownership will be transferred to the timelock. This will still allow the Origin team to make changes to the protocol from their multi-sig, but with a time delay.
+denetlenmiş olan 8 Gnosis multi-sig sözleşmesinin 5'ine aittir. Bu çoklu işaretin anahtarları, şirketle yakın bağları olan kişiler tarafından tutulur ve birlikte hareket eden Origin kurucuları bile sahiplik işlevlerini kendi başlarına yürütmek için yeterli kontrole sahip değildir.</p> 
 
-Having admin privileges is necessary in the early days to ensure that the protocol is secure and optimized for earning yields while minimizing risks. We expect to release multiple iterations of our smart contracts in the first several months of the protocol's existence.
+Lansmandan kısa bir süre sonra sahiplik, zaman kilidine aktarılacaktır. Bu, Origin ekibinin protokolde bir zaman gecikmesi ile çoklu imzalarından değişiklik yapmasına yine de izin verecektir.
 
-Once several upgrade cycles have been completed, we intend to transfer ownership from our company control to a decentralized governance contract, thereby allowing the community to vote and participate in future protocol updates.
+Protokolün güvenli olduğundan ve riskleri en aza indirirken getiri elde etmek için optimize edildiğinden emin olmak için ilk günlerde yönetici ayrıcalıklarına sahip olmak gereklidir. Protokolün varlığının ilk birkaç ayında akıllı sözleşmelerimizin birden çok yinelemesini yayınlamayı umuyoruz.
+
+Birkaç yükseltme döngüsü tamamlandıktan sonra, mülkiyeti şirket kontrolümüzden merkezi olmayan bir yönetişim sözleşmesine aktarmayı, böylece topluluğun oy kullanmasına ve gelecekteki protokol güncellemelerine katılmasına izin vermeyi amaçlıyoruz.
 
