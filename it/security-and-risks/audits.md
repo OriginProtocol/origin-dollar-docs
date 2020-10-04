@@ -1,16 +1,16 @@
 # Revisioni
 
 {% hint style="danger" %}
-The OUSD smart contracts have not yet been audited. Consigliamo vivamente di rivedere i nostri smart contract prima di depositare importi significativi di capitale.
+Gli smart contract OUSD non sono stati ancora revisionati. Consigliamo vivamente di rivedere i nostri smart contract prima di depositare importi significativi di capitale.
 {% endhint %}
 
 **OUSD**
 
-Audits have already been scheduled with the respected security firm, [Trail of Bits](https://www.trailofbits.com/), for early October 2020. Their audit results will be publicly released as soon as they are available.
+Le revisioni sono già state programmate con la rispettata azienda di sicurezza [Trail of Bits](https://www.trailofbits.com/), prevista per l'inizio di Ottobre 2020. I risultati della loro revisione, verrà rilasciata pubblicamente il prima possibile non appena saranno disponibili.
 
-**Supported Strategies**
+**Strategie supportate**
 
-Multiple audits for Compound have already been completed and are available on their website. This includes the original code for the modified [Timelock](../smart-contracts/api/timelock.md) that OUSD is using.
+E' già stata effettuata più di una revisione per Compaund, e sono disponibili sul loro sito web. Questo include il codice originale per il [Timelock](../smart-contracts/api/timelock.md) modificato che OUSD sta utilizzando ora.
 
 {% page-ref page="audits.md" %}
 
