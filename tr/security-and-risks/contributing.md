@@ -1,84 +1,90 @@
-# Contributing
+# Katkı
 
-**100% Open-source**
+**% 100 Açık kaynak**
 
-OUSD is an entirely open-source project and we welcome contributions of all sorts. There are many ways to help, from reporting issues, contributing code, and helping us improve our community.
+OUSD tamamen açık kaynaklı bir projedir ve her türden katkıyı memnuniyetle karşılıyoruz. Sorunları bildirmekten, kodlara katkıda bulunmaktan ve topluluğumuzu geliştirmemize yardımcı olmaktan yardım etmenin birçok yolu vardır.
 
-We work in public and our company Discord is open to all. If you have questions or need help getting started, our Discord OUSD channels are the best place to get assistance from our team and community.
+Halka açık çalışıyoruz ve şirketimiz Discord herkese açık. Sorularınız varsa veya başlamak için yardıma ihtiyacınız varsa, Discord OUSD kanallarımız ekibimizden ve topluluğumuzdan yardım almak için en iyi yerdir.
 
-#### Development Process
+#### Gelişme süreci
 
-Our branching strategy is similar to [GitFlow](http://nvie.com/posts/a-successful-git-branching-model/), but we do all of our development in the `master` branch and have a `stable` branch for code that has been released.
+Branşlaşma stratejimiz [GitFlow](http://nvie.com/posts/a-successful-git-branching-model/)benzer, ancak tüm geliştirmemizi `ana` dalında yapıyoruz ve yayınlanan kod için `kararlı` dalımız var.
 
-Your development flow should look like:
+Geliştirme akışınız şöyle görünmelidir:
 
-1. Find an interesting issue and communicate! Please let the `#engineering` [Discord](https://discord.gg/jyxpUSe) channel know what you want to work on.
-2. Ping a [core team member](https://github.com/orgs/OriginProtocol/teams/core/members) member on Discord and ask to be added to our [contributors team](https://github.com/orgs/OriginProtocol/teams/contributors). Otherwise, you’ll need to fork the relevant repository and push feature branches to your own fork.
-3. Add a comment to the issue or self-assign so we don’t have multiple contributors unintentionally working on the same task.
-4. Start with the `master` branch and check out a new feature branch unless you’re contributing to an existing feature.
-5. Follow the appropriate [coding style](https://docs.originprotocol.com/guides/getting_started/contributing.html#contributing-email-coding-style) and write some awesome code.
-6. Pull the latest commits from `master` and confirm that your code works with any other work that has been merged since you started.
-7. Push your branch to the upstream repository \(i.e. https://github.com/OriginProtocol/\[repo\]\) so that other contributors can easily work off of it if necessary.
-8. Please request a review in the PR by clicking on the gear icon next to “Reviewers” in the right column.
+1. İlginç bir konu bulun ve iletişim kurun! Lütfen `#engineering` [Discord](https://discord.gg/jyxpUSe) kanalına ne üzerinde çalışmak istediğinizi bildirin.
+2. Discord'da [çekirdek ekip üyesine](https://github.com/orgs/OriginProtocol/teams/core/members) üye ping atın ve [katılımcı ekibimize eklenmesini isteyin](https://github.com/orgs/OriginProtocol/teams/contributors). Aksi takdirde, ilgili depoyu çatallamanız ve özellik dallarını kendi çatalınıza itmeniz gerekir.
+3. Soruna bir yorum ekleyin veya kendi kendinize atayın, böylece istemeden aynı görev üzerinde çalışan birden fazla katılımcımız olmasın.
+4. `ana` dalıyla başlayın ve mevcut bir özelliğe katkıda bulunmadığınız sürece yeni bir özellik dalını kontrol edin.
+5. Uygun [kodlama stilini](https://docs.originprotocol.com/guides/getting_started/contributing.html#contributing-email-coding-style) izleyin ve harika bir kod yazın.
+6. `ana` en son kaydetmeleri alın ve kodunuzun başladığınızdan beri birleştirilen diğer tüm çalışmalarda çalıştığını onaylayın.
+7. Branşınızı yukarı akış havuzuna \ (ör. Https: //github.com/OriginProtocol/ \ [repo \] \) gönderin, böylece diğer katkıda bulunanlar gerekirse kolayca çalışabilir.
+8. Lütfen sağ sütundaki "İnceleyenler" in yanındaki dişli çark simgesini tıklayarak PR'da bir inceleme talep edin.
 
-The `master` branch is locked so that only members of the [core team](https://github.com/orgs/OriginProtocol/teams/core) are able to merge your pull requests. Pull requests that are peer-reviewed by other trusted contributors will be fast-tracked and merged faster! Check in the `#engineering` Discord channel for appropriate reviewers.
+`ana` dalı kilitlenir, böylece yalnızca [çekirdek ekibin](https://github.com/orgs/OriginProtocol/teams/core) üyeleri çekme isteklerinizi birleştirebilir. Diğer güvenilir katılımcılar tarafından meslektaş incelemesi yapılan çekme talepleri hızlı bir şekilde takip edilecek ve daha hızlı birleştirilecektir! Uygun gözden geçirenler için `#engineering` Discord kanalını kontrol edin.
 
-#### Coding Style
+#### Kodlama Stili
 
-We use a variety of programming languages in our repositories. When contributing, please follow existing coding conventions and refer to the CONTRIBUTING.md file in the repository, if one exists.
+Depolarımızda çeşitli programlama dilleri kullanıyoruz. Katkıda bulunurken, lütfen mevcut kodlama kurallarını takip edin ve varsa depodaki CONTRIBUTING.md dosyasına bakın.
 
-For JavaScript, we use [NPM’s style](https://docs.npmjs.com/misc/coding-style), which is automatically enforced via [prettier](https://prettier.io/).
+JavaScript için, [güzel](https://prettier.io/)aracılığıyla otomatik olarak uygulanan [NPM stil](https://docs.npmjs.com/misc/coding-style)kullanıyoruz.
 
-For Solidity, we use two-space indents.
+Solidity için iki boşluklu girintiler kullanıyoruz.
 
-#### Protocol Design
+#### Protokol Tasarımı
 
-When considering protocol or implementation design proposals, we are looking for:
+Protokol veya uygulama tasarım önerilerini değerlendirirken şunları arıyoruz:
 
-* A description of the problem this design proposal solves
-* Discussion of the trade-offs involved
-* Review of other existing solutions
-* Links to relevant literature \(RFCs, papers, etc\)
-* Discussion of the proposed solution
+* Bu tasarım önerisinin çözdüğü sorunun bir açıklaması
+* İlgili değiş tokuşların tartışılması
+* Diğer mevcut çözümlerin gözden geçirilmesi
+* İlgili literatüre bağlantılar \ (RFC'ler, makaleler, vb. \)
+* Önerilen çözümün tartışılması
 
-Please note that protocol design is hard and meticulous work. You may need to review existing literature and think through generalized use cases.
+Lütfen protokol tasarımının zor ve titiz bir çalışma olduğunu unutmayın. Mevcut literatürü gözden geçirmeniz ve genelleştirilmiş kullanım örnekleri üzerinde düşünmeniz gerekebilir.
 
-#### Community Guidelines
+#### Topluluk Rehberleri
 
-We want to keep the Origin community awesome, growing and collaborative. We need your help to keep it that way. To help with this we’ve come up with some general guidelines for the community as a whole:
+Origin topluluğunu harika, büyüyen ve işbirliğine dayalı tutmak istiyoruz. Böyle kalması için yardımınıza ihtiyacımız var. Buna yardımcı olmak için, bir bütün olarak topluluk için bazı genel yönergeler geliştirdik:
 
-* Be nice: Be courteous, respectful and polite to fellow community members: no regional, racial, gender, or other abuse will be tolerated. We like nice people way better than mean ones!
-* Encourage diversity and participation: Make everyone in our community feel welcome, regardless of their background and the extent of their contributions, and do everything possible to encourage participation in our community.
-* Keep it legal: Basically, don’t get anybody in trouble. Share only content that you own, do not share private or sensitive information, and don’t break laws.
-* Stay on topic: Make sure that you are posting to the correct channel and avoid off-topic discussions. Remember when you update an issue or respond to an email you are potentially sending to a large number of people. Please consider this before you update. Also remember that nobody likes spam.
+* Nazik olun: Topluluk üyelerine karşı nazik, saygılı ve kibar olun: hiçbir bölgesel, ırksal, cinsiyet veya diğer taciz hoş görülmeyecektir. İyi insanları kötü olanlardan daha çok severiz
+* Çeşitliliği ve katılımı teşvik edin: Geçmişleri ve katkılarının kapsamı ne olursa olsun, topluluğumuzdaki herkesin hoş karşılandığını hissetmesini sağlayın ve topluluğumuza katılımı teşvik etmek için mümkün olan her şeyi yapın.
+* Yasal tutun: Temel olarak, kimsenin başını belaya sokmayın. Yalnızca sahibi olduğunuz içeriği paylaşın, özel veya hassas bilgileri paylaşmayın ve yasaları çiğnemeyin.
+* Konudan ayrılmayın: Doğru kanala gönderi paylaştığınızdan emin olun ve konu dışı tartışmalardan kaçının. Bir sorunu güncellediğinizde veya potansiyel olarak çok sayıda insana gönderdiğiniz bir e-postaya yanıt verdiğinizde unutmayın. Lütfen güncellemeden önce bunu göz önünde bulundurun. Ayrıca kimsenin spam'i sevmediğini de unutmayın.
 
-#### Reporting Issues
+#### Sorunları Bildirme
 
-If you find bugs, mistakes or inconsistencies in Origin’s code or documents, please let us know by filing a GitHub issue. No issue is too small. Help us fix our tpyos!
+Origin'in kodunda veya belgelerinde hatalar, hatalar veya tutarsızlıklar bulursanız, lütfen bir GitHub sorunu doldurarak bize bildirin. Hiçbir sorun çok küçük değil. Tpyo'larımızı düzeltmemize yardım edin!
 
-#### Security Issues
+#### Güvenlik sorunları
 
-OUSD is still in early development, which means there may be problems with the protocol or in our implementations. We take security vulnerabilities very seriously. If you discover a security issue, please bring it to our attention right away!
+OUSD hala erken geliştirme aşamasındadır, bu da protokolde veya uygulamalarımızda sorunlar olabileceği anlamına gelir. Güvenlik açıklarını çok ciddiye alıyoruz. Bir güvenlik sorunu fark ederseniz, lütfen hemen dikkatimizi çekin!
 
-If you find a security vulnerability please send your report privately to [security@originprotocol.com](mailto:security@originprotocol.com) or send an encrypted message to [@joshfraser on Keybase](https://keybase.io/joshfraser). Please DO NOT file a public issue. Be sure to review our guidelines for responsible disclosure and eligibility for bug bounties.
+Bir güvenlik açığı bulursanız lütfen raporunuzu özel olarak [security@originprotocol.com](mailto:security@originprotocol.com) gönderin veya Keybase</a>
 
-{% page-ref page="bug-bounties.md" %}
+@joshfraser'a şifreli bir mesaj gönderin. Lütfen genel bir sorun bildirmeyin. Sorumlu açıklama ve hata ödülleri için uygunluk yönergelerimizi gözden geçirdiğinizden emin olun.</p> 
 
-#### **Community Improvement**
+{% page-ref page="bug-ödülleri.md" %}
 
-Origin is just as much about community as it is about our technology.
 
-We need constant help in improving our documentation, building new tools to interface with our platform, spreading the word to new users, helping new users getting setup and much more.
 
-Please get in touch if you would like to help out. Our `general` channel on [Discord](https://www.originprotocol.com/discord) is a great place to share ideas and volunteer to help.
+#### **Topluluk İyileştirme**
 
-#### Full-Time Positions
+Origin, teknolojimizle olduğu kadar toplulukla da ilgilidir.
 
-Origin occasionally hires developers for part-time or full-time positions.
+Dokümantasyonumuzu iyileştirmek, platformumuzla arayüz oluşturmak için yeni araçlar oluşturmak, sözcüğü yeni kullanıcılara yaymak, yeni kullanıcıların kurulumuna yardımcı olmak ve çok daha fazlası için sürekli yardıma ihtiyacımız var.
 
-We have a strong preference for hiring people who have already started contributing to the project. If you want a full time position on our team, your best shot is to engage with our team and start contributing code. It is very unlikely that we would offer you a full-time position on our engineering team unless you’ve had at least a few pull requests merged.
+Yardım etmek isterseniz lütfen iletişime geçin. [Discord](https://www.originprotocol.com/discord) `genel` kanalımız, fikirleri paylaşmak ve yardım etmek için gönüllü olmak için harika bir yerdir.
 
-If you are interested, check out [the Origin Protocol job listings](https://angel.co/originprotocol/jobs). If you’d like to help in other ways, please propose your ideas in [our Discord channel](https://www.originprotocol.com/discord).
+
+
+#### Tam Zamanlı Pozisyonlar
+
+Origin, ara sıra yarı zamanlı veya tam zamanlı pozisyonlar için geliştiricileri işe alır.
+
+Projeye zaten katkıda bulunmaya başlamış kişileri işe alma konusunda güçlü bir tercihimiz var. Ekibimizde tam zamanlı bir pozisyon istiyorsanız, en iyi şansınız ekibimizle iletişim kurmak ve kod katkıda bulunmaya başlamaktır. En azından birleştirilen birkaç çekme talebiniz olmadıkça size mühendislik ekibimizde tam zamanlı bir pozisyon teklif etmemiz pek olası değildir.
+
+İlgileniyorsanız, [Origin Protokolü iş listelerine bakın](https://angel.co/originprotocol/jobs). Eğer başka yollarla yardım etmek isterseniz, sizin fikirlerini veren lütfen [bizim ikilik var kanalına](https://www.originprotocol.com/discord).
 
 
 
