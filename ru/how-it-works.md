@@ -1,4 +1,4 @@
-# How It Works
+# Как это работает
 
 #### 100% Backed and Stable
 
