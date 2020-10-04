@@ -1,4 +1,4 @@
-# How It Works
+# Come Funziona
 
 #### 100% Backed and Stable
 
