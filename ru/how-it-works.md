@@ -16,7 +16,7 @@ OUSD is a stable currency that is backed 1:1 by other stablecoins like USDT, USD
 
 **Вомещение OUSD**
 
-Пользователи могут конвертировать свои OUSD в другие стейблкоины в любое время, используя [Origin Dollar DApp](www.ousd.com). При выкупе взимается комиссия в размере 0,5%, которая распределяется как дополнительный доход между оставшимися участниками пула. The fee serves as a security feature to make it difficult for attackers to take advantage of lagging oracles, preventing them from syphoning stablecoins from the pool in the event of mispricings of of the underlying assets. The fee exists to incentivize long-term holders over short-term speculators.
+Пользователи могут конвертировать свои OUSD в другие стейблкоины в любое время, используя [Origin Dollar DApp](www.ousd.com). При выкупе взимается комиссия в размере 0,5%, которая распределяется как дополнительный доход между оставшимися участниками пула. Комиссия служит функцией безопасности, чтобы злоумышленникам было сложнее обмануть запаздывающих оракулов, не давая им поглощать стейблкоины из пула в случае неверной оценки базовых активов. Комиссия существует для того, чтобы заинтересовывать долгосрочных держателей, а не краткосрочных спекулянтов.
 
 Upon redemption, the smart contract will determine which stablecoin\(s\) to return to the user. In the current implementation, the pool will return coins in the same ratio as the current holdings. This lack of user optionality also protects the pool as a whole in the event that any of the supported stablecoins loses its peg to the dollar.
 
