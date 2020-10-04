@@ -22,7 +22,7 @@ Genera OUSD in cambio di un deposito di un certo ` _amount` di stable coin speci
 
 **`function mintMultiple(address[] _assets, uint256[] _amounts)`**
 
-Mints OUSD in exchange for a deposit of multiple stablecoins in a single call. Le stablecoin sono specificate dal parametro array `_assets` e gli importi dal parametro array `_amounts`. Il chiamante riceve un certo numero di OUSD dipendentemente dal **tasso di cambio**.
+Conia OUSD in cambio di un deposito di più stablecoin in una singola chiamata. Le stablecoin sono specificate dal parametro array `_assets` e gli importi dal parametro array `_amounts`. Il chiamante riceve un certo numero di OUSD dipendentemente dal **tasso di cambio**.
 
 | Nome del parametro | Tipo          | Descrizione                                                                                                                                          |
 |:------------------ |:------------- |:---------------------------------------------------------------------------------------------------------------------------------------------------- |
