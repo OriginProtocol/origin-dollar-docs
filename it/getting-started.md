@@ -1,25 +1,25 @@
-# Getting Started
+# Per partire
 
-These docs are intended to explain how OUSD works, communicate the potential risks and benefits, and provide a guide for developers who wish to contribute to our codebase or integrate OUSD into their products. Here are a few ways for you to dive in and get started.
+Questa documentazione ha lo scopo di spiegare il funzionamento di OUSD, di comunicare i potenziali rischi e benefici, di fornire una guida per sviluppatori che volessero contribuire allo sviluppo del nostro codebase o ad integrare OUSD nei loro prodotti. Ecco qui alcuni modi per cominciare.
 
-**Mint or Redeem**
+**Mint o Redeem**
 
-The OUSD Mint allows anyone to create or trade in OUSD tokens using our [DApp](www.ousd.com) and a web-3 enabled cryptocurrency wallet like [Metamask](https://www.metamask.io). This is the native way to get OUSD, especially if you want a large amount that could risk moving the market on other exchanges.
+Il Minting di OUSD consente a chiunque di creare o scambiare token OUSD utilizzando la nostra [DApp](www.ousd.com) e un wallet critpo abilitato per il web-3 come ad esempio [Metamask](https://www.metamask.io). Questo è il modo nativo per ottenere OUSD, specialmente se si desidera un grande quantità che potrebbe comportare una notevole variazione di mercato in altri exchange.
 
-**Buy on Exchanges**
+**Acquista negli Exchange**
 
-For small amounts, the easiest way to start earning with OUSD is to buy it on a decentralized exchange like Uniswap. The current pairs are currently available:
+Per piccoli importi, il modo più semplice per cominciare a guadagnare con OUSD è comprarli in un exchange decentralizzato come Uniswap. Attualmente sono disponibili i seguenti pairs:
 
-* [Buy OUSD on Uniswap](https://app.uniswap.org/#/swap?outputCurrency=0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86)
-* [Buy OUSD on Mooniswap](https://mooniswap.exchange/#/swap?outputToken=0x2a8e1e676ec238d8a992307b495b45b3feaa5e86)
+* [Acquista OUSD su Uniswap](https://app.uniswap.org/#/swap?outputCurrency=0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86)
+* [Acquista OUSD su Mooniswap](https://mooniswap.exchange/#/swap?outputToken=0x2a8e1e676ec238d8a992307b495b45b3feaa5e86)
 
-In addition, we anticipate that OUSD will soon be widely available on additional decentralized and centralized exchanges.
+In aggiunta, prevediamo che OUSD sarà presto disponibile in larga scala su altri exchange, sia decentralizzati sia centralizzati.
 
-**Adding OUSD to Your Wallet**
+**Aggiungi OUSD al tuo Wallet**
 
 {% hint style="success" %}
-The main ERC20 address for Origin Dollar \(OUSD\) is:   
-**0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86**
+L'indirizzo ERC20 principale di Origin Dollar \(OUSD\) è:   
+** 0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86**
 {% endhint %}
 
 If your OUSD does not automatically show up in your wallet, you should be able to add it manually using the address above. We want to have OUSD supported by as many wallets as possible and included on all the various lists of well-known tokens. We would greatly appreciate any help you can offer in this area.
