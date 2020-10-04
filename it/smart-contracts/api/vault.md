@@ -53,33 +53,33 @@ Tutti gli OUSD in possesso dell'utente, vengono riscattati in cambio di una o pi
 
 **`function rebase()`**‌
 
-Aggiorna i saldi di tutti gli utenti, sulla base del valore degli asset attualmente custoditi nel vault. Returns total value of the underlying assets and strategies represented by `uint256` type.‌
+Aggiorna i saldi di tutti gli utenti, sulla base del valore degli asset attualmente custoditi nel vault. Restituisce il valore totale delle attività e delle strategie sottostanti rappresentate dal tipo ` uint256`
 
 ### allocate\(\) <a id="allocate"></a>
 
 **`function allocate()`**‌
 
-Moves the assets under management into their prescribed [Stategies](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/architecture/strategies) to maximize yield and diversify risk.‌
+Sposta gli asset sotto la gestione delle rispettive [Strategie](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/architecture/strategies), per massimizzare i rendimenti e diversificare il rischio
 
 ### totalValue\(\) <a id="totalvalue"></a>
 
 **`function totalValue()`**‌
 
-Returns total value of underlying assets and strategies.
+Restituisce il valore totale degli asset e delle strategie sottostanti.
 
-| `return` name | Type    | Description                                      |
-|:------------- |:------- |:------------------------------------------------ |
-| value         | uint256 | total value of underlying assets and strategies. |
+| `return` name | Tipo    | Descrizione                                              |
+|:------------- |:------- |:-------------------------------------------------------- |
+| value         | uint256 | valore totale degli asset e delle strategie sottostanti. |
 
 ### checkBalance\(\) <a id="checkbalance"></a>
 
 **`function checkBalance(address _asset)`**‌
 
-Returns the balance of an asset specified by the`_asset` parameter held in Vault and all strategies represented by `uint256` type.
+Restituisce il saldo di un asset detenuto nel Vault, specificato dal parametro ` _asset` e tutte le strategie rappresentate dal tipo ` uint256`.
 
-| Parameter Name | Type    | Description                                                                                                                                        |
-|:-------------- |:------- |:-------------------------------------------------------------------------------------------------------------------------------------------------- |
-| \_asset      | address | Address of the [supported](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/core-concepts/supported-assets) stablecoin |
+| Nome del parametro | Tipo    | Descrizione                                                                                                                                          |
+|:------------------ |:------- |:---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| \_asset          | address | Indirizzo della stablecoin [supportata](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/core-concepts/supported-assets) |
 
 ### calculateRedeemOutputs\(\) <a id="calculateredeemoutputs"></a>
 
