@@ -20,7 +20,7 @@
   * [Aave](core-concepts/supported-strategies/aave.md)
   * [dYdX](core-concepts/supported-strategies/dydx.md)
   * [Uniswap](core-concepts/supported-strategies/uniswap.md)
-  * [Кривая](core-concepts/supported-strategies/curve.md)
+  * [Curve](core-concepts/supported-strategies/curve.md)
   * [Balancer](core-concepts/supported-strategies/balancer.md)
   * [Yearn.finance](core-concepts/supported-strategies/yearn.finance.md)
 * [Управление средствами](core-concepts/fund-management/README.md)
@@ -40,20 +40,20 @@
 * [API](smart-contracts/api/README.md)
   * [Хранилище](smart-contracts/api/vault.md)
   * [ERC-20](smart-contracts/api/erc-20-1.md)
-  * [Timelock](smart-contracts/api/timelock.md)
+  * [Временная блокировка](smart-contracts/api/timelock.md)
   * [Оракулы](smart-contracts/api/oracle.md)
   * [Стратегии](smart-contracts/api/strategies.md)
 
-## Угрозы & Безопасности
+## Угрозы & Безопасность
 
 * [Риски](security-and-risks/risks.md)
 * [Аудиты](security-and-risks/audits.md)
-* [Bug Bounties](security-and-risks/bug-bounties.md)
-* [Contributing](security-and-risks/contributing.md)
+* [Призы за поиск ошибок](security-and-risks/bug-bounties.md)
+* [Сотрудничество](security-and-risks/contributing.md)
 
-## Links
+## Ссылки
 
-* [Github](https://www.github.com/originprotocol/origin-dollar)
+* [GitHub](https://www.github.com/originprotocol/origin-dollar)
 * [Discord](https://www.originprotocol.com/discord)
 * [originprotocol.com](https://www.originprotocol.com)
 
