@@ -2,32 +2,34 @@
 
 **Bug Ödülleri**
 
-Bug bounties are granted at the full discretion of Origin Protocol. The rewards range in size from **$100** for minor issues to **$250,000** for major vulnerabilities. Currently, the bounty program only applies to OUSD and not other products from Origin.
+Hata ödülleri, Origin Protocol'ün tam takdirine bağlı olarak verilir. Ödüllerin boyutu küçük sorunlar için **100 $** ile büyük güvenlik açıkları için **250.000 $** değişmektedir. Şu anda, ödül programı yalnızca OUSD için geçerlidir, Origin'deki diğer ürünler için geçerli değildir.
 
-{% hint style="warning" %}
-In order to be eligible for a bug bounty, you must follow the rules of Responsible Disclosure outlined below.
+{% hint style="uyarı" %}
+Bir hata ödülüne hak kazanmak için aşağıda ana hatları verilen Sorumlu Açıklama kurallarına uymanız gerekir.
 {% endhint %}
 
-**Responsible Disclosure**
+**Sorumlu Açıklama**
 
-Security is our top priority and we've taken every effort to make sure our code is secure and works as intended. However, it's completely possible that vulnerabilities both large and small may have gone undetected.
+Güvenlik en büyük önceliğimizdir ve kodumuzun güvenli olduğundan ve amaçlandığı gibi çalıştığından emin olmak için her türlü çabayı gösterdik. Bununla birlikte, hem büyük hem de küçük güvenlik açıklarının tespit edilmemiş olması tamamen mümkündür.
 
-In case you discover a vulnerability, we would like to know about it immediately so we can take steps to address it as quickly as possible.
+Bir güvenlik açığı keşfetmeniz durumunda, bunu olabildiğince hızlı bir şekilde ele almak için adımlar atabilmemiz için hemen bunu bilmek isteriz.
 
-If you discover a vulnerability, please do the following:
+Bir güvenlik açığı keşfederseniz, lütfen aşağıdakileri yapın:
 
-* Report your findings to [security@originprotocol.com](mailto:security@originprotcol.com) or contact [Josh Fraser on Keybase](https://keybase.io/joshfraser)
-* Do not take advantage of the vulnerability or problem you have discovered
-* Do not reveal the problem to others until it has been resolved
-* Do not use attacks on physical security, social engineering, distributed denial of service, spam or applications of third parties
-* Do provide sufficient information to reproduce the problem, so we will be able to resolve it as quickly as possible. Complex vulnerabilities may require further explanation so we might ask you for additional information.
+* Bulgularınızı[security@originprotocol.com](mailto:security@originprotcol.com) adresine bildirin veya Keybase</a>
+Josh Fraser ile iletişime geçin</li> 
+  
+  * Keşfettiğiniz güvenlik açığından veya sorundan yararlanmayın
+* Çözülene kadar sorunu başkalarına açıklamayın
+* Fiziksel güvenlik, sosyal mühendislik, dağıtılmış hizmet reddi, spam veya üçüncü taraf uygulamalarına yönelik saldırıları kullanmayın.
+* Sorunu yeniden oluşturmak için yeterli bilgi sağlayın, böylece sorunu olabildiğince çabuk çözebiliriz. Karmaşık güvenlik açıkları daha fazla açıklama gerektirebilir, bu nedenle sizden ek bilgi isteyebiliriz.</ul> 
 
-In return, we promise:
+Karşılığında söz veriyoruz:
 
-* We will respond to your report within 3 business days with our evaluation of the report and an expected resolution date
-* If you have followed the instructions above, we will not take any legal action against you in regard to the report
-* We will handle your report with strict confidentiality, and not pass on your personal details to third parties without your permission
-* If you so wish we will keep you informed of the progress towards resolving the problem
-* In the public information concerning the problem reported, we will give your name as the discoverer of the problem \(unless you desire otherwise\)
-* As a token of our gratitude for your assistance, we offer a reward for every report of a security problem that was not yet known to us. The amount of the reward will be determined based on the severity of the leak, the quality of the report, and any additional assistance you provide.  
+* Raporu değerlendirmemiz ve beklenen çözüm tarihiyle 3 iş günü içerisinde raporunuza cevap vereceğiz.
+* Yukarıdaki talimatları izlediyseniz, bildirimle ilgili olarak size karşı herhangi bir yasal işlem yapmayacağız.
+* Bildiriminizi sıkı bir gizlilik içinde ele alacağız ve kişisel bilgilerinizi izniniz olmadan üçüncü şahıslara vermeyeceğiz.
+* Dilerseniz, sorunu çözme yolunda ilerlemenizden sizi haberdar edeceğiz.
+* Bildirilen sorunla ilgili kamuya açık bilgilerde, sorunun keşfi olarak adınızı vereceğiz \ (aksini istemediğiniz sürece \)
+* Yardımınız için minnettarlığımızın bir göstergesi olarak, henüz bilmediğimiz bir güvenlik sorununun her bildirimi için bir ödül sunuyoruz. Ödül miktarı, sızıntının ciddiyetine, raporun kalitesine ve sağladığınız ek yardımlara göre belirlenecektir.  
 
