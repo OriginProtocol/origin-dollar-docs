@@ -16,17 +16,17 @@ Gli utenti convertono le loro stable coins \(attualmente USDT, USDC e DAI\) in O
 
 **Riscattare OUSD**
 
-Gli utenti possono riconvertire indietro in altre stablecoins i loro OUSD in qualsiasi momento utilizzando la [DApp Origin Dollar](www.ousd.com). Verrà applicata una commissione di uscita pari allo 0.5% e sarà distribuita come rendimento aggiuntivo per i partecipanti rimanenti alla pool. The fee serves as a security feature to make it difficult for attackers to take advantage of lagging oracles, preventing them from syphoning stablecoins from the pool in the event of mispricings of of the underlying assets. The fee exists to incentivize long-term holders over short-term speculators.
+Gli utenti possono riconvertire indietro in altre stablecoins i loro OUSD in qualsiasi momento utilizzando la [DApp Origin Dollar](www.ousd.com). Verrà applicata una commissione di uscita pari allo 0.5% e sarà distribuita come rendimento aggiuntivo per i partecipanti rimanenti alla pool. La commissione è necessaria come caratteristica di sicurezza per mettere in difficoltà gli hacker malevoli che volessero avvantaggiarsi dei ritardi degli oracoli, impedendogli di travasare le stablecoin dalla pool in caso di prezzi errati degli asset sottostanti. La commissione esiste per incentivare gli holders di lungo periodo contro gli speculatori di breve periodo.
 
-Upon redemption, the smart contract will determine which stablecoin\(s\) to return to the user. In the current implementation, the pool will return coins in the same ratio as the current holdings. This lack of user optionality also protects the pool as a whole in the event that any of the supported stablecoins loses its peg to the dollar.
+Al momento del riscatto, lo smart contract determinrà quale o quali stablecoin restituirà all'utente. Nell'implementazione corrente, la pool restituirà le coin con la stessa proporzione di quelle che sono detenute al momento. Questa mancanza di opzioni, lato utente, protegge la pool nel caso in cui una delle qualsiasi stablecoin supportate dovesse perdere il suo ancoraggio al dollaro.
 
 {% hint style="warning" %}
-There is a **0.5% exit fee** and the user doesn't get to pick which stablecoins they receive.
+E' prevista una commissione di uscita dello **0.5%** è l'utente non può scegliere quale stablecoin riceverà.
 {% endhint %}
 
-#### A**utomated Yield Farming**
+#### **Automated Yield Farming**
 
-OUSD generates yields by deploying the underlying stablecoins that were deposited to the OUSD smart contract to other DeFi protocols such as Compound, Aave, Uniswap, Balancer, and Curve. It is expected there will be new diversified strategies added to the pool every month. Collected interest, trading fees, and rewards tokens are pooled and converted to stablecoins to produce OUSD-denominated yields. Over time, the protocol will move assets in and out of different liquidity pools in order to provide the best yield to the holders of OUSD.
+OUSD genera rendimenti distribuendo le stablecoin sottostanti che sono state depositate nello smart contract di OUSD, ad altri protocolli DEFI come ad esempio Compound, Aave, Uniswap, Balancer e Curve. Si prevede che ogni mese verranno aggiunte nuove strategie diversificate al pool. Collected interest, trading fees, and rewards tokens are pooled and converted to stablecoins to produce OUSD-denominated yields. Over time, the protocol will move assets in and out of different liquidity pools in order to provide the best yield to the holders of OUSD.
 
 #### **Elastic Supply**
 
