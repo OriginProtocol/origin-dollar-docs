@@ -1,6 +1,6 @@
 # Vault
 
-The vault is at the core of the protocol. The vault is responsible for minting/redeeming OUSD tokens, rebalancing funds between the various supported strategies, and liquidating rewards tokens.
+Il Vault è il cuore del protocollo. Il vaulta è il responsabile del conio/riscatto dei token OUSD, del ribilanciamento dei fondi tra le varie strategie supportate, e della liquidazione dei token di ricompensa.
 
 The most important publicly callable functions on the Vault are:
 
