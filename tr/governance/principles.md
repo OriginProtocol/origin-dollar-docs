@@ -18,9 +18,9 @@ Tam merkezi olmayan yönetişimden önce, tüm yönetici işlevi çağrıların�
 
 OUSD, Origin Protocol [team](www.originprotocol.com/team) tarafından kurulan yeni bir projedir ve OUSD için para basmayı, tutmayı, kullanmayı ve likidite sağlamayı seçen birçok yeni  ( stakeholder) paydaşın yanı sıra mevcut Origin topluluğu tarafından desteklenecektir.
 
-Ek olarak, mevcut Origin Token \ (OGN \) sahiplerimizden, 500.000'e yakın üyeden oluşan topluluktan ve Platformdaki alıcı / satıcılardan yüksek katılım sağlamak istiyoruz. Mevcut OGN sahipleri, yönetişime katılmak ve OUSD'ye değer sağlamak için teşvikler kazanmak için OGN'lerini paylaşabilecekler. More details will be provided in the near future.
+Ek olarak, mevcut Origin Token \ (OGN \) sahiplerimizden, 500.000'e yakın üyeden oluşan topluluktan ve Platformdaki alıcı / satıcılardan yüksek katılım sağlamak istiyoruz. Mevcut OGN sahipleri, yönetişime katılmak ve OUSD'ye değer sağlamak için teşvikler kazanmak için OGN'lerini paylaşabilecekler. Yakın gelecekte daha fazla ayrıntı sağlanacaktır.
 
-The strong connection between OUSD and the rest of the Origin commerce platform will fuel growth in both initiatives.
+OUSD ile Origin ticaret platformunun geri kalanı arasındaki güçlü bağlantı, her iki girişimde de büyümeyi hızlandıracak.
 
 
 
