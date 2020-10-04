@@ -107,19 +107,19 @@ Restituisce il numero di stablecoin supportate rappresentate dal tipo `uint256`
 
 ### getAllAssets\(\) <a id="getallassets"></a>
 
-**`function getAllAssets()`**‌
+**`function getAllAssets()`**
 
 Return all assets addresses of supported stablecoin assets in order represented by `uint256` type.‌
 
 ### getStrategyCount\(\)‌ <a id="getstrategycount"></a>
 
-**`function getStrategyCount()`**‌
+**`function getStrategyCount()`**
 
-Return the number of strategies active on the Vault represented by `uint256` type.‌
+Restituisce il numero delle strategie attive nel Vault, ed è rappresentato dal tipo ` uint256`
 
 ### getAPR\(\) <a id="getapr"></a>
 
-**`function getAPR()`**‌
+**`function getAPR()`**
 
 Return the total annual percentage yield \(APR\) of the Vault and all Strategies represented by `uint256` type. Resulting number has 18 decimal spaces.‌
 
