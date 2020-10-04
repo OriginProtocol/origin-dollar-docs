@@ -6,11 +6,11 @@ OUSD is designed to stay pegged at 1 USD and be 1:1 backed with its underlying s
   <thead>
     <tr>
       <th style="text-align:left">Coin</th>
-      <th style="text-align:left"><b>Low</b>
+      <th style="text-align:left"><b>Низкий</b>
       </th>
-      <th style="text-align:left"><b>High</b>
+      <th style="text-align:left"><b>Высокий</b>
       </th>
-      <th style="text-align:left"><b>Delta</b>
+      <th style="text-align:left"><b>Дельта</b>
       </th>
       <th style="text-align:left"><b>Source</b>
       </th>
