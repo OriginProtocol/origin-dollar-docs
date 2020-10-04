@@ -1,24 +1,24 @@
-# Principles
+# Prensipler
 
-**Progressive Decentralization**
+**Aşamalı Merkeziyetsizleştirme**
 
-OUSD is designed to be a decentralized protocol governed by many stakeholders all over the world. We believe that the minters and holders of OUSD should collectively determine important protocol decisions as soon as possible.
+OUSD, tüm dünyadaki birçok paydaş tarafından yönetilen, merkezi olmayan bir protokol olacak şekilde tasarlanmıştır. OUSD'nin darphanelerinin ve sahiplerinin, önemli protokol kararlarını mümkün olan en kısa sürede toplu olarak belirlemeleri gerektiğine inanıyoruz.
 
-That being said, in the very early days, it is imperative that the core engineering team can act quickly and decisively to build the foundational parts of the protocol.
+Bununla birlikte, ilk günlerde, çekirdek mühendislik ekibinin protokolün temel kısımlarını oluşturmak için hızlı ve kararlı bir şekilde hareket etmesi zorunludur.
 
-Decentralization will progress across four phases rapidly over the next few months. It is our intent to relinquish control and governance to the community as soon as possible.
+Merkeziyetsizlik, önümüzdeki birkaç ay içinde dört aşamada hızla ilerleyecektir. Niyetimiz, kontrolü ve yönetimi mümkün olan en kısa sürede topluluğa bırakmaktır.
 
 ![](../.gitbook/assets/ousd_docs_graphics_2%20%283%29.png)
 
-**Timelock**
+**zaman kilidi**
 
-Prior to full decentralized governance, we will implement a [timelock](../smart-contracts/api/timelock.md) in front of all admin function calls, giving OUSD users time \(48 hours\) to withdraw their funds if they have objections to our proposed upgrades. This timelock will be added shortly after launch.
+Tam merkezi olmayan yönetişimden önce, tüm yönetici işlevi çağrılarının önüne bir [timelock](../smart-contracts/api/timelock.md) uygulayarak, OUSD kullanıcılarına önerilen yükseltmelerimize itirazları varsa fonlarını çekmeleri için zaman \ (48 saat \) vereceğiz. Zaman kilidi lansmandan 7 gün sonra eklenecektir.
 
-**New and Existing Stakeholders**
+**Yeni ve Mevcut Stake Tutucular**
 
-OUSD is a new project founded by Origin Protocol [team](www.originprotocol.com/team) and will be supported by the existing Origin community as well as many new stakeholders that choose to mint, hold, use, and provide liquidity for OUSD.
+OUSD, Origin Protocol [team](www.originprotocol.com/team) tarafından kurulan yeni bir projedir ve OUSD için para basmayı, tutmayı, kullanmayı ve likidite sağlamayı seçen birçok yeni  ( stakeholder) paydaşın yanı sıra mevcut Origin topluluğu tarafından desteklenecektir.
 
-In addition, we also want to ensure high participation from our existing Origin Token \(OGN\) holders, community of close to 500,000 members, and buyers/sellers on the Platform. Existing OGN holders will be able to stake their OGN to participate in governance and earn incentives for driving value to OUSD. More details will be provided in the near future.
+Ek olarak, mevcut Origin Token \ (OGN \) sahiplerimizden, 500.000'e yakın üyeden oluşan topluluktan ve Platformdaki alıcı / satıcılardan yüksek katılım sağlamak istiyoruz. Mevcut OGN sahipleri, yönetişime katılmak ve OUSD'ye değer sağlamak için teşvikler kazanmak için OGN'lerini paylaşabilecekler. More details will be provided in the near future.
 
 The strong connection between OUSD and the rest of the Origin commerce platform will fuel growth in both initiatives.
 
