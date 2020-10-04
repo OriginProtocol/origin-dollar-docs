@@ -1,8 +1,8 @@
-# Getting Started
+# Приступая к работе
 
-These docs are intended to explain how OUSD works, communicate the potential risks and benefits, and provide a guide for developers who wish to contribute to our codebase or integrate OUSD into their products. Here are a few ways for you to dive in and get started.
+Эти документы предназначены для того, чтобы объяснить, как работает OUSD, сообщить о потенциальных рисках и преимуществах и предоставить руководство для разработчиков, которые хотят внести свой вклад в нашу кодовую базу или интегрировать OUSD в свои продукты. Вот несколько способов приступить к работе.
 
-**Mint or Redeem**
+**Производство или Выкуп**
 
 The OUSD Mint allows anyone to create or trade in OUSD tokens using our [DApp](www.ousd.com) and a web-3 enabled cryptocurrency wallet like [Metamask](https://www.metamask.io). This is the native way to get OUSD, especially if you want a large amount that could risk moving the market on other exchanges.
 
