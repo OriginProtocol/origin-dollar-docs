@@ -8,5 +8,5 @@ Subito dopo il lancio, la proprietà verrà trasferita al timelock. Questo perme
 
 Possedere privilegi di amministrazione è necessario nei primi giorni per garantire che il protocollo sia sicuro ed ottimizzato per ottenere i rendimenti riducendo al minimo i rischi. Ci aspettiamo di rilasciare più iterazioni dei nostri smart contract nei primi mesi di esistenza del protocollo.
 
-Once several upgrade cycles have been completed, we intend to transfer ownership from our company control to a decentralized governance contract, thereby allowing the community to vote and participate in future protocol updates.
+Una volta completati diversi cicli di aggiornamento, intendiamo trasferire la proprietà dal controllo della nostra azienda ad un contratto di governance decentralizzata, consentendo così alla comunità di votare e partecipare ai futuri aggiornamenti del protocollo.
 
