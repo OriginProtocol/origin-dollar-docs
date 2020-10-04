@@ -23,22 +23,22 @@
   * [Кривая](core-concepts/supported-strategies/curve.md)
   * [Balancer](core-concepts/supported-strategies/balancer.md)
   * [Yearn.finance](core-concepts/supported-strategies/yearn.finance.md)
-* [Fund Management](core-concepts/fund-management/README.md)
-  * [Earning Strategies](core-concepts/fund-management/earning-strategies.md)
-  * [Diversification](core-concepts/fund-management/diversification.md)
-* [Price Oracles](core-concepts/price-oracles.md)
+* [Управление средствами](core-concepts/fund-management/README.md)
+  * [Стратегии заработка](core-concepts/fund-management/earning-strategies.md)
+  * [Диверсификация](core-concepts/fund-management/diversification.md)
+* [Ценовые оракулы](core-concepts/price-oracles.md)
 
-## Governance
+## Управление
 
-* [Principles](governance/principles.md)
-* [Admin Privileges](governance/admin-privileges.md)
+* [Принципы](governance/principles.md)
+* [Права администратора](governance/admin-privileges.md)
 
-## Smart Contracts
+## Смарт-контракты
 
-* [Architecture](smart-contracts/architecture.md)
-* [Registry](smart-contracts/registry.md)
+* [Архитектура](smart-contracts/architecture.md)
+* [Реестр](smart-contracts/registry.md)
 * [API](smart-contracts/api/README.md)
-  * [Vault](smart-contracts/api/vault.md)
+  * [Хранилище](smart-contracts/api/vault.md)
   * [ERC-20](smart-contracts/api/erc-20-1.md)
   * [Timelock](smart-contracts/api/timelock.md)
   * [Oracles](smart-contracts/api/oracle.md)
