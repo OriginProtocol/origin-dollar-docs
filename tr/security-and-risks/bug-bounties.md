@@ -1,6 +1,6 @@
-# Bug Bounties
+# Bug Ödülleri
 
-**Bug Bounties**
+**Bug Ödülleri**
 
 Bug bounties are granted at the full discretion of Origin Protocol. The rewards range in size from **$100** for minor issues to **$250,000** for major vulnerabilities. Currently, the bounty program only applies to OUSD and not other products from Origin.
 
