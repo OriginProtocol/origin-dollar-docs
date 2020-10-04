@@ -89,21 +89,21 @@ Calcola il mix delle stablecoin che la funzione `redeem` restituirebbe nel momen
 
 Per attribuire i valori delle stablecoin alla corretta valuta della stablecoin, questa chiamata dovrebbe essere utilizzata in congiunzione alla funzione ` getAllAssets` che restituisce l'array con gli indirizzi delle stablecoin.
 
-The index of an array that is returned by the `calculateRedeemOutputs` corresponds to the stablecoin address with the same index in an array returned by the `getAllAssets` function.
+L'indice dell'array restituito dalla funzione `calculateRedeemOutputs`, corrisponde all'indirizzo della stablecoin avente lo stesso indice nell'array restituito dalla funzione `getAllAssets`.
 
-| Parameter Name | Type    | Description                               |
-|:-------------- |:------- |:----------------------------------------- |
-| \_amount     | uint256 | amount of OUSD expressed in decimal units |
+| Nome del parametro | Tipo    | Descrizione                                 |
+|:------------------ |:------- |:------------------------------------------- |
+| \_amount         | uint256 | quantità di OUSD espressa in unità decimali |
 
-| `return` name | Type          | Description                                                                 |
-|:------------- |:------------- |:--------------------------------------------------------------------------- |
-| outputs       | uint256\[\] | array of the amount of the stablecoin assets `redeem` function would return |
+| `return` name | Tipo          | Descrizione                                                          |
+|:------------- |:------------- |:-------------------------------------------------------------------- |
+| outputs       | uint256\[\] | array con il numero di stablecoin restituito dalla funzione `redeem` |
 
 ### getAssetCount\(\) <a id="getassetcount"></a>
 
 **`function getAssetCount()`**‌
 
-Return the number of supported stablecoin assets represented by `uint256` type.‌
+Restituisce il numero di stablecoin supportate rappresentate dal tipo `uint256`
 
 ### getAllAssets\(\) <a id="getallassets"></a>
 
