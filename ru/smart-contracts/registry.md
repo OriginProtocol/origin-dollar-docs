@@ -39,15 +39,15 @@ Internal implementation contracts:
 |:----------------------------------------------------------------------------------- |:--------------------------------------------------------------------------------------------------------------------- |:--------------------------------------------------------------------------------------------- |
 | [Compound](https://etherscan.io/address/0x52BEBd3d7f37EC4284853Fd5861Ae71253A7F428) | [0x47211B1D1F6Da45aaEE06f877266E072Cf8BaA74](https://etherscan.io/address/0x52BEBd3d7f37EC4284853Fd5861Ae71253A7F428) | [100%](https://etherscan.io/address/0x52BEBd3d7f37EC4284853Fd5861Ae71253A7F428)               |
 
-[Internal implementation contracts:](https://etherscan.io/address/0x52BEBd3d7f37EC4284853Fd5861Ae71253A7F428)
+[Контракты на внутреннюю реализацию:](https://etherscan.io/address/0x52BEBd3d7f37EC4284853Fd5861Ae71253A7F428)
 
-| [Strategy](https://etherscan.io/address/0x52BEBd3d7f37EC4284853Fd5861Ae71253A7F428) | [Address](https://etherscan.io/address/0x52BEBd3d7f37EC4284853Fd5861Ae71253A7F428)                                    |
-|:----------------------------------------------------------------------------------- |:--------------------------------------------------------------------------------------------------------------------- |
-| [Compound](https://etherscan.io/address/0x52BEBd3d7f37EC4284853Fd5861Ae71253A7F428) | [0x5B57e808b0ddCF097e25C5f5E3d8d3c2b0D26319](https://etherscan.io/address/0x52BEBd3d7f37EC4284853Fd5861Ae71253A7F428) |
+| [Стратегия](https://etherscan.io/address/0x52BEBd3d7f37EC4284853Fd5861Ae71253A7F428)    | [Адрес](https://etherscan.io/address/0x52BEBd3d7f37EC4284853Fd5861Ae71253A7F428)                                      |
+|:--------------------------------------------------------------------------------------- |:--------------------------------------------------------------------------------------------------------------------- |
+| [Накапливание](https://etherscan.io/address/0x52BEBd3d7f37EC4284853Fd5861Ae71253A7F428) | [0x5B57e808b0ddCF097e25C5f5E3d8d3c2b0D26319](https://etherscan.io/address/0x52BEBd3d7f37EC4284853Fd5861Ae71253A7F428) |
 {% endtab %}
 
 {% tab title="Stablecoins" %}
-| [Contract](https://etherscan.io/address/0x52BEBd3d7f37EC4284853Fd5861Ae71253A7F428) | [Address](https://etherscan.io/address/0x52BEBd3d7f37EC4284853Fd5861Ae71253A7F428)                                    |
+| [Контракт](https://etherscan.io/address/0x52BEBd3d7f37EC4284853Fd5861Ae71253A7F428) | [Адрес](https://etherscan.io/address/0x52BEBd3d7f37EC4284853Fd5861Ae71253A7F428)                                      |
 |:----------------------------------------------------------------------------------- |:--------------------------------------------------------------------------------------------------------------------- |
 | [USDT](https://etherscan.io/address/0x52BEBd3d7f37EC4284853Fd5861Ae71253A7F428)     | [0xdac17f958d2ee523a2206206994597c13d831ec7](https://etherscan.io/address/0x52BEBd3d7f37EC4284853Fd5861Ae71253A7F428) |
 | [USDC](https://etherscan.io/address/0x52BEBd3d7f37EC4284853Fd5861Ae71253A7F428)     | [0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48](https://etherscan.io/address/0x52BEBd3d7f37EC4284853Fd5861Ae71253A7F428) |
