@@ -28,13 +28,13 @@
 
 OUSD - это нестандартный токен ERC-20, который требует специальной интеграции для большинства приложений, которые хотят его поддерживать. В частности, разработчикам важно понимать, как работает наше гибкое предложение, поскольку это может легко вызвать неожиданный режим работы.
 
-If you are a wallet provider or crypto exchange that is interested in supporting OUSD, please refer to the following guides:
+Если вы являетесь представителем разработчиков кошельков или криптовалютных бирж, которые заинтересованы в поддержке OUSD, обратитесь к следующим руководствам:
 
-{% page-ref page="smart-contracts/architecture.md" %}
+{% page-ref page="smart-contract/architecture.md"%}
 
 {% page-ref page="smart-contracts/api/" %}
 
-**Getting Help**
+**Помощь**
 
-Please join the Origin Dollar \#engineering room in Origin's [Discord](www.originprotocol.com/discord) server.  Our team and members of our community look forward to helping you build. Your questions help us improve, so please don't hesitate to ask if you can't find what you are looking for here.
+Присоединяйтесь к Origin Dollar\#engineering room\ на сервере Origin в [Discord](www.originprotocol.com/discord).  Наша команда и члены нашего сообщества с нетерпением ждут возможности помочь Вам в разработке. Ваши вопросы помогают нам стать лучше, поэтому не стесняйтесь спрашивать, если вы не можете найти здесь то, что ищете.
 
