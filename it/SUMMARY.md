@@ -26,7 +26,7 @@
 * [Gestione dei fondi](core-concepts/fund-management/README.md)
   * [Strategie di guadagno](core-concepts/fund-management/earning-strategies.md)
   * [Diversificazione](core-concepts/fund-management/diversification.md)
-* [Price Oracles](core-concepts/price-oracles.md)
+* [Oracoli di prezzo](core-concepts/price-oracles.md)
 
 ## Governance
 
@@ -36,7 +36,7 @@
 ## Smart Contract
 
 * [Architettura](smart-contracts/architecture.md)
-* [Registry](smart-contracts/registry.md)
+* [Registro](smart-contracts/registry.md)
 * [API](smart-contracts/api/README.md)
   * [Vault](smart-contracts/api/vault.md)
   * [ERC-20](smart-contracts/api/erc-20-1.md)
