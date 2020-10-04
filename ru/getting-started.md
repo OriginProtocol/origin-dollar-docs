@@ -22,11 +22,11 @@
 **0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86**
 {% endhint %}
 
-Если Ваш OUSD автоматически не отображается в Вашем кошельке, Вы сможете добавить его вручную, используя вышеуказанный адрес. We want to have OUSD supported by as many wallets as possible and included on all the various lists of well-known tokens. We would greatly appreciate any help you can offer in this area.
+Если Ваш OUSD автоматически не отображается в Вашем кошельке, Вы сможете добавить его вручную, используя вышеуказанный адрес. Мы хотим, чтобы OUSD поддерживалось как можно большим количеством кошельков и включался в различные списки хорошо известных токенов. Мы будем очень признательны за любую помощь, которую Вы можете предложить в этой области.
 
-**Integrating OUSD**
+**Интегрирование OUSD**
 
-OUSD is a non-standard ERC-20 token that requires custom integration work for most applications that wish to support it. In particular, it is important for developers to understand how our elastic supply works as this can easily cause unexpected behavior.
+OUSD - это нестандартный токен ERC-20, который требует специальной интеграции для большинства приложений, которые хотят его поддерживать. В частности, разработчикам важно понимать, как работает наше гибкое предложение, поскольку это может легко вызвать неожиданный режим работы.
 
 If you are a wallet provider or crypto exchange that is interested in supporting OUSD, please refer to the following guides:
 
