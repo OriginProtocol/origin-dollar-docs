@@ -10,9 +10,9 @@ OUSD is designed to stay pegged at 1 USD and be 1:1 backed with its underlying s
       </th>
       <th style="text-align:left"><b>Высокий</b>
       </th>
-      <th style="text-align:left"><b>Дельта</b>
+      <th style="text-align:left"><b>Разница</b>
       </th>
-      <th style="text-align:left"><b>Source</b>
+      <th style="text-align:left"><b>Источник</b>
       </th>
     </tr>
   </thead>
@@ -20,12 +20,12 @@ OUSD is designed to stay pegged at 1 USD and be 1:1 backed with its underlying s
     <tr>
       <td style="text-align:left">USDC</td>
       <td style="text-align:left">
-        <p>$0.929222</p>
-        <p>Mar 13, 2020</p>
+        <p>$0,929222</p>
+        <p>13 марта 2020 г.</p>
       </td>
       <td style="text-align:left">
-        <p>$1.11</p>
-        <p>Oct 15, 2018</p>
+        <p>$ 1,11</p>
+        <p>15 октября 2018 г.</p>
       </td>
       <td style="text-align:left">$0.180778</td>
       <td style="text-align:left"><a href="https://coinmarketcap.com/currencies/usd-coin/">CoinMarketCap</a>
@@ -35,11 +35,11 @@ OUSD is designed to stay pegged at 1 USD and be 1:1 backed with its underlying s
       <td style="text-align:left">USDC</td>
       <td style="text-align:left">
         <p>$0.924188</p>
-        <p>Aug 02, 2020</p>
+        <p>2 августа 2020 г.</p>
       </td>
       <td style="text-align:left">
         <p>$1.17</p>
-        <p>May 08, 2019</p>
+        <p>8 мая 2019г.</p>
       </td>
       <td style="text-align:left">$0.245812</td>
       <td style="text-align:left"><a href="https://www.coingecko.com/en/coins/usd-coin">CoinGecko</a>
@@ -49,11 +49,11 @@ OUSD is designed to stay pegged at 1 USD and be 1:1 backed with its underlying s
       <td style="text-align:left">DAI</td>
       <td style="text-align:left">
         <p>$0.945505</p>
-        <p>May 10, 2020</p>
+        <p>10 мая 2020г.</p>
       </td>
       <td style="text-align:left">
         <p>$1.11</p>
-        <p>Mar 13, 2020</p>
+        <p>13 марта 2020г.</p>
       </td>
       <td style="text-align:left">$0.164495</td>
       <td style="text-align:left"><a href="https://coinmarketcap.com/currencies/multi-collateral-dai/">CoinMarketCap</a>
@@ -63,11 +63,11 @@ OUSD is designed to stay pegged at 1 USD and be 1:1 backed with its underlying s
       <td style="text-align:left">DAI</td>
       <td style="text-align:left">
         <p>$0.903243</p>
-        <p>Nov 25, 2019</p>
+        <p>25 ноября 2019г.</p>
       </td>
       <td style="text-align:left">
         <p>$1.22</p>
-        <p>Mar 13, 2020</p>
+        <p>13 марта 2020г.</p>
       </td>
       <td style="text-align:left">$0.316757</td>
       <td style="text-align:left"><a href="https://www.coingecko.com/en/coins/dai">CoinGecko</a>
@@ -76,12 +76,12 @@ OUSD is designed to stay pegged at 1 USD and be 1:1 backed with its underlying s
     <tr>
       <td style="text-align:left">USDT</td>
       <td style="text-align:left">
-        <p>$0.849809</p>
-        <p>Feb 02, 2017</p>
+        <p>$0,849809</p>
+        <p>2 февраля 2017г.</p>
       </td>
       <td style="text-align:left">
         <p>$1.21</p>
-        <p>May 27, 2017</p>
+        <p>27 мая 2017г.</p>
       </td>
       <td style="text-align:left">$0.360191</td>
       <td style="text-align:left"><a href="https://www.coingecko.com/en/coins/tether">CoinGecko</a>
@@ -91,11 +91,11 @@ OUSD is designed to stay pegged at 1 USD and be 1:1 backed with its underlying s
       <td style="text-align:left">USDT</td>
       <td style="text-align:left">
         <p>$0.572521</p>
-        <p>Mar 02, 2015</p>
+        <p>02 марта 2015г.</p>
       </td>
       <td style="text-align:left">
         <p>$1.32</p>
-        <p>Jul 24, 2018</p>
+        <p>24 июля 2018г.</p>
       </td>
       <td style="text-align:left">$0.747479</td>
       <td style="text-align:left"><a href="https://coinmarketcap.com/currencies/tether/">CoinMarketCap</a>
@@ -104,7 +104,7 @@ OUSD is designed to stay pegged at 1 USD and be 1:1 backed with its underlying s
   </tbody>
 </table>
 
-In order to mint and burn the appropriate number of OUSD on entry and exit, the smart contracts need to accurately price the USDT, USDC, and DAI that is entering and exiting the system. It also needs a reliable way of expanding the supply to distribute the interest that is earned, or contracting supply if there is a negative change in the value of the underlying assets. As a decentralized protocol, OUSD must rely on non-centralized sources for these prices.
+Чтобы создать и сжечь соответствующее количество OUSD при входе и выходе, смарт-контракты должны точно определять цену на USDT, USDC и DAI, которые входят в систему и выходят из нее. It also needs a reliable way of expanding the supply to distribute the interest that is earned, or contracting supply if there is a negative change in the value of the underlying assets. As a decentralized protocol, OUSD must rely on non-centralized sources for these prices.
 
 {% hint style="info" %}
 OUSD fetches the price from multiple on-chain oracles and uses the exchange rate that is most advantageous for the pool.
