@@ -26,11 +26,11 @@ E' prevista una commissione di uscita dello **0.5%** è l'utente non può scegli
 
 #### **Automated Yield Farming**
 
-OUSD genera rendimenti distribuendo le stablecoin sottostanti che sono state depositate nello smart contract di OUSD, ad altri protocolli DEFI come ad esempio Compound, Aave, Uniswap, Balancer e Curve. Si prevede che ogni mese verranno aggiunte nuove strategie diversificate al pool. Collected interest, trading fees, and rewards tokens are pooled and converted to stablecoins to produce OUSD-denominated yields. Over time, the protocol will move assets in and out of different liquidity pools in order to provide the best yield to the holders of OUSD.
+OUSD genera rendimenti distribuendo le stablecoin sottostanti che sono state depositate nello smart contract di OUSD, ad altri protocolli DEFI come ad esempio Compound, Aave, Uniswap, Balancer e Curve. Si prevede che ogni mese verranno aggiunte nuove strategie diversificate al pool. Gli interessi maturati, le commissioni di trading, e i token di ricompensa vengono raccolti e convertiti in stablecoin per produrre rendimenti in OUSD. Nel tempo, il protocollo sposterà assets dentro e fuori diversi pool di liquidità al fine di fornire il miglior rendimento ai detentori di OUSD.
 
 #### **Elastic Supply**
 
-The generated returns are passed on to the holders of OUSD via constant rebasing of the money supply. OUSD constantly adjusts the money supply in response to the yield the protocol has generated. This allows the price of OUSD to stay pegged at $1 while the balances in token holders' wallets adjust in real-time to reflect yields that have been earned by the protocol.
+I rendimenti generati vengono trasferiti ai detentori di OUSD tramite il rebasing costante del rifornimento della moneta. OUSD risistema costantemente il rifornimento di moneta in risposta al rendimento generato dal protocollo. Questo permette al prezzo di OUSD di rimanere ancorato a 1$, mentre i saldi dei wallet dei detentori del token si aggiustano in tempo reale per rispecchiare i rendimenti guadagnati dal protocollo.
 
-The end result is a stablecoin that is easy to spend, earns outsized yields automatically, and is more desirable to hold than existing stablecoins.
+Il risultato finale è una stablecoin facilmente spendibile, che guadagna rendimenti fuori misura in automatico, ed è più desiderabile da holdare rispetto alle altre stablecoin attualmente esistenti.
 
