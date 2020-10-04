@@ -4,9 +4,9 @@
 
 OUSD состоит из серии смарт-контрактов. Каждый из этих контрактов заключен в прокси-контракт, который можно усовершенствовать с помощью протоколов управления.
 
-Internally, ownership in the pool is tracked using a credits system that represents the percent ownership of the pool for each holder. The ERC-20 contract handles the conversion to USD terms when viewing a balance or initiating a transfer between wallets.
+На внутреннем уровне владение пулом отслеживается с помощью рейтинговой системы, которая представляет процент владения пулом для каждого держателя. Контракт ERC-20 выполняет преобразование в доллары США при просмотре баланса или инициировании перевода между кошельками.
 
-The Vault is responsible for minting and burning OUSD. It also enforces the percentage of assets that are deployed to each of the supported [Strategies](../core-concepts/supported-strategies/). To optimize gas costs, the vault maintains a buffer to allow most deposits and redemptions to occur without winding/unwinding assets from strategies.
+Vault отвечает за производство и сжигание OUSD. Он также определяет процент активов, развернутых для каждой из поддерживаемых [Стратегий](../core-concepts/supported-strategies/). Чтобы оптимизировать затраты на газ, в The Vault поддерживается буфер, позволяющий производить большинство депозитов и выкупов без ввода/вывода активов из стратегий.
 
 
 
