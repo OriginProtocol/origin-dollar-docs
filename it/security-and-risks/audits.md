@@ -1,7 +1,7 @@
-# Audits
+# Revisioni
 
 {% hint style="danger" %}
-The OUSD smart contracts have not yet been audited. We strongly recommend reviewing our smart contracts before depositing significant amounts of capital.
+The OUSD smart contracts have not yet been audited. Consigliamo vivamente di rivedere i nostri smart contract prima di depositare importi significativi di capitale.
 {% endhint %}
 
 **OUSD**
