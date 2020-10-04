@@ -13,8 +13,8 @@
 OUSD использует немного измененную версию [ Накапливаемой временной блокировки](https://compound.finance/docs/governance), которая была [проаудирована OpenZeppelin](https://blog.openzeppelin.com/compound-finance-patch-audit/). 3 заметных отличия:
 
 1. Первоначально OUSD будет использовать более короткий период ожидания \(48 часов\), чем Compound \(72 часа\), чтобы обеспечить более быстрый ответ в случае обнаружения каких-либо проблем.
-2. Once the 48 hours have passed, anyone is free to execute the call, not just the owner of the contract.
-3. Deposits \(but not withdrawals or transfers\) can be immediately frozen without requiring the 48 waiting period. This is in case a major vulnerability is discovered.
+2. По прошествии 48 часов любой может выполнить вызов функции, а не только владелец контракта.
+3. Депозиты \(но не вывод средств или переводы\) могут быть немедленно заморожены, не требуя 48 часового периода ожидания. Это было сделано на случай обнаружения серьезной уязвимости.
 
 
 
