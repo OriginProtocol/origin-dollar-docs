@@ -10,13 +10,13 @@ OUSD is a stable currency that is backed 1:1 by other stablecoins like USDT, USD
 1 OUSD = 1 USD
 {% endhint %}
 
-#### Minting OUSD
+#### "Чеканка" OUSD
 
-Users convert their existing stablecoins \(currently USDT, USDC, and DAI\) to OUSD at the official [Origin Dollar DApp](www.ousd.com). Issued OUSD begins accruing compounding yield immediately.
+Пользователи конвертируют свои существующие стейблкоины \ (в настоящее время USDT, USDC и DAI \) в OUSD в официальном [Origin Dollar DApp](www.ousd.com). Выпущенные OUSD немедленно начинают приносить доход от начисления сложных процентов.
 
-**Redeeming OUSD**
+**Вомещение OUSD**
 
-Users can convert their OUSD back into other stablecoins at any time using the [Origin Dollar DApp](www.ousd.com). A 0.5% exit fee is charged upon redemption and is distributed as additional yield to the remaining participants in the pool. The fee serves as a security feature to make it difficult for attackers to take advantage of lagging oracles, preventing them from syphoning stablecoins from the pool in the event of mispricings of of the underlying assets. The fee exists to incentivize long-term holders over short-term speculators.
+Пользователи могут конвертировать свои OUSD в другие стейблкоины в любое время, используя [Origin Dollar DApp](www.ousd.com). При выкупе взимается комиссия в размере 0,5%, которая распределяется как дополнительный доход между оставшимися участниками пула. The fee serves as a security feature to make it difficult for attackers to take advantage of lagging oracles, preventing them from syphoning stablecoins from the pool in the event of mispricings of of the underlying assets. The fee exists to incentivize long-term holders over short-term speculators.
 
 Upon redemption, the smart contract will determine which stablecoin\(s\) to return to the user. In the current implementation, the pool will return coins in the same ratio as the current holdings. This lack of user optionality also protects the pool as a whole in the event that any of the supported stablecoins loses its peg to the dollar.
 
