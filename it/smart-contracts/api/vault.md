@@ -85,9 +85,9 @@ Restituisce il saldo di un asset detenuto nel Vault, specificato dal parametro `
 
 **`function calculateRedeemOutputs(uint256 _amount)`**‌
 
-Calculate the mix of stablecoins that a `redeem` function would return when redeeming certain amount of OUSD specified by the `_amount` parameter. Returns an array of stablecoin values.
+Calcola il mix delle stablecoin che la funzione `redeem` restituirebbe nel momento in cui si sta riscattando un certo numero di OUSD specificato dal parametro `_amount`. Restituisce un array di valori di stablecoin.
 
-To attribute the stablecoin values to the correct stablecoin currency this call should be used in conjunction with `getAllAssets` function that returns an array of stablecoin addresses.
+Per attribuire i valori delle stablecoin alla corretta valuta della stablecoin, questa chiamata dovrebbe essere utilizzata in congiunzione alla funzione ` getAllAssets` che restituisce l'array con gli indirizzi delle stablecoin.
 
 The index of an array that is returned by the `calculateRedeemOutputs` corresponds to the stablecoin address with the same index in an array returned by the `getAllAssets` function.
 
