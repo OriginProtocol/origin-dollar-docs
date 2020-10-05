@@ -1,14 +1,14 @@
-# Supported DeFi Platforms
+# Platform DeFi yang Didukung
 
-**Supported Platforms**
+**Platform yang Didukung**
 
-OUSD generates yield by depositing stablecoins into lending platforms and market maker liquidity pools. It is important to understand that these platforms do carry technological risk and funds can be lost if there is a major security event. We are choosing to work with the platforms that have had their smart contracts audited and that we feel are most secure.
+OUSD menghasilkan imbal hasil dengan menyetorkan stablecoin ke dalam platform pinjaman dan kolam likuiditas pembuat pasar. Penting untuk dipahami bahwa platform ini memang membawa risiko teknologi dan dana bisa hilang jika ada peristiwa keamanan besar. Kami memilih untuk bekerja dengan platform yang kontrak cerdasnya telah diaudit dan yang kami rasa paling aman.
 
-Currently, we plan to earn yields from the following platforms:
+Saat ini, kami berencana untuk mendapatkan hasil dari platform berikut:
 
 {% page-ref page="compound.md" %}
 
-Integrations are currently planned for the following platforms:
+Integrasi saat ini direncanakan untuk platform berikut:
 
 {% page-ref page="aave.md" %}
 
@@ -22,9 +22,9 @@ Integrations are currently planned for the following platforms:
 
 {% page-ref page="yearn.finance.md" %}
 
-Although DeFi has grown very quickly and there are now billions of dollars worth of value deposited on these platforms, several of these projects are still in beta and are highly experimental. There may be hidden vulnerabilities in the smart contracts that power these platforms, and there have been multi-million dollar losses caused by vulnerabilities in Ethereum applications in the past.
+Meskipun DeFi telah berkembang sangat cepat dan sekarang ada nilai miliaran dolar yang disimpan di platform ini, beberapa dari proyek ini masih dalam versi beta dan sangat eksperimental. Mungkin ada kerentanan tersembunyi dalam kontrak pintar yang memberdayakan platform ini, dan ada kerugian jutaan dolar yang disebabkan oleh kerentanan dalam aplikasi Ethereum di masa lalu.
 
-We closely monitor security events on the platforms we support and will immediately move to secure OUSD holder funds if we identify any threats.
+Kami memantau dengan cermat peristiwa keamanan pada platform yang kami dukung dan akan segera bergerak untuk mengamankan dana pemegang OUSD jika kami mengidentifikasi ancaman apa pun.
 
 
 
