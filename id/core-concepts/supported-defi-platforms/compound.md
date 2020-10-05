@@ -1,19 +1,19 @@
 # Compound
 
-Compound is a lending protocol and platform built on Ethereum and launched in September 2018. Users can earn compounding interest on or borrow assets against collateral. Each supported asset is aggregated in its own liquidity pool and interest rates are adjusted automatically based on supply and demand.
+Compound adalah protokol dan platform peminjaman yang dibangun di atas Ethereum dan diluncurkan pada September 2018. Pengguna di Aave bisa mendapatkan bunga majemuk atau meminjam aset dengan jaminan. Setiap aset yang didukung digabungkan dalam kumpulan likuiditasnya sendiri dan suku bunga disesuaikan secara otomatis berdasarkan penawaran dan permintaan.
 
-Collateral balances are represented by ERC-20 cTokens, which automatically accrue interest and increase in value over time relative to the underlying asset they represent. Users can borrow assets against the value of their cTokens. cTokens are freely transferable and can be used on many other DeFi protocols. cTokens can be redeemed for their underlying collateral at any time.
+Saldo agunan diwakili oleh ERC-20 cTokens, yang secara otomatis menghasilkan bunga dan peningkatan nilai dari waktu ke waktu relatif terhadap aset pokok yang mereka wakili. Pengguna dapat meminjam aset terhadap aTokens mereka. cTokens dapat ditransfer secara bebas dan dapat digunakan pada banyak protokol DeFi lainnya. aTokens dapat ditukar dengan jaminan yang mendasarinya kapan saja.
 
-Compound is governed by COMP, an ERC-20 governance token. COMP holders can propose and vote on protocol changes or delegate their votes to someone else. COMP tokens are awarded pro rata to users of the protocol daily, split equally between borrowers and lenders. A large portion of the COMP token supply was retained by the Compound team, investors, and advisors.
+Compound diatur oleh COMP, token tata kelola ERC-20. Pemegang COMP dapat mengusulkan dan memberikan suara pada perubahan protokol atau mendelegasikan suara mereka kepada orang lain. Token COMP diberikan secara pro rata kepada pengguna protokol setiap hari, dibagi rata antara peminjam dan pemberi pinjaman. Sebagian besar pasokan token COMP disimpan oleh tim Compound, investor, dan penasihat.
 
-Compound's total value locked \(TVL\) has quickly grown to nearly $800 million, making it one of the largest DeFi protocols. COMP has a circulating market cap of over $500 million.
+Nilai total Compound yang dikunci \ (TVL \) dengan cepat berkembang menjadi hampir $ 800 juta, menjadikannya salah satu protokol DeFi terbesar. COMP memiliki kapitalisasi pasar yang beredar lebih dari $ 500 juta.
 
-Compound has undergone multiple security audits by OpenZeppelin and Trail of Bits. The Compound protocol was formally verified by CertiK and has undergone economic stress testing by Gauntlet. Compound maintains a bug bounty program.
+Compound telah menjalani beberapa audit keamanan oleh OpenZeppelin dan Trail of Bits. Protokol Compound secara resmi diverifikasi oleh CertiK dan telah menjalani uji tekanan ekonomi oleh Gauntlet. Compound memelihara program bug bounty.
 
-| Resources      |                                                                                                                |
-|:-------------- |:-------------------------------------------------------------------------------------------------------------- |
-| Official site  | [https://compound.finance/](https://compound.finance/)                                                         |
-| Developer docs | [https://compound.finance/docs](https://compound.finance/docs)                                                 |
-| GitHub         | [https://github.com/compound-finance/compound-protocol](https://github.com/compound-finance/compound-protocol) |
-| Discord        | [https://discord.com/invite/cU7vmVW](https://discord.com/invite/cU7vmVW)                                       |
+| Sumber             |                                                                                                                |
+|:------------------ |:-------------------------------------------------------------------------------------------------------------- |
+| Situs resmi        | [https://compound.finance/](https://compound.finance/)                                                         |
+| Dokumen pengembang | [https://compound.finance/docs](https://compound.finance/docs)                                                 |
+| GitHub             | [https://github.com/compound-finance/compound-protocol](https://github.com/compound-finance/compound-protocol) |
+| Discord            | [https://discord.com/invite/cU7vmVW](https://discord.com/invite/cU7vmVW)                                       |
 
