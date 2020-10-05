@@ -4,7 +4,7 @@
 
 OUSD è un progetto interamente open source e accogliamo con piacere contributi di ogni tipo. Ci sono molti modi per aiutare, segnalando problemi, contribuendo allo sviluppo di codice, e aiutandoci a migliorare la nostra community.
 
-We work in public and our company Discord is open to all. If you have questions or need help getting started, our Discord OUSD channels are the best place to get assistance from our team and community.
+Noi lavoriamo in pubblico e la nostra azienda è su Discord ed è aperta a tutti. Se hai domande o hai bisogno di aiuto per iniziare, i nostri canali OUSD su Discord sono il posto migliore per ricevere assistenza dal nostro team e dalla nostra community.
 
 #### Development Process
 
