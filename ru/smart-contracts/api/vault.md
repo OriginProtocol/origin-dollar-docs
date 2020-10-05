@@ -147,11 +147,11 @@ Returns the exchange rate price of a stable coin specified by the `symbol` param
 
 **`function priceUSDRedeem(string symbol)`**‌‌
 
-Returns the exchange rate price of a stable coin specified by the `symbol` parameters used when redeeming OUSD represented by `uint256` type. Resulting number has 18 decimal spaces.
+Returns the exchange rate price of a stable coin specified by the `symbol` parameters used when redeeming OUSD represented by `uint256` type. Полученное число состоит из 18 десятичных знаков.
 
-| Parameter Name | Type   | Description              |
-|:-------------- |:------ |:------------------------ |
-| symbol         | string | Symbol of the stablecoin |
+| Имя параметра | Тип    | Описание           |
+|:------------- |:------ |:------------------ |
+| символ        | строка | Символ стейблкоина |
 
 ### priceAssetUSDMint\(\)‌ <a id="issupportedasset-3"></a>
 
