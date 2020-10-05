@@ -157,19 +157,19 @@ Returns the exchange rate price of a stable coin specified by the `symbol` param
 
 **`function priceAssetUSDMint(address _asset)`**‌‌
 
-Returns the exchange rate price of a stable coin specified by the `_asset` parameters used when minting OUSD represented by `uint256` type. Resulting number has 18 decimal spaces.
+Возвращает курс обмена стейблкоина, заданный параметрами `_asset` используемыми при производстве OUSD, представленных типом `uint256`. Полученное число состоит из 18 десятичных знаков.
 
-| Parameter Name | Type    | Description                |
-|:-------------- |:------- |:-------------------------- |
-| \_asset      | address | Address of the stablecoin‌ |
+| Имя параметра | Тип   | Описание           |
+|:------------- |:----- |:------------------ |
+| \_asset     | адрес | Адрес стейблкоина‌ |
 
 ### priceAssetUSDRedeem\(\)‌ <a id="issupportedasset-3-1"></a>
 
 **`function priceAssetUSDRedeem(address _asset)`**‌‌‌
 
-Returns the exchange rate price of a stable coin specified by the `_asset` parameters used when redeeming OUSD represented by `uint256` type. Resulting number has 18 decimal spaces.
+Возвращает курс обмена стейблкоина, заданный параметрами `_asset` используемыми при выкупе OUSD, представленных типом `uint256`. Полученное число состоит из 18 десятичных знаков.
 
-| Parameter Name | Type    | Description               |
-|:-------------- |:------- |:------------------------- |
-| \_asset      | address | Address of the stablecoin |
+| Имя параметра | Тип     | Описание                  |
+|:------------- |:------- |:------------------------- |
+| \_asset     | address | Address of the stablecoin |
 
