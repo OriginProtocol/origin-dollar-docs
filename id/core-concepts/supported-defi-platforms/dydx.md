@@ -1,25 +1,25 @@
 # dYdX
 
 {% hint style="info" %}
-Coming soon. DyDx has not yet been integrated.
+Akan segera hadir. DyDx belum terintegrasi.
 {% endhint %}
 
-dYdX is a trading and lending protocol and platform built on Ethereum and launched in May 2019. Users can trade assets on dYdX's non-custodial, decentralized exchange or participate in borrowing and lending. The lending protocol enables margin and futures trading. Interest rates are adjusted based on supply and demand and only short term loans are offered.
+dYdX adalah protokol dan platform perdagangan dan peminjaman yang dibangun di atas Ethereum dan diluncurkan pada Mei 2019. Pengguna dapat memperdagangkan aset di bursa non-kustodian dYdX, perdagangan desentralisasi, atau berpartisipasi dalam meminjam dan meminjamkan. Protokol peminjaman memungkinkan perdagangan margin dan berjangka. Suku bunga disesuaikan berdasarkan penawaran dan permintaan dan hanya pinjaman jangka pendek yang ditawarkan.
 
-Liquidity for assets available for borrowing and lending are pooled together by asset type. Interest paid to lenders is accrued automatically and borrowers must put up collateral to take out a loan.
+Likuiditas untuk aset yang tersedia untuk meminjam dan dipinjamkan disatukan berdasarkan jenis aset. Bunga yang dibayarkan kepada pemberi pinjaman diakru secara otomatis dan peminjam harus memberikan jaminan untuk mengambil pinjaman.
 
-dYdX also supports flash loans, which are uncollateralized loans where users borrow and repay the balance of the loan in a single transaction, meaning flash loan users do not need to put up any initial capital. Flash loans are a complex product aimed at developers and can be used to arbitrage across multiple DeFi protocols.
+dYdX juga mendukung pinjaman cepat, yaitu pinjaman tanpa jaminan di mana pengguna meminjam dan membayar kembali saldo pinjaman dalam satu transaksi, yang berarti pengguna pinjaman kilat tidak perlu menyiapkan modal awal. Pinjaman cepat adalah produk kompleks yang ditujukan untuk pengembang dan dapat digunakan untuk arbitrase di beberapa protokol DeFi.
 
-dYdX has around $40 million in total value locked \(TVL\) at the time of this writing. dYdX does not have a native token.
+dYdX memiliki total nilai sekitar $ 40 juta yang dikunci \ (TVL \) pada saat penulisan ini. dYdX tidak memiliki token asli.
 
-dYdX has undergone security audits by OpenZeppelin and Bramah Systems.
+dYdX telah menjalani audit keamanan oleh OpenZeppelin dan Bramah Systems.
 
-| Resources      |                                                                      |
-|:-------------- |:-------------------------------------------------------------------- |
-| Official site  | [https://dydx.exchange/](https://dydx.exchange/)                     |
-| Developer docs | [https://docs.dydx.exchange/](https://docs.dydx.exchange/)           |
-| GitHub         | [https://github.com/dydxprotocol/](https://github.com/dydxprotocol/) |
-| Discord        | [https://discord.gg/yah42Rb](https://discord.gg/yah42Rb)             |
+| Sumber             |                                                                      |
+|:------------------ |:-------------------------------------------------------------------- |
+| Situs resmi        | [https://dydx.exchange/](https://dydx.exchange/)                     |
+| Dokumen pengembang | [https://docs.dydx.exchange/](https://docs.dydx.exchange/)           |
+| GitHub             | [https://github.com/dydxprotocol/](https://github.com/dydxprotocol/) |
+| Discord            | [https://discord.gg/yah42Rb](https://discord.gg/yah42Rb)             |
 
 
 
