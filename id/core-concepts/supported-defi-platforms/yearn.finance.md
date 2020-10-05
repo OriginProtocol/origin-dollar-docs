@@ -1,25 +1,25 @@
 # Yearn.finance
 
 {% hint style="info" %}
-Coming soon. Yearn.finance has not yet been integrated.
+Akan segera hadir. Yearn.finance belum terintegrasi.
 {% endhint %}
 
-Yearn.finance, formerly iEarn.finance, is a yield aggregation platform built on Ethereum and launched in January 2020 by Andre Cronje. Yearn manages yield farming and rebalancing strategies using a combination of automation and human decision making on behalf of users who have deposited capital.
+Yearn.finance, sebelumnya iEarn.finance, adalah platform agregasi hasil yang dibangun di atas Ethereum dan diluncurkan pada Januari 2020 oleh Andre Cronje. Yearn mengelola pertanian hasil dan strategi penyeimbangan kembali menggunakan kombinasi otomatisasi dan pengambilan keputusan manusia atas nama pengguna yang telah menyetor modal.
 
-Yearn has two yield aggregation products, Earn and Vaults. Earn allows users to deposit stablecoins or wrapped BTC into liquidity pools on Curve to earn fees and governance token rewards. These assets are also lent out on platforms offering high yield and token rewards, adding to the yield earned.
+Yearn memiliki dua produk agregasi hasil, Earn dan Vaults. Earn memungkinkan pengguna untuk menyetor stablecoin atau wrapped BTC ke dalam kumpulan likuiditas di Curve untuk mendapatkan biaya dan imbalan token tata kelola. Aset-aset ini juga dipinjamkan pada platform yang menawarkan hasil tinggi dan hadiah token, menambah hasil yang diperoleh.
 
-Vaults offer a more automated and managed experience. Users deposit assets such as LINK, Curve liquidity provider tokens, or stablecoins and the Vault pools these assets together and deploys the highest earning yield farming strategy as deemed safe by the community and Andre Cronje. Governance tokens earned as rewards are sold off for the original asset deposited and combined with other fees and automatically rolled into the Vault to compound yield. Strategies can be changed frequently and pooling assets together saves gas costs for users.
+Vaults menawarkan pengalaman yang lebih otomatis dan terkelola. Pengguna menyimpan aset seperti LINK, token penyedia likuiditas Curve, atau stablecoin, dan Vault mengumpulkan aset-aset ini bersama-sama dan meluncurkan strategi pertanian dengan pendapatan tertinggi yang dianggap aman oleh komunitas dan Andre Cronje. Token tata kelola yang diperoleh sebagai hadiah dijual untuk aset asli yang disimpan dan digabungkan dengan biaya lain dan secara otomatis dimasukkan ke dalam Vault untuk menghasilkan hasil gabungan. Strategi dapat sering diubah dan mengumpulkan aset akan menghemat biaya gas bagi pengguna.
 
-Yearn is governed by YFI, an ERC-20 governance token. YFI holders can vote on protocol changes after agreeing to lock up their YFI for 3 days. YFI can also be staked for yield in the governance portal. This yield comes from fees charged to users on Yearn products. YFI was distributed entirely to liquidity providers on Curve and Balancer. There was no allocation for team members or investors.
+Yearn diatur oleh YFI, token tata kelola ERC-20. Pemegang YFI dapat memberikan suara pada perubahan protokol setelah setuju untuk mengunci YFI mereka selama 3 hari. YFI juga dapat dipertaruhkan untuk mendapatkan hasil di portal tata kelola. Hasil ini berasal dari biaya yang dibebankan kepada pengguna pada produk Yearn. YFI didistribusikan sepenuhnya kepada penyedia likuiditas di Curve dan Balancer. Tidak ada alokasi untuk anggota tim atau investor.
 
-Yearn's total value locked \(TVL\) has quickly grown to over $800 million, making it one of the largest DeFi platforms. YFI has a circulating market cap of over $400 million.
+Nilai total Yearn yang dikunci \ (TVL \) dengan cepat berkembang menjadi lebih dari $ 800 juta, menjadikannya salah satu platform DeFi terbesar. YFI memiliki kapitalisasi pasar yang beredar lebih dari $ 400 juta.
 
-Yearn has undergone multiple security and smart contract audits by CertiK, Quantstamp, HackMD, and CryptoManiacs. Yearn has a reputation for launching experimental products very quickly and warns users that their products are in beta.
+Yearn telah menjalani beberapa audit keamanan dan kontrak pintar oleh CertiK, Quantstamp, HackMD, dan CryptoManiacs. Yearn memiliki reputasi untuk meluncurkan produk eksperimental dengan sangat cepat dan memperingatkan pengguna bahwa produk mereka dalam versi beta.
 
-| Resources      |                                                                      |
-|:-------------- |:-------------------------------------------------------------------- |
-| Official site  | [https://yearn.finance/](https://yearn.finance/)                     |
-| Developer docs | [https://docs.yearn.finance/](https://docs.yearn.finance/)           |
-| GitHub         | [https://github.com/iearn-finance](https://github.com/iearn-finance) |
-| Discord        | [https://discord.gg/uTmHe8r](https://discord.gg/uTmHe8r)             |
+| Sumber             |                                                                      |
+|:------------------ |:-------------------------------------------------------------------- |
+| Situs resmi        | [https://yearn.finance/](https://yearn.finance/)                     |
+| Dokumen pengembang | [https://docs.yearn.finance/](https://docs.yearn.finance/)           |
+| GitHub             | [https://github.com/iearn-finance](https://github.com/iearn-finance) |
+| Discord            | [https://discord.gg/uTmHe8r](https://discord.gg/uTmHe8r)             |
 
