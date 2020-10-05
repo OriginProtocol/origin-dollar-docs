@@ -33,11 +33,11 @@ Well-known addresses \(often proxy wrappers\):
 {% endtab %}
 
 {% tab title="Strategies" %}
-[Well-known addresses \(proxy wrappers\):](https://etherscan.io/address/0x52BEBd3d7f37EC4284853Fd5861Ae71253A7F428)
+[Общеизвестные адреса \(прокси оболочки\):](https://etherscan.io/address/0x52BEBd3d7f37EC4284853Fd5861Ae71253A7F428)
 
-| [Strategy](https://etherscan.io/address/0x52BEBd3d7f37EC4284853Fd5861Ae71253A7F428) | [Address](https://etherscan.io/address/0x52BEBd3d7f37EC4284853Fd5861Ae71253A7F428)                                    | [Current Allocation](https://etherscan.io/address/0x52BEBd3d7f37EC4284853Fd5861Ae71253A7F428) |
-|:----------------------------------------------------------------------------------- |:--------------------------------------------------------------------------------------------------------------------- |:--------------------------------------------------------------------------------------------- |
-| [Compound](https://etherscan.io/address/0x52BEBd3d7f37EC4284853Fd5861Ae71253A7F428) | [0x47211B1D1F6Da45aaEE06f877266E072Cf8BaA74](https://etherscan.io/address/0x52BEBd3d7f37EC4284853Fd5861Ae71253A7F428) | [100%](https://etherscan.io/address/0x52BEBd3d7f37EC4284853Fd5861Ae71253A7F428)               |
+| [Стратегия](https://etherscan.io/address/0x52BEBd3d7f37EC4284853Fd5861Ae71253A7F428)    | [Адрес](https://etherscan.io/address/0x52BEBd3d7f37EC4284853Fd5861Ae71253A7F428)                                      | [Текущая аллокация](https://etherscan.io/address/0x52BEBd3d7f37EC4284853Fd5861Ae71253A7F428) |
+|:--------------------------------------------------------------------------------------- |:--------------------------------------------------------------------------------------------------------------------- |:-------------------------------------------------------------------------------------------- |
+| [Накапливание](https://etherscan.io/address/0x52BEBd3d7f37EC4284853Fd5861Ae71253A7F428) | [0x47211B1D1F6Da45aaEE06f877266E072Cf8BaA74](https://etherscan.io/address/0x52BEBd3d7f37EC4284853Fd5861Ae71253A7F428) | [100%](https://etherscan.io/address/0x52BEBd3d7f37EC4284853Fd5861Ae71253A7F428)              |
 
 [Контракты на внутреннюю реализацию:](https://etherscan.io/address/0x52BEBd3d7f37EC4284853Fd5861Ae71253A7F428)
 
