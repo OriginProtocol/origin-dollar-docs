@@ -69,71 +69,71 @@ OUSD dirancang untuk tetap dipatok pada 1 USD dan didukung 1: 1 dengan stablecoi
         <p>$ 1,22</p>
         <p>13 Maret 2020</p>
       </td>
-      <td style="text-align:left">$0.316757</td>
+      <td style="text-align:left">$ 0,316757</td>
       <td style="text-align:left"><a href="https://www.coingecko.com/en/coins/dai">CoinGecko</a>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">USDT</td>
       <td style="text-align:left">
-        <p>$0.849809</p>
-        <p>Feb 02, 2017</p>
+        <p>$ 0,849809</p>
+        <p>02 Feb 2017</p>
       </td>
       <td style="text-align:left">
-        <p>$1.21</p>
-        <p>May 27, 2017</p>
+        <p>$ 1,21</p>
+        <p>27 Mei 2017</p>
       </td>
-      <td style="text-align:left">$0.360191</td>
+      <td style="text-align:left">$ 0,360191</td>
       <td style="text-align:left"><a href="https://www.coingecko.com/en/coins/tether">CoinGecko</a>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">USDT</td>
       <td style="text-align:left">
-        <p>$0.572521</p>
-        <p>Mar 02, 2015</p>
+        <p>$ 0,572521</p>
+        <p>02 Maret 2015</p>
       </td>
       <td style="text-align:left">
-        <p>$1.32</p>
-        <p>Jul 24, 2018</p>
+        <p>$ 1,32</p>
+        <p>24 Juli 2018</p>
       </td>
-      <td style="text-align:left">$0.747479</td>
+      <td style="text-align:left">$ 0,747479</td>
       <td style="text-align:left"><a href="https://coinmarketcap.com/currencies/tether/">CoinMarketCap</a>
       </td>
     </tr>
   </tbody>
 </table>
 
-In order to mint and burn the appropriate number of OUSD on entry and exit, the smart contracts need to accurately price the USDT, USDC, and DAI that is entering and exiting the system. It also needs a reliable way of expanding the supply to distribute the interest that is earned, or contracting supply if there is a negative change in the value of the underlying assets. As a decentralized protocol, OUSD must rely on non-centralized sources for these prices.
+Untuk membuat dan membakar jumlah OUSD yang sesuai saat masuk dan keluar, kontrak pintar harus memberi harga akurat pada USDT, USDC, dan DAI yang masuk dan keluar dari sistem. Ini juga membutuhkan cara yang dapat diandalkan untuk memperluas pasokan untuk mendistribusikan bunga yang diperoleh, atau mengontrak pasokan jika ada perubahan negatif dalam nilai aset yang mendasarinya. Sebagai protokol terdesentralisasi, OUSD harus bergantung pada sumber non-sentralisasi untuk harga ini.
 
 {% hint style="info" %}
-OUSD fetches the price from multiple on-chain oracles and uses the exchange rate that is most advantageous for the pool.
+OUSD mengambil harga dari beberapa oracle on-chain dan menggunakan nilai tukar yang paling menguntungkan untuk kumpulan.
 {% endhint %}
 
-In order to prevent malicious attacks and to encourage long-term investors over short-term speculators, the OUSD contract compares price feeds from multiple sources and will use whichever exchange rate benefits the entire pool over the individual. This mechanism protects the pool's funds from arbitrageurs and prevents any individual from being able to take advantage of any temporary inefficiencies caused by mispriced oracles to deplete the shared pool of assets.
+Untuk mencegah serangan jahat dan untuk mendorong investor jangka panjang daripada spekulan jangka pendek, kontrak OUSD membandingkan umpan harga dari berbagai sumber dan akan menggunakan nilai tukar mana pun yang menguntungkan seluruh kelompok dibandingkan individu. Mekanisme ini melindungi dana kumpulan dari arbitrase dan mencegah individu mana pun untuk dapat memanfaatkan inefisiensi sementara yang disebabkan oleh oracle yang salah harga untuk menghabiskan kumpulan aset bersama.
 
-This protects the funds in the pool while rewarding long-term holders. Since the safest price depends on the direction of the trade, the Origin oracle exposes both a `priceUSDMint()` and a `priceUSDRedeem()`. The rebasing function utilizes the `priceUSDMint()` for consistency.
+Ini melindungi dana di kumpulan sambil memberi penghargaan kepada pemegang jangka panjang. Karena harga paling aman tergantung pada arah perdagangan, oracle Origin menghadapkan kedua `priceUSDMint ()` dan `priceUSDRedeem ()`. Fungsi rebasing menggunakan `priceUSDMint ()` untuk konsistensi.
 
-Here is the initial set of oracles that are being used by OUSD:
+Berikut adalah set oracle awal yang digunakan oleh OUSD:
 
-{% embed url="https://compound.finance/docs/prices" caption="" %}
+{% embed url = "https://compound.finance/docs/prices" caption = ""%}
 
-{% embed url="https://feeds.chain.link/eth-usd" caption="" %}
+{% embed url = "https://feeds.chain.link/eth-usd" caption = ""%}
 
-The following oracles have been implemented, but are not currently being used due to gas costs:
+Oracle berikut telah diterapkan, tetapi saat ini tidak digunakan karena biaya gas:
 
-{% embed url="https://uniswap.org/docs/v2/core-concepts/oracles/" caption="" %}
+{% embed url = "https://uniswap.org/docs/v2/core-concepts/oracles" caption = ""%}
 
 {% tabs %}
-{% tab title="DAI/USD" %}
-The following oracles are used to fetch or compute a price for **DAI/USD:**
+{% tab title = "USDT / USD"%}
+Oracle berikut digunakan untuk mengambil atau menghitung harga **DAI / USD:**
 
-| Oracle          | Pair      | Contract                                     |
-|:--------------- |:--------- |:-------------------------------------------- |
-| Open Price Feed | DAI/USD   | 0xc629c26dced4277419cde234012f8160a0278a79   |
-| Chainlink       | DAI/USD   | 0xa7D38FBD325a6467894A13EeFD977aFE558bC1f0   |
-| Chainlink       | DAI/ETH   | 0x037E8F2125bF532F3e228991e051c8A7253B642c   |
-| _Uniswap v2_    | _DAI/ETH_ | _0xA478c2975Ab1Ea89e8196811F51A7B7Ade33eB11_ |
+| Oracle           | Pasangan    | Kontrak                                      |
+|:---------------- |:----------- |:-------------------------------------------- |
+| Buka Umpan Harga | DAI / USD   | 0xc629c26dced4277419cde234012f8160a0278a79   |
+| Rantai           | DAI / USD   | 0xa7D38FBD325a6467894A13EeFD977aFE558bC1f0   |
+| Rantai           | DAI / ETH   | 0x037E8F2125bF532F3e228991e051c8A7253B642c   |
+| _Uniswap v2_     | _DAI / ETH_ | _0xA478c2975Ab1Ea89e8196811F51A7B7Ade33eB11_ |
 {% endtab %}
 
 {% tab title = "USDT / USD"%}
