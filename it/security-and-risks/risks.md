@@ -1,12 +1,12 @@
 # Rischi
 
 {% hint style="danger" %}
-The OUSD smart contracts have not yet been audited. We strongly recommend reviewing our smart contracts before depositing significant amounts of capital.
+Gli smart contract OUSD non sono stati ancora revisionati. Consigliamo vivamente di rivedere i nostri smart contract prima di depositare importi significativi di capitale.
 {% endhint %}
 
-As with any interest-bearing instrument. there are associated risks with holding OUSD that are important to understand. These risks can be broadly classified into 3 categories:
+Come con qualsiasi strumento fruttifero ci sono rischi associati alla detenzione di OUSD, che è fondamentale comprendere. Questi rischi possono essere sommariamente classificati in 3 categorie:
 
-* Smart contract risk
+* Rischi da smart contract
 * Underlying platform risk
 * Underlying stablecoin risk
 
