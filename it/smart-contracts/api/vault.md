@@ -109,7 +109,7 @@ Restituisce il numero di stablecoin supportate rappresentate dal tipo `uint256`
 
 **`function getAllAssets()`**
 
-Return all assets addresses of supported stablecoin assets in order represented by `uint256` type.‌
+Restituisce, in ordine, tutti gli indirizzi delle stablecoin supportate, ed è rappresentato dal tipo ` uint256`
 
 ### getStrategyCount\(\)‌ <a id="getstrategycount"></a>
 
@@ -121,13 +121,13 @@ Restituisce il numero delle strategie attive nel Vault, ed è rappresentato dal 
 
 **`function getAPR()`**
 
-Return the total annual percentage yield \(APR\) of the Vault and all Strategies represented by `uint256` type. Resulting number has 18 decimal spaces.‌
+Restituisce il rendimento totale annuo \(APR\) del Vault e di tutte le strategie, ed è rappresentato dal tipo ` uint256`. Resulting number has 18 decimal spaces.‌
 
 ### isSupportedAsset\(\) <a id="issupportedasset"></a>
 
 **`function isSupportedAsset(address _asset)`**‌
 
-Return the boolean that is true if the asset specified by the `_asset` parameter is supported by the Vault.
+Restituisce il valore boolean true se l'asset specificato dal parametro `_asset` è supportato dal Vault.
 
 | Nome del Parametro | Tipo    | Descrizione                |
 |:------------------ |:------- |:-------------------------- |
@@ -137,7 +137,7 @@ Return the boolean that is true if the asset specified by the `_asset` parameter
 
 **`function priceUSDMint(string symbol)`**‌‌
 
-Returns the exchange rate price of a stable coin specified by the `symbol` parameters used when minting OUSD represented by `uint256` type. Resulting number has 18 decimal spaces.
+Restituisce il prezzo del tasso di cambio della stablecoin specificata dal parametro `symbol`, che viene utilizzata per coniare gli OUSD, ed è rappresentato dal tipo ` uint256`. Il numero risultante ha 18 cifre decimali.
 
 | Nome del Parametro | Tipo   | Descrizione              |
 |:------------------ |:------ |:------------------------ |
@@ -147,7 +147,7 @@ Returns the exchange rate price of a stable coin specified by the `symbol` param
 
 **`function priceUSDRedeem(string symbol)`**‌‌
 
-Returns the exchange rate price of a stable coin specified by the `symbol` parameters used when redeeming OUSD represented by `uint256` type. Resulting number has 18 decimal spaces.
+Restituisce il prezzo del tasso di cambio della stablecoin specificata dal parametro `symbol`, che viene utilizzata per riscattare gli OUSD, ed è rappresentato dal tipo ` uint256`. Il numero risultante ha 18 cifre decimali.
 
 | Nome del Parametro | Tipo   | Descrizione              |
 |:------------------ |:------ |:------------------------ |
@@ -157,7 +157,7 @@ Returns the exchange rate price of a stable coin specified by the `symbol` param
 
 **`function priceAssetUSDMint(address _asset)`**‌‌
 
-Returns the exchange rate price of a stable coin specified by the `_asset` parameters used when minting OUSD represented by `uint256` type. Resulting number has 18 decimal spaces.
+Restituisce il prezzo del tasso di cambio della stablecoin specificata dal parametro ` _asset `, che viene utilizzata per coniare gli OUSD, ed è rappresentato dal tipo ` uint256`. Il numero risultante ha 18 cifre decimali.
 
 | Nome del Parametro | Tipo    | Descrizione                 |
 |:------------------ |:------- |:--------------------------- |
@@ -167,7 +167,7 @@ Returns the exchange rate price of a stable coin specified by the `_asset` param
 
 **`function priceAssetUSDRedeem(address _asset)`**‌‌‌
 
-Returns the exchange rate price of a stable coin specified by the `_asset` parameters used when redeeming OUSD represented by `uint256` type. Resulting number has 18 decimal spaces.
+Restituisce il prezzo del tasso di cambio della stablecoin specificata dal parametro ` _asset `, che viene utilizzata per riscattare gli OUSD, ed è rappresentato dal tipo ` uint256`. Il numero risultante ha 18 cifre decimali.
 
 | Nome del Parametro | Tipo    | Descrizione                |
 |:------------------ |:------- |:-------------------------- |
