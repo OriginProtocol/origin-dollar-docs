@@ -7,12 +7,12 @@ Gli smart contract OUSD non sono stati ancora revisionati. Consigliamo vivamente
 Come con qualsiasi strumento fruttifero ci sono rischi associati alla detenzione di OUSD, che è fondamentale comprendere. Questi rischi possono essere sommariamente classificati in 3 categorie:
 
 * Rischi da smart contract
-* Underlying platform risk
-* Underlying stablecoin risk
+* Rischi da piattaforma sottostante
+* Rischi da stablecoin sottostante
 
-**Smart contract risk**
+**Rischi da smart contract**
 
-Our smart contracts have not yet been audited, and even with a formal audit, it is still possible for there to be logic errors that would lead to the loss of funds for OUSD holders. The contracts involve complex math and logic that may or may not be correct. Origin Protocol will not be held responsible for any loss of funds, regardless of who is at fault.
+I nostri smart contract, non sono stati ancora revisionati, e anche con un audit formale, sarebbe comunque ancora possibile che possano verificarsi errori logici che poreterebbero alla perdita di fondi per i titolari di OUSD. I contratti si compongono di matematica complessa e logica e potrebbero essere corretti oppure no. Origin Protocol will not be held responsible for any loss of funds, regardless of who is at fault.
 
 **Platform risk**
 
