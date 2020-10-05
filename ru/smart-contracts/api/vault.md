@@ -85,63 +85,63 @@ Returns the balance of an asset specified by the`_asset` parameter held in Vault
 
 **`function calculateRedeemOutputs(uint256 _amount)`**‌
 
-Calculate the mix of stablecoins that a `redeem` function would return when redeeming certain amount of OUSD specified by the `_amount` parameter. Returns an array of stablecoin values.
+Calculate the mix of stablecoins that a `redeem` function would return when redeeming certain amount of OUSD specified by the `_amount` parameter. Возвращает массив значений стейблкоинов.
 
-To attribute the stablecoin values to the correct stablecoin currency this call should be used in conjunction with `getAllAssets` function that returns an array of stablecoin addresses.
+Чтобы соотносить стоимость стейблкоина с правильным курсом стейблкоина, этот вызов функции следует использовать вместе с функцией `getAllAssets`, которая возвращает массив адресов стейблкоина.
 
-The index of an array that is returned by the `calculateRedeemOutputs` corresponds to the stablecoin address with the same index in an array returned by the `getAllAssets` function.
+Индекс массива, возвращаемый функцией `calculateRedeemOutputs` соответствует адресу стейблкоина с таким же индексом в массиве, возвращаемым функцией `getAllAssets`.
 
-| Parameter Name | Type    | Description                               |
-|:-------------- |:------- |:----------------------------------------- |
-| \_amount     | uint256 | amount of OUSD expressed in decimal units |
+| Имя параметра | Тип     | Описание                                     |
+|:------------- |:------- |:-------------------------------------------- |
+| \_amount    | uint256 | сумма OUSD, выраженная в десятичных единицах |
 
-| `return` name | Type          | Description                                                                 |
-|:------------- |:------------- |:--------------------------------------------------------------------------- |
-| outputs       | uint256\[\] | array of the amount of the stablecoin assets `redeem` function would return |
+| `return` name | Тип           | Описание                                                  |
+|:------------- |:------------- |:--------------------------------------------------------- |
+| outputs       | uint256\[\] | массив суммы активов стейблкоина `redeem`, функция вернет |
 
 ### getAssetCount\(\) <a id="getassetcount"></a>
 
 **`function getAssetCount()`**‌
 
-Return the number of supported stablecoin assets represented by `uint256` type.‌
+Возвращает количество поддерживаемых активов стейблкоина, представленное типом `uint256`
 
 ### getAllAssets\(\) <a id="getallassets"></a>
 
 **`function getAllAssets()`**‌
 
-Return all assets addresses of supported stablecoin assets in order represented by `uint256` type.‌
+Возвращает адреса балансов всех поддерживаемых стейблкоинов, представленных типом `uint256`
 
 ### getStrategyCount\(\)‌ <a id="getstrategycount"></a>
 
 **`function getStrategyCount()`**‌
 
-Return the number of strategies active on the Vault represented by `uint256` type.‌
+Возвращает количество активных стратегий Хранилища (Vault), представленных типом `uint256`
 
 ### getAPR\(\) <a id="getapr"></a>
 
-**`function getAPR()`**‌
+**`function getAPR()`**
 
-Return the total annual percentage yield \(APR\) of the Vault and all Strategies represented by `uint256` type. Resulting number has 18 decimal spaces.‌
+Возвращает общую годовую процентную доходность \(APR\) Хранилища (Vault) и всех стратегий, представленных типом `uint256`. Полученное число состоит из 18 десятичных знаков.‌
 
 ### isSupportedAsset\(\) <a id="issupportedasset"></a>
 
-**`function isSupportedAsset(address _asset)`**‌
+**`function isSupportedAsset(address _asset)`**
 
-Return the boolean that is true if the asset specified by the `_asset` parameter is supported by the Vault.
+Возвращает двоичное значение, которое является истиной, если актив, указанный параметром `_asset` поддерживается Хранилищем (Vault).
 
-| Parameter Name | Type    | Description               |
-|:-------------- |:------- |:------------------------- |
-| \_asset      | address | Address of the stablecoin |
+| Имя параметра | Тип   | Описание          |
+|:------------- |:----- |:----------------- |
+| \_asset     | адрес | Адрес стейблкоина |
 
 ### priceUSDMint\(\) <a id="issupportedasset-1"></a>
 
-**`function priceUSDMint(string symbol)`**‌‌
+**`function priceUSDMint(string symbol)`**
 
-Returns the exchange rate price of a stable coin specified by the `symbol` parameters used when minting OUSD represented by `uint256` type. Resulting number has 18 decimal spaces.
+Возвращает обменный курс стейблкоина, заданный параметрами `symbol` используемыми при производстве OUSD, представленных типом `uint256`. Полученное число состоит из 18 десятичных знаков.
 
-| Parameter Name | Type   | Description              |
-|:-------------- |:------ |:------------------------ |
-| symbol         | string | Symbol of the stablecoin |
+| Имя параметра | Тип    | Описание           |
+|:------------- |:------ |:------------------ |
+| символ        | строка | Символ стейблкоина |
 
 ### priceUSDRedeem\(\) <a id="issupportedasset-2"></a>
 
