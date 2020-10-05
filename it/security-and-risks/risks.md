@@ -1,4 +1,4 @@
-# Risks
+# Rischi
 
 {% hint style="danger" %}
 The OUSD smart contracts have not yet been audited. We strongly recommend reviewing our smart contracts before depositing significant amounts of capital.
