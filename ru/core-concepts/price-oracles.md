@@ -104,7 +104,7 @@ OUSD is designed to stay pegged at 1 USD and be 1:1 backed with its underlying s
   </tbody>
 </table>
 
-Чтобы создать и сжечь соответствующее количество OUSD при входе и выходе, смарт-контракты должны точно определять цену на USDT, USDC и DAI, которые входят в систему и выходят из нее. It also needs a reliable way of expanding the supply to distribute the interest that is earned, or contracting supply if there is a negative change in the value of the underlying assets. As a decentralized protocol, OUSD must rely on non-centralized sources for these prices.
+Чтобы создать и сжечь соответствующее количество OUSD при входе и выходе, смарт-контракты должны точно определять цену на USDT, USDC и DAI, которые входят в систему и выходят из нее. Также необходим надежный способ увеличения предложения для распределения заработанных процентов или предложения по контрактам, если есть отрицательное изменение стоимости базовых активов. Как децентрализованный протокол, OUSD должен полагаться на децентрализованные источники этих цен.
 
 {% hint style="info" %}
 OUSD fetches the price from multiple on-chain oracles and uses the exchange rate that is most advantageous for the pool.
