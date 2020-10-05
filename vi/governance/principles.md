@@ -1,4 +1,4 @@
-# Principles
+# Nguyên tắc
 
 **Progressive Decentralization**
 
