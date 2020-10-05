@@ -5,29 +5,29 @@
 Le Bug Bounties sono garantite a totale discrezione di Origin Protocol. Le ricompense variano in dimensioni da **100$** per piccoli problemi, fino a **250.000** per le vulnerabilità più gravi. Attualmente, il programma di bounty si applica solo a OUSD e non agli altri prodotti di Origin.
 
 {% hint style="warning" %}
-In order to be eligible for a bug bounty, you must follow the rules of Responsible Disclosure outlined below.
+Per poter beneficiare della bug bounty, è necessario seguire le regole della divulgazione responsabile descritte di seguito.
 {% endhint %}
 
-**Responsible Disclosure**
+**Divulgazione responsabile**
 
-Security is our top priority and we've taken every effort to make sure our code is secure and works as intended. However, it's completely possible that vulnerabilities both large and small may have gone undetected.
+La sicurezza è la nostra massima priorità e abbiamo fatto ogni sforzo per assicurarci che il nostro codice sia protetto e funzioni come previsto. Tuttavia, è del tutto possibile che delle vulnerabilità, grandi o piccole, possano essere passate inosservate.
 
-In case you discover a vulnerability, we would like to know about it immediately so we can take steps to address it as quickly as possible.
+Nel caso in cui tu scopra una vulnerabilità, ci piacerebbe essere immediatamente informati in modo da poter adottare misure per porre rimedio il più rapidamente possibile.
 
-If you discover a vulnerability, please do the following:
+Se scopri una vulnerabilità, perfavore procedi come segue:
 
-* Report your findings to [security@originprotocol.com](mailto:security@originprotcol.com) or contact [Josh Fraser on Keybase](https://keybase.io/joshfraser)
-* Do not take advantage of the vulnerability or problem you have discovered
-* Do not reveal the problem to others until it has been resolved
-* Do not use attacks on physical security, social engineering, distributed denial of service, spam or applications of third parties
-* Do provide sufficient information to reproduce the problem, so we will be able to resolve it as quickly as possible. Complex vulnerabilities may require further explanation so we might ask you for additional information.
+* Segnala i tuoi risultati a[security@originprotocol.com](mailto:security@originprotcol.com) o contatta [Josh Fraser su Keybase](https://keybase.io/joshfraser)
+* Non ottenere vantaggi dalla vulnerabilità o dal problema che hai scoperto
+* Non rivelare il problema ad altri finché non è stato risolto
+* Non utilizzare attacchi alla sicurezza, ingegneria sociale, denial of service, spam o applicazioni di terze parti
+* Fornisci informazioni sufficienti per riprodurre il problema, così saremo in grado di risolverlo il più rapidamente possibile. Vulnerabilità complesse potrebbero richiedere ulteriori spiegazioni, pertanto potremmo chiederti ulteriori informazioni.
 
-In return, we promise:
+In cambio, promettiamo:
 
-* We will respond to your report within 3 business days with our evaluation of the report and an expected resolution date
-* If you have followed the instructions above, we will not take any legal action against you in regard to the report
-* We will handle your report with strict confidentiality, and not pass on your personal details to third parties without your permission
-* If you so wish we will keep you informed of the progress towards resolving the problem
-* In the public information concerning the problem reported, we will give your name as the discoverer of the problem \(unless you desire otherwise\)
-* As a token of our gratitude for your assistance, we offer a reward for every report of a security problem that was not yet known to us. The amount of the reward will be determined based on the severity of the leak, the quality of the report, and any additional assistance you provide.  
+* Risponderemo alla tua segnalazione entro 3 giorni lavorativi con la nostra valutazione a riguardo, e una data di risoluzione prevista
+* Se hai seguito le istruzioni di cui sopra, non intraprenderemo alcuna azione legale contro di te in relazione alla segnalazione
+* Tratteremo la tua segnalazione con la massima riservatezza e non trasmetteremo i tuoi dati personali a terzi senza il tuo permesso
+* Se lo desideri, ti terremo informato sui progressi di risoluzione del problema
+* Nelle informazioni pubbliche riguardanti la vulnerabilità segnalata, daremo il tuo nome in qualità di scopritore \(a meno che non desideri diversamente\)
+* In segno di gratitudine per la tua assistenza, offriamo una ricompensa per ogni segnalazione di un problema di sicurezza che non era ancora noto. L'importo della ricompensa verrà determinato in base alla gravità della vulnerabilità, la qualità del report e a all'assistenza ulteriore da te fornita.  
 
