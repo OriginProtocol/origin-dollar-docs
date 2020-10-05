@@ -13,29 +13,29 @@ description: >-
 
 Создает OUSD в обмен на депозит определенного количества `__amount` стейблкоинов, указанных параметром `_asset`. Вызывающий функцию получает определенную сумму OUSD в зависимости от **курса обмена**.
 
-| Имя параметра | Тип     | Описание                                                                                                                                           |
-|:------------- |:------- |:-------------------------------------------------------------------------------------------------------------------------------------------------- |
-| \_asset     | address | Address of the [supported](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/core-concepts/supported-assets) stablecoin |
-| \_amount    | uint256 | amount deposited, expressed in decimal units                                                                                                       |
+| Имя параметра | Тип     | Описание                                                                                                                                         |
+|:------------- |:------- |:------------------------------------------------------------------------------------------------------------------------------------------------ |
+| \_asset     | адрес   | Адрес [поддерживаемого](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/core-concepts/supported-assets) стейблкоина |
+| \_amount    | uint256 | сумма депозита, выраженная в десятичных единицах                                                                                                 |
 
 ### mintMultiple\(\) <a id="mintmultiple"></a>
 
-**`function mintMultiple(address[] _assets, uint256[] _amounts)`**‌
+**`function mintMultiple(address[] _assets, uint256[] _amounts)`**
 
-Mints OUSD in exchange for a deposit of multiple stablecoins in a single call. Stablecoins are specified by the `_assets` array parameter and the amounts by the `_amounts` array parameter. The caller receives a certain amount of OUSD depending on the **exchange rate**.
+Создает OUSD в обмен на депозит определенного количества разных стейблкоинов за один вызов функции. Стейблкоины указываются параметром массива `_assets` а суммы - параметром массива `_amounts`. Вызывающий функцию получает определенную сумму OUSD в зависимости от **курса обмена**.
 
-| Parameter Name | Type          | Description                                                                                                                                           |
-|:-------------- |:------------- |:----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| \_assets     | address\[\] | Addresses of the [supported](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/core-concepts/supported-assets) stablecoins |
-| \_amounts    | uint256\[\] | amounts deposited, expressed in decimal units                                                                                                         |
+| Имя параметра | Тип           | Описание                                                                                                                                          |
+|:------------- |:------------- |:------------------------------------------------------------------------------------------------------------------------------------------------- |
+| \_assets    | address\[\] | Адреса [поддерживаемых](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/core-concepts/supported-assets) стейблкоинов |
+| \_amounts   | uint256\[\] | сумма депозита, выраженная в десятичных единицах                                                                                                  |
 
 {% hint style="warning" %}
-On redemptions, it is the protocol and not the user that decides which stablecoin\(s\) are returned to the user. This decision of which coin\(s\) to return is based on the internal ratios of the assets that are being held in the vault.‌
+Во время выкупа именно протоколом, а не пользователем, принимается решение о том, какой (-ие) стейблкоин (-ы) возвращаются пользователю. Решение о том, какую монету (-ы) возвратить, основывается на внутренних соотношениях активов, которые хранятся в пуле.‌
 {% endhint %}
 
 ### redeem\(\) <a id="redeem"></a>
 
-**`function redeem(uint256 _amount)`**‌
+**`function redeem(uint256 _amount)`**
 
 OUSD specified by the `_amount` parameter is redeemed in exchange for one or multiple supported stablecoins. Amount of stablecoins received depends on the **exchange rate**.
 
