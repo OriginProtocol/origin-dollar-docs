@@ -145,9 +145,9 @@ Calculate the mix of stablecoins that a `redeem` function would return when rede
 
 ### priceUSDRedeem\(\) <a id="issupportedasset-2"></a>
 
-**`function priceUSDRedeem(string symbol)`**‌‌
+**`function priceUSDRedeem(string symbol)`**
 
-Returns the exchange rate price of a stable coin specified by the `symbol` parameters used when redeeming OUSD represented by `uint256` type. Полученное число состоит из 18 десятичных знаков.
+Возвращает обменный курс стейблкоина, заданный параметрами `symbol` используемыми при выкупе OUSD, представленных типом `uint256`. Полученное число состоит из 18 десятичных знаков.
 
 | Имя параметра | Тип    | Описание           |
 |:------------- |:------ |:------------------ |
