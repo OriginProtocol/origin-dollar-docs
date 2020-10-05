@@ -1,12 +1,12 @@
-# Admin Privileges
+# Đặc quyền của quản trị viên
 
-The OUSD smart contracts are designed to be owner upgradable.
+Các hợp đồng thông minh OUSD được thiết kế để có thể nâng cấp chủ sở hữu.
 
-At launch, the OUSD contracts are owned by a 5 of 8 Gnosis multi-sig contract which has been [audited by OpenZeppelin](https://blog.openzeppelin.com/gnosis-multisig-wallet-audit-d702ff0e2b1e/), [ConsenSys Dilligence](https://blog.gnosis.pm/the-gnosis-multisig-wallet-and-our-commitment-to-security-ce9aca0d17f6), Origin’s team, and others. The keys to this multi-sig are held by individuals with close ties to the company, and not even the Origin founders acting together have enough control to execute owner functions on their own.
+Khi ra mắt, các hợp đồng OUSD thuộc sở hữu của 5 trong 8 hợp đồng nhiều chữ ký của Gnosis đã được [kiểm toán bởi OpenZeppelin](https://blog.openzeppelin.com/gnosis-multisig-wallet-audit-d702ff0e2b1e/), [ConsenSys Dilligence](https://blog.gnosis.pm/the-gnosis-multisig-wallet-and-our-commitment-to-security-ce9aca0d17f6), nhóm của Origin và những người khác. Điểm mấu chốt của hình thức đa chữ ký này là quyền quyết định sẽ không chỉ thuộc về sáng lập viên của Origin.
 
-Soon after launch, ownership will be transferred to the timelock. This will still allow the Origin team to make changes to the protocol from their multi-sig, but with a time delay.
+Sau này, quyền sở hữu sẽ được chuyển sang hình thức khoá thời gian. Có nghĩa là admin vẫn có quyền thay đổi giao thức từ hình thức đa chữ ký nhưng sẽ có độ trễ nhất định.
 
-Having admin privileges is necessary in the early days to ensure that the protocol is secure and optimized for earning yields while minimizing risks. We expect to release multiple iterations of our smart contracts in the first several months of the protocol's existence.
+Đặc quyền quản trị viên là cần thiết trong giai đoạn đầu để đảm bảo giao thức được bảo mật và lợi nhuận được tối ưu đồng thời giảm thiểu rủi ro. Chúng tôi dự kiến sẽ tiếp tục cải tiến hợp đồng thông minh của OUSD trong vài tháng đầu.
 
-Once several upgrade cycles have been completed, we intend to transfer ownership from our company control to a decentralized governance contract, thereby allowing the community to vote and participate in future protocol updates.
+Sau khi hoàn thành một số chu kỳ nâng cấp, chúng tôi có kế hoạch chuyển quyền sở hữu từ cơ chế công ty kiểm soát sang cơ chế kiếm soát bằng hợp đồng quản trị phi tập trung, từ đó cho phép cộng đồng bỏ phiếu và tham gia vào các cập nhật giao thức trong tương lai.
 
