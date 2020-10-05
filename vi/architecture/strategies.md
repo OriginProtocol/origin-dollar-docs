@@ -1,10 +1,10 @@
-# Strategies
+# Chiến lược
 
-New strategies can be added or removed at any time to respond to new market realities and diversify risk.
+Các chiến lược mới có thể được thêm vào hoặc xóa bỏ bất kỳ lúc nào để đáp ứng với tình hình thị trường mới và đa dạng hóa rủi ro.
 
-At launch, OUSD will take advantage of a single strategy and deploy deposited capital to Compound. We intend to deploy many other strategies soon thereafter.
+Khi ra mắt, OUSD sẽ tận dụng lợi thế của một chiến lược duy nhất và triển khai gửi vốn vào Compound. Chúng tôi dự định sẽ sớm bổ sông thêm nhiều chiến lược mới.
 
-Once we migrate to decentralized governance, it is our intent for the community to propose new strategies and to vote on the appropriate weight for each strategy in the pool. We anticipate that most OUSD holders will value having some exposure to higher yield opportunities while maintaining more conservative positions for a portion of the funds.
+Khi OUSD chuyển sang chế độ quản trị phi tập trung, cộng đồng sẽ là người đề xuất các chiến lược mới và bỏ phiếu về mức độ phù hợp của từng chiến lược trong bể. Chúng tôi tin rằng rằng hầu hết người nắm giữ OUSD luôn mong muốn có được cơ hội tiếp cận với nhiều chiến lược lợi nhuận cao đồng thời đảm bảo tính an toàn cho quỹ của mình.
 
 
 
