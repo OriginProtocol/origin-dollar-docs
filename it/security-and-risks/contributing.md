@@ -1,4 +1,4 @@
-# Contributing
+# Contribuire
 
 **100% Open source**
 
@@ -8,12 +8,12 @@ Noi lavoriamo in pubblico e la nostra azienda è su Discord ed è aperta a tutti
 
 #### Processo di sviluppo
 
-Our branching strategy is similar to [GitFlow](http://nvie.com/posts/a-successful-git-branching-model/), but we do all of our development in the `master` branch and have a `stable` branch for code that has been released.
+La nostra strategia di branching è simile a quella di [ GitFlow](http://nvie.com/posts/a-successful-git-branching-model/), ma noi sviluppiamo completamente nel branch `master` e utilizziamo il branch `stable` per il codice che viene rilasciato.
 
-Your development flow should look like:
+Il tuo flusso di sviluppo dovrebbe assomigliare a:
 
-1. Find an interesting issue and communicate! Please let the `#engineering` [Discord](https://discord.gg/jyxpUSe) channel know what you want to work on.
-2. Ping a [core team member](https://github.com/orgs/OriginProtocol/teams/core/members) member on Discord and ask to be added to our [contributors team](https://github.com/orgs/OriginProtocol/teams/contributors). Otherwise, you’ll need to fork the relevant repository and push feature branches to your own fork.
+1. Trova un problema interessante e comunicalo! Informa il canale `#engineering` su [Discord](https://discord.gg/jyxpUSe) su ciò cui tu vuoi lavorare.
+2. Informa un membro del [core team](https://github.com/orgs/OriginProtocol/teams/core/members) su Discord e chiedigli di essere aggiunto al nostro [contributors team](https://github.com/orgs/OriginProtocol/teams/contributors). Altrimenti, avrai bisogno di forkare il repository pertinente e pushare i branch di riferimento al tuo fork personale.
 3. Add a comment to the issue or self-assign so we don’t have multiple contributors unintentionally working on the same task.
 4. Start with the `master` branch and check out a new feature branch unless you’re contributing to an existing feature.
 5. Follow the appropriate [coding style](https://docs.originprotocol.com/guides/getting_started/contributing.html#contributing-email-coding-style) and write some awesome code.
