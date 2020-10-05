@@ -129,9 +129,9 @@ Return the total annual percentage yield \(APR\) of the Vault and all Strategies
 
 Return the boolean that is true if the asset specified by the `_asset` parameter is supported by the Vault.
 
-| Parameter Name | Type    | Description               |
-|:-------------- |:------- |:------------------------- |
-| \_asset      | address | Address of the stablecoin |
+| Nome del Parametro | Tipo    | Descrizione                |
+|:------------------ |:------- |:-------------------------- |
+| \_asset          | address | Indirizzo della stablecoin |
 
 ### priceUSDMint\(\) <a id="issupportedasset-1"></a>
 
@@ -139,9 +139,9 @@ Return the boolean that is true if the asset specified by the `_asset` parameter
 
 Returns the exchange rate price of a stable coin specified by the `symbol` parameters used when minting OUSD represented by `uint256` type. Resulting number has 18 decimal spaces.
 
-| Parameter Name | Type   | Description              |
-|:-------------- |:------ |:------------------------ |
-| symbol         | string | Symbol of the stablecoin |
+| Nome del Parametro | Tipo   | Descrizione              |
+|:------------------ |:------ |:------------------------ |
+| symbol             | string | Simbolo della stablecoin |
 
 ### priceUSDRedeem\(\) <a id="issupportedasset-2"></a>
 
@@ -149,9 +149,9 @@ Returns the exchange rate price of a stable coin specified by the `symbol` param
 
 Returns the exchange rate price of a stable coin specified by the `symbol` parameters used when redeeming OUSD represented by `uint256` type. Resulting number has 18 decimal spaces.
 
-| Parameter Name | Type   | Description              |
-|:-------------- |:------ |:------------------------ |
-| symbol         | string | Symbol of the stablecoin |
+| Nome del Parametro | Tipo   | Descrizione              |
+|:------------------ |:------ |:------------------------ |
+| symbol             | string | Simbolo della stablecoin |
 
 ### priceAssetUSDMint\(\)‌ <a id="issupportedasset-3"></a>
 
@@ -159,9 +159,9 @@ Returns the exchange rate price of a stable coin specified by the `symbol` param
 
 Returns the exchange rate price of a stable coin specified by the `_asset` parameters used when minting OUSD represented by `uint256` type. Resulting number has 18 decimal spaces.
 
-| Parameter Name | Type    | Description                |
-|:-------------- |:------- |:-------------------------- |
-| \_asset      | address | Address of the stablecoin‌ |
+| Nome del Parametro | Tipo    | Descrizione                 |
+|:------------------ |:------- |:--------------------------- |
+| \_asset          | address | Indirizzo della stablecoin‌ |
 
 ### priceAssetUSDRedeem\(\)‌ <a id="issupportedasset-3-1"></a>
 
@@ -169,7 +169,7 @@ Returns the exchange rate price of a stable coin specified by the `_asset` param
 
 Returns the exchange rate price of a stable coin specified by the `_asset` parameters used when redeeming OUSD represented by `uint256` type. Resulting number has 18 decimal spaces.
 
-| Parameter Name | Type    | Description               |
-|:-------------- |:------- |:------------------------- |
-| \_asset      | address | Address of the stablecoin |
+| Nome del Parametro | Tipo    | Descrizione                |
+|:------------------ |:------- |:-------------------------- |
+| \_asset          | address | Indirizzo della stablecoin |
 
