@@ -2,9 +2,9 @@
 
 ![](../../.gitbook/assets/usdc-coin-bd351fb779%20%281%29.png)
 
-USD Coin \(USDC\) is a fiat-pegged stablecoin launched as a ERC-20 token on the Ethereum blockchain in October 2018. USDC is pegged to the US dollar and can easily be redeemed for US dollars.
+USD Coin (USDC) là một loại tiền ổn định có giá trị tương đương với USD được ra mắt dưới dạng token ERC-20 trên mạng Ethereum vào tháng 10 năm 2018. USDC có thể dễ dàng đổi sang đô la Mỹ.
 
-Each USDC is backed by a 1:1 ratio with the equivalent amount of fiat currency held in custodial accounts by members of Centre, a consortium founded by Circle and Coinbase. Members of Centre are regulated financial institutions based in the US. Monthly audits of reserves are published by Grant Thornton LLP.
+Mỗi USDC được hỗ trợ theo tỷ lệ 1: 1, một số tiền pháp định số lượng tiền pháp định tương đương với số USDC đang lưu hành được lưu trữ tại tài khoản ký thác bởi các thành viên của Center, một tập đoàn do Circle và Coinbase thành lập. Members of Centre are regulated financial institutions based in the US. Monthly audits of reserves are published by Grant Thornton LLP.
 
 USDC is the world's second-largest stablecoin after USDT and has quickly grown to over $1 billion in circulation. However, USDC remains far behind USDT's $12+ billion in circulation.
 
