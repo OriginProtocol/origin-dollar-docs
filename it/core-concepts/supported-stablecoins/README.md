@@ -2,9 +2,9 @@
 
 **Stablecoin supportate**
 
-It is important to understand that OUSD is only as strong as the stablecoins that are backing it. Any loss to the underlying assets will cause a similar loss to the value of OUSD.
+E' fondamentale capire che OUSD è tanto forte quanto le stablecoin che lo supportano, non di più. Qualsiasi perdita agli asset sottostanti causerà una perdita analoga al valore di OUSD.
 
-Currently, OUSD supports the following stablecoins:
+Attualmente, OUSD supporta le seguenti stablecoin:
 
 {% page-ref page="usdt.md" %}
 
@@ -12,7 +12,7 @@ Currently, OUSD supports the following stablecoins:
 
 {% page-ref page="dai.md" %}
 
-None of these stablecoins are perfect, but we selected them because of their widespread usage. While these stablecoins have lost their USD peg on multiple occasions, they have demonstrated resiliency in eventually getting back to their 1 USD targets.
+Nessuna di queste stablecoin è perfetta, ma le abbiamo selezionate per il loro utilizzo diffuso. While these stablecoins have lost their USD peg on multiple occasions, they have demonstrated resiliency in eventually getting back to their 1 USD targets.
 
 It is important to note that all these stablecoins introduce non-trivial counter-party risk. Tether, in particular, has had well-documented banking troubles and regulatory challenges. In addition, both USDT and USDC have backdoors that grant their issuers the power to freeze money in their holder's wallets. While DAI does not have any direct backdoors, it's assets can also be negatively impacted since USDC is accepted as collateral for minting DAI.
 
