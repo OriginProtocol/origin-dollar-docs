@@ -1,18 +1,18 @@
 # Aave
 
 {% hint style="info" %}
-Coming soon. Aave has not yet been integrated.
+Prossimamente. Aave non è ancora stato integrato.
 {% endhint %}
 
-Aave is a lending protocol and platform built on Ethereum and launched in January 2020 by the creators of ETHLend. Users on Aave can earn compounding interest on or borrow assets against collateral. Each supported asset is aggregated in its own liquidity pool and users can choose between a variable interest rate based on supply and demand or a fixed interest rate.
+Aave è un protocollo di prestiti e una piattaforma costruito su Ethereum e lanciato a gennaio 2020 dai creatori di ETHLend. Gli utenti di Aave possono accumulare interessi composti o prendere in prestito asset a fronte di collaterale. Ciascun asset supportato è aggregato alla propria pool di liquidità e gli utenti possono scegliere tra un tasso di interesse variabile basato sulla domanda e l'offerta o un tasso di interesse fisso.
 
-Collateral balances are represented by ERC-20 aTokens at a 1:1 ratio to the underlying assets they represent. Interest is compounded automatically and paid to lenders with aTokens, meaning lenders will steadily see their aToken balance increase over time. Users can borrow assets against their aTokens. aTokens are freely transferable and can be used on many other DeFi protocols. aTokens can be redeemed for their underlying collateral at any time.
+I saldi dei collaterali sono rappresentati da un aTokens ERC-20 in un rapporto 1:1 rispetto agli asset sottostanti che rappresentano. L'interesse è composto automaticamente e pagato ai creditori con aTokens, il che significa che i creditori vedranno costantemente il loro saldo di atoken aumentare nel corso del tempo. Gli utenti possono prendere in prestito asset a fronte dei loro aTokens. Gli aTokens sono liberamente trasferibili e possono essere utilizzati su molti altri protocolli Defi. Gli aTokens possono essere rimborsati per il collaterale sottostante in qualsiasi momento.
 
-Aave supports flash loans, which are uncollateralized loans where users borrow and repay the balance of the loan in a single transaction, meaning flash loan users do not need to put up any initial capital. Flash loans are a complex product aimed at developers and can be used to arbitrage across multiple DeFi protocols.
+Aave supporta prestiti flash, che sono prestiti non collateralizzati in cui gli utenti prendono in prestito e rimborsano il saldo del prestito in un'unica operazione, il che significa che gli utenti di prestiti flash non hanno bisogno di mettere alcun capitale iniziale. I prestiti Flash sono un prodotto complesso rivolto agli sviluppatori e possono essere utilizzati per l'arbitraggio su più protocolli Defi.
 
-Aave is currently governed by LEND, an ERC-20 token that was formerly the utility token for ETHLend. Aave has announced a transition to fully decentralized governance that includes a token swap where users exchange LEND for AAVE, a new ERC-20 governance token with staking rewards. Some AAVE will be distributed to users of the platform in a liquidity mining campaign.
+Aave è attualmente governata da LEND, un token ERC-20 che in precedenza era l'utility token per Ethlend. Aave ha annunciato una transizione verso una governance completamente decentralizzata che include uno swap di token in cui gli utenti scambiano LEND con AAVE, un nuovo token di governance ERC-20 con reward da staking. Alcuni AAVE saranno distribuiti agli utenti della piattaforma in una campagna di liquidity mining.
 
-Aave's total value locked \(TVL\) has quickly grown to over $1.2 billion, making it one of the largest DeFi protocols. LEND has a circulating market cap of over $700 million.
+Il valore totale di Aave bloccato \ (TVL\) è cresciuto rapidamente oltre gli 1,2 miliardi di dollari, rendendolo uno dei più grandi protocolli di Defi. LEND has a circulating market cap of over $700 million.
 
 Aave has undergone security audits by OpenZeppelin, Trail of Bits, and Consensys Diligence. Aave maintains a bug bounty program.
 
