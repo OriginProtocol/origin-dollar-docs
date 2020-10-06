@@ -2,21 +2,21 @@
 
 ![](../../.gitbook/assets/usdc-coin-bd351fb779%20%281%29.png)
 
-USD Coin \(USDC\) is a fiat-pegged stablecoin launched as a ERC-20 token on the Ethereum blockchain in October 2018. USDC is pegged to the US dollar and can easily be redeemed for US dollars.
+USD Coin |(USDC|) è una stablecoin ancora alle fiat lanciata come token ERC-20 sulla blockchain di Ethereum a ottobre 2018. USDC è ancorato al dollaro USA e può essere facilmente convertito in dollari USA.
 
-Each USDC is backed by a 1:1 ratio with the equivalent amount of fiat currency held in custodial accounts by members of Centre, a consortium founded by Circle and Coinbase. Members of Centre are regulated financial institutions based in the US. Monthly audits of reserves are published by Grant Thornton LLP.
+Ogni USDC è supportato in un rapporto 1: 1 con la quantità equivalente di valuta fiat detenuta in conti di custodia dai membri del Centre un consorzio fondato da Circle e Coinbase. I membri del Centre sono istituti finanziari regolamentati con sede negli Stati Uniti. Gli audit mensili delle riserve sono pubblicati da Grant Thornton LLP.
 
-USDC is the world's second-largest stablecoin after USDT and has quickly grown to over $1 billion in circulation. However, USDC remains far behind USDT's $12+ billion in circulation.
+USDC è la seconda stablecoin più grande al mondo dopo USDT ed è rapidamente cresciuta fino a superare il miliardo di dollari in circolazione. Tuttavia, USDC rimane molto indietro rispetto ai 12 miliardi di dollari di USDT in circolazione.
 
-| Key Facts     |                                                                                                                     |
-|:------------- |:------------------------------------------------------------------------------------------------------------------- |
-| Issued by     | Centre                                                                                                              |
-| Name          | USD Coin                                                                                                            |
-| Symbol        | USDC                                                                                                                |
-| Address       | [0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48](https://etherscan.io/token/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48) |
-| Decimals      | 6                                                                                                                   |
-| Official site | [https://www.centre.io/usdc](https://www.centre.io/usdc)                                                            |
-| Holders       | Over 200k addresses                                                                                                 |
+| Aspetti principali |                                                                                                                     |
+|:------------------ |:------------------------------------------------------------------------------------------------------------------- |
+| Rilasciato da      | Centre                                                                                                              |
+| Nome               | USD Coin                                                                                                            |
+| Simbolo            | USDC                                                                                                                |
+| Indirizzo          | [0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48](https://etherscan.io/token/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48) |
+| Decimali           | 6                                                                                                                   |
+| Sito ufficiale     | [https://www.centre.io/usdc](https://www.centre.io/usdc)                                                            |
+| Possessori         | Oltre 200.000 indirizzi                                                                                             |
 
 
 
