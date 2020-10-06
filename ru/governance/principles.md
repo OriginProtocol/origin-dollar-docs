@@ -16,11 +16,11 @@ OUSD разработан как децентрализованный прото
 
 **Новые и существующие стейкхолдеры**
 
-OUSD is a new project founded by Origin Protocol [team](www.originprotocol.com/team) and will be supported by the existing Origin community as well as many new stakeholders that choose to mint, hold, use, and provide liquidity for OUSD.
+OUSD - новый проект, основанный [Командой Origin Protocol](www.originprotocol.com/team), который будет поддерживаться существующим сообществом Origin, а также много новых стейкхолдеров, которые могут выбирать, что делать: создавать, держать, использовать или обеспечивать ликвидность для OUSD.
 
-In addition, we also want to ensure high participation from our existing Origin Token \(OGN\) holders, community of close to 500,000 members, and buyers/sellers on the Platform. Existing OGN holders will be able to stake their OGN to participate in governance and earn incentives for driving value to OUSD. More details will be provided in the near future.
+Мы также хотим обеспечить активное участие существующих держателей наших токенов Origin \(OGN\), сообщества, насчитывающего около 500 000 участников, а так же покупателей и продавцов на платформе. Существующие держатели OGN смогут сделать заблокировать свои OGN, чтобы участвовать в управлении и получать стимулирующие поощрения для повышения ценности OUSD. Более подробная информация будет предоставлена в ближайшее время.
 
-The strong connection between OUSD and the rest of the Origin commerce platform will fuel growth in both initiatives.
+Сильная связь между OUSD и остальной частью торговой платформы Origin будет способствовать росту обеих инициатив.
 
 
 
