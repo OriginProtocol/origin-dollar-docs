@@ -37,15 +37,15 @@ description: >-
 
 **`function redeem(uint256 _amount)`**
 
-OUSD specified by the `_amount` parameter is redeemed in exchange for one or multiple supported stablecoins. Amount of stablecoins received depends on the **exchange rate**.
+OUSD, указанный в параметре `_amount`, выкупается в обмен на один или несколько поддерживаемых стейблкоинов. Количество полученных стейблкоинов зависит от **обменного курса**.
 
-| Parameter Name | Type    | Description                               |
-|:-------------- |:------- |:----------------------------------------- |
-| \_amount     | uint256 | amount of OUSD expressed in decimal units |
+| Имя параметра | Тип     | Описание                                          |
+|:------------- |:------- |:------------------------------------------------- |
+| \_amount    | uint256 | количество OUSD, выраженное в десятичных единицах |
 
 ### redeemAll\(\)‌ <a id="redeemall"></a>
 
-**`function redeemAll()`**‌
+**`function redeemAll()`**
 
 All OUSD in user's possession is redeemed in exchange for one or multiple supported stablecoins. Amount of stablecoins received depends on the **exchange rate**.
 
@@ -67,7 +67,7 @@ Moves the assets under management into their prescribed [Stategies](https://app.
 
 Returns total value of underlying assets and strategies.
 
-| `return` name | Type    | Description                                      |
+| `return` name | Тип     | Описание                                         |
 |:------------- |:------- |:------------------------------------------------ |
 | value         | uint256 | total value of underlying assets and strategies. |
 
@@ -77,9 +77,9 @@ Returns total value of underlying assets and strategies.
 
 Returns the balance of an asset specified by the`_asset` parameter held in Vault and all strategies represented by `uint256` type.
 
-| Parameter Name | Type    | Description                                                                                                                                        |
-|:-------------- |:------- |:-------------------------------------------------------------------------------------------------------------------------------------------------- |
-| \_asset      | address | Address of the [supported](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/core-concepts/supported-assets) stablecoin |
+| Имя параметра | Тип   | Описание                                                                                                                                         |
+|:------------- |:----- |:------------------------------------------------------------------------------------------------------------------------------------------------ |
+| \_asset     | адрес | Адрес [поддерживаемого](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/core-concepts/supported-assets) стейблкоина |
 
 ### calculateRedeemOutputs\(\) <a id="calculateredeemoutputs"></a>
 
