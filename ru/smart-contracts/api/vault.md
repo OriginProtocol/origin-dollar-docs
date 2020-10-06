@@ -47,35 +47,35 @@ OUSD, указанный в параметре `_amount`, выкупается �
 
 **`function redeemAll()`**
 
-All OUSD in user's possession is redeemed in exchange for one or multiple supported stablecoins. Amount of stablecoins received depends on the **exchange rate**.
+Все OUSD, которыми владеет пользователь, выкупаются в обмен на один или несколько поддерживаемых стейблкоинов. Количество полученных стейблкоинов зависит от **обменного курса**.
 
 ### rebase\(\) <a id="rebase"></a>
 
-**`function rebase()`**‌
+**`function rebase()`**
 
-Updates the balances for all users based on the value of the assets currently stored in the vault. Returns total value of the underlying assets and strategies represented by `uint256` type.‌
+Обновляет балансы для всех пользователей на основе стоимости активов, которые в настоящее время хранятся в хранилище. Возвращает общую стоимость базовых активов и стратегий, представленных типом `uint256`
 
 ### allocate\(\) <a id="allocate"></a>
 
-**`function allocate()`**‌
+**`function allocate()`**
 
-Moves the assets under management into their prescribed [Stategies](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/architecture/strategies) to maximize yield and diversify risk.‌
+Перемещает активы под управлением согласно заранее заданных [Стратегий](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/architecture/strategies) для максимизации доходности и диверсификации рисков
 
 ### totalValue\(\) <a id="totalvalue"></a>
 
-**`function totalValue()`**‌
+**`function totalValue()`**
 
-Returns total value of underlying assets and strategies.
+Возвращает общую стоимость базовых активов и стратегий.
 
-| `return` name | Тип     | Описание                                         |
-|:------------- |:------- |:------------------------------------------------ |
-| value         | uint256 | total value of underlying assets and strategies. |
+| Имя параметра | Тип     | Описание                                     |
+|:------------- |:------- |:-------------------------------------------- |
+| value         | uint256 | общая стоимость базовых активов и стратегий. |
 
 ### checkBalance\(\) <a id="checkbalance"></a>
 
 **`function checkBalance(address _asset)`**‌
 
-Returns the balance of an asset specified by the`_asset` parameter held in Vault and all strategies represented by `uint256` type.
+Возвращает баланс актива, указанного параметром`_asset` хранящегося в Vault, и всех стратегий, представленных типом `uint256`.
 
 | Имя параметра | Тип   | Описание                                                                                                                                         |
 |:------------- |:----- |:------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -83,9 +83,9 @@ Returns the balance of an asset specified by the`_asset` parameter held in Vault
 
 ### calculateRedeemOutputs\(\) <a id="calculateredeemoutputs"></a>
 
-**`function calculateRedeemOutputs(uint256 _amount)`**‌
+**`function calculateRedeemOutputs(uint256 _amount)`**
 
-Calculate the mix of stablecoins that a `redeem` function would return when redeeming certain amount of OUSD specified by the `_amount` parameter. Возвращает массив значений стейблкоинов.
+Вычисляет несколько стейблкоинов, которые функция `redeem` вернет при выкупе определенной суммы OUSD, указанной параметром `_amount`. Возвращает массив значений стейблкоинов.
 
 Чтобы соотносить стоимость стейблкоина с правильным курсом стейблкоина, этот вызов функции следует использовать вместе с функцией `getAllAssets`, которая возвращает массив адресов стейблкоина.
 
@@ -95,9 +95,9 @@ Calculate the mix of stablecoins that a `redeem` function would return when rede
 |:------------- |:------- |:-------------------------------------------- |
 | \_amount    | uint256 | сумма OUSD, выраженная в десятичных единицах |
 
-| `return` name | Тип           | Описание                                                  |
-|:------------- |:------------- |:--------------------------------------------------------- |
-| outputs       | uint256\[\] | массив суммы активов стейблкоина `redeem`, функция вернет |
+| `Возврат` имени | Тип           | Описание                                                  |
+|:--------------- |:------------- |:--------------------------------------------------------- |
+| outputs         | uint256\[\] | массив суммы активов стейблкоина `redeem`, функция вернет |
 
 ### getAssetCount\(\) <a id="getassetcount"></a>
 
