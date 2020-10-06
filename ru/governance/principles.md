@@ -2,19 +2,19 @@
 
 **Прогрессивная децентрализация**
 
-OUSD разработан как децентрализованный протокол, которым управляет множество заинтересованных сторон по всему миру. We believe that the minters and holders of OUSD should collectively determine important protocol decisions as soon as possible.
+OUSD разработан как децентрализованный протокол, которым управляет множество заинтересованных сторон по всему миру. Мы считаем, что создатели и держатели OUSD должны начать коллективно принимать важные решения по протоколу как можно скорее.
 
-That being said, in the very early days, it is imperative that the core engineering team can act quickly and decisively to build the foundational parts of the protocol.
+Вместе с тем, на самом начальном этапе крайне важно, чтобы основная команда инженеров могла действовать быстро и решительно для создания основных частей протокола.
 
-Decentralization will progress across four phases rapidly over the next few months. It is our intent to relinquish control and governance to the community as soon as possible.
+Децентрализация будет быстро прогрессировать в четыре этапа в течение следующих нескольких месяцев. Мы намерены как можно скорее передать контроль и управление сообществу.
 
 ![](../.gitbook/assets/ousd_docs_graphics_2%20%283%29.png)
 
-**Timelock**
+**Временная блокировка**
 
-Prior to full decentralized governance, we will implement a [timelock](../smart-contracts/api/timelock.md) in front of all admin function calls, giving OUSD users time \(48 hours\) to withdraw their funds if they have objections to our proposed upgrades. This timelock will be added shortly after launch.
+До внедрения полного децентрализованного управления, мы реализуем [Временную блокировку](../smart-contracts/api/timelock.md) перед всеми вызовами функции администраторами, предоставляя пользователям OUSD время \(48 часов\), чтобы вывести свои средства, если у них есть возражения против предлагаемых нововведений. Временная блокировка будет добавлена вскоре после запуска.
 
-**New and Existing Stakeholders**
+**Новые и существующие стейкхолдеры**
 
 OUSD is a new project founded by Origin Protocol [team](www.originprotocol.com/team) and will be supported by the existing Origin community as well as many new stakeholders that choose to mint, hold, use, and provide liquidity for OUSD.
 
