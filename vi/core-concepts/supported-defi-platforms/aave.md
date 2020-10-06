@@ -1,12 +1,12 @@
 # Aave
 
 {% hint style="info" %}
-Coming soon. Aave has not yet been integrated.
+Sắp ra mắt. Aave hiện vẫn chưa được tích hợp.
 {% endhint %}
 
-Aave is a lending protocol and platform built on Ethereum and launched in January 2020 by the creators of ETHLend. Users on Aave can earn compounding interest on or borrow assets against collateral. Each supported asset is aggregated in its own liquidity pool and users can choose between a variable interest rate based on supply and demand or a fixed interest rate.
+Aave là một giao thức và nền tảng cho vay xây dựng trên Ethereum và được ra mắt vào tháng 1 năm 2020 bởi những người tạo ra ETHLend. Người dùng trên Aave có thể kiếm lãi kép hoặc vay một tài sản khác dựa trên tài sản thế chấp. Mỗi tài sản được hỗ trợ được tổng hợp trong nhóm thanh khoản riêng của nó và người dùng có thể chọn giữa lãi suất thay đổi dựa trên cung và cầu hoặc lãi suất cố định.
 
-Collateral balances are represented by ERC-20 aTokens at a 1:1 ratio to the underlying assets they represent. Interest is compounded automatically and paid to lenders with aTokens, meaning lenders will steadily see their aToken balance increase over time. Users can borrow assets against their aTokens. aTokens are freely transferable and can be used on many other DeFi protocols. aTokens can be redeemed for their underlying collateral at any time.
+Số dư tài sản đảm bảo được đại diện bằng ERC-20 aTokens theo tỷ lệ 1: 1 so với tài sản cơ bản mà chúng đại diện. Tiền lãi được cộng gộp tự động và được trả cho người cho vay bằng aTokens, có nghĩa là số dư aToken của người cho vay sẽ tăng dần theo thời gian. Users can borrow assets against their aTokens. aTokens are freely transferable and can be used on many other DeFi protocols. aTokens can be redeemed for their underlying collateral at any time.
 
 Aave supports flash loans, which are uncollateralized loans where users borrow and repay the balance of the loan in a single transaction, meaning flash loan users do not need to put up any initial capital. Flash loans are a complex product aimed at developers and can be used to arbitrage across multiple DeFi protocols.
 
