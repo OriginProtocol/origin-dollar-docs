@@ -110,25 +110,25 @@ OUSD рассчитан на то, чтобы оставаться привяз�
 OUSD получает цену от нескольких оракулов в сети и использует обменный курс, который является наиболее выгодным для пула.
 {% endhint %}
 
-Чтобы предотвратить злонамеренные атаки и больше поощрять долгосрочных инвесторов, чем краткосрочных спекулянтов, контракт OUSD сравнивает потоки цен из нескольких источников и использует тот обменный курс, который выгоден для всего пула, а не для отдельных лиц. This mechanism protects the pool's funds from arbitrageurs and prevents any individual from being able to take advantage of any temporary inefficiencies caused by mispriced oracles to deplete the shared pool of assets.
+Чтобы предотвратить злонамеренные атаки и больше поощрять долгосрочных инвесторов, чем краткосрочных спекулянтов, контракт OUSD сравнивает потоки цен из нескольких источников и использует тот обменный курс, который выгоден для всего пула, а не для отдельных лиц. Этот механизм защищает средства пула от арбитражеров и никому не позволяет воспользоваться любой временной неэффективностью, вызванной ошибкой оракулов, для истощения общего пула активов.
 
-This protects the funds in the pool while rewarding long-term holders. Since the safest price depends on the direction of the trade, the Origin oracle exposes both a `priceUSDMint()` and a `priceUSDRedeem()`. The rebasing function utilizes the `priceUSDMint()` for consistency.
+Это защищает средства в пуле и поощряет долгосрочных держателей. Поскольку самая безопасная цена зависит от направления сделки, оракул Origin предоставляет как `priceUSDMint ()`, так и `priceUSDRedeem ()`. Функция перебалансировки использует `priceUSDMint ()` для согласованности.
 
-Here is the initial set of oracles that are being used by OUSD:
+OUSD изначально использует следующий набор оракулов:
 
 {% embed url="https://compound.finance/docs/prices" caption="" %}
 
 {% embed url="https://feeds.chain.link/eth-usd" caption="" %}
 
-The following oracles have been implemented, but are not currently being used due to gas costs:
+Следующие оракулы были реализованы, но в настоящее время не используются из-за больших затрат на газ:
 
 {% embed url="https://uniswap.org/docs/v2/core-concepts/oracles/" caption="" %}
 
 {% tabs %}
 {% tab title="DAI/USD" %}
-The following oracles are used to fetch or compute a price for **DAI/USD:**
+Следующие оракулы используются для получения или вычисления цены **DAI / USD:**
 
-| Oracle          | Pair      | Contract                                     |
+| Оракул          | Пара      | Контракт                                     |
 |:--------------- |:--------- |:-------------------------------------------- |
 | Open Price Feed | DAI/USD   | 0xc629c26dced4277419cde234012f8160a0278a79   |
 | Chainlink       | DAI/USD   | 0xa7D38FBD325a6467894A13EeFD977aFE558bC1f0   |
@@ -137,9 +137,9 @@ The following oracles are used to fetch or compute a price for **DAI/USD:**
 {% endtab %}
 
 {% tab title="USDT/USD" %}
-The following oracles are used to fetch or compute a price for **USDT/USD:**
+Следующие оракулы используются для извлечения или вычисления цены **DAI/USD:**
 
-| O**racle**      | Pair       | Contract                                     |
+| **Оракул**      | Пара       | Контракт                                     |
 |:--------------- |:---------- |:-------------------------------------------- |
 | Chainlink       | USDT/ETH   | 0xa874fe207DF445ff19E7482C746C4D3fD0CB9AcE   |
 | Open Price Feed | USDC/USD   | 0xc629c26dced4277419cde234012f8160a0278a79   |
@@ -147,9 +147,9 @@ The following oracles are used to fetch or compute a price for **USDT/USD:**
 {% endtab %}
 
 {% tab title="USDC/USD" %}
-The following oracles are used to fetch or compute a price for **USDC/USD:**
+Следующие оракулы используются для извлечения или вычисления цены **USDC/USD:**
 
-| O**racle**      | Pair       | Contract                                     |
+| **Оракул**      | Пара       | Контракт                                     |
 |:--------------- |:---------- |:-------------------------------------------- |
 | Chainlink       | USDC/ETH   | 0xdE54467873c3BCAA76421061036053e371721708   |
 | Open Price Feed | USDC/USD   | 0xc629c26dced4277419cde234012f8160a0278a79   |
@@ -157,14 +157,14 @@ The following oracles are used to fetch or compute a price for **USDC/USD:**
 {% endtab %}
 
 {% tab title="ETH/USD" %}
-Since not all oracles have direct USD pairs, the protocol also fetches the prices for **ETH/USD** in order to calculate USD prices using ETH. Again, to be safe, the protocol chooses the most advantageous for the fund instead of the individual.
+Поскольку не все оракулы имеют прямые пары с долларом США, протокол также извлекает цены для **ETH/USD**, чтобы рассчитать цены в долларах США с использованием ETH. Опять же, на всякий случай протокол выбирает наиболее выгодный для фонда, а не для отдельных персон.
 
-| Oracle          | Pair    | Contract                                   |
+| Оракул          | Пара    | Контракт                                   |
 |:--------------- |:------- |:------------------------------------------ |
 | Open Price Feed | ETH/USD | 0xc629c26dced4277419cde234012f8160a0278a79 |
 | Chainlink       | ETH/USD | 0xF79D6aFBb6dA890132F9D7c355e3015f15F3406F |
 {% endtab %}
 {% endtabs %}
 
-It is possible that additional oracles will be added to the protocol over time. Support may also be removed if any of these oracles become unreliable.
+Возможно, что со временем в протокол будут добавлены дополнительные оракулы. Поддержка также может быть удалена, если какой-либо из этих оракулов станет ненадежным.
 
