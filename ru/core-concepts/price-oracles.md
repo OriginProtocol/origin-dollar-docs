@@ -1,11 +1,11 @@
 # Price Oracles
 
-OUSD is designed to stay pegged at 1 USD and be 1:1 backed with its underlying stablecoins. This is trickier than it sounds because these underlying stablecoins are constantly deviating from their own desired 1 USD pegs. While the majority of daily fluctuations are minor, there have been major swings in price that have occurred in the past and are likely to occur again in the future.
+OUSD рассчитан на то, чтобы оставаться привязанным к 1 доллару США и быть обеспеченным базовыми стейблкоинами в соотношении 1:1. Это сложнее, чем кажется, потому что эти базовые стейблкоины постоянно отклоняются от своих желаемых привязок к 1 доллару США. Большинство дневных колебаний незначительны, однако в прошлом были серьезные колебания цен, которые, вероятно, повторятся и в будущем.
 
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">Coin</th>
+      <th style="text-align:left">Монета</th>
       <th style="text-align:left"><b>Низкий</b>
       </th>
       <th style="text-align:left"><b>Высокий</b>
