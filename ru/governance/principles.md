@@ -1,8 +1,8 @@
-# Principles
+# Принципы
 
-**Progressive Decentralization**
+**Прогрессивная децентрализация**
 
-OUSD is designed to be a decentralized protocol governed by many stakeholders all over the world. We believe that the minters and holders of OUSD should collectively determine important protocol decisions as soon as possible.
+OUSD разработан как децентрализованный протокол, которым управляет множество заинтересованных сторон по всему миру. We believe that the minters and holders of OUSD should collectively determine important protocol decisions as soon as possible.
 
 That being said, in the very early days, it is imperative that the core engineering team can act quickly and decisively to build the foundational parts of the protocol.
 
