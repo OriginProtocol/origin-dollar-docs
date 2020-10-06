@@ -24,7 +24,7 @@
   * [Balancer](core-concepts/supported-strategies/balancer.md)
   * [Yearn.finance](core-concepts/supported-strategies/yearn.finance.md)
 * [Quản lý quỹ](core-concepts/fund-management/README.md)
-  * [Chiến lược tại lợi nhuận](core-concepts/fund-management/earning-strategies.md)
+  * [Chiến lược tạo lợi nhuận](core-concepts/fund-management/earning-strategies.md)
   * [Đa dạng hóa](core-concepts/fund-management/diversification.md)
 * [Ước tính giá](core-concepts/price-oracles.md)
 
