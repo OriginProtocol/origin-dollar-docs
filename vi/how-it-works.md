@@ -2,7 +2,7 @@
 
 #### Được hỗ trợ 100% và ổn định
 
-Origin Dollar \ (OUSD \) là token Erc-20 được xây dựng trên mạng Ethereum.
+Origin Dollar (OUSD) là token Erc-20 được xây dựng trên mạng Ethereum.
 
 OUSD là tiền tệ ổn định được hỗ trợ 1:1 bởi các stablecoin khác như USDT, USDC và DAI. Do đó, 1 OUSD được duy trì gần ổn định với giá trị 1 USD.
 
@@ -30,7 +30,7 @@ Người dùng sẽ bị tính **0,5%** phí khi chuyển đổi từ OUSD sang 
 
 
 
-#### Tạo ra lợi nhuận thụ động
+#### Tạo ra **lợi nhuận thụ động**
 
 OUSD tạo ra lợi nhuận bằng cách chuyển các stablecoin được ký gửi vào hợp đồng thông minh OUSD tới các giao thức DeFi khác như Compound, Aave, Uniswap, Balancer và Curve. Dự kiến sẽ thêm các chiến lược mới đa dạng mới được thêm vào bể mỗi tháng. Tiền lãi thu được, phí giao dịch và token phần thưởng được tổng hợp lại và chuyển đổi thành stablecoin để tạo ra lợi tức bằng OUSD. Theo thời gian, giao thức sẽ di chuyển tài sản vào và ra khỏi các nhóm thanh khoản khác nhau để mang lại lợi nhuận tốt nhất cho người nắm giữ OUSD. 
 
