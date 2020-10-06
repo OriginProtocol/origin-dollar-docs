@@ -1,10 +1,10 @@
-# Strategies
+# Стратегии
 
-New strategies can be added or removed at any time to respond to new market realities and diversify risk.
+Новые стратегии могут быть добавлены или удалены в любое время, чтобы реагировать на новые рыночные реалии и диверсифицировать риски.
 
-At launch, OUSD will take advantage of a single strategy and deploy deposited capital to Compound. We intend to deploy many other strategies soon thereafter.
+При запуске OUSD воспользуется преимуществами единой стратегии и разместит депонированный капитал в Compound. Вскоре после этого мы намерены применить многие другие стратегии.
 
-Once we migrate to decentralized governance, it is our intent for the community to propose new strategies and to vote on the appropriate weight for each strategy in the pool. We anticipate that most OUSD holders will value having some exposure to higher yield opportunities while maintaining more conservative positions for a portion of the funds.
+После перехода к децентрализованному управлению мы намерены наделить сообщество возможностью предлагать новые стратегии и голосовать за соответствующий вес каждой стратегии в пуле. Мы ожидаем, что большинство держателей OUSD будут оценивать размер риска и возможностей при более высокой доходности, сохраняя более консервативные позиции по части средств.
 
 
 
