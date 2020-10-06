@@ -1,7 +1,7 @@
 # Timelock
 
 {% hint style="danger" %}
-Il timelock verrà aggiunto subito dopo che tutto sarà stato verificato come funzionante. Until then, the contracts will be governed by Origin's 5 of 8 multi-sig. This allows for a faster response if any critical issues are discovered.
+Il timelock verrà aggiunto subito dopo che tutto sarà stato verificato come funzionante. Fino ad allora, i contratti saranno disciplinati da 5-8 multi-sig di Origin. This allows for a faster response if any critical issues are discovered.
 {% endhint %}
 
 The timelock contract enforces a 48 hour wait period before any changes to the OUSD contracts can be executed. The timelock can be called by our multi-sig and is the owner of our [ERC-20](erc-20.md), [Vault](vault.md), and [Strategies](strategies.md) contracts. Time-delaying admin actions gives users a chance to exit OUSD if its admins become malicious, are compromised, or make a change that the users do not like.
