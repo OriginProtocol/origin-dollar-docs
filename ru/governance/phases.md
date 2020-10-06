@@ -1,6 +1,6 @@
-# Phases
+# Фазы
 
-Progressive decentralization will follow four phases as outlined below.
+Постепенная децентрализация будет проходить в четыре этапа, как описано ниже.
 
 ![](../.gitbook/assets/ousd_docs_graphics_2%20%282%29.png)
 
