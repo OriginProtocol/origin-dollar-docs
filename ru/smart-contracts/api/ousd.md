@@ -1,7 +1,7 @@
 # OUSD
 
 {% hint style="info" %}
-Documentation coming soon.
+Документация скоро появится.
 {% endhint %}
 
 
