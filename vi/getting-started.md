@@ -30,9 +30,9 @@ OUSD là token ERC-20 không tiêu chuẩn, hầu hết các ứng dụng muốn
 
 Nếu bạn là nhà cung cấp ví hoặc sàn giao dịch tiền điện tử quan tâm đến việc hỗ trợ OUSD, vui lòng tham khảo các hướng dẫn sau:
 
-{% page-ref page = "smart-Contract / architecture.md"%}
+{% page-ref page="smart-contracts/architecture.md" %}
 
-{% page-ref page = "smart-Contract / "%}
+{% page-ref page="smart-contracts/api/" %}
 
 **Yêu cầu hỗ trợ**
 
