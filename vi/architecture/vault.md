@@ -1,17 +1,17 @@
 # Vault
 
-Vault là điểm cốt lõi của giao thức. The vault is responsible for minting/redeeming OUSD tokens, rebalancing funds between the various supported strategies, and liquidating rewards tokens.
+Vault là điểm cốt lõi của giao thức. Kho tiền chịu trách nhiệm khai tác / hoàn trả OUSD, cân bằng lại quỹ giữa các chiến lược được hỗ trợ khác nhau và thanh lý token thưởng.
 
-The most important publicly callable functions on the Vault are:
+Các chức năng quan trọng nhất trên Vault là:
 
-* `mint()`allows a single supported stablecoin to be converted to OUSD
-* `mintMultiple()`allows multiple supported stablecoins to be converted to OUSD in a single call
-* `redeem()`allows a specified amount of OUSD to be redeemed for other supported stablecoins.
-* `redeemAll()`allows a user to redeem their entire balance of OUSD for other supported stablecoins. This is particularly useful since user balances are constantly growing as yield is accrued.
-* `rebase()`updates the balances for all users based on the value of the assets currently stored in the pool.
-* `allocate()`moves the assets under management into their prescribed [Stategies](strategies.md) to maximize yield and diversify risk.
+* `mint ()`cho phép chuyển đổi một stablecoin được hỗ trợ sang OUSD
+* `mintMultiple ()`cho phép chuyển đổi nhiều stablecoin được hỗ trợ sang OUSD trong một lần gọi lệnh
+* `Reds ()`cho phép đổi một lượng OUSD cụ thể cho các loại stablecoin được hỗ trợ khác.
+* `RedAll ()`cho phép người dùng đổi toàn bộ số dư OUSD của họ để lấy các loại stablecoin được hỗ trợ khác. Điều này đặc biệt hữu ích vì số dư của người dùng không ngừng tăng lên khi lợi nhuận được tích lũy.
+* `rebase ()`cập nhật số dư cho tất cả người dùng dựa trên giá trị của tài sản hiện được lưu trữ trong nhóm.
+* `phân bổ ()`chuyển các tài sản đang quản lý vào [ chiến lược](strategies.md) chỉ định của chúng để tối đa hóa lợi suất và đa dạng hóa rủi ro.
 
-On redemptions, it is the protocol and not the user that decides which stablecoin\(s\) to return to the user. This decision of which coin\(s\) to return is based on the internal ratios of the assets that are being held in the pool.
+Khi hoàn lại tiền, chính giao thức sẽ quyết định stablecoin nào sẽ được trả lại cho người dùng. Việc lựa chọn đồng coin nào sẽ được trả sẽ dựa trên tỷ lệ nội bộ của tài sản đang được giữ trong bể.
 
 
 
