@@ -1,10 +1,10 @@
-# Supported Stablecoins
+# Stablecoin được hỗ trợ
 
-**Supported Stablecoins**
+**Stablecoin được hỗ trợ**
 
-It is important to understand that OUSD is only as strong as the stablecoins that are backing it. Any loss to the underlying assets will cause a similar loss to the value of OUSD.
+Điều quan trọng cần lưu ý là OUSD chỉ mạnh ngang các đồng stablecoin đang hỗ trợ nó. Bất kỳ tổn thất nào đối với các tài sản cơ bản (tài sản hỗ trợ) sẽ gây ra tổn thất tương tự đối với giá trị của OUSD.
 
-Currently, OUSD supports the following stablecoins:
+Hiện tại, OUSD hỗ trợ các loại stablecoin sau:
 
 {% page-ref page="usdt.md" %}
 
@@ -12,9 +12,9 @@ Currently, OUSD supports the following stablecoins:
 
 {% page-ref page="dai.md" %}
 
-None of these stablecoins are perfect, but we selected them because of their widespread usage. While these stablecoins have lost their USD peg on multiple occasions, they have demonstrated resiliency in eventually getting back to their 1 USD targets.
+Không có stablecoin nào trong số này là hoàn hảo, chúng tôi lựa chọn dựa trên mức độ phổ biến của chúng. Mặc dù có những thời điểm các đồng này không duy trì được tỉ lệ 1:1 so với USD, nhưng chúng đã chứng tỏ khả năng phục hồi - quay lại tỉ lệ 1:1 với USD như thiết kế ban đầu.
 
-It is important to note that all these stablecoins introduce non-trivial counter-party risk. Tether, in particular, has had well-documented banking troubles and regulatory challenges. In addition, both USDT and USDC have backdoors that grant their issuers the power to freeze money in their holder's wallets. While DAI does not have any direct backdoors, it's assets can also be negatively impacted since USDC is accepted as collateral for minting DAI.
+Điều quan trọng cần lưu ý là tất cả các stablecoin này tiềm ẩn các rủi ro tuy không đang kể đối với các bên liên quan. Đơn của như Tether đã từng gặp phải răng rối liên quan đến thủ tục ngân hàng và đối mặt với không ít thách thức về việc tuân thủ quy định. Ngoài ra, cả USDT và USDC đều có "cửa sau" cho phép nhà phát hành có quyền đóng băng tiền trong ví của chủ sở hữu. Mặc dù DAI không có tính năng đóng băng như USDT và USDC, nhưng tài sản của nó cũng có thể bị ảnh hưởng tiêu cực bởi 2 đồng trên vì USDC được chấp nhận làm tài sản thế chấp để khai thác DAI.
 
-Despite these concerns, there are already billions of dollars betting on the security of these stablecoins. It is possible that additional stablecoins will be added to the protocol over time. Support may also be removed if any of these stablecoins prove to be too unreliable or put OUSD holders funds in jeopardy. 
+Bất chấp những rủi ro kể trên, đã có hàng tỷ đô la "đặt cược" vào tính bảo mật của những stablecoin này. It is possible that additional stablecoins will be added to the protocol over time. Các stablecoin đang được hỗ trợ cũng có thể bị loại bỏ nếu được chứng minh là quá không đáng tin cậy hoặc gây nguy hiểm tới khoản quỹ của chủ sở hữu OUSD. 
 
