@@ -1,16 +1,16 @@
 # Balancer
 
 {% hint style="info" %}
-Coming soon. Balancer has not yet been integrated.
+Скоро. Balancer еще не интегрирован.
 {% endhint %}
 
-Balancer is a decentralized liquidity protocol and exchange on Ethereum, launched in March 2020. Users can swap ERC-20 tokens for a fee or contribute tokens to liquidity pools to earn fees.
+Balancer - это децентрализованный протокол ликвидности и обменник на Ethereum, запущенный в марте 2020 года. Пользователи могут обменивать токены ERC-20 за комиссию или вносить токены в пулы ликвидности, чтобы получать комиссию в виде вознаграждения.
 
-Balancer is an Automated Market Maker \(AMM\) that allows for liquidity pools of up to 8 different assets with custom weights. Liquidity pools on Balancer can be thought of as similar to Exchange Traded Funds \(ETFs\) or portfolios with weight targets for specific assets. If trading causes the pool to shift from its target weight distribution, exchange rates between assets in the pool change. Arbitrageurs can execute trades to take advantage of this and act to rebalance the pool back to its target weight distribution. Liquidity can also be shared across pools, unlike other AMMs.
+Балансировщик - это автоматизированный маркет-мейкер \(AMM\), который позволяет создавать пулы ликвидности из 8 различных активов с настраиваемыми весами. Пулы ликвидности на Balancer можно рассматривать как аналогичные биржевые инвестиционные фонды \(ETFs\) или портфели с целевыми весами для конкретных активов. Если торговля заставляет пул отклоняться от целевого распределения веса, обменные курсы между активами в пуле изменяются. Арбитражёры могут совершать сделки, чтобы воспользоваться этим и восстановить баланс пула до распределения его целевого веса. В отличие от других AMM, ликвидность может распределяться между пулами.
 
-Balancer supports private pools, where only the owner of the pool can contribute liquidity, shared pools, which are completely public, and smart pools, which are shared pools controlled by a smart contract that can implement automated rules and logic. Liquidity providers are given Balancer Pool Tokens \(BPTs\) that represent their share of a given pool and fees. These tokens are freely transferable and can be redeemed for the assets provided and accrued fees.
+Балансировщик поддерживает частные пулы, где только владелец пула может вносить ликвидность, общие пулы, которые являются полностью публичными, и смарт-пулы, которые являются общими пулами, контролируемыми смарт-контрактом, который может реализовывать автоматические правила и логику. Поставщикам ликвидности выдаются токены Balancer Pool Tokens \(BPTs\), которые представляют их долю в данном пуле и комиссиях. Эти токены можно свободно передавать и обменять на предоставленные активы и начисленные комиссии.
 
-Token issuers seeking to improve liquidity of their token have offered incentives to liquidity providers in liquidity mining campaigns. New token issuers have also launched their tokens on Balancer pools.
+Эмитенты токенов, стремящиеся повысить ликвидность своих токенов, предложили поставщикам ликвидности материальные стимулы в кампаниях по добыче ликвидности. New token issuers have also launched their tokens on Balancer pools.
 
 Balancer is governed by BAL, an ERC-20 governance token. BAL holders can vote on protocol changes. BAL is continuously awarded to liquidity providers and a large portion of the total supply of BAL was allocated to the team and investors on a continuous vesting schedule.
 
