@@ -133,27 +133,27 @@ OUSD는 여러 온 체인 오라클에서 가격을 가져와 풀에 가장 유�
 | 오픈 가격 피드 | DAI / USD | 0xc629c26dced4277419cde234012f8160a0278a79 |
 | 체인 링크 | DAI / USD | 0xa7D38FBD325a6467894A13EeFD977aFE558bC1f0 |
 | 체인 링크 | DAI / ETH | 0x037E8F2125bF532F3e228991e051c8A7253B642c |
-| _유니스왑\(Uniswap\) v2_ | _DAI / ETH_ | _0xA478c2975Ab1Ea89e8196811F51A7B7Ade33eB11_ |
+| _유니스왑 v2_ | _DAI / ETH_ | _0xA478c2975Ab1Ea89e8196811F51A7B7Ade33eB11_ |
 {% endtab %}
 
 {% tab title="Core" %}
 다음 오라클은 **DAI / USD의 가격을 가져오거나 계산하는데 사용됩니다.**
 
-| &lt;/strong&gt;오라클&lt;/0&gt; | 쌍\(pair\) | 컨트렉트 |
+| 오라 | 쌍\(pair\) | 컨트렉트 |
 | :--- | :--- | :--- |
 | 체인 링크 | USDT / ETH | 0xa874fe207DF445ff19E7482C746C4D3fD0CB9AcE |
 | 오픈 가격 피드 | USDC / USD | 0xc629c26dced4277419cde234012f8160a0278a79 |
-| _유니스왑\(Uniswap\) v2_ | _USDT / ETH_ | _0x0d4a11d5eeaac28ec3f61d100daf4d40471f1852_ |
+| _유니스왑 v2_ | _USDT / ETH_ | _0x0d4a11d5eeaac28ec3f61d100daf4d40471f1852_ |
 {% endtab %}
 
 {% tab title="Core" %}
 다음 오라클은 **DAI / USD의 가격을 가져오거나 계산하는데 사용됩니다.**
 
-| &lt;/strong&gt;오라클&lt;/0&gt; | 쌍\(pair\) | 컨트렉트 |
+| 오라클 | 쌍\(pair\) | 컨트렉트 |
 | :--- | :--- | :--- |
 | 체인 링크 | USDT / ETH | 0xdE54467873c3BCAA76421061036053e371721708 |
 | 오픈 가격 피드 | USDC / USD | 0xc629c26dced4277419cde234012f8160a0278a79 |
-| _유니스왑\(Uniswap\) v2_ | _USDT / ETH_ | _0xb4e16d0168e52d35cacd2c6185b44281ec28c9dc_ |
+| _유니스왑v2_ | _USDT / ETH_ | _0xb4e16d0168e52d35cacd2c6185b44281ec28c9dc_ |
 {% endtab %}
 
 {% tab title="Core" %}
