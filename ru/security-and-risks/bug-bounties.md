@@ -1,8 +1,8 @@
-# Bug Bounties
+# Вознаграждения за поиск ошибок
 
-**Bug Bounties**
+**Вознаграждения за поиск ошибок**
 
-Bug bounties are granted at the full discretion of Origin Protocol. The rewards range in size from **$100** for minor issues to **$250,000** for major vulnerabilities. Currently, the bounty program only applies to OUSD and not other products from Origin.
+Награды за найденные ошибки предоставляются на полное усмотрение Origin Protocol. Размер вознаграждения варьируется от **100 долларов** за незначительные проблемы до **250 000 долларов** за серьезные уязвимости. В настоящее время программа вознаграждений распространяется только на OUSD, а не на другие продукты Origin.
 
 {% hint style="warning" %}
 In order to be eligible for a bug bounty, you must follow the rules of Responsible Disclosure outlined below.
