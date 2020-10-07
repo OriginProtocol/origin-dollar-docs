@@ -18,8 +18,8 @@ Curve se ha sometido a dos auditorías de Trail of Bits y mantiene un programa d
 
 | Recursos                        |                                                                          |
 |:------------------------------- |:------------------------------------------------------------------------ |
-| Sitio oficial                   | [https://uniswap.org/](https://uniswap.org/)                             |
-| Documentos para desarrolladores | [https://uniswap.org/docs/v2](https://uniswap.org/docs/v2)               |
-| GitHub                          | [https://github.com/Uniswap](https://github.com/Uniswap)                 |
-| Discord                         | [https://discord.com/invite/EwFs3Pp](https://discord.com/invite/EwFs3Pp) |
+| Sitio oficial                   | [https://www.curve.fi/](https://uniswap.org/)                            |
+| Documentos para desarrolladores | [https://www.curve.fi/devdocs](https://uniswap.org/docs/v2)              |
+| GitHub                          | [https://github.com/curvefi](https://github.com/Uniswap)                 |
+| Discord                         | [https://discord.com/invite/9uEHakc](https://discord.com/invite/EwFs3Pp) |
 
