@@ -1,10 +1,10 @@
 # dYdX
 
 {% hint style="info" %}
-Coming soon. DyDx has not yet been integrated.
+Скоро. dYdX еще не интегрирован.
 {% endhint %}
 
-dYdX is a trading and lending protocol and platform built on Ethereum and launched in May 2019. Users can trade assets on dYdX's non-custodial, decentralized exchange or participate in borrowing and lending. The lending protocol enables margin and futures trading. Interest rates are adjusted based on supply and demand and only short term loans are offered.
+dYdX - это протокол и платформа для торговли и кредитования, построенные на Ethereum и запущенные в мае 2019 года. Users can trade assets on dYdX's non-custodial, decentralized exchange or participate in borrowing and lending. The lending protocol enables margin and futures trading. Interest rates are adjusted based on supply and demand and only short term loans are offered.
 
 Liquidity for assets available for borrowing and lending are pooled together by asset type. Interest paid to lenders is accrued automatically and borrowers must put up collateral to take out a loan.
 
