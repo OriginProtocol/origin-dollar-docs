@@ -10,16 +10,16 @@ Curve - это автоматизированный маркет-мейкер \(
 
 Некоторые из пулов ликвидности Curve зарабатывают дополнительные комиссии для поставщиков ликвидности в дополнение к биржевым комиссиям, получаемым от трейдеров. Curve предлагает пулы стейблкоинов, интегрированные с Compound, yearn.finance и Synthetix. Активы в каждом пуле ликвидности предоставляются этим платформам для получения дополнительной прибыли, которая передается поставщикам ликвидности этих пулов. Токены поставщика ликвидности \(LP\) выдаются участникам пула и могут быть выкуплены за их первоначально предоставленную ликвидность плюс начисленные комиссии и доход. Токены LP также могут переводиться для использования в других протоколах.
 
-Curve управляется CRV, токеном управления ERC-20. Держатели CRV могут голосовать за изменения протокола. Держатели CRV могут заложить свои токены, чтобы получить дополнительное количество голосов, пропорционально времени стейкинга. CRV is continuously awarded to liquidity providers and a large portion of the total supply of CRV was allocated to the team and investors on a continuous vesting schedule.
+Curve управляется CRV, токеном управления ERC-20. Держатели CRV могут голосовать за изменения протокола. Держатели CRV могут заложить свои токены, чтобы получить дополнительное количество голосов, пропорционально времени стейкинга. CRV постоянно распределяется между поставщиками ликвидности, большая часть общего предложения CRV была выделена команде и инвесторам, распределяется в соответствии с графиком вестинга.
 
-Trading volumes on Curve are often over $50 million daily. Curve has a Total Value Locked \(TVL\) of over $1 billion by liquidity providers at the time of writing.
+Объемы торгов на Curve часто превышают 50 миллионов долларов в день. На момент написания, Curve имеет общую заблокированную поставщиками ликвидности стоимость \(TVL\) более 1 миллиарда долларов.
 
-Curve has undergone two audits by Trail of Bits and maintains a bug bounty program.
+Curve прошла два аудита Trail of Bits и поддерживает программу поощрения ошибок.
 
-| Resources      |                                                                          |
-|:-------------- |:------------------------------------------------------------------------ |
-| Official site  | [https://uniswap.org/](https://uniswap.org/)                             |
-| Developer docs | [https://uniswap.org/docs/v2](https://uniswap.org/docs/v2)               |
-| GitHub         | [https://github.com/Uniswap](https://github.com/Uniswap)                 |
-| Discord        | [https://discord.com/invite/EwFs3Pp](https://discord.com/invite/EwFs3Pp) |
+| Ресурсы                 |                                                                          |
+|:----------------------- |:------------------------------------------------------------------------ |
+| Официальный сайт        | [https://uniswap.org/](https://uniswap.org/)                             |
+| Документы по разработке | [https://uniswap.org/docs/v2](https://uniswap.org/docs/v2)               |
+| GitHub                  | [https://github.com/Uniswap](https://github.com/Uniswap)                 |
+| Discord                 | [https://discord.com/invite/EwFs3Pp](https://discord.com/invite/EwFs3Pp) |
 
