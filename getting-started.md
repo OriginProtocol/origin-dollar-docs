@@ -8,7 +8,7 @@ OUSD 발행\(Mint\) 를 사용하면 누구나 [디앱\(DApp\)](https://github.c
 
 **거래소에서 구매**
 
-For small amounts, the easiest way to start earning with OUSD is to buy it on a decentralized exchange like Uniswap. The current pairs are currently available:
+소액으로 경험해보길 원하시는 경우에는, OUSD로 수익을 내기 가장 쉬운 방법은 유니스왑\(Uniswap\)과 같은 탈중앙화 거래소에서 OUSD를 구하는 것입니다. 현재 가능한 페어는 다음과 같습니다: 
 
 * [OUSD/USDT ](https://app.uniswap.org/#/swap?inputCurrency=0x2a8e1e676ec238d8a992307b495b45b3feaa5e86&outputCurrency=0xdac17f958d2ee523a2206206994597c13d831ec7)on 유니스왑\(Uniswap\)
 
