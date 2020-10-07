@@ -18,8 +18,8 @@ Curve прошла два аудита Trail of Bits и поддерживает
 
 | Ресурсы          |                                                                          |
 |:---------------- |:------------------------------------------------------------------------ |
-| Официальный сайт | [https://uniswap.org/](https://uniswap.org/)                             |
-| Developer docs   | [https://uniswap.org/docs/v2](https://uniswap.org/docs/v2)               |
-| GitHub           | [https://github.com/Uniswap](https://github.com/Uniswap)                 |
-| Discord          | [https://discord.com/invite/EwFs3Pp](https://discord.com/invite/EwFs3Pp) |
+| Официальный сайт | [https://www.curve.fi/](https://uniswap.org/)                            |
+| Developer docs   | [https://www.curve.fi/devdocs](https://uniswap.org/docs/v2)              |
+| GitHub           | [https://github.com/curvefi](https://github.com/Uniswap)                 |
+| Discord          | [https://discord.com/invite/9uEHakc](https://discord.com/invite/EwFs3Pp) |
 
