@@ -1,8 +1,8 @@
-# Lending
+# Кредитование
 
 **Unbank the Banked**
 
-DeFi lending platforms let users lend and borrow crypto assets without any middlemen. Both lenders and borrowers get more value from their crypto. Lenders earn interest, while borrowers deposit crypto as collateral to gain access to credit without traditional banking headaches. DeFi lending platforms currently provide far superior returns for lenders than are generally available in the traditional markets.
+Платформы кредитования DeFi позволяют пользователям давать в кредит и брать в долг криптоактивы без посредников. И кредиторы, и заемщики получают больше от своей криптовалюты. Lenders earn interest, while borrowers deposit crypto as collateral to gain access to credit without traditional banking headaches. DeFi lending platforms currently provide far superior returns for lenders than are generally available in the traditional markets.
 
 OUSD integrates with DeFi lending platforms that provide over-collateralized loans. Over-collateralization, combined with smart rules around liquidations, provide a reasonable level of security for lenders. Aave also additionally secures their lending pools with AAVE tokens respectively, further lowering risk.
 
