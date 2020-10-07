@@ -4,11 +4,11 @@
 Скоро. dYdX еще не интегрирован.
 {% endhint %}
 
-dYdX - это протокол и платформа для торговли и кредитования, построенные на Ethereum и запущенные в мае 2019 года. Users can trade assets on dYdX's non-custodial, decentralized exchange or participate in borrowing and lending. The lending protocol enables margin and futures trading. Interest rates are adjusted based on supply and demand and only short term loans are offered.
+dYdX - это протокол и платформа для торговли и кредитования, построенные на Ethereum и запущенные в мае 2019 года. Пользователи могут торговать активами на децентрализованной, не связанной с хранением, бирже dYdX, или участвовать в заимствовании средств и кредитовании. Протокол кредитования позволяет осуществлять маржинальную торговлю и торговлю фьючерсами. Процентные ставки корректируются в зависимости от спроса и предложения, доступны только краткосрочные кредиты.
 
-Liquidity for assets available for borrowing and lending are pooled together by asset type. Interest paid to lenders is accrued automatically and borrowers must put up collateral to take out a loan.
+Ликвидность активов, доступных для заимствования и кредитования, объединяется в пулы по типам активов. Проценты, выплачиваемые кредиторам, начисляются автоматически, и заемщики должны предоставить залог для получения кредита.
 
-dYdX also supports flash loans, which are uncollateralized loans where users borrow and repay the balance of the loan in a single transaction, meaning flash loan users do not need to put up any initial capital. Flash loans are a complex product aimed at developers and can be used to arbitrage across multiple DeFi protocols.
+dYdX также поддерживает мгновенные займы, которые представляют собой беззалоговые ссуды, когда пользователи занимают и выплачивают остаток ссуды одной транзакцией, что означает, что пользователям срочной ссуды не нужно вносить какой-либо изначальный капитал. Срочные ссуды - это комплексный продукт, предназначенный для разработчиков, который может использоваться для арбитража между несколькими протоколами DeFi.
 
 dYdX has around $40 million in total value locked \(TVL\) at the time of this writing. dYdX does not have a native token.
 
