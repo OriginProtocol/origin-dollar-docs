@@ -1,6 +1,6 @@
 # 다각화
 
-The initial version of the OUSD Vault smart contract gives each valid strategy a simple weight between 0% and 100% to perform simple asset allocation. 이러한 가중치는 오리진\(Origin\) 의 단기 업데이트와 장기적으로 분산 된 거버넌스를 통해 자주 변경됩니다.
+OUSD 금고\(valut\) 스마트 계약의 초기 버전은 각 유효한 전략에 단순한 자산 할당을 수행하는 데 0%- 100%의 가중치를 부여합니다. 이러한 가중치는 오리진\(Origin\) 의 단기 업데이트와 장기적으로 분산 된 거버넌스를 통해 자주 변경됩니다.
 
 여러 기본 디파이\(DeFi\)
 
