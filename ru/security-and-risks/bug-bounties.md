@@ -5,29 +5,29 @@
 Награды за найденные ошибки предоставляются на полное усмотрение Origin Protocol. Размер вознаграждения варьируется от **100 долларов** за незначительные проблемы до **250 000 долларов** за серьезные уязвимости. В настоящее время программа вознаграждений распространяется только на OUSD, а не на другие продукты Origin.
 
 {% hint style="warning" %}
-In order to be eligible for a bug bounty, you must follow the rules of Responsible Disclosure outlined below.
+Чтобы иметь право на вознаграждение за обнаружение ошибок, Вы должны соблюдать правила ответственного раскрытия информации, изложенные ниже.
 {% endhint %}
 
-**Responsible Disclosure**
+**Ответственное раскрытие информации**
 
-Security is our top priority and we've taken every effort to make sure our code is secure and works as intended. However, it's completely possible that vulnerabilities both large and small may have gone undetected.
+Безопасность - наш главный приоритет, и мы приложили все усилия, чтобы убедиться, что наш код безопасен и работает должным образом. Однако вполне возможно, что как большие, так и маленькие уязвимости остались незамеченными.
 
-In case you discover a vulnerability, we would like to know about it immediately so we can take steps to address it as quickly as possible.
+Если вы обнаружите уязвимость, мы хотели бы узнать о ней немедленно, чтобы как можно быстрее предпринять шаги для ее устранения.
 
-If you discover a vulnerability, please do the following:
+Если вы обнаружите уязвимость, сделайте следующее:
 
-* Report your findings to [security@originprotocol.com](mailto:security@originprotcol.com) or contact [Josh Fraser on Keybase](https://keybase.io/joshfraser)
-* Do not take advantage of the vulnerability or problem you have discovered
-* Do not reveal the problem to others until it has been resolved
-* Do not use attacks on physical security, social engineering, distributed denial of service, spam or applications of third parties
-* Do provide sufficient information to reproduce the problem, so we will be able to resolve it as quickly as possible. Complex vulnerabilities may require further explanation so we might ask you for additional information.
+* Сообщите о своих выводах по адресу[security@originprotocol.com](mailto:security@originprotcol.com) или свяжитесь с [Джошем Фрейзером в Keybase](https://keybase.io/joshfraser)
+* Не пользуйтесь уязвимостью или проблемой, которую вы обнаружили
+* Не сообщайте о проблеме другим, пока она не будет решена
+* Не используйте атаки на физическую безопасность, социальную инженерию, распределенный отказ в обслуживании, спам или приложения третьих лиц
+* Предоставьте достаточно информации для воспроизведения проблемы, чтобы мы смогли решить ее как можно быстрее. Сложные уязвимости могут потребовать дополнительных объяснений, поэтому мы можем попросить Вас предоставить дополнительную информацию.
 
-In return, we promise:
+Взамен мы обещаем:
 
-* We will respond to your report within 3 business days with our evaluation of the report and an expected resolution date
-* If you have followed the instructions above, we will not take any legal action against you in regard to the report
-* We will handle your report with strict confidentiality, and not pass on your personal details to third parties without your permission
-* If you so wish we will keep you informed of the progress towards resolving the problem
-* In the public information concerning the problem reported, we will give your name as the discoverer of the problem \(unless you desire otherwise\)
-* As a token of our gratitude for your assistance, we offer a reward for every report of a security problem that was not yet known to us. The amount of the reward will be determined based on the severity of the leak, the quality of the report, and any additional assistance you provide.  
+* Мы ответим на Ваш отчет в течение 3 рабочих дней с нашей оценкой отчета и ожидаемой датой решения
+* Если вы выполнили приведенные выше инструкции, мы не будем предпринимать никаких юридических действий против Вас в в отношении Вашего отчета
+* Мы обработаем Ваш отчет в строгой конфиденциальности и не передадим Ваши личные данные третьим лицам без Вашего разрешения
+* По вашему желанию, мы будем держать вас в курсе о ходе решения проблемы
+* В общедоступной информации о проблеме, о которой сообщается, мы будем указывать Ваше имя как первооткрывателя проблемы (если Вы будете не против)
+* В знак нашей благодарности за Вашу помощь мы предлагаем вознаграждение за каждое сообщение о проблеме безопасности, о которой мы еще не знали. Размер вознаграждения будет определяться в зависимости от серьезности проблемы, качества отчета и любой дополнительной помощи, которую Вы оказываете.  
 
