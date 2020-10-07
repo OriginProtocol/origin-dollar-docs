@@ -7,12 +7,12 @@
 AMM могут открывать новые рынки только тогда, когда поставщики ликвидности предоставляют ликвидность (например, несколько токенов для данных торговых пар или пулов). В обмен на предоставление ликвидности, поставщики ликвидности вознаграждаются торговыми комиссиями, когда другие пользователи обменивают токены. Например, когда трейдеры обменивают USDT на USDC на Uniswap, в настоящее время с них взимается 0,3% сверх платы за газ. Эти комиссии распределяются пропорционально между поставщиками ликвидности по паре USDT-USDC на основе процента от общей ликвидности, которую они предоставили.
 
 {% hint style="info" %}
-[Impermanent loss](https://medium.com/@pintail/uniswap-a-good-deal-for-liquidity-providers-104c0b6816f2) is an important risk factor to understand, but this concern is largely mitigated by OUSD only providing liquidity for stablecoins of approximately equal value.
+[Непостоянная потеря](https://medium.com/@pintail/uniswap-a-good-deal-for-liquidity-providers-104c0b6816f2) - важный фактор риска, который необходимо осознать, но эта проблема в значительной степени смягчается за счет того, что OUSD предоставляет ликвидность только для стейблкоинов примерно равной стоимости.
 {% endhint %}
 
-The OUSD protocol routes USDT, USDC, and DAI to highly-performing liquidity pools as determined by trading volume and rewards tokens \(e.g. Balancer rewards BAL tokens to liquidity providers\). Yields are then passed on to OUSD holders.
+Протокол OUSD направляет USDT, USDC и DAI в высокопроизводительные пулы ликвидности в соответствии с объемом торгов и вознаграждаетcя токенами (например, Balancer начисляет токены BAL поставщикам ликвидности). Затем доходность передается держателям OUSD.
 
-We intend to integrate directly with at least the following automated market makers:
+Мы намерены напрямую интегрироваться как минимум со следующими автоматизированными маркет-мейкерами:
 
 {% page-ref page="../supported-strategies/uniswap.md" %}
 
