@@ -21,35 +21,35 @@ OUSD - это проект с полностью открытым исходны
 7. Переместите свою ветку в вышестоящий репозиторий \(т.е. https://github.com/OriginProtocol/\[repo\]\), чтобы другие участники могли легко поработать над ней в случае необходимости.
 8. Запросите обзор в PR, щелкнув значок шестеренки рядом с надписью «Рецензенты» в правом столбце.
 
-Ветка `master` заблокирована таким образом, что только члены [основной команды](https://github.com/orgs/OriginProtocol/teams/core) способны обработать Ваши запросы на добавление внёсенных изменений. Запросы на добавление внёсенных изменений, которые проверяются другими доверенными участниками, будут быстрее отслеживаться и добавляться! Check in the `#engineering` Discord channel for appropriate reviewers.
+Ветка `master` заблокирована таким образом, что только члены [основной команды](https://github.com/orgs/OriginProtocol/teams/core) способны обработать Ваши запросы на добавление внёсенных изменений. Запросы на добавление внёсенных изменений, которые проверяются другими доверенными участниками, будут быстрее отслеживаться и добавляться! Поищите подходящих рецензентов на канале `#engineering` в Discord.
 
-#### Coding Style
+#### Стиль написания кода
 
-We use a variety of programming languages in our repositories. When contributing, please follow existing coding conventions and refer to the CONTRIBUTING.md file in the repository, if one exists.
+В наших репозиториях мы используем множество языков программирования. При внесении Вашего вклада, пожалуйста, следуйте существующим соглашениям о написании кода и обращайтесь к файлу CONTRIBUTING.md в репозитории, если он существует.
 
-For JavaScript, we use [NPM’s style](https://docs.npmjs.com/misc/coding-style), which is automatically enforced via [prettier](https://prettier.io/).
+Для JavaScript мы используем [NPM стиль](https://docs.npmjs.com/misc/coding-style), который автоматически применяется через [prettier](https://prettier.io/).
 
-For Solidity, we use two-space indents.
+Для Solidity мы используем отступы через два пробела.
 
-#### Protocol Design
+#### Дизайн протокола
 
-When considering protocol or implementation design proposals, we are looking for:
+При рассмотрении предложений по дизайну протокола или реализации мы ищем:
 
-* A description of the problem this design proposal solves
-* Discussion of the trade-offs involved
-* Review of other existing solutions
-* Links to relevant literature \(RFCs, papers, etc\)
-* Discussion of the proposed solution
+* Описание проблемы, которую решает данное проектное предложение
+* Обсуждение возможных компромиссов
+* Обзор других существующих решений
+* Ссылки на соответствующую литературу \(RFC, статьи и т. д.\)
+* Обсуждение предлагаемого решения
 
-Please note that protocol design is hard and meticulous work. You may need to review existing literature and think through generalized use cases.
+Обратите внимание, что разработка протокола - это тяжелая и кропотливая работа. Возможно, вам потребуется просмотреть существующую литературу и продумать обобщенные варианты использования.
 
-#### Community Guidelines
+#### Принципы сообщества
 
-We want to keep the Origin community awesome, growing and collaborative. We need your help to keep it that way. To help with this we’ve come up with some general guidelines for the community as a whole:
+Мы хотим, чтобы сообщество Origin было отличным, растущим и способным сотрудничать. Нам нужна ваша помощь, чтобы так и было. Чтобы помочь с этим, мы разработали несколько общих рекомендаций для сообщества в целом:
 
-* Be nice: Be courteous, respectful and polite to fellow community members: no regional, racial, gender, or other abuse will be tolerated. We like nice people way better than mean ones!
-* Encourage diversity and participation: Make everyone in our community feel welcome, regardless of their background and the extent of their contributions, and do everything possible to encourage participation in our community.
-* Keep it legal: Basically, don’t get anybody in trouble. Share only content that you own, do not share private or sensitive information, and don’t break laws.
+* Ведите себя хорошо: будьте вежливы, уважительны и учтивы по отношению к другим членам сообщества: недопустимы оскорбления на религиозной, расовой, гендерной или любой другой почве. Нам больше нравятся хорошие люди, чем плохие!
+* Поощряйте разнообразие и участие: сделайте так, чтобы каждый в нашем сообществе почувствовал себя желанным гостем, независимо от его происхождения и степени их вклада, и сделайте все возможное, чтобы поощрять участие в нашем сообществе.
+* Соблюдайте закон: не доставляйте никому проблем. Share only content that you own, do not share private or sensitive information, and don’t break laws.
 * Stay on topic: Make sure that you are posting to the correct channel and avoid off-topic discussions. Remember when you update an issue or respond to an email you are potentially sending to a large number of people. Please consider this before you update. Also remember that nobody likes spam.
 
 #### Reporting Issues
