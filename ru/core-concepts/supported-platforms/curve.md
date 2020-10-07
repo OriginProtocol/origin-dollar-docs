@@ -16,10 +16,10 @@ Curve управляется CRV, токеном управления ERC-20. Д
 
 Curve прошла два аудита Trail of Bits и поддерживает программу поощрения ошибок.
 
-| Ресурсы          |                                                                          |
-|:---------------- |:------------------------------------------------------------------------ |
-| Официальный сайт | [https://www.curve.fi/](https://uniswap.org/)                            |
-| Developer docs   | [https://www.curve.fi/devdocs](https://uniswap.org/docs/v2)              |
-| GitHub           | [https://github.com/curvefi](https://github.com/Uniswap)                 |
-| Discord          | [https://discord.com/invite/9uEHakc](https://discord.com/invite/EwFs3Pp) |
+| Ресурсы                 |                                                                          |
+|:----------------------- |:------------------------------------------------------------------------ |
+| Официальный сайт        | [https://www.curve.fi/](https://uniswap.org/)                            |
+| Документы по разработке | [https://www.curve.fi/devdocs](https://uniswap.org/docs/v2)              |
+| GitHub                  | [https://github.com/curvefi](https://github.com/Uniswap)                 |
+| Discord                 | [https://discord.com/invite/9uEHakc](https://discord.com/invite/EwFs3Pp) |
 
