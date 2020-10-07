@@ -1,18 +1,18 @@
-# Elastic Supply
+# Гибкое предложение
 
-**Elastic Supply. Stable Price.**
+**Гибкое предложение. Стабильная цена.**
 
-OUSD works differently than most tokens. Instead of the price increasing as the value of the assets under management increase \(as with Compound cTokens or Yearn yTokens\), the value of one OUSD remains constant at approximately $1. Instead, the contracts constantly adjust the monetary supply and automatically updates the balance in every token holder’s wallet to reflect the yield that has been earned by the protocol.
+OUSD работает не так, как большинство токенов. Вместо увеличения цены по мере увеличения стоимости активов под управлением (как в случае с Compound cTokens или Yearn yTokens), стоимость одного OUSD остается постоянной и составляет примерно 1 доллар США. Вместо этого контракты постоянно корректируют денежную массу и автоматически обновляют баланс в кошельке каждого держателя токенов, чтобы отразить доход, полученный протоколом.
 
 {% hint style="info" %}
-Think of it as interest accruing in your bank account. The unit of account and value for the US dollar doesn’t change. You just get more US dollars over time as you earn interest.
+Думайте об этом как о процентах, начисляемых на ваш банковский счет. Расчетная единица и стоимость доллара США не меняются. Вы просто получаете больше долларов США со временем, зарабатывая проценты.
 {% endhint %}
 
 ![](../.gitbook/assets/ousd_docs_graphics_4.png)
 
-This mechanism was inspired by the novel approach taken by [Ampleforth](https://www.ampleforth.org/), but there are some key differences that are worth highlighting:
+Этот механизм был вдохновлен новым подходом, принятым [Ampleforth](https://www.ampleforth.org/), но есть некоторые ключевые отличия, которые стоит выделить:
 
-1. OUSD is 100% backed by other stablecoins and will not have the same challenge maintaining the peg to the dollar. Given the ease of minting and redeeming OUSD, we can count on arbitrageurs to ensure the peg is maintained.
-2. OUSD rebasing is heavily biased towards increasing supply since the amount of OUSD minted is tied to the realized gains earned by the underlying strategies. Other than the fluctuations in price that are common with the underlying stablecoins, you should not see your OUSD balance go down. Your principal is protected as long as nothing goes wrong with the underlying lending/AMM and stablecoin protocols. Any major decrease in your balance would be an indication of trouble in the system.
-3. Unlike Ampleforth, which rebases once a day, the monetary supply of OUSD is constantly being updated in real-time as yield is generated.
+1. OUSD на 100% обеспечен другими стейблкоинами и не будет иметь такой же проблемы с поддержанием привязки к доллару. Учитывая простоту создания и выкупа OUSD, мы можем рассчитывать на арбитражеров, которые обеспечат поддержание привязки.
+2. Перераспределение OUSD сильно смещено в сторону увеличения предложения, поскольку количество вновь созданных OUSD привязано к реализованной прибыли, полученной с помощью лежащих в основе стратегий. За исключением колебаний цен, которые характерны для базовых стейблкоинов, вы не должны видеть, что ваш баланс OUSD снижается. Ваш основной капитал защищен до тех пор, пока все в порядке с основными протоколами кредитования/AMM и протоколами стейблкоинов. Любое значительное уменьшение вашего баланса будет признаком проблем в системе.
+3. В отличие от Ampleforth, который производит перераспределение раз в день, денежная масса OUSD постоянно обновляется в режиме реального времени по мере генерирования доходности.
 
