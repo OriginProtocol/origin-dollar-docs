@@ -1,22 +1,22 @@
-# Risks
+# Риски
 
 {% hint style="danger" %}
-The OUSD smart contracts have not yet been audited. We strongly recommend reviewing our smart contracts before depositing significant amounts of capital.
+Смарт-контракты OUSD еще не прошли аудит. Мы настоятельно рекомендуем ознакомиться с нашими смарт-контрактами, прежде чем вносить значительные суммы капитала.
 {% endhint %}
 
-As with any interest-bearing instrument. there are associated risks with holding OUSD that are important to understand. These risks can be broadly classified into 3 categories:
+Как и любой процентный инструмент, существуют риски, связанные с хранением OUSD, которые важно понимать. Эти риски можно условно разделить на 3 категории:
 
-* Smart contract risk
-* Underlying platform risk
-* Underlying stablecoin risk
+* Риск смарт-контракта
+* Риск базовой платформы
+* Риск базового стейблкоина
 
-**Smart contract risk**
+**Риск смарт-контракта**
 
-Our smart contracts have not yet been audited, and even with a formal audit, it is still possible for there to be logic errors that would lead to the loss of funds for OUSD holders. The contracts involve complex math and logic that may or may not be correct. Origin Protocol will not be held responsible for any loss of funds, regardless of who is at fault.
+Наши смарт-контракты еще не прошли аудит, и даже при прохождении официального аудита все еще возможны логические ошибки, которые могут привести к потере средств для держателей OUSD. Контракты включают сложную математику и логику, которые могут быть как правильными, так и не правильными. Origin Protocol не несет ответственности за потерю средств, независимо от того, кто виноват.
 
-**Platform risk**
+**Риск платформы**
 
-OUSD is built on top of other DeFi platforms that add additional smart contract risk. We are choosing to work with platforms that have hundreds of millions of dollars of assets under management and have made a reasonable effort to ensure the correctness of their protocols. However, there are no guarantees that the underlying platforms will continue to work as intended, and any failure in an underlying strategy would likely lead to a loss of funds for OUSD holders.
+OUSD надстроен поверх других платформ DeFi, что увеличивает риск смарт-контрактов. We are choosing to work with platforms that have hundreds of millions of dollars of assets under management and have made a reasonable effort to ensure the correctness of their protocols. However, there are no guarantees that the underlying platforms will continue to work as intended, and any failure in an underlying strategy would likely lead to a loss of funds for OUSD holders.
 
 **Stablecoin risks**
 
