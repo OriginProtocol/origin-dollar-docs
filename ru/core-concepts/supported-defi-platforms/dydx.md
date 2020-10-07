@@ -10,16 +10,16 @@ dYdX - это протокол и платформа для торговли и 
 
 dYdX также поддерживает мгновенные займы, которые представляют собой беззалоговые ссуды, когда пользователи занимают и выплачивают остаток ссуды одной транзакцией, что означает, что пользователям срочной ссуды не нужно вносить какой-либо изначальный капитал. Срочные ссуды - это комплексный продукт, предназначенный для разработчиков, который может использоваться для арбитража между несколькими протоколами DeFi.
 
-dYdX has around $40 million in total value locked \(TVL\) at the time of this writing. dYdX does not have a native token.
+На момент написания этой статьи общая заблокированная сумма средств в dYdX \(TVL\) составила около 40 миллионов долларов. dYdX не имеет собственного токена.
 
-dYdX has undergone security audits by OpenZeppelin and Bramah Systems.
+dYdX прошел аудит безопасности OpenZeppelin и Bramah Systems.
 
-| Resources      |                                                                      |
-|:-------------- |:-------------------------------------------------------------------- |
-| Official site  | [https://dydx.exchange/](https://dydx.exchange/)                     |
-| Developer docs | [https://docs.dydx.exchange/](https://docs.dydx.exchange/)           |
-| GitHub         | [https://github.com/dydxprotocol/](https://github.com/dydxprotocol/) |
-| Discord        | [https://discord.gg/yah42Rb](https://discord.gg/yah42Rb)             |
+| Ресурсы                 |                                                                      |
+|:----------------------- |:-------------------------------------------------------------------- |
+| Официальный сайт        | [https://dydx.exchange/](https://dydx.exchange/)                     |
+| Документы по разработке | [https://docs.dydx.exchange/](https://docs.dydx.exchange/)           |
+| GitHub                  | [https://github.com/dydxprotocol/](https://github.com/dydxprotocol/) |
+| Discord                 | [https://discord.gg/yah42Rb](https://discord.gg/yah42Rb)             |
 
 
 
