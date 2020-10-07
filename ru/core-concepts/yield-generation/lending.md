@@ -2,11 +2,11 @@
 
 **Unbank the Banked**
 
-Платформы кредитования DeFi позволяют пользователям давать в кредит и брать в долг криптоактивы без посредников. И кредиторы, и заемщики получают больше от своей криптовалюты. Lenders earn interest, while borrowers deposit crypto as collateral to gain access to credit without traditional banking headaches. DeFi lending platforms currently provide far superior returns for lenders than are generally available in the traditional markets.
+Платформы кредитования DeFi позволяют пользователям давать в кредит и брать в долг криптоактивы без посредников. И кредиторы, и заемщики получают больше от своей криптовалюты. Кредиторы получают проценты, а заемщики вносят криптовалюту в качестве залога, чтобы получить доступ к кредиту без традиционных банковских проблем. Платформы кредитования DeFi в настоящее время обеспечивают гораздо более высокую доходность для кредиторов, чем на традиционных рынках.
 
-OUSD integrates with DeFi lending platforms that provide over-collateralized loans. Over-collateralization, combined with smart rules around liquidations, provide a reasonable level of security for lenders. Aave also additionally secures their lending pools with AAVE tokens respectively, further lowering risk.
+OUSD интегрируется с кредитными платформами DeFi, которые предоставляют займы с залогом, стоимость которого выше суммы кредита. Залоги, стоимость которых выше суммы кредита в сочетании с разумными правилами ликвидации обеспечивает рациональный уровень безопасности для кредиторов. Aave также дополнительно обеспечивает свои кредитные пулы токенами AAVE соответственно, что еще больше снижает риск.
 
-OUSD integrates with leading lending providers that have a proven track record, audited smart contracts, and have successfully lent hundreds of millions of dollars without issue. We intend to integrate with at least the following lending providers directly:
+OUSD интегрируется с ведущими поставщиками кредитных услуг, которые имеют проверенный послужной список, проверенные смарт-контракты и успешно ссудили сотни миллионов долларов без каких-либо проблем. Мы намерены напрямую интегрироваться как минимум со следующими кредитными организациями:
 
 {% page-ref page="../supported-strategies/compound.md" %}
 
