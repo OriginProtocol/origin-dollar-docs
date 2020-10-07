@@ -1,27 +1,27 @@
-# Contributing
+# Сотрудничество
 
-**100% Open-source**
+**100% Открытый исходный код**
 
-OUSD is an entirely open-source project and we welcome contributions of all sorts. There are many ways to help, from reporting issues, contributing code, and helping us improve our community.
+OUSD - это проект с полностью открытым исходным кодом, и мы приветствуем любые вклады в него. Есть много способов помочь: сообщать о проблемах, добавлять код и помогать нам улучшать наше сообщество.
 
-We work in public and our company Discord is open to all. If you have questions or need help getting started, our Discord OUSD channels are the best place to get assistance from our team and community.
+Мы работаем публично, и наша компания Discord открыта для всех. Если у Вас есть вопросы или Вам нужна помощь в начале работы, наши каналы Discord OUSD - лучшее место, где можно получить помощь от нашей команды и сообщества.
 
-#### Development Process
+#### Процесс разработки
 
-Our branching strategy is similar to [GitFlow](http://nvie.com/posts/a-successful-git-branching-model/), but we do all of our development in the `master` branch and have a `stable` branch for code that has been released.
+Наша стратегия ветвления кода аналогична [GitFlow](http://nvie.com/posts/a-successful-git-branching-model/), но мы ведем всю нашу разработку в ветке `master` и имеем отдельную ветку `stable` для кода, который был выпущен.
 
-Your development flow should look like:
+Ваш процесс разработки должен выглядеть так:
 
-1. Find an interesting issue and communicate! Please let the `#engineering` [Discord](https://discord.gg/jyxpUSe) channel know what you want to work on.
-2. Ping a [core team member](https://github.com/orgs/OriginProtocol/teams/core/members) member on Discord and ask to be added to our [contributors team](https://github.com/orgs/OriginProtocol/teams/contributors). Otherwise, you’ll need to fork the relevant repository and push feature branches to your own fork.
-3. Add a comment to the issue or self-assign so we don’t have multiple contributors unintentionally working on the same task.
-4. Start with the `master` branch and check out a new feature branch unless you’re contributing to an existing feature.
-5. Follow the appropriate [coding style](https://docs.originprotocol.com/guides/getting_started/contributing.html#contributing-email-coding-style) and write some awesome code.
-6. Pull the latest commits from `master` and confirm that your code works with any other work that has been merged since you started.
-7. Push your branch to the upstream repository \(i.e. https://github.com/OriginProtocol/\[repo\]\) so that other contributors can easily work off of it if necessary.
-8. Please request a review in the PR by clicking on the gear icon next to “Reviewers” in the right column.
+1. Найдите интересную проблему и общайтесь! Сообщите каналу `#engineering` [Discord](https://discord.gg/jyxpUSe), над чем вы хотите работать.
+2. Отправьте запрос [члену основной команды](https://github.com/orgs/OriginProtocol/teams/core/members) в Discord и попросите добавить Вас в нашу команду [разработчиков](https://github.com/orgs/OriginProtocol/teams/contributors). В противном случае вам нужно будет форкнуть соответствующий репозиторий и поместить ветки функций в свою собственную вилку.
+3. Добавьте комментарий к проблеме или назначьте сами, чтобы несколько участников случайно не работали над одной и той же задачей.
+4. Начните с ветки `master` и проверьте новую ветку функции, если Вы не вносите вклад в существующую функцию.
+5. Следуйте соответствующему [стилю кодирования](https://docs.originprotocol.com/guides/getting_started/contributing.html#contributing-email-coding-style) и напишите отличный код.
+6. Извлеките последние подтверждения изменения кода из `master` и убедитесь, что Ваш код работает с любой другой работой, которая добавилась с момента начала Вашей работы.
+7. Переместите свою ветку в вышестоящий репозиторий \(т.е. https://github.com/OriginProtocol/\[repo\]\), чтобы другие участники могли легко поработать над ней в случае необходимости.
+8. Запросите обзор в PR, щелкнув значок шестеренки рядом с надписью «Рецензенты» в правом столбце.
 
-The `master` branch is locked so that only members of the [core team](https://github.com/orgs/OriginProtocol/teams/core) are able to merge your pull requests. Pull requests that are peer-reviewed by other trusted contributors will be fast-tracked and merged faster! Check in the `#engineering` Discord channel for appropriate reviewers.
+Ветка `master` заблокирована таким образом, что только члены [основной команды](https://github.com/orgs/OriginProtocol/teams/core) способны обработать Ваши запросы на добавление внёсенных изменений. Запросы на добавление внёсенных изменений, которые проверяются другими доверенными участниками, будут быстрее отслеживаться и добавляться! Check in the `#engineering` Discord channel for appropriate reviewers.
 
 #### Coding Style
 
