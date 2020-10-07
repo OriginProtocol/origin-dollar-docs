@@ -2,7 +2,7 @@
 
 ![](../../.gitbook/assets/dai.png)
 
-Dai is a fiat-pegged stablecoin launched as a ERC-20 token on the Ethereum blockchain in December 2017. A major upgrade from single-collateral Dai \(SAI\) to multi-collateral Dai \(DAI\) was completed in November 2019. Dai is pegged to the US dollar.
+DAI là một loại tiền ổn định có giá trị tương đương với USD được ra mắt dưới dạng token ERC-20 trên mạng Ethereum vào năm 2017. DAI đã thực hiện nâng cấp lớn từ single-collateral (thế chấp 1 loại tài sản) sang multi-collateral (cho phép thế chấp nhiều loại tài sản) vào tháng 11 năm 2019. Dai được neo với đồng đô la Mỹ.
 
 Dai is minted by users locking up crypto assets such as ETH or USDC as collateral in a collateralized debt position \(CDP\) called a vault. Previously, only ETH was accepted as collateral. The reserves and status of each vault can be viewed on the blockchain in real-time. The health of these vaults and the Dai stablecoin are closely monitored.
 
