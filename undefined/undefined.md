@@ -9,10 +9,10 @@ $ give me super-powers
 ```
 
 {% hint style="info" %}
- Super-powers are granted randomly so please submit an issue if you're not happy with yours.
+ 슈퍼파워는 랜덤으로 부여됩니다. 만약, 마음에 들지 않을 경우 이슈를 제출해 주세요.
 {% endhint %}
 
-Once you're strong enough, save the world:
+충분히 강해지면 세상을 구하세요:
 
 {% code title="hello.sh" %}
 ```bash
