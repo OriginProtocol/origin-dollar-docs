@@ -1,27 +1,27 @@
 # Uniswap
 
 {% hint style="info" %}
-Coming soon. Uniswap has not yet been integrated.
+Скоро. Uniswap еще не интегрирован.
 {% endhint %}
 
-Uniswap is a decentralized liquidity protocol and exchange on Ethereum, launched in November 2018. Uniswap v2 launched in May 2020. Users can swap ERC-20 tokens for a fee or contribute tokens to liquidity pools to earn fees.
+Uniswap - это децентрализованный протокол ликвидности и обменик на Ethereum, запущенный в ноябре 2018 года. Uniswap v2 был запущен в мае 2020 года. Пользователи могут обменивать токены ERC-20, оплачивая комиссию, или вносить токены в пулы ликвидности, чтобы получать комиссию в виде вознаграждения.
 
-Markets on Uniswap operate as liquidity pools rather than order books. This type of exchange is called an Automated Market Maker \(AMM\). The exchange rate between the two assets is determined by a constant product formula and moves along a price curve depending on the relative weight of each asset in the pool. This encourages arbitrageurs to enter liquidity pools to rebalance the relative weights and normalize the exchange rate.
+Рынки на Uniswap работают как пулы ликвидности, а не как стаканы заявок. Этот тип обмена называется автоматизированный маркет-мейкер \(AMM\). Обменный курс между двумя активами определяется формулой постоянной производной и движется по кривой цен в зависимости от относительного значения каждого актива в пуле. Это побуждает арбитражёров входить в пулы ликвидности, чтобы перебалансировать относительные значения и нормализовать обменный курс.
 
-Traders can suffer from slippage if there is not enough liquidity in a given pool and may not be protected from unfavorable exchange rates. Liquidity providers may suffer impermanent loss when the pool exchange rate does not match market realities and arbitrageurs execute trades along the pricing curve.
+Трейдеры могут страдать от проскальзываний, если в данном пуле недостаточно ликвидности, они не могут быть защищены от невыгодных обменных курсов. Поставщики ликвидности могут нести временные потери, если обменный курс пула не соответствует рыночным реалиям, а арбитражёры совершают сделки по кривой ценообразования.
 
-Pool participants are given Uniswap Liquidity Provider \(LP\) tokens that correspond to their share of liquidity provided in a given pool. These LP tokens are freely transferable. Participants can exit pools at any time by redeeming these tokens for the assets provided and fees accrued.
+Участникам пула выдаются токены Uniswap Liquidity Provider \(LP\), которые соответствуют их доле в данном пуле ликвидности. Эти токены LP можно свободно перемещать. Участники могут выйти из пулов в любое время, обменяв эти токены на предоставленные активы и начисленные комиссии.
 
-Token issuers seeking to improve liquidity of their token have offered incentives to liquidity providers in liquidity mining campaigns. New token issuers have also launched their tokens on Uniswap pools.
+Эмитенты токенов, стремящиеся повысить ликвидность своих токенов, предложили поставщикам ликвидности материальные стимулы в кампаниях по добыче ликвидности. Новые эмитенты токенов также запустили свои токены в пулы Uniswap.
 
-Trading volumes on Uniswap now eclipse that of many traditional exchanges and regularly surpass $200 million daily. Uniswap has over $170 million in Total Value Locked \(TVL\) by liquidity providers. Uniswap does not have a native platform or governance token.
+Объемы торгов на Uniswap теперь превосходят объемы многих традиционных бирж и регулярно превышают 200 миллионов долларов в день. Uniswap имеет более 170 миллионов долларов в общей стоимости, заблокированной поставщиками ликвидности \(TVL)\. Uniswap не имеет собственной платформы или токена управления.
 
-Uniswap has had its smart contracts audited and formally verfied by dapp.org. Uniswap maintains a bug bounty program.
+Смарт-контракты Uniswap были проверены и официально верифицированы dapp.org. Uniswap поддерживает программу вознаграждения за поиск ошибок.
 
-| Resources      |                                                                          |
-|:-------------- |:------------------------------------------------------------------------ |
-| Official site  | [https://uniswap.org/](https://uniswap.org/)                             |
-| Developer docs | [https://uniswap.org/docs/v2](https://uniswap.org/docs/v2)               |
-| GitHub         | [https://github.com/Uniswap](https://github.com/Uniswap)                 |
-| Discord        | [https://discord.com/invite/EwFs3Pp](https://discord.com/invite/EwFs3Pp) |
+| Ресурсы                 |                                                                          |
+|:----------------------- |:------------------------------------------------------------------------ |
+| Официальный сайт        | [https://uniswap.org/](https://uniswap.org/)                             |
+| Документы по разработке | [https://uniswap.org/docs/v2](https://uniswap.org/docs/v2)               |
+| GitHub                  | [https://github.com/Uniswap](https://github.com/Uniswap)                 |
+| Discord                 | [https://discord.com/invite/EwFs3Pp](https://discord.com/invite/EwFs3Pp) |
 
