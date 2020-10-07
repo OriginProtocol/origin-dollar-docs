@@ -1,27 +1,27 @@
 # Balancer
 
 {% hint style="info" %}
-Coming soon. Balancer has not yet been integrated.
+Скоро. Balancer еще не интегрирован.
 {% endhint %}
 
-Balancer is a decentralized liquidity protocol and exchange on Ethereum, launched in March 2020. Users can swap ERC-20 tokens for a fee or contribute tokens to liquidity pools to earn fees.
+Balancer - это децентрализованный протокол ликвидности и обменник на Ethereum, запущенный в марте 2020 года. Пользователи могут обменивать токены ERC-20, оплачивая комиссию, или вносить токены в пулы ликвидности, чтобы получать комиссию в виде вознаграждения.
 
-Balancer is an Automated Market Maker \(AMM\) that allows for liquidity pools of up to 8 different assets with custom weights. Liquidity pools on Balancer can be thought of as similar to Exchange Traded Funds \(ETFs\) or portfolios with weight targets for specific assets. If trading causes the pool to shift from its target weight distribution, exchange rates between assets in the pool change. Arbitrageurs can execute trades to take advantage of this and act to rebalance the pool back to its target weight distribution. Liquidity can also be shared across pools, unlike other AMMs.
+Балансировщик - это автоматизированный маркет-мейкер \(AMM\), который позволяет создавать пулы ликвидности из 8 различных активов с настраиваемыми значениями. Пулы ликвидности на Balancer можно рассматривать как аналогичные биржевые инвестиционные фонды \(ETFs\) или портфели с целевыми значениями для конкретных активов. Если торговля заставляет пул отклоняться от целевого распределения значений, обменные курсы между активами в пуле изменяются. Арбитражёры могут совершать сделки, чтобы воспользоваться этим и восстановить баланс пула до распределения его целевого значения. В отличие от других AMM, ликвидность может распределяться между пулами.
 
-Balancer supports private pools, where only the owner of the pool can contribute liquidity, shared pools, which are completely public, and smart pools, which are shared pools controlled by a smart contract that can implement automated rules and logic. Liquidity providers are given Balancer Pool Tokens \(BPTs\) that represent their share of a given pool and fees. These tokens are freely transferable and can be redeemed for the assets provided and accrued fees.
+Balancer поддерживает частные пулы, где только владелец пула может вносить ликвидность; общие пулы, которые являются полностью публичными; и смарт-пулы, которые являются общими пулами, контролируемыми смарт-контрактом, который может реализовывать автоматические правила и логику. Поставщикам ликвидности выдаются токены Balancer Pool Tokens \(BPTs\), которые представляют их долю в данном пуле и зарабатываемых комиссиях. Эти токены можно свободно передавать и обменивать на предоставленные активы и начисленные комиссии.
 
-Token issuers seeking to improve liquidity of their token have offered incentives to liquidity providers in liquidity mining campaigns. New token issuers have also launched their tokens on Balancer pools.
+Эмитенты токенов, стремящиеся повысить ликвидность своих токенов, предложили поставщикам ликвидности материальные стимулы в кампаниях по добыче ликвидности. Новые эмитенты токенов также запустили свои токены в пулы Balancer.
 
-Balancer is governed by BAL, an ERC-20 governance token. BAL holders can vote on protocol changes. BAL is continuously awarded to liquidity providers and a large portion of the total supply of BAL was allocated to the team and investors on a continuous vesting schedule.
+Balancer управляется ERC-20 токеном управления BAL. Держатели BAL могут голосовать за изменения протокола. BAL постоянно распределяется между поставщиками ликвидности, и большая часть общего предложения BAL была распределена между командой и инвесторами по непрерывному расписанию вестинга.
 
-Trading volumes on Balancer are often over $25 million daily. Balancer has a Total Value Locked \(TVL\) of over $250 million by liquidity providers at the time of writing.
+Объемы торгов на Balancer часто превышают 25 миллионов долларов США в день. На момент написания, Balancer имеет заблокированную общую стоимость \(TVL\) в размере более 250 миллионов долларов, предоставленную поставщиками ликвидности.
 
-Balancer has undergone a security audit by Trail of Bits and has a bug bounty program. However, Balancer has suffered a major exploit in June 2020.
+Balancer прошел аудит безопасности Trail of Bits и имеет программу вознаграждения за поиск ошибок. Однако в июне 2020 года Balancer подвергся серьезной хакерской атаке.
 
-| Resources      |                                                                      |
-|:-------------- |:-------------------------------------------------------------------- |
-| Official site  | [https://balancer.finance/](https://balancer.finance/)               |
-| Developer docs | [https://docs.balancer.finance/](https://docs.balancer.finance/)     |
-| GitHub         | [https://github.com/balancer-labs](https://github.com/balancer-labs) |
-| Discord        | [https://discord.gg/ARJWaeF](https://discord.gg/ARJWaeF)             |
+| Ресурсы                 |                                                                      |
+|:----------------------- |:-------------------------------------------------------------------- |
+| Официальный сайт        | [https://balancer.finance/](https://balancer.finance/)               |
+| Документы по разработке | [https://docs.balancer.finance/](https://docs.balancer.finance/)     |
+| GitHub                  | [https://github.com/balancer-labs](https://github.com/balancer-labs) |
+| Discord                 | [https://discord.gg/ARJWaeF](https://discord.gg/ARJWaeF)             |
 
