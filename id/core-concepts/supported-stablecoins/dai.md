@@ -6,15 +6,15 @@ Dai adalah stablecoin yang dipatok dengan fiat yang diluncurkan sebagai token ER
 
 Dai dicetak oleh pengguna yang mengunci aset kripto seperti ETH atau USDC sebagai jaminan dalam posisi hutang yang dijaminkan \ (CDP \) yang disebut vault. Sebelumnya, hanya ETH yang diterima sebagai jaminan. Cadangan dan status setiap vault dapat dilihat di blockchain secara real-time. Kesehatan vault ini dan stablecoin Dai diawasi dengan ketat.
 
-Dai is the world's third-largest stablecoin with over $400 million in circulation. In addition, cDAI and aDAI, synthetic versions of Dai on the lending platforms Compound and Aave, combine for over $600 million in circulation.
+Dai adalah stablecoin terbesar ketiga di dunia dengan sirkulasi lebih dari $ 400 juta. Selain itu, cDAI dan aDAI, versi sintetis Dai pada platform peminjaman Compound dan Aave, bergabung dengan sirkulasi lebih dari $ 600 juta.
 
-| Key Facts     |                                                                                                                     |
-|:------------- |:------------------------------------------------------------------------------------------------------------------- |
-| Issued by     | MakerDAO                                                                                                            |
-| Name          | Dai                                                                                                                 |
-| Symbol        | DAI                                                                                                                 |
-| Address       | [0x6b175474e89094c44da98b954eedeac495271d0f](https://etherscan.io/token/0x6b175474e89094c44da98b954eedeac495271d0f) |
-| Decimals      | 18                                                                                                                  |
-| Official site | [https://makerdao.com/](https://makerdao.com/)                                                                      |
-| Holders       | Over 140k addresses                                                                                                 |
+| Fakta-fakta kunci |                                                                                                                     |
+|:----------------- |:------------------------------------------------------------------------------------------------------------------- |
+| Dikeluarkan oleh  | MakerDAO                                                                                                            |
+| Nama              | Dai                                                                                                                 |
+| Simbol            | DAI                                                                                                                 |
+| Alamat            | [0x6b175474e89094c44da98b954eedeac495271d0f](https://etherscan.io/token/0x6b175474e89094c44da98b954eedeac495271d0f) |
+| Desimal           | 18                                                                                                                  |
+| Situs resmi       | [https://makerdao.com/](https://makerdao.com/)                                                                      |
+| Pemegang          | Lebih dari 140 ribu alamat                                                                                          |
 
