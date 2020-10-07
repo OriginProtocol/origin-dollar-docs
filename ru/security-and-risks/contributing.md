@@ -49,36 +49,36 @@ OUSD - это проект с полностью открытым исходны
 
 * Ведите себя хорошо: будьте вежливы, уважительны и учтивы по отношению к другим членам сообщества: недопустимы оскорбления на религиозной, расовой, гендерной или любой другой почве. Нам больше нравятся хорошие люди, чем плохие!
 * Поощряйте разнообразие и участие: сделайте так, чтобы каждый в нашем сообществе почувствовал себя желанным гостем, независимо от его происхождения и степени их вклада, и сделайте все возможное, чтобы поощрять участие в нашем сообществе.
-* Соблюдайте закон: не доставляйте никому проблем. Share only content that you own, do not share private or sensitive information, and don’t break laws.
-* Stay on topic: Make sure that you are posting to the correct channel and avoid off-topic discussions. Remember when you update an issue or respond to an email you are potentially sending to a large number of people. Please consider this before you update. Also remember that nobody likes spam.
+* Соблюдайте закон: не доставляйте никому проблем. Делитесь только тем своим контентом, не предавайте огласке личную или конфиденциальную информацию, касающуюся других людей и не нарушайте законы.
+* Оставайтесь в теме: убедитесь, что вы публикуете сообщения на правильном канале, и избегайте обсуждений не по теме. Помните, когда Вы обновляете проблему или отвечаете на электронное письмо, потенциально оно отправляется большому количеству людей. Пожалуйста, учтите это перед обновлением. Также помните, что никто не любит спам.
 
-#### Reporting Issues
+#### Сообщения о проблемах
 
-If you find bugs, mistakes or inconsistencies in Origin’s code or documents, please let us know by filing a GitHub issue. No issue is too small. Help us fix our tpyos!
+Если вы обнаружите баги, ошибки или несоответствия в коде или документах Origin, сообщите нам об этом, создав вопрос на GitHub. Нет слишком мелких проблем. Помогите исправить наши ошибки!
 
-#### Security Issues
+#### Проблемы с безопасностью
 
-OUSD is still in early development, which means there may be problems with the protocol or in our implementations. We take security vulnerabilities very seriously. If you discover a security issue, please bring it to our attention right away!
+OUSD все еще находится на ранней стадии разработки, что означает, что могут быть проблемы с протоколом или в наших реализациях. Мы очень серьезно относимся к уязвимостям безопасности. Если вы обнаружите проблему с безопасностью, немедленно сообщите нам об этом!
 
-If you find a security vulnerability please send your report privately to [security@originprotocol.com](mailto:security@originprotocol.com) or send an encrypted message to [@joshfraser on Keybase](https://keybase.io/joshfraser). Please DO NOT file a public issue. Be sure to review our guidelines for responsible disclosure and eligibility for bug bounties.
+Если вы обнаружите уязвимость в системе безопасности, отправьте свой отчет в частном порядке на адрес [security@originprotocol.com](mailto:security@originprotocol.com) или отправьте зашифрованное сообщение на адрес [@joshfraser через Keybase](https://keybase.io/joshfraser). Пожалуйста, НЕ сообщайте о проблемах публично. Обязательно ознакомьтесь с нашими рекомендациями по ответственному раскрытию информации и правом на вознаграждение за найденные ошибки.
 
 {% page-ref page="bug-bounties.md" %}
 
-#### **Community Improvement**
+#### **Улучшение сообщества**
 
-Origin is just as much about community as it is about our technology.
+Origin - это столько же о сообществе, сколько и о наших технологиях.
 
-We need constant help in improving our documentation, building new tools to interface with our platform, spreading the word to new users, helping new users getting setup and much more.
+Нам нужна постоянная помощь в улучшении нашей документации, создании новых инструментов для взаимодействия с нашей платформой, распространении информации среди новых пользователей, помощи новым пользователям в настройке и во многом другом.
 
-Please get in touch if you would like to help out. Our `general` channel on [Discord](https://www.originprotocol.com/discord) is a great place to share ideas and volunteer to help.
+Пожалуйста, свяжитесь с нами, если Вы хотите помочь. Наш канал `general` в [Discord](https://www.originprotocol.com/discord) - отличное место, где можно поделиться идеями и добровольно помочь.
 
-#### Full-Time Positions
+#### Вакансии на полный рабочий день
 
-Origin occasionally hires developers for part-time or full-time positions.
+Origin иногда нанимает разработчиков на работу с частичной или полной занятостью.
 
-We have a strong preference for hiring people who have already started contributing to the project. If you want a full time position on our team, your best shot is to engage with our team and start contributing code. It is very unlikely that we would offer you a full-time position on our engineering team unless you’ve had at least a few pull requests merged.
+Мы предпочитаем нанимать людей, которые уже начали вносить свой вклад в проект. Если вы хотите работать в нашей команде на полную ставку, лучше всего пообщаться с нашей командой и начать писать код. Маловероятно, что мы предложим вам постоянную должность в нашей команде разработчиков, если вы не подали хотя бы несколько запросов на добавление внесенных изменений.
 
-If you are interested, check out [the Origin Protocol job listings](https://angel.co/originprotocol/jobs). If you’d like to help in other ways, please propose your ideas in [our Discord channel](https://www.originprotocol.com/discord).
+Если Вы заинтересованы, ознакомьтесь с [перечнем вакансий Origin Protocol](https://angel.co/originprotocol/jobs). Если вы хотите помочь другими способами, пожалуйста, предлагайте свои идеи в [нашем канале Discord](https://www.originprotocol.com/discord).
 
 
 
