@@ -1,18 +1,18 @@
-# Lending
+# Pinjaman
 
-**Unbank the Banked**
+**Menon-bankkan yang terbank**
 
-DeFi lending platforms let users lend and borrow crypto assets without any middlemen. Both lenders and borrowers get more value from their crypto. Lenders earn interest, while borrowers deposit crypto as collateral to gain access to credit without traditional banking headaches. DeFi lending platforms currently provide far superior returns for lenders than are generally available in the traditional markets.
+Platform peminjaman DeFi memungkinkan pengguna meminjamkan dan meminjam aset kripto tanpa perantara. Baik pemberi pinjaman dan peminjam mendapatkan nilai lebih dari kripto mereka. Pemberi pinjaman mendapatkan bunga, sementara peminjam menyetor kripto sebagai jaminan untuk mendapatkan akses ke kredit tanpa sakit kepala perbankan tradisional. Platform pinjaman DeFi saat ini memberikan pengembalian yang jauh lebih unggul bagi pemberi pinjaman daripada yang umumnya tersedia di pasar tradisional.
 
-OUSD integrates with DeFi lending platforms that provide over-collateralized loans. Over-collateralization, combined with smart rules around liquidations, provide a reasonable level of security for lenders. Aave also additionally secures their lending pools with AAVE tokens respectively, further lowering risk.
+OUSD terintegrasi dengan platform pinjaman DeFi yang menyediakan pinjaman dengan jaminan berlebih. Jaminan berlebih, dikombinasikan dengan aturan cerdas seputar likuidasi, memberikan tingkat keamanan yang wajar bagi pemberi pinjaman. Aave juga mengamankan kumpulan pinjaman mereka masing-masing dengan token AAVE, yang selanjutnya menurunkan risiko.
 
-OUSD integrates with leading lending providers that have a proven track record, audited smart contracts, and have successfully lent hundreds of millions of dollars without issue. We intend to integrate with at least the following lending providers directly:
+OUSD terintegrasi dengan penyedia pinjaman terkemuka yang memiliki rekam jejak yang terbukti, mengaudit kontrak pintar, dan telah berhasil meminjamkan ratusan juta dolar tanpa masalah. Kami bermaksud untuk berintegrasi dengan setidaknya penyedia pinjaman berikut secara langsung:
 
-{% page-ref page="../supported-strategies/compound.md" %}
+{% page-ref page = "../ didukung-strategi / compound.md"%}
 
-{% page-ref page="../supported-strategies/aave.md" %}
+{% page-ref page = "../ didukung-strategi / aave.md"%}
 
-{% page-ref page="../supported-strategies/dydx.md" %}
+{% page-ref page = "../ didukung-strategi / dydx.md"%}
 
 
 
