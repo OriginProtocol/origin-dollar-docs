@@ -4,9 +4,9 @@ Estos documentos están destinados a explicar cómo funciona OUSD, comunicar los
 
 **Acuñar o Canjear**
 
-Acuñar OUSD permite a cualquier persona crear o intercambiar tokens OUSD utilizando nuestra [DApp](www.ousd.com) y una billetera
+Acuñar OUSD permite a cualquier persona crear o intercambiar tokens OUSD utilizando nuestra [DApp](https://github.com/oplabs/origin-dollar-docs/tree/7607fba143f4d29234ee92824a4ddc687a7b1637/www.ousd.com) y una billetera
 
- de criptomonedas habilitada para web-3 como [ Metamask](https://www.metamask.io). Esta es la forma nativa de obtener OUSD, especialmente si desea una gran cantidad que podría correr el riesgo de mover el mercado en otras plataformas de intercambio.</p> 
+de criptomonedas habilitada para web-3 como [ Metamask](https://www.metamask.io). Esta es la forma nativa de obtener OUSD, especialmente si desea una gran cantidad que podría correr el riesgo de mover el mercado en otras plataformas de intercambio.&lt;/p&gt;
 
 **Comprar en Plataformas de Intercambio**
 
@@ -20,25 +20,19 @@ Además, anticipamos que OUSD pronto estará ampliamente disponible en intercamb
 **Agregar OUSD a su billetera**
 
 {% hint style="success" %}
-
-La dirección ERC20 principal para Origin Dollar \ (OUSD \) es:   
-**0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86** 
-
+La dirección ERC20 principal para Origin Dollar  \(OUSD \) es:  
+**0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86**
 {% endhint %}
 
-Si su OUSD no aparece automáticamente en su billetera, debería poder agregarlo manualmente usando la dirección anterior. Queremos que OUSD sea compatible con tantas carteras como sea posible y que se incluya en todas las diversas listas de tokens conocidos. Agradeceríamos enormemente cualquier ayuda que pueda ofrecer en esta área. 
+Si su OUSD no aparece automáticamente en su billetera, debería poder agregarlo manualmente usando la dirección anterior. Queremos que OUSD sea compatible con tantas carteras como sea posible y que se incluya en todas las diversas listas de tokens conocidos. Agradeceríamos enormemente cualquier ayuda que pueda ofrecer en esta área.
 
 **Integrando OUSD**
 
 OUSD es un token ERC-20 no estándar que requiere un trabajo de integración personalizado para la mayoría de las aplicaciones que desean admitirlo. En particular, es importante que los desarrolladores comprendan cómo funciona nuestro suministro elástico, ya que esto puede causar fácilmente un comportamiento inesperado.
 
-Si usted es un proveedor de billetera o una plataforma de intercambio cripto que está interesado en respaldar OUSD, consulte las siguientes guías: 
-
-{% page-ref page = "contratos-inteligentes / erc-20.md"%}
-
-{% page-ref page = "contratos-inteligentes / erc-md"%}
+Si usted es un proveedor de billetera o una plataforma de intercambio cripto que está interesado en respaldar OUSD, consulte las siguientes guías:
 
 **Obtener ayuda**
 
-Únase a la chat de ingeniería de Origin Dollar \ #engineering en el servidor de Origin [Discord](www.originprotocol.com/discord).  Nuestro equipo y los miembros de nuestra comunidad esperan poder ayudarlo a construir. Sus preguntas nos ayudan a mejorar, así que no dude en preguntar si no puede encontrar lo que busca aquí.
+Únase a la chat de ingeniería de Origin Dollar  \#engineering en el servidor de Origin [Discord](https://github.com/oplabs/origin-dollar-docs/tree/7607fba143f4d29234ee92824a4ddc687a7b1637/www.originprotocol.com/discord/README.md). Nuestro equipo y los miembros de nuestra comunidad esperan poder ayudarlo a construir. Sus preguntas nos ayudan a mejorar, así que no dude en preguntar si no puede encontrar lo que busca aquí.
 
