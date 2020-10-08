@@ -1,14 +1,14 @@
-# Supported DeFi Platforms
+# Supported Strategies
 
-**Supported Platforms**
+**Supported DeFi Platforms**
 
 OUSD generates yield by depositing stablecoins into lending platforms and market maker liquidity pools. It is important to understand that these platforms do carry technological risk and funds can be lost if there is a major security event. We are choosing to work with the platforms that have had their smart contracts audited and that we feel are most secure.
 
-Currently, we plan to earn yields from the following platforms:
+Currently, OUSD earns yield from the following platform\(s\):
 
 {% page-ref page="compound.md" %}
 
-Integrations are currently planned for the following platforms:
+Integrations are currently planned or being built for the following platforms:
 
 {% page-ref page="aave.md" %}
 
