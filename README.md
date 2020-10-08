@@ -1,48 +1,30 @@
-## Purpose
+---
+description: Stablecoin pertama yang menghasilkan keuntungan saat masih ada di dompet Anda
+---
 
-This repo is for syncing the documentation for Origin Dollar between Gitbook and Crowdin, which we use for translations.
+# Pengantar
 
-## Editing
+## **Bentuk Uang yang Lebih Baik**
 
-All edits and improvements to the documentation should be made at https://docs.ousd.com. If you're a core team member, you can find an invite link to Gitbook in a pinned message in the internal #origin-dollar Discord channel.
+Origin Dollar \ (OUSD \) adalah stablecoin baru yang pertama kali diluncurkan pada September 2020 di jaringan Ethereum. Desainnya lebih unggul dari stablecoin yang sudah ada karena OUSD menangkap hasil yang kompetitif saat disimpan secara pasif di dompet.
 
-Gitbook tracks each translation in "variants" which map to different branches on Github. Crowdin pushes the various translations to named folders on the translations branch. For now, it's a manual process to move the latest translations from the folders to their matching branches.
+![](.gitbook/assets/origin-dollar-summary.jpeg)
 
-## Translation flow
+**Latar Belakang**
 
-Here's the process by which our OUSD docs are translated:
+Pada tahun 1999, Yu Pan, insinyur R&D Origin, dan rekan sesama pendiri PayPal [memahami](https://www.cnbc.com/2017/08/14/david-sacks-cryptocurrency-interview.html) menciptakan "mata uang dunia baru", lengkap dengan strategi menghasilkan bunga dan kartu debit tanpa harus terhubung ke sistem perbankan tradisional. Beberapa pivot dan akuisisi eBay kemudian, PayPal menjatuhkan ambisinya di bidang ini.
 
-- Edits to the docs should be made on the English version of the docs on Gitbook. This is considered our canonical source.
-- Gitbook will sync the `en` branch to Github when you save & merge
-- Crowdin will fetch the `en` branch every ten minutes to check for changes
-- Our translators will submit their translations on Crowdin
-- Crowdin will push the new translations in the form of a pull request on the `translations` branch
-  - Crowdin will put each translation in a different folder named with the language code (`zh`, `ko`, etc)
-  - However, Gitbook expects the different translations to be in seperate branches with the files at the root. Until we write a script for this, you'll need to manually go through each language branch, and copy the files from the `translations` branch into the right place.
+Hampir dua dekade kemudian, Tether memperkenalkan konsep stablecoin dalam mata uang USD pada tahun 2014. Sejak saat itu, stablecoin telah membuktikan dirinya sebagai cara ideal untuk mentransfer nilai tanpa membuat pengguna rentan terhadap volatilitas harga mata uang yang mengambang bebas. Saat ini, lebih banyak nilai [ditransfer melalui Tether](https://www.bloomberg.com/news/articles/2019-10-01/tether-not-bitcoin-likely-the-world-s-most-used-cryptocurrency) daripada dengan Bitcoin. Sementara itu, Keuangan Terdesentralisasi \ (DeFi \) telah mengalami ledakan pertumbuhan dengan modal [miliar dolar](https://defipulse.com/) sekarang terkunci dalam kontrak pintar yang menghasilkan imbal hasil dari protokol pinjaman dan perdagangan.
 
-## Updating the translations
+Salah satu masalah dengan stablecoin yang ada adalah bahwa pengguna harus terus-menerus memilih antara memegang koin yang mudah digunakan dan mendapatkan hasil dengan mengunci token mereka dalam kontrak pintar. Misalnya, pengguna yang mengunci USDC di Aave tidak dapat membelanjakan sebagian dari USDC tersebut secara bersamaan. Biaya gas Ethereum yang mahal berfungsi sebagai "biaya peralihan" setiap kali pengguna tersebut ingin beralih antara mode pengeluaran dan mode penghasilan.
 
-Use the following steps to push the latest translations to Gitbook. For example, to update the Chinese docs:
+Lebih buruk lagi, hasil dari aktivitas pinjaman dan perdagangan berubah dengan cepat. Para penerima imbal hasil DeFi yang canggih terbiasa dengan keharusan untuk terus menyeimbangkan kembali portofolio aset mereka di banyak platform yang bersaing. Ini memakan waktu dan mahal karena biaya gas sekali lagi menggerogoti hasil panen. Selain itu, menghitung ROI nyata memakan waktu karena APY tidak stabil dan terus berfluktuasi. Tidak ada unit akun yang mudah. Akibatnya, sementara DeFi berkembang sangat pesat, itu masih menyulitkan banyak pengguna cryptocurrency untuk berpartisipasi.
 
- - Clone the repo and fetch all remote branches
- - Merge the latest changes from the `translations` branch into the `zh` branch
- - Move everything in the `/zh` folder into the root directory and delete everything else. Once you're done, you should see a Chinese version of README.md in the root directory.
- - Add and commit everything and push the `zh` branch to Github
- - Go to Gitbook and confirm everything updated as expected. It may take a minute or two for the changes to sync.  
+Dengan OUSD, tidak perlu melepaskan posisi yang rumit saat Anda ingin membelanjakan OUSD. Anda dapat mentransfernya dengan bebas tanpa harus membayar gas untuk membuka kunci modal yang dapat dihabiskan. Selain itu, OUSD memberi Anda akses ke beberapa peluang berpenghasilan tertinggi di DeFi tanpa kerepotan. Kontrak pintar OUSD akan menyebarkan modal dasar Anda ke serangkaian strategi perolehan hasil yang terdiversifikasi, menyeimbangkan kembali dari waktu ke waktu untuk mencapai hasil yang besar sambil mendiversifikasi risiko. Penghasilan secara otomatis bertambah di dompet Anda dan terus bertambah selama Anda memegang OUSD. Sekali lagi, tidak diperlukan staking atau lockup. OUSD juga berfungsi sebagai unit akun yang ideal. Investor DeFi tidak lagi membutuhkan spreadsheet yang rumit untuk menghitung pendapatan mereka karena mereka dapat dengan mudah melihat saldo OUSD mereka yang terus diperbarui secara real-time karena bunga mereka bertambah secara otomatis. OUSD adalah stablecoin ideal untuk petani hasil DeFi dan pengguna cryptocurrency pemula.
 
-## Adding a language
+Dibuat oleh para veteran cryptocurrency dan fintech, Origin Dollar dipersembahkan oleh [tim](https://www.originprotocol.com/team) di [Origin Protocol](https://www.originprotocol.com) yang mencakup pengusaha serial, investor cryptocurrency awal, karyawan awal di YouTube, manajer teknik di Google / Dropbox, dan salah satu pendiri Paypal, Yu Pan.
 
-To add a language in Gitbook:
+Bagi mereka yang tertarik mempelajari detail teknis tentang cara kerjanya, dokumen ini adalah tempat yang tepat untuk memulai. Kami mendorong para pengembang untuk mengaudit dan berkontribusi pada [Github](http://www.github.com/OriginProtocol) \ (100% open-source \) kami. Tim kami berkumpul di [Discord](https://www.originprotocol.com/discord) jika Anda memiliki pertanyaan atau membutuhkan bantuan untuk memulai.
 
-- Create a new variant
-- Set the slug to the two letter country code for the language
-- Make sure to set the local user interface in Gitbook if it is available
-- Add the language in Crowdin & recruit translators
-- Add a new branch in Github that uses the same two letter language code that was set in Gitbook
-
-## Volunteer
-
-Volunteers who wish to help improve our translations can volunteer using this form:
-https://goo.gl/PqT326
-
+Selamat datang di masa depan uang.
 

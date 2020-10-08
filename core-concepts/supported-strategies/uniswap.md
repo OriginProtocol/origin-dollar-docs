@@ -1,12 +1,12 @@
 # Uniswap
 
 {% hint style="info" %}
-Coming soon. Uniswap has not yet been integrated.
+Akan segera hadir. Uniswap belum terintegrasi.
 {% endhint %}
 
-Uniswap is a decentralized liquidity protocol and exchange on Ethereum, launched in November 2018. Uniswap v2 launched in May 2020. Users can swap ERC-20 tokens for a fee or contribute tokens to liquidity pools to earn fees.
+Uniswap adalah protokol dan bursa likuiditas terdesentralisasi di Ethereum, diluncurkan pada November 2018. Uniswap v2 diluncurkan pada Mei 2020. Pengguna dapat menukar token ERC-20 dengan biaya tertentu atau menyumbangkan token ke kumpulan likuiditas untuk mendapatkan bayaran.
 
-Markets on Uniswap operate as liquidity pools rather than order books. This type of exchange is called an Automated Market Maker \(AMM\). The exchange rate between the two assets is determined by a constant product formula and moves along a price curve depending on the relative weight of each asset in the pool. This encourages arbitrageurs to enter liquidity pools to rebalance the relative weights and normalize the exchange rate.
+Pasar di Uniswap beroperasi sebagai kumpulan likuiditas daripada buku pesanan. Jenis bursa ini disebut Automated Market Maker \ (AMM \). The exchange rate between the two assets is determined by a constant product formula and moves along a price curve depending on the relative weight of each asset in the pool. This encourages arbitrageurs to enter liquidity pools to rebalance the relative weights and normalize the exchange rate.
 
 Traders can suffer from slippage if there is not enough liquidity in a given pool and may not be protected from unfavorable exchange rates. Liquidity providers may suffer impermanent loss when the pool exchange rate does not match market realities and arbitrageurs execute trades along the pricing curve.
 
@@ -18,10 +18,10 @@ Trading volumes on Uniswap now eclipse that of many traditional exchanges and re
 
 Uniswap has had its smart contracts audited and formally verfied by dapp.org. Uniswap maintains a bug bounty program.
 
-| Resources |  |
-| :--- | :--- |
-| Official site | [https://uniswap.org/](https://uniswap.org/) |
-| Developer docs | [https://uniswap.org/docs/v2](https://uniswap.org/docs/v2) |
-| GitHub | [https://github.com/Uniswap](https://github.com/Uniswap) |
-| Discord | [https://discord.com/invite/EwFs3Pp](https://discord.com/invite/EwFs3Pp) |
+| Resources      |                                                                          |
+|:-------------- |:------------------------------------------------------------------------ |
+| Official site  | [https://uniswap.org/](https://uniswap.org/)                             |
+| Developer docs | [https://uniswap.org/docs/v2](https://uniswap.org/docs/v2)               |
+| GitHub         | [https://github.com/Uniswap](https://github.com/Uniswap)                 |
+| Discord        | [https://discord.com/invite/EwFs3Pp](https://discord.com/invite/EwFs3Pp) |
 

@@ -1,18 +1,18 @@
-# Elastic Supply
+# Pasokan Elastis
 
-**Elastic Supply. Stable Price.**
+**Pasokan Elastis. Harga Stabil.**
 
-OUSD works differently than most tokens. Instead of the price increasing as the value of the assets under management increase \(as with Compound cTokens or Yearn yTokens\), the value of one OUSD remains constant at approximately $1. Instead, the contracts constantly adjust the monetary supply and automatically updates the balance in every token holder’s wallet to reflect the yield that has been earned by the protocol. 
+OUSD bekerja secara berbeda dari kebanyakan token. Alih-alih kenaikan harga karena nilai aset yang dikelola meningkat \ (seperti pada Compound cTokens atau Yearn yTokens \), nilai satu OUSD tetap konstan sekitar $ 1. Sebaliknya, kontrak secara konstan menyesuaikan pasokan moneter dan secara otomatis memperbarui saldo di dompet setiap pemegang token untuk mencerminkan hasil yang telah diperoleh oleh protokol.
 
 {% hint style="info" %}
-Think of it as interest accruing in your bank account. The unit of account and value for the US dollar doesn’t change. You just get more US dollars over time as you earn interest.
+Anggap saja sebagai bunga yang bertambah di rekening bank Anda. Unit akun dan nilai dolar AS tidak berubah. Anda hanya mendapatkan lebih banyak dolar AS dari waktu ke waktu saat Anda memperoleh bunga.
 {% endhint %}
 
 ![](../.gitbook/assets/ousd_docs_graphics_4.png)
 
-This mechanism was inspired by the novel approach taken by [Ampleforth](https://www.ampleforth.org/), but there are some key differences that are worth highlighting:
+Mekanisme ini terinspirasi oleh pendekatan baru yang diambil oleh [Ampleforth](https://www.ampleforth.org/), tetapi ada beberapa perbedaan utama yang perlu diperhatikan:
 
-1. OUSD is 100% backed by other stablecoins and will not have the same challenge maintaining the peg to the dollar. Given the ease of minting and redeeming OUSD, we can count on arbitrageurs to ensure the peg is maintained. 
-2. OUSD rebasing is heavily biased towards increasing supply since the amount of OUSD minted is tied to the realized gains earned by the underlying strategies. Other than the fluctuations in price that are common with the underlying stablecoins, you should not see your OUSD balance go down. Your principal is protected as long as nothing goes wrong with the underlying lending/AMM and stablecoin protocols. Any major decrease in your balance would be an indication of trouble in the system.
-3. Unlike Ampleforth, which rebases once a day, the monetary supply of OUSD is constantly being updated in real-time as yield is generated.
+1. OUSD 100% didukung oleh stablecoin lain dan tidak akan memiliki tantangan yang sama untuk mempertahankan patokan terhadap dolar. Mengingat kemudahan mencetak dan menebus OUSD, kami dapat mengandalkan arbitrase untuk memastikan pasak dipertahankan.
+2. Rebasing OUSD sangat bias terhadap peningkatan pasokan karena jumlah OUSD yang dicetak terkait dengan realisasi keuntungan yang diperoleh dari strategi yang mendasarinya. Selain fluktuasi harga yang umum terjadi pada stablecoin yang mendasarinya, saldo OUSD Anda seharusnya tidak turun. Pokok Anda dilindungi selama tidak ada yang salah dengan protokol pinjaman / AMM dan stablecoin yang mendasarinya. Penurunan besar apa pun dalam saldo Anda akan menjadi indikasi adanya masalah dalam sistem.
+3. Tidak seperti Ampleforth, yang melakukan rebases sekali sehari, pasokan moneter OUSD terus diperbarui secara waktu nyata saat hasil dihasilkan.
 

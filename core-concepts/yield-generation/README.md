@@ -1,14 +1,14 @@
-# Yield Generation
+# Menghasilkan keuntungan
 
-**Automated Yield Farming**
+**Pertanian Hasil Otomatis**
 
-While the Cambrian explosion of new lending and automated market maker pools has fueled total value locked \(TVL\), it has also made it increasingly challenging for yield farmers to manually allocate capital in efficient and optimal ways.
+Sementara ledakan Cambrian dari pinjaman baru dan automated market maker otomatis telah memicu total nilai terkunci \ (TVL \), hal itu juga membuat semakin sulit bagi petani hasil untuk mengalokasikan modal secara manual dengan cara yang efisien dan optimal.
 
-[Yearn](https://yearn.finance/) has demonstrated that smart contracts can automate the rebalancing of funds across various strategies to optimally earn lending interest, market making fees, and rewards tokens. The first version of OUSD will employ a simple Compound strategy, but new strategies will be deployed every month that maximize returns while minimizing risk and dependencies.
+[Yearn](https://yearn.finance/) telah menunjukkan bahwa kontrak pintar dapat mengotomatiskan penyeimbangan kembali dana di berbagai strategi untuk secara optimal mendapatkan bunga pinjaman, biaya pembuatan pasar, dan token hadiah. Versi pertama OUSD akan menggunakan strategi Compound sederhana, tetapi strategi baru akan diterapkan setiap bulan yang memaksimalkan pengembalian sambil meminimalkan risiko dan ketergantungan.
 
 ![](../../.gitbook/assets/ousd_docs_graphics_1.png)
 
-Effectively, there are 3 ways that OUSD generates yield: 
+Secara efektif, ada 3 cara OUSD menghasilkan hasil:
 
 {% page-ref page="lending.md" %}
 

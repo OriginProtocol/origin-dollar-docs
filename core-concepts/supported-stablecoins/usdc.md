@@ -2,21 +2,21 @@
 
 ![](../../.gitbook/assets/usdc-coin-bd351fb779%20%281%29.png)
 
-USD Coin \(USDC\) is a fiat-pegged stablecoin launched as a ERC-20 token on the Ethereum blockchain in October 2018. USDC is pegged to the US dollar and can easily be redeemed for US dollars.
+USD Coin \ (USDC \) adalah stablecoin yang dipatok dengan fiat yang diluncurkan sebagai token ERC-20 di blockchain Ethereum pada Oktober 2018. USDC dipatok ke dolar AS dan dapat dengan mudah ditukar dengan dolar AS.
 
-Each USDC is backed by a 1:1 ratio with the equivalent amount of fiat currency held in custodial accounts by members of Centre, a consortium founded by Circle and Coinbase. Members of Centre are regulated financial institutions based in the US. Monthly audits of reserves are published by Grant Thornton LLP.
+Setiap USDC didukung oleh rasio 1: 1 dengan jumlah yang setara dengan mata uang fiat yang disimpan dalam rekening kustodian oleh anggota Centre, sebuah konsorsium yang didirikan oleh Circle dan Coinbase. Anggota Centre adalah lembaga keuangan teregulasi yang berbasis di AS. Audit cadangan bulanan diterbitkan oleh Grant Thornton LLP.
 
-USDC is the world's second-largest stablecoin after USDT and has quickly grown to over $1 billion in circulation. However, USDC remains far behind USDT's $12+ billion in circulation.
+USDC adalah stablecoin terbesar kedua di dunia setelah USDT dan dengan cepat berkembang menjadi lebih dari $ 1 miliar dalam sirkulasi. Namun, USDC tetap jauh di belakang USDT $ 12 + miliar yang beredar.
 
-| Key Facts |  |
-| :--- | :--- |
-| Issued by | Centre |
-| Name | USD Coin |
-| Symbol | USDC |
-| Address | [0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48](https://etherscan.io/token/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48) |
-| Decimals | 6 |
-| Official site | [https://www.centre.io/usdc](https://www.centre.io/usdc) |
-| Holders | Over 200k addresses |
+| Fakta-fakta kunci |                                                                                                                     |
+|:----------------- |:------------------------------------------------------------------------------------------------------------------- |
+| Dikeluarkan oleh  | Centre                                                                                                              |
+| Nama              | USD Coin                                                                                                            |
+| Simbol            | USDC                                                                                                                |
+| Alamat            | [0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48](https://etherscan.io/token/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48) |
+| Desimal           | 6                                                                                                                   |
+| Situs resmi       | [https://www.centre.io/usdc](https://www.centre.io/usdc)                                                            |
+| Pemegang          | Lebih dari 200 ribu alamat                                                                                          |
 
 
 

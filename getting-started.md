@@ -1,40 +1,40 @@
-# Getting Started
+# Mulai
 
-These docs are intended to explain how OUSD works, communicate the potential risks and benefits, and provide a guide for developers who wish to contribute to our codebase or integrate OUSD into their products. Here are a few ways for you to dive in and get started.
+Dokumen ini dimaksudkan untuk menjelaskan cara kerja OUSD, mengkomunikasikan potensi risiko dan manfaat, dan memberikan panduan bagi pengembang yang ingin berkontribusi pada basis kode kami atau mengintegrasikan OUSD ke dalam produk mereka. Berikut ini beberapa cara bagi Anda untuk menyelami dan memulai.
 
-**Mint or Redeem**
+**Mint atau Redeem**
 
-The OUSD Mint allows anyone to create or trade in OUSD tokens using our [DApp](www.ousd.com) and a web-3 enabled cryptocurrency wallet like [Metamask](https://www.metamask.io). This is the native way to get OUSD, especially if you want a large amount that could risk moving the market on other exchanges.
+OUSD Mint memungkinkan siapa saja untuk membuat atau memperdagangkan token OUSD menggunakan [DApp](www.ousd.com) dan dompet cryptocurrency yang mendukung web-3 seperti [Metamask](https://www.metamask.io). Ini adalah cara asli untuk mendapatkan OUSD, terutama jika Anda menginginkan jumlah besar yang dapat berisiko menggerakkan pasar di bursa lain.
 
-**Buy on Exchanges**
+**Beli di Bursa**
 
-For small amounts, the easiest way to start earning with OUSD is to buy it on a decentralized exchange like Uniswap. The current pairs are currently available:
+Untuk jumlah kecil, cara termudah untuk mulai mendapatkan penghasilan dengan OUSD adalah dengan membelinya di bursa terdesentralisasi seperti Uniswap. Pasangan saat ini tersedia saat ini:
 
-* [Buy OUSD on Uniswap](https://app.uniswap.org/#/swap?outputCurrency=0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86)
-* [Buy OUSD on Mooniswap](https://mooniswap.exchange/#/swap?outputToken=0x2a8e1e676ec238d8a992307b495b45b3feaa5e86)
+* [Beli OUSD di Uniswap](https://app.uniswap.org/#/swap?outputCurrency=0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86)
+* [Beli OUSD di Mooniswap](https://mooniswap.exchange/#/swap?outputToken=0x2a8e1e676ec238d8a992307b495b45b3feaa5e86)
 
-In addition, we anticipate that OUSD will soon be widely available on additional decentralized and centralized exchanges.
+Selain itu, kami mengantisipasi bahwa OUSD akan segera tersedia secara luas di bursa tambahan yang terdesentralisasi dan terpusat.
 
-**Adding OUSD to Your Wallet**
+**Menambahkan OUSD ke Dompet Anda**
 
 {% hint style="success" %}
-The main ERC20 address for Origin Dollar \(OUSD\) is:   
+Alamat ERC20 utama untuk Origin Dollar \ (OUSD \) adalah:   
 **0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86**
 {% endhint %}
 
-If your OUSD does not automatically show up in your wallet, you should be able to add it manually using the address above. We want to have OUSD supported by as many wallets as possible and included on all the various lists of well-known tokens. We would greatly appreciate any help you can offer in this area. 
+Jika OUSD Anda tidak muncul secara otomatis di dompet Anda, Anda dapat menambahkannya secara manual menggunakan alamat di atas. Kami ingin OUSD didukung oleh sebanyak mungkin dompet dan dimasukkan ke dalam semua daftar token terkenal. Kami sangat menghargai bantuan yang dapat Anda tawarkan di bidang ini.
 
-**Integrating OUSD**
+**Mengintegrasikan OUSD**
 
-OUSD is a non-standard ERC-20 token that requires custom integration work for most applications that wish to support it. In particular, it is important for developers to understand how our elastic supply works as this can easily cause unexpected behavior.
+OUSD adalah token ERC-20 non-standar yang memerlukan integrasi kustom untuk sebagian besar aplikasi yang ingin mendukungnya. Secara khusus, penting bagi pengembang untuk memahami cara kerja pasokan elastis kami karena hal ini dapat dengan mudah menyebabkan perilaku yang tidak terduga.
 
-If you are a wallet provider or crypto exchange that is interested in supporting OUSD, please refer to the following guides: 
+Jika Anda adalah penyedia dompet atau bursa kripto yang tertarik untuk mendukung OUSD, silakan lihat panduan berikut ini:
 
-{% page-ref page="smart-contracts/architecture.md" %}
+{% page-ref page = "smart-contract / architecture.md"%}
 
-{% page-ref page="smart-contracts/api/" %}
+{% page-ref page = "smart-contract / api /"%}
 
-**Getting Help**
+**Mendapatkan bantuan**
 
-Please join the Origin Dollar \#engineering room in Origin's [Discord](www.originprotocol.com/discord) server.  Our team and members of our community look forward to helping you build. Your questions help us improve, so please don't hesitate to ask if you can't find what you are looking for here.
+Silakan bergabung dengan ruang Origin Dollar \ #engineering di server [Discord](www.originprotocol.com/discord) Origin.  Tim kami dan anggota komunitas kami berharap dapat membantu Anda membangun. Pertanyaan Anda membantu kami meningkatkan, jadi jangan ragu untuk bertanya jika Anda tidak dapat menemukan apa yang Anda cari di sini.
 

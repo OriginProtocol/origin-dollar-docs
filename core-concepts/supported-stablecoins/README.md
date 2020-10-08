@@ -1,10 +1,10 @@
-# Supported Stablecoins
+# Stablecoin yang Didukung
 
-**Supported Stablecoins**
+**Stablecoin yang Didukung**
 
-It is important to understand that OUSD is only as strong as the stablecoins that are backing it. Any loss to the underlying assets will cause a similar loss to the value of OUSD.
+Penting untuk dipahami bahwa OUSD hanya sekuat stablecoin yang mendukungnya. Setiap kerugian aset yang mendasarinya akan menyebabkan kerugian yang serupa dengan nilai OUSD.
 
-Currently, OUSD supports the following stablecoins:
+Saat ini, OUSD mendukung stablecoin berikut:
 
 {% page-ref page="usdt.md" %}
 
@@ -12,9 +12,9 @@ Currently, OUSD supports the following stablecoins:
 
 {% page-ref page="dai.md" %}
 
-None of these stablecoins are perfect, but we selected them because of their widespread usage. While these stablecoins have lost their USD peg on multiple occasions, they have demonstrated resiliency in eventually getting back to their 1 USD targets.
+Tak satu pun dari stablecoin ini yang sempurna, tetapi kami memilihnya karena penggunaannya yang luas. Meskipun stablecoin ini telah kehilangan patokan USD mereka pada beberapa kesempatan, mereka telah menunjukkan ketahanan untuk akhirnya kembali ke target 1 USD mereka.
 
-It is important to note that all these stablecoins introduce non-trivial counter-party risk. Tether, in particular, has had well-documented banking troubles and regulatory challenges. In addition, both USDT and USDC have backdoors that grant their issuers the power to freeze money in their holder's wallets. While DAI does not have any direct backdoors, it's assets can also be negatively impacted since USDC is accepted as collateral for minting DAI. 
+Penting untuk dicatat bahwa semua stablecoin ini menimbulkan risiko pihak lawan yang tidak sepele. Tether, khususnya, memiliki masalah perbankan yang terdokumentasi dengan baik dan tantangan regulasi. Selain itu, baik USDT dan USDC memiliki pintu belakang yang memberikan kuasa kepada penerbitnya untuk membekukan uang di dompet pemegangnya. Meskipun DAI tidak memiliki pintu belakang langsung, asetnya juga dapat terkena dampak negatif karena USDC diterima sebagai jaminan untuk pembuatan DAI.
 
-Despite these concerns, there are already billions of dollars betting on the security of these stablecoins. It is possible that additional stablecoins will be added to the protocol over time. Support may also be removed if any of these stablecoins prove to be too unreliable or put OUSD holders funds in jeopardy. 
+Terlepas dari kekhawatiran ini, sudah ada miliaran dolar yang bertaruh pada keamanan stablecoin ini. Ada kemungkinan bahwa stablecoin tambahan akan ditambahkan ke protokol seiring waktu. Dukungan juga dapat dihapus jika salah satu dari stablecoin ini terbukti terlalu tidak dapat diandalkan atau membahayakan dana pemegang OUSD. 
 

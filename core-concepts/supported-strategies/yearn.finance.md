@@ -16,10 +16,10 @@ Yearn's total value locked \(TVL\) has quickly grown to over $800 million, makin
 
 Yearn has undergone multiple security and smart contract audits by CertiK, Quantstamp, HackMD, and CryptoManiacs. Yearn has a reputation for launching experimental products very quickly and warns users that their products are in beta.
 
-| Resources |  |
-| :--- | :--- |
-| Official site | [https://yearn.finance/](https://yearn.finance/) |
-| Developer docs | [https://docs.yearn.finance/](https://docs.yearn.finance/) |
-| GitHub | [https://github.com/iearn-finance](https://github.com/iearn-finance) |
-| Discord | [https://discord.gg/uTmHe8r](https://discord.gg/uTmHe8r) |
+| Resources          |                                                                      |
+|:------------------ |:-------------------------------------------------------------------- |
+| Official site      | [https://yearn.finance/](https://yearn.finance/)                     |
+| Dokumen pengembang | [https://docs.yearn.finance/](https://docs.yearn.finance/)           |
+| GitHub             | [https://github.com/iearn-finance](https://github.com/iearn-finance) |
+| Discord            | [https://discord.gg/uTmHe8r](https://discord.gg/uTmHe8r)             |
 
