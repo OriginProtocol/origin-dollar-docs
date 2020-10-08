@@ -1,84 +1,84 @@
-# Contributing
+# Сотрудничество
 
-**100% Open-source**
+**100% Открытый исходный код**
 
-OUSD is an entirely open-source project and we welcome contributions of all sorts. There are many ways to help, from reporting issues, contributing code, and helping us improve our community.
+OUSD - это проект с полностью открытым исходным кодом, и мы приветствуем любые вклады в него. Есть много способов помочь: сообщать о проблемах, добавлять код и помогать нам улучшать наше сообщество.
 
-We work in public and our company Discord is open to all. If you have questions or need help getting started, our Discord OUSD channels are the best place to get assistance from our team and community.
+Мы работаем публично, и наша компания Discord открыта для всех. Если у Вас есть вопросы или Вам нужна помощь в начале работы, наши каналы Discord OUSD - лучшее место, где можно получить помощь от нашей команды и сообщества.
 
-#### Development Process
+#### Процесс разработки
 
-Our branching strategy is similar to [GitFlow](http://nvie.com/posts/a-successful-git-branching-model/), but we do all of our development in the `master` branch and have a `stable` branch for code that has been released.
+Наша стратегия ветвления кода аналогична [GitFlow](http://nvie.com/posts/a-successful-git-branching-model/), но мы ведем всю нашу разработку в ветке `master` и имеем отдельную ветку `stable` для кода, который был выпущен.
 
-Your development flow should look like:
+Ваш процесс разработки должен выглядеть так:
 
-1. Find an interesting issue and communicate! Please let the `#engineering` [Discord](https://discord.gg/jyxpUSe) channel know what you want to work on.
-2. Ping a [core team member](https://github.com/orgs/OriginProtocol/teams/core/members) member on Discord and ask to be added to our [contributors team](https://github.com/orgs/OriginProtocol/teams/contributors). Otherwise, you’ll need to fork the relevant repository and push feature branches to your own fork.
-3. Add a comment to the issue or self-assign so we don’t have multiple contributors unintentionally working on the same task.
-4. Start with the `master` branch and check out a new feature branch unless you’re contributing to an existing feature.
-5. Follow the appropriate [coding style](https://docs.originprotocol.com/guides/getting_started/contributing.html#contributing-email-coding-style) and write some awesome code.
-6. Pull the latest commits from `master` and confirm that your code works with any other work that has been merged since you started.
-7. Push your branch to the upstream repository \(i.e. https://github.com/OriginProtocol/\[repo\]\) so that other contributors can easily work off of it if necessary.
-8. Please request a review in the PR by clicking on the gear icon next to “Reviewers” in the right column.
+1. Найдите интересную проблему и общайтесь! Сообщите каналу `#engineering` [Discord](https://discord.gg/jyxpUSe), над чем вы хотите работать.
+2. Отправьте запрос [члену основной команды](https://github.com/orgs/OriginProtocol/teams/core/members) в Discord и попросите добавить Вас в нашу команду [разработчиков](https://github.com/orgs/OriginProtocol/teams/contributors). В противном случае вам нужно будет форкнуть соответствующий репозиторий и поместить ветки функций в свою собственную вилку.
+3. Добавьте комментарий к проблеме или назначьте сами, чтобы несколько участников случайно не работали над одной и той же задачей.
+4. Начните с ветки `master` и проверьте новую ветку функции, если Вы не вносите вклад в существующую функцию.
+5. Следуйте соответствующему [стилю кодирования](https://docs.originprotocol.com/guides/getting_started/contributing.html#contributing-email-coding-style) и напишите отличный код.
+6. Извлеките последние подтверждения изменения кода из `master` и убедитесь, что Ваш код работает с любой другой работой, которая добавилась с момента начала Вашей работы.
+7. Переместите свою ветку в вышестоящий репозиторий \(т.е. https://github.com/OriginProtocol/\[repo\]\), чтобы другие участники могли легко поработать над ней в случае необходимости.
+8. Запросите обзор в PR, щелкнув значок шестеренки рядом с надписью «Рецензенты» в правом столбце.
 
-The `master` branch is locked so that only members of the [core team](https://github.com/orgs/OriginProtocol/teams/core) are able to merge your pull requests. Pull requests that are peer-reviewed by other trusted contributors will be fast-tracked and merged faster! Check in the `#engineering` Discord channel for appropriate reviewers.
+Ветка `master` заблокирована таким образом, что только члены [основной команды](https://github.com/orgs/OriginProtocol/teams/core) способны обработать Ваши запросы на добавление внёсенных изменений. Запросы на добавление внёсенных изменений, которые проверяются другими доверенными участниками, будут быстрее отслеживаться и добавляться! Поищите подходящих рецензентов на канале `#engineering` в Discord.
 
-#### Coding Style
+#### Стиль написания кода
 
-We use a variety of programming languages in our repositories. When contributing, please follow existing coding conventions and refer to the CONTRIBUTING.md file in the repository, if one exists.
+В наших репозиториях мы используем множество языков программирования. При внесении Вашего вклада, пожалуйста, следуйте существующим соглашениям о написании кода и обращайтесь к файлу CONTRIBUTING.md в репозитории, если он существует.
 
-For JavaScript, we use [NPM’s style](https://docs.npmjs.com/misc/coding-style), which is automatically enforced via [prettier](https://prettier.io/).
+Для JavaScript мы используем [NPM стиль](https://docs.npmjs.com/misc/coding-style), который автоматически применяется через [prettier](https://prettier.io/).
 
-For Solidity, we use two-space indents.
+Для Solidity мы используем отступы через два пробела.
 
-#### Protocol Design
+#### Дизайн протокола
 
-When considering protocol or implementation design proposals, we are looking for:
+При рассмотрении предложений по дизайну протокола или реализации мы ищем:
 
-* A description of the problem this design proposal solves
-* Discussion of the trade-offs involved
-* Review of other existing solutions
-* Links to relevant literature \(RFCs, papers, etc\)
-* Discussion of the proposed solution
+* Описание проблемы, которую решает данное проектное предложение
+* Обсуждение возможных компромиссов
+* Обзор других существующих решений
+* Ссылки на соответствующую литературу \(RFC, статьи и т. д.\)
+* Обсуждение предлагаемого решения
 
-Please note that protocol design is hard and meticulous work. You may need to review existing literature and think through generalized use cases.
+Обратите внимание, что разработка протокола - это тяжелая и кропотливая работа. Возможно, вам потребуется просмотреть существующую литературу и продумать обобщенные варианты использования.
 
-#### Community Guidelines
+#### Принципы сообщества
 
-We want to keep the Origin community awesome, growing and collaborative. We need your help to keep it that way. To help with this we’ve come up with some general guidelines for the community as a whole:
+Мы хотим, чтобы сообщество Origin было отличным, растущим и способным сотрудничать. Нам нужна ваша помощь, чтобы так и было. Чтобы помочь с этим, мы разработали несколько общих рекомендаций для сообщества в целом:
 
-* Be nice: Be courteous, respectful and polite to fellow community members: no regional, racial, gender, or other abuse will be tolerated. We like nice people way better than mean ones!
-* Encourage diversity and participation: Make everyone in our community feel welcome, regardless of their background and the extent of their contributions, and do everything possible to encourage participation in our community.
-* Keep it legal: Basically, don’t get anybody in trouble. Share only content that you own, do not share private or sensitive information, and don’t break laws.
-* Stay on topic: Make sure that you are posting to the correct channel and avoid off-topic discussions. Remember when you update an issue or respond to an email you are potentially sending to a large number of people. Please consider this before you update. Also remember that nobody likes spam.
+* Ведите себя хорошо: будьте вежливы, уважительны и учтивы по отношению к другим членам сообщества: недопустимы оскорбления на религиозной, расовой, гендерной или любой другой почве. Нам больше нравятся хорошие люди, чем плохие!
+* Поощряйте разнообразие и участие: сделайте так, чтобы каждый в нашем сообществе почувствовал себя желанным гостем, независимо от его происхождения и степени их вклада, и сделайте все возможное, чтобы поощрять участие в нашем сообществе.
+* Соблюдайте закон: не доставляйте никому проблем. Делитесь только тем своим контентом, не предавайте огласке личную или конфиденциальную информацию, касающуюся других людей и не нарушайте законы.
+* Оставайтесь в теме: убедитесь, что вы публикуете сообщения на правильном канале, и избегайте обсуждений не по теме. Помните, когда Вы обновляете проблему или отвечаете на электронное письмо, потенциально оно отправляется большому количеству людей. Пожалуйста, учтите это перед обновлением. Также помните, что никто не любит спам.
 
-#### Reporting Issues
+#### Сообщения о проблемах
 
-If you find bugs, mistakes or inconsistencies in Origin’s code or documents, please let us know by filing a GitHub issue. No issue is too small. Help us fix our tpyos!
+Если вы обнаружите баги, ошибки или несоответствия в коде или документах Origin, сообщите нам об этом, создав вопрос на GitHub. Нет слишком мелких проблем. Помогите исправить наши ошибки!
 
-#### Security Issues
+#### Проблемы с безопасностью
 
-OUSD is still in early development, which means there may be problems with the protocol or in our implementations. We take security vulnerabilities very seriously. If you discover a security issue, please bring it to our attention right away!
+OUSD все еще находится на ранней стадии разработки, что означает, что могут быть проблемы с протоколом или в наших реализациях. Мы очень серьезно относимся к уязвимостям безопасности. Если вы обнаружите проблему с безопасностью, немедленно сообщите нам об этом!
 
-If you find a security vulnerability please send your report privately to [security@originprotocol.com](mailto:security@originprotocol.com) or send an encrypted message to [@joshfraser on Keybase](https://keybase.io/joshfraser). Please DO NOT file a public issue. Be sure to review our guidelines for responsible disclosure and eligibility for bug bounties.
+Если вы обнаружите уязвимость в системе безопасности, отправьте свой отчет в частном порядке на адрес [security@originprotocol.com](mailto:security@originprotocol.com) или отправьте зашифрованное сообщение на адрес [@joshfraser через Keybase](https://keybase.io/joshfraser). Пожалуйста, НЕ сообщайте о проблемах публично. Обязательно ознакомьтесь с нашими рекомендациями по ответственному раскрытию информации и правом на вознаграждение за найденные ошибки.
 
 {% page-ref page="bug-bounties.md" %}
 
-#### **Community Improvement**
+#### **Улучшение сообщества**
 
-Origin is just as much about community as it is about our technology.
+Origin - это столько же о сообществе, сколько и о наших технологиях.
 
-We need constant help in improving our documentation, building new tools to interface with our platform, spreading the word to new users, helping new users getting setup and much more.
+Нам нужна постоянная помощь в улучшении нашей документации, создании новых инструментов для взаимодействия с нашей платформой, распространении информации среди новых пользователей, помощи новым пользователям в настройке и во многом другом.
 
-Please get in touch if you would like to help out. Our `general` channel on [Discord](https://www.originprotocol.com/discord) is a great place to share ideas and volunteer to help.
+Пожалуйста, свяжитесь с нами, если Вы хотите помочь. Наш канал `general` в [Discord](https://www.originprotocol.com/discord) - отличное место, где можно поделиться идеями и добровольно помочь.
 
-#### Full-Time Positions
+#### Вакансии на полный рабочий день
 
-Origin occasionally hires developers for part-time or full-time positions.
+Origin иногда нанимает разработчиков на работу с частичной или полной занятостью.
 
-We have a strong preference for hiring people who have already started contributing to the project. If you want a full time position on our team, your best shot is to engage with our team and start contributing code. It is very unlikely that we would offer you a full-time position on our engineering team unless you’ve had at least a few pull requests merged.
+Мы предпочитаем нанимать людей, которые уже начали вносить свой вклад в проект. Если вы хотите работать в нашей команде на полную ставку, лучше всего пообщаться с нашей командой и начать писать код. Маловероятно, что мы предложим вам постоянную должность в нашей команде разработчиков, если вы не подали хотя бы несколько запросов на добавление внесенных изменений.
 
-If you are interested, check out [the Origin Protocol job listings](https://angel.co/originprotocol/jobs). If you’d like to help in other ways, please propose your ideas in [our Discord channel](https://www.originprotocol.com/discord).
+Если Вы заинтересованы, ознакомьтесь с [перечнем вакансий Origin Protocol](https://angel.co/originprotocol/jobs). Если вы хотите помочь другими способами, пожалуйста, предлагайте свои идеи в [нашем канале Discord](https://www.originprotocol.com/discord).
 
 
 

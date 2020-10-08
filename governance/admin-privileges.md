@@ -1,12 +1,12 @@
-# Admin Privileges
+# Права администратора
 
-The OUSD smart contracts are designed to be owner upgradable.
+Смарт-контракты OUSD разработаны с возможностью улучшения владельцем.
 
-At launch, the OUSD contracts are owned by a 5 of 8 Gnosis multi-sig contract which has been [audited by OpenZeppelin](https://blog.openzeppelin.com/gnosis-multisig-wallet-audit-d702ff0e2b1e/), [ConsenSys Dilligence](https://blog.gnosis.pm/the-gnosis-multisig-wallet-and-our-commitment-to-security-ce9aca0d17f6), Origin’s team, and others. The keys to this multi-sig are held by individuals with close ties to the company, and not even the Origin founders acting together have enough control to execute owner functions on their own.
+На момент запуска контракты OUSD принадлежат контрактам с 5 из 8 мульти-подписями Gnosis, которые были [проаудированы OpenZeppelin](https://blog.openzeppelin.com/gnosis-multisig-wallet-audit-d702ff0e2b1e/), [ConsenSys Dilligence](https://blog.gnosis.pm/the-gnosis-multisig-wallet-and-our-commitment-to-security-ce9aca0d17f6), командой Origin и другими. Ключи к этой мульти-подписке принадлежат лицам, имеющим тесные связи с компанией, и даже действующие вместе основатели Origin не обладают достаточным контролем, чтобы самостоятельно выполнять функции владельца.
 
-Soon after launch, ownership will be transferred to the timelock. This will still allow the Origin team to make changes to the protocol from their multi-sig, but with a time delay.
+Вскоре после запуска право владения будет заменено временной блокировкой. Это по-прежнему позволит команде Origin вносить изменения в протокол из своей мульти-подписи, но с некоторой задержкой по времени.
 
-Having admin privileges is necessary in the early days to ensure that the protocol is secure and optimized for earning yields while minimizing risks. We expect to release multiple iterations of our smart contracts in the first several months of the protocol's existence.
+На первых порах необходимо иметь права администратора, чтобы гарантировать безопасность протокола и его оптимизацию для получения прибыли при условии минимизации рисков. Мы собираемся выпустить несколько итераций наших смарт-контрактов в первые несколько месяцев существования протокола.
 
-Once several upgrade cycles have been completed, we intend to transfer ownership from our company control to a decentralized governance contract, thereby allowing the community to vote and participate in future protocol updates.
+После завершения нескольких циклов обновления мы намерены передать право собственности от нашей компании к контракту децентрализованного управления, что позволит сообществу голосовать и принимать участие в будущих обновлениях протокола.
 

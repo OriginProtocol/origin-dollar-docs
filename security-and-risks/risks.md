@@ -1,30 +1,30 @@
-# Risks
+# Риски
 
 {% hint style="danger" %}
-The OUSD smart contracts have not yet been audited. We strongly recommend reviewing our smart contracts before depositing significant amounts of capital.
+Смарт-контракты OUSD еще не прошли аудит. Мы настоятельно рекомендуем ознакомиться с нашими смарт-контрактами, прежде чем вносить значительные суммы капитала.
 {% endhint %}
 
-As with any interest-bearing instrument. there are associated risks with holding OUSD that are important to understand. These risks can be broadly classified into 3 categories:
+Как и любой процентный инструмент, существуют риски, связанные с хранением OUSD, которые важно понимать. Эти риски можно условно разделить на 3 категории:
 
-* Smart contract risk
-* Underlying platform risk
-* Underlying stablecoin risk
+* Риск смарт-контракта
+* Риск базовой платформы
+* Риск базового стейблкоина
 
-**Smart contract risk**
+**Риск смарт-контракта**
 
-Our smart contracts have not yet been audited, and even with a formal audit, it is still possible for there to be logic errors that would lead to the loss of funds for OUSD holders. The contracts involve complex math and logic that may or may not be correct. Origin Protocol will not be held responsible for any loss of funds, regardless of who is at fault.
+Наши смарт-контракты еще не прошли аудит, и даже при прохождении официального аудита все еще возможны логические ошибки, которые могут привести к потере средств для держателей OUSD. Контракты включают сложную математику и логику, которые могут быть как правильными, так и не правильными. Origin Protocol не несет ответственности за потерю средств, независимо от того, кто виноват.
 
-**Platform risk**
+**Риск платформы**
 
-OUSD is built on top of other DeFi platforms that add additional smart contract risk. We are choosing to work with platforms that have hundreds of millions of dollars of assets under management and have made a reasonable effort to ensure the correctness of their protocols. However, there are no guarantees that the underlying platforms will continue to work as intended, and any failure in an underlying strategy would likely lead to a loss of funds for OUSD holders.
+OUSD надстроен поверх других платформ DeFi, что увеличивает риск смарт-контрактов. Мы выбираем для работы платформы, у которых под управлением находятся активы на сотни миллионов долларов, и которые приложили разумные усилия для обеспечения правильности их протоколов. Однако нет никаких гарантий, что лежащие в основе платформы будут продолжать работать по назначению, и любой сбой в базовой стратегии, скорее всего, приведет к потере средств для держателей OUSD.
 
-**Stablecoin risks**
+**Риски стейблкоина**
 
-It is important to understand that OUSD is only as strong as the stablecoins that are backing it. Any loss to the underlying assets will cause a similar loss to the value of OUSD. 
+Важно понимать, что OUSD настолько устойчив, насколько устойчивы стейблкоины, которые его обеспечивают. Любая потеря базовых активов приведет к аналогичным убыткам в OUSD.
 
-It is important to note that each of the supported stablecoins introduces non-trivial counter-party risk. Tether, in particular, has had well-documented banking troubles and regulatory challenges. In addition, both USDT and USDC have backdoors that grant their issuers the power to freeze money in their holder's wallets. While DAI does not have any direct backdoors, it's assets can also be negatively impacted since USDC is accepted as collateral for minting DAI. 
+Важно отметить, что каждый из поддерживаемых стейблкоинов представляет собой нетривиальный риск для контрагента. У Tether, в частности, были хорошо задокументированные проблемы с банковской системой и нормативными требованиями. Кроме того, и в USDT, и в USDC есть лазейки, которые дают их эмитентам право замораживать деньги в кошельках их владельцев. Не смотря на то, что в DAI нет таких лазеек, на его активы также может возникнуть негативное влияние, поскольку USDC принимается в качестве обеспечения для добычи DAI.
 
-**In summary, OUSD is beta software. Use at your own risk. Don't deploy more capital than you are willing to lose.**
+**Таким образом, OUSD - это бета-версия программного обеспечения. Используйте на свой риск. Не вкладывайте больше капитала, чем вы готовы потерять.**
 
 
 

@@ -1,48 +1,30 @@
-## Purpose
+---
+description: Первый стейблкоин, который приносит доход, просто находясь в Вашем кошельке
+---
 
-This repo is for syncing the documentation for Origin Dollar between Gitbook and Crowdin, which we use for translations.
+# Введение
 
-## Editing
+## **Лучшая форма денег**
 
-All edits and improvements to the documentation should be made at https://docs.ousd.com. If you're a core team member, you can find an invite link to Gitbook in a pinned message in the internal #origin-dollar Discord channel.
+Origin Dollar \(OUSD\) - это новый стейблкоин, изначально запущенный в сентябре 2020 года в сети Ethereum. Его дизайн превосходит существующие стейблкоины, потому что OUSD обеспечивает конкурентоспособную доходность, пассивно хранясь в кошельках.
 
-Gitbook tracks each translation in "variants" which map to different branches on Github. Crowdin pushes the various translations to named folders on the translations branch. For now, it's a manual process to move the latest translations from the folders to their matching branches.
+![](.gitbook/assets/origin-dollar-summary.jpeg)
 
-## Translation flow
+**Предыстория**
 
-Here's the process by which our OUSD docs are translated:
+В 1999 году Юй Пан, инженер компании Origin, и его товарищ - соучредитель PayPal [задумали](https://www.cnbc.com/2017/08/14/david-sacks-cryptocurrency-interview.html) создать «новую мировую валюту» со стратегиями получения процентных доходов и дебетовыми картами, но без необходимости подключаться к традиционным банковским системам. Пройдя несколько поворотных точек, включая приобретение eBay, PayPal отказался от своих амбиций в этой области.
 
-- Edits to the docs should be made on the English version of the docs on Gitbook. This is considered our canonical source.
-- Gitbook will sync the `en` branch to Github when you save & merge
-- Crowdin will fetch the `en` branch every ten minutes to check for changes
-- Our translators will submit their translations on Crowdin
-- Crowdin will push the new translations in the form of a pull request on the `translations` branch
-  - Crowdin will put each translation in a different folder named with the language code (`zh`, `ko`, etc)
-  - However, Gitbook expects the different translations to be in seperate branches with the files at the root. Until we write a script for this, you'll need to manually go through each language branch, and copy the files from the `translations` branch into the right place.
+Почти два десятилетия спустя, в 2014 году, Tether представили концепцию стейблкоина, номинированного в долларах США. С тех пор стейблкоины зарекомендовали себя как идеальный способ передачи ценности, не подвергая пользователей волатильности цен на свободно плавающие валюты. Сегодня больший денежный объем [передается через Tether,](https://www.bloomberg.com/news/articles/2019-10-01/tether-not-bitcoin-likely-the-world-s-most-used-cryptocurrency) чем через Биткоин. Тем временем, децентрализованные финансы \(DeFi\) пережили период взрывного роста, [миллиарды долларов](https://defipulse.com/) капитала теперь заблокированы в смарт-контрактах, которые генерируют доход от протоколов кредитования и торговли.
 
-## Updating the translations
+Одна из проблем с существующими стейблкоинами заключается в том, что пользователям приходится постоянно выбирать между владением монетой, которую легко потратить, и получением дохода за счет блокировки своих токенов в смарт-контрактах. Например, пользователи, которые заблокировали USDC в Aave, не могут одновременно тратить часть этого USDC. Дорогая оплата газа в Ethereum служит «затратами на переключение» каждый раз, когда эти пользователи хотят переключиться между режимом расходов и режимом заработка.
 
-Use the following steps to push the latest translations to Gitbook. For example, to update the Chinese docs:
+И в довершение всего, доходность от кредитной и торговой деятельности быстро меняется. Люди с большим опытом получения дохода от DeFi хорошо знакомы с постоянной необходимостью перебалансировки своих активов между конкурирующими платформами. Это дорого и отнимает много времени, поскольку плата за газ снова и снова снижает доходность. К тому же, много времени занимает расчет реальной рентабельности инвестиций, так как APY нестабильны и постоянно колеблются. Не существует простой единицы расчета. В результате, несмотря на то, что рынок DeFi растет чрезвычайно быстро, многим пользователям криптовалюты по-прежнему трудно принимать в нем участие.
 
- - Clone the repo and fetch all remote branches
- - Merge the latest changes from the `translations` branch into the `zh` branch
- - Move everything in the `/zh` folder into the root directory and delete everything else. Once you're done, you should see a Chinese version of README.md in the root directory.
- - Add and commit everything and push the `zh` branch to Github
- - Go to Gitbook and confirm everything updated as expected. It may take a minute or two for the changes to sync.  
+С OUSD нет необходимости закрывать сложные позиции, если Вы хотите потратить свои токены OUSD. Вы можете свободно переводить их, не платя за газ, чтобы разблокировать средства, которые можно потратить. В дополнение ко всему, OUSD предоставляет Вам доступ к некоторым самым прибыльным возможностям в DeFi без каких-либо проблем. Смарт-контракт OUSD задействует ваш базовый капитал в диверсифицированном наборе стратегий заработка, со временем перебалансируясь для достижения высокой доходности при диверсификации рисков. Заработок автоматически начисляется в Ваш кошелек и непрерывно накапливается, пока Вы держите OUSD. Опять же, никаких блокировок средств не требуется. OUSD также служит идеальной единицей расчета. Инвесторам DeFi больше не нужны сложные таблицы для расчета своих доходов, поскольку они могут легко видеть свои балансы OUSD, которые постоянно обновляются в режиме реального времени по мере того, как их проценты накапливаются автоматически. OUSD - идеальный стейблкоин как для "фермеров" DeFi, так и для начинающих пользователей криптовалюты.
 
-## Adding a language
+Origin Dollar, созданный ветеранами криптовалюты и финансово-технологического сектора, предоставляется Вам [ командой ](https://www.originprotocol.com/team) [Origin Protocol](https://www.originprotocol.com) которая включает предпринимателей, ранних криптовалютных инвесторов, первых сотрудников YouTube, руководителей инженерно-технических отделов в Google / Dropbox и Ю Пана - одного из соучередителей Paypal.
 
-To add a language in Gitbook:
+Для тех, кто хочет погрузиться в технические подробности того, как это работает, данная документация станет отличным началом. Мы приглашаем разработчиков проводить аудиты и вносить свой вклад в наш [Github](http://www.github.com/OriginProtocol) \ (на 100% открытый исходный код). Наша команда общается в [Discord](https://www.originprotocol.com/discord), если у Вас есть вопросы или вам нужна помощь для начала работы.
 
-- Create a new variant
-- Set the slug to the two letter country code for the language
-- Make sure to set the local user interface in Gitbook if it is available
-- Add the language in Crowdin & recruit translators
-- Add a new branch in Github that uses the same two letter language code that was set in Gitbook
-
-## Volunteer
-
-Volunteers who wish to help improve our translations can volunteer using this form:
-https://goo.gl/PqT326
-
+Добро пожаловать в будущее денег.
 

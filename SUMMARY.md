@@ -1,59 +1,59 @@
-# Table of contents
+# Оглавление
 
-* [Introduction](README.md)
-* [How It Works](how-it-works.md)
-* [Getting Started](getting-started.md)
+* [Введение](README.md)
+* [Как это работает](how-it-works.md)
+* [Приступая к работе](getting-started.md)
 
-## Core Concepts
+## Основные концепции
 
-* [Elastic Supply](core-concepts/elastic-supply.md)
-* [Yield Generation](core-concepts/yield-generation/README.md)
-  * [Lending](core-concepts/yield-generation/lending.md)
-  * [Market Making](core-concepts/yield-generation/market-making.md)
-  * [Rewards](core-concepts/yield-generation/rewards.md)
-* [Supported Stablecoins](core-concepts/supported-stablecoins/README.md)
+* [Гибкое предложение](core-concepts/elastic-supply.md)
+* [Генерирование дохода](core-concepts/yield-generation/README.md)
+  * [Кредитование](core-concepts/yield-generation/lending.md)
+  * [Поддержание котировок на рынке](core-concepts/yield-generation/market-making.md)
+  * [Вознаграждение](core-concepts/yield-generation/rewards.md)
+* [Поддерживаемые стейблкоины](core-concepts/supported-stablecoins/README.md)
   * [USDT](core-concepts/supported-stablecoins/usdt.md)
   * [USDC](core-concepts/supported-stablecoins/usdc.md)
   * [DAI](core-concepts/supported-stablecoins/dai.md)
-* [Supported Strategies](core-concepts/supported-strategies/README.md)
-  * [Compound](core-concepts/supported-strategies/compound.md)
+* [Поддерживаемые стратегии](core-concepts/supported-strategies/README.md)
+  * [Накапливание](core-concepts/supported-strategies/compound.md)
   * [Aave](core-concepts/supported-strategies/aave.md)
   * [dYdX](core-concepts/supported-strategies/dydx.md)
   * [Uniswap](core-concepts/supported-strategies/uniswap.md)
   * [Curve](core-concepts/supported-strategies/curve.md)
   * [Balancer](core-concepts/supported-strategies/balancer.md)
   * [Yearn.finance](core-concepts/supported-strategies/yearn.finance.md)
-* [Fund Management](core-concepts/fund-management/README.md)
-  * [Earning Strategies](core-concepts/fund-management/earning-strategies.md)
-  * [Diversification](core-concepts/fund-management/diversification.md)
-* [Price Oracles](core-concepts/price-oracles.md)
+* [Управление средствами](core-concepts/fund-management/README.md)
+  * [Стратегии заработка](core-concepts/fund-management/earning-strategies.md)
+  * [Диверсификация](core-concepts/fund-management/diversification.md)
+* [Ценовые оракулы](core-concepts/price-oracles.md)
 
-## Governance
+## Управление
 
-* [Principles](governance/principles.md)
-* [Admin Privileges](governance/admin-privileges.md)
+* [Принципы](governance/principles.md)
+* [Права администратора](governance/admin-privileges.md)
 
-## Smart Contracts
+## Смарт-контракты
 
-* [Architecture](smart-contracts/architecture.md)
-* [Registry](smart-contracts/registry.md)
+* [Архитектура](smart-contracts/architecture.md)
+* [Реестр](smart-contracts/registry.md)
 * [API](smart-contracts/api/README.md)
-  * [Vault](smart-contracts/api/vault.md)
+  * [Хранилище](smart-contracts/api/vault.md)
   * [ERC-20](smart-contracts/api/erc-20-1.md)
-  * [Timelock](smart-contracts/api/timelock.md)
-  * [Oracles](smart-contracts/api/oracle.md)
-  * [Strategies](smart-contracts/api/strategies.md)
+  * [Временная блокировка](smart-contracts/api/timelock.md)
+  * [Оракулы](smart-contracts/api/oracle.md)
+  * [Стратегии](smart-contracts/api/strategies.md)
 
-## Security & Risks
+## Угрозы & Безопасность
 
-* [Risks](security-and-risks/risks.md)
-* [Audits](security-and-risks/audits.md)
-* [Bug Bounties](security-and-risks/bug-bounties.md)
-* [Contributing](security-and-risks/contributing.md)
+* [Риски](security-and-risks/risks.md)
+* [Аудиты](security-and-risks/audits.md)
+* [Призы за поиск ошибок](security-and-risks/bug-bounties.md)
+* [Сотрудничество](security-and-risks/contributing.md)
 
-## Links
+## Ссылки
 
-* [Github](https://www.github.com/originprotocol/origin-dollar)
+* [GitHub](https://www.github.com/originprotocol/origin-dollar)
 * [Discord](https://www.originprotocol.com/discord)
 * [originprotocol.com](https://www.originprotocol.com)
 

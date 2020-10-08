@@ -1,8 +1,8 @@
-# Diversification
+# Диверсификация
 
-The initial version of the OUSD Vault smart contract gives each valid strategy a simple weight between 0% and 100% to perform simple asset allocation. These weights will be shifted often via updates by Origin in the short-term and by decentralized governance in the long-term. 
+Первоначальная версия смарт-контракта OUSD Vault дает каждой действующей стратегии некоторый вес, колеблющийся от 0% до 100% для выполнения простого распределения активов. Эти веса стратегий будут часто смещаться посредством обновлений Origin в краткосрочной перспективе и децентрализованного управления в долгосрочной перспективе.
 
-Diversification across multiple underlying DeFi [platforms](../supported-strategies/) will reduce smart contract and other systemic risks. The smart contract will calculate current and expected APYs in an effort to provide competitive returns to OUSD holders. Over time, the Vault contract will be upgraded to intelligently and autonomously shift between strategies without any manual intervention. For example, the Vault will automatically shift capital between various lending strategies to optimize for yields.
+Диверсификация между несколькими базовыми [платформами DeFi](../supported-strategies/) снизит риски смарт-контрактов и других системных рисков. Смарт-контракт будет рассчитывать текущие и ожидаемые APY, чтобы обеспечить конкурентоспособную прибыль держателям OUSD. Со временем контракт Vault будет обновлен для интеллектуального и автономного переключения между стратегиями без ручного вмешательства. Например, Vault будет автоматически перемещать капитал между различными стратегиями кредитования для оптимизации доходности.
 
-However, it is still expected that certain risk parameters or decisions on whether certain strategies will be included in the automated decision-making engine will be made through governance votes. 
+Тем не менее, все еще ожидается, что определенные параметры риска или решения о том, будут ли определенные стратегии включены в автоматизированный механизм принятия решений, будут приниматься посредством голосования руководства. 
 

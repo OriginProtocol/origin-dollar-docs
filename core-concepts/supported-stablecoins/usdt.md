@@ -2,21 +2,21 @@
 
 ![](../../.gitbook/assets/image%20%281%29.png)
 
-Tether \(USDT\) is a fiat-pegged stablecoin that was initially built on top of Bitcoin via the Omni Layer Protocol.  In September 2017, Tether announced they would be launching additional ERC-20 tokens for United States dollars on the Ethereum blockchain.
+Tether \(USDT\) - это стейблкоин с привязкой к фиатной валюте, который изначально был построен на базе Биткойна с помощью протокола Omni Layer.  В сентябре 2017 года Tether объявил, что они будут запускать дополнительные токены ERC-20 за доллары США на блокчейне Ethereum.
 
-Each Tether issued into circulation is said to be backed by a one-to-one ratio with the equivalent amount of fiat currency held in a custodial account by Tether Limited, a Hong Kong-based company with close ties to the cryptocurrency exchange, Bitfinex.
+Каждый выпущенный в обращение Tether, как утверждается, обеспечен в соотношении один к одному эквивалентным количеством фиатной валюты, хранящейся на депозитарном счете Tether Limited, гонконгской компании, тесно связанной с биржей криптовалют Bitfinex.
 
-Despite the controversy ****around ****the company's failure to provide a promised audit showing adequate reserves backing tether, USDT is still the world's largest stablecoin by market cap and currently the fourth-largest cryptocurrency after BTC, ETH and XRP.
+Несмотря на разногласия по поводу неспособности компании предоставить обещанный аудит, показывающий адекватные резервы, поддерживающие привязку, USDT по-прежнему является крупнейшей в мире стабильной монетой по рыночной капитализации и в настоящее время четвертой по величине криптовалютой после BTC, ETH и XRP.
 
-| Key Facts |  |
-| :--- | :--- |
-| Issued by | Tether Limited |
-| Name | Tether |
-| Symbol | USDT |
-| Address | [0xdac17f958d2ee523a2206206994597c13d831](https://etherscan.io/token/0xdac17f958d2ee523a2206206994597c13d831ec7) |
-| Decimals | 6 |
-| Official site | [https://tether.to/ ](https://tether.to/%20) |
-| Holders | Over 1.8M addresses |
+| Ключевые факты   |                                                                                                                  |
+|:---------------- |:---------------------------------------------------------------------------------------------------------------- |
+| Эмитирован       | Tether Limited                                                                                                   |
+| Название         | Tether                                                                                                           |
+| Символ           | USDT                                                                                                             |
+| Адрес            | [0xdac17f958d2ee523a2206206994597c13d831](https://etherscan.io/token/0xdac17f958d2ee523a2206206994597c13d831ec7) |
+| Разрядность      | 6                                                                                                                |
+| Официальный сайт | [https://tether.to/ ](https://tether.to/%20)                                                                     |
+| Держатели        | Более 1,8 млн адресов                                                                                            |
 
 
 

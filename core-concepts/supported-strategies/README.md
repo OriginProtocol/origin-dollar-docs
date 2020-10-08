@@ -1,14 +1,14 @@
-# Supported Strategies
+# Поддерживаемые стратегии
 
-**Supported DeFi Platforms**
+**Поддерживаемые DeFi платформы**
 
-OUSD generates yield by depositing stablecoins into lending platforms and market maker liquidity pools. It is important to understand that these platforms do carry technological risk and funds can be lost if there is a major security event. We are choosing to work with the platforms that have had their smart contracts audited and that we feel are most secure.
+OUSD генерирует доход за счет размещения стейблкоинов на кредитных платформах и в пулах ликвидности маркет-мейкеров. Важно понимать, что эти платформы несут технологический риск и что в случае серьезного нарушения безопасности средства могут быть потеряны. Мы предпочитаем работать с платформами, смарт-контракты которых прошли аудиты и которые, по нашему мнению, являются наиболее безопасными.
 
-Currently, OUSD earns yield from the following platform\(s\):
+В настоящее время OUSD получает доход со следующих (-ей) платформ (-ы):
 
 {% page-ref page="compound.md" %}
 
-Integrations are currently planned or being built for the following platforms:
+В настоящее время планируются или разрабатываются интеграции для следующих платформ:
 
 {% page-ref page="aave.md" %}
 
@@ -22,9 +22,9 @@ Integrations are currently planned or being built for the following platforms:
 
 {% page-ref page="yearn.finance.md" %}
 
-Although DeFi has grown very quickly and there are now billions of dollars worth of value deposited on these platforms, several of these projects are still in beta and are highly experimental. There may be hidden vulnerabilities in the smart contracts that power these platforms, and there have been multi-million dollar losses caused by vulnerabilities in Ethereum applications in the past.
+Хотя рынок DeFi очень быстро вырос, и сейчас на этих платформах размещена стоимость в миллиарды долларов, некоторые из этих проектов все еще находятся в стадии бета-тестирования и являются экспериментальными. В смарт-контрактах, на которых работают эти платформы, могут быть скрытые уязвимости, и в прошлом были понесены многомиллионные убытки, вызванные уязвимостями в приложениях Ethereum.
 
-We closely monitor security events on the platforms we support and will immediately move to secure OUSD holder funds if we identify any threats.
+Мы внимательно следим за событиями безопасности на поддерживаемых нами платформах и немедленно приступим к защите средств держателей OUSD, если обнаружим какие-либо угрозы.
 
 
 

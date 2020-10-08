@@ -2,21 +2,21 @@
 
 ![](../../.gitbook/assets/usdc-coin-bd351fb779%20%281%29.png)
 
-USD Coin \(USDC\) is a fiat-pegged stablecoin launched as a ERC-20 token on the Ethereum blockchain in October 2018. USDC is pegged to the US dollar and can easily be redeemed for US dollars.
+USD Coin \ (USDC \) - это стейблкоин с привязкой к фиатной валюте, запущенный в качестве токена ERC-20 на блокчейне Ethereum в октябре 2018 года. USDC привязан к доллару США и может быть легко выкуплен за доллары США.
 
-Each USDC is backed by a 1:1 ratio with the equivalent amount of fiat currency held in custodial accounts by members of Centre, a consortium founded by Circle and Coinbase. Members of Centre are regulated financial institutions based in the US. Monthly audits of reserves are published by Grant Thornton LLP.
+Каждый USDC обеспечен в соотношении 1:1 с эквивалентной суммой фиатной валюты на счетах ответственного хранения, открытыми членами Center - консорциума, основанного Circle и Coinbase. Члены Центра - это регулируемые финансовые учреждения, расположенные в США. Ежемесячный аудит запасов публикует Grant Thornton LLP.
 
-USDC is the world's second-largest stablecoin after USDT and has quickly grown to over $1 billion in circulation. However, USDC remains far behind USDT's $12+ billion in circulation.
+USDC является вторым по величине стейблкоином в мире после USDT, и его оборот быстро превысил 1 миллиард долларов. Тем не менее, USDC по-прежнему сильно отстает от USDT, который находится в обращении на сумму более 12 миллиардов долларов.
 
-| Key Facts |  |
-| :--- | :--- |
-| Issued by | Centre |
-| Name | USD Coin |
-| Symbol | USDC |
-| Address | [0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48](https://etherscan.io/token/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48) |
-| Decimals | 6 |
-| Official site | [https://www.centre.io/usdc](https://www.centre.io/usdc) |
-| Holders | Over 200k addresses |
+| Ключевые факты   |                                                                                                                     |
+|:---------------- |:------------------------------------------------------------------------------------------------------------------- |
+| Эмитирован       | Centre                                                                                                              |
+| Название         | USD Coin                                                                                                            |
+| Символ           | USDC                                                                                                                |
+| Адрес            | [0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48](https://etherscan.io/token/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48) |
+| Разрядность      | 6                                                                                                                   |
+| Официальный сайт | [https://www.centre.io/usdc](https://www.centre.io/usdc)                                                            |
+| Держатели        | Более 200 000 адресов                                                                                               |
 
 
 

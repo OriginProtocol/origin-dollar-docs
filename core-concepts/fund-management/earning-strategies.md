@@ -1,6 +1,6 @@
-# Earning Strategies
+# Стратегии заработка
 
-Earning strategies put deployed capital to work across various DeFi platforms. The Vault will determine which strategies are active and what percentage of deployed capital they will receive. 
+Стратегии заработка позволяют задействовать вложенный капитал на различных платформах DeFi. Vault будет определять, какие стратегии активны и какой процент от задействованного капитала они получат.
 
-In addition, strategies will be upgraded over time. For example, at launch, there will be an initial [Compound strategy](../supported-strategies/compound.md). Over time, this may be replaced by a v2 or v3 Compound strategy.
+Кроме того, со временем стратегии будут обновляться. Например, при запуске будет изначальная [Стратегия накопления](../supported-strategies/compound.md). Со временем она может быть заменена Стратегией накопления v2 или v3.
 

@@ -1,14 +1,14 @@
-# Rewards
+# Вознаграждения
 
-**Collecting Rewards** 
+**Сбор вознаграждений**
 
-In addition to collecting interest from lending and fees from market making, we intend to automatically claim and convert the bonus incentives that are being distributed by many of the DeFi protocols. For example, Compound gives away COMP tokens, Balancer gives away BAL tokens, and Curve gives away CRV tokens. These bonus rewards will be regularly converted into stablecoins, deployed in the market, and distributed to OUSD holders in the form of additional yield.
+В дополнение к сбору процентов от кредитования и рыночных комиссий, мы намерены автоматически запрашивать и конвертировать дополнительные премиальные выплаты, которые распределяются многими протоколами DeFi. Например, Compound раздает токены COMP, Balancer раздает токены BAL, а Curve раздает токены CRV. Эти бонусные вознаграждения будут регулярно конвертироваться в стейблкоины, размещаться на рынке и распределяться среди держателей OUSD в виде дополнительной прибыли.
 
 {% hint style="info" %}
-While the vault safely stores any unexpected rewards that it receives, custom strategies will need to be written and deployed to decide when and how the protocol should convert them to stablecoins.
+В то время как хранилище безопасно хранит любые неожиданные награды, которые оно получает, необходимо будет написать и развернуть собственные стратегии, чтобы решить, когда и как протокол должен преобразовать их в стейблкоины.
 {% endhint %}
 
-Today, rewards are a significant factor for yield farmers as they represent a large percentage of their returns. We anticipate that the OUSD protocol will be upgraded over time to take advantage of the most attractive yields available across the DeFi landscape. The protocol will factor in the market value of the various rewards being offered when deciding how to best allocate resources.
+Сегодня вознаграждения являются важным фактором для лиц, добывающих прибыль, поскольку они составляют значительную часть их доходов. Мы ожидаем, что протокол OUSD со временем будет обновлен, чтобы использовать преимущества наиболее привлекательной доходности, доступной в ландшафте DeFi. Протокол будет учитывать рыночную стоимость различных предлагаемых вознаграждений при принятии решения о том, как наилучшим образом распределить ресурсы.
 
 
 

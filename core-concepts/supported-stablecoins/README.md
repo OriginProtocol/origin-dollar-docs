@@ -1,10 +1,10 @@
-# Supported Stablecoins
+# Поддерживаемые стейблкоины
 
-**Supported Stablecoins**
+**Поддерживаемые стейблкоины**
 
-It is important to understand that OUSD is only as strong as the stablecoins that are backing it. Any loss to the underlying assets will cause a similar loss to the value of OUSD.
+Важно понимать, что OUSD настолько устойчив, насколько устойчивы стейблкоины, которые его обеспечивают. Любая потеря базовых активов приведет к потерям, аналогичным убыткам в OUSD.
 
-Currently, OUSD supports the following stablecoins:
+В настоящее время OUSD поддерживает следующие стейблкоины:
 
 {% page-ref page="usdt.md" %}
 
@@ -12,9 +12,9 @@ Currently, OUSD supports the following stablecoins:
 
 {% page-ref page="dai.md" %}
 
-None of these stablecoins are perfect, but we selected them because of their widespread usage. While these stablecoins have lost their USD peg on multiple occasions, they have demonstrated resiliency in eventually getting back to their 1 USD targets.
+Ни один из этих стейблкоинов не идеален, но мы выбрали их из-за их широкого использования. Хотя эти стейблкоины несколько раз теряли привязку к доллару, они продемонстрировали устойчивость и в конечном итоге вернулись к своим целям в 1 доллар.
 
-It is important to note that all these stablecoins introduce non-trivial counter-party risk. Tether, in particular, has had well-documented banking troubles and regulatory challenges. In addition, both USDT and USDC have backdoors that grant their issuers the power to freeze money in their holder's wallets. While DAI does not have any direct backdoors, it's assets can also be negatively impacted since USDC is accepted as collateral for minting DAI. 
+Важно отметить, что все эти стейблкоины несут нетривиальный риск для контрагента. У Tether, в частности, были хорошо задокументированные проблемы с банковской системой и нормативными требованиями. Кроме того, и в USDT, и в USDC есть лазейки, которые дают их эмитентам право замораживать деньги в кошельках их владельцев. И, хотя в DAI нет таких лазеек, на его активы также может возникнуть негативное влияние, поскольку USDC принимается в качестве обеспечения для добычи DAI.
 
-Despite these concerns, there are already billions of dollars betting on the security of these stablecoins. It is possible that additional stablecoins will be added to the protocol over time. Support may also be removed if any of these stablecoins prove to be too unreliable or put OUSD holders funds in jeopardy. 
+Несмотря на эти опасения, на безопасность этих стейблкоинов уже поставлены миллиарды долларов. Возможно, со временем в протокол будут добавлены дополнительные стейблкоины. Поддержка также может быть удалена, если какой-либо из этих стейблкоинов окажется слишком ненадежным или подвергнет опасности средства держателей OUSD. 
 
