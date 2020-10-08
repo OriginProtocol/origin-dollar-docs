@@ -1,20 +1,20 @@
-# Timelock
+# Khoá thời gian (timelock)
 
 {% hint style="danger" %}
-The timelock will be added soon after everything is verified as working. Until then, the contracts will be governed by Origin's 5 of 8 multi-sig. This allows for a faster response if any critical issues are discovered.
+Thời gian sẽ sớm được thêm sau khi mọi chức năng được chứng minh là hoạt động tốt. Cho đến lúc đó, các hợp đồng sẽ được điều chỉnh bởi 5 trong 8 chữ ký (hình thức đa chữ ký) của Origin. Tính năng này cho phép cộng đồng có quyền phản hồi nếu phát hiện ra bất kỳ vấn đề nghiêm trọng nào trong hợp đồng.
 {% endhint %}
 
-The timelock contract enforces a 48 hour wait period before any changes to the OUSD contracts can be executed. The timelock can be called by our multi-sig and is the owner of our [ERC-20](../architecture.md), [Vault](vault.md), and [Strategies](strategies.md) contracts. Time-delaying admin actions gives users a chance to exit OUSD if its admins become malicious, are compromised, or make a change that the users do not like.
+Hợp đồng timelock sẽ có hiệu lực trong khoảng 48 giờ trước khi các thay đổi trong hợp đồng OUSD được chính thức áp dụng. Khoá thời gian có thể được gọi bởi chúng tôi thông qua biểu biểu quyết chữ ký và là chủ sở hữu của [ERC-20](../architecture.md), [Vault](vault.md) và [Các chiến lược](strategies.md). Việc trì hoãn thời gian thực thi thay đổi hợp đồng thông minh cho phép người dùng có thời gian rút khỏi giao thức khi nhận thấy bất kỳ thay đổi đáng nghi ngờ nào của người sở hữu hoặc chỉ đơn giản là bạn không thích các thay đổi được đề xuất.
 
 {% hint style="info" %}
-The timelock is a safety measure that gives OUSD holders 48 hours to withdraw their funds if they have objections to any proposed upgrades to the protocol.
+Timelock là một biện pháp an toàn cho phép chủ sở hữu OUSD rút tiền nếu họ phản đối bất kỳ đề xuất nâng cấp nào đối với giao thức trong vòng 48 giờ kể từ thời điểm đề xuất.
 {% endhint %}
 
-OUSD is using a slightly modified version of the [Compound Timelock](https://compound.finance/docs/governance) which has been [audited by OpenZeppelin](https://blog.openzeppelin.com/compound-finance-patch-audit/). The 3 notable differences are:
+OUSD đang sử dụng một phiên bản sửa đổi 1 vài chi tiết nhỏ của [Compound TimeLock](https://compound.finance/docs/governance) đã được [kiểm toán bởi OpenZeppelin](https://blog.openzeppelin.com/compound-finance-patch-audit/). 3 điểm khác biệt đáng chú ý là:
 
-1. OUSD will initially use a shorter wait period \(48 hours\) than Compound \(72 hours\) to allow for a faster response if any issues are discovered.
-2. Once the 48 hours have passed, anyone is free to execute the call, not just the owner of the contract.
-3. Deposits \(but not withdrawals or transfers\) can be immediately frozen without requiring the 48 waiting period. This is in case a major vulnerability is discovered.
+1. OUSD ban đầu sẽ sử dụng khoảng thời gian chờ ngắn hơn (48 giờ) so với Compound (72 giờ) cho phép phản hồi nhanh hơn nếu bất kỳ vấn đề nào được phát hiện.
+2. Sau 48 giờ, bất kỳ ai cũng có thể tự do thực hiện gọi lệnh, không chỉ chủ sở hữu của hợp đồng.
+3. Việc gửi tiền (không bao gồm rút tiền hay chuyển tiền) có thể bị đóng băng ngay lập tức mà không yêu cầu 48 giờ chờ đợi. Trường hợp này sẽ áp dụng khi có 1 lỗ hổng nghiêm trọng được phát hiện.
 
 
 
