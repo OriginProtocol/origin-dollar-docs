@@ -2,7 +2,7 @@
 description: The first stablecoin that earns a yield while it's still in your wallet
 ---
 
-# Introduction
+# Giới thiệu
 
 ## **A Better Form of Money**
 

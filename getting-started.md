@@ -4,7 +4,7 @@ Tài liệu này được xây dựng nhằm giải thích cách thức hoạt �
 
 **Mint và Redeem**
 
-OUSD Mint cho phép bất kỳ ai cũng có thể tạo hoặc giao dịch OUSD bằng cách sử dụng [DApp](www.ousd.com) và ví tiền điện tử hỗ trợ web-3 như [Metamask](https://www.metamask.io). Đây là cách cơ bản để có được OUSD, đặc biệt hữu ích trong trường hợp bạn muốn hạn chế rủi ro di chuyển số lượng tiền lớn trên các sàn giao dịch.
+OUSD Mint cho phép bất kỳ ai cũng có thể tạo hoặc giao dịch OUSD bằng cách sử dụng [DApp](https://github.com/oplabs/origin-dollar-docs/tree/bce1f906df7a51fa677f7a5418820d4d732448d7/www.ousd.com) và ví tiền điện tử hỗ trợ web-3 như [Metamask](https://www.metamask.io). Đây là cách cơ bản để có được OUSD, đặc biệt hữu ích trong trường hợp bạn muốn hạn chế rủi ro di chuyển số lượng tiền lớn trên các sàn giao dịch.
 
 **Mua trên trên sàn giao dịch**
 
@@ -18,7 +18,7 @@ Ngoài ra, chúng tôi dự đoán rằng OUSD sẽ sớm được phổ biến 
 **Thêm OUSD vào Ví của bạn**
 
 {% hint style="success" %}
-Địa chỉ ERC20 chính của Origin Dollar \ (OUSD \) là:   
+Địa chỉ ERC20 chính của Origin Dollar  \(OUSD \) là:  
 **0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86**
 {% endhint %}
 
@@ -30,11 +30,11 @@ OUSD là token ERC-20 không tiêu chuẩn, hầu hết các ứng dụng muốn
 
 Nếu bạn là nhà cung cấp ví hoặc sàn giao dịch tiền điện tử quan tâm đến việc hỗ trợ OUSD, vui lòng tham khảo các hướng dẫn sau:
 
-{% page-ref page="smart-contracts/architecture.md" %}
+{% page-ref page="hop-dong-thong-minh/architecture.md" %}
 
-{% page-ref page="smart-contracts/api/" %}
+{% page-ref page="hop-dong-thong-minh/api/" %}
 
 **Yêu cầu hỗ trợ**
 
-Vui lòng tham gia kênh Origin Dollar \ #engineering trên [Discord](www.originprotocol.com/discord) của Origin.  Đội ngũ của chúng tôi và các thành viên trong cộng đồng luôn sẵn sàng hỗ trợ bạn. Câu hỏi của bạn giúp sẽ giúp chúng tôi ngày càng hoàn thiện, vì vậy đừng ngần ngại cho chúng tôi biết thắc mắc của bạn nếu bạn không tìm thấy câu trả lời ở đây.
+Vui lòng tham gia kênh Origin Dollar  \#engineering trên [Discord](https://github.com/oplabs/origin-dollar-docs/tree/bce1f906df7a51fa677f7a5418820d4d732448d7/www.originprotocol.com/discord/README.md) của Origin. Đội ngũ của chúng tôi và các thành viên trong cộng đồng luôn sẵn sàng hỗ trợ bạn. Câu hỏi của bạn giúp sẽ giúp chúng tôi ngày càng hoàn thiện, vì vậy đừng ngần ngại cho chúng tôi biết thắc mắc của bạn nếu bạn không tìm thấy câu trả lời ở đây.
 
