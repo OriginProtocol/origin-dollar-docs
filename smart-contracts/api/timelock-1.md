@@ -4,7 +4,7 @@
 타임락(TimeLock) 은 모든 기능이 잘 작동하는 것들이 확인 된 후, 곧 추가됩니다. 그때 까지 컨트렉트는, 오리진(Origin) 의 5/8 멀티시그(multi-sig) 에 의해 관리됩니다. 이를 통해 중요한 문제가 발견될 경우 더 빠른 대응이 가능합니다.
 {% endhint %}
 
-타임락 컨트렉트는 OUSD 컨트렉트에 대한 변경이 실행되기 전에 48 시간의 대기 기간을 적용합니다. The timelock can be called by our multi-sig and is the owner of our [ERC-20](../erc-20.md), [Vault](vault.md), and [Strategies](strategies.md) contracts. 시간 지연(time-delaying) 관리 작업은 관리자가 손상되거나 악의적인 행동 또는 사용자가 원하지 않는 변경을 수행하는 경우, 사용자에게 OUSD를 출금(exit) 할 수있는 기회를 제공하는 것입니다.
+타임락 컨트렉트는 OUSD 컨트렉트에 대한 변경이 실행되기 전에 48 시간의 대기 기간을 적용합니다. The timelock can be called by our multi-sig and is the owner of our [ERC-20](../architecture.md), [Vault](vault.md), and [Strategies](strategies.md) contracts. 시간 지연(time-delaying) 관리 작업은 관리자가 손상되거나 악의적인 행동 또는 사용자가 원하지 않는 변경을 수행하는 경우, 사용자에게 OUSD를 출금(exit) 할 수있는 기회를 제공하는 것입니다.
 
 {% hint style="info" %}
 타임락은 OUSD 보유자가 제안된 프로토콜 업그레이드에 대해 이의가있는 경우 48 시간 동안 자금을 인출할 수 있는 안전 조치입니다.

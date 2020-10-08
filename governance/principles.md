@@ -12,7 +12,7 @@ OUSD는 전 세계의 많은 이해 관계자들이 함께 관리하는 탈 중�
 
 **타임락(Timelock)**
 
-완전한 탈 중앙화 거버넌스 이전에, 오리진은 모든 관리 기능 호출 앞에 [타임락(timelock)](../smart-contracts/api/timelock-1.md)을 구현하여, OUSD 사용자가 제안된 업그레이드에 대해 거부 의사를 표명할 경우 자금을 회수할 수 있는 시간을 제공합니다. 타임락은 출시 7 일 후에 추가됩니다.
+Prior to full decentralized governance, we will implement a [timelock](../smart-contracts/api/timelock.md) in front of all admin function calls, giving OUSD users time \(48 hours\) to withdraw their funds if they have objections to our proposed upgrades. 타임락은 출시 7 일 후에 추가됩니다.
 
 **신규 및 기존 이해 관계자**
 

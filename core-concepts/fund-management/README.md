@@ -1,6 +1,6 @@
 # 자금 관리
 
-The OUSD smart contract aggregates all users' stablecoin deposits into a single pool of investable assets. 그 후, 해당 기금은 특정 시점에 하나 이상의
+OUSD 스마트 컨트랙트는 모든 사용자의 스테이블 코인 예금을 단일 투자 가능한 자산 풀로 집계합니다. 그 후, 해당 기금은 특정 시점에 하나 이상의
 
  수익 전략<0>에 걸쳐 할당됩니다. 금고(Vault) 는 고수익 전략을 선호하지만, 여러 전략에서의 다양성을 유지하려고합니다. 다양성은 단일 장애 지점(single points of failures) 을 제거하고 위험을 완화합니다.</p> 
 
