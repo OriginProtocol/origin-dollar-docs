@@ -1,24 +1,24 @@
-# Market Making
+# Pazar yapımı
 
-**Own your Stake in Decentralized Exchanges**
+**Merkezi Olmayan Borsalarda Payınızı Sahibi Olun**
 
-Automated market makers \(AMMs\) have quickly risen as the preferred form of decentralized exchange on the Ethereum network. This is in part due to the difficulty of supporting order book DEXes on Ethereum 1.0 that can rival the instant and low-slippage experiences on centralized exchanges. Further, AMMs like Uniswap are relatively user-friendly and gas-efficient to use.
+Otomatik piyasa yapıcıları \ (AMM'ler \), Ethereum ağında tercih edilen merkezi olmayan değişim biçimi olarak hızla yükseldi. Bu kısmen, merkezi borsalardaki anlık ve düşük kayma deneyimlerine rakip olabilecek Ethereum 1.0'daki sipariş defteri DEX'leri desteklemenin zorluğundan kaynaklanıyor. Ayrıca, Uniswap gibi AMM'ler nispeten kullanıcı dostudur ve kullanımları gaz verimlidir.
 
-AMMs can only enable new markets when liquidity providers supply liquidity \(e.g. multiple tokens for given trading pairs or pools\). In return for providing liquidity, liquidity providers are rewarded with trading fees when other users swap tokens. For example, when traders swap USDT for USDC on Uniswap, they are currently charged 0.3% on top of gas fees. These fees are distributed pro-rata to liquidity providers on the USDT-USDC pair based on the percentage of total liquidity that they have provided. 
+AMM'ler, yalnızca likidite sağlayıcıları likidite sağladığında yeni piyasaları etkinleştirebilir \ (örneğin, belirli alım satım çiftleri veya havuzları için birden fazla token \). Likidite sağlama karşılığında likidite sağlayıcıları, diğer kullanıcılar token takas ettiğinde alım satım ücretleri ile ödüllendirilir. Örneğin, tüccarlar Uniswap'ta USDC'yi USDC ile değiştirdiklerinde, şu anda gaz ücretleri üzerinden% 0,3 ücret alıyorlar. Bu ücretler, sağladıkları toplam likidite yüzdesine göre USDT-USDC çifti üzerindeki likidite sağlayıcılarına orantılı olarak dağıtılır.
 
-{% hint style="info" %}
-[Impermanent loss](https://medium.com/@pintail/uniswap-a-good-deal-for-liquidity-providers-104c0b6816f2) is an important risk factor to understand, but this concern is largely mitigated by OUSD only providing liquidity for stablecoins of approximately equal value.
+{% hint style="bilgi" %}
+[Kalıcı olmayan kayıp](https://medium.com/@pintail/uniswap-a-good-deal-for-liquidity-providers-104c0b6816f2) , anlaşılması gereken önemli bir risk faktörüdür, ancak bu endişe, yalnızca OUSD tarafından yaklaşık olarak eşit değerdeki stabilcoinler için likidite sağlayarak büyük ölçüde hafifletilir.
 {% endhint %}
 
-The OUSD protocol routes USDT, USDC, and DAI to highly-performing liquidity pools as determined by trading volume and rewards tokens \(e.g. Balancer rewards BAL tokens to liquidity providers\). Yields are then passed on to OUSD holders.
+OUSD protokolü, USDT, USDC ve DAI'yi işlem hacmi ve ödül jetonları tarafından belirlenen yüksek performanslı likidite havuzlarına yönlendirir \ (örneğin, Dengeleyici BAL jetonlarını likidite sağlayıcılarına ödüllendirir \). Daha sonra getiriler OUSD sahiplerine aktarılır.
 
-We intend to integrate directly with at least the following automated market makers:
+En azından aşağıdaki otomatik pazar yapıcılarla doğrudan entegre olmayı planlıyoruz:
 
-{% page-ref page="../supported-strategies/uniswap.md" %}
+{% page-ref page = "../ supported-Strategies / complex.md"%}
 
-{% page-ref page="../supported-strategies/curve.md" %}
+{% page-ref page = "../ supported-Strategies / complex.md"%}
 
-{% page-ref page="../supported-strategies/balancer.md" %}
+{% page-ref page = "../ supported-Strategies / complex.md"%}
 
 
 

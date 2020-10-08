@@ -1,6 +1,6 @@
-# Oracles
+# Oracle'lar
 
-{% hint style="info" %}
-Documentation coming soon.
+{% hint style="bilgi" %}
+Belgeler çok yakında.
 {% endhint %}
 

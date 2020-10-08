@@ -1,8 +1,8 @@
-# Diversification
+# Çeşitlendirme
 
-The initial version of the OUSD Vault smart contract gives each valid strategy a simple weight between 0% and 100% to perform simple asset allocation. These weights will be shifted often via updates by Origin in the short-term and by decentralized governance in the long-term. 
+OUSD Vault akıllı sözleşmesinin ilk sürümü, basit varlık tahsisini gerçekleştirmek için her geçerli stratejiye% 0 ile% 100 arasında basit bir ağırlık verir. Bu ağırlıklar, kısa vadede Origin tarafından yapılan güncellemeler ve uzun vadede merkezi olmayan yönetişim tarafından sıklıkla değiştirilecektir.
 
-Diversification across multiple underlying DeFi [platforms](../supported-strategies/) will reduce smart contract and other systemic risks. The smart contract will calculate current and expected APYs in an effort to provide competitive returns to OUSD holders. Over time, the Vault contract will be upgraded to intelligently and autonomously shift between strategies without any manual intervention. For example, the Vault will automatically shift capital between various lending strategies to optimize for yields.
+Birden yatan Defi genelinde Çeşitlendirme [platformları](../supported-strategies/) akıllı sözleşme ve diğer sistemik riskleri azaltacaktır. Akıllı sözleşme, OUSD sahiplerine rekabetçi getiri sağlamak amacıyla mevcut ve beklenen APY'leri hesaplayacaktır. Zaman içinde Apps Kasası sözleşmesi, herhangi bir manuel müdahale olmaksızın stratejiler arasında akıllıca ve özerk bir şekilde geçiş yapacak şekilde yükseltilecektir. Örneğin, Vault, getirileri optimize etmek için sermayeyi çeşitli borç verme stratejileri arasında otomatik olarak kaydırır.
 
-However, it is still expected that certain risk parameters or decisions on whether certain strategies will be included in the automated decision-making engine will be made through governance votes. 
+Ancak yine de belirli risk parametrelerinin veya belirli stratejilerin otomatik karar verme motoruna dahil edilip edilmeyeceğine ilişkin kararların yönetişim oyları yoluyla alınması bekleniyor. 
 

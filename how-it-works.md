@@ -1,36 +1,36 @@
-# How It Works
+# Nasıl çalışır
 
-#### 100% Backed and Stable
+#### % 100 Destekli ve Kararlı
 
-Origin Dollar \(OUSD\) is an ERC-20 compliant token for the Ethereum network. 
+Origin Dollar \ (OUSD \), Ethereum ağı için ERC-20 uyumlu bir tokendır.
 
-OUSD is a stable currency that is backed 1:1 by other stablecoins like USDT, USDC and DAI. As a result, 1 OUSD should always be very close to 1 USD in value.
+OUSD, USDT, USDC ve DAI gibi diğer sabit paralar tarafından 1: 1 desteklenen istikrarlı bir para birimidir. Sonuç olarak, 1 OUSD değer olarak her zaman 1 ABD dolarına çok yakın olmalıdır.
 
-{% hint style="success" %}
-1 OUSD = 1 USD 
+{% hint style="başarı" %}
+1 OUSD = 1 USD
 {% endhint %}
 
-#### Minting OUSD
+#### OUSD Basmak (minting)
 
-Users convert their existing stablecoins \(currently USDT, USDC, and DAI\) to OUSD at the official [Origin Dollar DApp](www.ousd.com). Issued OUSD begins accruing compounding yield immediately.
+Kullanıcılar mevcut stablecoin'lerini (şu anda USDT, USDC ve DAI \) resmi [Origin Dollar DApp](www.ousd.com)OUSD'ye çeviriyor. Verilen OUSD, derhal bileşik getiriyi tahakkuk etmeye başlar.
 
-**Redeeming OUSD**
+**OUSD'yi kullanma**
 
-Users can convert their OUSD back into other stablecoins at any time using the [Origin Dollar DApp](www.ousd.com). A 0.5% exit fee is charged upon redemption and is distributed as additional yield to the remaining participants in the pool. The fee serves as a security feature to make it difficult for attackers to take advantage of lagging oracles, preventing them from syphoning stablecoins from the pool in the event of mispricings of of the underlying assets. The fee exists to incentivize long-term holders over short-term speculators.
+Kullanıcılar, [Origin Dollar DApp](www.ousd.com)kullanarak OUSD'larını istedikleri zaman diğer stabilcoinlere dönüştürebilirler. Geri ödeme sırasında% 0,5 çıkış ücreti alınır ve havuzda kalan katılımcılara ek getiri olarak dağıtılır. Ücret, saldırganların geri kalan oracle'lardan yararlanmasını zorlaştıran ve temel varlıkların yanlış fiyatlandırılması durumunda havuzdan stabilcoinleri sifonlamalarını engelleyen bir güvenlik özelliği olarak hizmet eder. Bu ücret, uzun vadeli sahiplerini kısa vadeli spekülatörlere teşvik etmek için var.
 
-Upon redemption, the smart contract will determine which stablecoin\(s\) to return to the user. In the current implementation, the pool will return coins in the same ratio as the current holdings. This lack of user optionality also protects the pool as a whole in the event that any of the supported stablecoins loses its peg to the dollar.
+Kullanımdan sonra, akıllı sözleşme hangi stabilcoin \ (ler) in kullanıcıya iade edileceğini belirleyecektir. Mevcut uygulamada, havuz, mevcut varlıklarla aynı oranda madeni para iade edecektir. Bu kullanıcı opsiyonelliği eksikliği, desteklenen stabilcoinlerden herhangi birinin dolara kurunu kaybetmesi durumunda havuzu bir bütün olarak korur.
 
-{% hint style="warning" %}
-There is a **0.5% exit fee** and the user doesn't get to pick which stablecoins they receive.
+{% hint style="uyarı" %}
+% **0,5'lik bir çıkış ücreti vardır** ve kullanıcı hangi sabit paraları alacağını seçemez.
 {% endhint %}
 
-#### A**utomated Yield Farming**
+#### Bir**utomated Verim Tarım ( Yield Farming)**
 
-OUSD generates yields by deploying the underlying stablecoins that were deposited to the OUSD smart contract to other DeFi protocols such as Compound, Aave, Uniswap, Balancer, and Curve. It is expected there will be new diversified strategies added to the pool every month. Collected interest, trading fees, and rewards tokens are pooled and converted to stablecoins to produce OUSD-denominated yields. Over time, the protocol will move assets in and out of different liquidity pools in order to provide the best yield to the holders of OUSD. 
+OUSD, Bileşik, Aave, Uniswap, Dengeleyici ve Eğri gibi diğer DeFi protokollerine OUSD akıllı sözleşmesine yatırılan temel sabit paraları dağıtarak getiri üretir. Havuza her ay yeni çeşitlendirilmiş stratejilerin eklenmesi beklenmektedir. Toplanan faiz, alım satım ücretleri ve ödül jetonları bir araya getirilir ve OUSD cinsinden getiriler üretmek için stabilcoinlere dönüştürülür. Zamanla, protokol, OUSD sahiplerine en iyi verimi sağlamak için varlıkları farklı likidite havuzlarına girip çıkaracaktır.
 
-#### **Elastic Supply**
+#### **Elastik Tedarik**
 
-The generated returns are passed on to the holders of OUSD via constant rebasing of the money supply. OUSD constantly adjusts the money supply in response to the yield the protocol has generated. This allows the price of OUSD to stay pegged at $1 while the balances in token holders' wallets adjust in real-time to reflect yields that have been earned by the protocol.
+Oluşturulan getiriler, para arzının sürekli olarak yeniden finanse edilmesi yoluyla OUSD sahiplerine aktarılır. OUSD, protokolün ürettiği getiriye yanıt olarak para arzını sürekli olarak ayarlar. Bu, OUSD fiyatının 1 $ olarak sabit kalmasına izin verirken, token sahiplerinin cüzdanlarındaki bakiyeler, protokol tarafından kazanılan getirileri yansıtacak şekilde gerçek zamanlı olarak ayarlanır.
 
-The end result is a stablecoin that is easy to spend, earns outsized yields automatically, and is more desirable to hold than existing stablecoins.
+Sonuç, harcanması kolay, otomatik olarak aşırı büyük getiriler kazanan ve mevcut stabilcoinlerden daha fazla tutulması arzu edilen bir stablecoin'dir.
 

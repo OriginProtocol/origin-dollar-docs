@@ -1,18 +1,18 @@
-# Elastic Supply
+# Elastik Tedarik
 
-**Elastic Supply. Stable Price.**
+**Elastik Tedarik. Sabit Fiyat.**
 
-OUSD works differently than most tokens. Instead of the price increasing as the value of the assets under management increase \(as with Compound cTokens or Yearn yTokens\), the value of one OUSD remains constant at approximately $1. Instead, the contracts constantly adjust the monetary supply and automatically updates the balance in every token holder’s wallet to reflect the yield that has been earned by the protocol. 
+OUSD, çoğu tokendan farklı çalışır. Yönetim altındaki varlıkların değeri arttıkça fiyat artışı yerine \ (Bileşik cTokens veya Yearn yTokens'te olduğu gibi), bir OUSD'nin değeri yaklaşık 1 $ 'da sabit kalır. Bunun yerine, sözleşmeler parasal arzı sürekli olarak ayarlar ve her bir token sahibinin cüzdanındaki bakiyeyi protokol tarafından kazanılan verimi yansıtacak şekilde otomatik olarak günceller.
 
-{% hint style="info" %}
-Think of it as interest accruing in your bank account. The unit of account and value for the US dollar doesn’t change. You just get more US dollars over time as you earn interest.
+{% hint style="bilgi" %}
+Banka hesabınıza faiz tahakkuk ettiğini düşünün. ABD dolarının hesap birimi ve değeri değişmez. Faiz kazandıkça zamanla daha fazla ABD doları kazanırsınız.
 {% endhint %}
 
 ![](../.gitbook/assets/ousd_docs_graphics_4.png)
 
-This mechanism was inspired by the novel approach taken by [Ampleforth](https://www.ampleforth.org/), but there are some key differences that are worth highlighting:
+Bu mekanizma, [Ampleforth](https://www.ampleforth.org/)tarafından benimsenen yeni yaklaşımdan esinlenmiştir, ancak vurgulanmaya değer bazı temel farklılıklar vardır:
 
-1. OUSD is 100% backed by other stablecoins and will not have the same challenge maintaining the peg to the dollar. Given the ease of minting and redeeming OUSD, we can count on arbitrageurs to ensure the peg is maintained. 
-2. OUSD rebasing is heavily biased towards increasing supply since the amount of OUSD minted is tied to the realized gains earned by the underlying strategies. Other than the fluctuations in price that are common with the underlying stablecoins, you should not see your OUSD balance go down. Your principal is protected as long as nothing goes wrong with the underlying lending/AMM and stablecoin protocols. Any major decrease in your balance would be an indication of trouble in the system.
-3. Unlike Ampleforth, which rebases once a day, the monetary supply of OUSD is constantly being updated in real-time as yield is generated.
+1. OUSD, diğer stabilcoinler tarafından% 100 desteklenmektedir ve dolara sabitlemeyi sürdürme konusunda aynı zorluğa sahip olmayacaktır. OUSD'yi basmanın ve paraya çevirmenin kolaylığı göz önüne alındığında, pegin korunmasını sağlamak için arbitrajcılara güvenebiliriz.
+2. OUSD geri ödemesi, basılan OUSD miktarı temel stratejiler tarafından kazanılan gerçekleşmiş kazançlara bağlı olduğundan, arzın artması yönünde büyük ölçüde önyargılıdır. Altta yatan sabit paralarla ortak olan fiyat dalgalanmaları dışında, OUSD bakiyenizin düştüğünü görmemelisiniz. Anaparanız, temel borç verme / AMM ve stabilcoin protokollerinde hiçbir şey ters gitmediği sürece korunur. Bakiyenizdeki herhangi bir büyük düşüş, sistemdeki bir sorunun göstergesi olacaktır.
+3. Günde bir kez yeniden satış yapan Ampleforth'un aksine, OUSD'nin parasal arzı, getiri elde edildikçe gerçek zamanlı olarak sürekli güncellenir.
 

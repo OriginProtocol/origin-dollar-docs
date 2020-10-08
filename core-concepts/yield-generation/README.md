@@ -1,20 +1,20 @@
-# Yield Generation
+# Verim Üretimi
 
-**Automated Yield Farming**
+**Otomatik yield farming**
 
-While the Cambrian explosion of new lending and automated market maker pools has fueled total value locked \(TVL\), it has also made it increasingly challenging for yield farmers to manually allocate capital in efficient and optimal ways.
+Yeni borç verme ve otomatikleştirilmiş piyasa yapıcı havuzlarındaki Kambriyen patlaması, kilitlenen toplam değeri \ (TVL \) beslerken, aynı zamanda verim çiftçilerinin sermayeyi verimli ve en uygun yollarla manuel olarak tahsis etmesini giderek daha zor hale getirdi.
 
-[Yearn](https://yearn.finance/) has demonstrated that smart contracts can automate the rebalancing of funds across various strategies to optimally earn lending interest, market making fees, and rewards tokens. The first version of OUSD will employ a simple Compound strategy, but new strategies will be deployed every month that maximize returns while minimizing risk and dependencies.
+[Yıl](https://yearn.finance/) , akıllı sözleşmelerin, en uygun şekilde borç verme faizi, piyasa yapma ücretleri ve ödül tokenları kazanmak için çeşitli stratejilerdeki fonların yeniden dengelenmesini otomatikleştirebileceğini gösterdi. OUSD'nin ilk sürümü basit bir Bileşik stratejisi kullanacak, ancak her ay getirileri en üst düzeye çıkarırken risk ve bağımlılıkları en aza indiren yeni stratejiler uygulanacak.
 
 ![](../../.gitbook/assets/ousd_docs_graphics_1.png)
 
-Effectively, there are 3 ways that OUSD generates yield: 
+Etkili olarak, OUSD'nin verim oluşturmasının 3 yolu vardır:
 
 {% page-ref page="lending.md" %}
 
 {% page-ref page="market-making.md" %}
 
-{% page-ref page="rewards.md" %}
+{% page-ref page="ödüller.md" %}
 
 
 

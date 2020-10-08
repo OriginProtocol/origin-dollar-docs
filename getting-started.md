@@ -1,40 +1,40 @@
-# Getting Started
+# Başlamak
 
-These docs are intended to explain how OUSD works, communicate the potential risks and benefits, and provide a guide for developers who wish to contribute to our codebase or integrate OUSD into their products. Here are a few ways for you to dive in and get started.
+Bu belgeler, OUSD'nin nasıl çalıştığını açıklamayı, potansiyel riskleri ve faydaları iletmeyi ve kod tabanımıza katkıda bulunmak veya OUSD'yi ürünlerine entegre etmek isteyen geliştiriciler için bir kılavuz sağlamayı amaçlamaktadır. İşte dalmanız ve başlamanız için birkaç yol.
 
-**Mint or Redeem**
+**Basmak veya itfa**
 
-The OUSD Mint allows anyone to create or trade in OUSD tokens using our [DApp](www.ousd.com) and a web-3 enabled cryptocurrency wallet like [Metamask](https://www.metamask.io). This is the native way to get OUSD, especially if you want a large amount that could risk moving the market on other exchanges.
+OUSD Mint, herkesin [DApp](www.ousd.com) ve [Metamask](https://www.metamask.io)gibi web-3 özellikli bir kripto para birimi cüzdanı kullanarak OUSD jetonları oluşturmasına veya ticaretine izin verir. Bu, OUSD almanın yerel yoludur, özellikle piyasayı diğer borsalarda hareket ettirme riskini alabilecek büyük bir miktar istiyorsanız.
 
-**Buy on Exchanges**
+**Borsalarda Satın Alın**
 
-For small amounts, the easiest way to start earning with OUSD is to buy it on a decentralized exchange like Uniswap. The current pairs are currently available:
+Küçük miktarlar için, OUSD ile kazanmaya başlamanın en kolay yolu, onu Uniswap gibi merkezi olmayan bir borsada satın almaktır. Mevcut çiftler şu anda mevcuttur:
 
-* [Buy OUSD on Uniswap](https://app.uniswap.org/#/swap?outputCurrency=0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86)
-* [Buy OUSD on Mooniswap](https://mooniswap.exchange/#/swap?outputToken=0x2a8e1e676ec238d8a992307b495b45b3feaa5e86)
+* [Uniswap'te OUSD satın alın](https://app.uniswap.org/#/swap?outputCurrency=0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86)
+* [Mooniswap'te OUSD satın alın](https://mooniswap.exchange/#/swap?outputToken=0x2a8e1e676ec238d8a992307b495b45b3feaa5e86)
 
-In addition, we anticipate that OUSD will soon be widely available on additional decentralized and centralized exchanges.
+Ek olarak, OUSD'nin yakında diğer merkezi olmayan ve merkezi borsalarda yaygın olarak kullanılabileceğini tahmin ediyoruz.
 
-**Adding OUSD to Your Wallet**
+**Cüzdanınıza OUSD Ekleme**
 
-{% hint style="success" %}
-The main ERC20 address for Origin Dollar \(OUSD\) is:   
+{% hint style="başarı" %}
+Origin Dollar için ana ERC20 adresi \(OUSD\):   
 **0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86**
 {% endhint %}
 
-If your OUSD does not automatically show up in your wallet, you should be able to add it manually using the address above. We want to have OUSD supported by as many wallets as possible and included on all the various lists of well-known tokens. We would greatly appreciate any help you can offer in this area. 
+OUSD'niz cüzdanınızda otomatik olarak görünmüyorsa, yukarıdaki adresi kullanarak manuel olarak ekleyebilmelisiniz. OUSD'nin olabildiğince çok cüzdan tarafından desteklenmesini ve iyi bilinen tüm token listelerine dahil edilmesini istiyoruz. Bu alanda sunabileceğiniz her türlü yardıma minnettar oluruz.
 
-**Integrating OUSD**
+**OUSD entegrasyonu**
 
-OUSD is a non-standard ERC-20 token that requires custom integration work for most applications that wish to support it. In particular, it is important for developers to understand how our elastic supply works as this can easily cause unexpected behavior.
+OUSD, desteklemek isteyen çoğu uygulama için özel entegrasyon çalışması gerektiren standart olmayan bir ERC-20 belirtecidir. Özellikle, geliştiricilerin esnek tedarikimizin nasıl çalıştığını anlamaları önemlidir, çünkü bu kolayca beklenmedik davranışlara neden olabilir.
 
-If you are a wallet provider or crypto exchange that is interested in supporting OUSD, please refer to the following guides: 
+OUSD'yi desteklemekle ilgilenen bir cüzdan sağlayıcısı veya kripto borsası iseniz, lütfen aşağıdaki kılavuzlara bakın:
 
-{% page-ref page="smart-contracts/architecture.md" %}
+{% page-ref page = "smart-contracts / architecture.md"%}
 
-{% page-ref page="smart-contracts/api/" %}
+{% page-ref page = "smart-contracts / "%}
 
-**Getting Help**
+**Yardım almak**
 
-Please join the Origin Dollar \#engineering room in Origin's [Discord](www.originprotocol.com/discord) server.  Our team and members of our community look forward to helping you build. Your questions help us improve, so please don't hesitate to ask if you can't find what you are looking for here.
+Lütfen Origin'in [Discord](www.originprotocol.com/discord) sunucusundaki Origin Dollar \ #engineering odasına katılın.  Ekibimiz ve topluluğumuzun üyeleri, inşa etmenize yardımcı olmak için sabırsızlanıyor. Sorularınız gelişmemize yardımcı olur, bu yüzden lütfen burada aradığınızı bulamazsanız sormaktan çekinmeyin.
 
