@@ -1,21 +1,21 @@
-# Table of contents
+# İçindekiler
 
-* [Introduction](README.md)
-* [How It Works](how-it-works.md)
-* [Getting Started](getting-started.md)
+* [Giriş](README.md)
+* [Nasıl çalışır](how-it-works.md)
+* [Başlamak](getting-started.md)
 
-## Core Concepts
+## Temel Kavramlar
 
-* [Elastic Supply](core-concepts/elastic-supply.md)
-* [Yield Generation](core-concepts/yield-generation/README.md)
-  * [Lending](core-concepts/yield-generation/lending.md)
-  * [Market Making](core-concepts/yield-generation/market-making.md)
-  * [Rewards](core-concepts/yield-generation/rewards.md)
-* [Supported Stablecoins](core-concepts/supported-stablecoins/README.md)
+* [Elastik Tedarik](core-concepts/elastic-supply.md)
+* [Verim Üretimi](core-concepts/yield-generation/README.md)
+  * [Lending ( Borç Verme )](core-concepts/yield-generation/lending.md)
+  * [Pazar yapımı](core-concepts/yield-generation/market-making.md)
+  * [Ödüller](core-concepts/yield-generation/rewards.md)
+* [Desteklenen Stablecoinler](core-concepts/supported-stablecoins/README.md)
   * [USDT](core-concepts/supported-stablecoins/usdt.md)
   * [USDC](core-concepts/supported-stablecoins/usdc.md)
   * [DAI](core-concepts/supported-stablecoins/dai.md)
-* [Supported Strategies](core-concepts/supported-strategies/README.md)
+* [Desteklenen Stratejiler](core-concepts/supported-strategies/README.md)
   * [Compound](core-concepts/supported-strategies/compound.md)
   * [Aave](core-concepts/supported-strategies/aave.md)
   * [dYdX](core-concepts/supported-strategies/dydx.md)
@@ -23,37 +23,37 @@
   * [Curve](core-concepts/supported-strategies/curve.md)
   * [Balancer](core-concepts/supported-strategies/balancer.md)
   * [Yearn.finance](core-concepts/supported-strategies/yearn.finance.md)
-* [Fund Management](core-concepts/fund-management/README.md)
-  * [Earning Strategies](core-concepts/fund-management/earning-strategies.md)
-  * [Diversification](core-concepts/fund-management/diversification.md)
-* [Price Oracles](core-concepts/price-oracles.md)
+* [Fon Yönetimi](core-concepts/fund-management/README.md)
+  * [Kazanma Stratejileri](core-concepts/fund-management/earning-strategies.md)
+  * [Çeşitlendirme](core-concepts/fund-management/diversification.md)
+* [Fiyat Oracle'ları](core-concepts/price-oracles.md)
 
-## Governance
+## Yönetişim
 
-* [Principles](governance/principles.md)
-* [Admin Privileges](governance/admin-privileges.md)
+* [Prensipler](governance/principles.md)
+* [Yönetici Ayrıcalıkları](governance/admin-privileges.md)
 
-## Smart Contracts
+## Akıllı Sözleşmeler
 
-* [Architecture](smart-contracts/architecture.md)
-* [Registry](smart-contracts/registry.md)
+* [Mimari](smart-contracts/architecture.md)
+* [Kayıt](smart-contracts/registry.md)
 * [API](smart-contracts/api/README.md)
-  * [Vault](smart-contracts/api/vault.md)
+  * [Kasa](smart-contracts/api/vault.md)
   * [ERC-20](smart-contracts/api/erc-20-1.md)
-  * [Timelock](smart-contracts/api/timelock.md)
-  * [Oracles](smart-contracts/api/oracle.md)
-  * [Strategies](smart-contracts/api/strategies.md)
+  * [zaman kilidi](smart-contracts/api/timelock.md)
+  * [Oracle'lar](smart-contracts/api/oracle.md)
+  * [Stratejiler](smart-contracts/api/strategies.md)
 
-## Security & Risks
+## Güvenlik & Riskler
 
-* [Risks](security-and-risks/risks.md)
-* [Audits](security-and-risks/audits.md)
-* [Bug Bounties](security-and-risks/bug-bounties.md)
-* [Contributing](security-and-risks/contributing.md)
+* [Riskler](security-and-risks/risks.md)
+* [Denetimler](security-and-risks/audits.md)
+* [Bug Ödülleri](security-and-risks/bug-bounties.md)
+* [Katkı](security-and-risks/contributing.md)
 
-## Links
+## Bağlantılar
 
-* [Github](https://www.github.com/originprotocol/origin-dollar)
+* [GitHub](https://www.github.com/originprotocol/origin-dollar)
 * [Discord](https://www.originprotocol.com/discord)
 * [originprotocol.com](https://www.originprotocol.com)
 
