@@ -8,7 +8,7 @@ description: 지갑에 있는동안 수익을 만들어 내는 최초의 스테�
 
 Origin Dollar \ (OUSD \) 는 Ethereum 네트워크에서 2020 년 9 월에 처음 출시된 새로운 스테이블코인(stablecoin) 입니다. OUSD는 단순히 지갑에 코인을 보관하기만 해도 경쟁력있는 수익률을 확보하기 때문에 기존 스테이블 코인보다 우수합니다.
 
-![](.gitbook /assets/origin-dollar-summary.jpeg)
+![](.gitbook/assets/origin-dollar-summary.jpeg)
 
 **배경**
 

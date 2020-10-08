@@ -10,8 +10,8 @@
 타임락은 OUSD 보유자가 제안된 프로토콜 업그레이드에 대해 이의가있는 경우 48 시간 동안 자금을 인출할 수 있는 안전 조치입니다.
 {% endhint %}
 
-OUSD는 오픈제플린(OpenZeppelin)</a>에서
-감사를받은 [컴파운드 타임락(Compound Timelock)](https://compound.finance/docs/governance)에서 약간 수정 된 버전을 사용하고 있습니다. 3 가지 주목 할만한 차이점은 다음과 같습니다:</p> 
+OUSD는 오픈제플린(OpenZeppelin)에서
+감사를받은 [컴파운드 타임락(Compound Timelock)](https://compound.finance/docs/governance)에서 약간 수정 된 버전을 사용하고 있습니다. 3 가지 주목 할만한 차이점은 다음과 같습니다: 
 
 1. OUSD는 처음에 컴파운드(Compound) \ (72 시간 \) 보다 짧은 대기 시간 \ (48 시간 \) 을 사용하여 문제가 발견될 경우 더 빠른 응답을 제공합니다. 
 2. 48 시간이 지나면 컨트렉트 소유자뿐만 아니라 누구나 자유롭게 콜(call) 을 실행(execute) 할 수 있습니다.
