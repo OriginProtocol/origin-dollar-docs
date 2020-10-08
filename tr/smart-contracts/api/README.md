@@ -1,12 +1,12 @@
 # API
 
-Documentation of contracts API used by the protocol:
+Protokol tarafından kullanılan sözleşmeler API'sinin dokümantasyonu:
 
-* [Vault](vault.md)
+* [Kasa](vault.md)
 * [ERC-20](erc-20-1.md)
-* [Timelock](timelock.md)
-* [Oracles](oracle.md)
-* [Stategies](strategies.md)
+* [zaman kilidi](timelock.md)
+* [Oracle'lar](oracle.md)
+* [Stratejiler](strategies.md)
 
 
 
