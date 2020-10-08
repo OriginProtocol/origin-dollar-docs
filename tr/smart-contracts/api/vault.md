@@ -1,61 +1,63 @@
 ---
 description: >-
-  The vault is the main contract of the protocol. The vault is responsible for minting/redeeming OUSD tokens, rebalancing funds between the various supported strategies, and liquidating rewards tokens.
+  Kasa, protokolün merkezinde yer alır. Kasa, OUSD tokenlarını basmak / kullanmaktan, çeşitli desteklenen stratejiler arasında fonları yeniden dengelemekten ve ödül tokenlarını tasfiye etmekten sorumludur.
 ---
 
-# Vault
+# Kasa
 
-## Methods‌
+## Yöntemler‌
 
-### mint\(\) <a id="mint"></a>
+### mint\(\)<a id="mint"></a>
 
-**`function mint(address _asset, uint256 _amount)`**‌
+**`function mint(address _asset, uint256 _amount)`**
 
-Mints OUSD in exchange for a deposit of a certain `_amount` of stablecoin specified by the `_asset` parameter. The caller receives a certain amount of OUSD depending on the **exchange rate**.
+`_asset` parametresi ile belirtilen `_tutar` stablecoin depozitosu karşılığında OUSD'yi daraltır. Arayan, **döviz kuru**bağlı olarak belirli miktarda OUSD alır.
 
-| Parameter Name | Type    | Description                                                                                                                                        |
-|:-------------- |:------- |:-------------------------------------------------------------------------------------------------------------------------------------------------- |
-| \_asset      | address | Address of the [supported](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/core-concepts/supported-assets) stablecoin |
-| \_amount     | uint256 | amount deposited, expressed in decimal units                                                                                                       |
+| Parametre adı | Tür     | Açıklama                                                                                                                                       |
+|:------------- |:------- |:---------------------------------------------------------------------------------------------------------------------------------------------- |
+| \_asset     | address | [desteklenen](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/core-concepts/supported-assets) stabilcoinin adresi |
+| \_Miktar    | uint256 | ondalık birimlerle ifade edilen yatırılan miktar                                                                                               |
 
-### mintMultiple\(\) <a id="mintmultiple"></a>
+### mintMultiple\(\)<a id="mintmultiple"></a>
 
-**`function mintMultiple(address[] _assets, uint256[] _amounts)`**‌
+**`function mintMultiple(address[] _assets, uint256[] _amounts)`**
 
-Mints OUSD in exchange for a deposit of multiple stablecoins in a single call. Stablecoins are specified by the `_assets` array parameter and the amounts by the `_amounts` array parameter. The caller receives a certain amount of OUSD depending on the **exchange rate**.
+Tek bir aramada birden fazla stabilcoin depozitosu karşılığında Mints OUSD. Sabit paralar `_assets` dizi parametresi ve miktarlar `_amounts` dizi parametresi ile belirtilir. Arayan, **döviz kuru**bağlı olarak belirli miktarda OUSD alır.
 
-| Parameter Name | Type          | Description                                                                                                                                           |
-|:-------------- |:------------- |:----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| \_assets     | address\[\] | Addresses of the [supported](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/core-concepts/supported-assets) stablecoins |
-| \_amounts    | uint256\[\] | amounts deposited, expressed in decimal units                                                                                                         |
+| Parametre adı      | Tür                   | Açıklama                                                                                                                                       |
+|:------------------ |:--------------------- |:---------------------------------------------------------------------------------------------------------------------------------------------- |
+| \_assets CONTEXT | address\[\] CONTEXT | [desteklenen](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/core-concepts/supported-assets) stabilcoinin adresi |
+| \_Miktar         | uint256\[\]         | ondalık birimlerle ifade edilen yatırılan miktar                                                                                               |
 
-{% hint style="warning" %}
-On redemptions, it is the protocol and not the user that decides which stablecoin\(s\) are returned to the user. This decision of which coin\(s\) to return is based on the internal ratios of the assets that are being held in the vault.‌
+{% hint style="uyarı" %}
+Geri alımlarda, kullanıcıya hangi stabilcoin \ (ler) i iade edeceğine karar veren kullanıcı değil protokoldür. Hangi coin\(ler)in iade edileceğine dair bu karar, havuzda tutulan varlıkların iç oranlarına dayanmaktadır.‌
 {% endhint %}
 
-### redeem\(\) <a id="redeem"></a>
+### tazmin etmek\(\) <a id="redeem"></a>
 
-**`function redeem(uint256 _amount)`**‌
+**`function mint(address _asset, uint256 _amount)`**
 
-OUSD specified by the `_amount` parameter is redeemed in exchange for one or multiple supported stablecoins. Amount of stablecoins received depends on the **exchange rate**.
+`_amount` parametresiyle belirtilen OUSD, desteklenen bir veya daha fazla stablecoin karşılığında kullanılır. Alınan stablecoin miktarı **döviz kuru**bağlıdır.
 
-| Parameter Name | Type    | Description                               |
-|:-------------- |:------- |:----------------------------------------- |
-| \_amount     | uint256 | amount of OUSD expressed in decimal units |
+| Parametre adı      | Tür     | Açıklama                                         |
+|:------------------ |:------- |:------------------------------------------------ |
+| \_amount CONTEXT | uint256 | ondalık birimlerle ifade edilen yatırılan miktar |
 
-### redeemAll\(\)‌ <a id="redeemall"></a>
+### redeemAll \ (\) ‌ <a id="redeemall"></a>
 
-**`function redeemAll()`**‌
+**`function mint(address _asset, uint256 _amount)`**
 
-All OUSD in user's possession is redeemed in exchange for one or multiple supported stablecoins. Amount of stablecoins received depends on the **exchange rate**.
+Kullanıcının sahip olduğu tüm OUSD, desteklenen bir veya daha fazla sabit coin karşılığında kullanılır. Alınan stablecoin miktarı **döviz kuru**bağlıdır.
 
-### rebase\(\) <a id="rebase"></a>
+### rebase\(\) 
+<a id="rebase"></a>
 
 **`function rebase()`**‌
 
-Updates the balances for all users based on the value of the assets currently stored in the vault. Returns total value of the underlying assets and strategies represented by `uint256` type.‌
+rebase (), havuzda o anda depolanan varlıkların değerine göre tüm kullanıcılar için bakiyeleri günceller. `uint256` türüyle temsil edilen dayanak varlıkların ve stratejilerin toplam değerini verir.
 
-### allocate\(\) <a id="allocate"></a>
+### allocate\(\) 
+<a id="allocate"></a>
 
 **`function allocate()`**‌
 
