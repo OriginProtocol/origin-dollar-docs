@@ -4,7 +4,7 @@ Dokumen ini dimaksudkan untuk menjelaskan cara kerja OUSD, mengkomunikasikan pot
 
 **Mint atau Redeem**
 
-OUSD Mint memungkinkan siapa saja untuk membuat atau memperdagangkan token OUSD menggunakan [DApp](www.ousd.com) dan dompet cryptocurrency yang mendukung web-3 seperti [Metamask](https://www.metamask.io). Ini adalah cara asli untuk mendapatkan OUSD, terutama jika Anda menginginkan jumlah besar yang dapat berisiko menggerakkan pasar di bursa lain.
+OUSD Mint memungkinkan siapa saja untuk membuat atau memperdagangkan token OUSD menggunakan [DApp](https://github.com/oplabs/origin-dollar-docs/tree/5be515cd72ff5af4b4d03d839b8dd1ae656424cd/www.ousd.com) dan dompet cryptocurrency yang mendukung web-3 seperti [Metamask](https://www.metamask.io). Ini adalah cara asli untuk mendapatkan OUSD, terutama jika Anda menginginkan jumlah besar yang dapat berisiko menggerakkan pasar di bursa lain.
 
 **Beli di Bursa**
 
@@ -18,7 +18,7 @@ Selain itu, kami mengantisipasi bahwa OUSD akan segera tersedia secara luas di b
 **Menambahkan OUSD ke Dompet Anda**
 
 {% hint style="success" %}
-Alamat ERC20 utama untuk Origin Dollar \ (OUSD \) adalah:   
+Alamat ERC20 utama untuk Origin Dollar  \(OUSD \) adalah:  
 **0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86**
 {% endhint %}
 
@@ -30,11 +30,7 @@ OUSD adalah token ERC-20 non-standar yang memerlukan integrasi kustom untuk seba
 
 Jika Anda adalah penyedia dompet atau bursa kripto yang tertarik untuk mendukung OUSD, silakan lihat panduan berikut ini:
 
-{% page-ref page = "smart-contract / architecture.md"%}
-
-{% page-ref page = "smart-contract / api /"%}
-
 **Mendapatkan bantuan**
 
-Silakan bergabung dengan ruang Origin Dollar \ #engineering di server [Discord](www.originprotocol.com/discord) Origin.  Tim kami dan anggota komunitas kami berharap dapat membantu Anda membangun. Pertanyaan Anda membantu kami meningkatkan, jadi jangan ragu untuk bertanya jika Anda tidak dapat menemukan apa yang Anda cari di sini.
+Silakan bergabung dengan ruang Origin Dollar  \#engineering di server [Discord](https://github.com/oplabs/origin-dollar-docs/tree/5be515cd72ff5af4b4d03d839b8dd1ae656424cd/www.originprotocol.com/discord/README.md) Origin. Tim kami dan anggota komunitas kami berharap dapat membantu Anda membangun. Pertanyaan Anda membantu kami meningkatkan, jadi jangan ragu untuk bertanya jika Anda tidak dapat menemukan apa yang Anda cari di sini.
 
