@@ -1,6 +1,6 @@
-# Oracles
+# Oracle
 
 {% hint style="info" %}
-Documentation coming soon.
+Tài liệu sẽ sớm ra mắt.
 {% endhint %}
 
