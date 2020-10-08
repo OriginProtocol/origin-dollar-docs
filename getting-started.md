@@ -1,26 +1,44 @@
-# Getting Started
+# Empezando
 
-These docs are intended to explain how OUSD works, communicate the potential risks and benefits, and provide a guide for developers who wish to contribute to our codebase or integrate OUSD into their products. Here are a few ways for you to dive in and get started.
+Estos documentos están destinados a explicar cómo funciona OUSD, comunicar los riesgos y beneficios potenciales y proporcionar una guía para los desarrolladores que deseen contribuir a nuestro código base o integrar OUSD en sus productos. Aquí hay algunas formas en las que puede sumergirse y comenzar.
 
-**Mint or Redeem**
+**Acuñar o Canjear**
 
-The OUSD Mint allows anyone to create or trade-in OUSD tokens using our [DApp](www.ousd.com) and a web-3 enabled cryptocurrency wallet like [Metamask](https://www.metamask.io). This is the native way to get OUSD, especially if you want a large amount that could risk moving the market on other exchanges.
+Acuñar OUSD permite a cualquier persona crear o intercambiar tokens OUSD utilizando nuestra [DApp](www.ousd.com) y una billetera
 
-**Buy on Exchanges**
+ de criptomonedas habilitada para web-3 como [ Metamask](https://www.metamask.io). Esta es la forma nativa de obtener OUSD, especialmente si desea una gran cantidad que podría correr el riesgo de mover el mercado en otras plataformas de intercambio.</p> 
 
-For small amounts, the easiest way to start earning with OUSD is to buy it on an exchange that supports our stablecoin. We anticipate that OUSD will soon be widely available on both decentralized and centralized exchanges.
+**Comprar en Plataformas de Intercambio**
 
-**Integrating OUSD**
+Para pequeñas cantidades, la forma más fácil de comenzar a ganar con OUSD es comprarlo en una plataforma de intercambio descentralizado como Uniswap. Los pares que están disponibles actualmente:
 
-OUSD is a non-standard ERC-20 token that requires custom integration work for most applications that wish to support it. In particular, it is important for developers to understand how our elastic supply works as this can easily cause unexpected behavior.
+* [Compre OUSD en Uniswap](https://app.uniswap.org/#/swap?outputCurrency=0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86)
+* [Compre OUSD en Mooniswap](https://mooniswap.exchange/#/swap?outputToken=0x2a8e1e676ec238d8a992307b495b45b3feaa5e86)
 
-If you are a wallet provider or crypto exchange that is interested in supporting OUSD, please refer to the following guides: 
+Además, anticipamos que OUSD pronto estará ampliamente disponible en intercambios descentralizados y centralizados adicionales.
 
-{% page-ref page="architecture/erc-20.md" %}
+**Agregar OUSD a su billetera**
 
-{% page-ref page="smart-contracts/api.md" %}
+{% hint style="success" %}
 
-**Getting Help**
+La dirección ERC20 principal para Origin Dollar \ (OUSD \) es:   
+**0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86** 
 
-Please join the \#engineering room in Origin's Discord server.  Our team, and members of the community, look forward to helping you build. Your questions help us improve, so please don't hesitate to ask if you can't find what you are looking for here.
+{% endhint %}
+
+Si su OUSD no aparece automáticamente en su billetera, debería poder agregarlo manualmente usando la dirección anterior. Queremos que OUSD sea compatible con tantas carteras como sea posible y que se incluya en todas las diversas listas de tokens conocidos. Agradeceríamos enormemente cualquier ayuda que pueda ofrecer en esta área. 
+
+**Integrando OUSD**
+
+OUSD es un token ERC-20 no estándar que requiere un trabajo de integración personalizado para la mayoría de las aplicaciones que desean admitirlo. En particular, es importante que los desarrolladores comprendan cómo funciona nuestro suministro elástico, ya que esto puede causar fácilmente un comportamiento inesperado.
+
+Si usted es un proveedor de billetera o una plataforma de intercambio cripto que está interesado en respaldar OUSD, consulte las siguientes guías: 
+
+{% page-ref page = "contratos-inteligentes / erc-20.md"%}
+
+{% page-ref page = "contratos-inteligentes / erc-md"%}
+
+**Obtener ayuda**
+
+Únase a la chat de ingeniería de Origin Dollar \ #engineering en el servidor de Origin [Discord](www.originprotocol.com/discord).  Nuestro equipo y los miembros de nuestra comunidad esperan poder ayudarlo a construir. Sus preguntas nos ayudan a mejorar, así que no dude en preguntar si no puede encontrar lo que busca aquí.
 

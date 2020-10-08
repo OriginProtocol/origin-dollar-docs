@@ -1,62 +1,57 @@
-# Table of contents
+# Tabla de contenido
 
-* [Introduction](README.md)
-* [How it Works](how-it-works.md)
-* [Getting Started](getting-started.md)
+* [Introducción](README.md)
+* [Cómo funciona](how-it-works.md)
+* [Empezando](getting-started.md)
 
-## Core Concepts
+## Conceptos básicos
 
-* [Elastic Supply](core-concepts/elastic-supply.md)
-* [Yield Generation](core-concepts/yield-generation/README.md)
-  * [Lending](core-concepts/yield-generation/lending.md)
-  * [Market Making](core-concepts/yield-generation/market-making.md)
-  * [Rewards](core-concepts/yield-generation/rewards.md)
-* [Supported Stablecoins](core-concepts/supported-assets/README.md)
-  * [USDT](core-concepts/supported-assets/usdt.md)
-  * [USDC](core-concepts/supported-assets/usdc.md)
-  * [DAI](core-concepts/supported-assets/dai.md)
-* [Supported Platforms](core-concepts/supported-platforms/README.md)
-  * [Compound](core-concepts/supported-platforms/compound.md)
-  * [Aave](core-concepts/supported-platforms/aave.md)
-  * [dYdX](core-concepts/supported-platforms/dydx.md)
-  * [Uniswap](core-concepts/supported-platforms/uniswap.md)
-  * [Curve](core-concepts/supported-platforms/curve.md)
-  * [Balancer](core-concepts/supported-platforms/balancer.md)
-* [Fund Management](core-concepts/fund-management/README.md)
-  * [Diversification](core-concepts/fund-management/diversification.md)
-  * [Assets](core-concepts/fund-management/assets.md)
-  * [DeFi Platforms](core-concepts/fund-management/defi-platforms.md)
-  * [Earning Strategies](core-concepts/fund-management/earning-strategies.md)
-* [Price Oracles](core-concepts/price-oracles.md)
+* [Suministro elástico](core-concepts/elastic-supply.md)
+* [Generación de rendimiento](core-concepts/yield-generation/README.md)
+  * [Préstamo](core-concepts/yield-generation/lending.md)
+  * [Creación de Mercado](core-concepts/yield-generation/market-making.md)
+  * [Recompensas](core-concepts/yield-generation/rewards.md)
+* [Monedas Estables Soportadas](core-concepts/supported-stablecoins/README.md)
+  * [USDT](core-concepts/supported-stablecoins/usdt.md)
+  * [USDC](core-concepts/supported-stablecoins/usdc.md)
+  * [DAI](core-concepts/supported-stablecoins/dai.md)
+* [Estrategias Apoyadas](core-concepts/supported-strategies/README.md)
+  * [Compound](core-concepts/supported-strategies/compound.md)
+  * [Aave](core-concepts/supported-strategies/aave.md)
+  * [dYdX](core-concepts/supported-strategies/dydx.md)
+  * [Uniswap](core-concepts/supported-strategies/uniswap.md)
+  * [Curve](core-concepts/supported-strategies/curve.md)
+  * [Balancer](core-concepts/supported-strategies/balancer.md)
+  * [Yearn.finance](core-concepts/supported-strategies/yearn.finance.md)
+* [Gestión de fondos](core-concepts/fund-management/README.md)
+  * [Estrategias de ganancias](core-concepts/fund-management/earning-strategies.md)
+  * [Diversificación](core-concepts/fund-management/diversification.md)
+* [Precio de Oráculos](core-concepts/price-oracles.md)
 
-## Architecture
+## Gobernancia
 
-* [ERC-20](architecture/erc-20.md)
-* [Vault](architecture/vault.md)
-* [Strategies](architecture/strategies.md)
-* [Timelock](architecture/timelock.md)
-* [Governance](architecture/governance.md)
+* [Principios](governance/principles.md)
+* [Privilegios de Administrador](governance/admin-privileges.md)
 
-## Smart Contracts
+## Contratos Inteligentes
 
-* [Registry](smart-contracts/registry.md)
-* [API](smart-contracts/api.md)
-* [Gas Costs](smart-contracts/gas-costs.md)
+* [Arquitectura](smart-contracts/architecture.md)
+* [Registro](smart-contracts/registry.md)
+* [API](smart-contracts/api/README.md)
+  * [Bóveda](smart-contracts/api/vault.md)
+  * [ERC-20](smart-contracts/api/erc-20-1.md)
+  * [Bloqueo de Tiempo](smart-contracts/api/timelock.md)
+  * [Oráculos](smart-contracts/api/oracle.md)
+  * [Estrategias](smart-contracts/api/strategies.md)
 
-## Security & Risks
+## Seguridad & Riesgos
 
-* [Risks](security-and-risks/risks/README.md)
-  * [Asset Risks](security-and-risks/risks/asset-risks.md)
-  * [Platform Risks](security-and-risks/risks/platform-risks.md)
-  * [Smart Contract Risks](security-and-risks/risks/smart-contract-risks.md)
-* [Audits](security-and-risks/untitled/README.md)
-  * [OUSD](security-and-risks/untitled/ousd.md)
-  * [Compound](security-and-risks/untitled/compound.md)
-  * [Aave](security-and-risks/untitled/aave.md)
-* [Bug Bounties](security-and-risks/asset-risk.md)
-* [Contributing](security-and-risks/contributing.md)
+* [Riesgos](security-and-risks/risks.md)
+* [Auditorias](security-and-risks/audits.md)
+* [Recompensas de Errores](security-and-risks/bug-bounties.md)
+* [Contribuyendo](security-and-risks/contributing.md)
 
-## Links
+## Enlaces
 
 * [Github](https://www.github.com/originprotocol/origin-dollar)
 * [Discord](https://www.originprotocol.com/discord)

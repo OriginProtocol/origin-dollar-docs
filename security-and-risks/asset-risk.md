@@ -2,7 +2,7 @@
 
 **Bug Bounties**
 
-Bug bounties are granted at the full discretion of Origin Protocol. The rewards range in size from **$100** for minor issues to **$250,000** for major vulnerabilities.
+Bug bounties are granted at the full discretion of Origin Protocol. The rewards range in size from **$100** for minor issues to **$250,000** for major vulnerabilities. Currently, the bounty program only applies to OUSD and not other products from Origin.
 
 {% hint style="warning" %}
 In order to be eligible for a bug bounty, you must follow the rules of Responsible Disclosure outlined below.
@@ -20,7 +20,7 @@ If you discover a vulnerability, please do the following:
 * Do not take advantage of the vulnerability or problem you have discovered
 * Do not reveal the problem to others until it has been resolved
 * Do not use attacks on physical security, social engineering, distributed denial of service, spam or applications of third parties
-* Do provide sufficient information to reproduce the problem, so we will be able to resolve it as quickly as possible. Complex vulnerabilities may require further explanation so we might ask you for additional information. 
+* Do provide sufficient information to reproduce the problem, so we will be able to resolve it as quickly as possible. Complex vulnerabilities may require further explanation so we might ask you for additional information.
 
 In return, we promise:
 

@@ -1,22 +1,30 @@
 ---
-description: The first stablecoin that lets you earn yield while it's still in your wallet
+description: La primera moneda estable que obtiene un rendimiento mientras está en su billetera
 ---
 
-# Introduction
+# Introducción
 
-#### **A Better Form of Money**
+## **Una mejor forma de dinero**
 
-Origin Dollar \(OUSD\) is a new stablecoin that was initially launched in August 2020 on the Ethereum network. Its design is superior to existing stablecoins because OUSD captures highly-competitive yields while being passively held in wallets.
+Origin Dollar \ (OUSD \) es una nueva moneda estable que se lanzó inicialmente en septiembre de 2020 en la red de Ethereum. Su diseño es superior a las monedas estables existentes porque OUSD captura rendimientos competitivos mientras se mantiene pasivamente en billeteras.
 
-**Background**
+![](.gitbook/assets/origin-dollar-summary.jpeg)
 
-Stablecoins have proven themselves as an ideal way of storing and transferring value across cryptocurrency networks without exposing users to the price volatility of free-floating currencies. Today, more value is [transferred via Tether](https://www.bloomberg.com/news/articles/2019-10-01/tether-not-bitcoin-likely-the-world-s-most-used-cryptocurrency) than with Bitcoin. Meanwhile, Decentralized Finance \(DeFi\) has experienced an explosion of growth with [billions of dollars](https://defipulse.com/) of capital now locked up in smart contracts that generate yields from lending and trading protocols. 
+**Antecedentes**
 
-One of the problems with existing stablecoins is that users have to constantly choose between holding an easily spendable coin and earning yields by locking their tokens up in smart contracts. For example, users that lock up USDC in Aave cannot spend a portion of that USDC simultaneously. Expensive Ethereum gas fees serve as "switching costs" each time those users want to switch between spending mode and savings mode. 
+En 1999, Yu Pan, Origin Rde&D ingeniero, y sus compañeros de PayPal co-fundadores [concebidas](https://www.cnbc.com/2017/08/14/david-sacks-cryptocurrency-interview.html) de crear “la nueva moneda mundial”, con intereses que rinden las estrategias y las tarjetas de débito sin tener que conectarse a los sistemas bancarios tradicionales. Varios pivotes y una adquisición de eBay más tarde, PayPal abandonó sus ambiciones en esta área.
 
-What makes matters worse is that yields from lending and trading activities change very quickly. Sophisticated DeFi yield earners are familiar with constantly having to rebalance their portfolio of assets across many competing platforms. This is time-consuming and expensive as gas fees once again eat into yields. As a result, while DeFi is growing extremely rapidly, it still makes it difficult for many cryptocurrency users to participate.
+Casi dos décadas después, Tether introdujo el concepto de moneda estable denominada en USD en 2014. Desde entonces, las monedas estables han demostrado ser una forma ideal de transferir valor sin exponer a los usuarios a la volatilidad de los precios de las monedas flotantes. Hoy en día, más valor es [transferido a través de Tether](https://www.bloomberg.com/news/articles/2019-10-01/tether-not-bitcoin-likely-the-world-s-most-used-cryptocurrency) que con Bitcoin. Mientras tanto, las finanzas descentralizadas \ (DeFi \) han experimentado una explosión de crecimiento con [mil millones de dólares](https://defipulse.com/) de capital ahora bloqueados en contratos inteligentes que generan rendimientos a partir de protocolos de préstamos y operaciones.
 
-With OUSD, there’s no need to unwind complicated positions when you want to spend your OUSD. You can transfer it freely without having to pay gas to unlock spendable capital. In addition, OUSD gives you access to some of the highest-earning opportunities across DeFi with none of the hassles. The OUSD smart contract algorithmically routes your underlying capital to a diversified set of yield-earning strategies, rebalancing over time to achieve great yields while diversifying risk. Earnings automatically accrue in your wallet and compound continuously while you hold OUSD. Again, no staking or lockups are required. OUSD is an ideal stablecoin for DeFi yield farmers and novice cryptocurrency users alike.
+Uno de los problemas con las monedas estables existentes es que los usuarios tienen que elegir constantemente entre tener una moneda fácilmente gastable y obtener rendimientos bloqueando sus tokens en contratos inteligentes. Por ejemplo, los usuarios que bloquean USDC en Aave no pueden gastar una parte de ese USDC simultáneamente. Las costosas tarifas de gas de Ethereum sirven como "costos de cambio" cada vez que los usuarios desean cambiar entre el modo de gasto y el modo de ganancia.
 
-Created by cryptocurrency and fintech veterans, OUSD is brought to you by the [team](https://www.originprotocol.com/team) at [Origin Protocol](https://www.originprotocol.com) that includes serial entrepreneurs, early cryptocurrency investors, early employees at YouTube, and even a Paypal co-founder. 
+Para empeorar las cosas, los rendimientos de las actividades crediticias y comerciales cambian rápidamente. Los que obtienen un rendimiento sofisticado de DeFi están familiarizados con tener que reequilibrar constantemente su cartera de activos en muchas plataformas de la competencia. Esto requiere mucho tiempo y es costoso, ya que las tarifas del gas una vez más afectan los rendimientos. Además, se requiere mucho tiempo para calcular el ROI real, ya que los APY son inestables y fluctúan constantemente. No hay una unidad de cuenta fácil. Como resultado, si bien DeFi está creciendo extremadamente rápido, todavía dificulta la participación de muchos usuarios de criptomonedas.
+
+Con OUSD, no hay necesidad de deshacer posiciones complicadas cuando quiere gastar sus OUSD. Puede transferirlo libremente sin tener que pagar GAS para desbloquear capital gastable. Además, OUSD le brinda acceso a algunas de las oportunidades de mayores ganancias en DeFi sin ninguna molestia. El contrato inteligente de OUSD desplegará su capital subyacente en un conjunto diversificado de estrategias de generación de rendimiento, reequilibrándose con el tiempo para lograr grandes rendimientos y diversificar el riesgo. Las ganancias se acumulan automáticamente en su billetera y se componen continuamente mientras mantiene OUSD. Nuevamente, no se requiere hacer staking ni bloqueos. OUSD también sirve como una unidad de cuenta ideal. Los inversores de DeFi ya no necesitan hojas de cálculo complicadas para calcular sus ganancias, ya que pueden ver fácilmente su saldo de OUSD actualizado constantemente en tiempo real a medida que sus intereses se acumulan automáticamente. OUSD es una moneda estable ideal tanto para los cultivadores de rendimiento de DeFi como para los usuarios novatos de criptomonedas.
+
+Creado por veteranos de criptomonedas y fintech, el Origin Dollar es presentado por el equipo [](https://www.originprotocol.com/team) en [Origin Protocol](https://www.originprotocol.com) que incluye emprendedores en serie, primeros inversores en criptomonedas, primeros empleados en YouTube, gerentes de ingeniería en Google / Dropbox y uno de los cofundadores de PayPal, Yu Pan.
+
+Para aquellos interesados en profundizar en los detalles técnicos de cómo funciona, estos documentos son un excelente lugar para comenzar. Alentamos a los desarrolladores a auditar y contribuir a nuestro [Github](http://www.github.com/OriginProtocol) \ (100% de código abierto \). Nuestro equipo participa en [Discord](https://www.originprotocol.com/discord) si tiene preguntas o necesita ayuda para comenzar.
+
+Bienvenidos al futuro del dinero.
 

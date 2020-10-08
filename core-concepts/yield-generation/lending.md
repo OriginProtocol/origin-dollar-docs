@@ -1,18 +1,18 @@
-# Lending
+# Préstamo
 
-**Unbank the Banked**
+**Desbancar a los bancarizados**
 
-DeFi lending platforms let you lend and borrow crypto assets without any middlemen. Both lenders and borrowers get more value from their crypto. Lenders earn interest, while borrowers deposit crypto to gain access to credit without the banking headaches. DeFi lending platforms currently provide far superior returns for lenders than are generally available in the traditional markets.
+Las plataformas de préstamos DeFi permiten a los usuarios prestar y pedir prestadas criptomonedas sin intermediarios. Tanto los prestamistas como los prestatarios obtienen más valor de sus criptomonedas. Los prestamistas ganan intereses, mientras que los prestatarios depositan criptomonedas como garantía para obtener acceso al crédito sin los tradicionales dolores de cabeza bancarios. Actualmente, las plataformas de préstamos DeFi proporcionan a los prestamistas retornos muy superiores a los que están generalmente disponibles en los mercados tradicionales.
 
-OUSD integrates with DeFi lending platforms that provide over-collateralized loans. Over-collateralization, combined with smart rules around liquidations, provide a reasonable level of security for lenders. 
+OUSD se integra con las plataformas de préstamos DeFi que brindan préstamos con exceso de garantía. La sobregarantía, combinada con reglas inteligentes sobre liquidaciones, proporciona un nivel razonable de seguridad para los prestamistas. Aave también asegura sus grupos de préstamos con tokens AAVE respectivamente, lo que reduce aún más el riesgo.
 
-OUSD integrates with leading lending providers that have a proven track record, audited smart contracts, and have successfully lent hundreds of millions of dollars without issue. We intend to integrate with the following lending providers:
+OUSD se integra con los principales proveedores de préstamos que tienen un historial probado, contratos inteligentes auditados y que han prestado con éxito cientos de millones de dólares sin problemas. Tenemos la intención de integrarnos directamente con al menos los siguientes proveedores de préstamos:
 
-{% page-ref page="../supported-platforms/compound.md" %}
+{% page-ref page = "../ supported-Strategies / composite.md"%}
 
-{% page-ref page="../supported-platforms/aave.md" %}
+{% page-ref page = "../ supported-Strategies / aave.md"%}
 
-{% page-ref page="../supported-platforms/dydx.md" %}
+{% page-ref page = "../ supported-Strategies / dydx.md"%}
 
 
 
