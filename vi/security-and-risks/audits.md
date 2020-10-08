@@ -1,16 +1,16 @@
-# Audits
+# Kiểm toán
 
 {% hint style="danger" %}
-The OUSD smart contracts have not yet been audited. We strongly recommend reviewing our smart contracts before depositing significant amounts of capital.
+Các hợp đồng thông minh OUSD vẫn chưa được kiểm toán. Chúng tôi khuyên bạn nên xem các hợp đồng thông minh của chúng tôi trước khi nạp vào 1 khoản tiền đáng kể.
 {% endhint %}
 
 **OUSD**
 
-Audits have already been scheduled with the respected security firm, [Trail of Bits](https://www.trailofbits.com/), for early October 2020. Their audit results will be publicly released as soon as they are available.
+Audit đã được lên lịch với công ty bảo mật uy tín, [Trail of Bits](https://www.trailofbits.com/), vào đầu tháng 10 năm 2020. Kết quả kiểm toán sẽ được công bố công khai ngay khi hoàn thành.
 
-**Supported Strategies**
+**Các chiến lược được hỗ trợ**
 
-Multiple audits for Compound have already been completed and are available on their website. This includes the original code for the modified [Timelock](../smart-contracts/api/timelock.md) that OUSD is using.
+Nhiều đợt kiểm toán cho Compound đã được hoàn thành và có sẵn trên trang web của họ. Điều này bao gồm mã lập trình gốc cho [Timelock](../smart-contracts/api/timelock.md) đã được sửa đổi mà OUSD đang sử dụng.
 
 {% page-ref page="audits.md" %}
 
