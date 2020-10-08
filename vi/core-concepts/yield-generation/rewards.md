@@ -1,6 +1,6 @@
-# Rewards
+# Phần thưởng
 
-**Collecting Rewards**
+**Thu thập phần thưởng**
 
 In addition to collecting interest from lending and fees from market making, we intend to automatically claim and convert the bonus incentives that are being distributed by many of the DeFi protocols. For example, Compound gives away COMP tokens, Balancer gives away BAL tokens, and Curve gives away CRV tokens. These bonus rewards will be regularly converted into stablecoins, deployed in the market, and distributed to OUSD holders in the form of additional yield.
 
