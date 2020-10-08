@@ -2,19 +2,19 @@
 
 ![](../../.gitbook/assets/dai.png)
 
-Dai is a fiat-pegged stablecoin launched as a ERC-20 token on the Ethereum blockchain in December 2017. A major upgrade from single-collateral Dai \(SAI\) to multi-collateral Dai \(DAI\) was completed in November 2019. Dai is pegged to the US dollar.
+DAI là một loại tiền ổn định có giá trị tương đương với USD được ra mắt dưới dạng token ERC-20 trên mạng Ethereum vào năm 2017. DAI đã thực hiện nâng cấp lớn từ single-collateral (thế chấp 1 loại tài sản) sang multi-collateral (cho phép thế chấp nhiều loại tài sản) vào tháng 11 năm 2019. Dai được neo với đồng đô la Mỹ.
 
-Dai is minted by users locking up crypto assets such as ETH or USDC as collateral in a collateralized debt position \(CDP\) called a vault. Previously, only ETH was accepted as collateral. The reserves and status of each vault can be viewed on the blockchain in real-time. The health of these vaults and the Dai stablecoin are closely monitored.
+Dai được đào bằng cách sử dụng tài sản tiền điện tử như ETH hoặc USDC làm tài sản thế chấp trong 1 vị trí nợ thế chấp (CDP) hay còn gọi là vault. Trước đây, DAI chỉ chấp nhận tài sản thế chấp duy nhất là ETH. Tài sản đảm bảo và trạng thái của mỗi vault có thể được xem trực tiếp trên blockchain. Tình trạng của các vault này và các stablecoin Dai được giám sát chặt chẽ.
 
-Dai is the world's third-largest stablecoin with over $400 million in circulation. In addition, cDAI and aDAI, synthetic versions of Dai on the lending platforms Compound and Aave, combine for over $600 million in circulation.
+Dai là stablecoin lớn thứ ba thế giới với hơn 400 triệu đô la được lưu hành. Ngoài ra, cDAI và aDAI, phiên bản tổng hợp của Dai trên nền tảng cho vay Compound và Aave, với tổng giá trị lưu hành trên 600 triệu đô la.
 
-| Key Facts |  |
-| :--- | :--- |
-| Issued by | MakerDAO |
-| Name | Dai |
-| Symbol | DAI |
-| Address | [0x6b175474e89094c44da98b954eedeac495271d0f](https://etherscan.io/token/0x6b175474e89094c44da98b954eedeac495271d0f) |
-| Decimals | 18 |
-| Official site | [https://makerdao.com/](https://makerdao.com/) |
-| Holders | Over 140k addresses |
+| Thông tin chính |                                                                                                                     |
+|:--------------- |:------------------------------------------------------------------------------------------------------------------- |
+| Phát hành bởi   | MakerDAO                                                                                                            |
+| Tên             | Dai                                                                                                                 |
+| Ký hiệu         | DAI                                                                                                                 |
+| Địa chỉ         | [0x6b175474e89094c44da98b954eedeac495271d0f](https://etherscan.io/token/0x6b175474e89094c44da98b954eedeac495271d0f) |
+| Decimal         | 18                                                                                                                  |
+| Website        | [https://makerdao.com/](https://makerdao.com/)                                                                      |
+| Người nắm giữ   | Hơn 140k địa chỉ                                                                                                    |
 

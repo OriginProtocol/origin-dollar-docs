@@ -1,25 +1,25 @@
 # dYdX
 
 {% hint style="info" %}
-Coming soon. DyDx has not yet been integrated.
+Sắp ra mắt. DyDx hiện vẫn chưa được tích hợp.
 {% endhint %}
 
-dYdX is a trading and lending protocol and platform built on Ethereum and launched in May 2019. Users can trade assets on dYdX's non-custodial, decentralized exchange or participate in borrowing and lending. The lending protocol enables margin and futures trading. Interest rates are adjusted based on supply and demand and only short term loans are offered.
+dyDx là một giao thức và nền tảng cho vay được xây dựng trên Ethereum và ra mắt vào tháng 5 năm 2019. Người dùng có thể giao dịch tài sản trên sàn giao dịch phi tập trung, không giám sát của dYdX hoặc tham gia vay và cho vay. Giao thức cho vay cho phép giao dịch ký quỹ và giao dịch kỳ hạn. Lãi suất được điều chỉnh dựa trên cung cầu và chỉ cho vay ngắn hạn.
 
-Liquidity for assets available for borrowing and lending are pooled together by asset type. Interest paid to lenders is accrued automatically and borrowers must put up collateral to take out a loan.
+Tính thanh khoản của các tài sản có sẵn để vay và cho vay được gộp lại với nhau theo loại tài sản. Tiền lãi trả cho người cho vay được tích lũy tự động và người đi vay phải ký quỹ để vay.
 
-dYdX also supports flash loans, which are uncollateralized loans where users borrow and repay the balance of the loan in a single transaction, meaning flash loan users do not need to put up any initial capital. Flash loans are a complex product aimed at developers and can be used to arbitrage across multiple DeFi protocols.
+dYdX hỗ trợ các khoản vay nhanh, là các khoản vay không cần thế chấp trong đó người dùng vay và hoàn trả số dư của khoản vay trong một giao dịch duy nhất, có nghĩa là người dùng khoản vay nhanh không cần phải bỏ bất kỳ khoản vốn ban đầu nào. Các khoản vay nhanh là một sản phẩm phức tạp nhắm vào các nhà phát triển và có thể được sử dụng để phân bổ trên nhiều giao thức DeFi.
 
-dYdX has around $40 million in total value locked \(TVL\) at the time of this writing. dYdX does not have a native token.
+dYdX có tổng giá trị khoảng 40 triệu đô la bị khóa (TVL) tại thời điểm viết bài này. dYdX không có token riêng.
 
-dYdX has undergone security audits by OpenZeppelin and Bramah Systems.
+dYdX trải qua kiểm toán bảo mật của OpenZeppelin và Bramah Systems.
 
-| Resources |  |
-| :--- | :--- |
-| Official site | [https://dydx.exchange/](https://dydx.exchange/) |
-| Developer docs | [https://docs.dydx.exchange/](https://docs.dydx.exchange/) |
-| GitHub | [https://github.com/dydxprotocol/](https://github.com/dydxprotocol/) |
-| Discord | [https://discord.gg/yah42Rb](https://discord.gg/yah42Rb) |
+| Tài nguyên                       |                                                                      |
+|:-------------------------------- |:-------------------------------------------------------------------- |
+| Website                         | [https://dydx.exchange/](https://dydx.exchange/)                     |
+| Tài liệu dành cho nhà phát triển | [https://docs.dydx.exchange/](https://docs.dydx.exchange/)           |
+| GitHub                           | [https://github.com/dydxprotocol/](https://github.com/dydxprotocol/) |
+| Discord                          | [https://discord.gg/yah42Rb](https://discord.gg/yah42Rb)             |
 
 
 

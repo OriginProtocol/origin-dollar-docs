@@ -1,19 +1,19 @@
 # Compound
 
-Compound is a lending protocol and platform built on Ethereum and launched in September 2018. Users can earn compounding interest on or borrow assets against collateral. Each supported asset is aggregated in its own liquidity pool and interest rates are adjusted automatically based on supply and demand.
+Compound là một giao thức và nền tảng cho vay được xây dựng trên Ethereum và ra mắt vào tháng 9 năm 2018. Người dùng trên Coumpound có thể kiếm lãi kép hoặc vay một tài sản khác dựa trên tài sản thế chấp. Mỗi tài sản được hỗ trợ được tổng hợp trong nhóm thanh khoản của riêng nó và lãi suất được điều chỉnh tự động dựa trên cung và cầu.
 
-Collateral balances are represented by ERC-20 cTokens, which automatically accrue interest and increase in value over time relative to the underlying asset they represent. Users can borrow assets against the value of their cTokens. cTokens are freely transferable and can be used on many other DeFi protocols. cTokens can be redeemed for their underlying collateral at any time.
+Số dư tài sản thế chấp được đại diện bởi ERC-20 cTokens, tự động tích lũy lãi suất và tăng giá trị theo thời gian so với tài sản cơ bản mà chúng đại diện. Người dùng có thể mượn tài sản dựa trên số cTokens của họ. cToken có thể chuyển nhượng tự do và có thể được sử dụng trên nhiều giao thức DeFi khác. cTokens có thể được đổi lấy tài sản thế chấp của họ bất kỳ lúc nào.
 
-Compound is governed by COMP, an ERC-20 governance token. COMP holders can propose and vote on protocol changes or delegate their votes to someone else. COMP tokens are awarded pro rata to users of the protocol daily, split equally between borrowers and lenders. A large portion of the COMP token supply was retained by the Compound team, investors, and advisors.
+Compound được quản lý bởi COMP, token quản trị ERC-20. Người nắm giữ COMP có thể đề xuất và bỏ phiếu về các thay đổi giao thức hoặc ủy quyền phiếu bầu của họ cho người khác. Token COMP tặng tưởng theo tỷ lệ cho người dùng giao thức hàng ngày, được chia đều giữa người đi vay và người cho vay. Một phần lớn nguồn cung token COMP được giữ lại bởi nhóm Compound, các nhà đầu tư và cố vấn.
 
-Compound's total value locked \(TVL\) has quickly grown to nearly $800 million, making it one of the largest DeFi protocols. COMP has a circulating market cap of over $500 million.
+Tổng giá trị bị khoá trên Compound (TVL) đã nhanh chóng tăng lên gần 800 triệu đô la, khiến nó trở thành một trong những giao thức DeFi lớn nhất. Vốn hóa thị trường của COMP đạt hơn 500 triệu đô la.
 
-Compound has undergone multiple security audits by OpenZeppelin and Trail of Bits. The Compound protocol was formally verified by CertiK and has undergone economic stress testing by Gauntlet. Compound maintains a bug bounty program.
+Compound đã trải qua nhiều lần kiểm toán bảo mật thực hiện bởi OpenZeppelin và Trail of Bits. Giao thức Compound đã được CertiK chính thức xác minh và đã trải qua thử nghiệm kiểm tra sức chịu đựng bởi Gauntlet. Compound vẫn đang duy trì chương trình tặng tưởng cho người phát hiện ra lỗi của hệ thống.
 
-| Resources |  |
-| :--- | :--- |
-| Official site | [https://compound.finance/](https://compound.finance/) |
-| Developer docs | [https://compound.finance/docs](https://compound.finance/docs) |
-| GitHub | [https://github.com/compound-finance/compound-protocol](https://github.com/compound-finance/compound-protocol) |
-| Discord | [https://discord.com/invite/cU7vmVW](https://discord.com/invite/cU7vmVW) |
+| Tài nguyên                       |                                                                                                                |
+|:-------------------------------- |:-------------------------------------------------------------------------------------------------------------- |
+| Website                         | [https://compound.finance/](https://compound.finance/)                                                         |
+| Tài liệu dành cho nhà phát triển | [https://compound.finance/docs](https://compound.finance/docs)                                                 |
+| GitHub                           | [https://github.com/compound-finance/compound-protocol](https://github.com/compound-finance/compound-protocol) |
+| Discord                          | [https://discord.com/invite/cU7vmVW](https://discord.com/invite/cU7vmVW)                                       |
 

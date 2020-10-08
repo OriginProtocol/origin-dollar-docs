@@ -1,21 +1,21 @@
-# Table of contents
+# Phụ lục
 
-* [Introduction](README.md)
-* [How It Works](how-it-works.md)
-* [Getting Started](getting-started.md)
+* [Giới thiệu](README.md)
+* [Cơ chế hoạt động](how-it-works.md)
+* [Các bước cơ bản](getting-started.md)
 
-## Core Concepts
+## Nội dung chính
 
-* [Elastic Supply](core-concepts/elastic-supply.md)
-* [Yield Generation](core-concepts/yield-generation/README.md)
-  * [Lending](core-concepts/yield-generation/lending.md)
-  * [Market Making](core-concepts/yield-generation/market-making.md)
-  * [Rewards](core-concepts/yield-generation/rewards.md)
-* [Supported Stablecoins](core-concepts/supported-stablecoins/README.md)
+* [Cung linh hoạt](core-concepts/elastic-supply.md)
+* [Nguồn tạo lợi nhuận](core-concepts/yield-generation/README.md)
+  * [Cho vay](core-concepts/yield-generation/lending.md)
+  * [Tạo lập thị trường](core-concepts/yield-generation/market-making.md)
+  * [Nhận thưởng](core-concepts/yield-generation/rewards.md)
+* [Stablecoin được hỗ trợ](core-concepts/supported-stablecoins/README.md)
   * [USDT](core-concepts/supported-stablecoins/usdt.md)
   * [USDC](core-concepts/supported-stablecoins/usdc.md)
   * [DAI](core-concepts/supported-stablecoins/dai.md)
-* [Supported Strategies](core-concepts/supported-strategies/README.md)
+* [Các chiến lược được hỗ trợ](core-concepts/supported-strategies/README.md)
   * [Compound](core-concepts/supported-strategies/compound.md)
   * [Aave](core-concepts/supported-strategies/aave.md)
   * [dYdX](core-concepts/supported-strategies/dydx.md)
@@ -23,37 +23,37 @@
   * [Curve](core-concepts/supported-strategies/curve.md)
   * [Balancer](core-concepts/supported-strategies/balancer.md)
   * [Yearn.finance](core-concepts/supported-strategies/yearn.finance.md)
-* [Fund Management](core-concepts/fund-management/README.md)
-  * [Earning Strategies](core-concepts/fund-management/earning-strategies.md)
-  * [Diversification](core-concepts/fund-management/diversification.md)
-* [Price Oracles](core-concepts/price-oracles.md)
+* [Quản lý quỹ](core-concepts/fund-management/README.md)
+  * [Chiến lược tạo lợi nhuận](core-concepts/fund-management/earning-strategies.md)
+  * [Đa dạng hóa](core-concepts/fund-management/diversification.md)
+* [Ước tính giá](core-concepts/price-oracles.md)
 
-## Governance
+## Quản trị
 
-* [Principles](governance/principles.md)
-* [Admin Privileges](governance/admin-privileges.md)
+* [Nguyên tắc](governance/principles.md)
+* [Đặc quyền của quản trị viên](governance/admin-privileges.md)
 
-## Smart Contracts
+## Hợp đồng thông minh
 
-* [Architecture](smart-contracts/architecture.md)
-* [Registry](smart-contracts/registry.md)
+* [Cấu trúc](smart-contracts/architecture.md)
+* [Địa chỉ các hợp đồng](smart-contracts/registry.md)
 * [API](smart-contracts/api/README.md)
   * [Vault](smart-contracts/api/vault.md)
   * [ERC-20](smart-contracts/api/erc-20-1.md)
-  * [Timelock](smart-contracts/api/timelock.md)
-  * [Oracles](smart-contracts/api/oracle.md)
-  * [Strategies](smart-contracts/api/strategies.md)
+  * [Khoá thời gian (timelock)](smart-contracts/api/timelock.md)
+  * [Oracle](smart-contracts/api/oracle.md)
+  * [Chiến lược](smart-contracts/api/strategies.md)
 
-## Security & Risks
+## Bảo mật & Rủi ro
 
-* [Risks](security-and-risks/risks.md)
-* [Audits](security-and-risks/audits.md)
-* [Bug Bounties](security-and-risks/bug-bounties.md)
-* [Contributing](security-and-risks/contributing.md)
+* [Rủi ro](security-and-risks/risks.md)
+* [Kiểm toán](security-and-risks/audits.md)
+* [Phần thưởng phát hiện lỗi](security-and-risks/bug-bounties.md)
+* [Đóng góp](security-and-risks/contributing.md)
 
-## Links
+## Danh sách các kênh
 
-* [Github](https://www.github.com/originprotocol/origin-dollar)
+* [GitHub](https://www.github.com/originprotocol/origin-dollar)
 * [Discord](https://www.originprotocol.com/discord)
-* [originprotocol.com](https://www.originprotocol.com)
+* [Originprotocol.com](https://www.originprotocol.com)
 

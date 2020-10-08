@@ -1,40 +1,40 @@
-# Getting Started
+# Các bước cơ bản
 
-These docs are intended to explain how OUSD works, communicate the potential risks and benefits, and provide a guide for developers who wish to contribute to our codebase or integrate OUSD into their products. Here are a few ways for you to dive in and get started.
+Tài liệu này được xây dựng nhằm giải thích cách thức hoạt động của OUSD, cung cấp thông tin về lợi ích cũng như rủi ro tiềm ẩn đồng thời hướng dẫn cho các nhà phát triển muốn đóng góp cho mã nguồn mở của chúng tôi hoặc tích hợp OUSD vào các sản phẩm của họ. Dưới đây là một số thông tin bạn có thể tham khảo để bắt đầu.
 
-**Mint or Redeem**
+**Mint và Redeem**
 
-The OUSD Mint allows anyone to create or trade in OUSD tokens using our [DApp](www.ousd.com) and a web-3 enabled cryptocurrency wallet like [Metamask](https://www.metamask.io). This is the native way to get OUSD, especially if you want a large amount that could risk moving the market on other exchanges.
+OUSD Mint cho phép bất kỳ ai cũng có thể tạo hoặc giao dịch OUSD bằng cách sử dụng [DApp](www.ousd.com) và ví tiền điện tử hỗ trợ web-3 như [Metamask](https://www.metamask.io). Đây là cách cơ bản để có được OUSD, đặc biệt hữu ích trong trường hợp bạn muốn hạn chế rủi ro di chuyển số lượng tiền lớn trên các sàn giao dịch.
 
-**Buy on Exchanges**
+**Mua trên trên sàn giao dịch**
 
-For small amounts, the easiest way to start earning with OUSD is to buy it on a decentralized exchange like Uniswap. The current pairs are currently available:
+Đối với số tiền nhỏ, cách dễ nhất để bắt đầu kiếm tiền với OUSD là mua OUSD trên các sàn giao dịch phi tập trung như Uniswap. Các cặp hiện đang có sẵn:
 
-* [Buy OUSD on Uniswap](https://app.uniswap.org/#/swap?outputCurrency=0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86)
-* [Buy OUSD on Mooniswap](https://mooniswap.exchange/#/swap?outputToken=0x2a8e1e676ec238d8a992307b495b45b3feaa5e86)
+* [Mua OUSD trên Uniswap](https://app.uniswap.org/#/swap?outputCurrency=0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86)
+* [Mua OUSD trên Mooniswap](https://mooniswap.exchange/#/swap?outputToken=0x2a8e1e676ec238d8a992307b495b45b3feaa5e86)
 
-In addition, we anticipate that OUSD will soon be widely available on additional decentralized and centralized exchanges.
+Ngoài ra, chúng tôi dự đoán rằng OUSD sẽ sớm được phổ biến rộng rãi trên các sàn giao dịch tập trung và phi tập trung khác.
 
-**Adding OUSD to Your Wallet**
+**Thêm OUSD vào Ví của bạn**
 
 {% hint style="success" %}
-The main ERC20 address for Origin Dollar \(OUSD\) is:   
+Địa chỉ ERC20 chính của Origin Dollar \ (OUSD \) là:   
 **0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86**
 {% endhint %}
 
-If your OUSD does not automatically show up in your wallet, you should be able to add it manually using the address above. We want to have OUSD supported by as many wallets as possible and included on all the various lists of well-known tokens. We would greatly appreciate any help you can offer in this area. 
+Nếu OUSD không tự động hiển thị trên ví thì bạn có thể thêm theo cách thủ công thông qua địa chỉ ở trên. Chúng tôi muốn OUSD được hỗ trợ bởi nhiều ví hơn nữa và muốn OUSD được đưa vào tất cả danh sách của token nổi tiếng trong tương lai. Chúng tôi đánh giá rất cao bất kỳ sự giúp đỡ nào từ cộng đồng để biến mục tiêu trên thành hiện thực.
 
-**Integrating OUSD**
+**Tích hợp OUSD**
 
-OUSD is a non-standard ERC-20 token that requires custom integration work for most applications that wish to support it. In particular, it is important for developers to understand how our elastic supply works as this can easily cause unexpected behavior.
+OUSD là token ERC-20 không tiêu chuẩn, hầu hết các ứng dụng muốn hỗ trợ sử dụng OUSD sẽ cần phải thực hiện thao tác tích hợp. Đặc biệt, điều quan trọng là các nhà phát triển phải hiểu cách thức hoạt động của nguồn cung lịch hoạt bởi nó có thể gây nên một số hậu quả không mong muốn nếu không nắm rõ cơ chế.
 
-If you are a wallet provider or crypto exchange that is interested in supporting OUSD, please refer to the following guides: 
+Nếu bạn là nhà cung cấp ví hoặc sàn giao dịch tiền điện tử quan tâm đến việc hỗ trợ OUSD, vui lòng tham khảo các hướng dẫn sau:
 
 {% page-ref page="smart-contracts/architecture.md" %}
 
 {% page-ref page="smart-contracts/api/" %}
 
-**Getting Help**
+**Yêu cầu hỗ trợ**
 
-Please join the Origin Dollar \#engineering room in Origin's [Discord](www.originprotocol.com/discord) server.  Our team and members of our community look forward to helping you build. Your questions help us improve, so please don't hesitate to ask if you can't find what you are looking for here.
+Vui lòng tham gia kênh Origin Dollar \ #engineering trên [Discord](www.originprotocol.com/discord) của Origin.  Đội ngũ của chúng tôi và các thành viên trong cộng đồng luôn sẵn sàng hỗ trợ bạn. Câu hỏi của bạn giúp sẽ giúp chúng tôi ngày càng hoàn thiện, vì vậy đừng ngần ngại cho chúng tôi biết thắc mắc của bạn nếu bạn không tìm thấy câu trả lời ở đây.
 

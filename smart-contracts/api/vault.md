@@ -1,87 +1,85 @@
 ---
 description: >-
-  The vault is the main contract of the protocol. The vault is responsible for
-  minting/redeeming OUSD tokens, rebalancing funds between the various supported
-  strategies, and liquidating rewards tokens.
+  Vault là điểm cốt lõi của giao thức. Kho tiền chịu trách nhiệm khai tác / hoàn trả OUSD, cân bằng lại quỹ giữa các chiến lược được hỗ trợ khác nhau và thanh lý token thưởng.
 ---
 
 # Vault
 
-## Methods‌
+## Phương pháp‌
 
-### mint\(\) <a id="mint"></a>
+### mint () <a id="mint"></a>
 
-**`function mint(address _asset, uint256 _amount)`**‌
+**`function mint(address _asset, uint256 _amount)`**
 
-Mints OUSD in exchange for a deposit of a certain `_amount` of stablecoin specified by the `_asset` parameter. The caller receives a certain amount of OUSD depending on the **exchange rate**.
+Khai thác OUSD để đổi lấy một khoản tiền gửi bằng `_mount` nhất định của stablecoin được chỉ định bởi tham số `_asset`. Người gọi lệnh nhận được một lượng OUSD nhất định tùy thuộc vào **tỷ giá hối đoái**.
 
-| Parameter Name | Type | Description |
-| :--- | :--- | :--- |
-| \_asset | address | Address of the [supported](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/core-concepts/supported-assets) stablecoin |
-| \_amount | uint256 | amount deposited, expressed in decimal units |
+| Tên thông số | Loại    | Mô tả                                                                                                                                             |
+|:------------ |:------- |:------------------------------------------------------------------------------------------------------------------------------------------------- |
+| \_asset    | địa chỉ | Địa chỉ của stablecoin [được hỗ trợ](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/core-concepts/supported-assets) |
+| \_amount   | uint256 | Số tiền gửi, được biểu thị bằng đơn vị thập phân                                                                                                  |
 
-### mintMultiple\(\) <a id="mintmultiple"></a>
+### mintMultiple () <a id="mintmultiple"></a>
 
-**`function mintMultiple(address[] _assets, uint256[] _amounts)`**‌
+**`function mintMultiple(address[] _assets, uint256[] _amounts)`**
 
-Mints OUSD in exchange for a deposit of multiple stablecoins in a single call. Stablecoins are specified by the `_assets` array parameter and the amounts by the `_amounts` array parameter. The caller receives a certain amount of OUSD depending on the **exchange rate**.
+Khai thác OUSD để đổi lấy một khoản tiền gửi chứa nhiều stablecoin trong lần gọi lệnh. Stablecoin được chỉ định bởi tham số mảng `_assets` và số tiền bằng tham số mảng `_amounts`. Người gọi lệnh nhận được một lượng OUSD nhất định tùy thuộc vào **tỷ giá hối đoái**.
 
-| Parameter Name | Type | Description |
-| :--- | :--- | :--- |
-| \_assets | address\[\] | Addresses of the [supported](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/core-concepts/supported-assets) stablecoins |
-| \_amounts | uint256\[\] | amounts deposited, expressed in decimal units |
+| Tên thông số | Loại       | Mô tả                                                                                                                                             |
+|:------------ |:---------- |:------------------------------------------------------------------------------------------------------------------------------------------------- |
+| \_assets   | địa chỉ [] | Địa chỉ của [stablecoin được hỗ trợ](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/core-concepts/supported-assets) |
+| \_amounts  | uint256 [] | Số tiền gửi, được biểu thị bằng đơn vị thập phân                                                                                                  |
 
 {% hint style="warning" %}
-On redemptions, it is the protocol and not the user that decides which stablecoin\(s\) are returned to the user. This decision of which coin\(s\) to return is based on the internal ratios of the assets that are being held in the vault.‌
+Khi hoàn lại tiền, chính giao thức sẽ quyết định stablecoin nào sẽ được trả lại cho người dùng. Việc lựa chọn đồng coin nào sẽ được trả sẽ dựa trên tỷ lệ nội bộ của tài sản đang được giữ trong vault.‌
 {% endhint %}
 
-### redeem\(\) <a id="redeem"></a>
+### redeem () <a id="redeem"></a>
 
-**`function redeem(uint256 _amount)`**‌
+**`function redeem(uint256 _amount)`**
 
-OUSD specified by the `_amount` parameter is redeemed in exchange for one or multiple supported stablecoins. Amount of stablecoins received depends on the **exchange rate**.
+OUSD được chỉ định bởi thông số `_amount` được quy đổi để đổi lấy một hoặc nhiều stablecoin được hỗ trợ. Số lượng stablecoin nhận được phụ thuộc vào **tỷ giá hối đoái**.
 
-| Parameter Name | Type | Description |
-| :--- | :--- | :--- |
-| \_amount | uint256 | amount of OUSD expressed in decimal units |
+| Tên thông số | Loại    | Mô tả                                |
+|:------------ |:------- |:------------------------------------ |
+| \_amount   | uint256 | lượng OUSD tính tới đơn vị thập phân |
 
-### redeemAll\(\)‌ <a id="redeemall"></a>
+### redeemAll ()‌ <a id="redeemall"></a>
 
-**`function redeemAll()`**‌
+**`function redeemAll()`**
 
-All OUSD in user's possession is redeemed in exchange for one or multiple supported stablecoins. Amount of stablecoins received depends on the **exchange rate**.
+Tất cả OUSD mà người dùng sở hữu đều được đổi lấy một hoặc nhiều stablecoin được hỗ trợ. Số lượng stablecoin nhận được phụ thuộc vào **tỷ giá hối đoái**.
 
-### rebase\(\) <a id="rebase"></a>
+### rebase () <a id="rebase"></a>
 
-**`function rebase()`**‌
+**`function rebase()`**
 
-Updates the balances for all users based on the value of the assets currently stored in the vault. Returns total value of the underlying assets and strategies represented by `uint256` type.‌
+Cập nhật số dư cho tất cả người dùng dựa trên giá trị của tài sản hiện đang được lưu trữ trong vault. Trả về tổng giá trị của các tài sản đảm bảo và chiến lược cơ bản được đại diện bằng `uint256` loại.‌
 
-### allocate\(\) <a id="allocate"></a>
+### allocate () <a id="allocate"></a>
 
-**`function allocate()`**‌
+**`function allocate()`**
 
-Moves the assets under management into their prescribed [Stategies](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/architecture/strategies) to maximize yield and diversify risk.‌
+Di chuyển các tài sản thuộc quyền quản lý tới [các chiến lược](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/architecture/strategies) để tối đa hóa năng suất và đa dạng hoá rủi ro
 
-### totalValue\(\) <a id="totalvalue"></a>
+### totalValue () <a id="totalvalue"></a>
 
-**`function totalValue()`**‌
+**`function totalValue()`**
 
-Returns total value of underlying assets and strategies.
+Trả về tổng giá trị của các tài sản và chiến lược cơ bản.
 
-| `return` name | Type | Description |
-| :--- | :--- | :--- |
-| value | uint256 | total value of underlying assets and strategies. |
+| `return` Tên | Loại    | Mô tả                                                     |
+|:------------ |:------- |:--------------------------------------------------------- |
+| giá trị      | uint256 | trả về tổng giá trị của các tài sản và chiến lược cơ bản. |
 
-### checkBalance\(\) <a id="checkbalance"></a>
+### checkBalance () <a id="checkbalance"></a>
 
 **`function checkBalance(address _asset)`**‌
 
 Returns the balance of an asset specified by the`_asset` parameter held in Vault and all strategies represented by `uint256` type.
 
-| Parameter Name | Type | Description |
-| :--- | :--- | :--- |
-| \_asset | address | Address of the [supported](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/core-concepts/supported-assets) stablecoin |
+| Parameter Name | Type    | Description                                                                                                                                        |
+|:-------------- |:------- |:-------------------------------------------------------------------------------------------------------------------------------------------------- |
+| \_asset      | address | Address of the [supported](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/core-concepts/supported-assets) stablecoin |
 
 ### calculateRedeemOutputs\(\) <a id="calculateredeemoutputs"></a>
 
@@ -93,13 +91,13 @@ To attribute the stablecoin values to the correct stablecoin currency this call 
 
 The index of an array that is returned by the `calculateRedeemOutputs` corresponds to the stablecoin address with the same index in an array returned by the `getAllAssets` function.
 
-| Parameter Name | Type | Description |
-| :--- | :--- | :--- |
-| \_amount | uint256 | amount of OUSD expressed in decimal units |
+| Parameter Name | Type    | Description                               |
+|:-------------- |:------- |:----------------------------------------- |
+| \_amount     | uint256 | amount of OUSD expressed in decimal units |
 
-| `return` name | Type | Description |
-| :--- | :--- | :--- |
-| outputs | uint256\[\] | array of the amount of the stablecoin assets `redeem` function would return |
+| `return` name | Type          | Description                                                                 |
+|:------------- |:------------- |:--------------------------------------------------------------------------- |
+| outputs       | uint256\[\] | array of the amount of the stablecoin assets `redeem` function would return |
 
 ### getAssetCount\(\) <a id="getassetcount"></a>
 
@@ -131,9 +129,9 @@ Return the total annual percentage yield \(APR\) of the Vault and all Strategies
 
 Return the boolean that is true if the asset specified by the `_asset` parameter is supported by the Vault.
 
-| Parameter Name | Type | Description |
-| :--- | :--- | :--- |
-| \_asset | address | Address of the stablecoin |
+| Parameter Name | Type    | Description               |
+|:-------------- |:------- |:------------------------- |
+| \_asset      | address | Address of the stablecoin |
 
 ### priceUSDMint\(\) <a id="issupportedasset-1"></a>
 
@@ -141,37 +139,37 @@ Return the boolean that is true if the asset specified by the `_asset` parameter
 
 Returns the exchange rate price of a stable coin specified by the `symbol` parameters used when minting OUSD represented by `uint256` type. Resulting number has 18 decimal spaces.
 
-| Parameter Name | Type | Description |
-| :--- | :--- | :--- |
-| symbol | string | Symbol of the stablecoin |
+| Parameter Name | Type   | Description              |
+|:-------------- |:------ |:------------------------ |
+| symbol         | string | Symbol of the stablecoin |
 
-### priceUSDRedeem\(\) <a id="issupportedasset-2"></a>
+### priceUSDRedeem () <a id="issupportedasset-2"></a>
 
-**`function priceUSDRedeem(string symbol)`**‌‌
+**`function priceUSDRedeem(string symbol)`**
 
-Returns the exchange rate price of a stable coin specified by the `symbol` parameters used when redeeming OUSD represented by `uint256` type. Resulting number has 18 decimal spaces.
+Trả về giá tỷ giá hối đoái của đồng xu ổn định được chỉ định bởi các tham số `symbol` được sử dụng khi quy đổi OUSD được đại diện bằng `uint256`. Số kết quả có 18 ký tự.
 
-| Parameter Name | Type | Description |
-| :--- | :--- | :--- |
-| symbol | string | Symbol of the stablecoin |
+| Tên thông số | Loại  | Mô tả                  |
+|:------------ |:----- |:---------------------- |
+| ký hiệu      | chuỗi | Địa chỉ của stablecoin |
 
 ### priceAssetUSDMint\(\)‌ <a id="issupportedasset-3"></a>
 
 **`function priceAssetUSDMint(address _asset)`**‌‌
 
-Returns the exchange rate price of a stable coin specified by the `_asset` parameters used when minting OUSD represented by `uint256` type. Resulting number has 18 decimal spaces.
+Trả về tỷ giá hối đoái của stablecoin được chỉ định bởi các tham số `_asset` được sử dụng khi khai thác OUSD được đại diện bằng loại `uint256`. Số kết quả có 18 ký tự.
 
-| Parameter Name | Type | Description |
-| :--- | :--- | :--- |
-| \_asset | address | Address of the stablecoin‌ |
+| Tên thông số | Loại    | Mô tả                   |
+|:------------ |:------- |:----------------------- |
+| \_asset    | địa chỉ | Địa chỉ của stablecoin‌ |
 
-### priceAssetUSDRedeem\(\)‌ <a id="issupportedasset-3-1"></a>
+### priceAssetUSDRedeem ()‌ <a id="issupportedasset-3-1"></a>
 
 **`function priceAssetUSDRedeem(address _asset)`**‌‌‌
 
-Returns the exchange rate price of a stable coin specified by the `_asset` parameters used when redeeming OUSD represented by `uint256` type. Resulting number has 18 decimal spaces.
+Trả về tỷ giá hối đoái của stablecoin được chỉ định bởi các tham số `_asset` được sử dụng khi đổi OUSD được đại diện bằng loại `uint256`. Số kết quả có 18 ký tự.
 
-| Parameter Name | Type | Description |
-| :--- | :--- | :--- |
-| \_asset | address | Address of the stablecoin |
+| Tên thông số | Loại    | Mô tả                  |
+|:------------ |:------- |:---------------------- |
+| \_asset    | địa chỉ | Địa chỉ của stablecoin |
 

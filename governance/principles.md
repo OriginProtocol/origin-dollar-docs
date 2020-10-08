@@ -1,8 +1,8 @@
-# Principles
+# Nguyên tắc
 
 **Progressive Decentralization**
 
-OUSD is designed to be a decentralized protocol governed by many stakeholders all over the world. We believe that the minters and holders of OUSD should collectively determine important protocol decisions as soon as possible. 
+OUSD is designed to be a decentralized protocol governed by many stakeholders all over the world. We believe that the minters and holders of OUSD should collectively determine important protocol decisions as soon as possible.
 
 That being said, in the very early days, it is imperative that the core engineering team can act quickly and decisively to build the foundational parts of the protocol.
 
@@ -16,7 +16,7 @@ Prior to full decentralized governance, we will implement a [timelock](../smart-
 
 **New and Existing Stakeholders**
 
-OUSD is a new project founded by Origin Protocol [team](www.originprotocol.com/team) and will be supported by the existing Origin community as well as many new stakeholders that choose to mint, hold, use, and provide liquidity for OUSD. 
+OUSD is a new project founded by Origin Protocol [team](www.originprotocol.com/team) and will be supported by the existing Origin community as well as many new stakeholders that choose to mint, hold, use, and provide liquidity for OUSD.
 
 In addition, we also want to ensure high participation from our existing Origin Token \(OGN\) holders, community of close to 500,000 members, and buyers/sellers on the Platform. Existing OGN holders will be able to stake their OGN to participate in governance and earn incentives for driving value to OUSD. More details will be provided in the near future.
 
