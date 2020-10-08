@@ -16,10 +16,10 @@ Khối lượng giao dịch trên Curve thường trên 50 triệu đô la hàng
 
 Curve được kiểm toán bảo mật bởi Trail of Bits và đang chạy 1 chương trình tặng thưởng cho người phát hiện ra lỗi.
 
-| Tài nguyên     |                                                                          |
-|:-------------- |:------------------------------------------------------------------------ |
-| Official site  | [https://uniswap.org/](https://uniswap.org/)                             |
-| Developer docs | [https://uniswap.org/docs/v2](https://uniswap.org/docs/v2)               |
-| GitHub         | [https://github.com/Uniswap](https://github.com/Uniswap)                 |
-| Discord        | [https://discord.com/invite/EwFs3Pp](https://discord.com/invite/EwFs3Pp) |
+| Tài nguyên                       |                                                                          |
+|:-------------------------------- |:------------------------------------------------------------------------ |
+| Website                         | [https://www.curve.fi/](https://uniswap.org/)                            |
+| Tài liệu dành cho nhà phát triển | [https://www.curve.fi/devdocs](https://uniswap.org/docs/v2)              |
+| GitHub                           | [https://github.com/curvefi](https://github.com/Uniswap)                 |
+| Discord                          | [https://discord.com/invite/9uEHakc](https://discord.com/invite/EwFs3Pp) |
 
