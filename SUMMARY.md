@@ -1,4 +1,4 @@
-# Оглавление
+# Table of contents
 
 * [Введение](README.md)
 * [Как это работает](how-it-works.md)
@@ -6,50 +6,50 @@
 
 ## Основные концепции
 
-* [Гибкое предложение](core-concepts/elastic-supply.md)
-* [Генерирование дохода](core-concepts/yield-generation/README.md)
-  * [Кредитование](core-concepts/yield-generation/lending.md)
-  * [Поддержание котировок на рынке](core-concepts/yield-generation/market-making.md)
-  * [Вознаграждение](core-concepts/yield-generation/rewards.md)
-* [Поддерживаемые стейблкоины](core-concepts/supported-stablecoins/README.md)
-  * [USDT](core-concepts/supported-stablecoins/usdt.md)
-  * [USDC](core-concepts/supported-stablecoins/usdc.md)
-  * [DAI](core-concepts/supported-stablecoins/dai.md)
-* [Поддерживаемые стратегии](core-concepts/supported-strategies/README.md)
-  * [Накапливание](core-concepts/supported-strategies/compound.md)
-  * [Aave](core-concepts/supported-strategies/aave.md)
-  * [dYdX](core-concepts/supported-strategies/dydx.md)
-  * [Uniswap](core-concepts/supported-strategies/uniswap.md)
-  * [Curve](core-concepts/supported-strategies/curve.md)
-  * [Balancer](core-concepts/supported-strategies/balancer.md)
-  * [Yearn.finance](core-concepts/supported-strategies/yearn.finance.md)
-* [Управление средствами](core-concepts/fund-management/README.md)
-  * [Стратегии заработка](core-concepts/fund-management/earning-strategies.md)
-  * [Диверсификация](core-concepts/fund-management/diversification.md)
-* [Ценовые оракулы](core-concepts/price-oracles.md)
+* [Гибкое предложение](osnovnye-koncepcii/elastic-supply.md)
+* [Генерирование дохода](osnovnye-koncepcii/yield-generation/README.md)
+  * [Кредитование](osnovnye-koncepcii/yield-generation/lending.md)
+  * [Поддержание котировок на рынке](osnovnye-koncepcii/yield-generation/market-making.md)
+  * [Вознаграждение](osnovnye-koncepcii/yield-generation/rewards.md)
+* [Поддерживаемые стейблкоины](osnovnye-koncepcii/supported-stablecoins/README.md)
+  * [USDT](osnovnye-koncepcii/supported-stablecoins/usdt.md)
+  * [USDC](osnovnye-koncepcii/supported-stablecoins/usdc.md)
+  * [DAI](osnovnye-koncepcii/supported-stablecoins/dai.md)
+* [Поддерживаемые стратегии](osnovnye-koncepcii/supported-strategies/README.md)
+  * [Накапливание](osnovnye-koncepcii/supported-strategies/compound.md)
+  * [Aave](osnovnye-koncepcii/supported-strategies/aave.md)
+  * [dYdX](osnovnye-koncepcii/supported-strategies/dydx.md)
+  * [Uniswap](osnovnye-koncepcii/supported-strategies/uniswap.md)
+  * [Curve](osnovnye-koncepcii/supported-strategies/curve.md)
+  * [Balancer](osnovnye-koncepcii/supported-strategies/balancer.md)
+  * [Yearn.finance](osnovnye-koncepcii/supported-strategies/yearn.finance.md)
+* [Управление средствами](osnovnye-koncepcii/fund-management/README.md)
+  * [Стратегии заработка](osnovnye-koncepcii/fund-management/earning-strategies.md)
+  * [Диверсификация](osnovnye-koncepcii/fund-management/diversification.md)
+* [Ценовые оракулы](osnovnye-koncepcii/price-oracles.md)
 
 ## Управление
 
-* [Принципы](governance/principles.md)
-* [Права администратора](governance/admin-privileges.md)
+* [Принципы](upravlenie/principles.md)
+* [Права администратора](upravlenie/admin-privileges.md)
 
 ## Смарт-контракты
 
-* [Архитектура](smart-contracts/architecture.md)
-* [Реестр](smart-contracts/registry.md)
-* [API](smart-contracts/api/README.md)
-  * [Хранилище](smart-contracts/api/vault.md)
-  * [ERC-20](smart-contracts/api/erc-20-1.md)
-  * [Временная блокировка](smart-contracts/api/timelock.md)
-  * [Оракулы](smart-contracts/api/oracle.md)
-  * [Стратегии](smart-contracts/api/strategies.md)
+* [Архитектура](smart-kontrakty/architecture.md)
+* [Реестр](smart-kontrakty/registry.md)
+* [API](smart-kontrakty/api/README.md)
+  * [Хранилище](smart-kontrakty/api/vault.md)
+  * [ERC-20](smart-kontrakty/api/erc-20-1.md)
+  * [Временная блокировка](smart-kontrakty/api/timelock.md)
+  * [Оракулы](smart-kontrakty/api/oracle.md)
+  * [Стратегии](smart-kontrakty/api/strategies.md)
 
 ## Угрозы & Безопасность
 
-* [Риски](security-and-risks/risks.md)
-* [Аудиты](security-and-risks/audits.md)
-* [Призы за поиск ошибок](security-and-risks/bug-bounties.md)
-* [Сотрудничество](security-and-risks/contributing.md)
+* [Риски](ugrozy-and-bezopasnost/risks.md)
+* [Аудиты](ugrozy-and-bezopasnost/audits.md)
+* [Призы за поиск ошибок](ugrozy-and-bezopasnost/bug-bounties.md)
+* [Сотрудничество](ugrozy-and-bezopasnost/contributing.md)
 
 ## Ссылки
 
