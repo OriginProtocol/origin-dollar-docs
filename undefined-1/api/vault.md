@@ -12,7 +12,7 @@ description: >-
 
 **`function mint(address _asset, uint256 _amount)`**
 
-Mints OUSD in exchange for a deposit of a certain `_amount` of stablecoin specified by the `_asset` parameter. The caller receives a certain amount of OUSD depending on the **exchange rate**.
+`_asset` 매개변수로 지정된 일정 `_amount` 의 스테이블 코인을 예치하는 대가로 OUSD를 채굴합니다. 통화자는 **환율\(exchange rate\)**에 따라 일정 금액의 OUSD를 받습니다.
 
 | 매개 변수 이름 | 유형 | 설명 |
 | :--- | :--- | :--- |
@@ -38,7 +38,7 @@ Mints OUSD in exchange for a deposit of multiple stablecoins in a single call. S
 
 **`function redeem(uint256 _amount)`**‌
 
-OUSD specified by the `_amount` parameter is redeemed in exchange for one or multiple supported stablecoins. Amount of stablecoins received depends on the **exchange rate**.
+`_amount`매개변수로 지정된 OUSD는 하나 이상의 지원되는 스테이블 코인에 대한 교환으로 사용됩니다. 스테이블코인 수령량은 **환율\(exchange rate\)**에 따라 다릅니다.
 
 | 매개 변수 이름 | 유형 | 설명 |
 | :--- | :--- | :--- |
@@ -76,7 +76,7 @@ OUSD specified by the `_amount` parameter is redeemed in exchange for one or mul
 
 **`function checkBalance(address _asset)`**‌
 
-Returns the balance of an asset specified by the`_asset` parameter held in Vault and all strategies represented by `uint256` type.
+금고\(Vault\)에 저장된`_asset`매개 변수로 지정된 자산과 `uint256` 유형으로 표시되는 모든 전략의 균형을 반환합니다.
 
 | 매개 변수 이름 | 유형 | 설명 |
 | :--- | :--- | :--- |
@@ -104,25 +104,25 @@ The index of an array that is returned by the `calculateRedeemOutputs` correspon
 
 **`function getAssetCount()`**‌
 
-Return the number of supported stablecoin assets represented by `uint256` type.‌
+`uint256` 유형으로 표시된 지원되는 스테이블코인 자산 수를 반환합니다.‌
 
 ### getAllAssets\(\) <a id="getallassets"></a>
 
 **`function getAllAssets()`**‌
 
-Return all assets addresses of supported stablecoin assets in order represented by `uint256` type.‌
+지원되는 스테이블코인 자산의 모든 자산 주소를 `uint256` 유형으로 표시된 순서대로 반환합니다.‌
 
 ### getStrategyCount\(\)‌ <a id="getstrategycount"></a>
 
 **`function getStrategyCount()`**‌
 
-Return the number of strategies active on the Vault represented by `uint256` type.‌
+`uint256` 유형으로 표시된 금고\(Vault\)에서 활성 전략 수를 반환합니다.‌
 
 ### getAPR\(\) <a id="getapr"></a>
 
 **`function getAPR()`**‌
 
-Return the total annual percentage yield \(APR\) of the Vault and all Strategies represented by `uint256` type. Resulting number has 18 decimal spaces.‌
+금고\(Vault\)의 총 연간 수익률\(APR\)과 `uint256`유형으로 표시된 모든 전략을 반환합니다. 결과 숫자는 소수점 18개를 가집니다.‌
 
 ### isSupportedAsset\(\) <a id="issupportedasset"></a>
 
@@ -148,7 +148,7 @@ Returns the exchange rate price of a stable coin specified by the `symbol` param
 
 **`function priceUSDRedeem(string symbol)`**‌‌
 
-Returns the exchange rate price of a stable coin specified by the `symbol` parameters used when redeeming OUSD represented by `uint256` type. Resulting number has 18 decimal spaces.
+`uint256` 유형으로 표시된 OUSD를 상환할 때 사용되는 `symbol` 파라미터로 지정된 스테이블 코인의 환율 가격을 반환합니다. 결과 숫자는 소수점 18개를 가집니다.
 
 | 매개 변수 이름 | 유형 | 설명 |
 | :--- | :--- | :--- |
@@ -158,7 +158,7 @@ Returns the exchange rate price of a stable coin specified by the `symbol` param
 
 **`function priceAssetUSDMint(address _asset)`**‌‌
 
-Returns the exchange rate price of a stable coin specified by the `_asset` parameters used when minting OUSD represented by `uint256` type. Resulting number has 18 decimal spaces.
+`uint256` 유형으로 표시된 OUSD를 채굴할 때 사용되는 `_asset`  매개변수로 지정된 스테이블 코인의 환율 가격을 반환합니다. 결과 숫자는 소수점 18개를 가집니다.
 
 | 매개 변수 이름 | 유형 | 설명 |
 | :--- | :--- | :--- |
@@ -168,7 +168,7 @@ Returns the exchange rate price of a stable coin specified by the `_asset` param
 
 **`function priceAssetUSDRedeem(address _asset)`**‌‌‌
 
-Returns the exchange rate price of a stable coin specified by the `_asset` parameters used when redeeming OUSD represented by `uint256` type. Resulting number has 18 decimal spaces.
+`uint256`유형으로 표시된 OUSD를 상환할 때 사용되는 `_asset` 매개변수로 지정된 스테이블 코인의 환율 가격을 반환합니다. 결과 숫자는 소수점 18개를 가집니다.
 
 | 매개 변수 이름 | 유형 | 설명 |
 | :--- | :--- | :--- |
