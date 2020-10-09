@@ -23,12 +23,12 @@ description: >-
 
 **`function mintMultiple(address[] _assets, uint256[] _amounts)`**‌
 
-Mints OUSD in exchange for a deposit of multiple stablecoins in a single call. Stablecoins are specified by the `_assets` array parameter and the amounts by the `_amounts` array parameter. The caller receives a certain amount of OUSD depending on the **exchange rate**.
+한 번의 통화로 여러 개의 스테이블 코인을 예약하는 보상으로 OUSD를 발행합니다. 스테이블 코인 `assets` 어레이 매게 변수와 `amounts` 어레이 매게 변수에 의해 지정됩니다. 통화자는 **환율\(exchange rate\)**에 따라 일정 금액의 OUSD를 받게 됩니다. 
 
 | 매개 변수 이름 | 유형 | 설명 |
 | :--- | :--- | :--- |
-| \_assets | address\[\] | 지원되는\([supported](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/core-concepts/supported-assets)\) 스테이블 코인 주소 |
-| \_amounts | uint256\[\] | 입금된 금액은 소수 단위로 표시 |
+| \_assets | address | 지원되는\([supported](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/core-concepts/supported-assets)\) 스테이블 코인 주소 |
+| \_amounts | uint256 | 입금된 금액은 소수 단위로 표시 |
 
 {% hint style="warning" %}
 재할당 시 사용자에게 반환되는 스테이블 코인을 결정하는 것은 프로토콜이 아니라 사용자입니다. 이러한 코인 반환 결정은 금고에 보관 중인 자산의 내부 비율을 기반으로 합니다.‌
@@ -98,7 +98,7 @@ The index of an array that is returned by the `calculateRedeemOutputs` correspon
 
 | `return` 이 | 유형 | 설명 |
 | :--- | :--- | :--- |
-| 생산\(outputs\) | uint256\[\] | 스테이블코인 자산 상환 함수의 배열이 반환됩니다. |
+| 생산\(outputs\) | uint256 | 스테이블코인 자산 상환 함수의 배열이 반환됩니다. |
 
 ### getAssetCount\(\) <a id="getassetcount"></a>
 
