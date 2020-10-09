@@ -12,7 +12,7 @@ OUSD는 전 세계의 많은 이해 관계자들이 함께 관리하는 탈 중�
 
 **타임락\(Timelock\)**
 
-Prior to full decentralized governance, we will implement a [timelock](../undefined-1/api/timelock.md) in front of all admin function calls, giving OUSD users time \(48 hours\) to withdraw their funds if they have objections to our proposed upgrades. 타임락은 출시 7 일 후에 추가됩니다.
+완전히 탈중앙화 거버넌스 단계에 가기 앞서, 오리진은 모든 관리 기능 호출 앞에 타임락\([timelock](../undefined-1/api/timelock.md)\)을 구현하였습니다. 이는 OUSD 사용자가 제안된 업그레이드에 반대할 경우 자금을 회수할 수 있는 시간\(48시간\)을 부여하는 기능입니다. 임락은 출시 7 일 후에 추가됩니다.
 
 **신규 및 기존 이해 관계자**
 
@@ -20,5 +20,5 @@ OUSD는 오리진 프로토콜\(Origin Protocol\) [팀](https://github.com/oplab
 
 또한 기존 오리진 토큰 \(OGN\) 보유자, 50만 명에 가까운 회원으로 구성된 오리진 커뮤니티, 오리진 플랫폼의 구매자/판매자 등의 높은 참여도 보장하고자 합니다. 기존 OGN 보유자는 OGN을 투자하여 거버넌스에 참여하고 가치를 창출하는 인센티브를 획득할 수 있습니다. 보다 자세한 내용은 가까운 시일 내에 발표될 예정입니다.
 
-OUSD와 나머지 Origin 커머스 플랫폼 간의 강력한 연결은 두 이니셔티브 모두에서 성장을 촉진할 것입니다.
+OUSD와 나머지 오리 커머스 플랫폼 간의 강력한 연결은 두 이니셔티브 모두에서 성장을 촉진할 것입니다.
 
