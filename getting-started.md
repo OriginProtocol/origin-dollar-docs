@@ -4,7 +4,7 @@ Bu belgeler, OUSD'nin nasıl çalıştığını açıklamayı, potansiyel riskle
 
 **Basmak veya itfa**
 
-OUSD Mint, herkesin [DApp](www.ousd.com) ve [Metamask](https://www.metamask.io)gibi web-3 özellikli bir kripto para birimi cüzdanı kullanarak OUSD jetonları oluşturmasına veya ticaretine izin verir. Bu, OUSD almanın yerel yoludur, özellikle piyasayı diğer borsalarda hareket ettirme riskini alabilecek büyük bir miktar istiyorsanız.
+OUSD Mint, herkesin [DApp](https://github.com/oplabs/origin-dollar-docs/tree/e191a70290b480a40094fa1fde99dffef0d0fd30/www.ousd.com) ve [Metamask](https://www.metamask.io)gibi web-3 özellikli bir kripto para birimi cüzdanı kullanarak OUSD jetonları oluşturmasına veya ticaretine izin verir. Bu, OUSD almanın yerel yoludur, özellikle piyasayı diğer borsalarda hareket ettirme riskini alabilecek büyük bir miktar istiyorsanız.
 
 **Borsalarda Satın Alın**
 
@@ -17,8 +17,8 @@ Ek olarak, OUSD'nin yakında diğer merkezi olmayan ve merkezi borsalarda yaygı
 
 **Cüzdanınıza OUSD Ekleme**
 
-{% hint style="başarı" %}
-Origin Dollar için ana ERC20 adresi \(OUSD\):   
+{% hint style="info" %}
+Origin Dollar için ana ERC20 adresi \(OUSD\):  
 **0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86**
 {% endhint %}
 
@@ -30,11 +30,7 @@ OUSD, desteklemek isteyen çoğu uygulama için özel entegrasyon çalışması 
 
 OUSD'yi desteklemekle ilgilenen bir cüzdan sağlayıcısı veya kripto borsası iseniz, lütfen aşağıdaki kılavuzlara bakın:
 
-{% page-ref page = "smart-contracts / architecture.md"%}
-
-{% page-ref page = "smart-contracts / "%}
-
 **Yardım almak**
 
-Lütfen Origin'in [Discord](www.originprotocol.com/discord) sunucusundaki Origin Dollar \ #engineering odasına katılın.  Ekibimiz ve topluluğumuzun üyeleri, inşa etmenize yardımcı olmak için sabırsızlanıyor. Sorularınız gelişmemize yardımcı olur, bu yüzden lütfen burada aradığınızı bulamazsanız sormaktan çekinmeyin.
+Lütfen Origin'in [Discord](https://github.com/oplabs/origin-dollar-docs/tree/e191a70290b480a40094fa1fde99dffef0d0fd30/www.originprotocol.com/discord/README.md) sunucusundaki Origin Dollar  \#engineering odasına katılın. Ekibimiz ve topluluğumuzun üyeleri, inşa etmenize yardımcı olmak için sabırsızlanıyor. Sorularınız gelişmemize yardımcı olur, bu yüzden lütfen burada aradığınızı bulamazsanız sormaktan çekinmeyin.
 
