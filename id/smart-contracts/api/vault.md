@@ -1,6 +1,6 @@
 ---
 description: >-
-  The vault is the main contract of the protocol. The vault is responsible for minting/redeeming OUSD tokens, rebalancing funds between the various supported strategies, and liquidating rewards tokens.
+  Vault adalah inti dari protokol. The vault is responsible for minting/redeeming OUSD tokens, rebalancing funds between the various supported strategies, and liquidating rewards tokens.
 ---
 
 # Vault
@@ -24,30 +24,30 @@ Mints OUSD in exchange for a deposit of a certain `_amount` of stablecoin specif
 
 Mints OUSD in exchange for a deposit of multiple stablecoins in a single call. Stablecoins are specified by the `_assets` array parameter and the amounts by the `_amounts` array parameter. The caller receives a certain amount of OUSD depending on the **exchange rate**.
 
-| Parameter Name | Type          | Description                                                                                                                                           |
-|:-------------- |:------------- |:----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| \_assets     | address\[\] | Addresses of the [supported](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/core-concepts/supported-assets) stablecoins |
-| \_amounts    | uint256\[\] | amounts deposited, expressed in decimal units                                                                                                         |
+| Nama Parameter | Tipe            | Deskripsi                                                                                                                                       |
+|:-------------- |:--------------- |:----------------------------------------------------------------------------------------------------------------------------------------------- |
+| \_aktiva     | alamat\[\]    | Alamat dari [didukung](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/core-concepts/supported-assets) stablecoins |
+| \_jumlah     | uint256 \ [\] | jumlah yang disimpan, dinyatakan dalam unit desimal                                                                                             |
 
 {% hint style="warning" %}
-On redemptions, it is the protocol and not the user that decides which stablecoin\(s\) are returned to the user. This decision of which coin\(s\) to return is based on the internal ratios of the assets that are being held in the vault.‌
+Saat penebusan, adalah protokol dan bukan pengguna yang memutuskan stablecoin \ (s \) mana yang akan dikembalikan ke pengguna. This decision of which coin\(s\) to return is based on the internal ratios of the assets that are being held in the vault.‌
 {% endhint %}
 
 ### redeem\(\) <a id="redeem"></a>
 
 **`function redeem(uint256 _amount)`**‌
 
-OUSD specified by the `_amount` parameter is redeemed in exchange for one or multiple supported stablecoins. Amount of stablecoins received depends on the **exchange rate**.
+OUSD yang ditentukan oleh parameter `_amount` ditukarkan dengan satu atau beberapa stablecoin yang didukung. Jumlah stablecoin yang diterima bergantung pada **nilai tukar**.
 
-| Parameter Name | Type    | Description                               |
-|:-------------- |:------- |:----------------------------------------- |
-| \_amount     | uint256 | amount of OUSD expressed in decimal units |
+| Nama Parameter | Tipe    | Deskripsi                                                |
+|:-------------- |:------- |:-------------------------------------------------------- |
+| \_jumlah     | uint256 | jumlah OUSD yang disimpan, dinyatakan dalam unit desimal |
 
 ### redeemAll\(\)‌ <a id="redeemall"></a>
 
 **`function redeemAll()`**‌
 
-All OUSD in user's possession is redeemed in exchange for one or multiple supported stablecoins. Amount of stablecoins received depends on the **exchange rate**.
+Semua OUSD yang dimiliki pengguna ditebus dengan satu atau beberapa stablecoin yang didukung. Jumlah stablecoin yang diterima bergantung pada **nilai tukar**.
 
 ### rebase\(\) <a id="rebase"></a>
 
@@ -85,19 +85,19 @@ Returns the balance of an asset specified by the`_asset` parameter held in Vault
 
 **`function calculateRedeemOutputs(uint256 _amount)`**‌
 
-Calculate the mix of stablecoins that a `redeem` function would return when redeeming certain amount of OUSD specified by the `_amount` parameter. Returns an array of stablecoin values.
+Calculate the mix of stablecoins that a `redeem` function would return when redeeming certain amount of OUSD specified by the `_amount` parameter. Mengembalikan himpunan nilai stablecoin.
 
-To attribute the stablecoin values to the correct stablecoin currency this call should be used in conjunction with `getAllAssets` function that returns an array of stablecoin addresses.
+Untuk menghubungkan nilai stablecoin ke mata uang stablecoin yang benar, panggilan ini harus digunakan bersama dengan `fungsi getAllAssets` yang mengembalikan himpunan alamat stablecoin.
 
 The index of an array that is returned by the `calculateRedeemOutputs` corresponds to the stablecoin address with the same index in an array returned by the `getAllAssets` function.
 
-| Parameter Name | Type    | Description                               |
-|:-------------- |:------- |:----------------------------------------- |
-| \_amount     | uint256 | amount of OUSD expressed in decimal units |
+| Nama Parameter | Tipe    | Deskripsi                                                |
+|:-------------- |:------- |:-------------------------------------------------------- |
+| \_jumlah     | uint256 | jumlah OUSD yang disimpan, dinyatakan dalam unit desimal |
 
-| `return` name | Type          | Description                                                                 |
-|:------------- |:------------- |:--------------------------------------------------------------------------- |
-| outputs       | uint256\[\] | array of the amount of the stablecoin assets `redeem` function would return |
+| `return` name | Tipe            | Deskripsi                                                                   |
+|:------------- |:--------------- |:--------------------------------------------------------------------------- |
+| outputs       | uint256 \ [\] | array of the amount of the stablecoin assets `redeem` function would return |
 
 ### getAssetCount\(\) <a id="getassetcount"></a>
 
