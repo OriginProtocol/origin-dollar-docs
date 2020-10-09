@@ -16,8 +16,8 @@ Mints OUSD in exchange for a deposit of a certain `_amount` of stablecoin specif
 
 | 매개 변수 이름 | 유형 | 설명 |
 | :--- | :--- | :--- |
-| \_asset | address | Address of the [supported](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/core-concepts/supported-assets) stablecoin |
-| \_amount | uint256 | amount deposited, expressed in decimal units |
+| \_asset | address | 지원되는\( [supported](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/core-concepts/supported-assets)\) 스테이블 코인 주 |
+| \_amount | uint256 | 입금된 금액은 소수 단위로 표시 |
 
 ### mintMultiple\(\) <a id="mintmultiple"></a>
 
@@ -27,14 +27,14 @@ Mints OUSD in exchange for a deposit of multiple stablecoins in a single call. S
 
 | 매개 변수 이름 | 유형 | 설명 |
 | :--- | :--- | :--- |
-| \_assets | address\[\] | Addresses of the [supported](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/core-concepts/supported-assets) stablecoins |
-| \_amounts | uint256\[\] | amounts deposited, expressed in decimal units |
+| \_assets | address\[\] | 지원되는\( [supported](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/core-concepts/supported-assets)\) 스테이블 코인 주 |
+| \_amounts | uint256\[\] | 입금된 금액은 소수 단위로 표시 |
 
 {% hint style="warning" %}
-On redemptions, it is the protocol and not the user that decides which stablecoin\(s\) are returned to the user. This decision of which coin\(s\) to return is based on the internal ratios of the assets that are being held in the vault.‌
+재할당 시 사용자에게 반환되는 스테이블 코인을 결정하는 것은 프로토콜이 아니라 사용자입니다. 이러한 코인 반환 결정은 금고에 보관 중인 자산의 내부 비율을 기반으로 합니다.‌
 {% endhint %}
 
-### redeem\(\) <a id="redeem"></a>
+### 상환/redeem\(\) <a id="redeem"></a>
 
 **`function redeem(uint256 _amount)`**‌
 
@@ -44,33 +44,33 @@ OUSD specified by the `_amount` parameter is redeemed in exchange for one or mul
 | :--- | :--- | :--- |
 | \_amount | uint256 | amount of OUSD expressed in decimal units |
 
-### redeemAll\(\)‌ <a id="redeemall"></a>
+### 전액상환/redeemAll\(\)‌ <a id="redeemall"></a>
 
 **`function redeemAll()`**‌
 
-All OUSD in user's possession is redeemed in exchange for one or multiple supported stablecoins. Amount of stablecoins received depends on the **exchange rate**.
+사용자 소유의 모든 OUSD는 하나 이상의 지원되는 스테이블 코인과 교환됩니다. 스테이블코인 수령량은 **환율**\(**exchange rate\)**에 따라 다릅니다.
 
-### rebase\(\) <a id="rebase"></a>
+### 리베이스/rebase\(\) <a id="rebase"></a>
 
 **`function rebase()`**‌
 
-Updates the balances for all users based on the value of the assets currently stored in the vault. Returns total value of the underlying assets and strategies represented by `uint256` type.‌
+금고\(Valut\)에 현재 저장된 자산의 값을 기준으로 모든 사용자의 잔액을 업데이트합니다. `uint256` 유형으로 표시되는 기본 자산 및 전략의 총 값을 반환합니다.‌
 
-### allocate\(\) <a id="allocate"></a>
+### 할당/allocate\(\) <a id="allocate"></a>
 
 **`function allocate()`**‌
 
-Moves the assets under management into their prescribed [Stategies](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/architecture/strategies) to maximize yield and diversify risk.‌
+수율을 극대화하고 리스크를 다양화하기 위해 관리 대상 자산을 규정된 전략\([Stategies](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/architecture/strategies)\) 으로 이동합니다.‌
 
-### totalValue\(\) <a id="totalvalue"></a>
+### 총액가치/totalValue\(\) <a id="totalvalue"></a>
 
 **`function totalValue()`**‌
 
-Returns total value of underlying assets and strategies.
+기본 자산 및 전략의 총 가치를 반환합니다.
 
-| `return` name | 유형 | 설명 |
+| `return` 이 | 유형 | 설명 |
 | :--- | :--- | :--- |
-| value | uint256 | total value of underlying assets and strategies. |
+| 가치\(value\) | uint256 | 기본 자산 및 전략의 총 가치입니다. |
 
 ### checkBalance\(\) <a id="checkbalance"></a>
 
@@ -94,11 +94,11 @@ The index of an array that is returned by the `calculateRedeemOutputs` correspon
 
 | 매개 변수 이름 | 유형 | 설명 |
 | :--- | :--- | :--- |
-| \_amount | uint256 | amount of OUSD expressed in decimal units |
+| \_금액\(amount\) | uint256 | 소수 단위로 표시된 OUSD의 양입니다. |
 
-| `return` name | 유형 | 설명 |
+| `return` 이 | 유형 | 설명 |
 | :--- | :--- | :--- |
-| outputs | uint256\[\] | array of the amount of the stablecoin assets `redeem` function would return |
+| 생산\(outputs\) | uint256\[\] | 스테이블코인 자산 상환 함수의 배열이 반환됩니다. |
 
 ### getAssetCount\(\) <a id="getassetcount"></a>
 
@@ -142,9 +142,9 @@ Returns the exchange rate price of a stable coin specified by the `symbol` param
 
 | 매개 변수 이름 | 유형 | 설명 |
 | :--- | :--- | :--- |
-| symbol | string | Symbol of the stablecoin |
+| symbol | string | 스테이블 코인의 상 |
 
-### priceUSDRedeem\(\) <a id="issupportedasset-2"></a>
+### USD 상환 가격/priceUSDRedeem\(\) <a id="issupportedasset-2"></a>
 
 **`function priceUSDRedeem(string symbol)`**‌‌
 
@@ -152,7 +152,7 @@ Returns the exchange rate price of a stable coin specified by the `symbol` param
 
 | 매개 변수 이름 | 유형 | 설명 |
 | :--- | :--- | :--- |
-| symbol | string | Symbol of the stablecoin |
+| symbol | string | 스테이블 코인의 상 |
 
 ### priceAssetUSDMint\(\)‌ <a id="issupportedasset-3"></a>
 
@@ -162,7 +162,7 @@ Returns the exchange rate price of a stable coin specified by the `_asset` param
 
 | 매개 변수 이름 | 유형 | 설명 |
 | :--- | :--- | :--- |
-| \_asset | 주소 | Address of the stablecoin‌ |
+| \_asset | 주소 | 스테이블 코인 주 |
 
 ### priceAssetUSDRedeem\(\)‌ <a id="issupportedasset-3-1"></a>
 
