@@ -60,7 +60,7 @@ OUSD는 완전한 오픈 소스 프로젝트이며, 모든 종류의 기여를 �
 
 OUSD는 아직 초기 개발 단계이므로 프로토콜 또는 구현에 문제가 있을 수 있습니다. 오리진은 보안 취약점에 대해 매우 진지하게 고민하고 신경쓰고 있습니다. 보안 문제를 발견하면 즉시 연락주세요!
 
-보안 취약점을 발견 한 경우 보고서를 [security@originprotocol.com](mailto:security@originprotocol.com) 비공개로 보내거나 암호화 된 메시지를 &lt;/a&gt;키베이스\(Keybase\) 상의 @joshfraser &lt;/1&gt;로 보내주세요. 문제를 공적으로 제기하지 말아주시길 바랍니다. 버그 현상금에 대한 공개 방침\(responsible disclosure\) 및 적격성에 대한 지침을 검토해주세요.
+보안 취약점을 발견 한 경우 보고서를 [security@originprotocol.com](mailto:security@originprotocol.com) 비공개로 보내거나 암호화 된 메시지를 키베이스\(Keybase\) 상의 @joshfraser 로 보내주세요. 문제를 공적으로 제기하지 말아주시길 바랍니다. 버그 현상금에 대한 공개 방침\(responsible disclosure\) 및 적격성에 대한 지침을 검토해주세요.
 
 {% page-ref page="bug-bounties.md" %}
 
