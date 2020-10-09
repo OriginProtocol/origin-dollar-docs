@@ -138,7 +138,7 @@ The index of an array that is returned by the `calculateRedeemOutputs` correspon
 
 **`function priceUSDMint(string symbol)`**‌‌
 
-Returns the exchange rate price of a stable coin specified by the `symbol` parameters used when minting OUSD represented by `uint256` type. Resulting number has 18 decimal spaces.
+`uint256`유형으로 표시된 OUSD를 채굴할 때 사용되는 `symbol` 파라미터로 지정된 스테이블 코인의 환율 가격을 반환합니다. 결과 숫자는 소수점 18개를 가집니다.
 
 | 매개 변수 이름 | 유형 | 설명 |
 | :--- | :--- | :--- |
