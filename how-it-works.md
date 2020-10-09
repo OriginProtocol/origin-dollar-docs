@@ -2,9 +2,9 @@
 
 ## 100 % 지원 및 안정
 
-오리진 달러  \(OUSD \) 는 이더리움 네트워크를 위한 비표준 ERC-20 토큰입니다.
+오리진 달러\(OUSD\)는 이더리움 네트워크를 위한 비표준 ERC-20 토큰입니다.
 
-OUSD는 USDT, USDC 및 DAI와 같은 검증된 스테이블 코인이 1:1로 지원되는 안정적인 통화입니다. 결과적으로, 1 OUSD는 항상 1 USD와 비슷한 가치를 가지게 됩니다.
+OUSD는 USDT, USDC 및 DAI와 같은 검증된 스테이블 코인이 1:1로 지원되는 안정적 통화입니다. 결과적으로, 1 OUSD는 항상 1 USD와 비슷한 가치를 가지게 됩니다.
 
 {% hint style="success" %}
 1 OUSD = 1 USD
@@ -12,11 +12,11 @@ OUSD는 USDT, USDC 및 DAI와 같은 검증된 스테이블 코인이 1:1로 지
 
 ## OUSD 발행\(Minting\)
 
-사용자는 공식 [오리진 달러 디앱\(DApp\)](https://github.com/oplabs/origin-dollar-docs/tree/44cc8d4bfe33702c8d0587c24c1d1961ccd0af0d/www.ousd.com)에서 기존 스테이블 코인  \(현재 USDT, USDC, DAI \) 을 OUSD로 전환합니다. 발행된 OUSD는 즉시 복리로 수익을 발생시키기 시작합니다.
+사용자는 공식 [오리진 달러 디앱\(DApp\)](https://github.com/oplabs/origin-dollar-docs/tree/44cc8d4bfe33702c8d0587c24c1d1961ccd0af0d/www.ousd.com)에서 기존 스테이블 코인\(현재 USDT, USDC, DAI\)를 OUSD로 전환합니다. 발행된 OUSD는 즉시 복리로 수익을 발생시키기 시작합니다.
 
 **OUSD 사용하기**
 
-사용자는 [오리진 달러 디앱\(DApp\)](https://github.com/oplabs/origin-dollar-docs/tree/44cc8d4bfe33702c8d0587c24c1d1961ccd0af0d/www.ousd.com)을 사용하여 언제든지 OUSD를 다른 스테이블 코인\(stablecoin\) 으로 전환 할 수 있습니다. 0.5 %의 출금 수수료는 상환시 부과되며, 풀\(pool\) 의 나머지 참가자에게 추가 수익률 형태로 분배됩니다. 이 수수료는 공격자가 지연된 오라클을 이용하기 어렵게 만드는 보안 기능으로, 기본 자산의 가격이 잘못 책정되는 경우 풀에서 스테이블 코인을 연결하는 것을 방지합니다. 해당 수수료는 단기 투기자 보다는 장기 보유자가 될 것을 장려하기 위해 존재합니다.
+사용자는 [오리진 달러 디앱\(DApp\)](https://github.com/oplabs/origin-dollar-docs/tree/44cc8d4bfe33702c8d0587c24c1d1961ccd0af0d/www.ousd.com)을 사용하여 언제든지 OUSD를 다른 스테이블 코인\(stablecoin\)으로 전환 할 수 있습니다. 0.5 %의 출금 수수료는 상환시 부과되며, 풀\(pool\) 의 나머지 참가자에게 추가 수익률 형태로 분배됩니다. 이 수수료는 공격자가 지연된 오라클을 이용하기 어렵게 만드는 보안 기능으로, 기본 자산의 가격이 잘못 책정되는 경우 풀에서 스테이블 코인을 연결하는 것을 방지합니다. 해당 수수료는 단기 투기자 보다는 장기 보유자가 될 것을 장려하기 위해 존재합니다.
 
 상환시 스마트 컨트렉트는 사용자에게 반환할 스테이블 코인을 결정합니다. 현재 실행 단계에서는, 풀은 현재 보유량과 동일한 비율로 코인을 반환합니다. 이러한 사용자 선택의 부재는 지원되는 스테이블 코인중 하나가 달러에 대한 페그\(peg\) 를 잃는 경우에 풀을 보호하는 역할을 수행합니다.
 
