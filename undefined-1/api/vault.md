@@ -100,7 +100,7 @@ description: >-
 | :--- | :--- | :--- |
 | 생산\(outputs\) | uint256 | 스테이블코인 자산 상환 함수의 배열이 반환됩니다. |
 
-### 자산 얻/getAssetCount\(\) <a id="getassetcount"></a>
+### 자산 얻기/getAssetCount\(\) <a id="getassetcount"></a>
 
 **`function getAssetCount()`**‌
 
@@ -134,7 +134,7 @@ description: >-
 | :--- | :--- | :--- |
 | \_asset | 주소 | 스테이블 코인 주소 |
 
-### USD 발행 가/priceUSDMint\(\) <a id="issupportedasset-1"></a>
+### USD 발행 가격/priceUSDMint\(\) <a id="issupportedasset-1"></a>
 
 **`function priceUSDMint(string symbol)`**‌‌
 
