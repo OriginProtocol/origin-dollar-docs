@@ -112,7 +112,7 @@ description: >-
 
 지원되는 스테이블코인 자산의 모든 자산 주소를 `uint256` 유형으로 표시된 순서대로 반환합니다.‌
 
-### 전략 수 얻/getStrategyCount\(\)‌ <a id="getstrategycount"></a>
+### 전략 수 얻기/getStrategyCount\(\)‌ <a id="getstrategycount"></a>
 
 **`function getStrategyCount()`**‌
 
