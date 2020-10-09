@@ -1,30 +1,30 @@
-# Risks
+# Rủi ro
 
 {% hint style="danger" %}
-The OUSD smart contracts have not yet been audited. We strongly recommend reviewing our smart contracts before depositing significant amounts of capital.
+Các hợp đồng thông minh OUSD vẫn chưa được kiểm toán. Chúng tôi khuyên bạn nên xem các hợp đồng thông minh của chúng tôi trước khi nạp vào 1 khoản tiền đáng kể.
 {% endhint %}
 
-As with any interest-bearing instrument. there are associated risks with holding OUSD that are important to understand. These risks can be broadly classified into 3 categories:
+Tương tự với bất kỳ công cụ lãi suất nào, OUSD cũng sẽ có thể chứa những rủi ro những rủi ro liên quan mà mọi người cần hiểu rõ. Những rủi ro này có thể được phân thành 3 loại:
 
-* Smart contract risk
-* Underlying platform risk
-* Underlying stablecoin risk
+* Rủi ro hợp đồng thông minh
+* Rủi ro nền tảng cơ bản
+* Rủi ro stablecoin
 
-**Smart contract risk**
+**Rủi ro hợp đồng thông minh**
 
-Our smart contracts have not yet been audited, and even with a formal audit, it is still possible for there to be logic errors that would lead to the loss of funds for OUSD holders. The contracts involve complex math and logic that may or may not be correct. Origin Protocol will not be held responsible for any loss of funds, regardless of who is at fault.
+Các hợp đồng thông minh của chúng tôi vẫn chưa được kiểm toán và ngay cả khi đã tiến hành kiểm toán thì khả năng tồn tại lỗ hổng dẫn tới thất thoát tiền của chủ sở hữu OUSD là hoàn toàn có thể. Các hợp đồng liên quan đến toán học và logic phức tạp có thể đúng hoặc không. Origin Protocol sẽ không chịu trách nhiệm về bất kỳ tổn thất nào về tiền bạc, bất kể ai là người có lỗi.
 
-**Platform risk**
+**Rủi ro nền tảng**
 
-OUSD is built on top of other DeFi platforms that add additional smart contract risk. We are choosing to work with platforms that have hundreds of millions of dollars of assets under management and have made a reasonable effort to ensure the correctness of their protocols. However, there are no guarantees that the underlying platforms will continue to work as intended, and any failure in an underlying strategy would likely lead to a loss of funds for OUSD holders.
+OUSD được xây dựng dựa trên các nền tảng DeFi khác làm tăng thêm rủi ro hợp đồng thông minh. Chúng tôi đang chọn làm việc với các nền tảng có tài sản hàng trăm triệu đô la đang được quản lý và đã nỗ lực góp phần vào việc đảm bảo tính đúng đắt của giao thức của họ. Tuy nhiên, không có gì đảm bảo rằng các nền tảng cơ bản sẽ tiếp tục hoạt động như dự kiến và bất kỳ lỗi nào trong chiến lược cơ bản đều có thể dẫn đến mất mát cho người nắm giữ OUSD.
 
-**Stablecoin risks**
+**Rủi ro của stablecoin**
 
-It is important to understand that OUSD is only as strong as the stablecoins that are backing it. Any loss to the underlying assets will cause a similar loss to the value of OUSD.
+Điều quan trọng cần lưu ý là OUSD chỉ mạnh ngang các đồng stablecoin đang hỗ trợ nó. Bất kỳ tổn thất nào đối với các tài sản cơ bản (tài sản hỗ trợ) sẽ gây ra tổn thất tương tự đối với giá trị của OUSD.
 
-It is important to note that each of the supported stablecoins introduces non-trivial counter-party risk. Tether, in particular, has had well-documented banking troubles and regulatory challenges. In addition, both USDT and USDC have backdoors that grant their issuers the power to freeze money in their holder's wallets. While DAI does not have any direct backdoors, it's assets can also be negatively impacted since USDC is accepted as collateral for minting DAI.
+Điều quan trọng cần lưu ý là tất cả các stablecoin này tiềm ẩn các rủi ro tuy không đang kể đối với các bên liên quan. Đơn cử như Tether đã từng gặp phải răng rối liên quan đến thủ tục ngân hàng và đối mặt với không ít thách thức về việc tuân thủ quy định. Ngoài ra, cả USDT và USDC đều có "cửa sau" cho phép nhà phát hành có quyền đóng băng tiền trong ví của chủ sở hữu. Mặc dù DAI không có tính năng đóng băng như USDT và USDC, nhưng tài sản của nó cũng có thể bị ảnh hưởng tiêu cực bởi 2 đồng trên vì USDC được chấp nhận làm tài sản thế chấp để khai thác DAI.
 
-**In summary, OUSD is beta software. Use at your own risk. Don't deploy more capital than you are willing to lose.**
+**Tóm lại, OUSD là đang ở bản beta. Bạn chấp nhận rủi ro khi đồng ý sử dụng OUSD. Hãy sử dụng nguồn vốn mà khi mất đi cũng không ảnh hưởng tới cuộc sống của mình.**
 
 
 
