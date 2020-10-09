@@ -8,7 +8,7 @@ description: >-
 
 ## 방법
 
-### 발행\(mint\)\(\) <a id="mint"></a>
+### 발행/mint\(\) <a id="mint"></a>
 
 **`function mint(address _asset, uint256 _amount)`**
 
@@ -19,7 +19,7 @@ description: >-
 | \_asset | address | 지원되는\([supported](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/core-concepts/supported-assets)\) 스테이블 코인 주 |
 | \_amount | uint256 | 입금된 금액은 소수 단위로 표시 |
 
-### mintMultiple\(\) <a id="mintmultiple"></a>
+### 다중발행/mintMultiple\(\) <a id="mintmultiple"></a>
 
 **`function mintMultiple(address[] _assets, uint256[] _amounts)`**‌
 
@@ -44,7 +44,7 @@ description: >-
 | :--- | :--- | :--- |
 | \_amount | uint256 | OUSD 금액은 소수 단위로 표시  |
 
-### 전액상환/redeemAll\(\)‌ <a id="redeemall"></a>
+### 전액 상환/redeemAll\(\)‌ <a id="redeemall"></a>
 
 **`function redeemAll()`**‌
 
@@ -62,7 +62,7 @@ description: >-
 
 수율을 극대화하고 리스크를 다양화하기 위해 관리 대상 자산을 규정된 전략\([Stategies](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/architecture/strategies)\) 으로 이동합니다.‌
 
-### 총액가치/totalValue\(\) <a id="totalvalue"></a>
+### 총액 가치/totalValue\(\) <a id="totalvalue"></a>
 
 **`function totalValue()`**‌
 
@@ -72,7 +72,7 @@ description: >-
 | :--- | :--- | :--- |
 | 가치\(value\) | uint256 | 기본 자산 및 전략의 총 가치입니다. |
 
-### checkBalance\(\) <a id="checkbalance"></a>
+### 잔액 체크/checkBalance\(\) <a id="checkbalance"></a>
 
 **`function checkBalance(address _asset)`**‌
 
@@ -82,7 +82,7 @@ description: >-
 | :--- | :--- | :--- |
 | \_asset | address | 지원되는\([supported](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/core-concepts/supported-assets)\) 스테이블 코인 주소 |
 
-### calculateRedeemOutputs\(\) <a id="calculateredeemoutputs"></a>
+### 상환 결과 계산/calculateRedeemOutputs\(\) <a id="calculateredeemoutputs"></a>
 
 **`function calculateRedeemOutputs(uint256 _amount)`**‌
 
@@ -100,31 +100,31 @@ The index of an array that is returned by the `calculateRedeemOutputs` correspon
 | :--- | :--- | :--- |
 | 생산\(outputs\) | uint256 | 스테이블코인 자산 상환 함수의 배열이 반환됩니다. |
 
-### getAssetCount\(\) <a id="getassetcount"></a>
+### 자산 얻/getAssetCount\(\) <a id="getassetcount"></a>
 
 **`function getAssetCount()`**‌
 
 `uint256` 유형으로 표시된 지원되는 스테이블코인 자산 수를 반환합니다.‌
 
-### getAllAssets\(\) <a id="getallassets"></a>
+### 자산 전액 얻기/getAllAssets\(\) <a id="getallassets"></a>
 
 **`function getAllAssets()`**‌
 
 지원되는 스테이블코인 자산의 모든 자산 주소를 `uint256` 유형으로 표시된 순서대로 반환합니다.‌
 
-### getStrategyCount\(\)‌ <a id="getstrategycount"></a>
+### 전략 수 얻기/getStrategyCount\(\)‌ <a id="getstrategycount"></a>
 
 **`function getStrategyCount()`**‌
 
 `uint256` 유형으로 표시된 금고\(Vault\)에서 활성 전략 수를 반환합니다.‌
 
-### getAPR\(\) <a id="getapr"></a>
+### 총 연간 수익률 얻기/getAPR\(\) <a id="getapr"></a>
 
 **`function getAPR()`**‌
 
 금고\(Vault\)의 총 연간 수익률\(APR\)과 `uint256`유형으로 표시된 모든 전략을 반환합니다. 결과 숫자는 소수점 18개를 가집니다.‌
 
-### isSupportedAsset\(\) <a id="issupportedasset"></a>
+### 지원 자산/isSupportedAsset\(\) <a id="issupportedasset"></a>
 
 **`function isSupportedAsset(address _asset)`**‌
 
@@ -134,7 +134,7 @@ The index of an array that is returned by the `calculateRedeemOutputs` correspon
 | :--- | :--- | :--- |
 | \_asset | 주소 | 스테이블 코인 주소 |
 
-### priceUSDMint\(\) <a id="issupportedasset-1"></a>
+### USD 발행 가/priceUSDMint\(\) <a id="issupportedasset-1"></a>
 
 **`function priceUSDMint(string symbol)`**‌‌
 
@@ -154,7 +154,7 @@ The index of an array that is returned by the `calculateRedeemOutputs` correspon
 | :--- | :--- | :--- |
 | symbol | string | 스테이블 코인 상 |
 
-### priceAssetUSDMint\(\)‌ <a id="issupportedasset-3"></a>
+### 자산 USD 발행 가격/priceAssetUSDMint\(\)‌ <a id="issupportedasset-3"></a>
 
 **`function priceAssetUSDMint(address _asset)`**‌‌
 
@@ -164,7 +164,7 @@ The index of an array that is returned by the `calculateRedeemOutputs` correspon
 | :--- | :--- | :--- |
 | \_asset | 주소 | 스테이블 코인 주 |
 
-### priceAssetUSDRedeem\(\)‌ <a id="issupportedasset-3-1"></a>
+### 자산 USD 상환 가격/priceAssetUSDRedeem\(\)‌ <a id="issupportedasset-3-1"></a>
 
 **`function priceAssetUSDRedeem(address _asset)`**‌‌‌
 
