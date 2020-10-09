@@ -19,7 +19,7 @@ description: >-
 | \_asset | address | 지원되는\([supported](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/core-concepts/supported-assets)\) 스테이블 코인 주 |
 | \_amount | uint256 | 입금된 금액은 소수 단위로 표시 |
 
-### 다중발행/mintMultiple\(\) <a id="mintmultiple"></a>
+### 다중 발행/mintMultiple\(\) <a id="mintmultiple"></a>
 
 **`function mintMultiple(address[] _assets, uint256[] _amounts)`**‌
 
@@ -112,7 +112,7 @@ description: >-
 
 지원되는 스테이블코인 자산의 모든 자산 주소를 `uint256` 유형으로 표시된 순서대로 반환합니다.‌
 
-### 전략 수 얻기/getStrategyCount\(\)‌ <a id="getstrategycount"></a>
+### 전략 수 얻/getStrategyCount\(\)‌ <a id="getstrategycount"></a>
 
 **`function getStrategyCount()`**‌
 
