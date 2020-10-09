@@ -1,26 +1,26 @@
-# Principles
+# Prinsip
 
-**Progressive Decentralization**
+**Desentralisasi Progresif**
 
 OUSD is designed to be a decentralized protocol governed by many stakeholders all over the world. We believe that the minters and holders of OUSD should collectively determine important protocol decisions as soon as possible.
 
-That being said, in the very early days, it is imperative that the core engineering team can act quickly and decisively to build the foundational parts of the protocol.
+Meskipun demikian, pada masa-masa awal, sangat penting bagi tim teknisi inti untuk bertindak cepat dan tegas untuk membangun bagian dasar protokol.
 
-Decentralization will progress across four phases rapidly over the next few months. It is our intent to relinquish control and governance to the community as soon as possible.
+Desentralisasi akan berkembang pesat dalam empat fase dalam beberapa bulan mendatang. Ini adalah niat kami untuk menyerahkan kendali dan tata kelola kepada masyarakat secepat mungkin.
 
 ![](../.gitbook/assets/ousd_docs_graphics_2%20%283%29.png)
 
 **Timelock**
 
-Prior to full decentralized governance, we will implement a [timelock](../smart-contracts/api/timelock.md) in front of all admin function calls, giving OUSD users time \(48 hours\) to withdraw their funds if they have objections to our proposed upgrades. This timelock will be added shortly after launch.
+Sebelum tata kelola terdesentralisasi penuh, kami akan menerapkan [timelock](../smart-contracts/api/timelock.md) di depan semua panggilan fungsi admin, memberi pengguna OUSD waktu \ (48 jam \) untuk menarik dana mereka jika mereka keberatan dengan peningkatan yang kami usulkan. Kunci waktu ini akan ditambahkan segera setelah peluncuran.
 
 **New and Existing Stakeholders**
 
 OUSD is a new project founded by Origin Protocol [team](www.originprotocol.com/team) and will be supported by the existing Origin community as well as many new stakeholders that choose to mint, hold, use, and provide liquidity for OUSD.
 
-In addition, we also want to ensure high participation from our existing Origin Token \(OGN\) holders, community of close to 500,000 members, and buyers/sellers on the Platform. Existing OGN holders will be able to stake their OGN to participate in governance and earn incentives for driving value to OUSD. More details will be provided in the near future.
+Selain itu, kami juga ingin memastikan partisipasi yang tinggi dari pemegang Token Asal \ (OGN \) kami yang sudah ada, komunitas dengan hampir 500.000 anggota, dan pembeli / penjual di Platform. Pemegang OGN yang ada akan dapat mempertaruhkan OGN mereka untuk berpartisipasi dalam tata kelola dan mendapatkan insentif untuk mendorong nilai ke OUSD. Rincian lebih lanjut akan diberikan dalam waktu dekat.
 
-The strong connection between OUSD and the rest of the Origin commerce platform will fuel growth in both initiatives.
+Hubungan yang kuat antara OUSD dan platform perdagangan Origin lainnya akan mendorong pertumbuhan di kedua inisiatif.
 
 
 
