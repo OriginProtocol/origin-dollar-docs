@@ -8,7 +8,7 @@ OUSD 발행\(Mint\) 를 사용하면 누구나 [디앱\(DApp\)](https://github.c
 
 **거래소에서 구매**
 
-소액의 경우, OUSD로 수익 창출을 시작하는 가장 쉬운 방법은 유니스왑\(Uniswap\_과 같은 탈중앙화 거래소\(DEX\) 에서 구입하는 것입니다. 현재 사용할 수 있는 쌍\(pair\) 은 다음과 같습니다:
+소액의 경우, OUSD로 수익 창출을 시작하는 가장 쉬운 방법은 유니스왑\(Uniswap\)과 같은 탈중앙화 거래소\(DEX\) 에서 구입하는 것입니다. 현재 사용할 수 있는 쌍\(pair\) 다음과 같습니다:
 
 * [Buy OUSD on Uniswap](https://app.uniswap.org/#/swap?outputCurrency=0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86) \(유니스왑에서 OUSD 구매하기\)
 * [Buy OUSD on Mooniswap](https://mooniswap.exchange/#/swap?outputToken=0x2a8e1e676ec238d8a992307b495b45b3feaa5e86) \(무니스왑에서 OUSD 구매하기\)
@@ -18,7 +18,7 @@ OUSD 발행\(Mint\) 를 사용하면 누구나 [디앱\(DApp\)](https://github.c
 **지갑에 OUSD 추가**
 
 {% hint style="success" %}
-오리진달러\(OUSD\) 의 대표 ERC20 주소:  
+오리진달러\(OUSD\)의 대표 ERC20 주소:  
 **0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86**
 {% endhint %}
 
@@ -34,5 +34,5 @@ OUSD는 비표준 ERC-20 토큰으로 이를 지원하려는 대부분의 애플
 
 **도움받기**
 
-Origin의 [디스코드\(Discord\)](https://github.com/oplabs/origin-dollar-docs/tree/44cc8d4bfe33702c8d0587c24c1d1961ccd0af0d/www.originprotocol.com/discord/README.md) 서버에서 오리진 달러\(Origin Dollar\)  \#engineering 채널에 가입 해주세요. 저희 팀과 커뮤니티 구성원들은 여러분이 OUSD를 편리하게 사용하실 수 있도록 도움을 드리고 싶습니다. 여러분의 질문들은 오리진이 서비스를 개선하는데 큰 도움이 됩니다. 따라서, 원하는 내용을 찾을수 없는 경우에는 주저하지 마시고 편하게 문의주세요.
+오리의 [디스코드\(Discord\)](https://github.com/oplabs/origin-dollar-docs/tree/44cc8d4bfe33702c8d0587c24c1d1961ccd0af0d/www.originprotocol.com/discord/README.md) 서버에서 오리진 달러\(Origin Dollar\)  \#engineering 채널에 가입 해주세요. 저희 팀과 커뮤니티 구성원들은 여러분이 OUSD를 편리하게 사용하실 수 있도록 도움을 드리고 싶습니다. 여러분의 질문들은 오리진이 서비스를 개선하는데 큰 도움이 됩니다. 따라서, 원하는 내용을 찾을수 없는 경우에는 주저하지 마시고 편하게 문의주세요.
 
