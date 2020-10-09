@@ -16,7 +16,7 @@ Mints OUSD in exchange for a deposit of a certain `_amount` of stablecoin specif
 
 | 매개 변수 이름 | 유형 | 설명 |
 | :--- | :--- | :--- |
-| \_asset | address | 지원되는\( [supported](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/core-concepts/supported-assets)\) 스테이블 코인 주 |
+| \_asset | address | 지원되는\([supported](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/core-concepts/supported-assets)\) 스테이블 코인 주 |
 | \_amount | uint256 | 입금된 금액은 소수 단위로 표시 |
 
 ### mintMultiple\(\) <a id="mintmultiple"></a>
@@ -27,7 +27,7 @@ Mints OUSD in exchange for a deposit of multiple stablecoins in a single call. S
 
 | 매개 변수 이름 | 유형 | 설명 |
 | :--- | :--- | :--- |
-| \_assets | address\[\] | 지원되는\( [supported](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/core-concepts/supported-assets)\) 스테이블 코인 주 |
+| \_assets | address\[\] | 지원되는\([supported](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/core-concepts/supported-assets)\) 스테이블 코인 주소 |
 | \_amounts | uint256\[\] | 입금된 금액은 소수 단위로 표시 |
 
 {% hint style="warning" %}
@@ -42,7 +42,7 @@ OUSD specified by the `_amount` parameter is redeemed in exchange for one or mul
 
 | 매개 변수 이름 | 유형 | 설명 |
 | :--- | :--- | :--- |
-| \_amount | uint256 | amount of OUSD expressed in decimal units |
+| \_amount | uint256 | OUSD 금액은 소수 단위로 표시  |
 
 ### 전액상환/redeemAll\(\)‌ <a id="redeemall"></a>
 
@@ -80,7 +80,7 @@ Returns the balance of an asset specified by the`_asset` parameter held in Vault
 
 | 매개 변수 이름 | 유형 | 설명 |
 | :--- | :--- | :--- |
-| \_asset | address | Address of the [supported](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/core-concepts/supported-assets) stablecoin |
+| \_asset | address | 지원되는\([supported](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/core-concepts/supported-assets)\) 스테이블 코인 주소 |
 
 ### calculateRedeemOutputs\(\) <a id="calculateredeemoutputs"></a>
 
@@ -128,7 +128,7 @@ Return the total annual percentage yield \(APR\) of the Vault and all Strategies
 
 **`function isSupportedAsset(address _asset)`**‌
 
-Return the boolean that is true if the asset specified by the `_asset` parameter is supported by the Vault.
+ `_asset` 매개 변수로 지정된 자산이 금고\(Vault\)에서 지원되는 경우 True인 부분을 반환합니다.
 
 | 매개 변수 이름 | 유형 | 설명 |
 | :--- | :--- | :--- |
