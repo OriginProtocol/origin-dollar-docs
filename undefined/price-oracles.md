@@ -123,7 +123,7 @@ OUSD는 여러 온 체인 오라클에서 가격을 가져와 풀에 가장 유�
 {% embed url="https://uniswap.org/docs/v2/core-concepts/oracles" caption="" %}
 
 {% tabs %}
-{% tab title="Core" %}
+{% tab title="핵심" %}
 다음 오라클은 **DAI / USD의 가격을 가져 오거나 계산하는 데 사용됩니다.**
 
 | 오라클 | 쌍\(pair\) | 컨트렉트 |
@@ -134,7 +134,7 @@ OUSD는 여러 온 체인 오라클에서 가격을 가져와 풀에 가장 유�
 | _유니스왑\(Uniswap\) v2_ | _DAI / ETH_ | _0xA478c2975Ab1Ea89e8196811F51A7B7Ade33eB11_ |
 {% endtab %}
 
-{% tab title="Core" %}
+{% tab title="핵심" %}
 다음 오라클은 **DAI / USD의 가격을 가져오거나 계산하는데 사용됩니다.**
 
 | 오라클 | 쌍\(pair\) | 컨트렉트 |
@@ -144,7 +144,7 @@ OUSD는 여러 온 체인 오라클에서 가격을 가져와 풀에 가장 유�
 | _유니스왑\(Uniswap\) v2_ | _USDT / ETH_ | _0x0d4a11d5eeaac28ec3f61d100daf4d40471f1852_ |
 {% endtab %}
 
-{% tab title="Core" %}
+{% tab title="핵심" %}
 다음 오라클은 **DAI / USD의 가격을 가져오거나 계산하는데 사용됩니다.**
 
 | 오라클 | 쌍\(pair\) | 컨트렉트 |
@@ -154,7 +154,7 @@ OUSD는 여러 온 체인 오라클에서 가격을 가져와 풀에 가장 유�
 | _유니스왑\(Uniswap\) v2_ | _USDT / ETH_ | _0xb4e16d0168e52d35cacd2c6185b44281ec28c9dc_ |
 {% endtab %}
 
-{% tab title="Core" %}
+{% tab title="핵심" %}
 모든 오라클에 직접 USD 쌍이있는 것은 아니므로 프로토콜은 ETH를 사용하여 USD 가격을 계산하기 위해 **ETH / USD** 의 가격도 가져옵니다. 다시 말하지만, 안전을 위해 프로토콜은 개인 대신 펀드에 가장 유리한 것을 선택합니다.
 
 | 오라클 | 쌍\(pair\) | 컨트렉트 |
