@@ -142,7 +142,7 @@ Returns the exchange rate price of a stable coin specified by the `symbol` param
 
 | 매개 변수 이름 | 유형 | 설명 |
 | :--- | :--- | :--- |
-| symbol | string | 스테이블 코인의 상 |
+| symbol | string | 스테이블 코인 상 |
 
 ### USD 상환 가격/priceUSDRedeem\(\) <a id="issupportedasset-2"></a>
 
@@ -152,7 +152,7 @@ Returns the exchange rate price of a stable coin specified by the `symbol` param
 
 | 매개 변수 이름 | 유형 | 설명 |
 | :--- | :--- | :--- |
-| symbol | string | 스테이블 코인의 상 |
+| symbol | string | 스테이블 코인 상 |
 
 ### priceAssetUSDMint\(\)‌ <a id="issupportedasset-3"></a>
 
