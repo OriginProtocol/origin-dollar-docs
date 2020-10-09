@@ -86,11 +86,11 @@ description: >-
 
 **`function calculateRedeemOutputs(uint256 _amount)`**‌
 
-Calculate the mix of stablecoins that a `redeem` function would return when redeeming certain amount of OUSD specified by the `_amount` parameter. Returns an array of stablecoin values.
+`_amount` 매개변수로 지정된 일정량의 OUSD를 상환할 때 `redeem`함수가 반환할 스테이블 코인을 혼합하여 계산합니다. 스테이블 코인 값의 배열을 반환합니다.
 
-To attribute the stablecoin values to the correct stablecoin currency this call should be used in conjunction with `getAllAssets` function that returns an array of stablecoin addresses.
+스테이블코인 값을 올바른 스테이블코인 통화로 지정하려면 이 호출을 스테이블코인 주소 배열을 반환하는`getAllAssets` 기능과 함께 사용해야 합니다.
 
-The index of an array that is returned by the `calculateRedeemOutputs` corresponds to the stablecoin address with the same index in an array returned by the `getAllAssets` function.
+`calculateRedeemOutputs`에서 반환되는 배열의 인덱스입니다.출력은 `getAllAssets`함수에 의해 반환되는 배열에서 동일한 인덱스를 가진 스테이블 코인 주소에 해당합니다.
 
 | 매개 변수 이름 | 유형 | 설명 |
 | :--- | :--- | :--- |
