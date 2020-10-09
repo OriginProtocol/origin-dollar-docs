@@ -6,8 +6,8 @@ OUSD는 1 USD로 고정되고 기본 스테이블 코인과 1: 1로 지원되도
   <thead>
     <tr>
       <th style="text-align:left">&#xCF54;&#xC778;&#xC885;&#xB958;</th>
-      <th style="text-align:left">&#xCD5C;</th>
-      <th style="text-align:left">&#xCD5C;</th>
+      <th style="text-align:left">&#xCD5C;&#xC18C;</th>
+      <th style="text-align:left">&#xCD5C;&#xB300;</th>
       <th style="text-align:left"><b>&#xB378;&#xD0C0;</b>
       </th>
       <th style="text-align:left"><b>&#xCD9C;&#xCC98;</b>
