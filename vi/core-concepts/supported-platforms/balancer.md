@@ -1,27 +1,27 @@
 # Balancer
 
 {% hint style="info" %}
-Coming soon. Balancer has not yet been integrated.
+Sắp ra mắt. Balancer hiện vẫn chưa được tích hợp.
 {% endhint %}
 
-Balancer is a decentralized liquidity protocol and exchange on Ethereum, launched in March 2020. Users can swap ERC-20 tokens for a fee or contribute tokens to liquidity pools to earn fees.
+Balancer là một giao thức thanh khoản và sàn phi tập trung trên Ethereum, ra mắt vào tháng 3 năm 2020. Người dùng có thể chuyển đổi giữa các đồng ERC-20 hoặc gửi token vào các bể thanh khoản để nhận phí.
 
-Balancer is an Automated Market Maker \(AMM\) that allows for liquidity pools of up to 8 different assets with custom weights. Liquidity pools on Balancer can be thought of as similar to Exchange Traded Funds \(ETFs\) or portfolios with weight targets for specific assets. If trading causes the pool to shift from its target weight distribution, exchange rates between assets in the pool change. Arbitrageurs can execute trades to take advantage of this and act to rebalance the pool back to its target weight distribution. Liquidity can also be shared across pools, unlike other AMMs.
+Balancer là một Trình tạo lập thị trường tự động (AMM) cho phép các xây dựng bể thanh khoản lên cho 8 tài sản khác nhau với trọng số tùy chỉnh. Nhóm thanh khoản trên Balancer có thể được xem tương tự như Exchange Traded Funds (ETF) hay danh mục đầu tư theo tỉ lệ các tài sản cụ thể. Nếu giao dịch làm cho bể này thay đổi tỉ lệ mục tiêu của nó, tỷ giá hối đoái giữa các tài sản trong bể sẽ thay đổi. Các nhà kinh doanh chênh lệch giá có thể thực hiện giao dịch nhằm tận dụng lợi thế này và từ đó cân bằng lại nhóm trở lại tỉ lệ phân phối mục tiêu của nó. Tính thanh khoản cũng có thể được chia sẻ giữa các bể, không giống như các AMM khác.
 
-Balancer supports private pools, where only the owner of the pool can contribute liquidity, shared pools, which are completely public, and smart pools, which are shared pools controlled by a smart contract that can implement automated rules and logic. Liquidity providers are given Balancer Pool Tokens \(BPTs\) that represent their share of a given pool and fees. These tokens are freely transferable and can be redeemed for the assets provided and accrued fees.
+Balancer hỗ trợ các bể riêng, trong đó chỉ chủ sở hữu của bể mới có thể đóng góp tính thanh khoản, các bể được chia sẻ được hoàn toàn công khai và các bể thông minh, là các bể chia sẻ được kiểm soát bởi một hợp đồng thông minh, giúp nó hoạt động 1 cách tự động và logic. Những người cung cấp thanh khoản sẽ được cấp token của bể Balancer (BPT) đại diện cho phần của họ trong một nhóm và hưởng tỉ lệ phí nhất định. Những token này có thể chuyển nhượng tự do và có thể được đổi lấy tài sản được cung cấp và phí tích lũy.
 
-Token issuers seeking to improve liquidity of their token have offered incentives to liquidity providers in liquidity mining campaigns. New token issuers have also launched their tokens on Balancer pools.
+Các nhà phát hành token tìm cách cải thiện tính thanh khoản của token bằng cách đưa ra các ưu đãi những người cung cấp thanh khoản trong các chiến dịch khai thác thanh khoản. Các nhà phát hành token mới cũng đã đưa token của họ vào các bể của Balancer.
 
-Balancer is governed by BAL, an ERC-20 governance token. BAL holders can vote on protocol changes. BAL is continuously awarded to liquidity providers and a large portion of the total supply of BAL was allocated to the team and investors on a continuous vesting schedule.
+Yearn được quản lý bởi BAL, token quản trị ERC-20. Người nắm giữ BAL có thể bỏ phiếu về các thay đổi giao thức. BAL liên tục được trao cho những người cung cấp thanh khoản và một phần lớn trong tổng nguồn cung BAL được phân bổ cho nhóm và các nhà đầu tư theo lịch trả token.
 
-Trading volumes on Balancer are often over $25 million daily. Balancer has a Total Value Locked \(TVL\) of over $250 million by liquidity providers at the time of writing.
+Khối lượng giao dịch trên Balancer thường trên 25 triệu đô la hàng ngày. Balancer có Tổng giá trị bị khóa (TVL) hơn 250 triệu đô la bởi các nhà cung cấp thanh khoản tại thời điểm viết bài.
 
-Balancer has undergone a security audit by Trail of Bits and has a bug bounty program. However, Balancer has suffered a major exploit in June 2020.
+Balancer được kiểm toán bảo mật bởi Trail of Bits và đang chạy 1 chương trình tặng thưởng cho người phát hiện ra lỗi. Tuy nhiên, Balancer đã bị khai thác rất nhiều vào tháng 6 năm 2020.
 
-| Resources      |                                                                      |
-|:-------------- |:-------------------------------------------------------------------- |
-| Official site  | [https://balancer.finance/](https://balancer.finance/)               |
-| Developer docs | [https://docs.balancer.finance/](https://docs.balancer.finance/)     |
-| GitHub         | [https://github.com/balancer-labs](https://github.com/balancer-labs) |
-| Discord        | [https://discord.gg/ARJWaeF](https://discord.gg/ARJWaeF)             |
+| Tài nguyên                       |                                                                      |
+|:-------------------------------- |:-------------------------------------------------------------------- |
+| Website                         | [https://balancer.finance/](https://balancer.finance/)               |
+| Tài liệu dành cho nhà phát triển | [https://docs.balancer.finance/](https://docs.balancer.finance/)     |
+| GitHub                           | [https://github.com/balancer-labs](https://github.com/balancer-labs) |
+| Discord                          | [https://discord.gg/ARJWaeF](https://discord.gg/ARJWaeF)             |
 
