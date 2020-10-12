@@ -13,6 +13,6 @@ Banka hesabınıza faiz tahakkuk ettiğini düşünün. ABD dolarının hesap bi
 Bu mekanizma, [Ampleforth](https://www.ampleforth.org/)tarafından benimsenen yeni yaklaşımdan esinlenmiştir, ancak vurgulanmaya değer bazı temel farklılıklar vardır:
 
 1. OUSD, diğer stabilcoinler tarafından% 100 desteklenmektedir ve dolara sabitlemeyi sürdürme konusunda aynı zorluğa sahip olmayacaktır. OUSD'yi basmanın ve paraya çevirmenin kolaylığı göz önüne alındığında, pegin korunmasını sağlamak için arbitrajcılara güvenebiliriz.
-2. OUSD geri ödemesi, basılan OUSD miktarı temel stratejiler tarafından kazanılan gerçekleşmiş kazançlara bağlı olduğundan, arzın artması yönünde büyük ölçüde önyargılıdır. Altta yatan sabit paralarla ortak olan fiyat dalgalanmaları dışında, OUSD bakiyenizin düştüğünü görmemelisiniz. Anaparanız, temel borç verme / AMM ve stabilcoin protokollerinde hiçbir şey ters gitmediği sürece korunur. Bakiyenizdeki herhangi bir büyük düşüş, sistemdeki bir sorunun göstergesi olacaktır.
+2. OUSD rebasing should only increase supply since the amount of OUSD minted is tied to the realized gains earned by the underlying strategies. Your principal is protected as long as nothing goes wrong with the underlying lending/AMM and stablecoin protocols. Any decrease in your balance would be an indication of trouble in the system.
 3. Günde bir kez yeniden satış yapan Ampleforth'un aksine, OUSD'nin parasal arzı, getiri elde edildikçe gerçek zamanlı olarak sürekli güncellenir.
 
