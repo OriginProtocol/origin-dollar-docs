@@ -2,13 +2,13 @@
 
 **Thu thập phần thưởng**
 
-In addition to collecting interest from lending and fees from market making, we intend to automatically claim and convert the bonus incentives that are being distributed by many of the DeFi protocols. For example, Compound gives away COMP tokens, Balancer gives away BAL tokens, and Curve gives away CRV tokens. These bonus rewards will be regularly converted into stablecoins, deployed in the market, and distributed to OUSD holders in the form of additional yield.
+Ngoài việc thu lãi từ cho vay và phí từ tạo lập thị trường, chúng tôi dự định sẽ tự động thu về và chuyển đổi phần tiền lãi thu được từ nhiều giao thức DeFi. Ví dụ: Compound tặng token COMP, Balancer tặng token BAL và Curve tặng token CRV. Những phần thưởng tiền thưởng này sẽ thường xuyên được chuyển đổi thành stablecoin, tiếp tục đưa đi tìm kiếm lợi nhuận và sau đó phân phối cho những người nắm giữ OUSD dưới dạng lợi nhuận bổ sung.
 
 {% hint style="info" %}
-While the vault safely stores any unexpected rewards that it receives, custom strategies will need to be written and deployed to decide when and how the protocol should convert them to stablecoins.
+Mặc dù vault lưu trữ an toàn mọi phần thưởng ngoài dự kiến mà nó nhận được, nhưng các chiến lược tùy chỉnh sẽ cần được xây dựng và triển khai để quyết định thời điểm và cách thức giao thức chuyển đổi chúng thành stablecoin.
 {% endhint %}
 
-Today, rewards are a significant factor for yield farmers as they represent a large percentage of their returns. We anticipate that the OUSD protocol will be upgraded over time to take advantage of the most attractive yields available across the DeFi landscape. The protocol will factor in the market value of the various rewards being offered when deciding how to best allocate resources.
+Ngày nay, phần thưởng là một yếu tố quan trọng đối với người canh tác năng suất vì chúng đại diện cho tỷ lệ lớn lợi nhuận của họ. Chúng tôi dự đoán rằng giao thức OUSD sẽ được nâng cấp theo thời gian để tận dụng lợi nhuận hấp dẫn nhất hiện có từ DeFi. Giao thức sẽ ảnh hưởng đến giá trị thu được từ rất nhiều chiến dịch đang có sẵn trên thị trường khi quyết định cách tốt nhất để phân bổ vốn vào các chiến lược cho phụ hợp.
 
 
 
