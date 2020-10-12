@@ -104,67 +104,69 @@ OUSD está diseñado para mantenerse vinculado a 1 USD y tener un respaldo 1:1 c
   </tbody>
 </table>
 
-Para acuñar y quemar la cantidad apropiada de OUSD al entrar y salir, los contratos inteligentes deben fijar el precio con precisión del USDT, USDC y DAI que ingresa y sale del sistema. También necesita una forma confiable de expandir la oferta para distribuir el interés que se gana, o contratar la oferta si hay un cambio negativo en el valor de los activos subyacentes. Como protocolo descentralizado, OUSD debe depender de fuentes no centralizadas para estos precios.
+The rebasing function treats 1 stablecoin as 1 OUSD for simplicity and to protect OUSD balances from being affected by the daily fluctuations in the price of the underlying stablecoins. Since the rebase function only counts coins, OUSD balances should only increase.
+
+In order to mint and redeem the appropriate number of OUSD on entry and exit, the smart contracts need to accurately price the USDT, USDC, and DAI that is entering and exiting the system. As a decentralized protocol, OUSD must rely on non-centralized sources for these prices.
 
 {% hint style="info" %}
-OUSD obtiene el precio de múltiples oráculos en cadena y usa el tipo de cambio que es más ventajoso para el grupo.
+OUSD fetches the price from multiple on-chain oracles and uses the exchange rate that is most advantageous for the pool when minting or redeeming.
 {% endhint %}
 
-Con el fin de prevenir ataques maliciosos y alentar a los inversores a largo plazo sobre los especuladores a corto plazo, el contrato de OUSD compara las fuentes de precios de múltiples fuentes y utilizará el tipo de cambio que beneficie a todo el grupo sobre el individuo. Este mecanismo protege los fondos del grupo de liquidez de los arbitrajistas y evita que cualquier individuo pueda aprovechar cualquier ineficiencia temporal causada por oráculos mal valorados para agotar el grupo de liquidez de activos.
+In order to prevent malicious attacks and to encourage long-term investors over short-term speculators, the OUSD contract compares price feeds from multiple sources and will use whichever exchange rate benefits the entire pool over the individual. This mechanism protects the pool's funds from arbitrageurs and prevents any individual from being able to take advantage of any temporary inefficiencies caused by mispriced oracles to deplete the shared pool of assets.
 
-Esto protege los fondos en el grupo de liquidez mientras recompensa a los holders a largo plazo. Dado que el precio más seguro depende de la dirección de la operación, el oráculo de Origin expone tanto un `priceUSDMint ()` y un `priceUSDRedeem ()`. La función de reajuste utiliza `priceUSDMint ()` para mantener la coherencia.
+This protects the funds in the pool while rewarding long-term holders. Since the safest price depends on the direction of the trade, the Origin oracle exposes both a `priceUSDMint()` and a `priceUSDRedeem()`.
 
-Aquí está el conjunto inicial de oráculos que está siendo utilizado por OUSD:
+Here is the initial set of oracles that are being used by OUSD:
 
-{% embed url = "https://compound.finance/docs/prices" caption = ""%}
+{% embed url="https://compound.finance/docs/prices" caption="" %}
 
-{% embed url = "https://feeds.chain.link/eth-usd" caption = ""%}
+{% embed url="https://feeds.chain.link/eth-usd" caption="" %}
 
-Se han implementado los siguientes oráculos, pero actualmente no se utilizan debido a los costos del gas:
+The following oracles have been implemented, but are not currently being used due to gas costs:
 
-{% embed url = "https://uniswap.org/docs/v2/core-concepts/oracles/" caption = ""%}
+{% embed url="https://uniswap.org/docs/v2/core-concepts/oracles/" caption="" %}
 
 {% tabs %}
-{% tab title = "DAI / USD"%}
-Los siguientes oráculos se utilizan para obtener o calcular un precio de **DAI / USD:**
+{% tab title="DAI/USD" %}
+The following oracles are used to fetch or compute a price for **DAI/USD:**
 
-| Oráculo                  | Par         | Contrato                                     |
-|:------------------------ |:----------- |:-------------------------------------------- |
-| Feed de Precios Abiertos | DAI / USD   | 0xc629c26dced4277419cde234012f8160a0278a79   |
-| Chainlink                | DAI / USD   | 0xa7D38FBD325a6467894A13EeFD977aFE558bC1f0   |
-| Chainlink                | DAI / ETH   | 0x037E8F2125bF532F3e228991e051c8A7253B642c   |
-| _Uniswap v2_             | _DAI / ETH_ | _0xA478c2975Ab1Ea89e8196811F51A7B7Ade33eB11_ |
+| Oracle          | Pair      | Contract                                     |
+|:--------------- |:--------- |:-------------------------------------------- |
+| Open Price Feed | DAI/USD   | 0xc629c26dced4277419cde234012f8160a0278a79   |
+| Chainlink       | DAI/USD   | 0xa7D38FBD325a6467894A13EeFD977aFE558bC1f0   |
+| Chainlink       | DAI/ETH   | 0x037E8F2125bF532F3e228991e051c8A7253B642c   |
+| _Uniswap v2_    | _DAI/ETH_ | _0xA478c2975Ab1Ea89e8196811F51A7B7Ade33eB11_ |
 {% endtab %}
 
-{% tab title = "DAI / USD"%}
-Los siguientes oráculos se utilizan para obtener o calcular un precio de **DAI / USD:**
+{% tab title="USDT/USD" %}
+The following oracles are used to fetch or compute a price for **USDT/USD:**
 
-| Oráculo                  | Par          | Contrato                                     |
-|:------------------------ |:------------ |:-------------------------------------------- |
-| Chainlink                | USDT / ETH   | 0xa874fe207DF445ff19E7482C746C4D3fD0CB9AcE   |
-| Feed de Precios Abiertos | USDC / USD   | 0xc629c26dced4277419cde234012f8160a0278a79   |
-| _Uniswap v2_             | _USDT / ETH_ | _0x0d4a11d5eeaac28ec3f61d100daf4d40471f1852_ |
+| O**racle**      | Pair       | Contract                                     |
+|:--------------- |:---------- |:-------------------------------------------- |
+| Chainlink       | USDT/ETH   | 0xa874fe207DF445ff19E7482C746C4D3fD0CB9AcE   |
+| Open Price Feed | USDC/USD   | 0xc629c26dced4277419cde234012f8160a0278a79   |
+| _Uniswap v2_    | _USDT/ETH_ | _0x0d4a11d5eeaac28ec3f61d100daf4d40471f1852_ |
 {% endtab %}
 
-{% tab title = "DAI / USD"%}
-Los siguientes oráculos se utilizan para obtener o calcular un precio de **DAI / USD:**
+{% tab title="USDC/USD" %}
+The following oracles are used to fetch or compute a price for **USDC/USD:**
 
-| Oráculo                  | Par          | Contrato                                     |
-|:------------------------ |:------------ |:-------------------------------------------- |
-| Chainlink                | USDT / ETH   | 0xdE54467873c3BCAA76421061036053e371721708   |
-| Feed de Precios Abiertos | USDC / USD   | 0xc629c26dced4277419cde234012f8160a0278a79   |
-| _Uniswap v2_             | _USDT / ETH_ | _0xb4e16d0168e52d35cacd2c6185b44281ec28c9dc_ |
+| O**racle**      | Pair       | Contract                                     |
+|:--------------- |:---------- |:-------------------------------------------- |
+| Chainlink       | USDC/ETH   | 0xdE54467873c3BCAA76421061036053e371721708   |
+| Open Price Feed | USDC/USD   | 0xc629c26dced4277419cde234012f8160a0278a79   |
+| _Uniswap v2_    | _USDC/ETH_ | _0xb4e16d0168e52d35cacd2c6185b44281ec28c9dc_ |
 {% endtab %}
 
-{% tab title = "DAI / USD"%}
-Dado que no todos los oráculos tienen pares de USD directos, el protocolo también obtiene los precios de **ETH / USD** para calcular los precios en USD utilizando ETH. Nuevamente, para estar seguro, el protocolo elige lo más ventajoso para el fondo en lugar del individuo.
+{% tab title="ETH/USD" %}
+Since not all oracles have direct USD pairs, the protocol also fetches the prices for **ETH/USD** in order to calculate USD prices using ETH. Again, to be safe, the protocol chooses the most advantageous for the fund instead of the individual.
 
-| Oráculo                  | Par       | Contrato                                   |
-|:------------------------ |:--------- |:------------------------------------------ |
-| Feed de Precios Abiertos | ETH / USD | 0x922018674c12a7f0d394ebeef9b58f186cde13c1 |
-| Chainlink                | ETH / USD | 0xF79D6aFBb6dA890132F9D7c355e3015f15F3406F |
+| Oracle          | Pair    | Contract                                   |
+|:--------------- |:------- |:------------------------------------------ |
+| Open Price Feed | ETH/USD | 0x922018674c12a7f0d394ebeef9b58f186cde13c1 |
+| Chainlink       | ETH/USD | 0xF79D6aFBb6dA890132F9D7c355e3015f15F3406F |
 {% endtab %}
 {% endtabs %}
 
-Es posible que con el tiempo se agreguen más oráculos al protocolo. También pueden eliminarse si alguno de estos oráculos deja de ser confiable.
+It is possible that additional oracles will be added to the protocol over time. Support may also be removed if any of these oracles become unreliable.
 
