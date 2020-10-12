@@ -15,33 +15,33 @@ Il tuo flusso di sviluppo dovrebbe assomigliare a:
 1. Trova un problema interessante e comunicalo! Informa il canale `#engineering` su [Discord](https://discord.gg/jyxpUSe) su ciò cui tu vuoi lavorare.
 2. Informa un membro del [core team](https://github.com/orgs/OriginProtocol/teams/core/members) su Discord e chiedigli di essere aggiunto al nostro [contributors team](https://github.com/orgs/OriginProtocol/teams/contributors). Altrimenti, avrai bisogno di forkare il repository pertinente e pushare i branch di riferimento al tuo fork personale.
 3. Aggiungi un commento al problema o autoassegnatelo in modo tale da non avere più collaboratori che lavorano sulla stessa attività senza saperlo.
-4. Start with the `master` branch and check out a new feature branch unless you’re contributing to an existing feature.
-5. Follow the appropriate [coding style](https://docs.originprotocol.com/guides/getting_started/contributing.html#contributing-email-coding-style) and write some awesome code.
-6. Pull the latest commits from `master` and confirm that your code works with any other work that has been merged since you started.
-7. Push your branch to the upstream repository \(i.e. https://github.com/OriginProtocol/\[repo\]\) so that other contributors can easily work off of it if necessary.
-8. Please request a review in the PR by clicking on the gear icon next to “Reviewers” in the right column.
+4. Inizia con il branch `master` e fai check out di un nuovo feature branch a meno che tu non stia contribuendo già ad una feature esistente.
+5. Segui lo [stile di codice](https://docs.originprotocol.com/guides/getting_started/contributing.html#contributing-email-coding-style) già esistente e scrivi codice magnifico.
+6. Fai pull degli ultimi commit dal `master`, e assicurati che il tuo codice funzioni dopo aver fatto il merge.
+7. Pusha il tuo branch sull'upstream repository \(i.e. https://github.com/OriginProtocol/\[repo\]\) in modo tale che gli altri collaboratori possano lavorarci facilmente, se necessario.
+8. Richiedi una revisione nel PR cliccando sull'icona con l'ingranaggio vicino alla scritta "Reviewers" nella colonna di destra.
 
-The `master` branch is locked so that only members of the [core team](https://github.com/orgs/OriginProtocol/teams/core) are able to merge your pull requests. Pull requests that are peer-reviewed by other trusted contributors will be fast-tracked and merged faster! Check in the `#engineering` Discord channel for appropriate reviewers.
+Il branch `master` è bloccato in modo tale che solo i membri del [core team](https://github.com/orgs/OriginProtocol/teams/core) possano essere in grado di fare il merge delle tue pull requests. Le pull request che vengono sottoposte alla revisione da altri collaboratori verificati, saranno accelerate e mergiate più velocemente! Controlla nel canale Discord `#engineering` per revisori appropriati.
 
-#### Coding Style
+#### Stile del codice
 
-We use a variety of programming languages in our repositories. When contributing, please follow existing coding conventions and refer to the CONTRIBUTING.md file in the repository, if one exists.
+Nei nostri repository noi usiamo svariati linguaggi di programmazione. Se contribuisci, segui le convenzioni già esistenti e fai riferimento al file CONTRIBUTING.md nel repository stesso, se esiste.
 
-For JavaScript, we use [NPM’s style](https://docs.npmjs.com/misc/coding-style), which is automatically enforced via [prettier](https://prettier.io/).
+Per JavaScript, utilizziamo [lo stile NPM](https://docs.npmjs.com/misc/coding-style), che viene applicato automaticamente via [ prettier](https://prettier.io/).
 
-For Solidity, we use two-space indents.
+Per Solidity, utiliziamo l'indentazione con due spazi.
 
-#### Protocol Design
+#### Progettazione del Protocollo
 
-When considering protocol or implementation design proposals, we are looking for:
+A proposito delle proposte di progettazione di protocollo o di implementazione, ci aspettiamo:
 
-* A description of the problem this design proposal solves
-* Discussion of the trade-offs involved
-* Review of other existing solutions
-* Links to relevant literature \(RFCs, papers, etc\)
-* Discussion of the proposed solution
+* Una descrizione del problema che questa proposta risolverebbe
+* Discussione dei trade-off coinvolti
+* Revisione delle altre soluzioni esistenti
+* Link alla letteratura pertinente \ (RFC, documenti, ecc \)
+* Discussione della soluzione proposta
 
-Please note that protocol design is hard and meticulous work. You may need to review existing literature and think through generalized use cases.
+Si noti che la progettazione del protocollo è un lavoro duro e meticoloso. Potresti aver bisogno di rivedere la letteratura esistente e riflettere su casi d'uso generalizzati.
 
 #### Community Guidelines
 
