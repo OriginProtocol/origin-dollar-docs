@@ -13,6 +13,6 @@ OUSD는 대부분의 토큰과 다르게 작동합니다. 관리 대상 자산�
 이 메커니즘은 [앰플포스(Ampleforth)](https://www.ampleforth.org/)의해 취해진 새로운 접근 방식에서 영감을 얻었지만 강조 할 가치가있는 몇 가지 주요 차이점이 있습니다.
 
 1. OUSD는 100 % 다른 스테이블 코인에 의해 뒷받침되며 달러에 대한 페그(peg) 를 유지하는 것과 같은 문제가 없습니다. OUSD를 쉽게 채굴하고 상환 할 수 있다는 점을 감안할 때, 우리는 페그가 유지되도록 중재자를 의지할 수 있습니다.
-2. OUSD 재조정은 OUSD 채굴량이 기본 전략에 의해 실현된 이익과 연관되어 있기 때문에 공급량 증가에 크게 치우쳐 있습니다. 기본 스테이블 코인에서 흔히 볼 수있는 가격 변동 외에는 OUSD 잔액이 하락하지 않아야합니다. 기본 대출 / AMM 및 스테이블 코인 프로토콜에 문제가 없는 한 귀하의 원칙은 보호됩니다. 잔액이 크게 감소하면 시스템에 문제가 있음을 나타냅니다.
+2. OUSD rebasing should only increase supply since the amount of OUSD minted is tied to the realized gains earned by the underlying strategies. Your principal is protected as long as nothing goes wrong with the underlying lending/AMM and stablecoin protocols. Any decrease in your balance would be an indication of trouble in the system.
 3. 하루에 한 번 리베이스하는 앰플포스와 달리, OUSD의 통화 공급은 수익률이 생성됨에 따라 실시간으로 지속적으로 업데이트됩니다.
 
