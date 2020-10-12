@@ -2,7 +2,7 @@
 
 **Desentralisasi Progresif**
 
-OUSD is designed to be a decentralized protocol governed by many stakeholders all over the world. We believe that the minters and holders of OUSD should collectively determine important protocol decisions as soon as possible.
+OUSD dirancang untuk menjadi protokol terdesentralisasi yang diatur oleh banyak pemangku kepentingan di seluruh dunia. Kami percaya bahwa pembuat dan pemegang OUSD harus secara kolektif menentukan keputusan protokol yang penting secepat mungkin.
 
 Meskipun demikian, pada masa-masa awal, sangat penting bagi tim teknisi inti untuk bertindak cepat dan tegas untuk membangun bagian dasar protokol.
 
@@ -14,9 +14,9 @@ Desentralisasi akan berkembang pesat dalam empat fase dalam beberapa bulan menda
 
 Sebelum tata kelola terdesentralisasi penuh, kami akan menerapkan [timelock](../smart-contracts/api/timelock.md) di depan semua panggilan fungsi admin, memberi pengguna OUSD waktu \ (48 jam \) untuk menarik dana mereka jika mereka keberatan dengan peningkatan yang kami usulkan. Kunci waktu ini akan ditambahkan segera setelah peluncuran.
 
-**New and Existing Stakeholders**
+**Pemangku Kepentingan Baru dan Yang Sudah Ada**
 
-OUSD is a new project founded by Origin Protocol [team](www.originprotocol.com/team) and will be supported by the existing Origin community as well as many new stakeholders that choose to mint, hold, use, and provide liquidity for OUSD.
+OUSD adalah proyek baru yang didirikan oleh [tim](www.originprotocol.com/team) Origin Protocol dan akan didukung oleh komunitas Origin yang sudah ada serta banyak pemangku kepentingan baru yang memilih untuk mencetak, menahan, menggunakan, dan menyediakan likuiditas untuk OUSD.
 
 Selain itu, kami juga ingin memastikan partisipasi yang tinggi dari pemegang Token Asal \ (OGN \) kami yang sudah ada, komunitas dengan hampir 500.000 anggota, dan pembeli / penjual di Platform. Pemegang OGN yang ada akan dapat mempertaruhkan OGN mereka untuk berpartisipasi dalam tata kelola dan mendapatkan insentif untuk mendorong nilai ke OUSD. Rincian lebih lanjut akan diberikan dalam waktu dekat.
 
