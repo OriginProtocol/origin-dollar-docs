@@ -1,26 +1,26 @@
 # Nguyên tắc
 
-**Progressive Decentralization**
+**Phân cấp lũy tiến**
 
-OUSD is designed to be a decentralized protocol governed by many stakeholders all over the world. We believe that the minters and holders of OUSD should collectively determine important protocol decisions as soon as possible.
+OUSD được thiết kế để trở thành một giao thức phi tập trung được quản lý bởi nhiều bên liên quan trên toàn thế giới. Chúng tôi tin rằng những người khai tác và nắm giữ OUSD nên cùng nhau đưa ra các quyết định giao thức quan trọng càng sớm càng tốt.
 
-That being said, in the very early days, it is imperative that the core engineering team can act quickly and decisively to build the foundational parts of the protocol.
+Vì vậy, kể từ những ngày đầu tiên, nhóm kỹ sư bắt buộc phải hành động nhanh chóng và quyết đoán để xây dựng các phần cơ bản của giao thức.
 
-Decentralization will progress across four phases rapidly over the next few months. It is our intent to relinquish control and governance to the community as soon as possible.
+Việc phân cấp sẽ tiến triển nhanh chóng qua bốn giai đoạn trong vài tháng tới. Mục đích của chúng tôi trao lại quyền kiểm soát và quản trị cho cộng đồng càng sớm càng tốt.
 
 ![](../.gitbook/assets/ousd_docs_graphics_2%20%283%29.png)
 
-**Timelock**
+**Khoá thời gian (timelock)**
 
-Prior to full decentralized governance, we will implement a [timelock](../smart-contracts/api/timelock.md) in front of all admin function calls, giving OUSD users time \(48 hours\) to withdraw their funds if they have objections to our proposed upgrades. This timelock will be added shortly after launch.
+Trước khi chuyển sang chế độ quản trị phi tập trung hoàn toàn, chúng tôi sẽ triển khai [timelock](../smart-contracts/api/timelock.md) cho tất cả các lệnh đưa ra bởi admin, giúp người dùng OUSD có thời gian (48 giờ) để rút tiền nếu họ phản đối các nâng cấp được đề xuất của chúng tôi. Khoá thời gian sẽ bổ sung sau thời điểm ra mắt.
 
-**New and Existing Stakeholders**
+**Các bên liên quan hiện tại và tương lai**
 
-OUSD is a new project founded by Origin Protocol [team](www.originprotocol.com/team) and will be supported by the existing Origin community as well as many new stakeholders that choose to mint, hold, use, and provide liquidity for OUSD.
+OUSD là một dự án mới do [đội ngũ Origin Protocol](www.originprotocol.com/team) xây dựng và sẽ được hỗ trợ bởi cộng đồng Origin hiện tại cũng như nhiều bên liên quan khác lựa chọn khai thác, nắm giữ, sử dụng và cung cấp thanh khoản cho OUSD.
 
-In addition, we also want to ensure high participation from our existing Origin Token \(OGN\) holders, community of close to 500,000 members, and buyers/sellers on the Platform. Existing OGN holders will be able to stake their OGN to participate in governance and earn incentives for driving value to OUSD. More details will be provided in the near future.
+Ngoài ra, chúng tôi cũng muốn đảm bảo có sự tham gia của những người nắm giữa token Origin (OGN) và cộng đồng hiện có với tổng số hơn 500.000 thành viên cộng đồng và người mua/bán trên Nền tảng. Các chủ sở hữu OGN hiện tại sẽ có thể stake OGN của họ để tham gia vào quản trị và kiếm được tiền thưởng từ việc thúc đẩy giá trị cho OUSD. Thông tin chi tiết sẽ được cung cấp trong thời gian tới.
 
-The strong connection between OUSD and the rest of the Origin commerce platform will fuel growth in both initiatives.
+Mối liên hệ chặt chẽ giữa OUSD và phần còn lại của nền tảng thương mại Origin sẽ thúc đẩy tăng trưởng trong toàn bộ hệ sinh thái.
 
 
 
