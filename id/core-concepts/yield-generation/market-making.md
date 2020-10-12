@@ -2,23 +2,23 @@
 
 **Miliki Saham Anda di Bursa Terdesentralisasi**
 
-Automated market maker \ (AMMs \) dengan cepat meningkat sebagai bentuk pertukaran desentralisasi yang disukai di jaringan Ethereum. This is in part due to the difficulty of supporting order book DEXes on Ethereum 1.0 that can rival the instant and low-slippage experiences on centralized exchanges. Further, AMMs like Uniswap are relatively user-friendly and gas-efficient to use.
+Automated market maker \ (AMMs \) dengan cepat meningkat sebagai bentuk pertukaran desentralisasi yang disukai di jaringan Ethereum. Ini sebagian karena kesulitan mendukung buku pesanan DEX di Ethereum 1.0 yang dapat menyaingi pengalaman instan dan selip rendah di bursa terpusat. Lebih lanjut, AMM seperti Uniswap relatif ramah pengguna dan hemat gas untuk digunakan.
 
-AMMs can only enable new markets when liquidity providers supply liquidity \(e.g. multiple tokens for given trading pairs or pools\). In return for providing liquidity, liquidity providers are rewarded with trading fees when other users swap tokens. For example, when traders swap USDT for USDC on Uniswap, they are currently charged 0.3% on top of gas fees. These fees are distributed pro-rata to liquidity providers on the USDT-USDC pair based on the percentage of total liquidity that they have provided.
+AMM hanya dapat mengaktifkan pasar baru ketika penyedia likuiditas menyediakan likuiditas \ (misalnya beberapa token untuk pasangan atau kumpulan perdagangan tertentu \). Sebagai imbalan untuk menyediakan likuiditas, penyedia likuiditas diberi imbalan dengan biaya perdagangan ketika pengguna lain menukar token. Misalnya, ketika pedagang menukar USDT dengan USDC di Uniswap, mereka saat ini dikenai biaya 0,3% di atas biaya gas. Biaya ini didistribusikan secara pro-rata kepada penyedia likuiditas pada pasangan USDT-USDC berdasarkan persentase total likuiditas yang mereka sediakan.
 
 {% hint style="info" %}
-[Impermanent loss](https://medium.com/@pintail/uniswap-a-good-deal-for-liquidity-providers-104c0b6816f2) is an important risk factor to understand, but this concern is largely mitigated by OUSD only providing liquidity for stablecoins of approximately equal value.
+[Kerugian tidak permanen](https://medium.com/@pintail/uniswap-a-good-deal-for-liquidity-providers-104c0b6816f2) merupakan faktor risiko yang penting untuk dipahami, namun kekhawatiran ini sebagian besar dapat diatasi oleh OUSD yang hanya menyediakan likuiditas untuk stablecoin dengan nilai yang kurang lebih sama.
 {% endhint %}
 
-The OUSD protocol routes USDT, USDC, and DAI to highly-performing liquidity pools as determined by trading volume and rewards tokens \(e.g. Balancer rewards BAL tokens to liquidity providers\). Yields are then passed on to OUSD holders.
+Protokol OUSD mengarahkan USDT, USDC, dan DAI ke pool likuiditas yang berkinerja tinggi sebagaimana ditentukan oleh volume perdagangan dan hadiah token \ (misalnya, Balancer memberi hadiah token BAL ke penyedia likuiditas \). Hasil panen kemudian diteruskan ke pemegang OUSD.
 
-We intend to integrate directly with at least the following automated market makers:
+Kami bermaksud untuk berintegrasi langsung dengan setidaknya pembuat pasar otomatis berikut:
 
-{% page-ref page="../supported-strategies/uniswap.md" %}
+{% page-ref page = "../ didukung-strategi / uniswap.md"%}
 
-{% page-ref page="../supported-strategies/curve.md" %}
+{% page-ref page = "../ didukung-strategi / curve.md"%}
 
-{% page-ref page="../supported-strategies/balancer.md" %}
+{% page-ref page = "../ didukung-strategi / balancer.md"%}
 
 
 
