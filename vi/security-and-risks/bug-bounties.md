@@ -2,7 +2,7 @@
 
 **Phần thưởng phát hiện lỗi**
 
-Tiền thưởng lỗi được sẽ được quyết định bởi Origin Protocol. Phần thưởng có giá trị từ **100$** cho các lỗi nhỏ hoặc lên tới **250,000$** cho việc phát hiện ra các lỗ hổng lớn. Hiện tại, chương trình tiền thưởng phát hiện lỗi chỉ áp dụng cho OUSD và không áp dụng cho các sản phẩm khác từ Origin.
+Tiền thưởng lỗi được sẽ được quyết định bởi Origin Protocol. The rewards range in size from **$100 OUSD** for minor issues to **$250,000 OUSD** for major vulnerabilities. Hiện tại, chương trình tiền thưởng phát hiện lỗi chỉ áp dụng cho OUSD và không áp dụng cho các sản phẩm khác từ Origin.
 
 {% hint style="warning" %}
 Để đủ điều kiện nhận tiền thưởng lỗi, bạn phải tuân theo các quy tắc về khai báo thông tin được nêu dưới đây.
