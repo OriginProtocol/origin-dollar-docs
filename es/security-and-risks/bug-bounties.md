@@ -2,7 +2,7 @@
 
 **Recompensas de Errores**
 
-Las recompensas por errores se otorgan a total discreción de Origin Protocol. Las recompensas varían en tamaño desde **$100** para problemas menores hasta **$250.000** para vulnerabilidades importantes. Actualmente, el programa de recompensas solo se aplica a OUSD y no a otros productos de Origin.
+Las recompensas por errores se otorgan a total discreción de Origin Protocol. The rewards range in size from **$100 OUSD** for minor issues to **$250,000 OUSD** for major vulnerabilities. Actualmente, el programa de recompensas solo se aplica a OUSD y no a otros productos de Origin.
 
 {% hint style="warning" %}
 Para ser elegible para una recompensa por errores, debe seguir las reglas de Divulgación Responsable que se describen a continuación.
