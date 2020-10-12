@@ -14,7 +14,7 @@ Il tuo flusso di sviluppo dovrebbe assomigliare a:
 
 1. Trova un problema interessante e comunicalo! Informa il canale `#engineering` su [Discord](https://discord.gg/jyxpUSe) su ciò cui tu vuoi lavorare.
 2. Informa un membro del [core team](https://github.com/orgs/OriginProtocol/teams/core/members) su Discord e chiedigli di essere aggiunto al nostro [contributors team](https://github.com/orgs/OriginProtocol/teams/contributors). Altrimenti, avrai bisogno di forkare il repository pertinente e pushare i branch di riferimento al tuo fork personale.
-3. Add a comment to the issue or self-assign so we don’t have multiple contributors unintentionally working on the same task.
+3. Aggiungi un commento al problema o autoassegnatelo in modo tale da non avere più collaboratori che lavorano sulla stessa attività senza saperlo.
 4. Start with the `master` branch and check out a new feature branch unless you’re contributing to an existing feature.
 5. Follow the appropriate [coding style](https://docs.originprotocol.com/guides/getting_started/contributing.html#contributing-email-coding-style) and write some awesome code.
 6. Pull the latest commits from `master` and confirm that your code works with any other work that has been merged since you started.
