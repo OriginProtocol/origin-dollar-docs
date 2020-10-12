@@ -1,16 +1,16 @@
-# Audits
+# Audit
 
 {% hint style="danger" %}
-The OUSD smart contracts have not yet been audited. We strongly recommend reviewing our smart contracts before depositing significant amounts of capital.
+Kontrak pintar OUSD belum diaudit. Kami sangat menyarankan untuk meninjau kontrak pintar kami sebelum menyetorkan modal dalam jumlah besar.
 {% endhint %}
 
 **OUSD**
 
-Audits have already been scheduled with the respected security firm, [Trail of Bits](https://www.trailofbits.com/), for early October 2020. Their audit results will be publicly released as soon as they are available.
+Audit telah dijadwalkan dengan firma keamanan terkemuka, [Trail of Bits](https://www.trailofbits.com/), untuk awal Oktober 2020. Hasil audit mereka akan dirilis ke publik segera setelah tersedia.
 
-**Supported Strategies**
+**Strategi yang Didukung**
 
-Multiple audits for Compound have already been completed and are available on their website. This includes the original code for the modified [Timelock](../smart-contracts/api/timelock.md) that OUSD is using.
+Beberapa audit untuk Compound telah diselesaikan dan tersedia di situs web mereka. Ini termasuk kode asli untuk [Timelock](../smart-contracts/api/timelock.md) yang dimodifikasi yang digunakan OUSD.
 
 {% page-ref page="audits.md" %}
 
