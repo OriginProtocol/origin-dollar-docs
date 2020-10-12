@@ -13,7 +13,7 @@ Strategi percabangan kami mirip dengan [GitFlow](http://nvie.com/posts/a-success
 Alur pengembangan Anda akan terlihat seperti:
 
 1. Temukan masalah yang menarik dan komunikasikan! Harap beri tahu saluran `#engineering` [Discord](https://discord.gg/jyxpUSe) apa yang ingin Anda kerjakan.
-2. Ping [anggota tim inti](https://github.com/orgs/OriginProtocol/teams/core/members) anggota di Discord dan minta untuk ditambahkan ke [tim kontributor](https://github.com/orgs/OriginProtocol/teams/contributors). Otherwise, you’ll need to fork the relevant repository and push feature branches to your own fork.
+2. Ping [anggota tim inti](https://github.com/orgs/OriginProtocol/teams/core/members) anggota di Discord dan minta untuk ditambahkan ke [tim kontributor](https://github.com/orgs/OriginProtocol/teams/contributors). Jika tidak, Anda harus membagi repositori yang relevan dan mendorong cabang fitur ke garpu Anda sendiri.
 3. Tambahkan komentar ke masalah atau tetapkan sendiri sehingga kami tidak memiliki beberapa kontributor yang secara tidak sengaja mengerjakan tugas yang sama.
 4. Mulailah dengan cabang `master` dan periksa cabang fitur baru kecuali Anda berkontribusi ke fitur yang ada.
 5. Ikuti [gaya pengkodean](https://docs.originprotocol.com/guides/getting_started/contributing.html#contributing-email-coding-style) dan tulis kode yang mengagumkan.
@@ -21,13 +21,13 @@ Alur pengembangan Anda akan terlihat seperti:
 7. Dorong cabang Anda ke repositori hulu \ (yaitu https: //github.com/OriginProtocol/ \ [repo \] \) sehingga kontributor lain dapat dengan mudah mengerjakannya jika perlu.
 8. Silakan meminta peninjauan di PR dengan mengklik ikon roda gigi di sebelah "Pengulas" di kolom kanan.
 
-Cabang `master` dikunci sehingga hanya anggota dari [tim inti](https://github.com/orgs/OriginProtocol/teams/core) yang dapat menggabungkan permintaan tarik Anda. Pull requests that are peer-reviewed by other trusted contributors will be fast-tracked and merged faster! Periksa di saluran `#engineering` Discord untuk pengulas yang sesuai.
+Cabang `master` dikunci sehingga hanya anggota dari [tim inti](https://github.com/orgs/OriginProtocol/teams/core) yang dapat menggabungkan permintaan tarik Anda. Permintaan penarikan yang ditinjau oleh kontributor tepercaya lainnya akan dilacak dengan cepat dan digabungkan lebih cepat! Periksa di saluran `#engineering` Discord untuk pengulas yang sesuai.
 
 #### Gaya Pengkodean
 
 Kami menggunakan berbagai bahasa pemrograman di repositori kami. Saat berkontribusi, harap ikuti konvensi pengkodean yang ada dan lihat file CONTRIBUTING.md di repositori, jika ada.
 
-For JavaScript, we use [NPM’s style](https://docs.npmjs.com/misc/coding-style), which is automatically enforced via [prettier](https://prettier.io/).
+Untuk JavaScript, kami menggunakan [NPM gaya](https://docs.npmjs.com/misc/coding-style), yang secara otomatis diberlakukan melalui [lebih cantik](https://prettier.io/).
 
 Untuk Soliditas, kami menggunakan indentasi dua spasi.
 
@@ -54,13 +54,13 @@ Kami ingin membuat komunitas Origin tetap mengagumkan, berkembang, dan kolaborat
 
 #### Melaporkan Masalah
 
-Jika Anda menemukan bug, kesalahan, atau ketidakkonsistenan dalam kode atau dokumen Origin, beri tahu kami dengan mengajukan masalah GitHub. Tidak ada masalah yang terlalu kecil. Help us fix our tpyos!
+Jika Anda menemukan bug, kesalahan, atau ketidakkonsistenan dalam kode atau dokumen Origin, beri tahu kami dengan mengajukan masalah GitHub. Tidak ada masalah yang terlalu kecil. Bantu kami memperbaiki tpyos kami!
 
 #### Masalah Keamanan
 
 OUSD masih dalam pengembangan awal, yang berarti mungkin ada masalah dengan protokol atau dalam implementasi kami. Kami menangani kerentanan keamanan dengan sangat serius. Jika Anda menemukan masalah keamanan, harap segera hubungi kami!
 
-Jika Anda menemukan kerentanan keamanan, silakan kirim laporan Anda secara pribadi ke [security@originprotocol.com](mailto:security@originprotocol.com) atau kirim pesan terenkripsi ke [@joshfraser di Keybase](https://keybase.io/joshfraser). Harap JANGAN mengajukan masalah publik. Be sure to review our guidelines for responsible disclosure and eligibility for bug bounties.
+Jika Anda menemukan kerentanan keamanan, silakan kirim laporan Anda secara pribadi ke [security@originprotocol.com](mailto:security@originprotocol.com) atau kirim pesan terenkripsi ke [@joshfraser di Keybase](https://keybase.io/joshfraser). Harap JANGAN mengajukan masalah publik. Pastikan untuk meninjau pedoman kami untuk pengungkapan yang bertanggung jawab dan kelayakan untuk bug bounties.
 
 {% page-ref page="bug-bounties.md" %}
 
@@ -76,7 +76,7 @@ Silakan hubungi jika Anda ingin membantu. Saluran `umum` kami di [Discord](https
 
 Origin terkadang mempekerjakan pengembang untuk posisi paruh waktu atau penuh waktu.
 
-Kami memiliki preferensi kuat untuk mempekerjakan orang yang sudah mulai berkontribusi pada proyek. Jika Anda menginginkan posisi penuh waktu di tim kami, kesempatan terbaik Anda adalah terlibat dengan tim kami dan mulai berkontribusi kode. It is very unlikely that we would offer you a full-time position on our engineering team unless you’ve had at least a few pull requests merged.
+Kami memiliki preferensi kuat untuk mempekerjakan orang yang sudah mulai berkontribusi pada proyek. Jika Anda menginginkan posisi penuh waktu di tim kami, kesempatan terbaik Anda adalah terlibat dengan tim kami dan mulai berkontribusi kode. Sangat kecil kemungkinannya kami akan menawarkan Anda posisi penuh waktu di tim teknik kami kecuali Anda memiliki setidaknya beberapa permintaan tarik yang digabungkan.
 
 Jika Anda tertarik, lihat [daftar pekerjaan Protokol Origin](https://angel.co/originprotocol/jobs). Jika Anda ingin membantu dengan cara lain, ajukan ide Anda di [saluran Discord kami](https://www.originprotocol.com/discord).
 
