@@ -47,14 +47,14 @@ Si noti che la progettazione del protocollo è un lavoro duro e meticoloso. Potr
 
 Vogliamo mantenere la community di Origin fantastica, in crescita e collaborativa. Abbiamo bisogno del tuo aiuto per mantenerla così. Per aiutare in questo, abbiamo elaborato alcune linee guida generali per la community nel suo insieme:
 
-* Be nice: Be courteous, respectful and polite to fellow community members: no regional, racial, gender, or other abuse will be tolerated. We like nice people way better than mean ones!
-* Encourage diversity and participation: Make everyone in our community feel welcome, regardless of their background and the extent of their contributions, and do everything possible to encourage participation in our community.
-* Keep it legal: Basically, don’t get anybody in trouble. Share only content that you own, do not share private or sensitive information, and don’t break laws.
-* Stay on topic: Make sure that you are posting to the correct channel and avoid off-topic discussions. Remember when you update an issue or respond to an email you are potentially sending to a large number of people. Please consider this before you update. Also remember that nobody likes spam.
+* Sii gentile: sii cortese, rispettoso ed educato con gli altri membri della community: non saranno tollerati insulti su area geografica, raziali, di genere o di altra natura. Ci piacciono le brave persone molto più di quelle cattive!
+* Incoraggia la diversità e la partecipazione: fai sentire tutti i benvenuti nella nostra community, indipendentemente dal loro background e dalla quantità dei loro contributi, e fai il possibile per incoraggiare la partecipazione nella nostra community.
+* Mantienila legale: non mettere nessuno nei guai. Condividi solo i contenuti di tua proprietà, non condividere informazioni private o sensibili e non infrangere le leggi.
+* Rimani in tema: assicurati di pubblicare sul canale corretto ed evita discussioni fuori tema. Ricorda che quando aggiorni un problema o rispondi a un'e-mai, stai potenzialmente interagendo con un gran numero di persone. Quindi per favore considera questo prima di fare l'aggiornamento. Ricorda anche che a nessuno piace lo spam.
 
-#### Reporting Issues
+#### Segnalazione di problemi
 
-If you find bugs, mistakes or inconsistencies in Origin’s code or documents, please let us know by filing a GitHub issue. No issue is too small. Help us fix our tpyos!
+Se trovi bug, errori o incongruenze nel codice o nei documenti di Origin, faccelo sapere segnalando un problema su GitHub. Nessun problema è troppo piccolo. Aiutaci a sistemare anche erori di batitura!
 
 #### Security Issues
 
