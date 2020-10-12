@@ -5,10 +5,10 @@
 Bug bounty diberikan atas kebijakan penuh dari Origin Protocol. Imbalannya berkisar dari **$ 100** untuk masalah kecil hingga **$ 250.000** untuk kerentanan besar. Saat ini program bounty hanya berlaku untuk OUSD dan bukan produk lain dari Origin.
 
 {% hint style="warning" %}
-In order to be eligible for a bug bounty, you must follow the rules of Responsible Disclosure outlined below.
+Agar memenuhi syarat untuk menerima bug bounty, Anda harus mengikuti aturan Pengungkapan yang Bertanggung Jawab yang diuraikan di bawah.
 {% endhint %}
 
-**Responsible Disclosure**
+**Pengungkapan yang Bertanggung Jawab**
 
 Keamanan adalah prioritas utama kami dan kami telah melakukan segala upaya untuk memastikan kode kami aman dan berfungsi sebagaimana mestinya. Namun, sangat mungkin bahwa kerentanan baik besar maupun kecil telah tidak terdeteksi.
 
