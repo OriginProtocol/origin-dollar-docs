@@ -161,7 +161,7 @@ Since not all oracles have direct USD pairs, the protocol also fetches the price
 
 | Oracle | Pair | Contract |
 | :--- | :--- | :--- |
-| Open Price Feed | ETH/USD | 0xc629c26dced4277419cde234012f8160a0278a79 |
+| Open Price Feed | ETH/USD | 0x922018674c12a7f0d394ebeef9b58f186cde13c1 |
 | Chainlink | ETH/USD | 0xF79D6aFBb6dA890132F9D7c355e3015f15F3406F |
 {% endtab %}
 {% endtabs %}
