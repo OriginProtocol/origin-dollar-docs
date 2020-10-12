@@ -1,25 +1,25 @@
 # Yearn.finance
 
 {% hint style="info" %}
-Coming soon. Yearn.finance has not yet been integrated.
+Sắp ra mắt. Yearn.finance hiện vẫn chưa được tích hợp.
 {% endhint %}
 
-Yearn.finance, formerly iEarn.finance, is a yield aggregation platform built on Ethereum and launched in January 2020 by Andre Cronje. Yearn manages yield farming and rebalancing strategies using a combination of automation and human decision making on behalf of users who have deposited capital.
+Yearn.finance, trước đây là iEarn.finance, là một nền tảng tổng hợp lợi nhuận được xây dựng trên Ethereum và ra mắt vào tháng 1 năm 2020 bởi Andre Cronje. Yearn quản lý chiến lược canh tác năng suất (yield farming) và tái cân bằng bằng cách sử dụng kết hợp tự động hóa và con người đưa ra quyết định thay mặt cho những người dùng đã gửi vốn.
 
-Yearn has two yield aggregation products, Earn and Vaults. Earn allows users to deposit stablecoins or wrapped BTC into liquidity pools on Curve to earn fees and governance token rewards. These assets are also lent out on platforms offering high yield and token rewards, adding to the yield earned.
+Yearn có hai sản phẩm tổng hợp lợi nhuận, Earn và Vaults. Earn cho phép người dùng gửi stablecoin hoặc BTC vào các bể thanh khoản trên Curve để kiếm phí và phần thưởng token quản trị. Những tài sản này cũng được cho vay trên các nền tảng cung cấp phần thưởng token và lợi nhuận cao.
 
-Vaults offer a more automated and managed experience. Users deposit assets such as LINK, Curve liquidity provider tokens, or stablecoins and the Vault pools these assets together and deploys the highest earning yield farming strategy as deemed safe by the community and Andre Cronje. Governance tokens earned as rewards are sold off for the original asset deposited and combined with other fees and automatically rolled into the Vault to compound yield. Strategies can be changed frequently and pooling assets together saves gas costs for users.
+Vault cung cấp trải nghiệm được quản lý và tự động hơn. Người dùng gửi các tài sản như LINK, token thanh khoản Curve hoặc stablecoin và sau đó Vault sẽ gộp tất cả các tài sản này lại với nhau và triển khai chiến lược canh tác thu nhập cao nhất mà cộng đồng và Andre Cronje cho là an toàn. Các token quản trị kiếm được dưới dạng phần thưởng được bán bớt thành tài sản giống tài sản ban đầu được ký gửi và kết hợp với các khoản phí khác rồi tự động được chuyển vào Vault để tạo ra lợi tức kép. Các chiến lược có thể được thay đổi thường xuyên và việc gộp các tài sản lại với nhau giúp tiết kiệm chi phí gas cho người dùng.
 
-Yearn is governed by YFI, an ERC-20 governance token. YFI holders can vote on protocol changes after agreeing to lock up their YFI for 3 days. YFI can also be staked for yield in the governance portal. This yield comes from fees charged to users on Yearn products. YFI was distributed entirely to liquidity providers on Curve and Balancer. There was no allocation for team members or investors.
+Yearn được quản lý bởi YFI, token quản trị ERC-20. Người nắm giữ YFI có thể bỏ phiếu cho các thay đổi giao thức sau khi đồng ý khóa YFI của họ trong 3 ngày. YFI cũng có thể dùng để stake để nhận lãi xuất qua 1 cổng quản trị. Lợi nhuận này đến từ phí tính cho người dùng trên các sản phẩm của Yearn. YFI được phân phối hoàn toàn những người cung cấp thanh khoản trên Curve and Balancer. Không có token nào được phân bổ cho các thành viên trong nhóm hoặc nhà đầu tư.
 
-Yearn's total value locked \(TVL\) has quickly grown to over $800 million, making it one of the largest DeFi platforms. YFI has a circulating market cap of over $400 million.
+Tổng giá trị của Yearn bị khóa (TVL) đã nhanh chóng tăng lên hơn 800 triệu đô la, khiến nó trở thành một trong những giao thức DeFi lớn nhất. Vốn hóa thị trường của YFI đạt hơn 400 triệu đô la.
 
-Yearn has undergone multiple security and smart contract audits by CertiK, Quantstamp, HackMD, and CryptoManiacs. Yearn has a reputation for launching experimental products very quickly and warns users that their products are in beta.
+Yearn đã trải qua nhiều lần kiểm toán bảo mật và hợp đồng thông minh bởi CertiK, Quantstamp, HackMD và CryptoManiacs. Yearn nổi tiếng với việc tung ra sản phẩm thử nghiệm rất nhanh và cảnh báo người dùng rằng sản phẩm của họ đang trong giai đoạn thử nghiệm.
 
-| Resources      |                                                                      |
-|:-------------- |:-------------------------------------------------------------------- |
-| Official site  | [https://yearn.finance/](https://yearn.finance/)                     |
-| Developer docs | [https://docs.yearn.finance/](https://docs.yearn.finance/)           |
-| GitHub         | [https://github.com/iearn-finance](https://github.com/iearn-finance) |
-| Discord        | [https://discord.gg/uTmHe8r](https://discord.gg/uTmHe8r)             |
+| Tài nguyên                       |                                                                      |
+|:-------------------------------- |:-------------------------------------------------------------------- |
+| Website                         | [https://yearn.finance/](https://yearn.finance/)                     |
+| Tài liệu dành cho nhà phát triển | [https://docs.yearn.finance/](https://docs.yearn.finance/)           |
+| GitHub                           | [https://github.com/iearn-finance](https://github.com/iearn-finance) |
+| Discord                          | [https://discord.gg/uTmHe8r](https://discord.gg/uTmHe8r)             |
 
