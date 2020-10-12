@@ -172,7 +172,7 @@ Tüm oracle'ların doğrudan USD çiftleri olmadığından, protokol ayrıca ETH
 
 | Oracle          | Per       | Kontrakt                                   |
 |:--------------- |:--------- |:------------------------------------------ |
-| Açık fiyat Feed | ETH / USD | 0xc629c26dced4277419cde234012f8160a0278a79 |
+| Açık fiyat Feed | ETH / USD | 0x922018674c12a7f0d394ebeef9b58f186cde13c1 |
 | Chainlink       | ETH / USD | 0xF79D6aFBb6dA890132F9D7c355e3015f15F3406F |
 {% endtab %}
 {% endtabs %}
