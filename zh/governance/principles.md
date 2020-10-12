@@ -1,26 +1,26 @@
-# 原则
+# Principles
 
-**渐进式去中心化**
+**Progressive Decentralization**
 
-我们希望 OUSD 能够成为一个由世界各地的许多利益相关者管理的一个去中心化协议。 我们认为 OUSD 的铸造者和持有者应该尽快地开始共同做出重要的协议决定。
+OUSD is designed to be a decentralized protocol governed by many stakeholders all over the world. We believe that the minters and holders of OUSD should collectively determine important protocol decisions as soon as possible.
 
-但是在OUSD的早期，核心工程团队必须能够迅速而果断地采取行动，以构建协议的基础部分。
+That being said, in the very early days, it is imperative that the core engineering team can act quickly and decisively to build the foundational parts of the protocol.
 
-在接下来的几个月里，OUSD的去中心化将通过四个阶段快速进行。 我们的目标是尽快将控制权和治理权移交给社区。
+Decentralization will progress across four phases rapidly over the next few months. It is our intent to relinquish control and governance to the community as soon as possible.
 
 ![](../.gitbook/assets/ousd_docs_graphics_2%20%283%29.png)
 
-**时间锁**
+**Timelock**
 
-Prior to full decentralized governance, we will implement a [timelock](../smart-contracts/api/timelock.md) in front of all admin function calls, giving OUSD users time \(48 hours\) to withdraw their funds if they have objections to our proposed upgrades. 时间锁将在 OUSD 推出后添加。
+Prior to full decentralized governance, we will implement a [timelock](../smart-contracts/api/timelock.md) in front of all admin function calls, giving OUSD users time \(48 hours\) to withdraw their funds if they have objections to our proposed upgrades. This timelock will be added shortly after launch.
 
-**新的和现有的利益相关者**
+**New and Existing Stakeholders**
 
-OUSD 是由 Origin Protocol [团队](www.originprotocol.com/team) 创建的一个新项目，将得到现存的 Origin 社区以及选择铸造、持有，使用OUSD并为其提供流动性的许多新利益相关者的支持。
+OUSD is a new project founded by Origin Protocol [team](www.originprotocol.com/team) and will be supported by the existing Origin community as well as many new stakeholders that choose to mint, hold, use, and provide liquidity for OUSD.
 
-此外，我们也希望确保我们现有的 Origin Token \(OGN\) 持有者，近50万名社区成员以及平台上的买家/卖家的积极参与。 现有的 OGN 持有者将能够 stake 他们的 OGN 以参与治理，并获得为OUSD 创造价值的激励。 我们接下来会提供更多详细信息。
+In addition, we also want to ensure high participation from our existing Origin Token \(OGN\) holders, community of close to 500,000 members, and buyers/sellers on the Platform. Existing OGN holders will be able to stake their OGN to participate in governance and earn incentives for driving value to OUSD. More details will be provided in the near future.
 
-OUSD 与 Origin 商务平台的其他部分之间的紧密联系将推动这两项计划的增长。
+The strong connection between OUSD and the rest of the Origin commerce platform will fuel growth in both initiatives.
 
 
 
