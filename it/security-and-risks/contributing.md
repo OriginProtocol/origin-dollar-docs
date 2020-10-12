@@ -43,9 +43,9 @@ A proposito delle proposte di progettazione di protocollo o di implementazione, 
 
 Si noti che la progettazione del protocollo è un lavoro duro e meticoloso. Potresti aver bisogno di rivedere la letteratura esistente e riflettere su casi d'uso generalizzati.
 
-#### Community Guidelines
+#### Linee guida della community
 
-We want to keep the Origin community awesome, growing and collaborative. We need your help to keep it that way. To help with this we’ve come up with some general guidelines for the community as a whole:
+Vogliamo mantenere la community di Origin fantastica, in crescita e collaborativa. Abbiamo bisogno del tuo aiuto per mantenerla così. Per aiutare in questo, abbiamo elaborato alcune linee guida generali per la community nel suo insieme:
 
 * Be nice: Be courteous, respectful and polite to fellow community members: no regional, racial, gender, or other abuse will be tolerated. We like nice people way better than mean ones!
 * Encourage diversity and participation: Make everyone in our community feel welcome, regardless of their background and the extent of their contributions, and do everything possible to encourage participation in our community.
