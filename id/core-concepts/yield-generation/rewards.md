@@ -1,14 +1,14 @@
-# Rewards
+# Hadiah
 
-**Collecting Rewards**
+**Mengumpulkan Hadiah**
 
-In addition to collecting interest from lending and fees from market making, we intend to automatically claim and convert the bonus incentives that are being distributed by many of the DeFi protocols. For example, Compound gives away COMP tokens, Balancer gives away BAL tokens, and Curve gives away CRV tokens. These bonus rewards will be regularly converted into stablecoins, deployed in the market, and distributed to OUSD holders in the form of additional yield.
+Selain mengumpulkan bunga dari pinjaman dan biaya dari pembuatan pasar, kami bermaksud untuk secara otomatis mengklaim dan mengubah insentif bonus yang didistribusikan oleh banyak protokol DeFi. Misalnya, Compound memberikan token COMP, Balancer memberikan token BAL, dan Curve memberikan token CRV. Hadiah bonus ini akan secara teratur diubah menjadi stablecoin, disebarkan di pasar, dan didistribusikan ke pemegang OUSD dalam bentuk hasil tambahan.
 
 {% hint style="info" %}
-While the vault safely stores any unexpected rewards that it receives, custom strategies will need to be written and deployed to decide when and how the protocol should convert them to stablecoins.
+Sementara vault dengan aman menyimpan hadiah tak terduga yang diterimanya, strategi khusus perlu ditulis dan diterapkan untuk memutuskan kapan dan bagaimana protokol harus mengubahnya menjadi stablecoin.
 {% endhint %}
 
-Today, rewards are a significant factor for yield farmers as they represent a large percentage of their returns. We anticipate that the OUSD protocol will be upgraded over time to take advantage of the most attractive yields available across the DeFi landscape. The protocol will factor in the market value of the various rewards being offered when deciding how to best allocate resources.
+Saat ini, penghargaan merupakan faktor penting bagi petani hasil karena mereka mewakili sebagian besar keuntungan mereka. Kami mengantisipasi bahwa protokol OUSD akan ditingkatkan dari waktu ke waktu untuk memanfaatkan hasil paling menarik yang tersedia di seluruh lanskap DeFi. Protokol akan memperhitungkan nilai pasar dari berbagai penghargaan yang ditawarkan saat memutuskan cara terbaik mengalokasikan sumber daya.
 
 
 
