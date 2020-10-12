@@ -104,67 +104,69 @@ OUSD được thiết kế để duy trì ở mức 1 USD và được hỗ tr�
   </tbody>
 </table>
 
-Để tạo mới và đốt số lượng OUSD thích hợp, các hợp đồng thông minh cần định giá chính xác USDT, USDC và DAI đang được nạp vào và rút ra khỏi hệ thống. Ousd cũng cần có cơ chế tăng nguồn cung tin cậy tương xứng phần lãi kiếm được hoặc giảm cung nếu tài sản đảm bảo (các stablecoin nạp vào) giảm. Là một giao thức phi tập trung, OUSD phải dựa vào các nguồn phi tập trung để xác định các mức giá.
+The rebasing function treats 1 stablecoin as 1 OUSD for simplicity and to protect OUSD balances from being affected by the daily fluctuations in the price of the underlying stablecoins. Since the rebase function only counts coins, OUSD balances should only increase.
+
+In order to mint and redeem the appropriate number of OUSD on entry and exit, the smart contracts need to accurately price the USDT, USDC, and DAI that is entering and exiting the system. As a decentralized protocol, OUSD must rely on non-centralized sources for these prices.
 
 {% hint style="info" %}
-Giá của OUSD được đối chiếu trên nhiều chuỗi và sử dụng tỉ giá có lợi nhất cho bể.
+OUSD fetches the price from multiple on-chain oracles and uses the exchange rate that is most advantageous for the pool when minting or redeeming.
 {% endhint %}
 
-Để ngăn chặn các cuộc tấn công và khuyến khích các nhà đầu tư dài hạn thay vì các nhà đầu cơ ngắn hạn, hợp đồng OUSD so sánh các nguồn cấp giá từ nhiều nguồn và sẽ sử dụng tỷ giá hối đoái nào có lợi cho toàn bộ tài sản có trong bể. Cơ chế này bảo vệ quỹ của bể khỏi tình trạng kinh doanh ăn chênh lệch giá và ngăn chặn cá nhân lợi dụng bất kỳ sơ hở tạm thời nào gây ảnh hưởng tới tài sản trong bể.
+In order to prevent malicious attacks and to encourage long-term investors over short-term speculators, the OUSD contract compares price feeds from multiple sources and will use whichever exchange rate benefits the entire pool over the individual. This mechanism protects the pool's funds from arbitrageurs and prevents any individual from being able to take advantage of any temporary inefficiencies caused by mispriced oracles to deplete the shared pool of assets.
 
-Điều này bảo vệ các khoản tiền được giữ trong bể đồng thời khuyến khích mọi người nắm giữ lâu dài. Mức giá an toàn nhất phụ thuộc vào giao dịch mua bán trực tiếp, mức giá của Origin đối chiếu cả `priceUSDMint ()` và `priceUSDRedeem ()`. Chức năng nguồn cung linh hoạt sử dụng `priceUSDMint ()` để đảm bảo tính nhất quán.
+This protects the funds in the pool while rewarding long-term holders. Since the safest price depends on the direction of the trade, the Origin oracle exposes both a `priceUSDMint()` and a `priceUSDRedeem()`.
 
-Đây là tập hợp các oracle ban đầu đang được OUSD sử dụng:
+Here is the initial set of oracles that are being used by OUSD:
 
 {% embed url="https://compound.finance/docs/prices" caption="" %}
 
 {% embed url="https://feeds.chain.link/eth-usd" caption="" %}
 
-Các oracle sau đã được thử nhiệm nhưng không đưa vào sử dụng do tốn quá nhiều phí gas:
+The following oracles have been implemented, but are not currently being used due to gas costs:
 
 {% embed url="https://uniswap.org/docs/v2/core-concepts/oracles/" caption="" %}
 
 {% tabs %}
 {% tab title="DAI/USD" %}
-Các oracle sau được sử dụng để tìm nạp hoặc tính giá cho **DAI/USD:**
+The following oracles are used to fetch or compute a price for **DAI/USD:**
 
-| Oracle       | Cặp       | Hợp đồng                                     |
-|:------------ |:--------- |:-------------------------------------------- |
-| Nguồn giá mở | DAI/USD   | 0xc629c26dced4277419cde234012f8160a0278a79   |
-| Chainlink    | DAI/USD   | 0xa7D38FBD325a6467894A13EeFD977aFE558bC1f0   |
-| Chainlink    | DAI/ETH   | 0x037E8F2125bF532F3e228991e051c8A7253B642c   |
-| _Uniswap_    | _DAI/ETH_ | _0xA478c2975Ab1Ea89e8196811F51A7B7Ade33eB11_ |
+| Oracle          | Pair      | Contract                                     |
+|:--------------- |:--------- |:-------------------------------------------- |
+| Open Price Feed | DAI/USD   | 0xc629c26dced4277419cde234012f8160a0278a79   |
+| Chainlink       | DAI/USD   | 0xa7D38FBD325a6467894A13EeFD977aFE558bC1f0   |
+| Chainlink       | DAI/ETH   | 0x037E8F2125bF532F3e228991e051c8A7253B642c   |
+| _Uniswap v2_    | _DAI/ETH_ | _0xA478c2975Ab1Ea89e8196811F51A7B7Ade33eB11_ |
 {% endtab %}
 
 {% tab title="USDT/USD" %}
-Các oracle sau được sử dụng để tìm nạp hoặc tính giá cho **USDT/USD:**
+The following oracles are used to fetch or compute a price for **USDT/USD:**
 
-| O**racle**   | Cặp        | Hợp đồng                                     |
-|:------------ |:---------- |:-------------------------------------------- |
-| Chainlink    | USDT/ETH   | 0xa874fe207DF445ff19E7482C746C4D3fD0CB9AcE   |
-| Nguồn giá mở | USDC/USD   | 0xc629c26dced4277419cde234012f8160a0278a79   |
-| _Uniswap v2_ | _USDT/ETH_ | _0x0d4a11d5eeaac28ec3f61d100daf4d40471f1852_ |
+| O**racle**      | Pair       | Contract                                     |
+|:--------------- |:---------- |:-------------------------------------------- |
+| Chainlink       | USDT/ETH   | 0xa874fe207DF445ff19E7482C746C4D3fD0CB9AcE   |
+| Open Price Feed | USDC/USD   | 0xc629c26dced4277419cde234012f8160a0278a79   |
+| _Uniswap v2_    | _USDT/ETH_ | _0x0d4a11d5eeaac28ec3f61d100daf4d40471f1852_ |
 {% endtab %}
 
 {% tab title="USDC/USD" %}
-Các oracle sau được sử dụng để tìm nạp hoặc tính giá cho **ETH/USD:**
+The following oracles are used to fetch or compute a price for **USDC/USD:**
 
-| O**racle**   | Cặp        | Hợp đồng                                     |
-|:------------ |:---------- |:-------------------------------------------- |
-| Chainlink    | USDC/ETH   | 0xdE54467873c3BCAA76421061036053e371721708   |
-| Nguồn giá mở | USDC/USD   | 0xc629c26dced4277419cde234012f8160a0278a79   |
-| _Uniswap v2_ | _USDC/ETH_ | _0xb4e16d0168e52d35cacd2c6185b44281ec28c9dc_ |
+| O**racle**      | Pair       | Contract                                     |
+|:--------------- |:---------- |:-------------------------------------------- |
+| Chainlink       | USDC/ETH   | 0xdE54467873c3BCAA76421061036053e371721708   |
+| Open Price Feed | USDC/USD   | 0xc629c26dced4277419cde234012f8160a0278a79   |
+| _Uniswap v2_    | _USDC/ETH_ | _0xb4e16d0168e52d35cacd2c6185b44281ec28c9dc_ |
 {% endtab %}
 
 {% tab title="ETH/USD" %}
-Vì không phải tất cả các oracles đều có các cặp USD trực tiếp, giao thức cũng lấy giá **ETH/USD** để tính giá USD bằng ETH. Một lần nữa, để đảm bảo tính an toàn, giao thức ưu tiên cho bể hơn là cho cá nhân.
+Since not all oracles have direct USD pairs, the protocol also fetches the prices for **ETH/USD** in order to calculate USD prices using ETH. Again, to be safe, the protocol chooses the most advantageous for the fund instead of the individual.
 
-| Oracle       | Cặp     | Hợp đồng                                   |
-|:------------ |:------- |:------------------------------------------ |
-| Nguồn giá mở | ETH/USD | 0x922018674c12a7f0d394ebeef9b58f186cde13c1 |
-| Chainlink    | ETH/USD | 0xF79D6aFBb6dA890132F9D7c355e3015f15F3406F |
+| Oracle          | Pair    | Contract                                   |
+|:--------------- |:------- |:------------------------------------------ |
+| Open Price Feed | ETH/USD | 0x922018674c12a7f0d394ebeef9b58f186cde13c1 |
+| Chainlink       | ETH/USD | 0xF79D6aFBb6dA890132F9D7c355e3015f15F3406F |
 {% endtab %}
 {% endtabs %}
 
-Việc có các oracle mới bổ sung vào giao thức theo thời gian là hoàn toàn có thể. Các oracle hiện đang hỗ trợ cũng có thể bị loại bỏ nếu phị phát hiện thiếu tin cậy.
+It is possible that additional oracles will be added to the protocol over time. Support may also be removed if any of these oracles become unreliable.
 
