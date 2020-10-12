@@ -1,27 +1,27 @@
 # Uniswap
 
 {% hint style="info" %}
-Coming soon. Uniswap has not yet been integrated.
+Sắp ra mắt. Uniswap hiện vẫn chưa được tích hợp.
 {% endhint %}
 
-Uniswap is a decentralized liquidity protocol and exchange on Ethereum, launched in November 2018. Uniswap v2 launched in May 2020. Users can swap ERC-20 tokens for a fee or contribute tokens to liquidity pools to earn fees.
+Uniswap là một giao thức thanh khoản và sàn phi tập trung trên Ethereum, ra mắt vào tháng 11 năm 2018. Uniswap v2 đã ra mắt vào tháng 5 năm 2020. Người dùng có thể chuyển đổi giữa các đồng ERC-20 hoặc gửi token vào các bể thanh khoản để nhận phí.
 
-Markets on Uniswap operate as liquidity pools rather than order books. This type of exchange is called an Automated Market Maker \(AMM\). The exchange rate between the two assets is determined by a constant product formula and moves along a price curve depending on the relative weight of each asset in the pool. This encourages arbitrageurs to enter liquidity pools to rebalance the relative weights and normalize the exchange rate.
+Thị trường trên Uniswap hoạt động như một nhóm thanh khoản hơn là theo cơ chế đặt lệnh mua bán như các sàn giao dịch bình thường. Loại sàn giao dịch như thế này được gọi là Nhà tạo lập thị trường tự động (AMM). Tỷ giá hối đoái giữa hai tài sản được xác định theo công thức nhân không đổi và di chuyển dọc theo đường giá tùy thuộc vào giá trị tương đối của mỗi tài sản trong bể. Điều này khuyến khích những người kinh doanh chênh lệch giá tham gia vào các bể thanh khoản để cân bằng lại trọng số tương đối và bình thường hóa tỷ giá hối đoái.
 
-Traders can suffer from slippage if there is not enough liquidity in a given pool and may not be protected from unfavorable exchange rates. Liquidity providers may suffer impermanent loss when the pool exchange rate does not match market realities and arbitrageurs execute trades along the pricing curve.
+Các nhà giao dịch có thể bị trượt giá nếu không có đủ thanh khoản trong một bể nhất định và có thể không được bảo vệ khỏi sự bất lợi của việc tỉ giá hối đoái sụt giảm. Các nhà cung cấp thanh khoản có thể bị thiệt hại vĩnh viễn khi tỷ giá hối đoái của bể không khớp với thực tế và các nhà kinh doanh chênh lệch giá thực hiện các giao dịch dọc theo đường cong định giá.
 
-Pool participants are given Uniswap Liquidity Provider \(LP\) tokens that correspond to their share of liquidity provided in a given pool. These LP tokens are freely transferable. Participants can exit pools at any time by redeeming these tokens for the assets provided and fees accrued.
+Những người tham gia bể sẽ nhận đượctoken Uniswap Liquidity Provider (LP) tương ứng với phần thanh khoản mà họ cung cấp trong nhóm đó. Các token LP này có thể chuyển nhượng tự do. Người tham gia có thể thoát khỏi các bể bất kỳ lúc nào bằng cách đổi các token này cho các tài sản được cung cấp và phí tích lũy.
 
-Token issuers seeking to improve liquidity of their token have offered incentives to liquidity providers in liquidity mining campaigns. New token issuers have also launched their tokens on Uniswap pools.
+Các nhà phát hành token tìm cách cải thiện tính thanh khoản của token bằng cách đưa ra các ưu đãi những người cung cấp thanh khoản trong các chiến dịch khai thác thanh khoản. Các nhà phát hành token mới cũng đã đưa token của họ vào các bể của Uniswap.
 
-Trading volumes on Uniswap now eclipse that of many traditional exchanges and regularly surpass $200 million daily. Uniswap has over $170 million in Total Value Locked \(TVL\) by liquidity providers. Uniswap does not have a native platform or governance token.
+Khối lượng giao dịch trên Uniswap hiện vượt xa nhiều sàn giao dịch truyền thống và thường xuyên vượt quá 200 triệu đô la mỗi ngày. Uniswap có hơn 170 triệu đô la Tổng giá trị bị khóa (TVL) bởi các nhà cung cấp thanh khoản. Uniswap không có nền tảng blockchain hoặc token quản trị riêng.
 
-Uniswap has had its smart contracts audited and formally verfied by dapp.org. Uniswap maintains a bug bounty program.
+Các hợp đồng thông minh của Uniswap đã được dapp.org kiểm toán và chính thức xác nhận. Uniswap vẫn đang duy trì chương trình tặng tưởng cho người phát hiện ra lỗi của hệ thống.
 
-| Resources      |                                                                          |
-|:-------------- |:------------------------------------------------------------------------ |
-| Official site  | [https://uniswap.org/](https://uniswap.org/)                             |
-| Developer docs | [https://uniswap.org/docs/v2](https://uniswap.org/docs/v2)               |
-| GitHub         | [https://github.com/Uniswap](https://github.com/Uniswap)                 |
-| Discord        | [https://discord.com/invite/EwFs3Pp](https://discord.com/invite/EwFs3Pp) |
+| Tài nguyên                       |                                                                          |
+|:-------------------------------- |:------------------------------------------------------------------------ |
+| Website                         | [https://uniswap.org/](https://uniswap.org/)                             |
+| Tài liệu dành cho nhà phát triển | [https://uniswap.org/docs/v2](https://uniswap.org/docs/v2)               |
+| GitHub                           | [https://github.com/Uniswap](https://github.com/Uniswap)                 |
+| Discord                          | [https://discord.com/invite/EwFs3Pp](https://discord.com/invite/EwFs3Pp) |
 
