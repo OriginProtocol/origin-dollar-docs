@@ -4,7 +4,7 @@
 Kunci waktu akan ditambahkan segera setelah semuanya diverifikasi sebagai berfungsi. Sampai saat itu, kontrak akan diatur oleh 5 dari 8 multi-sig Origin. Hal ini memungkinkan respons yang lebih cepat jika ada masalah kritis yang ditemukan.
 {% endhint %}
 
-Kontrak timelock memberlakukan masa tunggu 48 jam sebelum perubahan apa pun pada kontrak OUSD dapat dilaksanakan. Kunci waktu dapat dipanggil oleh multi-sig kami dan merupakan pemilik kontrak [ERC-20](../architecture.md), [Vault](vault.md) dan [Strategies](strategies.md). Time-delaying admin actions gives users a chance to exit OUSD if its admins become malicious, are compromised, or make a change that the users do not like.
+Kontrak timelock memberlakukan masa tunggu 48 jam sebelum perubahan apa pun pada kontrak OUSD dapat dilaksanakan. Kunci waktu dapat dipanggil oleh multi-sig kami dan merupakan pemilik kontrak [ERC-20](../architecture.md), [Vault](vault.md) dan [Strategies](strategies.md). Tindakan admin yang menunda waktu memberi pengguna kesempatan untuk keluar dari OUSD jika adminnya menjadi jahat, disusupi, atau membuat perubahan yang tidak disukai pengguna.
 
 {% hint style="info" %}
 Timelock adalah ukuran keamanan yang memberi pemegang OUSD 48 jam untuk menarik dana mereka apabila mereka keberatan dengan usulan peningkatan protokol.
