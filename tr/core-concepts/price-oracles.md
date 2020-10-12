@@ -115,67 +115,69 @@ OUSD, 1 USD'de sabit kalacak ve temelindeki stabilcoinlerle 1: 1 desteklenecek �
   </tbody>
 </table>
 
-Giriş ve çıkışta uygun sayıda OUSD basmak ve yakmak için, akıllı sözleşmelerin sisteme giren ve çıkan USDT, USDC ve DAI'yi doğru bir şekilde fiyatlandırması gerekir. Ayrıca, kazanılan faizi dağıtmak için arzı genişletmenin güvenilir bir yoluna ya da temel varlıkların değerinde olumsuz bir değişiklik varsa arzı daraltmaya ihtiyaç duyar. Merkezi olmayan bir protokol olarak, OUSD bu fiyatlar için merkezi olmayan kaynaklara güvenmek zorundadır.
+The rebasing function treats 1 stablecoin as 1 OUSD for simplicity and to protect OUSD balances from being affected by the daily fluctuations in the price of the underlying stablecoins. Since the rebase function only counts coins, OUSD balances should only increase.
 
-{% hint style="bilgi" %}
-OUSD, fiyatı birden fazla zincir üzerindeki oracle'dan alır ve havuz için en avantajlı olan döviz kurunu kullanır.
+In order to mint and redeem the appropriate number of OUSD on entry and exit, the smart contracts need to accurately price the USDT, USDC, and DAI that is entering and exiting the system. As a decentralized protocol, OUSD must rely on non-centralized sources for these prices.
+
+{% hint style="info" %}
+OUSD fetches the price from multiple on-chain oracles and uses the exchange rate that is most advantageous for the pool when minting or redeeming.
 {% endhint %}
 
-Kötü niyetli saldırıları önlemek ve uzun vadeli yatırımcıları kısa vadeli spekülatörler üzerinden teşvik etmek için, OUSD sözleşmesi, birden fazla kaynaktan gelen fiyat beslemelerini karşılaştırır ve hangi döviz kurunun bireye göre tüm havuza fayda sağladığını kullanır. Bu mekanizma, havuzun fonlarını arbitrajcılardan korur ve herhangi bir bireyin, paylaşılan varlık havuzunu tüketmek için yanlış fiyatlandırılmış oracle'ların neden olduğu herhangi bir geçici verimsizlikten yararlanmasını engeller.
+In order to prevent malicious attacks and to encourage long-term investors over short-term speculators, the OUSD contract compares price feeds from multiple sources and will use whichever exchange rate benefits the entire pool over the individual. This mechanism protects the pool's funds from arbitrageurs and prevents any individual from being able to take advantage of any temporary inefficiencies caused by mispriced oracles to deplete the shared pool of assets.
 
-Bu, uzun vadeli sahiplerini ödüllendirirken havuzdaki fonları korur. En güvenli fiyat ticaretin yönüne bağlı olduğundan, Origin oracle hem `fiyatUSDMint ()` hem de `fiyatUSDRedeem ()`ortaya çıkarır. Yeniden ödeme işlevi tutarlılık için `priceUSDMint ()` kullanır.
+This protects the funds in the pool while rewarding long-term holders. Since the safest price depends on the direction of the trade, the Origin oracle exposes both a `priceUSDMint()` and a `priceUSDRedeem()`.
 
-İşte OUSD tarafından kullanılan ilk oracle dizisi:
+Here is the initial set of oracles that are being used by OUSD:
 
-{% embed url = "https://compound.finance/docs/prices" caption = ""%}
+{% embed url="https://compound.finance/docs/prices" caption="" %}
 
-{% embed url = "https://feeds.chain.link/eth-usd" caption = ""%}
+{% embed url="https://feeds.chain.link/eth-usd" caption="" %}
 
-Aşağıdaki oracle'lar uygulandı, ancak şu anda gaz maliyetleri nedeniyle kullanılmıyor:
+The following oracles have been implemented, but are not currently being used due to gas costs:
 
-{% embed url = "https://uniswap.org/docs/v2/core-concepts/oracles" caption = ""%}
+{% embed url="https://uniswap.org/docs/v2/core-concepts/oracles/" caption="" %}
 
 {% tabs %}
-{% tab title = "DAI / USD"%}
-Aşağıdaki oracle'lar **DAI / USD fiyatını almak veya hesaplamak için kullanılır:**
+{% tab title="DAI/USD" %}
+The following oracles are used to fetch or compute a price for **DAI/USD:**
 
-| Oracle          | Per       | Kontrakt                                     |
+| Oracle          | Pair      | Contract                                     |
 |:--------------- |:--------- |:-------------------------------------------- |
-| Açık fiyat Feed | DAI/USD   | 0xc629c26dced4277419cde234012f8160a0278a79   |
+| Open Price Feed | DAI/USD   | 0xc629c26dced4277419cde234012f8160a0278a79   |
 | Chainlink       | DAI/USD   | 0xa7D38FBD325a6467894A13EeFD977aFE558bC1f0   |
 | Chainlink       | DAI/ETH   | 0x037E8F2125bF532F3e228991e051c8A7253B642c   |
 | _Uniswap v2_    | _DAI/ETH_ | _0xA478c2975Ab1Ea89e8196811F51A7B7Ade33eB11_ |
 {% endtab %}
 
 {% tab title="USDT/USD" %}
-Aşağıdaki oracle'lar **DAI / USD fiyatını almak veya hesaplamak için kullanılır:**
+The following oracles are used to fetch or compute a price for **USDT/USD:**
 
-| Oracle          | Per        | Kontrakt                                     |
+| O**racle**      | Pair       | Contract                                     |
 |:--------------- |:---------- |:-------------------------------------------- |
 | Chainlink       | USDT/ETH   | 0xa874fe207DF445ff19E7482C746C4D3fD0CB9AcE   |
 | Open Price Feed | USDC/USD   | 0xc629c26dced4277419cde234012f8160a0278a79   |
 | _Uniswap v2_    | _USDT/ETH_ | _0x0d4a11d5eeaac28ec3f61d100daf4d40471f1852_ |
 {% endtab %}
 
-{% tab title="USDT/USD" %}
-Aşağıdaki oracle'lar **DAI / USD fiyatını almak veya hesaplamak için kullanılır:**
+{% tab title="USDC/USD" %}
+The following oracles are used to fetch or compute a price for **USDC/USD:**
 
-| Oracle          | Per        | Kontrakt                                     |
+| O**racle**      | Pair       | Contract                                     |
 |:--------------- |:---------- |:-------------------------------------------- |
-| Chainlink       | USDT/ETH   | 0xdE54467873c3BCAA76421061036053e371721708   |
-| Açık fiyat Feed | USDC/USD   | 0xc629c26dced4277419cde234012f8160a0278a79   |
+| Chainlink       | USDC/ETH   | 0xdE54467873c3BCAA76421061036053e371721708   |
+| Open Price Feed | USDC/USD   | 0xc629c26dced4277419cde234012f8160a0278a79   |
 | _Uniswap v2_    | _USDC/ETH_ | _0xb4e16d0168e52d35cacd2c6185b44281ec28c9dc_ |
 {% endtab %}
 
-{% tab title = "DAI / USD"%}
-Tüm oracle'ların doğrudan USD çiftleri olmadığından, protokol ayrıca ETH kullanarak USD fiyatlarını hesaplamak için **ETH / USD** fiyatlarını da getirir. Yine güvende olmak için protokol, birey yerine fon için en avantajlı olanı seçer.
+{% tab title="ETH/USD" %}
+Since not all oracles have direct USD pairs, the protocol also fetches the prices for **ETH/USD** in order to calculate USD prices using ETH. Again, to be safe, the protocol chooses the most advantageous for the fund instead of the individual.
 
-| Oracle          | Per       | Kontrakt                                   |
-|:--------------- |:--------- |:------------------------------------------ |
-| Açık fiyat Feed | ETH / USD | 0x922018674c12a7f0d394ebeef9b58f186cde13c1 |
-| Chainlink       | ETH / USD | 0xF79D6aFBb6dA890132F9D7c355e3015f15F3406F |
+| Oracle          | Pair    | Contract                                   |
+|:--------------- |:------- |:------------------------------------------ |
+| Open Price Feed | ETH/USD | 0x922018674c12a7f0d394ebeef9b58f186cde13c1 |
+| Chainlink       | ETH/USD | 0xF79D6aFBb6dA890132F9D7c355e3015f15F3406F |
 {% endtab %}
 {% endtabs %}
 
-Zamanla protokole ek stabilcoinlerin eklenmesi mümkündür. Bu oracle'lardan herhangi biri güvenilmez hale gelirse destek de kaldırılabilir.
+It is possible that additional oracles will be added to the protocol over time. Support may also be removed if any of these oracles become unreliable.
 
