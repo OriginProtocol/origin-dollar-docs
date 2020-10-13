@@ -6,9 +6,9 @@ I saldi del collaterale sono rappresentati da cToken ERC-20, che automaticamente
 
 Compount è governato da COMP, un token di governance ERC-20. I titolari di COMP possono proporre e votare modifiche al protocollo o delegare i propri voti a qualcun altro. I token COMP vengono assegnati proporzionalmente su base giornaliera, agli utenti del protocollo e sono divisi equamente tra chi ha preso in prestito e chi ha dato in prestito. Gran parte dell'offerta di token COMP è in mano al team di Compound, agli investitori e ai loro Advisors.
 
-Compound's total value locked \(TVL\) has quickly grown to nearly $800 million, making it one of the largest DeFi protocols. COMP has a circulating market cap of over $500 million.
+Il valore totale dei Compound bloccati \ (TVL\) è cresciuto rapidamente vicino agli $800 milioni, rendendolo uno dei più grandi protocolli di DeFi. In Ottobre 2020, il circulating market cap di COMP supera i $300 milioni.
 
-Compound has undergone multiple security audits by OpenZeppelin and Trail of Bits. The Compound protocol was formally verified by CertiK and has undergone economic stress testing by Gauntlet. Compound maintains a bug bounty program.
+Compound è stato sottoposto a moltpelici revisioni di sicurezza, effettuati da OpenZeppelin e Trails of Bits. Il protocollo Compound è stato formalmente verificato da CertiK ed è stato sottoposto a stress test economici da Gauntlet. Compound gestisce un programma di bug bounty.
 
 | Resources      |                                                                                                                |
 |:-------------- |:-------------------------------------------------------------------------------------------------------------- |
