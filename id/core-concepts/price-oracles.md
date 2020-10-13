@@ -104,69 +104,69 @@ OUSD dirancang untuk tetap dipatok pada 1 USD dan didukung 1: 1 dengan stablecoi
   </tbody>
 </table>
 
-The rebasing function treats 1 stablecoin as 1 OUSD for simplicity and to protect OUSD balances from being affected by the daily fluctuations in the price of the underlying stablecoins. Since the rebase function only counts coins, OUSD balances should only increase.
+Fungsi rebasing memperlakukan 1 stablecoin sebagai 1 OUSD untuk kesederhanaan dan untuk melindungi saldo OUSD agar tidak terpengaruh oleh fluktuasi harian harga stablecoin yang mendasarinya. Karena fungsi rebase hanya menghitung koin, saldo OUSD seharusnya hanya bertambah.
 
-In order to mint and redeem the appropriate number of OUSD on entry and exit, the smart contracts need to accurately price the USDT, USDC, and DAI that is entering and exiting the system. As a decentralized protocol, OUSD must rely on non-centralized sources for these prices.
+Untuk membuat dan menebus sejumlah OUSD yang sesuai saat masuk dan keluar, kontrak pintar harus memberi harga yang akurat pada USDT, USDC, dan DAI yang masuk dan keluar dari sistem. Sebagai protokol terdesentralisasi, OUSD harus bergantung pada sumber non-sentralisasi untuk harga ini.
 
 {% hint style="info" %}
-OUSD fetches the price from multiple on-chain oracles and uses the exchange rate that is most advantageous for the pool when minting or redeeming.
+OUSD mengambil harga dari beberapa oracle on-chain dan menggunakan nilai tukar yang paling menguntungkan untuk kumpulan ketika membuat atau menebus.
 {% endhint %}
 
-In order to prevent malicious attacks and to encourage long-term investors over short-term speculators, the OUSD contract compares price feeds from multiple sources and will use whichever exchange rate benefits the entire pool over the individual. This mechanism protects the pool's funds from arbitrageurs and prevents any individual from being able to take advantage of any temporary inefficiencies caused by mispriced oracles to deplete the shared pool of assets.
+Untuk mencegah serangan jahat dan untuk mendorong investor jangka panjang daripada spekulan jangka pendek, kontrak OUSD membandingkan umpan harga dari berbagai sumber dan akan menggunakan nilai tukar mana pun yang menguntungkan seluruh kelompok dibandingkan individu. Mekanisme ini melindungi dana kumpulan dari arbitrase dan mencegah individu mana pun untuk dapat mengambil keuntungan dari inefisiensi sementara apapun yang disebabkan oleh oracle yang salah harga untuk menguras kumpulan aset bersama.
 
-This protects the funds in the pool while rewarding long-term holders. Since the safest price depends on the direction of the trade, the Origin oracle exposes both a `priceUSDMint()` and a `priceUSDRedeem()`.
+Ini melindungi dana di kumpulan sambil memberi penghargaan kepada para pemegang jangka panjang. Karena harga paling aman tergantung pada arah perdagangan, oracle Origin menghadapkan kedua `priceUSDMint ()` dan `priceUSDRedeem ()`.
 
-Here is the initial set of oracles that are being used by OUSD:
+Berikut adalah set oracle awal yang digunakan oleh OUSD:
 
-{% embed url="https://compound.finance/docs/prices" caption="" %}
+{% embed url = "https://compound.finance/docs/prices" caption = ""%}
 
-{% embed url="https://feeds.chain.link/eth-usd" caption="" %}
+{% embed url = "https://feeds.chain.link/eth-usd" caption = ""%}
 
-The following oracles have been implemented, but are not currently being used due to gas costs:
+Oracle berikut telah diterapkan, tetapi saat ini tidak digunakan karena biaya gas:
 
-{% embed url="https://uniswap.org/docs/v2/core-concepts/oracles/" caption="" %}
+{% embed url = "https://uniswap.org/docs/v2/core-concepts/oracles" caption = ""%}
 
 {% tabs %}
-{% tab title="DAI/USD" %}
-The following oracles are used to fetch or compute a price for **DAI/USD:**
+{% tab title = "USDT / USD"%}
+Oracle berikut digunakan untuk mengambil atau menghitung harga **DAI / USD:**
 
-| Oracle          | Pair      | Contract                                     |
-|:--------------- |:--------- |:-------------------------------------------- |
-| Open Price Feed | DAI/USD   | 0xc629c26dced4277419cde234012f8160a0278a79   |
-| Chainlink       | DAI/USD   | 0xa7D38FBD325a6467894A13EeFD977aFE558bC1f0   |
-| Chainlink       | DAI/ETH   | 0x037E8F2125bF532F3e228991e051c8A7253B642c   |
-| _Uniswap v2_    | _DAI/ETH_ | _0xA478c2975Ab1Ea89e8196811F51A7B7Ade33eB11_ |
+| Oracle           | Pasangan    | Kontrak                                      |
+|:---------------- |:----------- |:-------------------------------------------- |
+| Buka Umpan Harga | DAI / USD   | 0xc629c26dced4277419cde234012f8160a0278a79   |
+| Chainlink        | DAI / USD   | 0xa7D38FBD325a6467894A13EeFD977aFE558bC1f0   |
+| Chainlink        | DAI / ETH   | 0x037E8F2125bF532F3e228991e051c8A7253B642c   |
+| _Uniswap v2_     | _DAI / ETH_ | _0xA478c2975Ab1Ea89e8196811F51A7B7Ade33eB11_ |
 {% endtab %}
 
-{% tab title="USDT/USD" %}
-The following oracles are used to fetch or compute a price for **USDT/USD:**
+{% tab title = "USDT / USD"%}
+Oracle berikut digunakan untuk mengambil atau menghitung harga **USDT / USD:**
 
-| O**racle**      | Pair       | Contract                                     |
-|:--------------- |:---------- |:-------------------------------------------- |
-| Chainlink       | USDT/ETH   | 0xa874fe207DF445ff19E7482C746C4D3fD0CB9AcE   |
-| Open Price Feed | USDC/USD   | 0xc629c26dced4277419cde234012f8160a0278a79   |
-| _Uniswap v2_    | _USDT/ETH_ | _0x0d4a11d5eeaac28ec3f61d100daf4d40471f1852_ |
+| O**racle**       | Pasangan     | Kontrak                                      |
+|:---------------- |:------------ |:-------------------------------------------- |
+| Chainlink        | USDT / ETH   | 0xa874fe207DF445ff19E7482C746C4D3fD0CB9AcE   |
+| Buka Umpan Harga | USDC / USD   | 0xc629c26dced4277419cde234012f8160a0278a79   |
+| _Uniswap v2_     | _USDT / ETH_ | _0x0d4a11d5eeaac28ec3f61d100daf4d40471f1852_ |
 {% endtab %}
 
-{% tab title="USDC/USD" %}
-The following oracles are used to fetch or compute a price for **USDC/USD:**
+{% tab title = "USDT / USD"%}
+Oracle berikut digunakan untuk mengambil atau menghitung harga **USDC / USD:**
 
-| O**racle**      | Pair       | Contract                                     |
-|:--------------- |:---------- |:-------------------------------------------- |
-| Chainlink       | USDC/ETH   | 0xdE54467873c3BCAA76421061036053e371721708   |
-| Open Price Feed | USDC/USD   | 0xc629c26dced4277419cde234012f8160a0278a79   |
-| _Uniswap v2_    | _USDC/ETH_ | _0xb4e16d0168e52d35cacd2c6185b44281ec28c9dc_ |
+| O**racle**       | Pasangan     | Kontrak                                      |
+|:---------------- |:------------ |:-------------------------------------------- |
+| Chainlink        | USDC / ETH   | 0xdE54467873c3BCAA76421061036053e371721708   |
+| Buka Umpan Harga | USDC / USD   | 0xc629c26dced4277419cde234012f8160a0278a79   |
+| _Uniswap v2_     | _USDC / ETH_ | _0xb4e16d0168e52d35cacd2c6185b44281ec28c9dc_ |
 {% endtab %}
 
-{% tab title="ETH/USD" %}
-Since not all oracles have direct USD pairs, the protocol also fetches the prices for **ETH/USD** in order to calculate USD prices using ETH. Again, to be safe, the protocol chooses the most advantageous for the fund instead of the individual.
+{% tab title = "USDT / USD"%}
+Karena tidak semua oracle memiliki pasangan USD langsung, protokol juga menetapkan harga untuk **ETH / USD** untuk menghitung harga USD menggunakan ETH. Sekali lagi, untuk amannya, protokol memilih dana yang paling menguntungkan daripada individu.
 
-| Oracle          | Pair    | Contract                                   |
-|:--------------- |:------- |:------------------------------------------ |
-| Open Price Feed | ETH/USD | 0x922018674c12a7f0d394ebeef9b58f186cde13c1 |
-| Chainlink       | ETH/USD | 0xF79D6aFBb6dA890132F9D7c355e3015f15F3406F |
+| Oracle           | Pasangan  | Kontrak                                    |
+|:---------------- |:--------- |:------------------------------------------ |
+| Buka Umpan Harga | ETH / USD | 0x922018674c12a7f0d394ebeef9b58f186cde13c1 |
+| Chainlink        | ETH / USD | 0xF79D6aFBb6dA890132F9D7c355e3015f15F3406F |
 {% endtab %}
 {% endtabs %}
 
-It is possible that additional oracles will be added to the protocol over time. Support may also be removed if any of these oracles become unreliable.
+Ada kemungkinan bahwa oracle tambahan akan ditambahkan ke protokol dari waktu ke waktu. Dukungan juga dapat dihapus jika salah satu dari oracle ini menjadi tidak dapat diandalkan.
 
