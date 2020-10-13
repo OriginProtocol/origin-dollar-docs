@@ -34,7 +34,11 @@ OUSD - это нестандартный токен ERC-20, который тр�
 
 {% page-ref page="smart-contracts/api/" %}
 
-**Помощь**
+**Developer Analytics**
 
-Присоединяйтесь к Origin Dollar\#engineering room\ на сервере Origin в [Discord](www.originprotocol.com/discord).  Наша команда и члены нашего сообщества с нетерпением ждут возможности помочь Вам в разработке. Ваши вопросы помогают нам стать лучше, поэтому не стесняйтесь спрашивать, если вы не можете найти здесь то, что ищете.
+Our internal developer dashboard is available at [analytics.ousd.com](https://analytics.ousd.com). The dashboard shows the current circulating supply, the assets under management in the vault, and the current allocations between each of the stablecoins and strategies.
+
+**Getting Help**
+
+Please join the Origin Dollar \#engineering room in Origin's [Discord](www.originprotocol.com/discord) server.  Our team and members of our community look forward to helping you build. Your questions help us improve, so please don't hesitate to ask if you can't find what you are looking for here.
 
