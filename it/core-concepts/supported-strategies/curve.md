@@ -1,14 +1,14 @@
 # Curve
 
 {% hint style="info" %}
-Coming soon. Curve has not yet been integrated.
+In arrivo. Curve non è ancora stato integrato.
 {% endhint %}
 
-Curve is a decentralized liquidity protocol and exchange on Ethereum for stablecoins and wrapped BTC, launched in January 2020. Users can swap between popular ERC-20 stablecoins or between ERC-20 representations of bitcoin. Liquidity providers facilitate trading and earn fees.
+Curve è costruito su Ethereum ed è un protocollo ed exchange di liquidità decentralizzata per stablecoin e wrapped BTC, lanciato a gennaio 2020. Gli utenti possono swappare tra loro stablecoin di tipo ERC-20 o tra la rappresentazione ERC-20 (su Ethereum) di bitcoin. I liquidity providers, facilitano il trading e guadagnano commissioni.
 
-Curve is an Automated Market Maker \(AMM\) where each market has an associated liquidity pool with two or more assets that should have the same value, like USDT, USDC, DAI and TUSD, which are all US dollar pegged stablecoins. The exchange rate between each stablecoin and their relative weights are determined by an algorithm based on supply and demand. Arbitrageurs act to normalize these exchange rates.
+Curve è un Automated Market Maker \(AMM\), in cui ogni market ha un pool di liquidità associato con due o più asset con lo stesso valore, come USDT, USDC, DAI e TUSD, le quali sono infatti tutte stablecoin ancorate al dollaro USA. Il tasso di cambio tra ogni stablecoin e i relativi pesi sono determinati da un algoritmo basato su domanda e offerta. I trader che fanno arbitraggio agiscono per normalizzare questi tassi di cambio.
 
-Some of Curve's liquidity pools earn extra fees for liquidity providers on top of the exchange fees from traders. Curve offers stablecoin pools integrated with Compound, yearn.finance, and Synthetix. The assets in each liquidity pool are provided to those platforms to generate additional yield which is passed on to each pool's liquidity providers. Liquidity Provider \(LP\) tokens are given to pool participants and can be redeemed for their initial liquidity supplied plus accrued fees and yield. LP tokens can also transferred for use in other protocols.
+Alcuni dei pool di liquidità di Curve guadagnano commissioni extra per i fornitori di liquidità oltre alle commissioni di scambio dei trader. Curve offre pool di stablecoin integrate con Compound, yearn.finance, e Synthetix. Gli asset in ogni liquidity pool, sono forniti da queste piattaforme per generare un rendimento aggiuntivo che viene trasferito ai fornitori di liquidità di ciascuna pool. Liquidity Provider \(LP\) tokens are given to pool participants and can be redeemed for their initial liquidity supplied plus accrued fees and yield. LP tokens can also transferred for use in other protocols.
 
 Curve is governed by CRV, an ERC-20 governance token. CRV holders can vote on protocol changes. CRV holders can stake their tokens for additional voting power proportional to time staked. CRV is continuously awarded to liquidity providers and a large portion of the total supply of CRV was allocated to the team and investors on a continuous vesting schedule.
 
