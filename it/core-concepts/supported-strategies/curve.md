@@ -12,14 +12,14 @@ Alcuni dei pool di liquidità di Curve guadagnano commissioni extra per i fornit
 
 Curve è governato da CRV, un token di governance ERC-20. I possessori di CRV possono votare le modifiche al protocollo. I possessori di CRV possono mettere in stake i loro token per un potere di voto addizionale, proporzionale al tempo di staking. CRV è costantemente assegnato ai fornitori di liquidità e gran parte della supply totale di CRV è stata assegnata al team e agli investitori secondo un programma di acquisizione continua.
 
-I volumi di trading su Curve superano spesso i 50 milioni di dollari al giorno. Curve has a Total Value Locked \(TVL\) of over $1 billion by liquidity providers at the time of writing.
+I volumi di trading su Curve superano spesso i 50 milioni di dollari al giorno. Il Curve ha un Valore Totale Bloccato \(TVL\) di oltre 1 trilioni di dollari da parte dei fornitori di liquidità nel momento in cui scriviamo.
 
-Curve has undergone two audits by Trail of Bits and maintains a bug bounty program.
+Curve è stato sottoposto a due audit eseguiti da Trail of Bits e ha un programma di Bug bounty.
 
-| Resources      |                                                                          |
+| Risorse        |                                                                          |
 |:-------------- |:------------------------------------------------------------------------ |
-| Official site  | [https://www.curve.fi/](https://www.curve.fi/)                           |
-| Developer docs | [https://www.curve.fi/devdocs](https://www.curve.fi/devdocs)             |
+| Sito ufficiale | [https://www.curve.fi/](https://www.curve.fi/)                           |
+| Docs           | [https://www.curve.fi/devdocs](https://www.curve.fi/devdocs)             |
 | GitHub         | [https://github.com/curvefi](https://github.com/curvefi)                 |
 | Discord        | [https://discord.com/invite/9uEHakc](https://discord.com/invite/9uEHakc) |
 
