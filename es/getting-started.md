@@ -38,7 +38,11 @@ Si usted es un proveedor de billetera o una plataforma de intercambio cripto que
 
 {% page-ref page = "contratos-inteligentes / erc-md"%}
 
-**Obtener ayuda**
+**Developer Analytics**
 
-Únase a la chat de ingeniería de Origin Dollar \ #engineering en el servidor de Origin [Discord](www.originprotocol.com/discord).  Nuestro equipo y los miembros de nuestra comunidad esperan poder ayudarlo a construir. Sus preguntas nos ayudan a mejorar, así que no dude en preguntar si no puede encontrar lo que busca aquí.
+Our internal developer dashboard is available at [analytics.ousd.com](https://analytics.ousd.com). The dashboard shows the current circulating supply, the assets under management in the vault, and the current allocations between each of the stablecoins and strategies.
+
+**Getting Help**
+
+Please join the Origin Dollar \#engineering room in Origin's [Discord](www.originprotocol.com/discord) server.  Our team and members of our community look forward to helping you build. Your questions help us improve, so please don't hesitate to ask if you can't find what you are looking for here.
 
