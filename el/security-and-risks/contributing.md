@@ -6,6 +6,10 @@ OUSD is an entirely open-source project and we welcome contributions of all sort
 
 We work in public and our company Discord is open to all. If you have questions or need help getting started, our Discord OUSD channels are the best place to get assistance from our team and community.
 
+**Developer Analytics**
+
+Our internal developer dashboard is available at [analytics.ousd.com](https://analytics.ousd.com). The dashboard shows the current circulating supply, the assets under management in the vault, and the current allocations between each of the stablecoins and strategies.
+
 #### Development Process
 
 Our branching strategy is similar to [GitFlow](http://nvie.com/posts/a-successful-git-branching-model/), but we do all of our development in the `master` branch and have a `stable` branch for code that has been released.
