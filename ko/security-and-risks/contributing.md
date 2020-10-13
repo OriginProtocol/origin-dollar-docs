@@ -6,11 +6,15 @@ OUSD는 완전한 오픈 소스 프로젝트이며, 모든 종류의 기여를 �
 
 오리진은 공개적으로 일하고 있으며, 오리진의 업무 진행 방식은 디스코드(Discord) 상에서 모두에게 공개되어 있습니다. 만약, OUSD와 관련하여 질문이 있거나 시작하는 데 도움이 필요하다면 디스코드 상의 OUSD 채널이 우리 팀과 커뮤니티의 도움을 받을 수있는 가장 좋은 곳입니다.
 
+**Developer Analytics**
+
+Our internal developer dashboard is available at [analytics.ousd.com](https://analytics.ousd.com). The dashboard shows the current circulating supply, the assets under management in the vault, and the current allocations between each of the stablecoins and strategies.
+
 #### 개발 과정
 
-우리의 분기 전략은 [깃플로우(GitFlow)](http://nvie.com/posts/a-successful-git-branching-model/)와 유사하지만 `마스터(master)` 분기에서 모든 개발을 수행하고 발행 된 코드에 대해 `안정(stable)` 분기가 있습니다.
+Our branching strategy is similar to [GitFlow](http://nvie.com/posts/a-successful-git-branching-model/), but we do all of our development in the `master` branch and have a `stable` branch for code that has been released.
 
-개발 과정은 다음과 같습니다:
+Your development flow should look like:
 
 1. 흥미로운 문제를 찾아 소통을 시작합니다! `#engineering` [디스코드(Discord)](https://discord.gg/jyxpUSe) 채널에 작업 할 내용을 알려주십시오.
 2. 디스코드에서 [핵심 팀원](https://github.com/orgs/OriginProtocol/teams/core/members) 명의 구성원을 핑하고 [기여자 팀](https://github.com/orgs/OriginProtocol/teams/contributors)추가되도록 요청하십시오. 그렇지 않으면 관련 저장소를 포크하고 기능 브랜치를 자신의 포크로 푸시해야합니다.
@@ -21,19 +25,19 @@ OUSD는 완전한 오픈 소스 프로젝트이며, 모든 종류의 기여를 �
 7. 브랜치를 업스트림 저장소 \ (예: https: //github.com/OriginProtocol/ \ [repo \] \)로 푸시하여 필요한 경우 다른 기여자가 쉽게 작업 할 수 있도록합니다.
 8. 오른쪽 열의 "검토자(Reviewers)"옆에 있는 톱니 바퀴 아이콘을 클릭하여 PR에서 리뷰를 요청하십시오.
 
-`마스터` 브랜치는 잠겨 있으므로 [코어 팀](https://github.com/orgs/OriginProtocol/teams/core) 의 구성원 만 풀 요청을 병합 할 수 있습니다. 신뢰할 수있는 다른 기여자가 피어 리뷰 한 풀 요청은 빠르게 추적되고 병합됩니다! 적절한 검토자를 위해 `#engineering` 디스코드 채널을 확인하십시오.
+The `master` branch is locked so that only members of the [core team](https://github.com/orgs/OriginProtocol/teams/core) are able to merge your pull requests. Pull requests that are peer-reviewed by other trusted contributors will be fast-tracked and merged faster! Check in the `#engineering` Discord channel for appropriate reviewers.
 
 #### 코딩 스타일
 
-오리진은 리포지토리(repositories) 에서 다양한 프로그래밍 언어를 사용합니다. 기여 하실 때에는 기존 코딩 규약을 준수해주실 것을 부탁드리며, 만약 리포지토리에 CONTRIBUTING.md 파일이 있을 경우에는 해당 파일을 참조해주세요.
+We use a variety of programming languages in our repositories. When contributing, please follow existing coding conventions and refer to the CONTRIBUTING.md file in the repository, if one exists.
 
-자바 스크립트의 경우에는, [prettier](https://prettier.io/)을 통해 자동으로 적용되는 [NPM 스타일](https://docs.npmjs.com/misc/coding-style)을 사용합니다.
+For JavaScript, we use [NPM’s style](https://docs.npmjs.com/misc/coding-style), which is automatically enforced via [prettier](https://prettier.io/).
 
-솔리티디(Solidity) 의 경우에는, 두 개의 공백 들여 쓰기를 사용합니다.
+For Solidity, we use two-space indents.
 
 #### 프로토콜 설계
 
-프로토콜 또는 구현 설계 제안을 고려할 때 다음 사항을 고려합니다.
+When considering protocol or implementation design proposals, we are looking for:
 
 * 이 설계 제안이 해결하는 문제에 대한 설명
 * 관련된 장단점에 대한 논의
@@ -41,11 +45,11 @@ OUSD는 완전한 오픈 소스 프로젝트이며, 모든 종류의 기여를 �
 * 관련 문헌 링크 \ (RFC, 논문 등 \)
 * 제안 된 솔루션에 대한 논의
 
-프로토콜 디자인은 어렵고 세심한 작업입니다. 기존 문헌을 검토하고, 일반화 된 사용 사례를 검토해야 할 수도 있습니다.
+Please note that protocol design is hard and meticulous work. You may need to review existing literature and think through generalized use cases.
 
 #### 커뮤니티 가이드라인
 
-오리진은 오리진 커뮤니티와 함께 멋지게 성장하며, 협력적 관계를 계속 유지하고 싶습니다. 이와 같은 관계 구축을 위해서는 여러분의 도움이 필요합니다. 보다 긍정적인 커뮤니티의 성장과 협력적 관계 유지를 이어가기 위해, 커뮤니티 전체에 대한 몇 가지 일반적인 지침을 마련했습니다.
+We want to keep the Origin community awesome, growing and collaborative. We need your help to keep it that way. To help with this we’ve come up with some general guidelines for the community as a whole:
 
 * 예의 바르게 행동 해주세요: 커뮤니티 구성원들에게 예의 바르고 정중하게 행동하고 구성원들을 존중해주세요. 지역, 인종, 성별 또는 기타 다양한 방식의 무례함과 학대는 용납되지 않습니다. 오리진은 좋은 사람을 비열한 사람보다 훨씬 더 좋아합니다!
 * 다양성 및 참여 장려: 커뮤니티의 모든 사람이 자신의 배경과 기여도에 관계없이 환영받는 기분을 느끼게하고 커뮤니티 참여를 장려하기 위해 가능한 모든 일을 합니다.
@@ -54,31 +58,31 @@ OUSD는 완전한 오픈 소스 프로젝트이며, 모든 종류의 기여를 �
 
 #### 문제 보고
 
-오리진의 코드 또는 문서에서 버그, 실수 또는 불일치를 발견하면 깃헙(GitHub) 문제를 제출하여 알려주세요. 작은 문제라는 것은 없습니다. 오타를 고칠 수 있도록 도와주세요!
+If you find bugs, mistakes or inconsistencies in Origin’s code or documents, please let us know by filing a GitHub issue. No issue is too small. Help us fix our tpyos!
 
 #### 보안 이슈
 
-OUSD는 아직 초기 개발 단계이므로 프로토콜 또는 구현에 문제가 있을 수 있습니다. 오리진은 보안 취약점에 대해 매우 진지하게 고민하고 신경쓰고 있습니다. 보안 문제를 발견하면 즉시 연락주세요!
+OUSD is still in early development, which means there may be problems with the protocol or in our implementations. We take security vulnerabilities very seriously. If you discover a security issue, please bring it to our attention right away!
 
-보안 취약점을 발견 한 경우 보고서를 [security@originprotocol.com](mailto:security@originprotocol.com) 비공개로 보내거나 암호화 된 메시지를 </a>키베이스(Keybase) 상의 @joshfraser </1>로 보내주세요. 문제를 공적으로 제기하지 말아주시길 바랍니다. 버그 현상금에 대한 공개 방침(responsible disclosure) 및 적격성에 대한 지침을 검토해주세요.
+If you find a security vulnerability please send your report privately to [security@originprotocol.com](mailto:security@originprotocol.com) or send an encrypted message to [@joshfraser on Keybase](https://keybase.io/joshfraser). Please DO NOT file a public issue. Be sure to review our guidelines for responsible disclosure and eligibility for bug bounties.
 
 {% page-ref page="bug-bounties.md" %}
 
 #### **커뮤니티 개선**
 
-오리진은 우리의 기술만큼이나 커뮤니티를 소중히 생각합니다.
+Origin is just as much about community as it is about our technology.
 
-우리는 문서를 개선하고, 플랫폼과 인터페이스 할 새로운 도구를 구축하고, 새로운 사용자에게 단어를 전파하고, 새로운 사용자가 설정을 할 수 있도록 돕는 데 지속적인 도움이 필요합니다.
+We need constant help in improving our documentation, building new tools to interface with our platform, spreading the word to new users, helping new users getting setup and much more.
 
-도움을 제공해줄 수 있으시다면, 연락 주시기 바랍니다. [디스코드(Discord)](https://www.originprotocol.com/discord) 의 `일반(general)` 채널은 아이디어를 공유하고 자원 봉사를 할 수있는 좋은 장소입니다.
+Please get in touch if you would like to help out. Our `general` channel on [Discord](https://www.originprotocol.com/discord) is a great place to share ideas and volunteer to help.
 
 #### 채용 포지션
 
-오리진(Origin) 은 간혹 파트 타임 또는 풀 타임 개발자를 채용합니다.
+Origin occasionally hires developers for part-time or full-time positions.
 
-오리진은 이미 오리진 프로젝트에 기여하기 시작한 사람들을 고용하는 것을 선호합니다. 오리진 팀의 정규직 팀원이 되길 원하신다면, 가장 최선의 방법은 저희 팀과 협력하여 코드 기여를 시작하는 것입니다. 최소한 몇 개의 풀 리퀘스트를 병합하지 않았다면, 엔지니어링 팀에서 정규직을 제공 할 가능성은 거의 없습니다.
+We have a strong preference for hiring people who have already started contributing to the project. If you want a full time position on our team, your best shot is to engage with our team and start contributing code. It is very unlikely that we would offer you a full-time position on our engineering team unless you’ve had at least a few pull requests merged.
 
-만약 관심이 있으시다면 [오리진 프로토콜(Origin Protocol) 채용 공고](https://angel.co/originprotocol/jobs)를 확인해주세요. 다른 방법으로 오리진에게 도움을 주고 싶다면 [디스코드(Discord) 채널](https://www.originprotocol.com/discord)에서 아이디어를 제안 해주세요.
+If you are interested, check out [the Origin Protocol job listings](https://angel.co/originprotocol/jobs). If you’d like to help in other ways, please propose your ideas in [our Discord channel](https://www.originprotocol.com/discord).
 
 
 
