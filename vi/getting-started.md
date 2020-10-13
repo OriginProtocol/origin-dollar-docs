@@ -34,7 +34,11 @@ Nếu bạn là nhà cung cấp ví hoặc sàn giao dịch tiền điện tử 
 
 {% page-ref page="smart-contracts/api/" %}
 
-**Yêu cầu hỗ trợ**
+**Developer Analytics**
 
-Vui lòng tham gia kênh Origin Dollar \ #engineering trên [Discord](www.originprotocol.com/discord) của Origin.  Đội ngũ của chúng tôi và các thành viên trong cộng đồng luôn sẵn sàng hỗ trợ bạn. Câu hỏi của bạn giúp sẽ giúp chúng tôi ngày càng hoàn thiện, vì vậy đừng ngần ngại cho chúng tôi biết thắc mắc của bạn nếu bạn không tìm thấy câu trả lời ở đây.
+Our internal developer dashboard is available at [analytics.ousd.com](https://analytics.ousd.com). The dashboard shows the current circulating supply, the assets under management in the vault, and the current allocations between each of the stablecoins and strategies.
+
+**Getting Help**
+
+Please join the Origin Dollar \#engineering room in Origin's [Discord](www.originprotocol.com/discord) server.  Our team and members of our community look forward to helping you build. Your questions help us improve, so please don't hesitate to ask if you can't find what you are looking for here.
 
