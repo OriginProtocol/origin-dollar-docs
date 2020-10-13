@@ -34,7 +34,11 @@ OUSD'yi desteklemekle ilgilenen bir cüzdan sağlayıcısı veya kripto borsası
 
 {% page-ref page = "smart-contracts / "%}
 
-**Yardım almak**
+**Developer Analytics**
 
-Lütfen Origin'in [Discord](www.originprotocol.com/discord) sunucusundaki Origin Dollar \ #engineering odasına katılın.  Ekibimiz ve topluluğumuzun üyeleri, inşa etmenize yardımcı olmak için sabırsızlanıyor. Sorularınız gelişmemize yardımcı olur, bu yüzden lütfen burada aradığınızı bulamazsanız sormaktan çekinmeyin.
+Our internal developer dashboard is available at [analytics.ousd.com](https://analytics.ousd.com). The dashboard shows the current circulating supply, the assets under management in the vault, and the current allocations between each of the stablecoins and strategies.
+
+**Getting Help**
+
+Please join the Origin Dollar \#engineering room in Origin's [Discord](www.originprotocol.com/discord) server.  Our team and members of our community look forward to helping you build. Your questions help us improve, so please don't hesitate to ask if you can't find what you are looking for here.
 
