@@ -2,7 +2,7 @@
 
 **Bug Bounties**
 
-Bug bounty diberikan atas kebijakan penuh dari Origin Protocol. The rewards range in size from **$100 OUSD** for minor issues to **$250,000 OUSD** for major vulnerabilities. Saat ini program bounty hanya berlaku untuk OUSD dan bukan produk lain dari Origin.
+Bug bounty diberikan atas kebijakan penuh dari Origin Protocol. Imbalannya berkisar dari **$ 100** untuk masalah kecil hingga **$ 250.000** untuk kerentanan besar. Saat ini program bounty hanya berlaku untuk OUSD dan bukan produk lain dari Origin.
 
 {% hint style="warning" %}
 Agar memenuhi syarat untuk menerima bug bounty, Anda harus mengikuti aturan Pengungkapan yang Bertanggung Jawab yang diuraikan di bawah.
