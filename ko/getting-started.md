@@ -34,7 +34,11 @@ OUSD는 비표준 ERC-20 토큰으로 이를 지원하려는 대부분의 애플
 
 {% page-ref page = "smart-contracts / api.md"%}
 
-**도움받기**
+**Developer Analytics**
 
-Origin의 [디스코드(Discord)](www.originprotocol.com/discord) 서버에서 오리진 달러(Origin Dollar) \ #engineering 채널에 가입 해주세요.  저희 팀과 커뮤니티 구성원들은 여러분이 OUSD를 편리하게 사용하실 수 있도록 도움을 드리고 싶습니다. 여러분의 질문들은 오리진이 서비스를 개선하는데 큰 도움이 됩니다. 따라서, 원하는 내용을 찾을수 없는 경우에는 주저하지 마시고 편하게 문의주세요.
+Our internal developer dashboard is available at [analytics.ousd.com](https://analytics.ousd.com). The dashboard shows the current circulating supply, the assets under management in the vault, and the current allocations between each of the stablecoins and strategies.
+
+**Getting Help**
+
+Please join the Origin Dollar \#engineering room in Origin's [Discord](www.originprotocol.com/discord) server.  Our team and members of our community look forward to helping you build. Your questions help us improve, so please don't hesitate to ask if you can't find what you are looking for here.
 
