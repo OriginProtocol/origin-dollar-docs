@@ -56,9 +56,9 @@ Vogliamo mantenere la community di Origin fantastica, in crescita e collaborativ
 
 Se trovi bug, errori o incongruenze nel codice o nei documenti di Origin, faccelo sapere segnalando un problema su GitHub. Nessun problema è troppo piccolo. Aiutaci a sistemare anche erori di batitura!
 
-#### Security Issues
+#### Problemi di sicurezza
 
-OUSD is still in early development, which means there may be problems with the protocol or in our implementations. We take security vulnerabilities very seriously. If you discover a security issue, please bring it to our attention right away!
+OUSD è ancora in fase di sviluppo iniziale, il che significa che potrebbero esserci problemi con il protocollo o nelle nostre implementazioni. Prendiamo molto seriamente le vulnerabilità sulla sicurezza. Se dovessi scoprire un problema di sicurezza, ti preghiamo di portarlo subito alla nostra attenzione!
 
 If you find a security vulnerability please send your report privately to [security@originprotocol.com](mailto:security@originprotocol.com) or send an encrypted message to [@joshfraser on Keybase](https://keybase.io/joshfraser). Please DO NOT file a public issue. Be sure to review our guidelines for responsible disclosure and eligibility for bug bounties.
 
