@@ -8,12 +8,12 @@ Compount è governato da COMP, un token di governance ERC-20. I titolari di COMP
 
 Il valore totale dei Compound bloccati \ (TVL\) è cresciuto rapidamente vicino agli $800 milioni, rendendolo uno dei più grandi protocolli di DeFi. In Ottobre 2020, il circulating market cap di COMP supera i $300 milioni.
 
-Compound è stato sottoposto a moltpelici revisioni di sicurezza, effettuati da OpenZeppelin e Trails of Bits. Il protocollo Compound è stato formalmente verificato da CertiK ed è stato sottoposto a stress test economici da Gauntlet. Compound gestisce un programma di bug bounty.
+Compound è stato sottoposto a moltpelici revisioni di sicurezza, effettuati da OpenZeppelin e Trails of Bits. Il protocollo Compound è stato formalmente verificato da CertiK ed è stato sottoposto a stress test economici da Gauntlet. Compound ha attivo un programma di bug bounty.
 
-| Resources      |                                                                                                                |
+| Risorse        |                                                                                                                |
 |:-------------- |:-------------------------------------------------------------------------------------------------------------- |
-| Official site  | [https://compound.finance/](https://compound.finance/)                                                         |
-| Developer docs | [https://compound.finance/docs](https://compound.finance/docs)                                                 |
+| Sito ufficiale | [https://compound.finance/](https://compound.finance/)                                                         |
+| Docs           | [https://compound.finance/docs](https://compound.finance/docs)                                                 |
 | GitHub         | [https://github.com/compound-finance/compound-protocol](https://github.com/compound-finance/compound-protocol) |
 | Discord        | [https://discord.com/invite/cU7vmVW](https://discord.com/invite/cU7vmVW)                                       |
 
