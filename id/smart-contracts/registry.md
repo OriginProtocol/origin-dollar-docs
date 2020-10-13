@@ -28,7 +28,7 @@ Kontrak implementasi internal:
 | VaultAdmin          | [0x69A8b2AE6a3606B766Be99C42328459167F51B25](https://etherscan.io/address/0x69A8b2AE6a3606B766Be99C42328459167F51B25) |
 | VaultCore           | [0x553845F9c44C43224620055eCa64C6cC79f5DdFD](https://etherscan.io/address/0x553845F9c44C43224620055eCa64C6cC79f5DdFD) |
 | Campur Oracle       | [0x4d4f5e7a1FE57F5cEB38BfcE8653EFFa5e584458](https://etherscan.io/address/0x4d4f5e7a1FE57F5cEB38BfcE8653EFFa5e584458) |
-| Rantai Oracle       | [0x8DE3Ac42F800a1186b6D70CB91e0D6876cC36759](https://etherscan.io/address/0x8DE3Ac42F800a1186b6D70CB91e0D6876cC36759) |
+| Chainlink Oracle    | [0x8DE3Ac42F800a1186b6D70CB91e0D6876cC36759](https://etherscan.io/address/0x8DE3Ac42F800a1186b6D70CB91e0D6876cC36759) |
 | Buka Uniswap Oracle | [0xa8f14F558aC70F5f52C37cD96d802ef9210023C5](https://etherscan.io/address/0xa8f14F558aC70F5f52C37cD96d802ef9210023C5) |
 {% endtab %}
 
