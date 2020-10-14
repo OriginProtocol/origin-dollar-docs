@@ -34,7 +34,11 @@ Jika Anda adalah penyedia dompet atau bursa kripto yang tertarik untuk mendukung
 
 {% page-ref page = "smart-contract / api /"%}
 
-**Mendapatkan bantuan**
+**Developer Analytics**
 
-Silakan bergabung dengan ruang Origin Dollar \ #engineering di server [Discord](www.originprotocol.com/discord) Origin.  Tim kami dan anggota komunitas kami berharap dapat membantu Anda membangun. Pertanyaan Anda membantu kami meningkatkan, jadi jangan ragu untuk bertanya jika Anda tidak dapat menemukan apa yang Anda cari di sini.
+Our internal developer dashboard is available at [analytics.ousd.com](https://analytics.ousd.com). The dashboard shows the current circulating supply, the assets under management in the vault, and the current allocations between each of the stablecoins and strategies.
+
+**Getting Help**
+
+Please join the Origin Dollar \#engineering room in Origin's [Discord](www.originprotocol.com/discord) server.  Our team and members of our community look forward to helping you build. Your questions help us improve, so please don't hesitate to ask if you can't find what you are looking for here.
 
