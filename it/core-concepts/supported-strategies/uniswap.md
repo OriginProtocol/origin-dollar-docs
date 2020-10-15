@@ -8,7 +8,7 @@ Uniswap è costruito su Ethereum ed è un protocollo ed exchange di liquidità d
 
 I market su Uniswap operano come pool di liquidità e non come i classici order book. Questi tipi di exchange vengono chiamati Automated Market Maker \(AMM\). Il tasso di cambio tra i due asset è determinato da una formula con prodotto costante e si muove lungo una curva di prezzo che dipende dal peso relativo di ogni asset nella pool. Questo incoraggia gli Arbitrageurs ad entrare nei liquidity pool per ribilanciare i pesi relativi e normalizzare il tasso di cambio.
 
-Traders can suffer from slippage if there is not enough liquidity in a given pool and may not be protected from unfavorable exchange rates. Liquidity providers may suffer impermanent loss when the pool exchange rate does not match market realities and arbitrageurs execute trades along the pricing curve.
+I trader potrebbero soffrire di slippage se non ci fosse abbastanza liquidità all'interno di una pool e potrebbero non essere protetti da tassi di scambio sfavorevoli. Liquidity providers may suffer impermanent loss when the pool exchange rate does not match market realities and arbitrageurs execute trades along the pricing curve.
 
 Pool participants are given Uniswap Liquidity Provider \(LP\) tokens that correspond to their share of liquidity provided in a given pool. These LP tokens are freely transferable. Participants can exit pools at any time by redeeming these tokens for the assets provided and fees accrued.
 
