@@ -1,14 +1,14 @@
 # Yearn.finance
 
 {% hint style="info" %}
-Coming soon. Yearn.finance has not yet been integrated.
+In arrivo. Yearn.finance non è ancora stato integrato.
 {% endhint %}
 
-Yearn.finance, formerly iEarn.finance, is a yield aggregation platform built on Ethereum and launched in January 2020 by Andre Cronje. Yearn manages yield farming and rebalancing strategies using a combination of automation and human decision making on behalf of users who have deposited capital.
+Yearn.finance, precedentemente iEarn.finance, è una piattaforma di aggregazione di rendimenti realizzata su Ethereum e lanciata a gennaio 2020 da Andre Cronje. Yearn gestisce il farming di yield e strategie di ribilanciamento, utilizzando una combinazione di decisioni umane e automazione, per conto degli utenti che hanno depositato del capitale.
 
-Yearn has two yield aggregation products, Earn and Vaults. Earn allows users to deposit stablecoins or wrapped BTC into liquidity pools on Curve to earn fees and governance token rewards. These assets are also lent out on platforms offering high yield and token rewards, adding to the yield earned.
+Yearn ha due prodotti di aggregazione di rendimento, Earn e Vaults. Earn permette agli utenti di depositare stablecoin o wrapped BTC in pool di liquidità su Curve per guadagnare commissioni e ottenere premi in token di governance. Questi asset vengono anche prestati su piattaforme che offrono ricompense ad alto rendimento e token di ricompensa, che si aggiungono al rendimento guadagnato.
 
-Vaults offer a more automated and managed experience. Users deposit assets such as LINK, Curve liquidity provider tokens, or stablecoins and the Vault pools these assets together and deploys the highest earning yield farming strategy as deemed safe by the community and Andre Cronje. Governance tokens earned as rewards are sold off for the original asset deposited and combined with other fees and automatically rolled into the Vault to compound yield. Strategies can be changed frequently and pooling assets together saves gas costs for users.
+I vault offrono un'esperienza più automatizzata e gestita. Users deposit assets such as LINK, Curve liquidity provider tokens, or stablecoins and the Vault pools these assets together and deploys the highest earning yield farming strategy as deemed safe by the community and Andre Cronje. Governance tokens earned as rewards are sold off for the original asset deposited and combined with other fees and automatically rolled into the Vault to compound yield. Strategies can be changed frequently and pooling assets together saves gas costs for users.
 
 Yearn is governed by YFI, an ERC-20 governance token. YFI holders can vote on protocol changes after agreeing to lock up their YFI for 3 days. YFI can also be staked for yield in the governance portal. This yield comes from fees charged to users on Yearn products. YFI was distributed entirely to liquidity providers on Curve and Balancer. There was no allocation for team members or investors.
 
