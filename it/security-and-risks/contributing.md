@@ -6,15 +6,15 @@ OUSD è un progetto interamente open source e accogliamo con piacere contributi 
 
 Noi lavoriamo pubblicamente e la nostra azienda è su Discord ed è aperta a tutti. Se hai domande o hai bisogno di aiuto per iniziare, i nostri canali OUSD su Discord sono il posto migliore per ricevere assistenza dal nostro team e dalla nostra community.
 
-**Developer Analytics**
+**Analytics per sviluppatori**
 
-Our internal developer dashboard is available at [analytics.ousd.com](https://analytics.ousd.com). The dashboard shows the current circulating supply, the assets under management in the vault, and the current allocations between each of the stablecoins and strategies.
+La nostra dashboard interna per sviluppatori è disponibile all'URL [analytics.ousd.com](https://analytics.ousd.com). La nostra dashboard mostra l'attuale offerta circolante, gli asset gestiti all'interno del vault e le attuali allocazioni tra ogni stablecoin e le strategie.
 
 #### Processo di sviluppo
 
-Our branching strategy is similar to [GitFlow](http://nvie.com/posts/a-successful-git-branching-model/), but we do all of our development in the `master` branch and have a `stable` branch for code that has been released.
+La nostra strategia di branching è simile a quella di [ GitFlow](http://nvie.com/posts/a-successful-git-branching-model/), ma noi sviluppiamo completamente nel branch `master` e utilizziamo il branch `stable` per il codice che viene rilasciato.
 
-Your development flow should look like:
+Il tuo flusso di sviluppo dovrebbe assomigliare a:
 
 1. Trova un problema interessante e comunicalo! Informa il canale `#engineering` su [Discord](https://discord.gg/jyxpUSe) su ciò cui tu vuoi lavorare.
 2. Informa un membro del [core team](https://github.com/orgs/OriginProtocol/teams/core/members) su Discord e chiedigli di essere aggiunto al nostro [contributors team](https://github.com/orgs/OriginProtocol/teams/contributors). Altrimenti, avrai bisogno di forkare il repository pertinente e pushare i branch di riferimento al tuo fork personale.
@@ -25,19 +25,19 @@ Your development flow should look like:
 7. Pusha il tuo branch sull'upstream repository \(i.e. https://github.com/OriginProtocol/\[repo\]\) in modo tale che gli altri collaboratori possano lavorarci facilmente, se necessario.
 8. Richiedi una revisione nel PR cliccando sull'icona con l'ingranaggio vicino alla scritta "Reviewers" nella colonna di destra.
 
-The `master` branch is locked so that only members of the [core team](https://github.com/orgs/OriginProtocol/teams/core) are able to merge your pull requests. Pull requests that are peer-reviewed by other trusted contributors will be fast-tracked and merged faster! Check in the `#engineering` Discord channel for appropriate reviewers.
+Il branch `master` è bloccato in modo tale che solo i membri del [core team](https://github.com/orgs/OriginProtocol/teams/core) possano essere in grado di fare il merge delle tue pull requests. Le pull request che vengono sottoposte alla revisione da altri collaboratori verificati, saranno accelerate e mergiate più velocemente! Controlla nel canale Discord `#engineering` per revisori appropriati.
 
 #### Stile del codice
 
-We use a variety of programming languages in our repositories. When contributing, please follow existing coding conventions and refer to the CONTRIBUTING.md file in the repository, if one exists.
+Nei nostri repository noi usiamo svariati linguaggi di programmazione. Se contribuisci, segui le convenzioni già esistenti e fai riferimento al file CONTRIBUTING.md nel repository stesso, se esiste.
 
-For JavaScript, we use [NPM’s style](https://docs.npmjs.com/misc/coding-style), which is automatically enforced via [prettier](https://prettier.io/).
+Per JavaScript, utilizziamo [lo stile NPM](https://docs.npmjs.com/misc/coding-style), che viene applicato automaticamente via [ prettier](https://prettier.io/).
 
-For Solidity, we use two-space indents.
+Per Solidity, utiliziamo l'indentazione con due spazi.
 
 #### Progettazione del Protocollo
 
-When considering protocol or implementation design proposals, we are looking for:
+A proposito delle proposte di progettazione di protocollo o di implementazione, ci aspettiamo:
 
 * Una descrizione del problema che questa proposta risolverebbe
 * Discussione dei trade-off coinvolti
@@ -45,11 +45,11 @@ When considering protocol or implementation design proposals, we are looking for
 * Link alla letteratura pertinente \ (RFC, documenti, ecc \)
 * Discussione della soluzione proposta
 
-Please note that protocol design is hard and meticulous work. You may need to review existing literature and think through generalized use cases.
+Si noti che la progettazione del protocollo è un lavoro duro e meticoloso. Potresti aver bisogno di rivedere la letteratura esistente e riflettere su casi d'uso generalizzati.
 
 #### Linee guida della community
 
-We want to keep the Origin community awesome, growing and collaborative. We need your help to keep it that way. To help with this we’ve come up with some general guidelines for the community as a whole:
+Vogliamo mantenere la community di Origin fantastica, in crescita e collaborativa. Abbiamo bisogno del tuo aiuto per mantenerla così. Per aiutare in questo, abbiamo elaborato alcune linee guida generali per la community nel suo insieme:
 
 * Sii gentile: sii cortese, rispettoso ed educato con gli altri membri della community: non saranno tollerati insulti su area geografica, raziali, di genere o di altra natura. Ci piacciono le brave persone molto più di quelle cattive!
 * Incoraggia la diversità e la partecipazione: fai sentire tutti i benvenuti nella nostra community, indipendentemente dal loro background e dalla quantità dei loro contributi, e fai il possibile per incoraggiare la partecipazione nella nostra community.
@@ -58,31 +58,31 @@ We want to keep the Origin community awesome, growing and collaborative. We need
 
 #### Segnalazione di problemi
 
-If you find bugs, mistakes or inconsistencies in Origin’s code or documents, please let us know by filing a GitHub issue. No issue is too small. Help us fix our tpyos!
+Se trovi bug, errori o incongruenze nel codice o nei documenti di Origin, faccelo sapere segnalando un problema su GitHub. Nessun problema è troppo piccolo. Aiutaci a sistemare anche erori di batitura!
 
 #### Problemi di sicurezza
 
-OUSD is still in early development, which means there may be problems with the protocol or in our implementations. We take security vulnerabilities very seriously. If you discover a security issue, please bring it to our attention right away!
+OUSD è ancora in fase di sviluppo iniziale, il che significa che potrebbero esserci problemi con il protocollo o nelle nostre implementazioni. Prendiamo molto seriamente le vulnerabilità sulla sicurezza. Se dovessi scoprire un problema di sicurezza, ti preghiamo di portarlo subito alla nostra attenzione!
 
-If you find a security vulnerability please send your report privately to [security@originprotocol.com](mailto:security@originprotocol.com) or send an encrypted message to [@joshfraser on Keybase](https://keybase.io/joshfraser). Please DO NOT file a public issue. Be sure to review our guidelines for responsible disclosure and eligibility for bug bounties.
+Se dovessi trovare una vulnerabilità legata alla sicurezza, per favore invia la tua segnalazione privatamente a [security@originprotocol.com](mailto:security@originprotocol.com) or invia un messaggio criptato a [@joshfraser su Keybase](https://keybase.io/joshfraser). Per favore NON presentare il problema in modo pubblico. Assicurati di rivedere le nostre linee guida per la divulgazione responsabile e per la tua eligibilità nella bug bounty.
 
 {% page-ref page="bug-bounties.md" %}
 
 #### **Miglioramento della community**
 
-Origin is just as much about community as it is about our technology.
+In Origin la community è tanto importante quanto la tecnologia.
 
-We need constant help in improving our documentation, building new tools to interface with our platform, spreading the word to new users, helping new users getting setup and much more.
+Abbiamo costante bisogno di migliorare la nostra documentazione, sviluppare nuovi tools per interfacciarci con la nostra piattaforma, spargere la voce a nuovi utenti, aiutare i nuovi utenti a prepararsi e molto altro ancora.
 
-Please get in touch if you would like to help out. Our `general` channel on [Discord](https://www.originprotocol.com/discord) is a great place to share ideas and volunteer to help.
+Per favore mettiti in contatto con noi se hai il desiderio di aiutare. Per i volontari, il nostro canale `general` su [Discord](https://www.originprotocol.com/discord) è un ottimo posto di condivisione di idee e per aiutare.
 
 #### Posizioni lavorative a tempo pieno
 
-Origin occasionally hires developers for part-time or full-time positions.
+Origin occasionalmente assume sviluppatori per posizioni part-time o full-time.
 
-We have a strong preference for hiring people who have already started contributing to the project. If you want a full time position on our team, your best shot is to engage with our team and start contributing code. It is very unlikely that we would offer you a full-time position on our engineering team unless you’ve had at least a few pull requests merged.
+Quando assumiamo, diamo preferenza a coloro che hanno già iniziato a contribuire al progetto. Se desideri una posizione a tempo pieno all'interno del nostro team, la soluzione migliore è impegnarti con il nostro team e iniziare a contribuire scrivendo codice. E' improbabile che ti offriamo posizioni full-time all'interno del nostro team di ingegneri, a meno che tu non abbia già mergiato qualche pull.
 
-If you are interested, check out [the Origin Protocol job listings](https://angel.co/originprotocol/jobs). If you’d like to help in other ways, please propose your ideas in [our Discord channel](https://www.originprotocol.com/discord).
+Se sei interessato, controlla [gli elenchi di lavoro di Origin Protocol](https://angel.co/originprotocol/jobs). Se desideri aiutare in altri modi, proponi le tue idee nel [nostro canale Discord](https://www.originprotocol.com/discord).
 
 
 
