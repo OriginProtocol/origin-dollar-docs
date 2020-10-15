@@ -14,14 +14,14 @@ I partecipanti alla pool ricevono token Uniswap Liquidity Provider \(LP\) che co
 
 Gli emittenti di token che cercano di aumentare la liquidità del loro token hanno offerto incentivi ai fornitori di liquidità nelle campagne di mining di liquidità. Anche i nuovi emittenti di token hanno lanciato i loro token nelle pool di Uniswap.
 
-I volumi di scambio su Uniswap ora eclissano quelli di molti altri mercati tradizionali e superano 200 milioni di dollari al giorno. Alla data attuale -ottobre 2020-, Uniswap ha circa 3 miliardi di dollari in valore totale bloccato \(TVL\) forniti dai liquidity providers. Uniswap does not have a native platform or governance token.
+I volumi di scambio su Uniswap ora eclissano quelli di molti altri mercati tradizionali e superano 200 milioni di dollari al giorno. Alla data attuale -ottobre 2020-, Uniswap ha circa 3 miliardi di dollari in valore totale bloccato \(TVL\) forniti dai liquidity providers. Uniswap non ha una piattaforma nativa o un token di governance.
 
-Uniswap has had its smart contracts audited and formally verfied by dapp.org. Uniswap maintains a bug bounty program.
+Uniswap ha fatto revisionare e verificare formalmente i suoi smart contract da dapp.org. Uniswap ha un programma di bug bounty.
 
-| Resources      |                                                                          |
+| Risorse        |                                                                          |
 |:-------------- |:------------------------------------------------------------------------ |
-| Official site  | [https://uniswap.org/](https://uniswap.org/)                             |
-| Developer docs | [https://uniswap.org/docs/v2](https://uniswap.org/docs/v2)               |
+| Sito ufficiale | [https://uniswap.org/](https://uniswap.org/)                             |
+| Docs           | [https://uniswap.org/docs/v2](https://uniswap.org/docs/v2)               |
 | GitHub         | [https://github.com/Uniswap](https://github.com/Uniswap)                 |
 | Discord        | [https://discord.com/invite/EwFs3Pp](https://discord.com/invite/EwFs3Pp) |
 
