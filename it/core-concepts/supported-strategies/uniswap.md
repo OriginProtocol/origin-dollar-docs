@@ -8,13 +8,13 @@ Uniswap è costruito su Ethereum ed è un protocollo ed exchange di liquidità d
 
 I market su Uniswap operano come pool di liquidità e non come i classici order book. Questi tipi di exchange vengono chiamati Automated Market Maker \(AMM\). Il tasso di cambio tra i due asset è determinato da una formula con prodotto costante e si muove lungo una curva di prezzo che dipende dal peso relativo di ogni asset nella pool. Questo incoraggia gli Arbitrageurs ad entrare nei liquidity pool per ribilanciare i pesi relativi e normalizzare il tasso di cambio.
 
-I trader potrebbero soffrire di slippage se non ci fosse abbastanza liquidità all'interno di una pool e potrebbero non essere protetti da tassi di scambio sfavorevoli. Liquidity providers may suffer impermanent loss when the pool exchange rate does not match market realities and arbitrageurs execute trades along the pricing curve.
+I trader potrebbero soffrire di slippage se non ci fosse abbastanza liquidità all'interno di una pool e potrebbero non essere protetti da tassi di scambio sfavorevoli. I liquidity provider potrebbero soffrire di impermanent loss qualora i tassi di cambio della pool non corrispondessero alla realtà del mercato e gli arbitrageur eseguissero scambi lungo la curva dei prezzi.
 
-Pool participants are given Uniswap Liquidity Provider \(LP\) tokens that correspond to their share of liquidity provided in a given pool. These LP tokens are freely transferable. Participants can exit pools at any time by redeeming these tokens for the assets provided and fees accrued.
+I partecipanti alla pool ricevono token Uniswap Liquidity Provider \(LP\) che corrispondono alla loro quota di liquidità fornita nella determinata pool. Questi token LP sono liberamente trasferibili. I parteicpanti possono uscire dalle pool in qualsiasi momento, riscattando questi token in cambio degli asset forniti e delle fee accumulate.
 
-Token issuers seeking to improve liquidity of their token have offered incentives to liquidity providers in liquidity mining campaigns. New token issuers have also launched their tokens on Uniswap pools.
+Gli emittenti di token che cercano di aumentare la liquidità del loro token hanno offerto incentivi ai fornitori di liquidità nelle campagne di mining di liquidità. Anche i nuovi emittenti di token hanno lanciato i loro token nelle pool di Uniswap.
 
-Trading volumes on Uniswap now eclipse that of many traditional exchanges and regularly surpass $200 million daily. Uniswap has over $170 million in Total Value Locked \(TVL\) by liquidity providers. Uniswap does not have a native platform or governance token.
+I volumi di scambio su Uniswap ora eclissano quelli di molti altri mercati tradizionali e superano 200 milioni di dollari al giorno. Alla data attuale -ottobre 2020-, Uniswap ha circa 3 miliardi di dollari in valore totale bloccato \(TVL\) forniti dai liquidity providers. Uniswap does not have a native platform or governance token.
 
 Uniswap has had its smart contracts audited and formally verfied by dapp.org. Uniswap maintains a bug bounty program.
 
