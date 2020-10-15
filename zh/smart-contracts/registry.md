@@ -37,13 +37,17 @@ Origin Dollar（OUSD）的主要 ERC20 地址为：
 
 | [Strategy](https://etherscan.io/address/0x52BEBd3d7f37EC4284853Fd5861Ae71253A7F428) | [Address](https://etherscan.io/address/0x52BEBd3d7f37EC4284853Fd5861Ae71253A7F428)                                    | [Current Allocation](https://etherscan.io/address/0x52BEBd3d7f37EC4284853Fd5861Ae71253A7F428) |
 |:----------------------------------------------------------------------------------- |:--------------------------------------------------------------------------------------------------------------------- |:--------------------------------------------------------------------------------------------- |
-| [Compound](https://etherscan.io/address/0x52BEBd3d7f37EC4284853Fd5861Ae71253A7F428) | [0x47211B1D1F6Da45aaEE06f877266E072Cf8BaA74](https://etherscan.io/address/0x52BEBd3d7f37EC4284853Fd5861Ae71253A7F428) | [100%](https://etherscan.io/address/0x52BEBd3d7f37EC4284853Fd5861Ae71253A7F428)               |
+| Curve \(USDT\)                                                                    | [0xe40e09cD6725E542001FcB900d9dfeA447B529C0](https://etherscan.io/address/0xe40e09cD6725E542001FcB900d9dfeA447B529C0) | 100%                                                                                          |
+| Curve \(USDC\)                                                                    | [0x67023c56548BA15aD3542E65493311F19aDFdd6d](https://etherscan.io/address/0x67023c56548BA15aD3542E65493311F19aDFdd6d) | 100%                                                                                          |
+| Compound \(DAI\)                                                                  | [0x12115A32a19e4994C2BA4A5437C22CEf5ABb59C3](https://etherscan.io/address/0x12115A32a19e4994C2BA4A5437C22CEf5ABb59C3) | 100%                                                                                          |
 
 [Internal implementation contracts:](https://etherscan.io/address/0x52BEBd3d7f37EC4284853Fd5861Ae71253A7F428)
 
 | [Strategy](https://etherscan.io/address/0x52BEBd3d7f37EC4284853Fd5861Ae71253A7F428) | [Address](https://etherscan.io/address/0x52BEBd3d7f37EC4284853Fd5861Ae71253A7F428)                                    |
 |:----------------------------------------------------------------------------------- |:--------------------------------------------------------------------------------------------------------------------- |
-| [Compound](https://etherscan.io/address/0x52BEBd3d7f37EC4284853Fd5861Ae71253A7F428) | [0x5B57e808b0ddCF097e25C5f5E3d8d3c2b0D26319](https://etherscan.io/address/0x52BEBd3d7f37EC4284853Fd5861Ae71253A7F428) |
+| Curve \(USDT\)                                                                    | [0xe7dd5B75A984FCb64EB7D3CbE22f124Eb9539b52](https://etherscan.io/address/0xe7dd5B75A984FCb64EB7D3CbE22f124Eb9539b52) |
+| Curve \(USDC\)                                                                    | [0xF92B0DE25660C18BEDaa55795986781d7899b0f9](https://etherscan.io/address/0xF92B0DE25660C18BEDaa55795986781d7899b0f9) |
+| Compound                                                                            | [0xFaf23Bd848126521064184282e8AD344490BA6f0](https://etherscan.io/address/0xFaf23Bd848126521064184282e8AD344490BA6f0) |
 {% endtab %}
 
 {% tab title="Stablecoins" %}
