@@ -34,11 +34,11 @@ Se tu sei un Wallet provider o un Exchange crypto e sei interessato al supporto 
 
 {% page-ref page="smart-contracts/api/" %}
 
-**Developer Analytics**
+**Analytics per sviluppatori**
 
-Our internal developer dashboard is available at [analytics.ousd.com](https://analytics.ousd.com). The dashboard shows the current circulating supply, the assets under management in the vault, and the current allocations between each of the stablecoins and strategies.
+La nostra dashboard interna per sviluppatori è disponibile all'URL [analytics.ousd.com](https://analytics.ousd.com). La nostra dashboard mostra l'attuale offerta circolante, gli asset gestiti all'interno del vault e le attuali allocazioni tra ogni stablecoin e le strategie.
 
-**Getting Help**
+**Ricevere Aiuto**
 
-Please join the Origin Dollar \#engineering room in Origin's [Discord](www.originprotocol.com/discord) server.  Our team and members of our community look forward to helping you build. Your questions help us improve, so please don't hesitate to ask if you can't find what you are looking for here.
+Unisciti con Origin Dollar alla room \#engineering del server [Discord](www.originprotocol.com/discord) di Origin.  Il nostro team e i membri della nostra community saranno felici di aiutarti a sviluppare. Le tue domande ci aiutereanno a migliorare, quindi non esitare a chiedere a noi se non stai trovando quello che cerchi.
 
