@@ -2,13 +2,13 @@
 
 **Raccogliere ricompense**
 
-In addition to collecting interest from lending and fees from market making, we intend to automatically claim and convert the bonus incentives that are being distributed by many of the DeFi protocols. For example, Compound gives away COMP tokens, Balancer gives away BAL tokens, and Curve gives away CRV tokens. These bonus rewards will be regularly converted into stablecoins, deployed in the market, and distributed to OUSD holders in the form of additional yield.
+Oltre che raccogliere interessi dai prestiti e le commissioni dal market making, intendiamo richiedere e convertire automaticamente gli incentivi bonus che vengono distribuiti da molti dei protocolli DeFi. Per esempio, Compound regala token COMP, Balancer regala token BAL e Curve regala token CRV. Questi premi bonus saranno regolarmente convertiti in stablecoin, rilasciati sul mercato e distribuiti ai possessori di OUSD nella forma di rendimento aggiuntivo.
 
 {% hint style="info" %}
-While the vault safely stores any unexpected rewards that it receives, custom strategies will need to be written and deployed to decide when and how the protocol should convert them to stablecoins.
+Mentre il vault archivia in modo sicuro ogni ricompensa imprevista che riceve, sarà necessario scrivere e implementare strategie personalizzate per decidere quando e come il protocollo dovrebbe convertirle in stablecoin.
 {% endhint %}
 
-Today, rewards are a significant factor for yield farmers as they represent a large percentage of their returns. We anticipate that the OUSD protocol will be upgraded over time to take advantage of the most attractive yields available across the DeFi landscape. The protocol will factor in the market value of the various rewards being offered when deciding how to best allocate resources.
+Oggi le ricompense sono un fattore significativo per i procacciatori di yield, in quanto rappresentano una larga percentuale dei loro rendimenti. Prevediamo che il protocollo OUSD verrà aggiornato nel tempo per sfruttare i rendimenti più interessanti disponibili nel panorama DeFi. Il protocollo terrà conto del valore di mercato delle varie ricompense offerte al momento di decidere come allocare al meglio le risorse.
 
 
 
