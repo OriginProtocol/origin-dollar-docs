@@ -1,10 +1,10 @@
-# Supported Strategies
+# Strategie Supportate
 
-**Supported DeFi Platforms**
+**Piattaforme DeFi supportate**
 
-OUSD generates yield by depositing stablecoins into lending platforms and market maker liquidity pools. It is important to understand that these platforms do carry technological risk and funds can be lost if there is a major security event. We are choosing to work with the platforms that have had their smart contracts audited and that we feel are most secure.
+OUSD genera rendimento depositando stablecoin in piattaforme di landing e in liquidity pool di market maker. E' importante capire che queste piattaforme comportano rischi tecnologici e che i fondi possono andare persi se si dovesse verificare un cattivo evento di sicurezza. Stiamo scegliendo di lavorare con le piattaforme che hanno fatto revisionare i propri smart contract e che ci fanno sentire di essere le più sicure.
 
-Currently, OUSD earns yield from the following platform\(s\):
+Attualmente, OUSD genera rendimenti dalle seguenti piattaforme:
 
 {% page-ref page="compound.md" %}
 
