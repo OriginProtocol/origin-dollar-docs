@@ -10,11 +10,11 @@ Yearn ha due prodotti di aggregazione di rendimento, Earn e Vaults. Earn permett
 
 I vault offrono un'esperienza più automatizzata e gestita. Gli utenti depositano gli asset come LINK, Token di liquidity provider Curve, o stablecoin, e il Vault li raccoglie insieme e implementa la strategia di yield con rendimento più alta ritenuta sicura dalla community e da Andre Cronje. I token di governance guadagnati come ricompense, vengono venduti in cambio dell'asset originale depositato e vengono aggiunti ad altre commission, e automaticamente vengono trasferiti nel Vault per generare interesse composto. Le strategie possono cambiare frequentemente e condividere gli asset insieme permette agli utenti di risparmiare costi di gas.
 
-Yearn è governato da YFI, un token di governance ERC-20. I titolari di YFI possono votare le modifiche al cambiamento del protocollo, dopo aver accettato di bloccare i loro YFI per 3 giorni. YFI can also be staked for yield in the governance portal. This yield comes from fees charged to users on Yearn products. YFI was distributed entirely to liquidity providers on Curve and Balancer. There was no allocation for team members or investors.
+Yearn è governato da YFI, un token di governance ERC-20. I titolari di YFI possono votare le modifiche al cambiamento del protocollo, dopo aver accettato di bloccare i loro YFI per 3 giorni. YFI può inoltre essere messo in stake nel portale di governance, in cambio di rendimento. Questo rendimento proviene dalle commissioni applicate agli utenti dei prodotti di Yearn. YFI è stato distribuito interamente ai liquidity providers su Curve e Balancer. Non ci sono stanziamenti per membri del team o investitori.
 
-Yearn's total value locked \(TVL\) has quickly grown to over $800 million, making it one of the largest DeFi platforms. YFI has a circulating market cap of over $400 million.
+Il valore totale bloccato \(TVL\) di Yearn è cresciuto velocemente fino ad oltre $900 milioni in Settembre 2020, rendendola una delle piattaforme DeFi più grandi al momento. YFI ha una capitalizzazione di mercato del circolante di oltre 400 milioni di dollari ad ottobre 2020.
 
-Yearn has undergone multiple security and smart contract audits by CertiK, Quantstamp, HackMD, and CryptoManiacs. Yearn has a reputation for launching experimental products very quickly and warns users that their products are in beta.
+Yearn e il suo smartcontrato sono stati sottoposti a molteplici revisioni di sicurezza da CertiK, Quantstamp, HackMD e CryptoManiacs. Yearn ha la reputazione di lanciare prodotti sperimentali molto rapidamente e avverte gli utenti che i loro prodotti sono in beta.
 
 | Risorse        |                                                                      |
 |:-------------- |:-------------------------------------------------------------------- |
