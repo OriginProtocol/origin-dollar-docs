@@ -8,7 +8,7 @@ Attualmente, OUSD genera rendimenti dalle seguenti piattaforme:
 
 {% page-ref page="compound.md" %}
 
-Integrations are currently planned or being built for the following platforms:
+Sono attualmente pianificate, o sono in fase di realizzazione, integrazioni per le seguenti piattaforme:
 
 {% page-ref page="aave.md" %}
 
@@ -22,9 +22,9 @@ Integrations are currently planned or being built for the following platforms:
 
 {% page-ref page="yearn.finance.md" %}
 
-Although DeFi has grown very quickly and there are now billions of dollars worth of value deposited on these platforms, several of these projects are still in beta and are highly experimental. There may be hidden vulnerabilities in the smart contracts that power these platforms, and there have been multi-million dollar losses caused by vulnerabilities in Ethereum applications in the past.
+Anche se la DeFi sia cresciuta molto rapidamente e ora ci siano miliardi di dollari di valore depositati su queste piattaforme, molti di questi progetti sono ancora in beta e sono altamente sperimentali. Potrebbero esserci vulnerabilità nascoste negli smartcontract che alimentano queste piattaforme, e in pasato ci sono state perdite per molti milioni di dollari, causate da vulnerabilità in applicazioni Ethereum.
 
-We closely monitor security events on the platforms we support and will immediately move to secure OUSD holder funds if we identify any threats.
+Noi monitoriamo attentamente gli eventi di sicurezza sulle piattaforme che supportiamo, e ci muoveremo immediatamente per tenere al sicuro i fondi dei titolari di OUSD se dovessimo identificare eventuali minacce.
 
 
 
