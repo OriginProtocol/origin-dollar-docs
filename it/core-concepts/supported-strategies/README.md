@@ -8,15 +8,15 @@ Attualmente, OUSD genera rendimenti dalle seguenti piattaforme:
 
 {% page-ref page="compound.md" %}
 
-Sono attualmente pianificate, o sono in fase di realizzazione, integrazioni per le seguenti piattaforme:
+{% page-ref page="curve.md" %}
+
+Integrations are currently planned or being built for the following platforms:
 
 {% page-ref page="aave.md" %}
 
 {% page-ref page="dydx.md" %}
 
 {% page-ref page="uniswap.md" %}
-
-{% page-ref page="curve.md" %}
 
 {% page-ref page="balancer.md" %}
 
