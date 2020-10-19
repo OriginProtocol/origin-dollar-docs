@@ -8,15 +8,15 @@ Actualmente, OUSD obtiene rendimientos de la siguiente plataforma \(s\):
 
 {% page-ref page="compound.md" %}
 
-Las integraciones están actualmente planificadas o en construcción para las siguientes plataformas:
+{% page-ref page="curve.md" %}
+
+Integrations are currently planned or being built for the following platforms:
 
 {% page-ref page="aave.md" %}
 
 {% page-ref page="dydx.md" %}
 
 {% page-ref page="uniswap.md" %}
-
-{% page-ref page="curve.md" %}
 
 {% page-ref page="balancer.md" %}
 
