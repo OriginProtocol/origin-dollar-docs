@@ -8,15 +8,15 @@ Hiện tại, đội ngũ có kế hoạch kiếm lợi nhuận từ các nền 
 
 {% page-ref page="compound.md" %}
 
-Dự kiến tích hợp thêm các nền tảng sau:
+{% page-ref page="curve.md" %}
+
+Integrations are currently planned or being built for the following platforms:
 
 {% page-ref page="aave.md" %}
 
 {% page-ref page="dydx.md" %}
 
 {% page-ref page="uniswap.md" %}
-
-{% page-ref page="curve.md" %}
 
 {% page-ref page="balancer.md" %}
 
