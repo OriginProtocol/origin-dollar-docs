@@ -8,15 +8,15 @@ OUSD는 스테이블 코인을 대출 플랫폼과 마켓 메이커 유동성 �
 
 {% page-ref page="compound.md" %}
 
-현재 다음 플랫폼에 대한 통합이 계획되어 있거나 이미 구축 진행 중에 있습니다:
+{% page-ref page="curve.md" %}
+
+Integrations are currently planned or being built for the following platforms:
 
 {% page-ref page="aave.md" %}
 
 {% page-ref page="dydx.md" %}
 
 {% page-ref page="uniswap.md" %}
-
-{% page-ref page="curve.md" %}
 
 {% page-ref page="balancer.md" %}
 
