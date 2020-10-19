@@ -8,6 +8,8 @@ Currently, OUSD earns yield from the following platform\(s\):
 
 {% page-ref page="compound.md" %}
 
+{% page-ref page="curve.md" %}
+
 Integrations are currently planned or being built for the following platforms:
 
 {% page-ref page="aave.md" %}
@@ -15,8 +17,6 @@ Integrations are currently planned or being built for the following platforms:
 {% page-ref page="dydx.md" %}
 
 {% page-ref page="uniswap.md" %}
-
-{% page-ref page="curve.md" %}
 
 {% page-ref page="balancer.md" %}
 
