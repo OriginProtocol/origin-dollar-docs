@@ -4,13 +4,13 @@
 
 I market maker automatizzati \(AMMs\) sono cresciuti rapidamente come forma preferita di scambio decentralizzato sul network di Ethereum. Ciò in parte è dovuto alla difficoltà di supportare gli order book DEX su Ethereum 1.0 che possano competere con gli attuali exchange centralizzati, istantanei e a basso slippage. Inoltre, gli AMM come Uniswap sono relativamente user-friendly ed efficienti dal punto di vista del gas.
 
-AMMs can only enable new markets when liquidity providers supply liquidity \(e.g. multiple tokens for given trading pairs or pools\). In return for providing liquidity, liquidity providers are rewarded with trading fees when other users swap tokens. For example, when traders swap USDT for USDC on Uniswap, they are currently charged 0.3% on top of gas fees. These fees are distributed pro-rata to liquidity providers on the USDT-USDC pair based on the percentage of total liquidity that they have provided.
+Gli AMM possono abilitare nuovi mercati solo quando i liquidity providers forniscono liquidità \(ad esempio più token per determinati pair o pool \). In cambio per fornire liquidità, i liquidity providers sono ricompensati con le commissioni di trading quando altri utenti swappano i token. Per esempio, quando i trader swappano USDT per USDC su Uniswap, vengono attualmente addebitati di un 0.3% al netto delle commissioni del gas. Queste commissioni vengono distribuite proporzionalmente ai liquidity providers del pair USDT-USDC, in base alla percentuale della liquidità totale che è stata fornita.
 
 {% hint style="info" %}
-[Impermanent loss](https://medium.com/@pintail/uniswap-a-good-deal-for-liquidity-providers-104c0b6816f2) is an important risk factor to understand, but this concern is largely mitigated by OUSD only providing liquidity for stablecoins of approximately equal value.
+[Impermanent loss](https://medium.com/@pintail/uniswap-a-good-deal-for-liquidity-providers-104c0b6816f2) è un fattore di rischio importante da capire, ma questa preoccupazione è altamente mitigata dal fatto che OUSD fornisce liquidità solo per stablecoin che hanno approssimatamente egual valore.
 {% endhint %}
 
-The OUSD protocol routes USDT, USDC, and DAI to highly-performing liquidity pools as determined by trading volume and rewards tokens \(e.g. Balancer rewards BAL tokens to liquidity providers\). Yields are then passed on to OUSD holders.
+Il protocollo OUSD indirizza USDT, USDC e DAI in pool altamente performanti determinati dal volume degli scambi e dai token di ricompensa \(ad esempio Balancer ricompensa con token DAI i suoi liquidity provider\). Gli Yields vengono quindi trasferiti ai detentori di OUSD.
 
 We intend to integrate directly with at least the following automated market makers:
 
