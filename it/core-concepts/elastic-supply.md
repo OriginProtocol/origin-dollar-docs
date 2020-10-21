@@ -5,7 +5,7 @@
 OUSD funziona differentemente dalla maggior parte dei token. Invece di aumentare il prezzo all'aumentare del valore degli asset in gestione \(come con i cToken di Compound o i yToken di Yearn\), il valore di un OUSD rimane costante e approssimato a 1$. Invece, gli smart contract regolano costantemente l'offerta monetaria e aggiorna automaticamente il saldo nel portafoglio di ogni token holder per riflettere il rendimento che è stato guadagnato dal protocollo.
 
 {% hint style="info" %}
-Think of it as interest accruing in your bank account. The unit of account and value for the US dollar doesn’t change. You just get more US dollars over time as you earn interest.
+Pensalo come un interesse maturato sul conto in banca. The unit of account and value for the US dollar doesn’t change. Ottieni più dollari statunitensi nel tempo, a mano a mano che guadagni interessi.
 {% endhint %}
 
 ![](../.gitbook/assets/ousd_docs_graphics_4.png)
