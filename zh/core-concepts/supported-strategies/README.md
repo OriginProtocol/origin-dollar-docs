@@ -10,9 +10,9 @@ OUSD 通过将稳定币存入贷款平台和做市商流动性池来产生收益
 
 {% page-ref page="curve.md" %}
 
-Integrations are currently planned or being built for the following platforms:
-
 {% page-ref page="aave.md" %}
+
+Integrations are currently planned or being built for the following platforms:
 
 {% page-ref page="dydx.md" %}
 
