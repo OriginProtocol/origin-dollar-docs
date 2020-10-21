@@ -116,36 +116,36 @@ Al fine di prevenire attacchi malevoli e per incoraggiare investitori di lungo p
 
 Ciò protegge i fondi nella pool ricompensando allo stesso tempo gli holder di lungo periodo. Poiché il prezzo più sicuro dipende dalla direzione del trade, lo smart contract dell'oracolo Origin espone sia la funzione `priceUSDMint()`, sia la funzione ` priceUSDRedeem()`.
 
-Here is the initial set of oracles that are being used by OUSD:
+Segue il set iniziale degli oracoli che vengono utilizzati da OUSD:
 
 {% embed url="https://compound.finance/docs/prices" caption="" %}
 
 {% embed url="https://feeds.chain.link/eth-usd" caption="" %}
 
-The following oracles have been implemented, but are not currently being used due to gas costs:
+I seguenti oracoli sono stati implementati ma non sono attualmente utilizzati a causa del costo del gas:
 
 {% embed url="https://uniswap.org/docs/v2/core-concepts/oracles/" caption="" %}
 
 {% tabs %}
 {% tab title="DAI/USD" %}
-The following oracles are used to fetch or compute a price for **DAI/USD:**
+I seguenti oracoli sono utilizzati per recuperare o calcolare il prezzo per il pair **DAI/USD**:
 
-| Oracle          | Pair      | Contract                                     |
-|:--------------- |:--------- |:-------------------------------------------- |
-| Open Price Feed | DAI/USD   | 0xc629c26dced4277419cde234012f8160a0278a79   |
-| Chainlink       | DAI/USD   | 0xa7D38FBD325a6467894A13EeFD977aFE558bC1f0   |
-| Chainlink       | DAI/ETH   | 0x037E8F2125bF532F3e228991e051c8A7253B642c   |
-| _Uniswap v2_    | _DAI/ETH_ | _0xA478c2975Ab1Ea89e8196811F51A7B7Ade33eB11_ |
+| Oracolo                    | Pair      | Smart Contract                               |
+|:-------------------------- |:--------- |:-------------------------------------------- |
+| Feed di prezzo di apertura | DAI/USD   | 0xc629c26dced4277419cde234012f8160a0278a79   |
+| Chainlink                  | DAI/USD   | 0xa7D38FBD325a6467894A13EeFD977aFE558bC1f0   |
+| Chainlink                  | DAI/ETH   | 0x037E8F2125bF532F3e228991e051c8A7253B642c   |
+| _Uniswap v2_               | _DAI/ETH_ | _0xA478c2975Ab1Ea89e8196811F51A7B7Ade33eB11_ |
 {% endtab %}
 
 {% tab title="USDT/USD" %}
-The following oracles are used to fetch or compute a price for **USDT/USD:**
+I seguenti oracoli vengono utilizzati per recuperare o calcolare il prezzo per il pair  **USDT/USD**:
 
-| O**racle**      | Pair       | Contract                                     |
-|:--------------- |:---------- |:-------------------------------------------- |
-| Chainlink       | USDT/ETH   | 0xa874fe207DF445ff19E7482C746C4D3fD0CB9AcE   |
-| Open Price Feed | USDC/USD   | 0xc629c26dced4277419cde234012f8160a0278a79   |
-| _Uniswap v2_    | _USDT/ETH_ | _0x0d4a11d5eeaac28ec3f61d100daf4d40471f1852_ |
+| **Oracolo**                | Pair       | Smart Contract                               |
+|:-------------------------- |:---------- |:-------------------------------------------- |
+| Chainlink                  | USDT/ETH   | 0xa874fe207DF445ff19E7482C746C4D3fD0CB9AcE   |
+| Feed di prezzo di apertura | USDC/USD   | 0xc629c26dced4277419cde234012f8160a0278a79   |
+| _Uniswap v2_               | _USDT/ETH_ | _0x0d4a11d5eeaac28ec3f61d100daf4d40471f1852_ |
 {% endtab %}
 
 {% tab title="USDC/USD" %}
