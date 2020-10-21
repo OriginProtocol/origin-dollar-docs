@@ -1,9 +1,5 @@
 # Aave
 
-{% hint style="info" %}
-Coming soon. Aave has not yet been integrated.
-{% endhint %}
-
 Aave is a lending protocol and platform built on Ethereum and launched in January 2020 by the creators of ETHLend. Users on Aave can earn compounding interest on or borrow assets against collateral. Each supported asset is aggregated in its own liquidity pool and users can choose between a variable interest rate based on supply and demand or a fixed interest rate.
 
 Collateral balances are represented by ERC-20 aTokens at a 1:1 ratio to the underlying assets they represent. Interest is compounded automatically and paid to lenders with aTokens, meaning lenders will steadily see their aToken balance increase over time. Users can borrow assets against their aTokens. aTokens are freely transferable and can be used on many other DeFi protocols. aTokens can be redeemed for their underlying collateral at any time.
