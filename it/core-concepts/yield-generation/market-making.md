@@ -1,8 +1,8 @@
 # Market Making
 
-**Possiedi il tuo stake negli Exchanges Decentralizzati**
+**Custodisci il tuo stake negli Exchanges Decentralizzati**
 
-I market maker automatizzati \(AMMs\) sono cresciuti rapidamente come forma preferita di scambio decentralizzato sul network di Ethereum. This is in part due to the difficulty of supporting order book DEXes on Ethereum 1.0 that can rival the instant and low-slippage experiences on centralized exchanges. Further, AMMs like Uniswap are relatively user-friendly and gas-efficient to use.
+I market maker automatizzati \(AMMs\) sono cresciuti rapidamente come forma preferita di scambio decentralizzato sul network di Ethereum. Ciò in parte è dovuto alla difficoltà di supportare gli order book DEX su Ethereum 1.0 che possano competere con gli attuali exchange centralizzati, istantanei e a basso slippage. Inoltre, gli AMM come Uniswap sono relativamente user-friendly ed efficienti dal punto di vista del gas.
 
 AMMs can only enable new markets when liquidity providers supply liquidity \(e.g. multiple tokens for given trading pairs or pools\). In return for providing liquidity, liquidity providers are rewarded with trading fees when other users swap tokens. For example, when traders swap USDT for USDC on Uniswap, they are currently charged 0.3% on top of gas fees. These fees are distributed pro-rata to liquidity providers on the USDT-USDC pair based on the percentage of total liquidity that they have provided.
 
