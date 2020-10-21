@@ -168,5 +168,5 @@ Poiché non tutti gli oracoli hanno pair diretti con USD, il protocollo controll
 {% endtab %}
 {% endtabs %}
 
-E' possibile che altri oracoli verranno aggiunti nel corso del tempo. Support may also be removed if any of these oracles become unreliable.
+E' possibile che altri oracoli verranno aggiunti nel corso del tempo. Il supporto di specifici oracoli potrà essere rimosso se si dovessero rivelare inaffidabili.
 
