@@ -12,7 +12,7 @@ Attualmente, OUSD genera rendimenti dalle seguenti piattaforme:
 
 {% page-ref page="aave.md" %}
 
-Integrations are currently planned or being built for the following platforms:
+Sono attualmente pianificate, o sono in fase di realizzazione, integrazioni per le seguenti piattaforme:
 
 {% page-ref page="dydx.md" %}
 
