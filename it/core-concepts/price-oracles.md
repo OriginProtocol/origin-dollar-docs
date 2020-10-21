@@ -1,6 +1,6 @@
-# Price Oracles
+# Oracoli di Prezzo
 
-OUSD is designed to stay pegged at 1 USD and be 1:1 backed with its underlying stablecoins. This is trickier than it sounds because these underlying stablecoins are constantly deviating from their own desired 1 USD pegs. While the majority of daily fluctuations are minor, there have been major swings in price that have occurred in the past and are likely to occur again in the future.
+OUSD è progettato per rimanere ancorato ad 1 USD e può essere supportato 1:1 con le sue stablecoin sottostanti. Questo è più complicato di quanto sembri perché queste stablecoin sottostanti si discostano costantemente dall'ancoraggio desiderato di 1 USD. Sebbene la maggior parte delle fluttuazioni giornalieri sono irrilevanti, ci sono state in passato oscillazioni di prezzo di grande importanza e si potrebbero verificare nuovamente anche in futuro.
 
 <table>
   <thead>
@@ -12,7 +12,7 @@ OUSD is designed to stay pegged at 1 USD and be 1:1 backed with its underlying s
       </th>
       <th style="text-align:left"><b>Delta</b>
       </th>
-      <th style="text-align:left"><b>Source</b>
+      <th style="text-align:left"><b>Fonte</b>
       </th>
     </tr>
   </thead>
@@ -21,11 +21,11 @@ OUSD is designed to stay pegged at 1 USD and be 1:1 backed with its underlying s
       <td style="text-align:left">USDC</td>
       <td style="text-align:left">
         <p>$0.929222</p>
-        <p>Mar 13, 2020</p>
+        <p>13/03/2020</p>
       </td>
       <td style="text-align:left">
         <p>$1.11</p>
-        <p>Oct 15, 2018</p>
+        <p>15/10/2018</p>
       </td>
       <td style="text-align:left">$0.180778</td>
       <td style="text-align:left"><a href="https://coinmarketcap.com/currencies/usd-coin/">CoinMarketCap</a>
@@ -35,11 +35,11 @@ OUSD is designed to stay pegged at 1 USD and be 1:1 backed with its underlying s
       <td style="text-align:left">USDC</td>
       <td style="text-align:left">
         <p>$0.924188</p>
-        <p>Aug 02, 2020</p>
+        <p>02/08/2020</p>
       </td>
       <td style="text-align:left">
         <p>$1.17</p>
-        <p>May 08, 2019</p>
+        <p>08/05/2019</p>
       </td>
       <td style="text-align:left">$0.245812</td>
       <td style="text-align:left"><a href="https://www.coingecko.com/en/coins/usd-coin">CoinGecko</a>
@@ -49,11 +49,11 @@ OUSD is designed to stay pegged at 1 USD and be 1:1 backed with its underlying s
       <td style="text-align:left">DAI</td>
       <td style="text-align:left">
         <p>$0.945505</p>
-        <p>May 10, 2020</p>
+        <p>10/05/2020</p>
       </td>
       <td style="text-align:left">
         <p>$1.11</p>
-        <p>Mar 13, 2020</p>
+        <p>13/03/2020</p>
       </td>
       <td style="text-align:left">$0.164495</td>
       <td style="text-align:left"><a href="https://coinmarketcap.com/currencies/multi-collateral-dai/">CoinMarketCap</a>
@@ -63,11 +63,11 @@ OUSD is designed to stay pegged at 1 USD and be 1:1 backed with its underlying s
       <td style="text-align:left">DAI</td>
       <td style="text-align:left">
         <p>$0.903243</p>
-        <p>Nov 25, 2019</p>
+        <p>25/11/2019</p>
       </td>
       <td style="text-align:left">
         <p>$1.22</p>
-        <p>Mar 13, 2020</p>
+        <p>13/03/2020</p>
       </td>
       <td style="text-align:left">$0.316757</td>
       <td style="text-align:left"><a href="https://www.coingecko.com/en/coins/dai">CoinGecko</a>
@@ -77,11 +77,11 @@ OUSD is designed to stay pegged at 1 USD and be 1:1 backed with its underlying s
       <td style="text-align:left">USDT</td>
       <td style="text-align:left">
         <p>$0.849809</p>
-        <p>Feb 02, 2017</p>
+        <p>02/02/2017</p>
       </td>
       <td style="text-align:left">
         <p>$1.21</p>
-        <p>May 27, 2017</p>
+        <p>27/05/2017</p>
       </td>
       <td style="text-align:left">$0.360191</td>
       <td style="text-align:left"><a href="https://www.coingecko.com/en/coins/tether">CoinGecko</a>
@@ -91,11 +91,11 @@ OUSD is designed to stay pegged at 1 USD and be 1:1 backed with its underlying s
       <td style="text-align:left">USDT</td>
       <td style="text-align:left">
         <p>$0.572521</p>
-        <p>Mar 02, 2015</p>
+        <p>02/03/2015</p>
       </td>
       <td style="text-align:left">
         <p>$1.32</p>
-        <p>Jul 24, 2018</p>
+        <p>24/07/2018</p>
       </td>
       <td style="text-align:left">$0.747479</td>
       <td style="text-align:left"><a href="https://coinmarketcap.com/currencies/tether/">CoinMarketCap</a>
