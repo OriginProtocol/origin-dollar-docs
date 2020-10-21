@@ -149,24 +149,24 @@ I seguenti oracoli vengono utilizzati per recuperare o calcolare il prezzo per i
 {% endtab %}
 
 {% tab title="USDC/USD" %}
-The following oracles are used to fetch or compute a price for **USDC/USD:**
+I seguenti oracoli vengono utilizzati per recuperare o calcolare il prezzo per il pair **USDC/USD**:
 
-| O**racle**      | Pair       | Contract                                     |
-|:--------------- |:---------- |:-------------------------------------------- |
-| Chainlink       | USDC/ETH   | 0xdE54467873c3BCAA76421061036053e371721708   |
-| Open Price Feed | USDC/USD   | 0xc629c26dced4277419cde234012f8160a0278a79   |
-| _Uniswap v2_    | _USDC/ETH_ | _0xb4e16d0168e52d35cacd2c6185b44281ec28c9dc_ |
+| **Oracolo**                | Pair       | Smart Contract                               |
+|:-------------------------- |:---------- |:-------------------------------------------- |
+| Chainlink                  | USDC/ETH   | 0xdE54467873c3BCAA76421061036053e371721708   |
+| Feed di prezzo di apertura | USDC/USD   | 0xc629c26dced4277419cde234012f8160a0278a79   |
+| _Uniswap v2_               | _USDC/ETH_ | _0xb4e16d0168e52d35cacd2c6185b44281ec28c9dc_ |
 {% endtab %}
 
 {% tab title="ETH/USD" %}
-Since not all oracles have direct USD pairs, the protocol also fetches the prices for **ETH/USD** in order to calculate USD prices using ETH. Again, to be safe, the protocol chooses the most advantageous for the fund instead of the individual.
+Poiché non tutti gli oracoli hanno pair diretti con USD, il protocollo controlla anche i prezzi del pair **ETH/USD** al fine di calcolare i prezzi di USD tramite ETH. In aggiunta, per sicurezza, il protocollo sceglie il più vantaggioso per l'intero fondo e non per il singolo individuo.
 
-| Oracle          | Pair    | Contract                                   |
-|:--------------- |:------- |:------------------------------------------ |
-| Open Price Feed | ETH/USD | 0x922018674c12a7f0d394ebeef9b58f186cde13c1 |
-| Chainlink       | ETH/USD | 0xF79D6aFBb6dA890132F9D7c355e3015f15F3406F |
+| Oracolo                    | Pair    | Smart Contract                             |
+|:-------------------------- |:------- |:------------------------------------------ |
+| Feed di prezzo di apertura | ETH/USD | 0x922018674c12a7f0d394ebeef9b58f186cde13c1 |
+| Chainlink                  | ETH/USD | 0xF79D6aFBb6dA890132F9D7c355e3015f15F3406F |
 {% endtab %}
 {% endtabs %}
 
-It is possible that additional oracles will be added to the protocol over time. Support may also be removed if any of these oracles become unreliable.
+E' possibile che altri oracoli verranno aggiunti nel corso del tempo. Support may also be removed if any of these oracles become unreliable.
 
