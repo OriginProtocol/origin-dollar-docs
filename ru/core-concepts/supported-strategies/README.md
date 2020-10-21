@@ -8,15 +8,15 @@ OUSD генерирует доход за счет размещения стей
 
 {% page-ref page="compound.md" %}
 
-В настоящее время планируются или разрабатываются интеграции для следующих платформ:
+{% page-ref page="curve.md" %}
 
 {% page-ref page="aave.md" %}
+
+Integrations are currently planned or being built for the following platforms:
 
 {% page-ref page="dydx.md" %}
 
 {% page-ref page="uniswap.md" %}
-
-{% page-ref page="curve.md" %}
 
 {% page-ref page="balancer.md" %}
 
