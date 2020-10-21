@@ -12,7 +12,7 @@ Gli AMM possono abilitare nuovi mercati solo quando i liquidity providers fornis
 
 Il protocollo OUSD indirizza USDT, USDC e DAI in pool altamente performanti determinati dal volume degli scambi e dai token di ricompensa \(ad esempio Balancer ricompensa con token DAI i suoi liquidity provider\). Gli Yields vengono quindi trasferiti ai detentori di OUSD.
 
-We intend to integrate directly with at least the following automated market makers:
+Intendiamo integrarci in modo diretto con almeno i seguenti market maker automatici:
 
 {% page-ref page="../supported-strategies/uniswap.md" %}
 
