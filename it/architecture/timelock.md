@@ -1,20 +1,20 @@
 # Timelock
 
 {% hint style="danger" %}
-Il timelock verrà aggiunto subito dopo che tutto sarà stato verificato come funzionante. Fino ad allora, i contratti saranno disciplinati da 5-8 multi-sig di Origin. This allows for a faster response if any critical issues are discovered.
+Il timelock verrà aggiunto subito dopo che tutto sarà stato verificato come funzionante. Fino ad allora, i contratti saranno disciplinati da 5-8 multi-sig di Origin. Questo permette una più immediata risposta verso qualsiasi problematica che possa venir scoperta.
 {% endhint %}
 
-The timelock contract enforces a 48 hour wait period before any changes to the OUSD contracts can be executed. The timelock can be called by our multi-sig and is the owner of our [ERC-20](erc-20.md), [Vault](vault.md), and [Strategies](strategies.md) contracts. Time-delaying admin actions gives users a chance to exit OUSD if its admins become malicious, are compromised, or make a change that the users do not like.
+Il contratto timelock applica un periodo di attesa di 48 ore prima che qualsiasi modifica ai contratti OUSD possano essere eseguiti. Il timelock può essere chiamato dal nostro multi-sig ed è il proprietario dei nostri contratti [ERC-20](erc-20.md),[Vault](vault.md), e [Strategie](strategies.md). Le azioni di amministrazione ritardate offrono agli utenti la possibilità di uscire da OUSD se i suoi amministratori diventassero malevoli, se venissero compromessi o se apportassero una modifica non gradita agli utenti.
 
 {% hint style="info" %}
-The timelock is a safety measure that gives OUSD holders 48 hours to withdraw their funds if they have objections to any proposed upgrades to the protocol.
+Il timelock è una misura di sicurezza che offre 48 ore ai titolari di OUSD per ritirare i propri fondi se dovessero avere obiezioni a qualsiasi aggiornamento proposto al protocollo.
 {% endhint %}
 
-OUSD is using a slightly modified version of the [Compound Timelock](https://compound.finance/docs/governance) which has been [audited by OpenZeppelin](https://blog.openzeppelin.com/compound-finance-patch-audit/). The 3 notable differences are:
+OUSD utilizza una versione leggermente modificata di [Compound Timelock](https://compound.finance/docs/governance) che è stata [verificata da OpenZeppelin](https://blog.openzeppelin.com/compound-finance-patch-audit/). Le 3 differenze principali sono:
 
-1. OUSD will initially use a shorter wait period \(48 hours\) than Compound \(72 hours\) to allow for a faster response if any issues are discovered.
-2. Once the 48 hours have passed, anyone is free to execute the call, not just the owner of the contract.
-3. Deposits \(but not withdrawals or transfers\) can be immediately frozen without requiring the 48 waiting period. This is in case a major vulnerability is discovered.
+1. OUSD inizialmente utilizzerà un periodo di attesa più breve \(48 ore\) rispetto a quello di Compund \(72 ore\), per permettere una più rapida risposta a qualsiasi tipo di problema riscontrato.
+2. Una volta che le 48 ore saranno passate, chiunque sarà libero di eseguire le chiamate, e non più solo il proprietario del contratto.
+3. I depositi \(ma non i ritiri o i trasferimenti\) potranno essere immediatamente congelati senza richiedere il periodo di attesa di 48 ore. Questo è nel caso in cui venga scoperta una grave vulnerabilità.
 
 
 
