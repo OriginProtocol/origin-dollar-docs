@@ -13,6 +13,6 @@ Pensalo come un interesse maturato sul conto in banca. The unit of account and v
 Questo meccanismo è stato ispirato dal nuovo approccio adottato da [ Ampleforth](https://www.ampleforth.org/), ma ci sono alcune differenze chiave che vale la pena evidenziare:
 
 1. OUSD è supportato al 1''% da stablecoin e non avrà il problema di mantenersi ancorato al dollaro. Data la facilità di generazione e di riscatto degli OUSD, possiamo contare sulla presenza degli arbitraggisti per garantire l'ancoraggio.
-2. OUSD rebasing should only increase supply since the amount of OUSD minted is tied to the realized gains earned by the underlying strategies. Your principal is protected as long as nothing goes wrong with the underlying lending/AMM and stablecoin protocols. Any decrease in your balance would be an indication of trouble in the system.
-3. Unlike Ampleforth, which rebases once a day, the monetary supply of OUSD is constantly being updated in real-time as yield is generated.
+2. Il ribasamento di OUSD dovrebbe solo aumentare l'offerta poiché la quantità di OUSD coniati è legata ai guadagni realizzati guadagnati dalle strategie sottostanti. Il tuo capitale è protetto fintanto che va tutto bene con i protocolli di prestito/AMM e stablecoin. Qualsiasi calo del saldo sarebbe un indicazione di problemi nel sistema.
+3. A differenza di Ampleforth, che fa il ribasamento una volta al giorno, l'offerta monetaria di OUSD è aggiornata costantemente in tempo reale a mano a mano che viene generato il rendimento.
 
