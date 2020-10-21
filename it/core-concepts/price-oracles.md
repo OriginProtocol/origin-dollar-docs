@@ -104,17 +104,17 @@ OUSD è progettato per rimanere ancorato ad 1 USD e può essere supportato 1:1 c
   </tbody>
 </table>
 
-The rebasing function treats 1 stablecoin as 1 OUSD for simplicity and to protect OUSD balances from being affected by the daily fluctuations in the price of the underlying stablecoins. Since the rebase function only counts coins, OUSD balances should only increase.
+La funzione di ribasamento tratta 1 stablecoin come fosse 1 OUSD per semplicità e per proteggere il saldo OUSD dalle fluttuazioni del prezzo delle stablecoin sottostanti. Since the rebase function only counts coins, OUSD balances should only increase.
 
-In order to mint and redeem the appropriate number of OUSD on entry and exit, the smart contracts need to accurately price the USDT, USDC, and DAI that is entering and exiting the system. As a decentralized protocol, OUSD must rely on non-centralized sources for these prices.
+Per coniare e riscuotere l'appropriato numero di OUSD in entrata e uscita, gli smart contract hanno bisogno di prezzare accuratamente gli USDT, USDC e DAI che entrano ed escono dal sistema. In qualità di protocollo decentralizzato, OUSD deve riferirsi a sorgenti non centralizzate per questi prezzi.
 
 {% hint style="info" %}
-OUSD fetches the price from multiple on-chain oracles and uses the exchange rate that is most advantageous for the pool when minting or redeeming.
+OUSD recupera il prezzo da molteplici oracoli on-chain e utilizza i tassi di cambio che sono più vantaggiosi per la pool al momento della coniazione o del riscatto.
 {% endhint %}
 
-In order to prevent malicious attacks and to encourage long-term investors over short-term speculators, the OUSD contract compares price feeds from multiple sources and will use whichever exchange rate benefits the entire pool over the individual. This mechanism protects the pool's funds from arbitrageurs and prevents any individual from being able to take advantage of any temporary inefficiencies caused by mispriced oracles to deplete the shared pool of assets.
+Al fine di prevenire attacchi malevoli e per incoraggiare investitori di lungo periodo invece di speculatori di breve periodo, lo smart contract OUSD confronta i feed di prezzo da molteplici fonti e utilizzerà il tasso di cambio a vantaggio dell'intero pool rispetto al singolo. Questo meccanismo protegge i fondi della pool dagli arbitraggi e impedisce a qualsiasi individuo di essere in grado di trarre vantaggio da eventuali inefficienze temporanee causate da errori di prezzo provenienti dagli oracoli, per depredare gli asset dal pool condiviso.
 
-This protects the funds in the pool while rewarding long-term holders. Since the safest price depends on the direction of the trade, the Origin oracle exposes both a `priceUSDMint()` and a `priceUSDRedeem()`.
+Ciò protegge i fondi nella pool ricompensando allo stesso tempo gli holder di lungo periodo. Poiché il prezzo più sicuro dipende dalla direzione del trade, lo smart contract dell'oracolo Origin espone sia la funzione `priceUSDMint()`, sia la funzione ` priceUSDRedeem()`.
 
 Here is the initial set of oracles that are being used by OUSD:
 
