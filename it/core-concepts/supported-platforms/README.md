@@ -1,14 +1,14 @@
-# Supported Platforms
+# Piattaforme supportate
 
-**Supported Platforms**
+**Piattaforme supportate**
 
-OUSD generates yield by depositing stablecoins into lending platforms and market maker liquidity pools. It is important to understand that these platforms do carry technological risk and funds can be lost if there is a major security event. We are choosing to work with the platforms that have had their smart contracts audited and that we feel are most secure.
+OUSD genera rendimento depositando stablecoin in piattaforme di landing e in liquidity pool di market maker. E' importante capire che queste piattaforme comportano rischi tecnologici e che i fondi possono andare persi se si dovesse verificare un cattivo evento di sicurezza. Stiamo scegliendo di lavorare con le piattaforme che hanno fatto revisionare i propri smart contract e che ci fanno sentire di essere le più sicure.
 
-Currently, we plan to earn yields from the following platforms:
+Attualmente prevediamo di maturare rendimenti dalle seguenti piattaforme:
 
 {% page-ref page="compound.md" %}
 
-Integrations are currently planned for the following platforms:
+Sono attualmente pianificate le integrazioni delle seguenti piattaforme:
 
 {% page-ref page="yearn.finance.md" %}
 
@@ -24,9 +24,9 @@ Integrations are currently planned for the following platforms:
 
 {% page-ref page="balancer.md" %}
 
-Although DeFi has grown very quickly and there are now billions of dollars worth of value deposited on these platforms, several of these projects are still in beta and are highly experimental. There may be hidden vulnerabilities in the smart contracts that power these platforms, and there have been multi-million dollar losses caused by vulnerabilities in Ethereum applications in the past.
+Anche se la DeFi sia cresciuta molto rapidamente e ora ci siano miliardi di dollari di valore depositati su queste piattaforme, molti di questi progetti sono ancora in beta e sono altamente sperimentali. Potrebbero esserci vulnerabilità nascoste negli smartcontract che alimentano queste piattaforme, e in pasato ci sono state perdite per molti milioni di dollari, causate da vulnerabilità in applicazioni Ethereum.
 
-We closely monitor security events on the platforms we support and will immediately move to secure OUSD holder funds if we identify any threats.
+Noi monitoriamo attentamente gli eventi di sicurezza sulle piattaforme che supportiamo, e ci muoveremo immediatamente per tenere al sicuro i fondi dei titolari di OUSD se dovessimo identificare eventuali minacce.
 
 
 
