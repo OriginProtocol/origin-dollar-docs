@@ -1,6 +1,6 @@
 # Strategie di guadagno
 
-Earning strategies put deployed capital to work across various DeFi platforms. The Vault will determine which strategies are active and what percentage of deployed capital they will receive.
+Le strategie di guadagno mettono il capitale distribuito per funzionare attraverso varie piattaforme DeFi. Il Vault determinerà quali strategie sono attive e quale percentuale di capitale distribuito riceveranno.
 
-In addition, strategies will be upgraded over time. For example, at launch, there will be an initial [Compound strategy](../supported-strategies/compound.md). Over time, this may be replaced by a v2 or v3 Compound strategy.
+Inoltre, le strategie verranno aggiornate nel tempo. Per esempio, al lancio, ci sarà una [Strategia Compund](../supported-strategies/compound.md) iniziale. Nel tempo, questo può essere sostituito da una strategia Compund v2 o v3.
 
