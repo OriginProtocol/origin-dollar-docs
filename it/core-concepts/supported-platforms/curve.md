@@ -1,25 +1,25 @@
 # Curve
 
 {% hint style="info" %}
-Coming soon. Curve has not yet been integrated.
+In arrivo. Curve non è ancora stato integrato.
 {% endhint %}
 
-Curve is a decentralized liquidity protocol and exchange on Ethereum for stablecoins and wrapped BTC, launched in January 2020. Users can swap between popular ERC-20 stablecoins or between ERC-20 representations of bitcoin. Liquidity providers facilitate trading and earn fees.
+Curve è costruito su Ethereum ed è un protocollo ed exchange di liquidità decentralizzata per stablecoin e wrapped BTC, lanciato a gennaio 2020. Gli utenti possono swappare tra loro stablecoin di tipo ERC-20 o tra la rappresentazione ERC-20 di bitcoin su Ethereum. I liquidity providers, facilitano il trading e guadagnano commissioni.
 
-Curve is an Automated Market Maker \(AMM\) where each market has an associated liquidity pool with two or more assets that should have the same value, like USDT, USDC, DAI and TUSD, which are all US dollar pegged stablecoins. The exchange rate between each stablecoin and their relative weights are determined by an algorithm based on supply and demand. Arbitrageurs act to normalize these exchange rates.
+Curve è un Automated Market Maker \(AMM\), in cui ogni market ha un pool di liquidità associato con due o più asset con lo stesso valore, come USDT, USDC, DAI e TUSD, le quali sono infatti tutte stablecoin ancorate al dollaro USA. Il tasso di cambio tra ogni stablecoin e i relativi pesi sono determinati da un algoritmo basato su domanda e offerta. I trader che fanno arbitraggio agiscono per normalizzare questi tassi di cambio.
 
-Some of Curve's liquidity pools earn extra fees for liquidity providers on top of the exchange fees from traders. Curve offers stablecoin pools integrated with Compound, yearn.finance, and Synthetix. The assets in each liquidity pool are provided to those platforms to generate additional yield which is passed on to each pool's liquidity providers. Liquidity Provider \(LP\) tokens are given to pool participants and can be redeemed for their initial liquidity supplied plus accrued fees and yield. LP tokens can also transferred for use in other protocols.
+Alcuni dei pool di liquidità di Curve guadagnano commissioni extra per i fornitori di liquidità oltre alle commissioni di scambio dei trader. Curve offre pool di stablecoin integrate con Compound, yearn.finance, e Synthetix. Gli asset in ogni liquidity pool, sono forniti da queste piattaforme per generare un rendimento aggiuntivo che viene trasferito ai fornitori di liquidità di ciascuna pool. I token di Liquidity Provider \(LP\) vengono dati ai partecipanti della pool e possono essere riscattati per la loro liquidità iniziale, più le commissioni e il rendimento maturati. I token LP possono anche essere trasferiti per essere utilizzati in altri protocolli.
 
-Curve is governed by CRV, an ERC-20 governance token. CRV holders can vote on protocol changes. CRV holders can stake their tokens for additional voting power proportional to time staked. CRV is continuously awarded to liquidity providers and a large portion of the total supply of CRV was allocated to the team and investors on a continuous vesting schedule.
+Curve è governato da CRV, un token di governance ERC-20. I possessori di CRV possono votare le modifiche al protocollo. I possessori di CRV possono mettere in stake i loro token per un potere di voto addizionale, proporzionale al tempo di staking. CRV è costantemente assegnato ai fornitori di liquidità e gran parte della supply totale di CRV è stata assegnata al team e agli investitori secondo un programma di acquisizione continua.
 
-Trading volumes on Curve are often over $50 million daily. Curve has a Total Value Locked \(TVL\) of over $1 billion by liquidity providers at the time of writing.
+I volumi di trading su Curve superano spesso i 50 milioni di dollari al giorno. Il Curve ha un Valore Totale Bloccato \(TVL\) di oltre 1 trilioni di dollari da parte dei fornitori di liquidità nel momento in cui scriviamo.
 
-Curve has undergone two audits by Trail of Bits and maintains a bug bounty program.
+Curve è stato sottoposto a due audit eseguiti da Trail of Bits e ha un programma di Bug bounty.
 
-| Resources      |                                                                          |
+| Risorse        |                                                                          |
 |:-------------- |:------------------------------------------------------------------------ |
-| Official site  | [https://uniswap.org/](https://uniswap.org/)                             |
-| Developer docs | [https://uniswap.org/docs/v2](https://uniswap.org/docs/v2)               |
+| Sito ufficiale | [https://uniswap.org/](https://uniswap.org/)                             |
+| Docs           | [https://uniswap.org/docs/v2](https://uniswap.org/docs/v2)               |
 | GitHub         | [https://github.com/Uniswap](https://github.com/Uniswap)                 |
 | Discord        | [https://discord.com/invite/EwFs3Pp](https://discord.com/invite/EwFs3Pp) |
 
