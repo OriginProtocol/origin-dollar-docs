@@ -12,10 +12,10 @@ Aave's total value locked \(TVL\) has quickly grown to over $1.2 billion, making
 
 Aave has undergone security audits by OpenZeppelin, Trail of Bits, and Consensys Diligence. Aave maintains a bug bounty program.
 
-| 资源      |                                                                                |
-|:------- |:------------------------------------------------------------------------------ |
-| 官方网站    | [https://aave.com/](https://aave.com/)                                         |
-| 开发者文档   | [http://docs.aave.com/](http://docs.aave.com/)                                 |
-| GitHub  | [https://github.com/aave/aave-protocol](https://github.com/aave/aave-protocol) |
-| Discord | [https://aave.com/discord](https://aave.com/discord)                           |
+| Resources      |                                                                                |
+|:-------------- |:------------------------------------------------------------------------------ |
+| Official site  | [https://aave.com/](https://aave.com/)                                         |
+| Developer docs | [http://docs.aave.com/](http://docs.aave.com/)                                 |
+| GitHub         | [https://github.com/aave/aave-protocol](https://github.com/aave/aave-protocol) |
+| Discord        | [https://aave.com/discord](https://aave.com/discord)                           |
 
