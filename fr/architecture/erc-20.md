@@ -6,7 +6,7 @@ OUSD est basé sur une séries de contrats intelligents. Chacun de ces contrats 
 
 À l'interne, la propriété de ce pool est calculée à l'aide d'un système de crédit au prorata de chaque participants. Le contrat ERC-20 gère la conversion en dollar US lorsque la balance est affichée ou qu'un transfère entre portefeuille est initité.
 
-The Vault is responsible for minting and burning OUSD. It also enforces the percentage of assets that are deployed to each of the supported [Strategies](../core-concepts/supported-strategies/). To optimize gas costs, the vault maintains a buffer to allow most deposits and redemptions to occur without winding/unwinding assets from strategies.
+La voute est responsable de la création et la destruction des OUSD. It also enforces the percentage of assets that are deployed to each of the supported [Strategies](../core-concepts/supported-strategies/). To optimize gas costs, the vault maintains a buffer to allow most deposits and redemptions to occur without winding/unwinding assets from strategies.
 
 
 
