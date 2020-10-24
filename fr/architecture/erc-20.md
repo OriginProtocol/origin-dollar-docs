@@ -2,7 +2,7 @@
 
 ![](../.gitbook/assets/ousd_docs_graphics_3.png)
 
-OUSD est basé sur une séries de contrats intelligents. Each of these contracts is wrapped in a proxy contract that can be upgraded via the governance protocols.
+OUSD est basé sur une séries de contrats intelligents. Chacun de ces contrats est imbriqués dans un contrat auxillière qui peut être mis à jour via le protocole de gouvernance.
 
 Internally, ownership in the pool is tracked using a credits system that represents the percent ownership of the pool for each holder. The ERC-20 contract handles the conversion to USD terms when viewing a balance or initiating a transfer between wallets.
 
