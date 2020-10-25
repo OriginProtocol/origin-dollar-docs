@@ -1,6 +1,6 @@
 # Oracles
 
 {% hint style="info" %}
-Documentation coming soon.
+La documentation suivera sous peu.
 {% endhint %}
 
