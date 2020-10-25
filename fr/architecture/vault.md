@@ -1,8 +1,8 @@
 # Vault
 
-The vault is at the core of the protocol. The vault is responsible for minting/redeeming OUSD tokens, rebalancing funds between the various supported strategies, and liquidating rewards tokens.
+The vault is at the core of the protocol. La voute est responsable de la création et du rachat des jetons OUSD en plus de rebalancer les fonds entre les différentes stratégies et la liquidation des jetons gagnés.
 
-The most important publicly callable functions on the Vault are:
+La fonction appelable la plus importante de la Voute est:
 
 * `mint()`allows a single supported stablecoin to be converted to OUSD
 * `mintMultiple()`allows multiple supported stablecoins to be converted to OUSD in a single call
