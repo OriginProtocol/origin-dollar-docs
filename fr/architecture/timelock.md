@@ -12,9 +12,9 @@ Le verrouillage temporel est une mesure de sécurité qui donne aux détenteurs 
 
 OUSD utilise une version légèrement modifiée de [Compound Timelock](https://compound.finance/docs/governance) qui a été auditer par [audited by OpenZeppelin](https://blog.openzeppelin.com/compound-finance-patch-audit/). Les trois différences notoires sont:
 
-1. OUSD will initially use a shorter wait period \(48 hours\) than Compound \(72 hours\) to allow for a faster response if any issues are discovered.
-2. Once the 48 hours have passed, anyone is free to execute the call, not just the owner of the contract.
-3. Deposits \(but not withdrawals or transfers\) can be immediately frozen without requiring the 48 waiting period. This is in case a major vulnerability is discovered.
+1. OUSD utilisera initialement une prédiode d'attente plus courte (48 heures) que Compound (72 heures) pour permettre une réponse plus rapide si un enjeu survenait.
+2. Après le délais de 48 heure, n'importe qui est libre d'exécuter un appel, pas seulement le propriétaire du contrat.
+3. Les dépôts (mais pas les retraits ou les transferts) pourront être immédiatement gelés sans le délais nécessaire de 48 heures. Ceci sera utile seulement si une vulnérabilité majeure serait découverte.
 
 
 
