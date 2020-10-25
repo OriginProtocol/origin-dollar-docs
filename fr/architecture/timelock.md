@@ -1,10 +1,10 @@
-# Timelock
+# Verrouillage temporel
 
 {% hint style="danger" %}
-The timelock will be added soon after everything is verified as working. Until then, the contracts will be governed by Origin's 5 of 8 multi-sig. This allows for a faster response if any critical issues are discovered.
+Lorsque tout sera testé, le verrouillage temporel sera ajouté. D'ici là, les contrats seront gouvernées par Origin selon la méthode multi-sig (5 sur 8). Cela permettera une réponse plus rapide si un incident critique devait être découvert.
 {% endhint %}
 
-The timelock contract enforces a 48 hour wait period before any changes to the OUSD contracts can be executed. The timelock can be called by our multi-sig and is the owner of our [ERC-20](erc-20.md), [Vault](vault.md), and [Strategies](strategies.md) contracts. Time-delaying admin actions gives users a chance to exit OUSD if its admins become malicious, are compromised, or make a change that the users do not like.
+Le verrouillage temporel du contrat impose une période d'attente de 48 heures avant qu'il ne soit possible d'exécuter quelques changements que ce soit aux contrats OUSD. Le verrouillage temporel peut être appelé par notre multi-sig and est le propriétaore de nos contrats [ERC-20](erc-20.md), [Vault](vault.md), and [Strategies](strategies.md). Time-delaying admin actions gives users a chance to exit OUSD if its admins become malicious, are compromised, or make a change that the users do not like.
 
 {% hint style="info" %}
 The timelock is a safety measure that gives OUSD holders 48 hours to withdraw their funds if they have objections to any proposed upgrades to the protocol.
