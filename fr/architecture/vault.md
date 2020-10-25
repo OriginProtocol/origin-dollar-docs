@@ -4,14 +4,14 @@ The vault is at the core of the protocol. La voute est responsable de la créati
 
 La fonction appelable la plus importante de la Voute est:
 
-* `mint()`allows a single supported stablecoin to be converted to OUSD
-* `mintMultiple()`allows multiple supported stablecoins to be converted to OUSD in a single call
-* `redeem()`allows a specified amount of OUSD to be redeemed for other supported stablecoins.
-* `redeemAll()`allows a user to redeem their entire balance of OUSD for other supported stablecoins. This is particularly useful since user balances are constantly growing as yield is accrued.
-* `rebase()`updates the balances for all users based on the value of the assets currently stored in the pool.
-* `allocate()`moves the assets under management into their prescribed [Stategies](strategies.md) to maximize yield and diversify risk.
+* `mint()` qui permet la conversion d'une pièce stable (stablecoin) en OUSD
+* `mintMultiple()` qui permet de convertir plusieur pièce stable en OUSD en un seul appel
+* `redeem()` qui permet d'échanger un nombre spécifique d'OUSD contre une autre pièce stable supportée.
+* `redeemAll()` qui permet à l'utilisateur de convertire sa balance en entier d'OUSD en une pièce stable qui est prise en charge. Ceci est particulièerement utile puisque la balance des utilisateurs augmentent constament à mesure que le rendement augmente.
+* `rebase()` permet la mise à our de la balance de touts les utilisateur selon les actifs qui sont actuellement stockés dans le pool.
+* `allocate()` permet de déplacer certains actifs sous gestion dans une stratégie [Stategies](strategies.md) afin de maximiser le rendement et diversifier le risque.
 
-On redemptions, it is the protocol and not the user that decides which stablecoin\(s\) to return to the user. This decision of which coin\(s\) to return is based on the internal ratios of the assets that are being held in the pool.
+Lors du rachat, c'est le protocole et non l'utilisateur qui décide quelle(s) pièce(s) stable(s) sera retourné à l'utilisateur. This decision of which coin\(s\) to return is based on the internal ratios of the assets that are being held in the pool.
 
 
 
