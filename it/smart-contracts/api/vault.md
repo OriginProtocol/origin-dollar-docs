@@ -67,9 +67,9 @@ Sposta gli asset sotto la gestione delle rispettive [Strategie](https://app.gitb
 
 Restituisce il valore totale degli asset e delle strategie sottostanti.
 
-| `return` name | Tipo    | Descrizione                                              |
-|:------------- |:------- |:-------------------------------------------------------- |
-| value         | uint256 | valore totale degli asset e delle strategie sottostanti. |
+| nome in `return` | Tipo    | Descrizione                                              |
+|:---------------- |:------- |:-------------------------------------------------------- |
+| value            | uint256 | valore totale degli asset e delle strategie sottostanti. |
 
 ### checkBalance\(\) <a id="checkbalance"></a>
 
@@ -95,9 +95,9 @@ L'indice dell'array restituito dalla funzione `calculateRedeemOutputs`, corrispo
 |:------------------ |:------- |:------------------------------------------- |
 | \_amount         | uint256 | quantità di OUSD espressa in unità decimali |
 
-| `return` name | Tipo          | Descrizione                                                          |
-|:------------- |:------------- |:-------------------------------------------------------------------- |
-| outputs       | uint256\[\] | array con il numero di stablecoin restituito dalla funzione `redeem` |
+| nome in `return` | Tipo          | Descrizione                                                          |
+|:---------------- |:------------- |:-------------------------------------------------------------------- |
+| outputs          | uint256\[\] | array con il numero di stablecoin restituito dalla funzione `redeem` |
 
 ### getAssetCount\(\) <a id="getassetcount"></a>
 
@@ -121,7 +121,7 @@ Restituisce il numero delle strategie attive nel Vault, ed è rappresentato dal 
 
 **`function getAPR()`**
 
-Restituisce il rendimento totale annuo \(APR\) del Vault e di tutte le strategie, ed è rappresentato dal tipo ` uint256`. Resulting number has 18 decimal spaces.‌
+Restituisce il rendimento totale annuo \(APR\) del Vault e di tutte le strategie, ed è rappresentato dal tipo ` uint256`. Il numero risultante ha 18 spazi decimali
 
 ### isSupportedAsset\(\) <a id="issupportedasset"></a>
 
