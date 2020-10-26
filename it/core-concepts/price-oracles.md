@@ -104,7 +104,7 @@ OUSD è progettato per rimanere ancorato ad 1 USD e può essere supportato 1:1 c
   </tbody>
 </table>
 
-La funzione di ribasamento tratta 1 stablecoin come fosse 1 OUSD per semplicità e per proteggere il saldo OUSD dalle fluttuazioni del prezzo delle stablecoin sottostanti. Since the rebase function only counts coins, OUSD balances should only increase.
+La funzione di ribasamento tratta 1 stablecoin come fosse 1 OUSD per semplicità e per proteggere il saldo OUSD dalle fluttuazioni del prezzo delle stablecoin sottostanti. Poiché la funzione di rebase conta solo le monete, il saldo OUSD dovrebbe solo crescere.
 
 Per coniare e riscuotere l'appropriato numero di OUSD in entrata e uscita, gli smart contract hanno bisogno di prezzare accuratamente gli USDT, USDC e DAI che entrano ed escono dal sistema. In qualità di protocollo decentralizzato, OUSD deve riferirsi a sorgenti non centralizzate per questi prezzi.
 
