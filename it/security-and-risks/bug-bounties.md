@@ -2,7 +2,7 @@
 
 **Bug Bounties**
 
-Le Bug Bounties sono garantite a totale discrezione di Origin Protocol. The rewards range in size from **$100 OUSD** for minor issues to **$250,000 OUSD** for major vulnerabilities. Attualmente, il programma di bounty si applica solo a OUSD e non agli altri prodotti di Origin.
+Le Bug Bounties sono garantite a totale discrezione di Origin Protocol. Le ricompense variano in dimensioni da **$100 OUSD** per piccoli problemi, fino a **$250,000 OUSD** per vulnerabilità di entità maggiore. Attualmente, il programma di bounty si applica solo a OUSD e non agli altri prodotti di Origin.
 
 {% hint style="warning" %}
 Per poter beneficiare della bug bounty, è necessario seguire le regole della divulgazione responsabile descritte di seguito.
