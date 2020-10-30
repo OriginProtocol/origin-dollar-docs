@@ -132,7 +132,7 @@ The following oracles are used to fetch or compute a price for **DAI/USD:**
 
 | Oracle | Pair | Contract |
 | :--- | :--- | :--- |
-| Open Price Feed | DAI/USD | 0xc629c26dced4277419cde234012f8160a0278a79 |
+| Open Price Feed | DAI/USD | 0x922018674c12a7f0d394ebeef9b58f186cde13c1 |
 | Chainlink | DAI/USD | 0xa7D38FBD325a6467894A13EeFD977aFE558bC1f0 |
 | Chainlink | DAI/ETH | 0x037E8F2125bF532F3e228991e051c8A7253B642c |
 | _Uniswap v2_ | _DAI/ETH_ | _0xA478c2975Ab1Ea89e8196811F51A7B7Ade33eB11_ |
@@ -144,7 +144,7 @@ The following oracles are used to fetch or compute a price for **USDT/USD:**
 | O**racle** | Pair | Contract |
 | :--- | :--- | :--- |
 | Chainlink | USDT/ETH | 0xa874fe207DF445ff19E7482C746C4D3fD0CB9AcE |
-| Open Price Feed | USDC/USD | 0xc629c26dced4277419cde234012f8160a0278a79 |
+| Open Price Feed | USDC/USD | 0x922018674c12a7f0d394ebeef9b58f186cde13c1 |
 | _Uniswap v2_ | _USDT/ETH_ | _0x0d4a11d5eeaac28ec3f61d100daf4d40471f1852_ |
 {% endtab %}
 
@@ -154,7 +154,7 @@ The following oracles are used to fetch or compute a price for **USDC/USD:**
 | O**racle** | Pair | Contract |
 | :--- | :--- | :--- |
 | Chainlink | USDC/ETH | 0xdE54467873c3BCAA76421061036053e371721708 |
-| Open Price Feed | USDC/USD | 0xc629c26dced4277419cde234012f8160a0278a79 |
+| Open Price Feed | USDC/USD | 0x922018674c12a7f0d394ebeef9b58f186cde13c1 |
 | _Uniswap v2_ | _USDC/ETH_ | _0xb4e16d0168e52d35cacd2c6185b44281ec28c9dc_ |
 {% endtab %}
 
