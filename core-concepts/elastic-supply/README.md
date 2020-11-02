@@ -8,7 +8,7 @@ OUSD works differently than most tokens. Instead of the price increasing as the 
 Think of it as interest accruing in your bank account. The unit of account and value for the US dollar doesn’t change. You just get more US dollars over time as you earn interest.
 {% endhint %}
 
-![](../.gitbook/assets/ousd_docs_graphics_4.png)
+![](../../.gitbook/assets/ousd_docs_graphics_4.png)
 
 This mechanism was inspired by the novel approach taken by [Ampleforth](https://www.ampleforth.org/), but there are some key differences that are worth highlighting:
 
