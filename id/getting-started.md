@@ -22,7 +22,7 @@ Alamat ERC20 utama untuk Origin Dollar \ (OUSD \) adalah:
 **0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86**
 {% endhint %}
 
-Jika OUSD Anda tidak muncul secara otomatis di dompet Anda, Anda dapat menambahkannya secara manual menggunakan alamat di atas. Kami ingin OUSD didukung oleh sebanyak mungkin dompet dan dimasukkan ke dalam semua daftar token terkenal. Kami sangat menghargai bantuan yang dapat Anda tawarkan di bidang ini.
+Jika OUSD Anda tidak muncul secara otomatis di dompet Anda, Anda dapat menambahkannya secara manual menggunakan alamat di atas. If you are planning on [storing your OUSD in a multi-sig wallet](core-concepts/elastic-supply/rebasing-and-smart-contracts.md), be sure to opt-in to receive yield. We want to have OUSD supported by as many wallets as possible and included on all the various lists of well-known tokens. We would greatly appreciate any help you can offer in this area.
 
 **Mengintegrasikan OUSD**
 
