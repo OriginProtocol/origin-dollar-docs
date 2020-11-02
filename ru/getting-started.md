@@ -22,7 +22,7 @@
 **0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86**
 {% endhint %}
 
-Если Ваш OUSD автоматически не отображается в Вашем кошельке, Вы сможете добавить его вручную, используя вышеуказанный адрес. Мы хотим, чтобы OUSD поддерживалось как можно большим количеством кошельков и включался в различные списки хорошо известных токенов. Мы будем очень признательны за любую помощь, которую Вы можете предложить в этой области.
+Если Ваш OUSD автоматически не отображается в Вашем кошельке, Вы сможете добавить его вручную, используя вышеуказанный адрес. If you are planning on [storing your OUSD in a multi-sig wallet](core-concepts/elastic-supply/rebasing-and-smart-contracts.md), be sure to opt-in to receive yield. We want to have OUSD supported by as many wallets as possible and included on all the various lists of well-known tokens. We would greatly appreciate any help you can offer in this area.
 
 **Интегрирование OUSD**
 
