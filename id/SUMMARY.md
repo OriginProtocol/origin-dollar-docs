@@ -6,7 +6,8 @@
 
 ## Konsep inti
 
-* [Pasokan Elastis](core-concepts/elastic-supply.md)
+* [Pasokan Elastis](core-concepts/elastic-supply/README.md)
+  * [Rebasing & Smart Contracts](core-concepts/elastic-supply/rebasing-and-smart-contracts.md)
 * [Menghasilkan keuntungan](core-concepts/yield-generation/README.md)
   * [Pinjaman](core-concepts/yield-generation/lending.md)
   * [Pembuatan Pasar](core-concepts/yield-generation/market-making.md)
