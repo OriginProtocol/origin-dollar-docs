@@ -6,7 +6,8 @@
 
 ## Concetti princiapli
 
-* [Fornitura elastica](core-concepts/elastic-supply.md)
+* [Fornitura elastica](core-concepts/elastic-supply/README.md)
+  * [Rebasing & Smart Contracts](core-concepts/elastic-supply/rebasing-and-smart-contracts.md)
 * [Generazione di rendimento](core-concepts/yield-generation/README.md)
   * [Prestito](core-concepts/yield-generation/lending.md)
   * [Market Making](core-concepts/yield-generation/market-making.md)
