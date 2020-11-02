@@ -22,7 +22,7 @@ Origin Dollar（OUSD）的主要 ERC20 地址为：
 **0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86**
 {% endhint %}
 
-如果您的 OUSD 没有自动显示在您的钱包中，您应该可以使用以上的地址添加。 我们希望 OUSD 得到尽可能多的钱包支持，并被包括在各种知名代币列表中。 您在这方面能够提供的任何帮助，我们将非常感谢。
+如果您的 OUSD 没有自动显示在您的钱包中，您应该可以使用以上的地址添加。 If you are planning on [storing your OUSD in a multi-sig wallet](core-concepts/elastic-supply/rebasing-and-smart-contracts.md), be sure to opt-in to receive yield. We want to have OUSD supported by as many wallets as possible and included on all the various lists of well-known tokens. We would greatly appreciate any help you can offer in this area.
 
 **集成 OUSD**
 
