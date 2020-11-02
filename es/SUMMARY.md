@@ -6,7 +6,8 @@
 
 ## Conceptos básicos
 
-* [Suministro elástico](core-concepts/elastic-supply.md)
+* [Suministro elástico](core-concepts/elastic-supply/README.md)
+  * [Rebasing & Smart Contracts](core-concepts/elastic-supply/rebasing-and-smart-contracts.md)
 * [Generación de rendimiento](core-concepts/yield-generation/README.md)
   * [Préstamo](core-concepts/yield-generation/lending.md)
   * [Creación de Mercado](core-concepts/yield-generation/market-making.md)
