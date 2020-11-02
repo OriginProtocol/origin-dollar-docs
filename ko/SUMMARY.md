@@ -6,7 +6,8 @@
 
 ## 핵심 개념
 
-* [공급 탄력성](core-concepts / elastic-supply.md)
+* [공급 탄력성](core-concepts/elastic-supply/README.md)
+  * [Rebasing & Smart Contracts](core-concepts/elastic-supply/rebasing-and-smart-contracts.md)
 * [이자 생산](core-concepts/yield-generation/README.md)
   * [대출](core-concepts/yield-generation/lending.md)
   * [마켓메이킹](core-concepts/yield-generation/market-making.md)
