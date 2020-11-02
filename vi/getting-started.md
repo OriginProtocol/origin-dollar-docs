@@ -22,7 +22,7 @@ Ngoài ra, chúng tôi dự đoán rằng OUSD sẽ sớm được phổ biến 
 **0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86**
 {% endhint %}
 
-Nếu OUSD không tự động hiển thị trên ví thì bạn có thể thêm theo cách thủ công thông qua địa chỉ ở trên. Chúng tôi muốn OUSD được hỗ trợ bởi nhiều ví hơn nữa và muốn OUSD được đưa vào tất cả danh sách của token nổi tiếng trong tương lai. Chúng tôi đánh giá rất cao bất kỳ sự giúp đỡ nào từ cộng đồng để biến mục tiêu trên thành hiện thực.
+Nếu OUSD không tự động hiển thị trên ví thì bạn có thể thêm theo cách thủ công thông qua địa chỉ ở trên. If you are planning on [storing your OUSD in a multi-sig wallet](core-concepts/elastic-supply/rebasing-and-smart-contracts.md), be sure to opt-in to receive yield. We want to have OUSD supported by as many wallets as possible and included on all the various lists of well-known tokens. We would greatly appreciate any help you can offer in this area.
 
 **Tích hợp OUSD**
 
