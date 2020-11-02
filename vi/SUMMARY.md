@@ -6,7 +6,8 @@
 
 ## Nội dung chính
 
-* [Cung linh hoạt](core-concepts/elastic-supply.md)
+* [Cung linh hoạt](core-concepts/elastic-supply/README.md)
+  * [Rebasing & Smart Contracts](core-concepts/elastic-supply/rebasing-and-smart-contracts.md)
 * [Nguồn tạo lợi nhuận](core-concepts/yield-generation/README.md)
   * [Cho vay](core-concepts/yield-generation/lending.md)
   * [Tạo lập thị trường](core-concepts/yield-generation/market-making.md)
