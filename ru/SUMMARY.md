@@ -6,7 +6,8 @@
 
 ## Основные концепции
 
-* [Гибкое предложение](core-concepts/elastic-supply.md)
+* [Гибкое предложение](core-concepts/elastic-supply/README.md)
+  * [Rebasing & Smart Contracts](core-concepts/elastic-supply/rebasing-and-smart-contracts.md)
 * [Генерирование дохода](core-concepts/yield-generation/README.md)
   * [Кредитование](core-concepts/yield-generation/lending.md)
   * [Поддержание котировок на рынке](core-concepts/yield-generation/market-making.md)
