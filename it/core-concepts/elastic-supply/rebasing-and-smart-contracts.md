@@ -1,14 +1,14 @@
-# Rebasing & Smart Contracts
+# Ribasamento & Smart Contract
 
-If you are using a multi-sig wallet or another smart contract that wishes to participate in the rebasing aspect of OUSD you must call OUSD’s`rebaseOptIn()` function. This only applies to smart contracts as standard EOA wallets are enrolled automatically.
+Se stai utilizzando un wallet multi-sig o un altro smart contract che intende sincronizzarsi con i rebasamenti di OUSD, devi richiamare la funzione `rebaseOptIn()` dello smart contract di OUSD. Questo si deve fare solo con gli smart contract perché i wallet EOA vengono registrati automaticamente.
 
 {% hint style="info" %}
-Multi-sig wallets or other smart contracts must call`rebaseOptIn()`to earn yield.
+I wallet multi-sig o altri smart contract devono richiamare la funzione ` rebaseOptIn()` per cominciare ad accumulare rendimento.
 {% endhint %}
 
-One of the challenges with rebasing currencies like OUSD is that they don’t work very well with automated market makers \(AMM’s\) like Uniswap or Balancer. These decentralized exchanges rely on supply and demand to determine the price of the assets being traded. It messes up the math when the amount of OUSD held by the contract changes unexpectedly due to new yield being generated.
+Una delle difficoltà che si ha sul ribasamento delle valute come OUSD, è che non funzionano molto bene con i market maker automatizzati \(AMM\) come Uniswap o Balancer. Questi exchange decentralizzati si basano sull'offerta e sulla domanda per determinare il prezzo degli asset scambiati. Questo crea confusioni matematiche quando l'ammontare di OUSD detenuto da uno smart contract cambia inaspettatamente a causa del nuovo rendimento generato.
 
-We previously added a [bandaid](https://medium.com/originprotocol/upgrades-to-the-ousd-smart-contracts-deliver-higher-yield-and-better-uniswap-support-aa592e51d3f2) that called Uniswap’s `sync()` function every time a `rebase()` was triggered on OUSD’s contracts. While this prevented users from seeing an ugly error message when they tried to trade OUSD on Uniswap, it still introduced loss into the system. After calling sync, Uniswap detects that there is more OUSD than USDT in the pool, which incorrectly pushes down the price of OUSD relative to USDT. While we can count on arbitrageurs to correct the price, it’s better if we can avoid this loss altogether. Given the ever-growing number of competitive AMM’s and forks of Uniswap, it would quickly become infeasible, not to mention gas-expensive, to try and special-case all of them.
+In precedenza abbiamo aggiunto uno [smart contract](https://medium.com/originprotocol/upgrades-to-the-ousd-smart-contracts-deliver-higher-yield-and-better-uniswap-support-aa592e51d3f2) che richiamava la funzione ` sync()` di Uniswap ogni volta che venisse triggerata la funzione `rebase()` degli smart contract di OUSD. Sebbene ciò impedisse gli utenti di visualizzare brutti messaggi di errore quando cercavano di scambiare OUSD in Uniswap, ciò introduceva comunque delle perdite nel sistema. After calling sync, Uniswap detects that there is more OUSD than USDT in the pool, which incorrectly pushes down the price of OUSD relative to USDT. While we can count on arbitrageurs to correct the price, it’s better if we can avoid this loss altogether. Given the ever-growing number of competitive AMM’s and forks of Uniswap, it would quickly become infeasible, not to mention gas-expensive, to try and special-case all of them.
 
 After much discussion, we decided that the most scalable solution was to make smart contracts explicitly opt-in to receiving yield via the rebasing mechanism. This fixes the issue with the expanding supply on AMM’s while still allowing multi-sig wallets and other smart contracts the opportunity to still participate and earn yield.
 
