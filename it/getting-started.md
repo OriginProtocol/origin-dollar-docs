@@ -22,7 +22,7 @@ L'indirizzo ERC20 principale di Origin Dollar \(OUSD\) è:
 ** 0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86**
 {% endhint %}
 
-Se i tuoi OUSD non venissero mostrati in modo automatico nel tuo wallet, potresti dover aggiungerlo manualmente utilzzando l'indirizzo mostrato qui sopra. If you are planning on [storing your OUSD in a multi-sig wallet](core-concepts/elastic-supply/rebasing-and-smart-contracts.md), be sure to opt-in to receive yield. We want to have OUSD supported by as many wallets as possible and included on all the various lists of well-known tokens. We would greatly appreciate any help you can offer in this area.
+Se i tuoi OUSD non venissero mostrati in modo automatico nel tuo wallet, potresti dover aggiungerlo manualmente utilzzando l'indirizzo mostrato qui sopra. Se stai pianificando di [memorizzare i tuoi OUSD in un wallet multi-sig](core-concepts/elastic-supply/rebasing-and-smart-contracts.md), assicurati di effettuare l'iscrizione per ricevere il rendimento. Noi vogliamo che OUSD sia supportato da quanti più wallet possibile, e che possa esser incluso in tutte le liste dei token noti. Apprezzeremo tantissimo qualsiasi aiuto tu possa offrire in questo settore.
 
 **Integrazione di OUSD**
 
