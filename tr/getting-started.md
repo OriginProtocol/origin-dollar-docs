@@ -22,7 +22,7 @@ Origin Dollar için ana ERC20 adresi \(OUSD\):
 **0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86**
 {% endhint %}
 
-OUSD'niz cüzdanınızda otomatik olarak görünmüyorsa, yukarıdaki adresi kullanarak manuel olarak ekleyebilmelisiniz. OUSD'nin olabildiğince çok cüzdan tarafından desteklenmesini ve iyi bilinen tüm token listelerine dahil edilmesini istiyoruz. Bu alanda sunabileceğiniz her türlü yardıma minnettar oluruz.
+OUSD'niz cüzdanınızda otomatik olarak görünmüyorsa, yukarıdaki adresi kullanarak manuel olarak ekleyebilmelisiniz. If you are planning on [storing your OUSD in a multi-sig wallet](core-concepts/elastic-supply/rebasing-and-smart-contracts.md), be sure to opt-in to receive yield. We want to have OUSD supported by as many wallets as possible and included on all the various lists of well-known tokens. We would greatly appreciate any help you can offer in this area.
 
 **OUSD entegrasyonu**
 
