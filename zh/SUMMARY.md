@@ -6,7 +6,8 @@
 
 ## 核心概念
 
-* [弹性供应](core-concepts/elastic-supply.md)
+* [弹性供应](core-concepts/elastic-supply/README.md)
+  * [Rebasing & Smart Contracts](core-concepts/elastic-supply/rebasing-and-smart-contracts.md)
 * [产生收益](core-concepts/yield-generation/README.md)
   * [借贷](core-concepts/yield-generation/lending.md)
   * [做市](core-concepts/yield-generation/market-making.md)
