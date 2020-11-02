@@ -22,7 +22,7 @@ OUSD 발행(Mint) 를 사용하면 누구나 [디앱(DApp)](www.ousd.com) 및 [�
 **0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86**
 {% endhint %}
 
-OUSD가 지갑에 자동으로 표시되지 않는 경우 위 주소를 사용하여 수동으로 추가 할 수 있습니다. 오리진은 OUSD를 가능한 한 많은 지갑에서 지원하고, 잘 알려진 토큰의 모든 목록에 포함시키고 싶습니다. 혹시 해당 분야에서 도움을 주실 수 있다면, 진심으로 감사하겠습니다.
+OUSD가 지갑에 자동으로 표시되지 않는 경우 위 주소를 사용하여 수동으로 추가 할 수 있습니다. If you are planning on [storing your OUSD in a multi-sig wallet](core-concepts/elastic-supply/rebasing-and-smart-contracts.md), be sure to opt-in to receive yield. We want to have OUSD supported by as many wallets as possible and included on all the various lists of well-known tokens. We would greatly appreciate any help you can offer in this area.
 
 **OUSD 통합**
 
