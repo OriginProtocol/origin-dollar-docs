@@ -6,7 +6,8 @@
 
 ## Temel Kavramlar
 
-* [Elastik Tedarik](core-concepts/elastic-supply.md)
+* [Elastik Tedarik](core-concepts/elastic-supply/README.md)
+  * [Rebasing & Smart Contracts](core-concepts/elastic-supply/rebasing-and-smart-contracts.md)
 * [Verim Üretimi](core-concepts/yield-generation/README.md)
   * [Lending ( Borç Verme )](core-concepts/yield-generation/lending.md)
   * [Pazar yapımı](core-concepts/yield-generation/market-making.md)
