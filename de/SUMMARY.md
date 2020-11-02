@@ -6,7 +6,8 @@
 
 ## Core Concepts
 
-* [Elastic Supply](core-concepts/elastic-supply.md)
+* [Elastic Supply](core-concepts/elastic-supply/README.md)
+  * [Rebasing & Smart Contracts](core-concepts/elastic-supply/rebasing-and-smart-contracts.md)
 * [Yield Generation](core-concepts/yield-generation/README.md)
   * [Lending](core-concepts/yield-generation/lending.md)
   * [Market Making](core-concepts/yield-generation/market-making.md)
