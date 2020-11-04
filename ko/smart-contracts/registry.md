@@ -24,9 +24,9 @@
 
 | 컨트렉트                | 주소                                                                                                                    |
 |:------------------- |:--------------------------------------------------------------------------------------------------------------------- |
-| OUSD                | [0xB72b3f5523851C2EB0cA14137803CA4ac7295f3F](https://etherscan.io/address/0xB72b3f5523851C2EB0cA14137803CA4ac7295f3F) |
-| VaultAdmin          | [0x7Dd04cBaE57eB4e1155685792742B2B5954e3a61](https://etherscan.io/address/0x7Dd04cBaE57eB4e1155685792742B2B5954e3a61) |
-| VaultCore           | [0xec7F2D7e21A875Aee53b05EB511473A385D90d04](https://etherscan.io/address/0xec7F2D7e21A875Aee53b05EB511473A385D90d04) |
+| OUSD                | [0x1ae95dd4eeae7ed03da79856c2d44ffa3318f805](https://etherscan.io/address/0x1ae95dd4eeae7ed03da79856c2d44ffa3318f805) |
+| VaultAdmin          | [0xfbbe3090E06721168979818Fe006A1fcb136e953](https://etherscan.io/address/0xfbbe3090E06721168979818Fe006A1fcb136e953) |
+| VaultCore           | [0xB95423e3ca13ce5336Cb177B06cD4f647D2aAd57](https://etherscan.io/address/0xB95423e3ca13ce5336Cb177B06cD4f647D2aAd57) |
 | Mix Oracle          | [0x4d4f5e7a1FE57F5cEB38BfcE8653EFFa5e584458](https://etherscan.io/address/0x4d4f5e7a1FE57F5cEB38BfcE8653EFFa5e584458) |
 | Chainlink Oracle    | [0x8DE3Ac42F800a1186b6D70CB91e0D6876cC36759](https://etherscan.io/address/0x8DE3Ac42F800a1186b6D70CB91e0D6876cC36759) |
 | Open Uniswap Oracle | [0xa8f14F558aC70F5f52C37cD96d802ef9210023C5](https://etherscan.io/address/0xa8f14F558aC70F5f52C37cD96d802ef9210023C5) |
