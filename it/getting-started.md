@@ -8,37 +8,42 @@ Il Minting di OUSD consente a chiunque di creare o scambiare token OUSD utilizza
 
 **Acquista negli Exchange**
 
-Per piccoli importi, il modo più semplice per cominciare a guadagnare con OUSD è comprarli in un exchange decentralizzato come Uniswap. Attualmente sono disponibili i seguenti pairs:
+For small amounts, the easiest way to start earning with OUSD is to buy it on an exchange. We anticipate that OUSD will soon be available on many more decentralized and centralized exchanges.
+
+Decentralized exchanges:
 
 * [Acquista OUSD su Uniswap](https://app.uniswap.org/#/swap?outputCurrency=0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86)
 * [Acquista OUSD su Mooniswap](https://mooniswap.exchange/#/swap?outputToken=0x2a8e1e676ec238d8a992307b495b45b3feaa5e86)
+* [Buy OUSD on Sushiswap](https://exchange.sushiswapclassic.org/#/swap?inputCurrency=0x2a8e1e676ec238d8a992307b495b45b3feaa5e86&outputCurrency=0xdac17f958d2ee523a2206206994597c13d831ec7)
 
-In aggiunta, prevediamo che OUSD sarà presto disponibile in larga scala su altri exchange, sia decentralizzati sia centralizzati.
+Centralized exchanges:
 
-**Aggiungi OUSD al tuo Wallet**
+* [Buy OUSD on Virgox](https://virgox.com/exchange/141)
+
+**Adding OUSD to Your Wallet**
 
 {% hint style="success" %}
-L'indirizzo ERC20 principale di Origin Dollar \(OUSD\) è:   
-** 0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86**
+The main ERC20 address for Origin Dollar \(OUSD\) is:   
+**0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86**
 {% endhint %}
 
-Se i tuoi OUSD non venissero mostrati in modo automatico nel tuo wallet, potresti dover aggiungerlo manualmente utilzzando l'indirizzo mostrato qui sopra. Se stai pianificando di [memorizzare i tuoi OUSD in un wallet multi-sig](core-concepts/elastic-supply/rebasing-and-smart-contracts.md), assicurati di effettuare l'iscrizione per ricevere il rendimento. Noi vogliamo che OUSD sia supportato da quanti più wallet possibile, e che possa esser incluso in tutte le liste dei token noti. Apprezzeremo tantissimo qualsiasi aiuto tu possa offrire in questo settore.
+If your OUSD does not automatically show up in your wallet, you should be able to add it manually using the address above. If you are planning on [storing your OUSD in a multi-sig wallet](core-concepts/elastic-supply/rebasing-and-smart-contracts.md), be sure to opt-in to receive yield. We want to have OUSD supported by as many wallets as possible and included on all the various lists of well-known tokens. We would greatly appreciate any help you can offer in this area.
 
-**Integrazione di OUSD**
+**Integrating OUSD**
 
-OUSD è un non-standard ERC-20 token, che richiede un lavoro di integrazione personalizzato per la maggior parte delle applicazioni che desiderino supportarlo. E' particolarmente importante capire, per gli sviluppatori, il funzionamento del nostro "elastic supply", in quanto questo può causare facilmente un comportamento inaspettato.
+OUSD is a non-standard ERC-20 token that requires custom integration work for most applications that wish to support it. In particular, it is important for developers to understand how our elastic supply works as this can easily cause unexpected behavior.
 
-Se tu sei un Wallet provider o un Exchange crypto e sei interessato al supporto di OUSD, fai pure riferimento alle seguenti guide:
+If you are a wallet provider or crypto exchange that is interested in supporting OUSD, please refer to the following guides:
 
 {% page-ref page="smart-contracts/architecture.md" %}
 
 {% page-ref page="smart-contracts/api/" %}
 
-**Analytics per sviluppatori**
+**Developer Analytics**
 
-La nostra dashboard interna per sviluppatori è disponibile all'URL [analytics.ousd.com](https://analytics.ousd.com). La nostra dashboard mostra l'attuale offerta circolante, gli asset gestiti all'interno del vault e le attuali allocazioni tra ogni stablecoin e le strategie.
+Our internal developer dashboard is available at [analytics.ousd.com](https://analytics.ousd.com). The dashboard shows the current circulating supply, the assets under management in the vault, and the current allocations between each of the stablecoins and strategies.
 
-**Ricevere Aiuto**
+**Getting Help**
 
-Unisciti con Origin Dollar alla room \#engineering del server [Discord](www.originprotocol.com/discord) di Origin.  Il nostro team e i membri della nostra community saranno felici di aiutarti a sviluppare. Le tue domande ci aiutereanno a migliorare, quindi non esitare a chiedere a noi se non stai trovando quello che cerchi.
+Please join the Origin Dollar \#engineering room in Origin's [Discord](www.originprotocol.com/discord) server.  Our team and members of our community look forward to helping you build. Your questions help us improve, so please don't hesitate to ask if you can't find what you are looking for here.
 
