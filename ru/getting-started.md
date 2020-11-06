@@ -8,29 +8,34 @@
 
 **Купить на биржах**
 
-Для небольших сумм самый простой способ начать зарабатывать с помощью OUSD - купить его на децентрализованной бирже, такой как Uniswap. На данный момент доступны следующие пары:
+For small amounts, the easiest way to start earning with OUSD is to buy it on an exchange. We anticipate that OUSD will soon be available on many more decentralized and centralized exchanges.
+
+Decentralized exchanges:
 
 * [Купить OUSD на Uniswap](https://app.uniswap.org/#/swap?outputCurrency=0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86)
 * [Купить OUSD на Mooniswap](https://mooniswap.exchange/#/swap?outputToken=0x2a8e1e676ec238d8a992307b495b45b3feaa5e86)
+* [Buy OUSD on Sushiswap](https://exchange.sushiswapclassic.org/#/swap?inputCurrency=0x2a8e1e676ec238d8a992307b495b45b3feaa5e86&outputCurrency=0xdac17f958d2ee523a2206206994597c13d831ec7)
 
-К тому же, мы ожидаем, что OUSD скоро станет широко доступным и на других децентрализованных и централизованных биржах.
+Centralized exchanges:
 
-**Добавить OUSD в Ваш кошелек**
+* [Buy OUSD on Virgox](https://virgox.com/exchange/141)
+
+**Adding OUSD to Your Wallet**
 
 {% hint style="success" %}
-Основной адрес ERC20 для Origin Dollar \(OUSD \):   
+The main ERC20 address for Origin Dollar \(OUSD\) is:   
 **0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86**
 {% endhint %}
 
-Если Ваш OUSD автоматически не отображается в Вашем кошельке, Вы сможете добавить его вручную, используя вышеуказанный адрес. If you are planning on [storing your OUSD in a multi-sig wallet](core-concepts/elastic-supply/rebasing-and-smart-contracts.md), be sure to opt-in to receive yield. We want to have OUSD supported by as many wallets as possible and included on all the various lists of well-known tokens. We would greatly appreciate any help you can offer in this area.
+If your OUSD does not automatically show up in your wallet, you should be able to add it manually using the address above. If you are planning on [storing your OUSD in a multi-sig wallet](core-concepts/elastic-supply/rebasing-and-smart-contracts.md), be sure to opt-in to receive yield. We want to have OUSD supported by as many wallets as possible and included on all the various lists of well-known tokens. We would greatly appreciate any help you can offer in this area.
 
-**Интегрирование OUSD**
+**Integrating OUSD**
 
-OUSD - это нестандартный токен ERC-20, который требует специальной интеграции для большинства приложений, которые хотят его поддерживать. В частности, разработчикам важно понимать, как работает наше гибкое предложение, поскольку это может легко вызвать неожиданный режим работы.
+OUSD is a non-standard ERC-20 token that requires custom integration work for most applications that wish to support it. In particular, it is important for developers to understand how our elastic supply works as this can easily cause unexpected behavior.
 
-Если вы являетесь представителем разработчиков кошельков или криптовалютных бирж, которые заинтересованы в поддержке OUSD, обратитесь к следующим руководствам:
+If you are a wallet provider or crypto exchange that is interested in supporting OUSD, please refer to the following guides:
 
-{% page-ref page="smart-contract/architecture.md"%}
+{% page-ref page="smart-contracts/architecture.md" %}
 
 {% page-ref page="smart-contracts/api/" %}
 
