@@ -8,27 +8,32 @@ OUSD Mint （铸造）允许任何人使用我们的 [DApp](www.ousd.com) 和 We
 
 **在交易所购买**
 
-对于少量的 OUSD，开始使用 OUSD 来赚取收益的最简单方法是在去中心化交易所（例如Uniswap）上购买它。 目前有以下交易对：
+For small amounts, the easiest way to start earning with OUSD is to buy it on an exchange. We anticipate that OUSD will soon be available on many more decentralized and centralized exchanges.
+
+Decentralized exchanges:
 
 * [在Uniswap上购买OUSD](https://app.uniswap.org/#/swap?outputCurrency=0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86)
 * [Buy OUSD on Mooniswap](https://mooniswap.exchange/#/swap?outputToken=0x2a8e1e676ec238d8a992307b495b45b3feaa5e86)
+* [Buy OUSD on Sushiswap](https://exchange.sushiswapclassic.org/#/swap?inputCurrency=0x2a8e1e676ec238d8a992307b495b45b3feaa5e86&outputCurrency=0xdac17f958d2ee523a2206206994597c13d831ec7)
 
-此外，我们预计 OUSD 将很快在其他分去中心化和中心化交易所上广泛使用。
+Centralized exchanges:
 
-**将 OUSD 加入您的钱包**
+* [Buy OUSD on Virgox](https://virgox.com/exchange/141)
+
+**Adding OUSD to Your Wallet**
 
 {% hint style="success" %}
-Origin Dollar（OUSD）的主要 ERC20 地址为：   
+The main ERC20 address for Origin Dollar \(OUSD\) is:   
 **0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86**
 {% endhint %}
 
-如果您的 OUSD 没有自动显示在您的钱包中，您应该可以使用以上的地址添加。 If you are planning on [storing your OUSD in a multi-sig wallet](core-concepts/elastic-supply/rebasing-and-smart-contracts.md), be sure to opt-in to receive yield. We want to have OUSD supported by as many wallets as possible and included on all the various lists of well-known tokens. We would greatly appreciate any help you can offer in this area.
+If your OUSD does not automatically show up in your wallet, you should be able to add it manually using the address above. If you are planning on [storing your OUSD in a multi-sig wallet](core-concepts/elastic-supply/rebasing-and-smart-contracts.md), be sure to opt-in to receive yield. We want to have OUSD supported by as many wallets as possible and included on all the various lists of well-known tokens. We would greatly appreciate any help you can offer in this area.
 
-**集成 OUSD**
+**Integrating OUSD**
 
-OUSD是非标准的ERC-20令牌，对于希望支持它的大多数应用程序都需要自定义集成工作。 尤其重要的是，开发人员必须了解我们的弹性供应是如何运作的，因为这很容易导致意外行为。
+OUSD is a non-standard ERC-20 token that requires custom integration work for most applications that wish to support it. In particular, it is important for developers to understand how our elastic supply works as this can easily cause unexpected behavior.
 
-如果您是有兴趣支持 OUSD 的钱包提供商或加密货币交易所，请参阅以下指南：
+If you are a wallet provider or crypto exchange that is interested in supporting OUSD, please refer to the following guides:
 
 {% page-ref page="smart-contracts/architecture.md" %}
 
