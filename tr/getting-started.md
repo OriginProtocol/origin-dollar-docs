@@ -8,31 +8,36 @@ OUSD Mint, herkesin [DApp](www.ousd.com) ve [Metamask](https://www.metamask.io)g
 
 **Borsalarda Satın Alın**
 
-Küçük miktarlar için, OUSD ile kazanmaya başlamanın en kolay yolu, onu Uniswap gibi merkezi olmayan bir borsada satın almaktır. Mevcut çiftler şu anda mevcuttur:
+For small amounts, the easiest way to start earning with OUSD is to buy it on an exchange. We anticipate that OUSD will soon be available on many more decentralized and centralized exchanges.
+
+Decentralized exchanges:
 
 * [Uniswap'te OUSD satın alın](https://app.uniswap.org/#/swap?outputCurrency=0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86)
 * [Mooniswap'te OUSD satın alın](https://mooniswap.exchange/#/swap?outputToken=0x2a8e1e676ec238d8a992307b495b45b3feaa5e86)
+* [Buy OUSD on Sushiswap](https://exchange.sushiswapclassic.org/#/swap?inputCurrency=0x2a8e1e676ec238d8a992307b495b45b3feaa5e86&outputCurrency=0xdac17f958d2ee523a2206206994597c13d831ec7)
 
-Ek olarak, OUSD'nin yakında diğer merkezi olmayan ve merkezi borsalarda yaygın olarak kullanılabileceğini tahmin ediyoruz.
+Centralized exchanges:
 
-**Cüzdanınıza OUSD Ekleme**
+* [Buy OUSD on Virgox](https://virgox.com/exchange/141)
 
-{% hint style="başarı" %}
-Origin Dollar için ana ERC20 adresi \(OUSD\):   
+**Adding OUSD to Your Wallet**
+
+{% hint style="success" %}
+The main ERC20 address for Origin Dollar \(OUSD\) is:   
 **0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86**
 {% endhint %}
 
-OUSD'niz cüzdanınızda otomatik olarak görünmüyorsa, yukarıdaki adresi kullanarak manuel olarak ekleyebilmelisiniz. If you are planning on [storing your OUSD in a multi-sig wallet](core-concepts/elastic-supply/rebasing-and-smart-contracts.md), be sure to opt-in to receive yield. We want to have OUSD supported by as many wallets as possible and included on all the various lists of well-known tokens. We would greatly appreciate any help you can offer in this area.
+If your OUSD does not automatically show up in your wallet, you should be able to add it manually using the address above. If you are planning on [storing your OUSD in a multi-sig wallet](core-concepts/elastic-supply/rebasing-and-smart-contracts.md), be sure to opt-in to receive yield. We want to have OUSD supported by as many wallets as possible and included on all the various lists of well-known tokens. We would greatly appreciate any help you can offer in this area.
 
-**OUSD entegrasyonu**
+**Integrating OUSD**
 
-OUSD, desteklemek isteyen çoğu uygulama için özel entegrasyon çalışması gerektiren standart olmayan bir ERC-20 belirtecidir. Özellikle, geliştiricilerin esnek tedarikimizin nasıl çalıştığını anlamaları önemlidir, çünkü bu kolayca beklenmedik davranışlara neden olabilir.
+OUSD is a non-standard ERC-20 token that requires custom integration work for most applications that wish to support it. In particular, it is important for developers to understand how our elastic supply works as this can easily cause unexpected behavior.
 
-OUSD'yi desteklemekle ilgilenen bir cüzdan sağlayıcısı veya kripto borsası iseniz, lütfen aşağıdaki kılavuzlara bakın:
+If you are a wallet provider or crypto exchange that is interested in supporting OUSD, please refer to the following guides:
 
-{% page-ref page = "smart-contracts / architecture.md"%}
+{% page-ref page="smart-contracts/architecture.md" %}
 
-{% page-ref page = "smart-contracts / "%}
+{% page-ref page="smart-contracts/api/" %}
 
 **Developer Analytics**
 
