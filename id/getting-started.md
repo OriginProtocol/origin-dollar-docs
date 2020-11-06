@@ -8,31 +8,36 @@ OUSD Mint memungkinkan siapa saja untuk membuat atau memperdagangkan token OUSD 
 
 **Beli di Bursa**
 
-Untuk jumlah kecil, cara termudah untuk mulai mendapatkan penghasilan dengan OUSD adalah dengan membelinya di bursa terdesentralisasi seperti Uniswap. Pasangan saat ini tersedia saat ini:
+For small amounts, the easiest way to start earning with OUSD is to buy it on an exchange. We anticipate that OUSD will soon be available on many more decentralized and centralized exchanges.
+
+Decentralized exchanges:
 
 * [Beli OUSD di Uniswap](https://app.uniswap.org/#/swap?outputCurrency=0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86)
 * [Beli OUSD di Mooniswap](https://mooniswap.exchange/#/swap?outputToken=0x2a8e1e676ec238d8a992307b495b45b3feaa5e86)
+* [Buy OUSD on Sushiswap](https://exchange.sushiswapclassic.org/#/swap?inputCurrency=0x2a8e1e676ec238d8a992307b495b45b3feaa5e86&outputCurrency=0xdac17f958d2ee523a2206206994597c13d831ec7)
 
-Selain itu, kami mengantisipasi bahwa OUSD akan segera tersedia secara luas di bursa tambahan yang terdesentralisasi dan terpusat.
+Centralized exchanges:
 
-**Menambahkan OUSD ke Dompet Anda**
+* [Buy OUSD on Virgox](https://virgox.com/exchange/141)
+
+**Adding OUSD to Your Wallet**
 
 {% hint style="success" %}
-Alamat ERC20 utama untuk Origin Dollar \ (OUSD \) adalah:   
+The main ERC20 address for Origin Dollar \(OUSD\) is:   
 **0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86**
 {% endhint %}
 
-Jika OUSD Anda tidak muncul secara otomatis di dompet Anda, Anda dapat menambahkannya secara manual menggunakan alamat di atas. If you are planning on [storing your OUSD in a multi-sig wallet](core-concepts/elastic-supply/rebasing-and-smart-contracts.md), be sure to opt-in to receive yield. We want to have OUSD supported by as many wallets as possible and included on all the various lists of well-known tokens. We would greatly appreciate any help you can offer in this area.
+If your OUSD does not automatically show up in your wallet, you should be able to add it manually using the address above. If you are planning on [storing your OUSD in a multi-sig wallet](core-concepts/elastic-supply/rebasing-and-smart-contracts.md), be sure to opt-in to receive yield. We want to have OUSD supported by as many wallets as possible and included on all the various lists of well-known tokens. We would greatly appreciate any help you can offer in this area.
 
-**Mengintegrasikan OUSD**
+**Integrating OUSD**
 
-OUSD adalah token ERC-20 non-standar yang memerlukan integrasi kustom untuk sebagian besar aplikasi yang ingin mendukungnya. Secara khusus, penting bagi pengembang untuk memahami cara kerja pasokan elastis kami karena hal ini dapat dengan mudah menyebabkan perilaku yang tidak terduga.
+OUSD is a non-standard ERC-20 token that requires custom integration work for most applications that wish to support it. In particular, it is important for developers to understand how our elastic supply works as this can easily cause unexpected behavior.
 
-Jika Anda adalah penyedia dompet atau bursa kripto yang tertarik untuk mendukung OUSD, silakan lihat panduan berikut ini:
+If you are a wallet provider or crypto exchange that is interested in supporting OUSD, please refer to the following guides:
 
-{% page-ref page = "smart-contract / architecture.md"%}
+{% page-ref page="smart-contracts/architecture.md" %}
 
-{% page-ref page = "smart-contract / api /"%}
+{% page-ref page="smart-contracts/api/" %}
 
 **Developer Analytics**
 
