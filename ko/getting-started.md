@@ -8,31 +8,36 @@ OUSD 발행(Mint) 를 사용하면 누구나 [디앱(DApp)](www.ousd.com) 및 [�
 
 **거래소에서 구매**
 
-소액의 경우, OUSD로 수익 창출을 시작하는 가장 쉬운 방법은 유니스왑(Uniswap_과 같은 탈중앙화 거래소(DEX) 에서 구입하는 것입니다. 현재 사용할 수 있는 쌍(pair) 은 다음과 같습니다:
+For small amounts, the easiest way to start earning with OUSD is to buy it on an exchange. We anticipate that OUSD will soon be available on many more decentralized and centralized exchanges.
+
+Decentralized exchanges:
 
 * [Buy OUSD on Uniswap](https://app.uniswap.org/#/swap?outputCurrency=0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86)
 * [Buy OUSD on Mooniswap](https://mooniswap.exchange/#/swap?outputToken=0x2a8e1e676ec238d8a992307b495b45b3feaa5e86)
+* [Buy OUSD on Sushiswap](https://exchange.sushiswapclassic.org/#/swap?inputCurrency=0x2a8e1e676ec238d8a992307b495b45b3feaa5e86&outputCurrency=0xdac17f958d2ee523a2206206994597c13d831ec7)
 
-또한 OUSD는 조만간 추가적인 탈중앙화 및 중앙 집중식 거래소에서 널리 사용 가능할 것으로 예상됩니다.
+Centralized exchanges:
 
-**지갑에 OUSD 추가**
+* [Buy OUSD on Virgox](https://virgox.com/exchange/141)
+
+**Adding OUSD to Your Wallet**
 
 {% hint style="success" %}
-오리진달러\(OUSD\) 의 대표 ERC20 주소:   
+The main ERC20 address for Origin Dollar \(OUSD\) is:   
 **0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86**
 {% endhint %}
 
-OUSD가 지갑에 자동으로 표시되지 않는 경우 위 주소를 사용하여 수동으로 추가 할 수 있습니다. If you are planning on [storing your OUSD in a multi-sig wallet](core-concepts/elastic-supply/rebasing-and-smart-contracts.md), be sure to opt-in to receive yield. We want to have OUSD supported by as many wallets as possible and included on all the various lists of well-known tokens. We would greatly appreciate any help you can offer in this area.
+If your OUSD does not automatically show up in your wallet, you should be able to add it manually using the address above. If you are planning on [storing your OUSD in a multi-sig wallet](core-concepts/elastic-supply/rebasing-and-smart-contracts.md), be sure to opt-in to receive yield. We want to have OUSD supported by as many wallets as possible and included on all the various lists of well-known tokens. We would greatly appreciate any help you can offer in this area.
 
-**OUSD 통합**
+**Integrating OUSD**
 
-OUSD는 비표준 ERC-20 토큰으로 이를 지원하려는 대부분의 애플리케이션들은 커스텀(custom) 통합 작업이 필요합니다. 특히 개발자가 탄력적 공급이 어떻게 작동하는지 이해하는 것이 중요합니다. 이는 예상치 못한 동작을 쉽게 일으킬 수 있기 때문입니다.
+OUSD is a non-standard ERC-20 token that requires custom integration work for most applications that wish to support it. In particular, it is important for developers to understand how our elastic supply works as this can easily cause unexpected behavior.
 
-만약, OUSD 지원에 관심이 있는 지갑 공급자 또는 암호화폐 거래소인 경우에는 다음 가이드를 참고하시길 바랍니다:
+If you are a wallet provider or crypto exchange that is interested in supporting OUSD, please refer to the following guides:
 
 {% page-ref page="smart-contracts/architecture.md" %}
 
-{% page-ref page = "smart-contracts / api.md"%}
+{% page-ref page="smart-contracts/api/" %}
 
 **Developer Analytics**
 
