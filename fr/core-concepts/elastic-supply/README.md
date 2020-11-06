@@ -1,8 +1,8 @@
-# Elastic Supply
+# Offre élatisque
 
-**Elastic Supply. Stable Price.**
+**Offre élastique. Prix stable.**
 
-OUSD works differently than most tokens. Instead of the price increasing as the value of the assets under management increase \(as with Compound cTokens or Yearn yTokens\), the value of one OUSD remains constant at approximately $1. Instead, the contracts constantly adjust the monetary supply and automatically updates the balance in every token holder’s wallet to reflect the yield that has been earned by the protocol.
+OUSD fonctionne différemment de la pluspart des autres jetons. Au lieu d'avoir le prix qui augmente lorsque la valeur des actifs sous gestion augmente\ (comme c'est le cas avec Compound cTokens ou Yearn yTokens\), la valeur d'un OUSD demeure constante, soit approximativement 1$. Instead, the contracts constantly adjust the monetary supply and automatically updates the balance in every token holder’s wallet to reflect the yield that has been earned by the protocol.
 
 {% hint style="info" %}
 Think of it as interest accruing in your bank account. The unit of account and value for the US dollar doesn’t change. You just get more US dollars over time as you earn interest.
