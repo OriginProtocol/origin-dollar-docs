@@ -13,6 +13,6 @@ Considérez cela comme étant un intérêt couru dans votre compte de banque. L'
 Ce mécanisme est inspiré par une nouvelle appoche adoptée par [Ampleforth](https://www.ampleforth.org/), par contre, certaines différences méritent d'être soulignées:
 
 1. OUSD est soutenu à 100% par d'autres monnaies stables et n'aura pas le même enjeu afin de maintenir l'ancrage au dollar. Compte tenu de la facilité de créer et de racheter des OUSD. nous pouvons compter sur l'arbitrage afin de maintenir l'ancrage au dollar.
-2. OUSD rebasing should only increase supply since the amount of OUSD minted is tied to the realized gains earned by the underlying strategies. Your principal is protected as long as nothing goes wrong with the underlying lending/AMM and stablecoin protocols. Any decrease in your balance would be an indication of trouble in the system.
-3. Unlike Ampleforth, which rebases once a day, the monetary supply of OUSD is constantly being updated in real-time as yield is generated.
+2. OUSD rebassage devra seulement augmenter l'offre puisque le nombre d'OUSD créé est lié au gain réalisé par les stratégies sous-jacentes. Votre principal est protégé tant que rien n'impact négativement la stratégie sous-jacente de prêt/AMM et des protocoles de monnaies stables. Toute diminution de votre balance sera une indication d'un problème avec le système.
+3. Contrairement à Ampleforth qui rebase chaque jour, l'offre monétaire d'OUSD est constamment mise à jour en temps réel à mesure que le rendement est généré.
 
