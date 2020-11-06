@@ -8,27 +8,32 @@ OUSD Mint cho phép bất kỳ ai cũng có thể tạo hoặc giao dịch OUSD 
 
 **Mua trên trên sàn giao dịch**
 
-Đối với số tiền nhỏ, cách dễ nhất để bắt đầu kiếm tiền với OUSD là mua OUSD trên các sàn giao dịch phi tập trung như Uniswap. Các cặp hiện đang có sẵn:
+For small amounts, the easiest way to start earning with OUSD is to buy it on an exchange. We anticipate that OUSD will soon be available on many more decentralized and centralized exchanges.
+
+Decentralized exchanges:
 
 * [Mua OUSD trên Uniswap](https://app.uniswap.org/#/swap?outputCurrency=0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86)
 * [Mua OUSD trên Mooniswap](https://mooniswap.exchange/#/swap?outputToken=0x2a8e1e676ec238d8a992307b495b45b3feaa5e86)
+* [Buy OUSD on Sushiswap](https://exchange.sushiswapclassic.org/#/swap?inputCurrency=0x2a8e1e676ec238d8a992307b495b45b3feaa5e86&outputCurrency=0xdac17f958d2ee523a2206206994597c13d831ec7)
 
-Ngoài ra, chúng tôi dự đoán rằng OUSD sẽ sớm được phổ biến rộng rãi trên các sàn giao dịch tập trung và phi tập trung khác.
+Centralized exchanges:
 
-**Thêm OUSD vào Ví của bạn**
+* [Buy OUSD on Virgox](https://virgox.com/exchange/141)
+
+**Adding OUSD to Your Wallet**
 
 {% hint style="success" %}
-Địa chỉ ERC20 chính của Origin Dollar \ (OUSD \) là:   
+The main ERC20 address for Origin Dollar \(OUSD\) is:   
 **0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86**
 {% endhint %}
 
-Nếu OUSD không tự động hiển thị trên ví thì bạn có thể thêm theo cách thủ công thông qua địa chỉ ở trên. If you are planning on [storing your OUSD in a multi-sig wallet](core-concepts/elastic-supply/rebasing-and-smart-contracts.md), be sure to opt-in to receive yield. We want to have OUSD supported by as many wallets as possible and included on all the various lists of well-known tokens. We would greatly appreciate any help you can offer in this area.
+If your OUSD does not automatically show up in your wallet, you should be able to add it manually using the address above. If you are planning on [storing your OUSD in a multi-sig wallet](core-concepts/elastic-supply/rebasing-and-smart-contracts.md), be sure to opt-in to receive yield. We want to have OUSD supported by as many wallets as possible and included on all the various lists of well-known tokens. We would greatly appreciate any help you can offer in this area.
 
-**Tích hợp OUSD**
+**Integrating OUSD**
 
-OUSD là token ERC-20 không tiêu chuẩn, hầu hết các ứng dụng muốn hỗ trợ sử dụng OUSD sẽ cần phải thực hiện thao tác tích hợp. Đặc biệt, điều quan trọng là các nhà phát triển phải hiểu cách thức hoạt động của nguồn cung lịch hoạt bởi nó có thể gây nên một số hậu quả không mong muốn nếu không nắm rõ cơ chế.
+OUSD is a non-standard ERC-20 token that requires custom integration work for most applications that wish to support it. In particular, it is important for developers to understand how our elastic supply works as this can easily cause unexpected behavior.
 
-Nếu bạn là nhà cung cấp ví hoặc sàn giao dịch tiền điện tử quan tâm đến việc hỗ trợ OUSD, vui lòng tham khảo các hướng dẫn sau:
+If you are a wallet provider or crypto exchange that is interested in supporting OUSD, please refer to the following guides:
 
 {% page-ref page="smart-contracts/architecture.md" %}
 
