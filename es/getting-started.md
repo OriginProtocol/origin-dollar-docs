@@ -21,6 +21,7 @@ Decentralized exchanges:
 Centralized exchanges:
 
 * [Buy OUSD on Virgox](https://virgox.com/exchange/141)
+* [Buy OUSD on Dharma App](https://www.dharma.io/) \(US only\)
 
 **Adding OUSD to Your Wallet**
 
@@ -38,6 +39,8 @@ If your OUSD does not automatically show up in your wallet, you should be able t
 OUSD is a non-standard ERC-20 token that requires custom integration work for most applications that wish to support it. In particular, it is important for developers to understand how our elastic supply works as this can easily cause unexpected behavior.
 
 If you are a wallet provider or crypto exchange that is interested in supporting OUSD, please refer to the following guides: 
+
+{% page-ref page="core-concepts/elastic-supply/rebasing-and-smart-contracts.md" %}
 
 {% page-ref page="smart-contracts/architecture.md" %}
 
