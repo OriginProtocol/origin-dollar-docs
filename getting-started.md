@@ -19,6 +19,7 @@ Decentralized exchanges:
 Centralized exchanges:
 
 * [Buy OUSD on Virgox](https://virgox.com/exchange/141)
+* [Buy OUSD on Dharma App](https://www.dharma.io/) \(US only\)
 
 **Adding OUSD to Your Wallet**
 
