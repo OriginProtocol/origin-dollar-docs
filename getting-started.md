@@ -36,6 +36,8 @@ OUSD is a non-standard ERC-20 token that requires custom integration work for mo
 
 If you are a wallet provider or crypto exchange that is interested in supporting OUSD, please refer to the following guides: 
 
+{% page-ref page="core-concepts/elastic-supply/rebasing-and-smart-contracts.md" %}
+
 {% page-ref page="smart-contracts/architecture.md" %}
 
 {% page-ref page="smart-contracts/api/" %}
