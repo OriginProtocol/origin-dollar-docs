@@ -1,9 +1,9 @@
-# Rebasing & Smart Contracts
+# Rebasement & Contrats intelligents
 
-If you are using a multi-sig wallet or another smart contract that wishes to participate in the rebasing aspect of OUSD you must call OUSD’s`rebaseOptIn()` function. This only applies to smart contracts as standard EOA wallets are enrolled automatically.
+Si vous utilisez un portefeuille à signature multiples ou un autre contrat intelligent et que vous souhaitez participer au rebasement de OUSD, vous devez appeler la fonction `rebaseOptIn()`. Ceci s'applique seulement aux contrats intelligents car les portefeuilles avec le standard EOA participent automatiquement.
 
 {% hint style="info" %}
-Multi-sig wallets or other smart contracts must call`rebaseOptIn()`to earn yield.
+Les contrats à signatures multiples ou les autres contrats intelligents doivent appeler la fonction `rebaseOptIn()` afin de générer du rendement.
 {% endhint %}
 
 One of the challenges with rebasing currencies like OUSD is that they don’t work very well with automated market makers \(AMM’s\) like Uniswap or Balancer. These decentralized exchanges rely on supply and demand to determine the price of the assets being traded. It messes up the math when the amount of OUSD held by the contract changes unexpectedly due to new yield being generated.
