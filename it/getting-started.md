@@ -8,24 +8,24 @@ Il Minting di OUSD consente a chiunque di creare o scambiare token OUSD utilizza
 
 **Acquista negli Exchange**
 
-For small amounts, the easiest way to start earning with OUSD is to buy it on an exchange. We anticipate that OUSD will soon be available on many more decentralized and centralized exchanges.
+Per piccoli importi, il modo più semplice di cominciare a guadagnare con OUSD è comprarlo in un exchange. Prevediamo che OUSD sarà presto disponibile in molti più exchange sia decentralizzati sia centralizzati.
 
-Decentralized exchanges:
+Exchange Decentralizzati:
 
 * [Acquista OUSD su Uniswap](https://app.uniswap.org/#/swap?outputCurrency=0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86)
 * [Acquista OUSD su Mooniswap](https://mooniswap.exchange/#/swap?outputToken=0x2a8e1e676ec238d8a992307b495b45b3feaa5e86)
-* [Buy OUSD on Sushiswap](https://exchange.sushiswapclassic.org/#/swap?inputCurrency=0x2a8e1e676ec238d8a992307b495b45b3feaa5e86&outputCurrency=0xdac17f958d2ee523a2206206994597c13d831ec7)
+* [Acquista OUSD su Sushiswap](https://exchange.sushiswapclassic.org/#/swap?inputCurrency=0x2a8e1e676ec238d8a992307b495b45b3feaa5e86&outputCurrency=0xdac17f958d2ee523a2206206994597c13d831ec7)
 
-Centralized exchanges:
+Exchange Centralizzati:
 
-* [Buy OUSD on Virgox](https://virgox.com/exchange/141)
-* [Buy OUSD on Dharma App](https://www.dharma.io/) \(US only\)
+* [Acquista OUSD su Virgox](https://virgox.com/exchange/141)
+* [Acquista OUSD su Dharma App](https://www.dharma.io/)\(disponibile solo in USA\)
 
-**Adding OUSD to Your Wallet**
+**Aggiungi OUSD sul tuo wallet**
 
 {% hint style="success" %}
-The main ERC20 address for Origin Dollar \(OUSD\) is:   
-**0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86**
+L'address ERC20 principale per Origin Dollar \(OUSD\) è    
+** 0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86**
 {% endhint %}
 
 If your OUSD does not automatically show up in your wallet, you should be able to add it manually using the address above. If you are planning on [storing your OUSD in a multi-sig wallet](core-concepts/elastic-supply/rebasing-and-smart-contracts.md), be sure to opt-in to receive yield. We want to have OUSD supported by as many wallets as possible and included on all the various lists of well-known tokens. We would greatly appreciate any help you can offer in this area.
