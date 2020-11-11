@@ -1,36 +1,36 @@
-# OUSD 如何运作
+# How It Works
 
-#### 100％ 稳定以由其他稳定比支持
+#### 100% Backed and Stable
 
-Origin Dollar （OUSD）是用于以太坊网络的一个 ERC-20 代币。
+Origin Dollar \(OUSD\) is an ERC-20 compliant token for the Ethereum network.
 
-OUSD 是个由 USDT，USDC 和 DAI 等其他经过验证的稳定币以 1：1 支持的稳定货币。 因此，1 OUSD 的价值应该始终非常接近 1 USD。
+OUSD is a stable currency that is backed 1:1 by other stablecoins like USDT, USDC and DAI. As a result, 1 OUSD should always be very close to 1 USD in value.
 
 {% hint style="success" %}
 1 OUSD = 1 USD
 {% endhint %}
 
-#### 铸造 OUSD
+#### Minting OUSD
 
-用户通过官方 [Origin Dollar DApp](www.ousd.com)将现有的稳定币（目前支持 USDT，USDC 和DAI）转换为 OUSD。 发行的 OUSD 立即开始累积复利。
+Users convert their existing stablecoins \(currently USDT, USDC, and DAI\) to OUSD at the official [Origin Dollar DApp](www.ousd.com). Issued OUSD begins accruing compounding yield immediately.
 
-**赎回 OUSD**
+**Redeeming OUSD**
 
-用户可以随时使用 [Origin Dollar DApp](www.ousd.com)将 OUSD 转换回其他稳定币。 0.5％ 的退出费再赎回时收取，并以额外收益的形式分配给池中剩余的参与者。 这笔费用是一项安全功能，使攻击者难以利用 lagging 的神谕，防止他们在基础资产定价错误的情况下从池中提取稳定币。 这项费用的存在是为了激励长期持有者而不是短期投机者。
+Users can convert their OUSD back into other stablecoins at any time using the [Origin Dollar DApp](www.ousd.com). A 0.5% exit fee is charged upon redemption and is distributed as additional yield to the remaining participants in the pool. The fee serves as a security feature to make it difficult for attackers to take advantage of lagging oracles, preventing them from syphoning stablecoins from the pool in the event of mispricings of of the underlying assets. The fee exists to incentivize long-term holders over short-term speculators.
 
-赎回后，智能合约将确定将哪种稳定币退还给用户。 在目前的版本里，返回的稳定币的比例将与池中当前的稳定币比例相同。 在任何支持稳定币失去与美元挂钩的情况下，用户可选性的缺乏也起到了保护 OUSD 池的作用。
+Upon redemption, the smart contract will determine which stablecoin\(s\) to return to the user. In the current implementation, the pool will return coins in the same ratio as the current holdings. This lack of user optionality also protects the pool as a whole in the event that any of the supported stablecoins loses its peg to the dollar.
 
 {% hint style="warning" %}
-OUSD 有**0.5％ 的退出费** ，而且用户无法选择将收到的稳定币种.
+There is a **0.5% exit fee** and the user doesn't get to pick which stablecoins they receive.
 {% endhint %}
 
-#### 自**动收益耕作**
+#### A**utomated Yield Farming**
 
-OUSD 通过将存储在 OUSD 智能合约中的稳定币部署到其他 DeFi 协议（例如 Compound，Aave，Uniswap，Balancer 和 Curve）来产生收益。 每月预计会有新的多元化策略被添加到池中。 得到的利息，交易费和奖励代币被收集并转换未稳定币，以产生以 OUSD 计价的收益。 随着时间的流逝，协议会将资产移入和移出不同的流动性池，以为 OUSD 持有者提供最佳收益。
+OUSD generates yields by deploying the underlying stablecoins that were deposited to the OUSD smart contract to other DeFi protocols such as Compound, Aave, Uniswap, Balancer, and Curve. It is expected there will be new diversified strategies added to the pool every month. Collected interest, trading fees, and rewards tokens are pooled and converted to stablecoins to produce OUSD-denominated yields. Over time, the protocol will move assets in and out of different liquidity pools in order to provide the best yield to the holders of OUSD.
 
-#### **弹性供应**
+#### **Elastic Supply**
 
-通过不断调整货币供应量，产生的收益将传给 OUSD 的持有者。 OUSD会根据协议产生的收益不断调整货币供应量。 这允许 OUSD 的价格保持在 $1 不变，同时代币持有者的钱包中的余额会实时调整以反映协议所赚取的收益。
+The generated returns are passed on to the holders of OUSD via constant rebasing of the money supply. OUSD constantly adjusts the money supply in response to the yield the protocol has generated. This allows the price of OUSD to stay pegged at $1 while the balances in token holders' wallets adjust in real-time to reflect yields that have been earned by the protocol.
 
-最终结果是一种易于消费，自动赚取超额收益，并且比现有稳定币更适合持有的稳定币。
+The end result is a stablecoin that is easy to spend, earns outsized yields automatically, and is more desirable to hold than existing stablecoins.
 
