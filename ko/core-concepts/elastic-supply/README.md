@@ -12,7 +12,11 @@ OUSD는 대부분의 토큰과 다르게 작동합니다. 관리 대상 자산�
 
 이 메커니즘은 [앰플포스(Ampleforth)](https://www.ampleforth.org/)의해 취해진 새로운 접근 방식에서 영감을 얻었지만 강조 할 가치가있는 몇 가지 주요 차이점이 있습니다.
 
-1. OUSD는 100 % 다른 스테이블 코인에 의해 뒷받침되며 달러에 대한 페그(peg) 를 유지하는 것과 같은 문제가 없습니다. OUSD를 쉽게 채굴하고 상환 할 수 있다는 점을 감안할 때, 우리는 페그가 유지되도록 중재자를 의지할 수 있습니다.
-2. OUSD rebasing should only increase supply since the amount of OUSD minted is tied to the realized gains earned by the underlying strategies. Your principal is protected as long as nothing goes wrong with the underlying lending/AMM and stablecoin protocols. Any decrease in your balance would be an indication of trouble in the system.
-3. 하루에 한 번 리베이스하는 앰플포스와 달리, OUSD의 통화 공급은 수익률이 생성됨에 따라 실시간으로 지속적으로 업데이트됩니다.
+1. OUSD is 100% backed by other stablecoins and does not have the same challenge maintaining the peg to the dollar. OUSD를 쉽게 채굴하고 상환 할 수 있다는 점을 감안할 때, 우리는 페그가 유지되도록 중재자를 의지할 수 있습니다.
+2. OUSD rebasing will only increase supply since the amount of OUSD minted is tied to the realized gains earned by the underlying strategies. Your principal is protected as long as nothing goes wrong with the underlying lending/AMM and stablecoin protocols. Your OUSD balance will never decrease, but the value could drop if there's a failure in the underlying systems.
+3. Unlike Ampleforth, which rebases once a day, the monetary supply of OUSD is constantly being updated in real-time as yield is generated. Rebases are triggered regularly as users interact with the OUSD contracts.
+
+**Manually triggering a rebase**
+
+Anyone can trigger a rebase at any time by [calling the rebase function on the vault](https://etherscan.io/address/originvault.eth#writeProxyContract). You can do this on Etherscan by connecting a web3 wallet.
 
