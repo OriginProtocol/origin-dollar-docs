@@ -28,13 +28,13 @@ L'address ERC20 principale per Origin Dollar \(OUSD\) è
 ** 0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86**
 {% endhint %}
 
-If your OUSD does not automatically show up in your wallet, you should be able to add it manually using the address above. If you are planning on [storing your OUSD in a multi-sig wallet](core-concepts/elastic-supply/rebasing-and-smart-contracts.md), be sure to opt-in to receive yield. We want to have OUSD supported by as many wallets as possible and included on all the various lists of well-known tokens. We would greatly appreciate any help you can offer in this area.
+Se i tuoi OUSD non venissero mostrati in modo automatico nel tuo wallet, potresti dover aggiungerlo manualmente utilzzando l'indirizzo mostrato qui sopra. Se stai pianificando di [memorizzare i tuoi OUSD in un wallet multi-sig](core-concepts/elastic-supply/rebasing-and-smart-contracts.md), assicurati di effettuare l'iscrizione per ricevere il rendimento. Noi vogliamo che OUSD sia supportato da quanti più wallet possibile, e che possa esser incluso in tutte le liste dei token noti. Apprezzeremo tantissimo qualsiasi aiuto tu possa offrire in questo settore.
 
-**Integrating OUSD**
+**Integrazione di OUSD**
 
-OUSD is a non-standard ERC-20 token that requires custom integration work for most applications that wish to support it. In particular, it is important for developers to understand how our elastic supply works as this can easily cause unexpected behavior.
+OUSD è un token ERC-20 non-standard, che richiede un lavoro di integrazione personalizzato per la maggior parte delle applicazioni che desiderino supportarlo. E' particolarmente importante capire, per gli sviluppatori, il funzionamento del nostro "elastic supply", in quanto questo può causare facilmente un comportamento inaspettato.
 
-If you are a wallet provider or crypto exchange that is interested in supporting OUSD, please refer to the following guides:
+Se tu sei un Wallet provider o un Exchange crypto e sei interessato al supporto di OUSD, fai pure riferimento alle seguenti guide:
 
 {% page-ref page="core-concepts/elastic-supply/rebasing-and-smart-contracts.md" %}
 
@@ -42,11 +42,11 @@ If you are a wallet provider or crypto exchange that is interested in supporting
 
 {% page-ref page="smart-contracts/api/" %}
 
-**Developer Analytics**
+**Analytics per sviluppatori**
 
-Our internal developer dashboard is available at [analytics.ousd.com](https://analytics.ousd.com). The dashboard shows the current circulating supply, the assets under management in the vault, and the current allocations between each of the stablecoins and strategies.
+La nostra dashboard interna per sviluppatori è disponibile all'URL [analytics.ousd.com](https://analytics.ousd.com). La nostra dashboard mostra l'attuale offerta circolante, gli asset gestiti all'interno del vault e le attuali allocazioni tra ogni stablecoin e le strategie.
 
-**Getting Help**
+**Ricevere Aiuto**
 
-Please join the Origin Dollar \#engineering room in Origin's [Discord](www.originprotocol.com/discord) server.  Our team and members of our community look forward to helping you build. Your questions help us improve, so please don't hesitate to ask if you can't find what you are looking for here.
+Unisciti con Origin Dollar alla room \#engineering del server [Discord](www.originprotocol.com/discord) di Origin.  Il nostro team e i membri della nostra community saranno felici di aiutarti a sviluppare. Le tue domande ci aiutereanno a migliorare, quindi non esitare a chiedere a noi se non stai trovando quello che cerchi.
 
