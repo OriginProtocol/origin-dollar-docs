@@ -13,10 +13,10 @@ Pensalo come un interesse maturato sul conto in banca. L'unità per il conto e i
 Questo meccanismo è stato ispirato dal nuovo approccio adottato da [ Ampleforth](https://www.ampleforth.org/), ma ci sono alcune differenze chiave che vale la pena evidenziare:
 
 1. OUSD è supportato al 100% da altre stablecoin e non ha il problema di mantenersi ancorato al dollaro. Data la facilità di generazione e di riscatto degli OUSD, possiamo contare sulla presenza degli arbitraggisti per garantire l'ancoraggio.
-2. OUSD rebasing will only increase supply since the amount of OUSD minted is tied to the realized gains earned by the underlying strategies. Il tuo capitale è protetto fintanto che va tutto bene con i protocolli di prestito/AMM e stablecoin. Your OUSD balance will never decrease, but the value could drop if there's a failure in the underlying systems.
-3. Unlike Ampleforth, which rebases once a day, the monetary supply of OUSD is constantly being updated in real-time as yield is generated. Rebases are triggered regularly as users interact with the OUSD contracts.
+2. Il ribasamento di OUSD aumenterà solo l'offerta poiché la quantità di OUSD coniati è legata ai guadagni realizzati guadagnati dalle strategie sottostanti. Il tuo capitale è protetto fintanto che va tutto bene con i protocolli di prestito/AMM e stablecoin. Il tuo saldo OUSD non diminuirà mai, ma il valore potrebbe calare se si verificasse un problema nei sistemi sottostanti.
+3. A differenza di Ampleforth, che fa il ribasamento una volta al giorno, l'offerta monetaria di OUSD è aggiornata costantemente in tempo reale a mano a mano che viene generato il rendimento. I ribasamenti vengono innescati regolarmente quando gli utenti interagiscono con gli smart contract di OUSD.
 
-**Manually triggering a rebase**
+**Innesco manuale di un ribasamento**
 
-Anyone can trigger a rebase at any time by [calling the rebase function on the vault](https://etherscan.io/address/originvault.eth#writeProxyContract). You can do this on Etherscan by connecting a web3 wallet.
+Chiunque può innescare un ribasamento in qualsiasi momento semplicemente [richiamando la funzione di rebase nel vault](https://etherscan.io/address/originvault.eth#writeProxyContract). Puoi farlo su Etherscan connettendo un wallet web3.
 
