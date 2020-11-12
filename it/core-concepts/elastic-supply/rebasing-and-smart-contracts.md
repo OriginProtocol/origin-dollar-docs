@@ -15,7 +15,7 @@ Dopo molte discussioni, abbiamo deciso che la soluzione più scalabile fosse que
 Se stai utilizzando un wallet multi-sig come [Gnosis Wallet](https://github.com/gnosis/MultiSigWallet) oppure [Gnosis Safe](https://gnosis-safe.io/), avrai bisogno dell'ultimo [address di implementazione relativo a OUSD](../../smart-contracts/registry.md) e il corrispettivo [ ABI](https://api.etherscan.io/api?module=contract&action=getabi&address=0x1ae95dd4eeae7ed03da79856c2d44ffa3318f805). Una volta che li avrai aggiunti, sarai in grado di richiamare la funzione `rebaseOptIn()` per iscriverti alla ricezione del rendimento tramite il ribasamento o tramite il richiamo della funzione `rebaseOptOut()` per disattivarlo nuovamente.
 
 {% hint style="warning" %}
-If you are deploying a contract and intend to call`rebaseOptIn()`to earn yield you cannot call it from the contracts constructor. The contract must be deployed before it can be called.
+Se stai rilasciando un contratto e intendi richiamare la funzione `rebaseOptin()` per guadagnare lo yield, non puoi richiamarla dal costruttore dei contratti. Lo smart contract deve essere rilasciato prima di poter essere richiamato.
 {% endhint %}
 
 [ABI](https://api.etherscan.io/api?module=contract&action=getabi&address=0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86)
