@@ -3,6 +3,7 @@
 * [Giới thiệu](README.md)
 * [Cơ chế hoạt động](how-it-works.md)
 * [Các bước cơ bản](getting-started.md)
+* [FAQ](faq.md)
 
 ## Nội dung chính
 
