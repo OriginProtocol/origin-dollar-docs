@@ -3,6 +3,7 @@
 * [Giriş](README.md)
 * [Nasıl çalışır](how-it-works.md)
 * [Başlamak](getting-started.md)
+* [FAQ](faq.md)
 
 ## Temel Kavramlar
 
