@@ -16,9 +16,9 @@ Pengguna mengkonversi stablecoin mereka yang ada \ (saat USDT, USDC, dan DAI \) 
 
 **Menebus OUSD**
 
-Pengguna dapat mengubah OUSD mereka kembali menjadi stablecoin lain kapan saja menggunakan [Origin Dollar DApp](www.ousd.com). Biaya keluar 0,5% dibebankan pada saat penebusan dan didistribusikan sebagai hasil tambahan kepada peserta yang tersisa di kumpulan. Biaya tersebut berfungsi sebagai fitur keamanan untuk mempersulit penyerang untuk memanfaatkan oracle yang tertinggal, mencegah mereka menyalahgunakan stablecoin dari kumpulan jika terjadi kesalahan harga pada aset yang mendasarinya. Biaya tersebut ada untuk memberi insentif kepada pemegang jangka panjang daripada spekulan jangka pendek.
+Pengguna dapat mengubah OUSD mereka kembali menjadi stablecoin lain kapan saja menggunakan [Origin Dollar DApp](www.ousd.com). A 0.5% exit fee is charged upon redemption and is distributed as additional yield to the remaining participants in the vault. The fee serves as a security feature to make it difficult for attackers to take advantage of lagging oracles, preventing them from syphoning stablecoins from the vault in the event of mispricings of of the underlying assets. Biaya tersebut ada untuk memberi insentif kepada pemegang jangka panjang daripada spekulan jangka pendek.
 
-Setelah penebusan, kontrak pintar akan menentukan stablecoin \ (s \) yang akan dikembalikan kepada pengguna. Dalam implementasi saat ini, kumpulan akan mengembalikan koin dengan rasio yang sama dengan kepemilikan saat ini. Kurangnya pilihan pengguna ini juga melindungi kumpulan secara keseluruhan jika salah satu stablecoin yang didukung kehilangan pasaknya terhadap dolar.
+Setelah penebusan, kontrak pintar akan menentukan stablecoin \ (s \) yang akan dikembalikan kepada pengguna. In the current implementation, the vault will return coins in the same ratio as the current holdings. This lack of user optionality also protects the vault as a whole in the event that any of the supported stablecoins loses its peg to the dollar.
 
 {% hint style="warning" %}
 Ada **0,5% biaya keluar** dan pengguna tidak bisa memilih stablecoin mana yang mereka terima.
@@ -26,7 +26,7 @@ Ada **0,5% biaya keluar** dan pengguna tidak bisa memilih stablecoin mana yang m
 
 #### Hasil Pertanian O**tomatis**
 
-OUSD menghasilkan keuntungan dengan menerapkan stablecoin yang mendasari yang disimpan ke kontrak pintar OUSD ke protokol DeFi lainnya seperti Compound, Aave, Uniswap, Balancer, dan Curve. Diharapkan akan ada strategi diversifikasi baru yang ditambahkan ke kumpulan setiap bulan. Bunga yang terkumpul, biaya perdagangan, dan token hadiah dikumpulkan dan diubah menjadi stablecoin untuk menghasilkan hasil dalam mata uang OUSD. Seiring waktu, protokol akan memindahkan aset masuk dan keluar dari kumpulan likuiditas yang berbeda untuk memberikan hasil terbaik bagi pemegang OUSD.
+OUSD menghasilkan keuntungan dengan menerapkan stablecoin yang mendasari yang disimpan ke kontrak pintar OUSD ke protokol DeFi lainnya seperti Compound, Aave, Uniswap, Balancer, dan Curve. It is expected there will be new diversified strategies added to the vault every month. Bunga yang terkumpul, biaya perdagangan, dan token hadiah dikumpulkan dan diubah menjadi stablecoin untuk menghasilkan hasil dalam mata uang OUSD. Seiring waktu, protokol akan memindahkan aset masuk dan keluar dari kumpulan likuiditas yang berbeda untuk memberikan hasil terbaik bagi pemegang OUSD.
 
 #### **Pasokan Elastis**
 
