@@ -16,9 +16,9 @@ Kullanıcılar mevcut stablecoin'lerini (şu anda USDT, USDC ve DAI \) resmi [Or
 
 **OUSD'yi kullanma**
 
-Kullanıcılar, [Origin Dollar DApp](www.ousd.com)kullanarak OUSD'larını istedikleri zaman diğer stabilcoinlere dönüştürebilirler. Geri ödeme sırasında% 0,5 çıkış ücreti alınır ve havuzda kalan katılımcılara ek getiri olarak dağıtılır. Ücret, saldırganların geri kalan oracle'lardan yararlanmasını zorlaştıran ve temel varlıkların yanlış fiyatlandırılması durumunda havuzdan stabilcoinleri sifonlamalarını engelleyen bir güvenlik özelliği olarak hizmet eder. Bu ücret, uzun vadeli sahiplerini kısa vadeli spekülatörlere teşvik etmek için var.
+Kullanıcılar, [Origin Dollar DApp](www.ousd.com)kullanarak OUSD'larını istedikleri zaman diğer stabilcoinlere dönüştürebilirler. A 0.5% exit fee is charged upon redemption and is distributed as additional yield to the remaining participants in the vault. The fee serves as a security feature to make it difficult for attackers to take advantage of lagging oracles, preventing them from syphoning stablecoins from the vault in the event of mispricings of of the underlying assets. Bu ücret, uzun vadeli sahiplerini kısa vadeli spekülatörlere teşvik etmek için var.
 
-Kullanımdan sonra, akıllı sözleşme hangi stabilcoin \ (ler) in kullanıcıya iade edileceğini belirleyecektir. Mevcut uygulamada, havuz, mevcut varlıklarla aynı oranda madeni para iade edecektir. Bu kullanıcı opsiyonelliği eksikliği, desteklenen stabilcoinlerden herhangi birinin dolara kurunu kaybetmesi durumunda havuzu bir bütün olarak korur.
+Kullanımdan sonra, akıllı sözleşme hangi stabilcoin \ (ler) in kullanıcıya iade edileceğini belirleyecektir. In the current implementation, the vault will return coins in the same ratio as the current holdings. This lack of user optionality also protects the vault as a whole in the event that any of the supported stablecoins loses its peg to the dollar.
 
 {% hint style="uyarı" %}
 % **0,5'lik bir çıkış ücreti vardır** ve kullanıcı hangi sabit paraları alacağını seçemez.
@@ -26,7 +26,7 @@ Kullanımdan sonra, akıllı sözleşme hangi stabilcoin \ (ler) in kullanıcıy
 
 #### Bir**utomated Verim Tarım ( Yield Farming)**
 
-OUSD, Bileşik, Aave, Uniswap, Dengeleyici ve Eğri gibi diğer DeFi protokollerine OUSD akıllı sözleşmesine yatırılan temel sabit paraları dağıtarak getiri üretir. Havuza her ay yeni çeşitlendirilmiş stratejilerin eklenmesi beklenmektedir. Toplanan faiz, alım satım ücretleri ve ödül jetonları bir araya getirilir ve OUSD cinsinden getiriler üretmek için stabilcoinlere dönüştürülür. Zamanla, protokol, OUSD sahiplerine en iyi verimi sağlamak için varlıkları farklı likidite havuzlarına girip çıkaracaktır.
+OUSD, Bileşik, Aave, Uniswap, Dengeleyici ve Eğri gibi diğer DeFi protokollerine OUSD akıllı sözleşmesine yatırılan temel sabit paraları dağıtarak getiri üretir. It is expected there will be new diversified strategies added to the vault every month. Toplanan faiz, alım satım ücretleri ve ödül jetonları bir araya getirilir ve OUSD cinsinden getiriler üretmek için stabilcoinlere dönüştürülür. Zamanla, protokol, OUSD sahiplerine en iyi verimi sağlamak için varlıkları farklı likidite havuzlarına girip çıkaracaktır.
 
 #### **Elastik Tedarik**
 
