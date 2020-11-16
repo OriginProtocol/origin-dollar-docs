@@ -109,12 +109,12 @@ Fungsi rebasing memperlakukan 1 stablecoin sebagai 1 OUSD untuk kesederhanaan da
 Untuk membuat dan menebus sejumlah OUSD yang sesuai saat masuk dan keluar, kontrak pintar harus memberi harga yang akurat pada USDT, USDC, dan DAI yang masuk dan keluar dari sistem. Sebagai protokol terdesentralisasi, OUSD harus bergantung pada sumber non-sentralisasi untuk harga ini.
 
 {% hint style="info" %}
-OUSD mengambil harga dari beberapa oracle on-chain dan menggunakan nilai tukar yang paling menguntungkan untuk kumpulan ketika membuat atau menebus.
+OUSD fetches the price from multiple on-chain oracles and uses the exchange rate that is most advantageous for the vault when minting or redeeming.
 {% endhint %}
 
-Untuk mencegah serangan jahat dan untuk mendorong investor jangka panjang daripada spekulan jangka pendek, kontrak OUSD membandingkan umpan harga dari berbagai sumber dan akan menggunakan nilai tukar mana pun yang menguntungkan seluruh kelompok dibandingkan individu. Mekanisme ini melindungi dana kumpulan dari arbitrase dan mencegah individu mana pun untuk dapat mengambil keuntungan dari inefisiensi sementara apapun yang disebabkan oleh oracle yang salah harga untuk menguras kumpulan aset bersama.
+In order to prevent malicious attacks and to encourage long-term investors over short-term speculators, the OUSD contract compares price feeds from multiple sources and will use whichever exchange rate benefits the entire vault over the individual. This mechanism protects the vault funds from arbitrageurs and prevents any individual from being able to take advantage of any temporary inefficiencies caused by mispriced oracles to deplete the shared pool of assets.
 
-Ini melindungi dana di kumpulan sambil memberi penghargaan kepada para pemegang jangka panjang. Karena harga paling aman tergantung pada arah perdagangan, oracle Origin menghadapkan kedua `priceUSDMint ()` dan `priceUSDRedeem ()`.
+This protects the funds in the vault while rewarding long-term holders. Karena harga paling aman tergantung pada arah perdagangan, oracle Origin menghadapkan kedua `priceUSDMint ()` dan `priceUSDRedeem ()`.
 
 Berikut adalah set oracle awal yang digunakan oleh OUSD:
 
