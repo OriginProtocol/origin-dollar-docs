@@ -3,6 +3,7 @@
 * [Introducción](README.md)
 * [Cómo funciona](how-it-works.md)
 * [Empezando](getting-started.md)
+* [FAQ](faq.md)
 
 ## Conceptos básicos
 
