@@ -1,14 +1,14 @@
 # FAQ
 
-## Where can I buy OUSD?
+## Dove posso acquistare OUSD?
 
-Check out [Getting Started](https://docs.ousd.com/getting-started) to see a variety of options.
+Dai un'occhiata a [Guida introduttiva](https://docs.ousd.com/getting-started) per vedere una varietà di opzioni.
 
-## What are the costs to mint and redeem OUSD?
+## Quali sono i costi per coniare e riscattare OUSD?
 
-As with any Ethereum transaction, you will need Ether to interact with the OUSD smart contract. We have taken measures to reduce gas usage where possible, but these costs can vary.
+Come con qualsiasi transazione Ethereum, avrai bisogno di Ether per interagire con lo smart contract OUSD. Abbiamo adottato misure per ridurre il consumo di gas ove possibile, ma questi costi possono variare.
 
-Anytime you mint or redeem OUSD, there will be an exchange rate applied to your stablecoins deposited or withdrawn. You can read more about this in [Price Oracles](https://docs.ousd.com/core-concepts/price-oracles).
+Ogni volta che coni o riscatti OUSD, verrà applicato un tasso di cambio alle tue stablecoin depositate o ritirate. Puoi saperne di più visitando [Oracoli di Prezzo](https://docs.ousd.com/core-concepts/price-oracles).
 
 To encourage long-term holding of OUSD and to protect the protocol from attackers, an exit fee of 0.5% is charged on all redeems. You can read more about this in [How Works](https://docs.ousd.com/how-it-works).
 
