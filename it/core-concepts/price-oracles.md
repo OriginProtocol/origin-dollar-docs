@@ -109,12 +109,12 @@ La funzione di ribasamento tratta 1 stablecoin come fosse 1 OUSD per semplicità
 Per coniare e riscuotere l'appropriato numero di OUSD in entrata e uscita, gli smart contract hanno bisogno di prezzare accuratamente gli USDT, USDC e DAI che entrano ed escono dal sistema. In qualità di protocollo decentralizzato, OUSD deve riferirsi a sorgenti non centralizzate per questi prezzi.
 
 {% hint style="info" %}
-OUSD fetches the price from multiple on-chain oracles and uses the exchange rate that is most advantageous for the vault when minting or redeeming.
+OUSD recupera il prezzo da molteplici oracoli on-chain e utilizza i tassi di cambio che sono più vantaggiosi per il vault al momento della coniazione o del riscatto.
 {% endhint %}
 
-In order to prevent malicious attacks and to encourage long-term investors over short-term speculators, the OUSD contract compares price feeds from multiple sources and will use whichever exchange rate benefits the entire vault over the individual. This mechanism protects the vault funds from arbitrageurs and prevents any individual from being able to take advantage of any temporary inefficiencies caused by mispriced oracles to deplete the shared pool of assets.
+Al fine di prevenire attacchi malevoli e per incoraggiare investitori di lungo periodo invece di speculatori di breve periodo, lo smart contract OUSD confronta i feed di prezzo da molteplici fonti e utilizzerà il tasso di cambio a vantaggio dell'intero vault rispetto al singolo. Questo meccanismo protegge i fondi della pool dagli arbitraggi e impedisce a qualsiasi individuo di essere in grado di trarre vantaggio da eventuali inefficienze temporanee causate da errori di prezzo provenienti dagli oracoli, per depredare gli asset dal vault condiviso.
 
-This protects the funds in the vault while rewarding long-term holders. Poiché il prezzo più sicuro dipende dalla direzione del trade, lo smart contract dell'oracolo Origin espone sia la funzione `priceUSDMint()`, sia la funzione ` priceUSDRedeem()`.
+Ciò protegge i fondi nel vault e allo stesso tempo premia gli holder di lungo termine. Poiché il prezzo più sicuro dipende dalla direzione del trade, lo smart contract dell'oracolo Origin espone sia la funzione `priceUSDMint()`, sia la funzione ` priceUSDRedeem()`.
 
 Segue il set iniziale degli oracoli che vengono utilizzati da OUSD:
 
