@@ -10,19 +10,19 @@ Come con qualsiasi transazione Ethereum, avrai bisogno di Ether per interagire c
 
 Ogni volta che coni o riscatti OUSD, verrà applicato un tasso di cambio alle tue stablecoin depositate o ritirate. Puoi saperne di più visitando [Oracoli di Prezzo](https://docs.ousd.com/core-concepts/price-oracles).
 
-To encourage long-term holding of OUSD and to protect the protocol from attackers, an exit fee of 0.5% is charged on all redeems. You can read more about this in [How Works](https://docs.ousd.com/how-it-works).
+Per incoraggiare l'holding di OUSD di lungo periodo e per proteggere il protocollo dagli attacchi, verrà richiesta una commissione di uscita dello 0.5% su tutti i prelievi. Puoi impararne di più nella sezione [Come funziona](https://docs.ousd.com/how-it-works).
 
-## How soon will my balance increase once I have OUSD?
+## Dopo quanto tempo vedrò aumentare il mio saldo una volta ottenuti gli OUSD?
 
-The amount of OUSD in your wallet will grow each time there is a positive rebase event. You can read more about this in [Elastic Supply](https://docs.ousd.com/core-concepts/elastic-supply). The supply is currently rebased several times per day and is usually correlated with how many people are minting and redeeming OUSD.
+L'ammontare di OUSD nel tuo wallet crescerà in ogni momento che si verifica un evento di ribasamento positivo. Puoi impararne di più leggendo [Supply Elastica](https://docs.ousd.com/core-concepts/elastic-supply). La supply è attualmente ribasata molte volte al giorno ed è principalmente collegata a quante persone stanno coniando o riscattando i propri OUSD.
 
-## Why does OUSD not grow when it's held in Uniswap, SushiSwap, etc?
+## Perché i miei OUSD non crescono quando li mantengo in Uniswap, Sushiswap o altre pool?
 
-By default, rebase events don't affect the supply of OUSD that is sitting in smart contracts. These contracts can opt in to receiving additional OUSD if they are capable of handling elastic supply tokens. You can read more about this in [Rebasing & Smart Contracts](https://docs.ousd.com/core-concepts/elastic-supply/rebasing-and-smart-contracts).
+Come impostazione predefinita, gli eventi di ribasamento non influiscono sulla supply di OUSD che si trova allocata in smart contract. Questi smart contract possono fare richiesta di ricevere gli OUSD aggiuntivi solo se sono in grado di supportare i token con supply elastica. Puoi impararne di più leggendo [Ribasamento & Smart Contract](https://docs.ousd.com/core-concepts/elastic-supply/rebasing-and-smart-contracts).
 
-## How is it possible for the APY to be so high?
+## Come è possibile che la APY sia così elevata?
 
-You can read about our various strategies in [Yield Generation](https://docs.ousd.com/core-concepts/yield-generation). We currently get most of the yield from harvesting rewards tokens \(namely COMP and CRV\). Additionally, the yield increases as more OUSD is held in smart contracts that do not opt into rebasing since the underlying collateral continues to earn for the average OUSD holder.
+Puoi approfondire le nostre strategie in [Generazione di rendimento](https://docs.ousd.com/core-concepts/yield-generation). Al momento otteniamo la maggior parte del rendimento dalla raccolta dei gettoni ricompensa \(COMP e CRV\). Additionally, the yield increases as more OUSD is held in smart contracts that do not opt into rebasing since the underlying collateral continues to earn for the average OUSD holder.
 
 ## Why is my balance increasing at a slower rate than the advertised APY?
 
