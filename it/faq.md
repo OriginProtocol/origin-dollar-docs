@@ -22,9 +22,9 @@ Come impostazione predefinita, gli eventi di ribasamento non influiscono sulla s
 
 ## Come è possibile che la APY sia così elevata?
 
-Puoi approfondire le nostre strategie in [Generazione di rendimento](https://docs.ousd.com/core-concepts/yield-generation). Al momento otteniamo la maggior parte del rendimento dalla raccolta dei gettoni ricompensa \(COMP e CRV\). Additionally, the yield increases as more OUSD is held in smart contracts that do not opt into rebasing since the underlying collateral continues to earn for the average OUSD holder.
+Puoi approfondire le nostre strategie in [Generazione di rendimento](https://docs.ousd.com/core-concepts/yield-generation). Al momento otteniamo la maggior parte del rendimento dalla raccolta dei gettoni ricompensa \(COMP e CRV\). Inoltre, lo yield aumenta con l'aumentare degli OUSD detenuti negli smart contract che non effettuano la richiesta di ribasamento, in quanto il collaterale sottosante genera guadagni per l'holder medio di OUSD.
 
-## Why is my balance increasing at a slower rate than the advertised APY?
+## Perché il mio saldo aumenta con un tasso APY più lento di quello pubblicizzato?
 
-OUSD balances increase when the supply is rebased. But the size of each rebase varies wildly depending on how much the vault has earned since the last rebase. And while most rebases collect a small amount earnings from lending strategies, other rebases involve liquidating rewards tokens or collecting fees. As a result, the yield will vary significantly during short time periods.
+I saldi OUSD aumentano quando viene effettuato il ribasamento della supply. Ma la dimensione di ogni ribasamento varia notevolmente dipendentemente da quanto il vault ha guadagnato dall'ultimo evento di ribasamento. E mentre la maggior parte dei ribasamenti raccoglie piccole quantità di guadagni dalle strategie di lending, altri ribasamenti comportano la liquidazione dei token premio, o la riscossione di commissioni. Come risultato finale, lo yield varierà significativamente se lo si guarda in brevi periodi di tempo.
 
