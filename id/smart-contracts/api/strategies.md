@@ -1,10 +1,12 @@
 # Strategi
 
-Strategi baru dapat ditambahkan atau dihapus kapan saja untuk menanggapi realitas pasar baru dan mendiversifikasi risiko.
+{% hint style="info" %}
+Documentation coming soon.
+{% endhint %}
 
-Saat peluncuran, OUSD akan memanfaatkan satu strategi dan menyebarkan modal yang disimpan ke Compound. Kami bermaksud untuk menerapkan banyak strategi lain segera setelahnya.
+New strategies can be added or removed at any time to respond to new market realities and diversify risk.
 
-Setelah kami bermigrasi ke tata kelola yang terdesentralisasi, kami bermaksud agar komunitas mengusulkan strategi baru dan memberikan suara pada bobot yang sesuai untuk setiap strategi dalam kelompok. Kami mengantisipasi bahwa sebagian besar pemegang OUSD akan menghargai eksposur ke peluang imbal hasil yang lebih tinggi sambil mempertahankan posisi yang lebih konservatif untuk sebagian dana.
+Once we migrate to decentralized governance, it is our intent for the community to propose new strategies and to vote on the appropriate weight for each strategy in the pool. We anticipate that most OUSD holders will value having some exposure to higher yield opportunities while maintaining more conservative positions for a portion of the funds.
 
 
 
