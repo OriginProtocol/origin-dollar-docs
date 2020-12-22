@@ -25,15 +25,14 @@
   * [Uniswap](core-concepts/supported-strategies/uniswap.md)
   * [Balancer](core-concepts/supported-strategies/balancer.md)
   * [Yearn.finance](core-concepts/supported-strategies/yearn.finance.md)
-* [Fon Yönetimi](core-concepts/fund-management/README.md)
-  * [Kazanma Stratejileri](core-concepts/fund-management/earning-strategies.md)
-  * [Çeşitlendirme](core-concepts/fund-management/diversification.md)
+* [Fon Yönetimi](core-concepts/fund-management.md)
 * [Fiyat Oracle'ları](core-concepts/price-oracles.md)
 
 ## Yönetişim
 
 * [Prensipler](governance/principles.md)
 * [Yönetici Ayrıcalıkları](governance/admin-privileges.md)
+* [OGN Staking](governance/ogn-staking.md)
 
 ## Akıllı Sözleşmeler
 
