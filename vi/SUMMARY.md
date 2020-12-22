@@ -25,15 +25,14 @@
   * [Uniswap](core-concepts/supported-strategies/uniswap.md)
   * [Balancer](core-concepts/supported-strategies/balancer.md)
   * [Yearn.finance](core-concepts/supported-strategies/yearn.finance.md)
-* [Quản lý quỹ](core-concepts/fund-management/README.md)
-  * [Chiến lược tạo lợi nhuận](core-concepts/fund-management/earning-strategies.md)
-  * [Đa dạng hóa](core-concepts/fund-management/diversification.md)
+* [Quản lý quỹ](core-concepts/fund-management.md)
 * [Ước tính giá](core-concepts/price-oracles.md)
 
 ## Quản trị
 
 * [Nguyên tắc](governance/principles.md)
 * [Đặc quyền của quản trị viên](governance/admin-privileges.md)
+* [OGN Staking](governance/ogn-staking.md)
 
 ## Hợp đồng thông minh
 
