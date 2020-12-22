@@ -6,11 +6,13 @@ Các nền tảng cho vay DeFi cho phép người dùng cho vay và mượn tài
 
 OUSD tích hợp với nền tảng cho vay DeFi cung cấp các khoản vay thế chấp vượt mức. Thế chấp vượt mức, kết hợp với các quy tắc thông minh xung quanh việc thanh lý, cung cấp mức độ an toàn hợp lý cho người cho vay. Aave cũng đảm bảo an toàn cho các nhóm cho vay của họ bằng token AAVE tương ứng, khiến rủi ro được giảm thêm 1 mức nữa.
 
-OUSD tích hợp với các nhà cung cấp dịch vụ cho vay hàng đầu đã được sử dụng rộng rãi, các hợp đồng thông minh đã được kiểm toán và đã cho vay thành công hàng trăm triệu đô la mà không gặp vấn đề gì. Chúng tôi dự định tích hợp trực tiếp với ít nhất các nhà cung cấp dịch vụ cho vay sau:
+OUSD tích hợp với các nhà cung cấp dịch vụ cho vay hàng đầu đã được sử dụng rộng rãi, các hợp đồng thông minh đã được kiểm toán và đã cho vay thành công hàng trăm triệu đô la mà không gặp vấn đề gì. We are currently integrated with the following lending platforms:
 
 {% page-ref page="../supported-strategies/compound.md" %}
 
 {% page-ref page="../supported-strategies/aave.md" %}
+
+We are planning on integrating the following lending platform:
 
 {% page-ref page="../supported-strategies/dydx.md" %}
 
