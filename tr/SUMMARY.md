@@ -33,6 +33,7 @@
 * [Prensipler](governance/principles.md)
 * [Yönetici Ayrıcalıkları](governance/admin-privileges.md)
 * [OGN Staking](governance/ogn-staking.md)
+* [Contributing](governance/contributing.md)
 
 ## Akıllı Sözleşmeler
 
@@ -50,7 +51,6 @@
 * [Riskler](security-and-risks/risks.md)
 * [Denetimler](security-and-risks/audits.md)
 * [Bug Ödülleri](security-and-risks/bug-bounties.md)
-* [Katkı](security-and-risks/contributing.md)
 
 ## Bağlantılar
 
