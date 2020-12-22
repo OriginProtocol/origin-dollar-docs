@@ -133,7 +133,6 @@ The following oracles are used to fetch or compute a price for **DAI/USD:**
 | Oracle | Pair | Contract |
 | :--- | :--- | :--- |
 | Open Price Feed | DAI/USD | 0x922018674c12a7f0d394ebeef9b58f186cde13c1 |
-| Chainlink | DAI/USD | 0xa7D38FBD325a6467894A13EeFD977aFE558bC1f0 |
 | Chainlink | DAI/ETH | 0x037E8F2125bF532F3e228991e051c8A7253B642c |
 | _Uniswap v2_ | _DAI/ETH_ | _0xA478c2975Ab1Ea89e8196811F51A7B7Ade33eB11_ |
 {% endtab %}
