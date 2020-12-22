@@ -12,13 +12,13 @@ Desentralisasi akan berkembang pesat dalam empat fase dalam beberapa bulan menda
 
 **Timelock**
 
-Sebelum tata kelola terdesentralisasi penuh, kami akan menerapkan [timelock](../smart-contracts/api/timelock.md) di depan semua panggilan fungsi admin, memberi pengguna OUSD waktu \ (48 jam \) untuk menarik dana mereka jika mereka keberatan dengan peningkatan yang kami usulkan. Kunci waktu ini akan ditambahkan segera setelah peluncuran.
+Prior to full decentralized governance, we will implement a [timelock](../smart-contracts/api/timelock.md) in front of all admin function calls, giving OUSD users time to withdraw their funds if they have objections to our proposed upgrades.
 
 **Pemangku Kepentingan Baru dan Yang Sudah Ada**
 
 OUSD adalah proyek baru yang didirikan oleh [tim](www.originprotocol.com/team) Origin Protocol dan akan didukung oleh komunitas Origin yang sudah ada serta banyak pemangku kepentingan baru yang memilih untuk mencetak, menahan, menggunakan, dan menyediakan likuiditas untuk OUSD.
 
-Selain itu, kami juga ingin memastikan partisipasi yang tinggi dari pemegang Token Asal \ (OGN \) kami yang sudah ada, komunitas dengan hampir 500.000 anggota, dan pembeli / penjual di Platform. Pemegang OGN yang ada akan dapat mempertaruhkan OGN mereka untuk berpartisipasi dalam tata kelola dan mendapatkan insentif untuk mendorong nilai ke OUSD. Rincian lebih lanjut akan diberikan dalam waktu dekat.
+Selain itu, kami juga ingin memastikan partisipasi yang tinggi dari pemegang Token Asal \ (OGN \) kami yang sudah ada, komunitas dengan hampir 500.000 anggota, dan pembeli / penjual di Platform. Existing OGN holders are able to [stake their OGN](ogn-staking.md) to participate in governance and earn incentives for driving value to OUSD.
 
 Hubungan yang kuat antara OUSD dan platform perdagangan Origin lainnya akan mendorong pertumbuhan di kedua inisiatif.
 
