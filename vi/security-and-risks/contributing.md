@@ -25,6 +25,13 @@ Your development flow should look like:
 7. Đẩy chi nhánh của bạn lên kho lưu trữ ngược dòng (tức là https: //github.com/OriginProtocol/ [repo]) để những người đóng góp khác có thể dễ dàng xử lý nó nếu cần.
 8. Vui lòng yêu cầu đánh giá trong bài PR bằng cách nhấp vào biểu tượng bánh răng bên cạnh “Người đánh giá” ở cột bên phải.
 
+For critical smart contract code to be merged it must pass the following checklist:
+
+*  Code reviewed by 2 reviewers
+*  Unit tests pass
+*  Slither tests pass with no warning
+*  Echidna tests pass
+
 The `master` branch is locked so that only members of the [core team](https://github.com/orgs/OriginProtocol/teams/core) are able to merge your pull requests. Pull requests that are peer-reviewed by other trusted contributors will be fast-tracked and merged faster! Check in the `#engineering` Discord channel for appropriate reviewers.
 
 #### Kiểu lập trình
@@ -39,11 +46,11 @@ For Solidity, we use two-space indents.
 
 When considering protocol or implementation design proposals, we are looking for:
 
-* Mô tả vấn đề mà bản đề xuất này sẽ giải quyết
-* Thảo luận về những đánh đổi liên quan
-* Xem xét các giải pháp hiện có khác
-* Link đến tài liệu có liên quan (RFC, bài báo, v. v.)
-* Thảo luận về giải pháp đề xuất
+* A description of the problem this design proposal solves
+* Discussion of the trade-offs involved
+* Review of other existing solutions
+* Links to relevant literature \(RFCs, papers, etc\)
+* Discussion of the proposed solution
 
 Please note that protocol design is hard and meticulous work. You may need to review existing literature and think through generalized use cases.
 
@@ -51,10 +58,10 @@ Please note that protocol design is hard and meticulous work. You may need to re
 
 We want to keep the Origin community awesome, growing and collaborative. We need your help to keep it that way. To help with this we’ve come up with some general guidelines for the community as a whole:
 
-* Thái độ tốt: Lịch sự, tôn trọng với các thành viên trong cộng đồng: không phân biệt vùng miền, chủng tộc, giới tính hoặc các hành vi tương tự. Chúng tôi thích những người tử tế hơn những người xấu tính!
-* Thái độ hoan nghênh: Làm cho mọi người trong cộng đồng của chúng tôi cảm thấy được chào đón không phân biệt tiểu sử và mức độ đóng góp của họ, làm mọi cách có thể để khuyến khích sự gắn kết của cộng đồng.
-* Tuân thủ pháp luật: Về cơ bản, không để bất kỳ ai gặp rắc rối. Chỉ chia sẻ nội dung mà bạn sở hữu, không chia sẻ thông tin riêng tư hoặc thông tin nhạy cảm và không vi phạm pháp luật.
-* Duy trì đúng chủ đề: Đảm bảo rằng nội dung được đăng lên các kênh 1 cách phù hợp, tránh gây thảo luận lạc đề. Hãy nhớ khi bạn cập nhật một vấn đề hoặc trả lời email mà bạn có khả năng gửi cho một số lượng lớn người nhận. Vui lòng kiểm tra thật kỹ trước khi thực hiện. Cần lưu ý rằng không ai thích bị làm phiền cả.
+* Be nice: Be courteous, respectful and polite to fellow community members: no regional, racial, gender, or other abuse will be tolerated. We like nice people way better than mean ones!
+* Encourage diversity and participation: Make everyone in our community feel welcome, regardless of their background and the extent of their contributions, and do everything possible to encourage participation in our community.
+* Keep it legal: Basically, don’t get anybody in trouble. Share only content that you own, do not share private or sensitive information, and don’t break laws.
+* Stay on topic: Make sure that you are posting to the correct channel and avoid off-topic discussions. Remember when you update an issue or respond to an email you are potentially sending to a large number of people. Please consider this before you update. Also remember that nobody likes spam.
 
 #### Báo cáo lỗi
 
