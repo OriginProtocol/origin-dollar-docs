@@ -1,12 +1,16 @@
 # Đặc quyền của quản trị viên
 
-Các hợp đồng thông minh OUSD được thiết kế để có thể nâng cấp chủ sở hữu.
+The OUSD smart contracts are designed to be owner upgradable. The Origin team uses two different Gnosis multisig wallet contracts in order to make changes to the protocol. These multisig wallets have been [audited by OpenZeppelin](https://blog.openzeppelin.com/gnosis-multisig-wallet-audit-d702ff0e2b1e/), [ConsenSys Dilligence](https://blog.gnosis.pm/the-gnosis-multisig-wallet-and-our-commitment-to-security-ce9aca0d17f6), Origin’s team, and others.
 
-Khi ra mắt, các hợp đồng OUSD thuộc sở hữu của 5 trong 8 hợp đồng nhiều chữ ký của Gnosis đã được [kiểm toán bởi OpenZeppelin](https://blog.openzeppelin.com/gnosis-multisig-wallet-audit-d702ff0e2b1e/), [ConsenSys Dilligence](https://blog.gnosis.pm/the-gnosis-multisig-wallet-and-our-commitment-to-security-ce9aca0d17f6), nhóm của Origin và những người khác. Điểm mấu chốt của hình thức đa chữ ký này là quyền quyết định sẽ không chỉ thuộc về sáng lập viên của Origin.
+{% hint style="info" %}
+Time-delayed admin actions gives users a chance to exit OUSD if its admins become malicious, are compromised, or make a change that the users do not like.
+{% endhint %}
 
-Sau này, quyền sở hữu sẽ được chuyển sang hình thức khoá thời gian. Có nghĩa là admin vẫn có quyền thay đổi giao thức từ hình thức đa chữ ký nhưng sẽ có độ trễ nhất định.
+The primary admin is a 5 of 8 multisig contract which is required to make any code changes to the protocol. OUSD can only be upgraded from this 5 of 8 multi-sig wallet. The keys to this multi-sig are held by individuals with close ties to the company, and not even the Origin founders acting together have enough control to execute owner functions on their own. In addition, the OUSD contracts are owned by the [timelock](../smart-contracts/api/timelock.md) which allows the Origin team to continue making changes to the protocol, but only after a time delay.
 
-Đặc quyền quản trị viên là cần thiết trong giai đoạn đầu để đảm bảo giao thức được bảo mật và lợi nhuận được tối ưu đồng thời giảm thiểu rủi ro. Chúng tôi dự kiến sẽ tiếp tục cải tiến hợp đồng thông minh của OUSD trong vài tháng đầu.
+Some functionality, such as rebalancing funds between strategies or pausing deposits, can be triggered without the timelock and with far less signers. This allows the Origin team to react more quickly to market conditions or security threats. These signers, known as Strategists,  have the ability to execute a limited number of functions __with only 2 of 9 signers.
 
-Sau khi hoàn thành một số chu kỳ nâng cấp, chúng tôi có kế hoạch chuyển quyền sở hữu từ cơ chế công ty kiểm soát sang cơ chế kiếm soát bằng hợp đồng quản trị phi tập trung, từ đó cho phép cộng đồng bỏ phiếu và tham gia vào các cập nhật giao thức trong tương lai.
+Having these admin privileges is necessary in the early days to ensure that the protocol is secure and optimized for earning yields while minimizing risks. We expect to release multiple iterations of our smart contracts in the first several months of the protocol's existence.
+
+Once several upgrade cycles have been completed, we intend to transfer ownership from our company control to a decentralized governance contract, thereby allowing the community to vote and participate in future protocol updates.
 
