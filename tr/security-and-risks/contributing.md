@@ -25,6 +25,13 @@ Your development flow should look like:
 7. Branşınızı yukarı akış havuzuna \ (ör. Https: //github.com/OriginProtocol/ \ [repo \] \) gönderin, böylece diğer katkıda bulunanlar gerekirse kolayca çalışabilir.
 8. Lütfen sağ sütundaki "İnceleyenler" in yanındaki dişli çark simgesini tıklayarak PR'da bir inceleme talep edin.
 
+For critical smart contract code to be merged it must pass the following checklist:
+
+*  Code reviewed by 2 reviewers
+*  Unit tests pass
+*  Slither tests pass with no warning
+*  Echidna tests pass
+
 The `master` branch is locked so that only members of the [core team](https://github.com/orgs/OriginProtocol/teams/core) are able to merge your pull requests. Pull requests that are peer-reviewed by other trusted contributors will be fast-tracked and merged faster! Check in the `#engineering` Discord channel for appropriate reviewers.
 
 #### Kodlama Stili
@@ -39,11 +46,11 @@ For Solidity, we use two-space indents.
 
 When considering protocol or implementation design proposals, we are looking for:
 
-* Bu tasarım önerisinin çözdüğü sorunun bir açıklaması
-* İlgili değiş tokuşların tartışılması
-* Diğer mevcut çözümlerin gözden geçirilmesi
-* İlgili literatüre bağlantılar \ (RFC'ler, makaleler, vb. \)
-* Önerilen çözümün tartışılması
+* A description of the problem this design proposal solves
+* Discussion of the trade-offs involved
+* Review of other existing solutions
+* Links to relevant literature \(RFCs, papers, etc\)
+* Discussion of the proposed solution
 
 Please note that protocol design is hard and meticulous work. You may need to review existing literature and think through generalized use cases.
 
@@ -51,10 +58,10 @@ Please note that protocol design is hard and meticulous work. You may need to re
 
 We want to keep the Origin community awesome, growing and collaborative. We need your help to keep it that way. To help with this we’ve come up with some general guidelines for the community as a whole:
 
-* Nazik olun: Topluluk üyelerine karşı nazik, saygılı ve kibar olun: hiçbir bölgesel, ırksal, cinsiyet veya diğer taciz hoş görülmeyecektir. İyi insanları kötü olanlardan daha çok severiz
-* Çeşitliliği ve katılımı teşvik edin: Geçmişleri ve katkılarının kapsamı ne olursa olsun, topluluğumuzdaki herkesin hoş karşılandığını hissetmesini sağlayın ve topluluğumuza katılımı teşvik etmek için mümkün olan her şeyi yapın.
-* Yasal tutun: Temel olarak, kimsenin başını belaya sokmayın. Yalnızca sahibi olduğunuz içeriği paylaşın, özel veya hassas bilgileri paylaşmayın ve yasaları çiğnemeyin.
-* Konudan ayrılmayın: Doğru kanala gönderi paylaştığınızdan emin olun ve konu dışı tartışmalardan kaçının. Bir sorunu güncellediğinizde veya potansiyel olarak çok sayıda insana gönderdiğiniz bir e-postaya yanıt verdiğinizde unutmayın. Lütfen güncellemeden önce bunu göz önünde bulundurun. Ayrıca kimsenin spam'i sevmediğini de unutmayın.
+* Be nice: Be courteous, respectful and polite to fellow community members: no regional, racial, gender, or other abuse will be tolerated. We like nice people way better than mean ones!
+* Encourage diversity and participation: Make everyone in our community feel welcome, regardless of their background and the extent of their contributions, and do everything possible to encourage participation in our community.
+* Keep it legal: Basically, don’t get anybody in trouble. Share only content that you own, do not share private or sensitive information, and don’t break laws.
+* Stay on topic: Make sure that you are posting to the correct channel and avoid off-topic discussions. Remember when you update an issue or respond to an email you are potentially sending to a large number of people. Please consider this before you update. Also remember that nobody likes spam.
 
 #### Sorunları Bildirme
 
