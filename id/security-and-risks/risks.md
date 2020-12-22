@@ -1,7 +1,7 @@
 # Resiko
 
 {% hint style="danger" %}
-Kontrak pintar OUSD belum diaudit. Kami sangat menyarankan untuk meninjau kontrak pintar kami sebelum menyetorkan modal dalam jumlah besar.
+Use at your own risk. Don't deploy more capital than you are willing to lose.
 {% endhint %}
 
 Seperti halnya instrumen berbunga lainnya. Ada resiko terkait dengan memegang OUSD yang penting untuk dipahami. Risiko-risiko ini secara luas dapat diklasifikasikan menjadi 3 kategori:
