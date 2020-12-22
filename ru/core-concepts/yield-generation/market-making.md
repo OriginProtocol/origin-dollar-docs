@@ -12,11 +12,13 @@ AMM могут открывать новые рынки только тогда,
 
 Протокол OUSD направляет USDT, USDC и DAI в высокопроизводительные пулы ликвидности в соответствии с объемом торгов и вознаграждаетcя токенами (например, Balancer начисляет токены BAL поставщикам ликвидности). Затем доходность передается держателям OUSD.
 
-Мы намерены напрямую интегрироваться как минимум со следующими автоматизированными маркет-мейкерами:
-
-{% page-ref page="../supported-strategies/uniswap.md" %}
+We are currently integrated with the following automated market maker:
 
 {% page-ref page="../supported-strategies/curve.md" %}
+
+We are intending to integrate with the following automated market makers:
+
+{% page-ref page="../supported-strategies/uniswap.md" %}
 
 {% page-ref page="../supported-strategies/balancer.md" %}
 
