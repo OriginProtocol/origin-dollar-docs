@@ -1,16 +1,16 @@
-# Audits
+# 审核
 
 {% hint style="danger" %}
-The OUSD smart contracts have not yet been audited. We strongly recommend reviewing our smart contracts before depositing significant amounts of capital.
+OUSD 智能合约尚未经过审核。 我们强烈建议您在存入大量资金之前，先查看我们的智能合约。
 {% endhint %}
 
 **OUSD**
 
-Audits have already been scheduled with the respected security firm, [Trail of Bits](https://www.trailofbits.com/), for early October 2020. Their audit results will be publicly released as soon as they are available.
+我们已经安排了安全公司 [Trail of Bits](https://www.trailofbits.com/)审核 OUSD，该审核将于2020年10月上旬进行。 他们的审计结果将在第一时间公开发布。
 
-**Supported Strategies**
+**支持策略**
 
-Multiple audits for Compound have already been completed and are available on their website. This includes the original code for the modified [Timelock](../smart-contracts/api/timelock.md) that OUSD is using.
+Compound 已完成多次审核，可以在它们的网站上查看细节。 这包括 OUSD 修改的 [时间锁（Timelock）](../smart-contracts/api/timelock.md) 所使用的的原始代码。
 
 {% page-ref page="audits.md" %}
 
