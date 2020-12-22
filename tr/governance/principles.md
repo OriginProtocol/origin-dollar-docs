@@ -12,13 +12,13 @@ Merkeziyetsizlik, önümüzdeki birkaç ay içinde dört aşamada hızla ilerley
 
 **zaman kilidi**
 
-Tam merkezi olmayan yönetişimden önce, tüm yönetici işlevi çağrılarının önüne bir [timelock](../smart-contracts/api/timelock.md) uygulayarak, OUSD kullanıcılarına önerilen yükseltmelerimize itirazları varsa fonlarını çekmeleri için zaman \ (48 saat \) vereceğiz. Zaman kilidi lansmandan 7 gün sonra eklenecektir.
+Prior to full decentralized governance, we will implement a [timelock](../smart-contracts/api/timelock.md) in front of all admin function calls, giving OUSD users time to withdraw their funds if they have objections to our proposed upgrades.
 
 **Yeni ve Mevcut Stake Tutucular**
 
 OUSD, Origin Protocol [team](www.originprotocol.com/team) tarafından kurulan yeni bir projedir ve OUSD için para basmayı, tutmayı, kullanmayı ve likidite sağlamayı seçen birçok yeni  ( stakeholder) paydaşın yanı sıra mevcut Origin topluluğu tarafından desteklenecektir.
 
-Ek olarak, mevcut Origin Token \ (OGN \) sahiplerimizden, 500.000'e yakın üyeden oluşan topluluktan ve Platformdaki alıcı / satıcılardan yüksek katılım sağlamak istiyoruz. Mevcut OGN sahipleri, yönetişime katılmak ve OUSD'ye değer sağlamak için teşvikler kazanmak için OGN'lerini paylaşabilecekler. Yakın gelecekte daha fazla ayrıntı sağlanacaktır.
+Ek olarak, mevcut Origin Token \ (OGN \) sahiplerimizden, 500.000'e yakın üyeden oluşan topluluktan ve Platformdaki alıcı / satıcılardan yüksek katılım sağlamak istiyoruz. Existing OGN holders are able to [stake their OGN](ogn-staking.md) to participate in governance and earn incentives for driving value to OUSD.
 
 OUSD ile Origin ticaret platformunun geri kalanı arasındaki güçlü bağlantı, her iki girişimde de büyümeyi hızlandıracak.
 
