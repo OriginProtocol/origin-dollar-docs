@@ -6,13 +6,15 @@ Platform peminjaman DeFi memungkinkan pengguna meminjamkan dan meminjam aset kri
 
 OUSD terintegrasi dengan platform pinjaman DeFi yang menyediakan pinjaman dengan jaminan berlebih. Jaminan berlebih, dikombinasikan dengan aturan cerdas seputar likuidasi, memberikan tingkat keamanan yang wajar bagi pemberi pinjaman. Aave juga mengamankan kumpulan pinjaman mereka masing-masing dengan token AAVE, yang selanjutnya menurunkan risiko.
 
-OUSD terintegrasi dengan penyedia pinjaman terkemuka yang memiliki rekam jejak yang terbukti, mengaudit kontrak pintar, dan telah berhasil meminjamkan ratusan juta dolar tanpa masalah. Kami bermaksud untuk berintegrasi dengan setidaknya penyedia pinjaman berikut secara langsung:
+OUSD terintegrasi dengan penyedia pinjaman terkemuka yang memiliki rekam jejak yang terbukti, mengaudit kontrak pintar, dan telah berhasil meminjamkan ratusan juta dolar tanpa masalah. We are currently integrated with the following lending platforms:
 
 {% page-ref page = "../ didukung-strategi / compound.md"%}
 
 {% page-ref page = "../ didukung-strategi / aave.md"%}
 
-{% page-ref page = "../ didukung-strategi / dydx.md"%}
+We are planning on integrating the following lending platform:
+
+{% page-ref page="../supported-strategies/dydx.md" %}
 
 
 
