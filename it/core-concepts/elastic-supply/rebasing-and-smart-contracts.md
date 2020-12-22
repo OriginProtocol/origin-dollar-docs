@@ -12,11 +12,13 @@ In precedenza abbiamo aggiunto uno [smart contract](https://medium.com/originpro
 
 Dopo molte discussioni, abbiamo deciso che la soluzione più scalabile fosse quella di aggiungere una iscrizione esplicita per gli smart contract, così che solo dopo essersi iscritti possano ricevere il rendimento tramite il meccanismo del ribasamento. Questo risolve il problema della fornitura sempre in espansione negli AMM pur consentendo comunque ai wallet multi-sig e anche ad altri smart contract, l'opportunità di continuare a partecipare e guadagnare rendimenti.
 
-Se stai utilizzando un wallet multi-sig come [Gnosis Wallet](https://github.com/gnosis/MultiSigWallet) oppure [Gnosis Safe](https://gnosis-safe.io/), avrai bisogno dell'ultimo [address di implementazione relativo a OUSD](../../smart-contracts/registry.md) e il corrispettivo [ ABI](https://api.etherscan.io/api?module=contract&action=getabi&address=0x1ae95dd4eeae7ed03da79856c2d44ffa3318f805). Una volta che li avrai aggiunti, sarai in grado di richiamare la funzione `rebaseOptIn()` per iscriverti alla ricezione del rendimento tramite il ribasamento o tramite il richiamo della funzione `rebaseOptOut()` per disattivarlo nuovamente.
-
 {% hint style="warning" %}
-Se stai rilasciando un contratto e intendi richiamare la funzione `rebaseOptin()` per guadagnare lo yield, non puoi richiamarla dal costruttore degli smart contract. Lo smart contract deve essere rilasciato prima di poter essere richiamato.
+If you are deploying a contract and intend to call`rebaseOptIn()`to earn yield you cannot call it from the contracts constructor. The contract must be deployed before it can be called.
 {% endhint %}
 
-[ABI](https://api.etherscan.io/api?module=contract&action=getabi&address=0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86)
+If you are using a multi-sig wallet like [Gnosis Wallet](https://github.com/gnosis/MultiSigWallet) or [Gnosis Safe](https://gnosis-safe.io/), you will need the latest [implementation contract address for OUSD](../../smart-contracts/registry.md) and the corresponding [ABI](https://api.etherscan.io/api?module=contract&action=getabi&address=0x1ae95dd4eeae7ed03da79856c2d44ffa3318f805). Once you add those, you will be able to call the `rebaseOptIn()` function to opt into receiving yield via rebasing or`rebaseOptOut()` to turn it off again.
+
+
+
+
 
