@@ -1,12 +1,16 @@
 # 관리자 권한
 
-OUSD 스마트 컨트랙트는 소유자를 업그레이드 할 수 있도록 설계되었습니다.
+The OUSD smart contracts are designed to be owner upgradable. The Origin team uses two different Gnosis multisig wallet contracts in order to make changes to the protocol. These multisig wallets have been [audited by OpenZeppelin](https://blog.openzeppelin.com/gnosis-multisig-wallet-audit-d702ff0e2b1e/), [ConsenSys Dilligence](https://blog.gnosis.pm/the-gnosis-multisig-wallet-and-our-commitment-to-security-ce9aca0d17f6), Origin’s team, and others.
 
-출시 시점에, OUSD 계약은 [오픈제플린(OpenZeppelin)](https://blog.openzeppelin.com/gnosis-multisig-wallet-audit-d702ff0e2b1e/)의 감사와, [컨센서스 딜리전스(ConsenSys Dilligence)](https://blog.gnosis.pm/the-gnosis-multisig-wallet-and-our-commitment-to-security-ce9aca0d17f6)와 오리진 팀 그리고 그 밖의 사람 및 기관이 감사한 8개의 그노시스 (Gnosis) 멀티 시그(Multi-sig) 컨트렉트 중 5개에 의해 소유됩니다. 이 멀티 시그의 키는 회사와 밀접한 관계를 맺고 있는 개인이 보유하고 있으며, 함께 활동하는 오리진 창업자 조차도 스스로 소유자 실행할 수 있는 충분한 통제력을 가지고 있지 않습니다.
+{% hint style="info" %}
+Time-delayed admin actions gives users a chance to exit OUSD if its admins become malicious, are compromised, or make a change that the users do not like.
+{% endhint %}
 
-출시 직후 곧, 소유권이 타임락(tilelock) 으로 이전됩니다. 이렇게 하면 여전히 오리진 팀은 멀티시그(multi-sig) 에서 프로토콜을 변경할 수 있지만, 시간이 지연됩니다.
+The primary admin is a 5 of 8 multisig contract which is required to make any code changes to the protocol. OUSD can only be upgraded from this 5 of 8 multi-sig wallet. The keys to this multi-sig are held by individuals with close ties to the company, and not even the Origin founders acting together have enough control to execute owner functions on their own. In addition, the OUSD contracts are owned by the [timelock](../smart-contracts/api/timelock.md) which allows the Origin team to continue making changes to the protocol, but only after a time delay.
 
-초기에 프로토콜을 안전하게 보호하고 수익률 달성에 최적화하면서 리스크를 최소화하려면 관리자 권한이 있어야 합니다. 오리진은 프로토콜 출시 이후 첫 몇 달 동안 스마트 컨트랙트를 여러 번 반복해서 출시할 예정입니다.
+Some functionality, such as rebalancing funds between strategies or pausing deposits, can be triggered without the timelock and with far less signers. This allows the Origin team to react more quickly to market conditions or security threats. These signers, known as Strategists,  have the ability to execute a limited number of functions __with only 2 of 9 signers.
 
-여러 업그레이드 주기가 완료되면 소유권을 회사 통제에서 탈 중앙화된 거버넌스 계약으로 이전하여 커뮤니티가 투표하고 향후 프로토콜 업데이트에 참여할 수 있도록 할 계획입니다.
+Having these admin privileges is necessary in the early days to ensure that the protocol is secure and optimized for earning yields while minimizing risks. We expect to release multiple iterations of our smart contracts in the first several months of the protocol's existence.
+
+Once several upgrade cycles have been completed, we intend to transfer ownership from our company control to a decentralized governance contract, thereby allowing the community to vote and participate in future protocol updates.
 
