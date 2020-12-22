@@ -12,13 +12,15 @@ AMM hanya dapat mengaktifkan pasar baru ketika penyedia likuiditas menyediakan l
 
 Protokol OUSD mengarahkan USDT, USDC, dan DAI ke pool likuiditas yang berkinerja tinggi sebagaimana ditentukan oleh volume perdagangan dan hadiah token \ (misalnya, Balancer memberi hadiah token BAL ke penyedia likuiditas \). Hasil panen kemudian diteruskan ke pemegang OUSD.
 
-Kami bermaksud untuk berintegrasi langsung dengan setidaknya pembuat pasar otomatis berikut:
+We are currently integrated with the following automated market maker:
 
-{% page-ref page = "../ didukung-strategi / uniswap.md"%}
+{% page-ref page="../supported-strategies/curve.md" %}
 
-{% page-ref page = "../ didukung-strategi / curve.md"%}
+We are intending to integrate with the following automated market makers:
 
-{% page-ref page = "../ didukung-strategi / balancer.md"%}
+{% page-ref page="../supported-strategies/uniswap.md" %}
+
+{% page-ref page="../supported-strategies/balancer.md" %}
 
 
 
