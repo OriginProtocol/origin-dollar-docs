@@ -33,6 +33,7 @@
 * [Nguyên tắc](governance/principles.md)
 * [Đặc quyền của quản trị viên](governance/admin-privileges.md)
 * [OGN Staking](governance/ogn-staking.md)
+* [Contributing](governance/contributing.md)
 
 ## Hợp đồng thông minh
 
@@ -50,7 +51,6 @@
 * [Rủi ro](security-and-risks/risks.md)
 * [Kiểm toán](security-and-risks/audits.md)
 * [Phần thưởng phát hiện lỗi](security-and-risks/bug-bounties.md)
-* [Đóng góp](security-and-risks/contributing.md)
 
 ## Danh sách các kênh
 
