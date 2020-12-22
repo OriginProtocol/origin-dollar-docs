@@ -6,11 +6,13 @@ Le piattaforme di prestito DeFi consentono agli utenti di prestare e prendere in
 
 OUSD si integra con le piattaforme di prestito DeFi che forniscono prestiti sovra-collateralizzati. La sovra-collateralizzazione, combinata a regole intelligenti sulle liquidazioni, fornisce un ragionevole livello di sicurezza per i prestatori. Aave inoltre protegge ulteriormente i pool dei suoi prestatori attraverso il token AAVE, riducendo ulteriormente il rischio.
 
-OUSD si integra con i leader tra i fornitori di servizi di prestito, i quali hanno una comprovata esperienza, smartcontract revisionati, e che hanno già prestato con successo centinaia di milioni di dollari senza alcun problema. Intendiamo integrarci in modo diretto con almeno i seguenti lending providers:
+OUSD si integra con i leader tra i fornitori di servizi di prestito, i quali hanno una comprovata esperienza, smartcontract revisionati, e che hanno già prestato con successo centinaia di milioni di dollari senza alcun problema. We are currently integrated with the following lending platforms:
 
 {% page-ref page="../supported-strategies/compound.md" %}
 
 {% page-ref page="../supported-strategies/aave.md" %}
+
+We are planning on integrating the following lending platform:
 
 {% page-ref page="../supported-strategies/dydx.md" %}
 
