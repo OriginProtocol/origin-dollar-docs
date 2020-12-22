@@ -1,7 +1,7 @@
 # 위험
 
 {% hint style="danger" %}
-OUSD 스마트 컨트렉트는 아직 감사되지 않았습니다. 다량의 자본 투자에 앞서, 스마트 컨트렉트 검토를 진행하실 것을 적극 권장합니다.
+Use at your own risk. Don't deploy more capital than you are willing to lose.
 {% endhint %}
 
 다른 이자가 붙는 도구들과 마찬가지로 OUSD 보유와 관련된 위험을 이해하는것은 중요합니다. 이러한 위험은 크게 3 가지 범주로 분류 할 수 있습니다:
