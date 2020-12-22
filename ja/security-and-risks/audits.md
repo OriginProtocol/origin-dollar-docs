@@ -1,12 +1,12 @@
 # Audits
 
-{% hint style="danger" %}
-The OUSD smart contracts have not yet been audited. We strongly recommend reviewing our smart contracts before depositing significant amounts of capital.
-{% endhint %}
-
 **OUSD**
 
-Audits have already been scheduled with the respected security firm, [Trail of Bits](https://www.trailofbits.com/), for early October 2020. Their audit results will be publicly released as soon as they are available.
+OUSD has been audited by multiple, well-respected security firms. Their findings are available below:
+
+* [Trail of Bits, OUSD Audit, Nov 2020](https://drive.google.com/file/d/1wW7QsoHdB9u5b_jc6oTfU1LT3YwJZ0P_/view?usp=sharing)
+* Solidified, OUSD Audit, December 2020
+* [Solidified, OGN Staking, December 2020](https://drive.google.com/file/d/1U-pv_wcijwvVHynb1-6ddy4S49_JNKQe/view)
 
 **Supported Strategies**
 
