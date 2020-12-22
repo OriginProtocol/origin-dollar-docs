@@ -25,6 +25,13 @@ Your development flow should look like:
 7. Dorong cabang Anda ke repositori hulu \ (yaitu https: //github.com/OriginProtocol/ \ [repo \] \) sehingga kontributor lain dapat dengan mudah mengerjakannya jika perlu.
 8. Silakan meminta peninjauan di PR dengan mengklik ikon roda gigi di sebelah "Pengulas" di kolom kanan.
 
+For critical smart contract code to be merged it must pass the following checklist:
+
+*  Code reviewed by 2 reviewers
+*  Unit tests pass
+*  Slither tests pass with no warning
+*  Echidna tests pass
+
 The `master` branch is locked so that only members of the [core team](https://github.com/orgs/OriginProtocol/teams/core) are able to merge your pull requests. Pull requests that are peer-reviewed by other trusted contributors will be fast-tracked and merged faster! Check in the `#engineering` Discord channel for appropriate reviewers.
 
 #### Gaya Pengkodean
@@ -39,11 +46,11 @@ For Solidity, we use two-space indents.
 
 When considering protocol or implementation design proposals, we are looking for:
 
-* Deskripsi masalah yang diselesaikan oleh proposal desain ini
-* Diskusi tentang trade-off yang terlibat
-* Review solusi lain yang ada
-* Tautan ke literatur yang relevan \ (RFC, makalah, dll \)
-* Diskusi tentang solusi yang diusulkan
+* A description of the problem this design proposal solves
+* Discussion of the trade-offs involved
+* Review of other existing solutions
+* Links to relevant literature \(RFCs, papers, etc\)
+* Discussion of the proposed solution
 
 Please note that protocol design is hard and meticulous work. You may need to review existing literature and think through generalized use cases.
 
@@ -51,10 +58,10 @@ Please note that protocol design is hard and meticulous work. You may need to re
 
 We want to keep the Origin community awesome, growing and collaborative. We need your help to keep it that way. To help with this we’ve come up with some general guidelines for the community as a whole:
 
-* Bersikap baik: Bersikaplah sopan, hormat, dan sopan kepada sesama anggota komunitas: tidak ada pelecehan regional, ras, jenis kelamin, atau lainnya yang akan ditoleransi. Kami menyukai orang baik jauh lebih baik daripada orang jahat!
-* Dorong keberagaman dan partisipasi: Buat semua orang di komunitas kami merasa diterima, terlepas dari latar belakang dan tingkat kontribusi mereka, dan lakukan segala kemungkinan untuk mendorong partisipasi dalam komunitas kami.
-* Tetap legal: Pada dasarnya, jangan membuat siapa pun mendapat masalah. Bagikan hanya konten yang Anda miliki, jangan bagikan informasi pribadi atau sensitif, dan jangan melanggar hukum.
-* Tetap sesuai topik: Pastikan Anda memposting ke saluran yang benar dan hindari diskusi di luar topik. Ingatlah saat Anda memperbarui masalah atau membalas email yang berpotensi Anda kirim ke banyak orang. Harap pertimbangkan ini sebelum Anda memperbarui. Ingat juga bahwa tidak ada yang suka spam.
+* Be nice: Be courteous, respectful and polite to fellow community members: no regional, racial, gender, or other abuse will be tolerated. We like nice people way better than mean ones!
+* Encourage diversity and participation: Make everyone in our community feel welcome, regardless of their background and the extent of their contributions, and do everything possible to encourage participation in our community.
+* Keep it legal: Basically, don’t get anybody in trouble. Share only content that you own, do not share private or sensitive information, and don’t break laws.
+* Stay on topic: Make sure that you are posting to the correct channel and avoid off-topic discussions. Remember when you update an issue or respond to an email you are potentially sending to a large number of people. Please consider this before you update. Also remember that nobody likes spam.
 
 #### Melaporkan Masalah
 
