@@ -12,13 +12,15 @@ AMM은 유동성 공급자가 유동성을 공급할 때만 새로운 시장을 
 
 OUSD 프로토콜은 USDT, USDC 및 DAI를 거래량 및 보상 토큰에 의해 결정된 고성능 유동성 풀로 라우팅합니다 \ (예: 밸런서(Balancer)는 BAL 토큰을 유동성 공급자에게 보상합니다 \). 수익은 OUSD 보유자에게 전달됩니다.
 
-우리는 최소한 다음과 같은 자동화 된 마켓 메이커와 직접 통합 할 계획입니다.
+We are currently integrated with the following automated market maker:
 
-{% page-ref page = "../ supported-strategies / uniswap.md"%}
+{% page-ref page="../supported-strategies/curve.md" %}
 
-{% page-ref page = "../ supported-strategies / curve.md"%}
+We are intending to integrate with the following automated market makers:
 
-{% page-ref page = "../ supported-strategies / balancer.md"%}
+{% page-ref page="../supported-strategies/uniswap.md" %}
+
+{% page-ref page="../supported-strategies/balancer.md" %}
 
 
 
