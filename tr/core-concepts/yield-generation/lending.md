@@ -6,13 +6,15 @@ DeFi borç verme platformları, kullanıcıların herhangi bir aracı olmadan kr
 
 OUSD, aşırı teminatlı krediler sağlayan DeFi borç verme platformlarıyla entegre olur. Tasfiyelerle ilgili akıllı kurallarla birlikte aşırı teminatlandırma, borç verenler için makul bir güvenlik seviyesi sağlar. Aave ayrıca, kredi havuzlarını sırasıyla AAVE tokenleri ile güvence altına alarak riski daha da düşürür.
 
-OUSD, kanıtlanmış bir sicile sahip, akıllı sözleşmeleri denetleyen ve sorunsuz bir şekilde yüz milyonlarca doları başarıyla borç veren önde gelen kredi sağlayıcılarıyla entegre olur. En azından aşağıdaki kredi sağlayıcılarla doğrudan entegre olmayı planlıyoruz:
+OUSD, kanıtlanmış bir sicile sahip, akıllı sözleşmeleri denetleyen ve sorunsuz bir şekilde yüz milyonlarca doları başarıyla borç veren önde gelen kredi sağlayıcılarıyla entegre olur. We are currently integrated with the following lending platforms:
 
 {% page-ref page = "../ supported-Strategies / complex.md"%}
 
 {% page-ref page = "../ supported-Strategies / complex.md"%}
 
-{% page-ref page = "../ supported-Strategies / complex.md"%}
+We are planning on integrating the following lending platform:
+
+{% page-ref page="../supported-strategies/dydx.md" %}
 
 
 
