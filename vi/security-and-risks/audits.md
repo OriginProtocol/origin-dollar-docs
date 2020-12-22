@@ -4,9 +4,9 @@
 
 OUSD has been audited by multiple, well-respected security firms. Their findings are available below:
 
-* [Trail of Bits, OUSD Audit, Nov 2020](https://drive.google.com/file/d/1wW7QsoHdB9u5b_jc6oTfU1LT3YwJZ0P_/view?usp=sharing)
-* Solidified, OUSD Audit, December 2020
-* [Solidified, OGN Staking, December 2020](https://drive.google.com/file/d/1U-pv_wcijwvVHynb1-6ddy4S49_JNKQe/view)
+* [Trail of Bits, OUSD Audit, Nov 2020](https://drive.google.com/file/d/1yUgiBYOhSuF3m7lKXQjhAB18vxTZbE9E/view?usp=sharing)
+* [Solidified, OUSD Audit, December 2020](https://drive.google.com/file/d/1O7OVHPtyjwdrbaUMqq2-7GU0kqHP65nK/view?usp=sharing)
+* [Solidified, OGN Staking, December 2020](https://drive.google.com/file/d/19qoBPAebyUSbxAKw1Acd1O_aNUm_r64d/view?usp=sharing)
 
 **Supported Strategies**
 
