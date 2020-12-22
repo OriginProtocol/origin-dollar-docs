@@ -25,6 +25,13 @@ Your development flow should look like:
 7. 브랜치를 업스트림 저장소 \ (예: https: //github.com/OriginProtocol/ \ [repo \] \)로 푸시하여 필요한 경우 다른 기여자가 쉽게 작업 할 수 있도록합니다.
 8. 오른쪽 열의 "검토자(Reviewers)"옆에 있는 톱니 바퀴 아이콘을 클릭하여 PR에서 리뷰를 요청하십시오.
 
+For critical smart contract code to be merged it must pass the following checklist:
+
+*  Code reviewed by 2 reviewers
+*  Unit tests pass
+*  Slither tests pass with no warning
+*  Echidna tests pass
+
 The `master` branch is locked so that only members of the [core team](https://github.com/orgs/OriginProtocol/teams/core) are able to merge your pull requests. Pull requests that are peer-reviewed by other trusted contributors will be fast-tracked and merged faster! Check in the `#engineering` Discord channel for appropriate reviewers.
 
 #### 코딩 스타일
@@ -39,11 +46,11 @@ For Solidity, we use two-space indents.
 
 When considering protocol or implementation design proposals, we are looking for:
 
-* 이 설계 제안이 해결하는 문제에 대한 설명
-* 관련된 장단점에 대한 논의
-* 다른 기존 솔루션 검토
-* 관련 문헌 링크 \ (RFC, 논문 등 \)
-* 제안 된 솔루션에 대한 논의
+* A description of the problem this design proposal solves
+* Discussion of the trade-offs involved
+* Review of other existing solutions
+* Links to relevant literature \(RFCs, papers, etc\)
+* Discussion of the proposed solution
 
 Please note that protocol design is hard and meticulous work. You may need to review existing literature and think through generalized use cases.
 
@@ -51,10 +58,10 @@ Please note that protocol design is hard and meticulous work. You may need to re
 
 We want to keep the Origin community awesome, growing and collaborative. We need your help to keep it that way. To help with this we’ve come up with some general guidelines for the community as a whole:
 
-* 예의 바르게 행동 해주세요: 커뮤니티 구성원들에게 예의 바르고 정중하게 행동하고 구성원들을 존중해주세요. 지역, 인종, 성별 또는 기타 다양한 방식의 무례함과 학대는 용납되지 않습니다. 오리진은 좋은 사람을 비열한 사람보다 훨씬 더 좋아합니다!
-* 다양성 및 참여 장려: 커뮤니티의 모든 사람이 자신의 배경과 기여도에 관계없이 환영받는 기분을 느끼게하고 커뮤니티 참여를 장려하기 위해 가능한 모든 일을 합니다.
-* 합법적 유지: 기본적으로 아무도 문제를 일으키지 않길 원합니다. 자신이 소유한 콘텐츠만 공유할 것을 권장하며, 개인 정보 또는 민감한 정보를 공유하지 않도록 합니다. 또한, 정보와 관련된 법률을 위반하지 마세요.
-* 주제 유지: 각 커뮤니티 채널의 성격에 맞는 대화를 지향합니다. 대화를 하기 전에 해당 메세지를 올바른 채널에 게시하고 있는지 확인하고, 주제에서 벗어난 토론은 지양해주세요. 문제를 업데이트하거나 이메일에 응답할 때 잠재적으로 많은 사람이 해당 글을 보게 된다는 것을 항상 염두 해주세요. 업데이트하기 전에 내용들을 검토해주세요. 또한 아무도 스팸을 좋아하지 않는다는 것을 기억하세요.
+* Be nice: Be courteous, respectful and polite to fellow community members: no regional, racial, gender, or other abuse will be tolerated. We like nice people way better than mean ones!
+* Encourage diversity and participation: Make everyone in our community feel welcome, regardless of their background and the extent of their contributions, and do everything possible to encourage participation in our community.
+* Keep it legal: Basically, don’t get anybody in trouble. Share only content that you own, do not share private or sensitive information, and don’t break laws.
+* Stay on topic: Make sure that you are posting to the correct channel and avoid off-topic discussions. Remember when you update an issue or respond to an email you are potentially sending to a large number of people. Please consider this before you update. Also remember that nobody likes spam.
 
 #### 문제 보고
 
