@@ -1,7 +1,7 @@
 # Rủi ro
 
 {% hint style="danger" %}
-Các hợp đồng thông minh OUSD vẫn chưa được kiểm toán. Chúng tôi khuyên bạn nên xem các hợp đồng thông minh của chúng tôi trước khi nạp vào 1 khoản tiền đáng kể.
+Use at your own risk. Don't deploy more capital than you are willing to lose.
 {% endhint %}
 
 Tương tự với bất kỳ công cụ lãi suất nào, OUSD cũng sẽ có thể chứa những rủi ro những rủi ro liên quan mà mọi người cần hiểu rõ. Những rủi ro này có thể được phân thành 3 loại:
