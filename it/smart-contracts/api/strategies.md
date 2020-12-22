@@ -1,10 +1,12 @@
 # Strategie
 
-E' possibile aggiungere o rimuovere nuove strategie in qualsiasi momento, per rispondere alle nuove realtà del mercato e diversificare il rischio.
+{% hint style="info" %}
+Documentation coming soon.
+{% endhint %}
 
-Al lancio, OUSD prenderà vantaggio di una singola strategia e rilascerà il capitale depositato a Compound. Noi intendiamo rilasciare molte altre strategie subito dopo.
+New strategies can be added or removed at any time to respond to new market realities and diversify risk.
 
-Una volta che migriamo verso la governance decentralizzata, è nostro intento che la community proponga nuove strategie e che voti relativamente al peso appropriato per ogni strategia nella pool. Prevediamo che la maggior parte dei detentori di OUSD valuterà di avere qualche esposizione a più alte opportunità di rendimento pur mantenendo anche delle posizioni più conservative per una parte dei fondi.
+Once we migrate to decentralized governance, it is our intent for the community to propose new strategies and to vote on the appropriate weight for each strategy in the pool. We anticipate that most OUSD holders will value having some exposure to higher yield opportunities while maintaining more conservative positions for a portion of the funds.
 
 
 
