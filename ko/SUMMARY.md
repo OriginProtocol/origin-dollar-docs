@@ -33,6 +33,7 @@
 * [원리](governance/principles.md)
 * [관리자 권한](governance/admin-privileges.md)
 * [OGN Staking](governance/ogn-staking.md)
+* [Contributing](governance/contributing.md)
 
 ## 스마트 컨트랙트
 
@@ -50,7 +51,6 @@
 * [위험](security-and-risks/risks.md)
 * [감사](security-and-risks/audits.md)
 * [버그 현상금](security-and-risks/bug-bounties.md)
-* [기여](security-and-risks/contributing.md)
 
 ## 링크
 
