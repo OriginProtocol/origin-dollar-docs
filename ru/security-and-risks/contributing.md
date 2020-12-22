@@ -25,6 +25,13 @@ Your development flow should look like:
 7. Переместите свою ветку в вышестоящий репозиторий \(т.е. https://github.com/OriginProtocol/\[repo\]\), чтобы другие участники могли легко поработать над ней в случае необходимости.
 8. Запросите обзор в PR, щелкнув значок шестеренки рядом с надписью «Рецензенты» в правом столбце.
 
+For critical smart contract code to be merged it must pass the following checklist:
+
+*  Code reviewed by 2 reviewers
+*  Unit tests pass
+*  Slither tests pass with no warning
+*  Echidna tests pass
+
 The `master` branch is locked so that only members of the [core team](https://github.com/orgs/OriginProtocol/teams/core) are able to merge your pull requests. Pull requests that are peer-reviewed by other trusted contributors will be fast-tracked and merged faster! Check in the `#engineering` Discord channel for appropriate reviewers.
 
 #### Стиль написания кода
@@ -39,11 +46,11 @@ For Solidity, we use two-space indents.
 
 When considering protocol or implementation design proposals, we are looking for:
 
-* Описание проблемы, которую решает данное проектное предложение
-* Обсуждение возможных компромиссов
-* Обзор других существующих решений
-* Ссылки на соответствующую литературу \(RFC, статьи и т. д.\)
-* Обсуждение предлагаемого решения
+* A description of the problem this design proposal solves
+* Discussion of the trade-offs involved
+* Review of other existing solutions
+* Links to relevant literature \(RFCs, papers, etc\)
+* Discussion of the proposed solution
 
 Please note that protocol design is hard and meticulous work. You may need to review existing literature and think through generalized use cases.
 
@@ -51,10 +58,10 @@ Please note that protocol design is hard and meticulous work. You may need to re
 
 We want to keep the Origin community awesome, growing and collaborative. We need your help to keep it that way. To help with this we’ve come up with some general guidelines for the community as a whole:
 
-* Ведите себя хорошо: будьте вежливы, уважительны и учтивы по отношению к другим членам сообщества: недопустимы оскорбления на религиозной, расовой, гендерной или любой другой почве. Нам больше нравятся хорошие люди, чем плохие!
-* Поощряйте разнообразие и участие: сделайте так, чтобы каждый в нашем сообществе почувствовал себя желанным гостем, независимо от его происхождения и степени их вклада, и сделайте все возможное, чтобы поощрять участие в нашем сообществе.
-* Соблюдайте закон: не доставляйте никому проблем. Делитесь только тем своим контентом, не предавайте огласке личную или конфиденциальную информацию, касающуюся других людей и не нарушайте законы.
-* Оставайтесь в теме: убедитесь, что вы публикуете сообщения на правильном канале, и избегайте обсуждений не по теме. Помните, когда Вы обновляете проблему или отвечаете на электронное письмо, потенциально оно отправляется большому количеству людей. Пожалуйста, учтите это перед обновлением. Также помните, что никто не любит спам.
+* Be nice: Be courteous, respectful and polite to fellow community members: no regional, racial, gender, or other abuse will be tolerated. We like nice people way better than mean ones!
+* Encourage diversity and participation: Make everyone in our community feel welcome, regardless of their background and the extent of their contributions, and do everything possible to encourage participation in our community.
+* Keep it legal: Basically, don’t get anybody in trouble. Share only content that you own, do not share private or sensitive information, and don’t break laws.
+* Stay on topic: Make sure that you are posting to the correct channel and avoid off-topic discussions. Remember when you update an issue or respond to an email you are potentially sending to a large number of people. Please consider this before you update. Also remember that nobody likes spam.
 
 #### Сообщения о проблемах
 
