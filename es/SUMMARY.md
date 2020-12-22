@@ -33,6 +33,7 @@
 * [Principios](governance/principles.md)
 * [Privilegios de Administrador](governance/admin-privileges.md)
 * [OGN Staking](governance/ogn-staking.md)
+* [Contributing](governance/contributing.md)
 
 ## Contratos Inteligentes
 
@@ -50,7 +51,6 @@
 * [Riesgos](security-and-risks/risks.md)
 * [Auditorias](security-and-risks/audits.md)
 * [Recompensas de Errores](security-and-risks/bug-bounties.md)
-* [Contribuyendo](security-and-risks/contributing.md)
 
 ## Enlaces
 
