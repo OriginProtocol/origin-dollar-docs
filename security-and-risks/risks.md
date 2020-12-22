@@ -1,7 +1,7 @@
 # Risks
 
 {% hint style="danger" %}
-The OUSD smart contracts have not yet been audited. We strongly recommend reviewing our smart contracts before depositing significant amounts of capital.
+Use at your own risk. Don't deploy more capital than you are willing to lose.
 {% endhint %}
 
 As with any interest-bearing instrument. there are associated risks with holding OUSD that are important to understand. These risks can be broadly classified into 3 categories:

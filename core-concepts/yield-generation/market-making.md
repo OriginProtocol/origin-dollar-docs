@@ -12,11 +12,13 @@ AMMs can only enable new markets when liquidity providers supply liquidity \(e.g
 
 The OUSD protocol routes USDT, USDC, and DAI to highly-performing liquidity pools as determined by trading volume and rewards tokens \(e.g. Balancer rewards BAL tokens to liquidity providers\). Yields are then passed on to OUSD holders.
 
-We intend to integrate directly with at least the following automated market makers:
-
-{% page-ref page="../supported-strategies/uniswap.md" %}
+We are currently integrated with the following automated market maker:
 
 {% page-ref page="../supported-strategies/curve.md" %}
+
+We are intending to integrate with the following automated market makers:
+
+{% page-ref page="../supported-strategies/uniswap.md" %}
 
 {% page-ref page="../supported-strategies/balancer.md" %}
 
