@@ -25,6 +25,13 @@ Your development flow should look like:
 7. Push your branch to the upstream repository \(i.e. https://github.com/OriginProtocol/\[repo\]\) so that other contributors can easily work off of it if necessary.
 8. Please request a review in the PR by clicking on the gear icon next to “Reviewers” in the right column.
 
+For critical smart contract code to be merged it must pass the following checklist:
+
+*  Code reviewed by 2 reviewers
+*  Unit tests pass
+*  Slither tests pass with no warning
+*  Echidna tests pass
+
 The `master` branch is locked so that only members of the [core team](https://github.com/orgs/OriginProtocol/teams/core) are able to merge your pull requests. Pull requests that are peer-reviewed by other trusted contributors will be fast-tracked and merged faster! Check in the `#engineering` Discord channel for appropriate reviewers.
 
 #### Coding Style
