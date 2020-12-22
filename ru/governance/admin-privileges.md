@@ -1,12 +1,16 @@
 # Права администратора
 
-Смарт-контракты OUSD разработаны с возможностью улучшения владельцем.
+The OUSD smart contracts are designed to be owner upgradable. The Origin team uses two different Gnosis multisig wallet contracts in order to make changes to the protocol. These multisig wallets have been [audited by OpenZeppelin](https://blog.openzeppelin.com/gnosis-multisig-wallet-audit-d702ff0e2b1e/), [ConsenSys Dilligence](https://blog.gnosis.pm/the-gnosis-multisig-wallet-and-our-commitment-to-security-ce9aca0d17f6), Origin’s team, and others.
 
-На момент запуска контракты OUSD принадлежат контрактам с 5 из 8 мульти-подписями Gnosis, которые были [проаудированы OpenZeppelin](https://blog.openzeppelin.com/gnosis-multisig-wallet-audit-d702ff0e2b1e/), [ConsenSys Dilligence](https://blog.gnosis.pm/the-gnosis-multisig-wallet-and-our-commitment-to-security-ce9aca0d17f6), командой Origin и другими. Ключи к этой мульти-подписке принадлежат лицам, имеющим тесные связи с компанией, и даже действующие вместе основатели Origin не обладают достаточным контролем, чтобы самостоятельно выполнять функции владельца.
+{% hint style="info" %}
+Time-delayed admin actions gives users a chance to exit OUSD if its admins become malicious, are compromised, or make a change that the users do not like.
+{% endhint %}
 
-Вскоре после запуска право владения будет заменено временной блокировкой. Это по-прежнему позволит команде Origin вносить изменения в протокол из своей мульти-подписи, но с некоторой задержкой по времени.
+The primary admin is a 5 of 8 multisig contract which is required to make any code changes to the protocol. OUSD can only be upgraded from this 5 of 8 multi-sig wallet. The keys to this multi-sig are held by individuals with close ties to the company, and not even the Origin founders acting together have enough control to execute owner functions on their own. In addition, the OUSD contracts are owned by the [timelock](../smart-contracts/api/timelock.md) which allows the Origin team to continue making changes to the protocol, but only after a time delay.
 
-На первых порах необходимо иметь права администратора, чтобы гарантировать безопасность протокола и его оптимизацию для получения прибыли при условии минимизации рисков. Мы собираемся выпустить несколько итераций наших смарт-контрактов в первые несколько месяцев существования протокола.
+Some functionality, such as rebalancing funds between strategies or pausing deposits, can be triggered without the timelock and with far less signers. This allows the Origin team to react more quickly to market conditions or security threats. These signers, known as Strategists,  have the ability to execute a limited number of functions __with only 2 of 9 signers.
 
-После завершения нескольких циклов обновления мы намерены передать право собственности от нашей компании к контракту децентрализованного управления, что позволит сообществу голосовать и принимать участие в будущих обновлениях протокола.
+Having these admin privileges is necessary in the early days to ensure that the protocol is secure and optimized for earning yields while minimizing risks. We expect to release multiple iterations of our smart contracts in the first several months of the protocol's existence.
+
+Once several upgrade cycles have been completed, we intend to transfer ownership from our company control to a decentralized governance contract, thereby allowing the community to vote and participate in future protocol updates.
 
