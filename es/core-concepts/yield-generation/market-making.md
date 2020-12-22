@@ -12,13 +12,15 @@ Los AMM solo pueden habilitar nuevos mercados cuando los proveedores de liquidez
 
 El protocolo OUSD enruta USDT, USDC y DAI a grupos de liquidez de alto rendimiento según lo determinado por el volumen de negociación y recompensa con tokens \(por ejemplo, Balancer recompensa con tokens BAL a proveedores de liquidez\). Luego, los rendimientos se transfieren a los holders de OUSD.
 
-Tenemos la intención de integrarnos directamente con al menos los siguientes creadores de mercado automatizados:
+We are currently integrated with the following automated market maker:
 
-{% page-ref page = "../ supported-Strategies / uniswap.md"%}
+{% page-ref page="../supported-strategies/curve.md" %}
 
-{% page-ref page = "../ supported-Strategies / curve.md"%}
+We are intending to integrate with the following automated market makers:
 
-{% page-ref page = "../ supported-Strategies / balancer.md"%}
+{% page-ref page="../supported-strategies/uniswap.md" %}
+
+{% page-ref page="../supported-strategies/balancer.md" %}
 
 
 
