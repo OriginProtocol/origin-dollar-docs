@@ -33,6 +33,7 @@
 * [I principi](governance/principles.md)
 * [Privilegi di amministratore](governance/admin-privileges.md)
 * [OGN Staking](governance/ogn-staking.md)
+* [Contributing](governance/contributing.md)
 
 ## Smart Contract
 
@@ -50,7 +51,6 @@
 * [Rischi](security-and-risks/risks.md)
 * [Revisioni](security-and-risks/audits.md)
 * [Bug Bounties](security-and-risks/bug-bounties.md)
-* [Contribuzioni](security-and-risks/contributing.md)
 
 ## Links
 
