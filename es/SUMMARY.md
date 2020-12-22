@@ -25,15 +25,14 @@
   * [Uniswap](core-concepts/supported-strategies/uniswap.md)
   * [Balancer](core-concepts/supported-strategies/balancer.md)
   * [Yearn.finance](core-concepts/supported-strategies/yearn.finance.md)
-* [Gestión de fondos](core-concepts/fund-management/README.md)
-  * [Estrategias de ganancias](core-concepts/fund-management/earning-strategies.md)
-  * [Diversificación](core-concepts/fund-management/diversification.md)
+* [Gestión de fondos](core-concepts/fund-management.md)
 * [Precio de Oráculos](core-concepts/price-oracles.md)
 
 ## Gobernancia
 
 * [Principios](governance/principles.md)
 * [Privilegios de Administrador](governance/admin-privileges.md)
+* [OGN Staking](governance/ogn-staking.md)
 
 ## Contratos Inteligentes
 
