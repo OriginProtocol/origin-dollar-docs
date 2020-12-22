@@ -1,10 +1,12 @@
 # Stratejiler
 
-Yeni piyasa gerçeklerine yanıt vermek ve riski çeşitlendirmek için herhangi bir zamanda yeni stratejiler eklenebilir veya kaldırılabilir.
+{% hint style="info" %}
+Documentation coming soon.
+{% endhint %}
 
-OUSD, lansman sırasında tek bir stratejiden yararlanacak ve yatırılan sermayeyi Compound'a dağıtacak. Kısa süre sonra birçok başka stratejiyi uygulamaya koymayı planlıyoruz.
+New strategies can be added or removed at any time to respond to new market realities and diversify risk.
 
-Merkezi olmayan yönetişime geçiş yaptığımızda, amacımız topluluğun yeni stratejiler önermesi ve havuzdaki her strateji için uygun ağırlığı oylamasıdır. Çoğu OUSD sahibinin, fonların bir kısmı için daha muhafazakar pozisyonları korurken daha yüksek getiri fırsatlarına maruz kalmaya değer vereceğini tahmin ediyoruz.
+Once we migrate to decentralized governance, it is our intent for the community to propose new strategies and to vote on the appropriate weight for each strategy in the pool. We anticipate that most OUSD holders will value having some exposure to higher yield opportunities while maintaining more conservative positions for a portion of the funds.
 
 
 
