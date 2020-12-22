@@ -12,13 +12,13 @@ La decentralizzazione progredirà rapidamente attraverso 4 fasi nei prossimi 4 m
 
 **Timelock**
 
-Prima di una governance completamente decentralizzata, implementeremo un [timelock](../smart-contracts/api/timelock.md) davanti a tutte le chiamate alle funzioni di amministrazione, lasciando agli utenti OUSD \(48 ore\) di tempo per prelevare i loro fondi se dovessero avere obiezioni alle nostre proposte di miglioramento. Questo timelock verrà aggiunto poco tempo dopo il lancio.
+Prior to full decentralized governance, we will implement a [timelock](../smart-contracts/api/timelock.md) in front of all admin function calls, giving OUSD users time to withdraw their funds if they have objections to our proposed upgrades.
 
 **Stakeholder nuovi ed esistenti**
 
 OUSD è un nuovo progetto fondato dal [team](www.originprotocol.com/team) di Origin Protocol e sarà supportato dalla community già esistente di Origin e anche da molti nuovi stakeholder che sceglieranno di coniare, holdare, utilizzare e fornire liquidità per OUSD.
 
-In aggiunta, ci vogliamo anche assicurare un'alta partecipazione dai nostri holder del già esistente Origin Token \(OGN\), community di circa 500.000 membri, e acquirenti/venditori sulla piattaforma. I titolari già esistenti di OGN, saranno in grado di mettere in stake i loro OGN per partecipare alla governance e ottenere incentivi per indirizzare valore verso OUSD. Maggiori dettagli verranno forniti nel breve futuro.
+In aggiunta, ci vogliamo anche assicurare un'alta partecipazione dai nostri holder del già esistente Origin Token \(OGN\), community di circa 500.000 membri, e acquirenti/venditori sulla piattaforma. Existing OGN holders are able to [stake their OGN](ogn-staking.md) to participate in governance and earn incentives for driving value to OUSD.
 
 La forte connessione tra OUSD e il resto della piattaforma di commercio Origin, alimenterà la crescita di entrambe le iniziative.
 
