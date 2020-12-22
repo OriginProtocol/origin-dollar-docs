@@ -25,15 +25,14 @@
   * [Uniswap](core-concepts/supported-strategies/uniswap.md)
   * [밸런서(Balancer)](core-concepts/supported-strategies/balancer.md)
   * [와이언파이낸스(Yearn Finance)](core-concepts/supported-strategies/yearn.finance.md)
-* [자금 관리](core-concepts/fund-management/README.md)
-  * [수익 전략](core-concepts/fund-management/earning-strategies.md)
-  * [다각화](core-concepts/fund-management/diversification.md)
+* [자금 관리](core-concepts/fund-management.md)
 * [가격 오라클](core-concepts/price-oracles.md)
 
 ## 거버넌스(Governance)
 
 * [원리](governance/principles.md)
 * [관리자 권한](governance/admin-privileges.md)
+* [OGN Staking](governance/ogn-staking.md)
 
 ## 스마트 컨트랙트
 
