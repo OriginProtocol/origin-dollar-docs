@@ -1,7 +1,7 @@
 # Riskler
 
 {% hint style="tehlike" %}
-OUSD akıllı sözleşmeleri henüz denetlenmedi. Önemli miktarlarda sermaye yatırmadan önce akıllı sözleşmelerimizi incelemenizi şiddetle tavsiye ederiz.
+Use at your own risk. Don't deploy more capital than you are willing to lose.
 {% endhint %}
 
 Faiz getiren herhangi bir enstrümanda olduğu gibi. OUSD tutmanın anlaşılması önemli olan ilişkili riskler vardır. Bu riskler genel olarak 3 kategoriye ayrılabilir:
