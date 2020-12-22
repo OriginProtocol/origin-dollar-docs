@@ -33,6 +33,7 @@
 * [Принципы](governance/principles.md)
 * [Права администратора](governance/admin-privileges.md)
 * [OGN Staking](governance/ogn-staking.md)
+* [Contributing](governance/contributing.md)
 
 ## Смарт-контракты
 
@@ -50,7 +51,6 @@
 * [Риски](security-and-risks/risks.md)
 * [Аудиты](security-and-risks/audits.md)
 * [Призы за поиск ошибок](security-and-risks/bug-bounties.md)
-* [Сотрудничество](security-and-risks/contributing.md)
 
 ## Ссылки
 
