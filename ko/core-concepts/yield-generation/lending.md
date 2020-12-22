@@ -6,13 +6,15 @@
 
 OUSD는 높은 금액의 담보 대출을 제공하는 디파이 대출 플랫폼과 통합됩니다. 과도한 담보는 청산 관련 스마트 규칙과 결합되어 대출자들에게 합리적 수준의 보안을 제공합니다. 또한 에이브(Aave) 는 각각 AAVE 토큰으로 대여 풀을 추가로 보호하여 리스크를 더욱 낮춥니다.
 
-OUSD는 이미 입증된 실적을 보유하고, 감사된 스마트 컨트렉트를 보유하고 있으며, 문제 없이 수억 달러의 대출 시스템을 성공적으로 운영해온 주요 대출 기관들과 통합됩니다. 오리진(Origin) 에서는 최소 다음의 대출 제공 기관와 직접 통합 할 계획입니다:
+OUSD는 이미 입증된 실적을 보유하고, 감사된 스마트 컨트렉트를 보유하고 있으며, 문제 없이 수억 달러의 대출 시스템을 성공적으로 운영해온 주요 대출 기관들과 통합됩니다. We are currently integrated with the following lending platforms:
 
 {% page-ref page = "../ supported-strategies / compound.md"%}
 
 {% page-ref page = "../ supported-strategies / aave.md"%}
 
-{% page-ref page = "../ supported-strategies / dydx.md"%}
+We are planning on integrating the following lending platform:
+
+{% page-ref page="../supported-strategies/dydx.md" %}
 
 
 
