@@ -130,12 +130,11 @@ Oracle berikut telah diterapkan, tetapi saat ini tidak digunakan karena biaya ga
 {% tab title = "USDT / USD"%}
 Oracle berikut digunakan untuk mengambil atau menghitung harga **DAI / USD:**
 
-| Oracle           | Pasangan    | Kontrak                                      |
-|:---------------- |:----------- |:-------------------------------------------- |
-| Buka Umpan Harga | DAI / USD   | 0x922018674c12a7f0d394ebeef9b58f186cde13c1   |
-| Chainlink        | DAI / USD   | 0xa7D38FBD325a6467894A13EeFD977aFE558bC1f0   |
-| Chainlink        | DAI / ETH   | 0x037E8F2125bF532F3e228991e051c8A7253B642c   |
-| _Uniswap v2_     | _DAI / ETH_ | _0xA478c2975Ab1Ea89e8196811F51A7B7Ade33eB11_ |
+| Oracle           | Pasangan  | Kontrak                                      |
+|:---------------- |:--------- |:-------------------------------------------- |
+| Buka Umpan Harga | DAI / USD | 0x922018674c12a7f0d394ebeef9b58f186cde13c1   |
+| Chainlink        | DAI/ETH   | 0x037E8F2125bF532F3e228991e051c8A7253B642c   |
+| _Uniswap v2_     | _DAI/ETH_ | _0xA478c2975Ab1Ea89e8196811F51A7B7Ade33eB11_ |
 {% endtab %}
 
 {% tab title = "USDT / USD"%}
