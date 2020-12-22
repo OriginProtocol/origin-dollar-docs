@@ -33,6 +33,7 @@
 * [Prinsip](governance/principles.md)
 * [Hak Istimewa Admin](governance/admin-privileges.md)
 * [OGN Staking](governance/ogn-staking.md)
+* [Contributing](governance/contributing.md)
 
 ## Kontrak Pintar
 
@@ -50,7 +51,6 @@
 * [Resiko](security-and-risks/risks.md)
 * [Audit](security-and-risks/audits.md)
 * [Bug Bounties](security-and-risks/bug-bounties.md)
-* [Berkontribusi](security-and-risks/contributing.md)
 
 ## Tautan
 
