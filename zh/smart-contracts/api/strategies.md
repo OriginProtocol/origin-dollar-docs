@@ -1,10 +1,12 @@
-# 策略
+# Strategies
 
-新策略可以随时被添加或删除，以应对新的市场现实并分散风险。
+{% hint style="info" %}
+Documentation coming soon.
+{% endhint %}
 
-刚推出时，OUSD 将利用单一策略的优势，并将已存入的资金部署到 Compound。 紧接着，我们打算部署许多其他策略。
+New strategies can be added or removed at any time to respond to new market realities and diversify risk.
 
-我们一旦迁移到去中心化治理方式，我们的目的是让社区提出新的策略，并对池中每种策略的适当权重进行投票。 我们预计大多数 OUSD 持有者将珍视有较高收益率机会，同时对部分资金保持更为保守的头寸。
+Once we migrate to decentralized governance, it is our intent for the community to propose new strategies and to vote on the appropriate weight for each strategy in the pool. We anticipate that most OUSD holders will value having some exposure to higher yield opportunities while maintaining more conservative positions for a portion of the funds.
 
 
 
