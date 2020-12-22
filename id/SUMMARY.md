@@ -25,15 +25,14 @@
   * [Uniswap](core-concepts/supported-strategies/uniswap.md)
   * [Balancer](core-concepts/supported-strategies/balancer.md)
   * [Yearn.finance](core-concepts/supported-strategies/yearn.finance.md)
-* [Pengelolaan Dana](core-concepts/fund-management/README.md)
-  * [Strategi Penghasilan](core-concepts/fund-management/earning-strategies.md)
-  * [Diversifikasi](core-concepts/fund-management/diversification.md)
+* [Pengelolaan Dana](core-concepts/fund-management.md)
 * [Harga Oracles](core-concepts/price-oracles.md)
 
 ## Pemerintahan
 
 * [Prinsip](governance/principles.md)
 * [Hak Istimewa Admin](governance/admin-privileges.md)
+* [OGN Staking](governance/ogn-staking.md)
 
 ## Kontrak Pintar
 
