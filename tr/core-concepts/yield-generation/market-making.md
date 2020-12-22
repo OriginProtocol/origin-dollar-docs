@@ -12,13 +12,15 @@ AMM'ler, yalnızca likidite sağlayıcıları likidite sağladığında yeni piy
 
 OUSD protokolü, USDT, USDC ve DAI'yi işlem hacmi ve ödül jetonları tarafından belirlenen yüksek performanslı likidite havuzlarına yönlendirir \ (örneğin, Dengeleyici BAL jetonlarını likidite sağlayıcılarına ödüllendirir \). Daha sonra getiriler OUSD sahiplerine aktarılır.
 
-En azından aşağıdaki otomatik pazar yapıcılarla doğrudan entegre olmayı planlıyoruz:
+We are currently integrated with the following automated market maker:
 
-{% page-ref page = "../ supported-Strategies / complex.md"%}
+{% page-ref page="../supported-strategies/curve.md" %}
 
-{% page-ref page = "../ supported-Strategies / complex.md"%}
+We are intending to integrate with the following automated market makers:
 
-{% page-ref page = "../ supported-Strategies / complex.md"%}
+{% page-ref page="../supported-strategies/uniswap.md" %}
+
+{% page-ref page="../supported-strategies/balancer.md" %}
 
 
 
