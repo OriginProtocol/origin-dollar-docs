@@ -1,7 +1,7 @@
 # Riesgos
 
 {% hint style="danger" %}
-Los contratos inteligentes de OUSD aún no han sido auditados. Recomendamos encarecidamente revisar nuestros contratos inteligentes antes de depositar cantidades significativas de capital.
+Use at your own risk. Don't deploy more capital than you are willing to lose.
 {% endhint %}
 
 Como con cualquier instrumento que devenga intereses. existen riesgos asociados con al hacer hold de OUSD que son importante comprender. Estos riesgos se pueden clasificar ampliamente en 3 categorías:
