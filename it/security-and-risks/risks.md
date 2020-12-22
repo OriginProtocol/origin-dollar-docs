@@ -1,7 +1,7 @@
 # Rischi
 
 {% hint style="danger" %}
-Gli smart contract OUSD non sono stati ancora revisionati. Consigliamo vivamente di rivedere i nostri smart contract prima di depositare importi significativi di capitale.
+Use at your own risk. Don't deploy more capital than you are willing to lose.
 {% endhint %}
 
 Come con qualsiasi strumento fruttifero ci sono rischi associati alla detenzione di OUSD, che è fondamentale comprendere. Questi rischi possono essere sommariamente classificati in 3 categorie:
