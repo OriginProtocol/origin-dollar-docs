@@ -126,46 +126,7 @@ I seguenti oracoli sono stati implementati ma non sono attualmente utilizzati a 
 
 {% embed url="https://uniswap.org/docs/v2/core-concepts/oracles/" caption="" %}
 
-{% tabs %}
-{% tab title="DAI/USD" %}
-I seguenti oracoli sono utilizzati per recuperare o calcolare il prezzo per il pair **DAI/USD**:
+The specific smart contract address for each oracle being used are listed on our [registry](../smart-contracts/registry.md) page.
 
-| Oracolo                    | Pair      | Smart Contract                               |
-|:-------------------------- |:--------- |:-------------------------------------------- |
-| Feed di prezzo di apertura | DAI/USD   | 0x922018674c12a7f0d394ebeef9b58f186cde13c1   |
-| Chainlink                  | DAI/ETH   | 0x037E8F2125bF532F3e228991e051c8A7253B642c   |
-| _Uniswap v2_               | _DAI/ETH_ | _0xA478c2975Ab1Ea89e8196811F51A7B7Ade33eB11_ |
-{% endtab %}
-
-{% tab title="USDT/USD" %}
-I seguenti oracoli vengono utilizzati per recuperare o calcolare il prezzo per il pair  **USDT/USD**:
-
-| **Oracolo**                | Pair       | Smart Contract                               |
-|:-------------------------- |:---------- |:-------------------------------------------- |
-| Chainlink                  | USDT/ETH   | 0xa874fe207DF445ff19E7482C746C4D3fD0CB9AcE   |
-| Feed di prezzo di apertura | USDC/USD   | 0x922018674c12a7f0d394ebeef9b58f186cde13c1   |
-| _Uniswap v2_               | _USDT/ETH_ | _0x0d4a11d5eeaac28ec3f61d100daf4d40471f1852_ |
-{% endtab %}
-
-{% tab title="USDC/USD" %}
-I seguenti oracoli vengono utilizzati per recuperare o calcolare il prezzo per il pair **USDC/USD**:
-
-| **Oracolo**                | Pair       | Smart Contract                               |
-|:-------------------------- |:---------- |:-------------------------------------------- |
-| Chainlink                  | USDC/ETH   | 0xdE54467873c3BCAA76421061036053e371721708   |
-| Feed di prezzo di apertura | USDC/USD   | 0x922018674c12a7f0d394ebeef9b58f186cde13c1   |
-| _Uniswap v2_               | _USDC/ETH_ | _0xb4e16d0168e52d35cacd2c6185b44281ec28c9dc_ |
-{% endtab %}
-
-{% tab title="ETH/USD" %}
-Poiché non tutti gli oracoli hanno pair diretti con USD, il protocollo controlla anche i prezzi del pair **ETH/USD** al fine di calcolare i prezzi di USD tramite ETH. In aggiunta, per sicurezza, il protocollo sceglie il più vantaggioso per l'intero fondo e non per il singolo individuo.
-
-| Oracolo                    | Pair    | Smart Contract                             |
-|:-------------------------- |:------- |:------------------------------------------ |
-| Feed di prezzo di apertura | ETH/USD | 0x922018674c12a7f0d394ebeef9b58f186cde13c1 |
-| Chainlink                  | ETH/USD | 0xF79D6aFBb6dA890132F9D7c355e3015f15F3406F |
-{% endtab %}
-{% endtabs %}
-
-E' possibile che altri oracoli verranno aggiunti nel corso del tempo. Il supporto di specifici oracoli potrà essere rimosso se si dovessero rivelare inaffidabili.
+It is possible that additional oracles will be added to the protocol over time. Support may also be removed if any of these oracles become unreliable.
 
