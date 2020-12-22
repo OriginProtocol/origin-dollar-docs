@@ -126,46 +126,7 @@ Oracle berikut telah diterapkan, tetapi saat ini tidak digunakan karena biaya ga
 
 {% embed url = "https://uniswap.org/docs/v2/core-concepts/oracles" caption = ""%}
 
-{% tabs %}
-{% tab title = "USDT / USD"%}
-Oracle berikut digunakan untuk mengambil atau menghitung harga **DAI / USD:**
+The specific smart contract address for each oracle being used are listed on our [registry](../smart-contracts/registry.md) page.
 
-| Oracle           | Pasangan  | Kontrak                                      |
-|:---------------- |:--------- |:-------------------------------------------- |
-| Buka Umpan Harga | DAI / USD | 0x922018674c12a7f0d394ebeef9b58f186cde13c1   |
-| Chainlink        | DAI/ETH   | 0x037E8F2125bF532F3e228991e051c8A7253B642c   |
-| _Uniswap v2_     | _DAI/ETH_ | _0xA478c2975Ab1Ea89e8196811F51A7B7Ade33eB11_ |
-{% endtab %}
-
-{% tab title = "USDT / USD"%}
-Oracle berikut digunakan untuk mengambil atau menghitung harga **USDT / USD:**
-
-| O**racle**       | Pasangan     | Kontrak                                      |
-|:---------------- |:------------ |:-------------------------------------------- |
-| Chainlink        | USDT / ETH   | 0xa874fe207DF445ff19E7482C746C4D3fD0CB9AcE   |
-| Buka Umpan Harga | USDC / USD   | 0x922018674c12a7f0d394ebeef9b58f186cde13c1   |
-| _Uniswap v2_     | _USDT / ETH_ | _0x0d4a11d5eeaac28ec3f61d100daf4d40471f1852_ |
-{% endtab %}
-
-{% tab title = "USDT / USD"%}
-Oracle berikut digunakan untuk mengambil atau menghitung harga **USDC / USD:**
-
-| O**racle**       | Pasangan     | Kontrak                                      |
-|:---------------- |:------------ |:-------------------------------------------- |
-| Chainlink        | USDC / ETH   | 0xdE54467873c3BCAA76421061036053e371721708   |
-| Buka Umpan Harga | USDC / USD   | 0x922018674c12a7f0d394ebeef9b58f186cde13c1   |
-| _Uniswap v2_     | _USDC / ETH_ | _0xb4e16d0168e52d35cacd2c6185b44281ec28c9dc_ |
-{% endtab %}
-
-{% tab title = "USDT / USD"%}
-Karena tidak semua oracle memiliki pasangan USD langsung, protokol juga menetapkan harga untuk **ETH / USD** untuk menghitung harga USD menggunakan ETH. Sekali lagi, untuk amannya, protokol memilih dana yang paling menguntungkan daripada individu.
-
-| Oracle           | Pasangan  | Kontrak                                    |
-|:---------------- |:--------- |:------------------------------------------ |
-| Buka Umpan Harga | ETH / USD | 0x922018674c12a7f0d394ebeef9b58f186cde13c1 |
-| Chainlink        | ETH / USD | 0xF79D6aFBb6dA890132F9D7c355e3015f15F3406F |
-{% endtab %}
-{% endtabs %}
-
-Ada kemungkinan bahwa oracle tambahan akan ditambahkan ke protokol dari waktu ke waktu. Dukungan juga dapat dihapus jika salah satu dari oracle ini menjadi tidak dapat diandalkan.
+It is possible that additional oracles will be added to the protocol over time. Support may also be removed if any of these oracles become unreliable.
 
