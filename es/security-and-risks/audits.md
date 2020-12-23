@@ -1,20 +1,34 @@
 # Auditorias
 
-**OUSD**
+**The OUSD Vault, ERC-20, and Overall System**
 
-OUSD has been audited by multiple, well-respected security firms. Their findings are available below:
+OUSD has been audited by multiple, well-respected security firms. We have worked with both [Trail of Bits](https://www.trailofbits.com/) and [Solidified](https://solidified.io/) to audit all of the code that powers Origin Dollar. Their findings are available below:
 
-* [Trail of Bits, OUSD Audit, Nov 2020](https://drive.google.com/file/d/1yUgiBYOhSuF3m7lKXQjhAB18vxTZbE9E/view?usp=sharing)
-* [Solidified, OUSD Audit, December 2020](https://drive.google.com/file/d/1O7OVHPtyjwdrbaUMqq2-7GU0kqHP65nK/view?usp=sharing)
-* [Solidified, OGN Staking, December 2020](https://drive.google.com/file/d/19qoBPAebyUSbxAKw1Acd1O_aNUm_r64d/view?usp=sharing)
+* [Trail of Bits, OUSD Audit, Nov 2020](https://github.com/OriginProtocol/security/raw/master/audits/Trail%20of%20Bits%20-%20Origin%20Dollar.pdf)
+* [Solidified, OUSD Audit, December 2020](https://github.com/OriginProtocol/security/raw/master/audits/Solidified%20-%20Origin%20Dollar.pdf)
+* [Solidified, OGN Staking, December 2020](https://github.com/OriginProtocol/security/raw/master/audits/Solidified%20-%20OGN%20Staking.pdf)
 
-**Supported Strategies**
+In addition, the underlying strategies and dependencies that OUSD utilizes have been thoroughly audited by various firms.
 
-Multiple audits for Compound have already been completed and are available on their website. This includes the original code for the modified [Timelock](../smart-contracts/api/timelock.md) that OUSD is using.
+{% hint style="info" %}
+OUSD only integrates strategies that have been carefully audited and battle-tested with significant capital over an extended period of time.
+{% endhint %}
 
-{% page-ref page="audits.md" %}
+**Compound Strategy and Open Price Feed**
 
+Compound has been audited by [Trail of Bits](https://www.trailofbits.com) and [OpenZeppelin](https://openzeppelin.com/) and formally verified by [Certora](https://www.certora.com/). Visit the Compound website for their [full list of audits](https://compound.finance/docs/security#audits) including the original code for the modified [Timelock](../smart-contracts/api/timelock.md) that OUSD is using.
 
+**Aave Strategy**
+
+Aave has been audited by [Trail of Bits](https://www.trailofbits.com), [OpenZeppelin](https://openzeppelin.com/), [ConsenSys Diligence](https://consensys.net/diligence/), [Certik](https://certik.io/), [MixBytes](https://mixbytes.io/), and [PeckShield](https://peckshield.com/). They have also been formally verified by [Certora](https://www.certora.com/). Visit the Aave website for [their full list of audits](https://docs.aave.com/developers/security-and-audits).
+
+**Curve Strategy**
+
+Curve has been audited by [Trail of Bits](https://www.trailofbits.com) and [Quantstamp](https://quantstamp.com/). Visit the Curve website for [their full list of audits](https://www.curve.fi/audits).
+
+**Chainlink Oracles**
+
+Chainlink has been audited by [Quantstamp](https://github.com/smartcontractkit/chainlink/tree/bafa91c), [SigmaPrime](https://github.com/smartcontractkit/chainlink/tree/cee356), [Callisto](https://gist.github.com/yuriy77k/c3a70d212a7f9ecda715252e45073158), and [Nick Johnson](https://github.com/smartcontractkit/chainlink/tree/5327f9). 
 
 
 
