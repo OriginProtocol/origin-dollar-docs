@@ -10,6 +10,10 @@ OUSD has been audited by multiple, well-respected security firms. We have worked
 
 In addition, the underlying strategies and dependencies that Origin dollar utilizes have been thoroughly audited by various firms.
 
+{% hint style="info" %}
+OUSD only integrates strategies that have been carefully audited and battle-tested with significant capital over an extended period of time.
+{% endhint %}
+
 **Compound Strategy and Open Price Feed**
 
 Compound has been audited by [Trail of Bits](https://www.trailofbits.com) and [OpenZeppelin](https://openzeppelin.com/) and formally verified by [Certora](https://www.certora.com/). Visit the Compound website for their [full list of audits](https://compound.finance/docs/security#audits) including the original code for the modified [Timelock](../smart-contracts/api/timelock.md) that OUSD is using.
