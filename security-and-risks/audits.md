@@ -8,7 +8,7 @@ OUSD has been audited by multiple, well-respected security firms. We have worked
 * [Solidified, OUSD Audit, December 2020](https://github.com/OriginProtocol/security/raw/master/audits/Solidified%20-%20Origin%20Dollar.pdf)
 * [Solidified, OGN Staking, December 2020](https://github.com/OriginProtocol/security/raw/master/audits/Solidified%20-%20OGN%20Staking.pdf)
 
-In addition, the underlying strategies and dependencies that Origin dollar utilizes have been thoroughly audited by various firms.
+In addition, the underlying strategies and dependencies that OUSD utilizes have been thoroughly audited by various firms.
 
 {% hint style="info" %}
 OUSD only integrates strategies that have been carefully audited and battle-tested with significant capital over an extended period of time.
@@ -29,12 +29,6 @@ Curve has been audited by [Trail of Bits](https://www.trailofbits.com) and [Quan
 **Chainlink Oracles**
 
 Chainlink has been audited by [Quantstamp](https://github.com/smartcontractkit/chainlink/tree/bafa91c), [SigmaPrime](https://github.com/smartcontractkit/chainlink/tree/cee356), [Callisto](https://gist.github.com/yuriy77k/c3a70d212a7f9ecda715252e45073158), and [Nick Johnson](https://github.com/smartcontractkit/chainlink/tree/5327f9). 
-
-
-
-{% page-ref page="audits.md" %}
-
-
 
 
 
