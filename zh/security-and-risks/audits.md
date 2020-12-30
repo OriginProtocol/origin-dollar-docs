@@ -1,12 +1,16 @@
-# 审核
+# Audits
 
 **The OUSD Vault, ERC-20, and Overall System**
 
 OUSD has been audited by multiple, well-respected security firms. We have worked with both [Trail of Bits](https://www.trailofbits.com/) and [Solidified](https://solidified.io/) to audit all of the code that powers Origin Dollar. Their findings are available below:
 
-* [Trail of Bits, OUSD Audit, Nov 2020](https://github.com/OriginProtocol/security/raw/master/audits/Trail%20of%20Bits%20-%20Origin%20Dollar.pdf)
-* [Solidified, OUSD Audit, December 2020](https://github.com/OriginProtocol/security/raw/master/audits/Solidified%20-%20Origin%20Dollar.pdf)
-* [Solidified, OGN Staking, December 2020](https://github.com/OriginProtocol/security/raw/master/audits/Solidified%20-%20OGN%20Staking.pdf)
+* [Trail of Bits, OUSD Audit, December 2020](https://github.com/OriginProtocol/security/blob/master/audits/Trail%20of%20Bits%20-%20Origin%20Dollar%20-%20Dec%202020.pdf)
+* [Solidified, OUSD Audit, December 2020](https://github.com/OriginProtocol/security/blob/master/audits/Solidified%20-%20Origin%20Dollar%20-%20Dec%202020.pdf)
+* [Solidified, OGN Staking Audit, December 2020](https://github.com/OriginProtocol/security/blob/master/audits/Solidified%20-%20OGN%20Staking%20-%20Dec%202020.pdf)
+
+The governance token, Origin Token \(OGN\), was also audited by Trail of Bits in 2018:
+
+* [Trail of Bits, OGN Audit, November 2018](https://github.com/OriginProtocol/security/blob/master/audits/Trail%20of%20Bits%20-%20Origin%20Marketplace%20and%20OGN%20Token%20-%20Nov%202018.pdf)
 
 In addition, the underlying strategies and dependencies that OUSD utilizes have been thoroughly audited by various firms.
 
