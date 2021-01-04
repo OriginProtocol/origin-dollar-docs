@@ -4,7 +4,7 @@
 
 OUSD là dự án mã nguồn mở hoàn toàn và chúng tôi hoan nghênh mọi đóng góp của toàn thể cộng đồng. Bạn có thể hỗ trợ đội ngũ chúng tôi bằng việc báo cáo sự cố bảo mật, đóng góp lập trình hay giúp chúng tôi cải thiện cộng đồng của mình.
 
-Chúng tôi làm việc một cách công khai và tài khoản Discord luôn chào đón tất cả cá thành viên trong cộng đồng. Nếu bạn có câu hỏi hoặc cần trợ giúp, các kênh Discord OUSD là nơi tốt nhất để nhận hỗ trợ từ nhóm và cộng đồng của chúng tôi.
+Chúng tôi làm việc một cách công khai và tài khoản Discord luôn chào đón tất cả cá thành viên trong cộng đồng. If you have questions or need help getting started, our [Discord OUSD channels](https://discord.gg/jyxpUSe) are the best place to get assistance from our team and community.
 
 **Developer Analytics**
 
@@ -20,7 +20,7 @@ Your development flow should look like:
 2. Nhắn tin cho [thành viên của team](https://github.com/orgs/OriginProtocol/teams/core/members) trên Discord và yêu cầu được thêm vào nhóm [cộng tác viên](https://github.com/orgs/OriginProtocol/teams/contributors) của chúng tôi. Nếu không, bạn sẽ cần phải folk kho giữ liệu code (repo) liên quan và đẩy các nhánh tính năng vào folk riêng của bạn.
 3. Thêm nhận xét về vấn đề hoặc tự phân bổ cho bản thân tránh tình trạng nhiều cộng tác viên cùng xử lý 1 nhiệm vụ.
 4. Bắt đầu với nhánh `chính` và kiểm tra nhánh tính năng mới trừ khi bạn đang đóng góp vào một tính năng hiện có.
-5. Sử dụng [kiểu lập trình](https://docs.originprotocol.com/guides/getting_started/contributing.html#contributing-email-coding-style) thích hợp và lập trình mã code tốt.
+5. Write some awesome code.
 6. Kéo các cam kết mới nhất từ `nhánh chính` và xác nhận rằng mã lập trình của bạn hoạt động tốt với với bất kỳ công việc nào đã được tích hợp kể từ khi bạn bắt đầu.
 7. Đẩy chi nhánh của bạn lên kho lưu trữ ngược dòng (tức là https: //github.com/OriginProtocol/ [repo]) để những người đóng góp khác có thể dễ dàng xử lý nó nếu cần.
 8. Vui lòng yêu cầu đánh giá trong bài PR bằng cách nhấp vào biểu tượng bánh răng bên cạnh “Người đánh giá” ở cột bên phải.
