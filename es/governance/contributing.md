@@ -4,7 +4,7 @@
 
 OUSD es un proyecto completamente de código abierto y agradecemos contribuciones de todo tipo. Hay muchas formas de ayudar, desde informar problemas, contribuir con código y ayudarnos a mejorar nuestra comunidad.
 
-Trabajamos en público y nuestra compañía en Discord está abierta a todos. Si tiene preguntas o necesita ayuda para comenzar, nuestros canales de Discord de OUSD son el mejor lugar para obtener ayuda de nuestro equipo y comunidad.
+Trabajamos en público y nuestra compañía en Discord está abierta a todos. If you have questions or need help getting started, our [Discord OUSD channels](https://discord.gg/jyxpUSe) are the best place to get assistance from our team and community.
 
 **Developer Analytics**
 
@@ -20,7 +20,7 @@ Your development flow should look like:
 2. Haga ping a un miembro del equipo central, [](https://github.com/orgs/OriginProtocol/teams/core/members) miembro en Discord y pida que lo agreguen a nuestro equipo de [colaboradores](https://github.com/orgs/OriginProtocol/teams/contributors). De lo contrario, deberá bifurcar el repositorio relevante y enviar las ramas de funciones a su propia bifurcación.
 3. Agregue un comentario al problema o autoasignelo para que no tengamos varios colaboradores trabajando involuntariamente en la misma tarea.
 4. Comience con la rama `master` y compruebe una nueva rama de función a menos que esté contribuyendo a una función existente.
-5. Siga el estilo de codificación [apropiado](https://docs.originprotocol.com/guides/getting_started/contributing.html#contributing-email-coding-style) y escriba un código increíble.
+5. Write some awesome code.
 6. Extraiga las últimas confirmaciones de `master` y confirme que su código funciona con cualquier otro trabajo que se haya fusionado desde que comenzó.
 7. Empuje su rama al repositorio de arriba \ (es decir, https: //github.com/OriginProtocol/ \ [repo \] \) para que otros contribuyentes puedan trabajar fácilmente si es necesario.
 8. Solicite una revisión en el RP haciendo clic en el ícono de ajustes junto a "Reviewers" en la columna de la derecha.
