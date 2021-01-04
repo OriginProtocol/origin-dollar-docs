@@ -4,7 +4,7 @@
 
 OUSD is an entirely open-source project and we welcome contributions of all sorts. There are many ways to help, from reporting issues, contributing code, and helping us improve our community.
 
-We work in public and our company Discord is open to all. If you have questions or need help getting started, our Discord OUSD channels are the best place to get assistance from our team and community.
+We work in public and our company Discord is open to all. If you have questions or need help getting started, our [Discord OUSD channels](https://discord.gg/jyxpUSe) are the best place to get assistance from our team and community.
 
 **Developer Analytics**
 
@@ -20,7 +20,7 @@ Your development flow should look like:
 2. Ping a [core team member](https://github.com/orgs/OriginProtocol/teams/core/members) member on Discord and ask to be added to our [contributors team](https://github.com/orgs/OriginProtocol/teams/contributors). Otherwise, you’ll need to fork the relevant repository and push feature branches to your own fork.
 3. Add a comment to the issue or self-assign so we don’t have multiple contributors unintentionally working on the same task.
 4. Start with the `master` branch and check out a new feature branch unless you’re contributing to an existing feature.
-5. Follow the appropriate [coding style](https://docs.originprotocol.com/guides/getting_started/contributing.html#contributing-email-coding-style) and write some awesome code.
+5. Write some awesome code.
 6. Pull the latest commits from `master` and confirm that your code works with any other work that has been merged since you started.
 7. Push your branch to the upstream repository \(i.e. https://github.com/OriginProtocol/\[repo\]\) so that other contributors can easily work off of it if necessary.
 8. Please request a review in the PR by clicking on the gear icon next to “Reviewers” in the right column.
