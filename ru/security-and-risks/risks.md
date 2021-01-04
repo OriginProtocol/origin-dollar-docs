@@ -12,7 +12,7 @@ Use at your own risk. Don't deploy more capital than you are willing to lose.
 
 **Риск смарт-контракта**
 
-Наши смарт-контракты еще не прошли аудит, и даже при прохождении официального аудита все еще возможны логические ошибки, которые могут привести к потере средств для держателей OUSD. Контракты включают сложную математику и логику, которые могут быть как правильными, так и не правильными. Origin Protocol не несет ответственности за потерю средств, независимо от того, кто виноват.
+Our smart contracts have been audited by multiple, well-respected security firms. See the next section '[Audits](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MPntMcl6Yx7uv_RRwkV/security-and-risks/audits)' under 'Security & Risks'. It is important to note that even with formal audits, it is still possible for there to be logic errors that could lead to the loss of funds for OUSD holders. The contracts involve complex math and logic that may or may not be correct. Origin Protocol will not be held responsible for any loss of funds, regardless of who is at fault.
 
 **Риск платформы**
 
