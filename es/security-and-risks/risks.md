@@ -12,7 +12,7 @@ Como con cualquier instrumento que devenga intereses. existen riesgos asociados 
 
 **Riesgo de contrato inteligente**
 
-Nuestros contratos inteligentes aún no han sido auditados, e incluso con una auditoría formal, todavía es posible que haya errores lógicos que llevarían a la pérdida de fondos para los titulares de OUSD. Los contratos involucran matemáticas y lógica complejas que pueden ser correctas o no. Origin Protocol no se hace responsable de ninguna pérdida de fondos, independientemente de quién tenga la culpa.
+Our smart contracts have been audited by multiple, well-respected security firms. See the next section '[Audits](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MPntMcl6Yx7uv_RRwkV/security-and-risks/audits)' under 'Security & Risks'. It is important to note that even with formal audits, it is still possible for there to be logic errors that could lead to the loss of funds for OUSD holders. The contracts involve complex math and logic that may or may not be correct. Origin Protocol will not be held responsible for any loss of funds, regardless of who is at fault.
 
 **Riesgo de plataforma**
 
