@@ -4,7 +4,7 @@
 
 OUSD는 완전한 오픈 소스 프로젝트이며, 모든 종류의 기여를 환영합니다. 문제 보고, 코드 제공, 커뮤니티 개선 지원 등 다양한 방법으로 오리진을 도울 수 있습니다.
 
-오리진은 공개적으로 일하고 있으며, 오리진의 업무 진행 방식은 디스코드(Discord) 상에서 모두에게 공개되어 있습니다. 만약, OUSD와 관련하여 질문이 있거나 시작하는 데 도움이 필요하다면 디스코드 상의 OUSD 채널이 우리 팀과 커뮤니티의 도움을 받을 수있는 가장 좋은 곳입니다.
+오리진은 공개적으로 일하고 있으며, 오리진의 업무 진행 방식은 디스코드(Discord) 상에서 모두에게 공개되어 있습니다. If you have questions or need help getting started, our [Discord OUSD channels](https://discord.gg/jyxpUSe) are the best place to get assistance from our team and community.
 
 **Developer Analytics**
 
@@ -20,7 +20,7 @@ Your development flow should look like:
 2. 디스코드에서 [핵심 팀원](https://github.com/orgs/OriginProtocol/teams/core/members) 명의 구성원을 핑하고 [기여자 팀](https://github.com/orgs/OriginProtocol/teams/contributors)추가되도록 요청하십시오. 그렇지 않으면 관련 저장소를 포크하고 기능 브랜치를 자신의 포크로 푸시해야합니다.
 3. 문제에 댓글을 추가하거나 자체 할당하여 실수로 동일한 작업을 수행하는 여러 기여자가 없도록합니다.
 4. `master` 브랜치로 시작하고 기존 기능에 기여하지 않는 한 새로운 기능 브랜치를 확인하십시오.
-5. 적절한 [코딩 스타일](https://docs.originprotocol.com/guides/getting_started/contributing.html#contributing-email-coding-style) 을 따르며, 멋진 코드를 작성해주세요.
+5. Write some awesome code.
 6. `마스터` 에서 최신 커밋을 가져와 코드가 시작된 이후 병합 된 다른 작업과 함께 작동하는지 확인합니다.
 7. 브랜치를 업스트림 저장소 \ (예: https: //github.com/OriginProtocol/ \ [repo \] \)로 푸시하여 필요한 경우 다른 기여자가 쉽게 작업 할 수 있도록합니다.
 8. 오른쪽 열의 "검토자(Reviewers)"옆에 있는 톱니 바퀴 아이콘을 클릭하여 PR에서 리뷰를 요청하십시오.
