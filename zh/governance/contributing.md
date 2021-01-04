@@ -4,7 +4,7 @@
 
 OUSD 是一个完全开源的项目，而我们欢迎各种各样的贡献。 您可以通过报告问题，贡献代码或帮助我们改善社区的多种方式提供帮助。
 
-我们的工作和我们的公司 Discord 都是公开的。 如果您有任何疑问或需要任何帮助，我们的 Discord OUSD 渠道是从我们的团队和社区获得帮助的最佳场所。
+我们的工作和我们的公司 Discord 都是公开的。 If you have questions or need help getting started, our [Discord OUSD channels](https://discord.gg/jyxpUSe) are the best place to get assistance from our team and community.
 
 **Developer Analytics**
 
@@ -20,7 +20,7 @@ Your development flow should look like:
 2. 在 Discord 给其中一位 [核心团队成员](https://github.com/orgs/OriginProtocol/teams/core/members) 发信息，并要求把您添加到我们的 [贡献者团队](https://github.com/orgs/OriginProtocol/teams/contributors)。 否则，您需要分支相关的存储库，并将功能分支推到您自己的分叉。
 3. 在议题上添加评论或将议题分配给自己，这样我们不会有多个贡献者无意间试图解决同一个问题。
 4. 从 `master` 分支开始，然后签出新功能分支，除非您想为现有功能做出贡献。
-5. 遵循适当的 [编码样式](https://docs.originprotocol.com/guides/getting_started/contributing.html#contributing-email-coding-style) 并编写一些很棒的代码。
+5. Write some awesome code.
 6. 从 `master` 提取最新提交，并确认您的代码可与自您开始之后已合并的任何其他代码一起使用。
 7. 将您的分支推到上游存储库 \(即 https://github.com/OriginProtocol/\[repo\]\) ，以便其他贡献者可以轻松地使用它。
 8. 请通过单击右列的“Reviewers”旁边的齿轮图标来请求 PR 的审阅。
