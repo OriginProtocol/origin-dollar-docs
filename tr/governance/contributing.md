@@ -4,7 +4,7 @@
 
 OUSD tamamen açık kaynaklı bir projedir ve her türden katkıyı memnuniyetle karşılıyoruz. Sorunları bildirmekten, kodlara katkıda bulunmaktan ve topluluğumuzu geliştirmemize yardımcı olmaktan yardım etmenin birçok yolu vardır.
 
-Halka açık çalışıyoruz ve şirketimiz Discord herkese açık. Sorularınız varsa veya başlamak için yardıma ihtiyacınız varsa, Discord OUSD kanallarımız ekibimizden ve topluluğumuzdan yardım almak için en iyi yerdir.
+Halka açık çalışıyoruz ve şirketimiz Discord herkese açık. If you have questions or need help getting started, our [Discord OUSD channels](https://discord.gg/jyxpUSe) are the best place to get assistance from our team and community.
 
 **Developer Analytics**
 
@@ -20,7 +20,7 @@ Your development flow should look like:
 2. Discord'da [çekirdek ekip üyesine](https://github.com/orgs/OriginProtocol/teams/core/members) üye ping atın ve [katılımcı ekibimize eklenmesini isteyin](https://github.com/orgs/OriginProtocol/teams/contributors). Aksi takdirde, ilgili depoyu çatallamanız ve özellik dallarını kendi çatalınıza itmeniz gerekir.
 3. Soruna bir yorum ekleyin veya kendi kendinize atayın, böylece istemeden aynı görev üzerinde çalışan birden fazla katılımcımız olmasın.
 4. `ana` dalıyla başlayın ve mevcut bir özelliğe katkıda bulunmadığınız sürece yeni bir özellik dalını kontrol edin.
-5. Uygun [kodlama stilini](https://docs.originprotocol.com/guides/getting_started/contributing.html#contributing-email-coding-style) izleyin ve harika bir kod yazın.
+5. Write some awesome code.
 6. `ana` en son kaydetmeleri alın ve kodunuzun başladığınızdan beri birleştirilen diğer tüm çalışmalarda çalıştığını onaylayın.
 7. Branşınızı yukarı akış havuzuna \ (ör. Https: //github.com/OriginProtocol/ \ [repo \] \) gönderin, böylece diğer katkıda bulunanlar gerekirse kolayca çalışabilir.
 8. Lütfen sağ sütundaki "İnceleyenler" in yanındaki dişli çark simgesini tıklayarak PR'da bir inceleme talep edin.
