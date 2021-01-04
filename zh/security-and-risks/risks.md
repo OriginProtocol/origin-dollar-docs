@@ -12,7 +12,7 @@ Use at your own risk. Don't deploy more capital than you are willing to lose.
 
 **智能合约风险**
 
-我们的智能合约尚未经过审核，而且即使进行了正式审核，仍然可能存在逻辑错误，从而导致 OUSD 持有者损失资金。 合约涉及可能正确或可能不正确的复杂数学和逻辑。 无论谁对谁错，Origin Protocol 都不对任何资金损失负责。
+Our smart contracts have been audited by multiple, well-respected security firms. See the next section '[Audits](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MPntMcl6Yx7uv_RRwkV/security-and-risks/audits)' under 'Security & Risks'. It is important to note that even with formal audits, it is still possible for there to be logic errors that could lead to the loss of funds for OUSD holders. The contracts involve complex math and logic that may or may not be correct. Origin Protocol will not be held responsible for any loss of funds, regardless of who is at fault.
 
 **平台风险**
 
