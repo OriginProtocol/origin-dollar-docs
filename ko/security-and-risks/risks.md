@@ -12,7 +12,7 @@ Use at your own risk. Don't deploy more capital than you are willing to lose.
 
 **스마트 컨트랙트 위험**
 
-당사의 스마트 컨트렉트는 아직 감사를 받지 않았으며, 공식적인 감사가 진행된다 하더라도 OUSD 보유자의 자금 손실로 이어질 수 있는 논리 오류가 발생할 수 있습니다. 컨트렉트에는 정확하거나 정확하지 않을 수 있는 복잡한 산술과 논리가 포함됩니다. 오리진 프로토콜(Origin Protocol) 은 누가 잘못했는지에 상관없이 자금 손실에 대해서는 책임을 지지 않습니다.
+Our smart contracts have been audited by multiple, well-respected security firms. See the next section '[Audits](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MPntMcl6Yx7uv_RRwkV/security-and-risks/audits)' under 'Security & Risks'. It is important to note that even with formal audits, it is still possible for there to be logic errors that could lead to the loss of funds for OUSD holders. The contracts involve complex math and logic that may or may not be correct. Origin Protocol will not be held responsible for any loss of funds, regardless of who is at fault.
 
 **플랫폼 위험**
 
