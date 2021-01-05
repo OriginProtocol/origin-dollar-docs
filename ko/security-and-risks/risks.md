@@ -1,7 +1,7 @@
 # 위험
 
 {% hint style="danger" %}
-Use at your own risk. Don't deploy more capital than you are willing to lose.
+Use at your own risk. Do not deploy more capital than you are willing to lose.
 {% endhint %}
 
 다른 이자가 붙는 도구들과 마찬가지로 OUSD 보유와 관련된 위험을 이해하는것은 중요합니다. 이러한 위험은 크게 3 가지 범주로 분류 할 수 있습니다:
@@ -24,7 +24,17 @@ OUSD는 이를 뒷받침하는 스테이블 코인 만큼 강하다는 점을 �
 
 지원되는 각 스테이블 코인은 서로 다른 상대방에 대한 리스크를 유발한다는 점에 유의해야 합니다. 특히 테더(Tether) 는 잘 문서화된 은행 문제 및 규제 문제를 안고 있습니다. 또한 USDT와 USDC는 발행인이 보유자의 지갑에있는 돈을 동결(freeze) 할 수 있는 권한을 부여하는 백도어(backdoors) 기능이 있습니다. 다이(DAI) 에는 직접적인 백도어가 없지만 USDC가 다이 발행을 위한 담보로 허용되기 때문에 자산에 부정적인 영향을 미칠 수 있습니다.
 
-**요약하면 OUSD는 베타 소프트웨어입니다. 사용자 자신의 책임 하에 사용하십시오. 잃을 수있는 것보다 더 많은 자본을 배치하지 마십시오.**
+_**In summary, OUSD is beta software. Use at your own risk. Do not deploy more capital than you are willing to lose.**_
+
+**Risk Mitigation**
+
+We are actively working with multiple DeFi insurance providers and will soon be announcing our initial coverage plans to further secure the protocol. Despite our plan to offer insurance coverage and our recent [audits](audits.md), we have taken extensive measures to improve our internal processes so that we do everything possible to avoid an exploit.
+
+We have retained [Certora](https://www.certora.com/) to begin formally verifying the various security properties of our contracts. They will help us establish automated verifications that will run anytime we update our contract code. We now also have automated checking for common errors with [Slither](https://github.com/crytic/slither) and [Echidna](https://github.com/crytic/echidna) tests. Together, these alert our team to common security issues in addition to our own test suite.
+
+Code reviews involving our smart contracts are now more rigorous than before. We require two engineers to review each change with a detailed checklist and we prioritize this over new feature development.
+
+Finally, we have formalized an engineering [rotation](https://github.com/OriginProtocol/security/blob/master/incidents/ROTATION.md) for reviewing [attacks on other projects](https://github.com/OriginProtocol/security/tree/master/incidents) as well as ensuring we deep dive into each of these reviews, including reviewing the affected contract’s source code ourselves.
 
 
 
