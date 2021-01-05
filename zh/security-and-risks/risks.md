@@ -1,7 +1,7 @@
 # 风险
 
 {% hint style="danger" %}
-Use at your own risk. Don't deploy more capital than you are willing to lose.
+Use at your own risk. Do not deploy more capital than you are willing to lose.
 {% endhint %}
 
 与任何计息工具一样, 持有 OUSD 也有相关的风险。 这些风险可以大致分为3类：
@@ -24,7 +24,17 @@ Our smart contracts have been [audited](audits.md) by multiple, well-respected s
 
 值得注意的是，所有这些稳定币都会带来重要的交易对手风险。 尤其是 Tether 遇到了许多银行业麻烦和监管挑战。 此外，USDT 和 USDC 都有后门，可以让发行者有权冻结持有者钱包中的资金。 尽管 DAI 没有任何直接后门程序，但由于 USDC 可以作为铸造 DAI 的抵押品，因此 DAI 的资产也可能受到负面影响。
 
-**总之，OUSD 还处于beta阶段。 使用风险自负。 不要动用超过您愿意损失的资本。**
+_**In summary, OUSD is beta software. Use at your own risk. Do not deploy more capital than you are willing to lose.**_
+
+**Risk Mitigation**
+
+We are actively working with multiple DeFi insurance providers and will soon be announcing our initial coverage plans to further secure the protocol. Despite our plan to offer insurance coverage and our recent [audits](audits.md), we have taken extensive measures to improve our internal processes so that we do everything possible to avoid an exploit.
+
+We have retained [Certora](https://www.certora.com/) to begin formally verifying the various security properties of our contracts. They will help us establish automated verifications that will run anytime we update our contract code. We now also have automated checking for common errors with [Slither](https://github.com/crytic/slither) and [Echidna](https://github.com/crytic/echidna) tests. Together, these alert our team to common security issues in addition to our own test suite.
+
+Code reviews involving our smart contracts are now more rigorous than before. We require two engineers to review each change with a detailed checklist and we prioritize this over new feature development.
+
+Finally, we have formalized an engineering [rotation](https://github.com/OriginProtocol/security/blob/master/incidents/ROTATION.md) for reviewing [attacks on other projects](https://github.com/OriginProtocol/security/tree/master/incidents) as well as ensuring we deep dive into each of these reviews, including reviewing the affected contract’s source code ourselves.
 
 
 
