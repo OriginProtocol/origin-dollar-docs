@@ -12,7 +12,7 @@ Tương tự với bất kỳ công cụ lãi suất nào, OUSD cũng sẽ có t
 
 **Rủi ro hợp đồng thông minh**
 
-Our smart contracts have been audited by multiple, well-respected security firms. See the next section '[Audits](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MPntMcl6Yx7uv_RRwkV/security-and-risks/audits)' under 'Security & Risks'. It is important to note that even with formal audits, it is still possible for there to be logic errors that could lead to the loss of funds for OUSD holders. The contracts involve complex math and logic that may or may not be correct. Origin Protocol will not be held responsible for any loss of funds, regardless of who is at fault.
+Our smart contracts have been [audited](audits.md) by multiple, well-respected security firms. However, it is important to note that even with formal audits, it is still possible for there to be logic errors that could lead to the loss of funds for OUSD holders. The contracts involve complex math and logic that may or may not be correct. Origin Protocol will not be held responsible for any loss of funds, regardless of who is at fault.
 
 **Rủi ro nền tảng**
 
