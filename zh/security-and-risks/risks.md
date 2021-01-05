@@ -1,30 +1,30 @@
-# Risks
+# 风险
 
 {% hint style="danger" %}
 Use at your own risk. Don't deploy more capital than you are willing to lose.
 {% endhint %}
 
-As with any interest-bearing instrument. there are associated risks with holding OUSD that are important to understand. These risks can be broadly classified into 3 categories:
+与任何计息工具一样, 持有 OUSD 也有相关的风险。 这些风险可以大致分为3类：
 
-* Smart contract risk
-* Underlying platform risk
-* Underlying stablecoin risk
+* 智能合约风险
+* 底层平台风险
+* 底层稳定币风险
 
-**Smart contract risk**
+**智能合约风险**
 
-Our smart contracts have been audited by multiple, well-respected security firms. See the next section '[Audits](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MPntMcl6Yx7uv_RRwkV/security-and-risks/audits)' under 'Security & Risks'. It is important to note that even with formal audits, it is still possible for there to be logic errors that could lead to the loss of funds for OUSD holders. The contracts involve complex math and logic that may or may not be correct. Origin Protocol will not be held responsible for any loss of funds, regardless of who is at fault.
+Our smart contracts have been [audited](audits.md) by multiple, well-respected security firms. However, it is important to note that even with formal audits, it is still possible for there to be logic errors that could lead to the loss of funds for OUSD holders. The contracts involve complex math and logic that may or may not be correct. Origin Protocol will not be held responsible for any loss of funds, regardless of who is at fault.
 
-**Platform risk**
+**平台风险**
 
-OUSD is built on top of other DeFi platforms that add additional smart contract risk. We are choosing to work with platforms that have hundreds of millions of dollars of assets under management and have made a reasonable effort to ensure the correctness of their protocols. However, there are no guarantees that the underlying platforms will continue to work as intended, and any failure in an underlying strategy would likely lead to a loss of funds for OUSD holders.
+因为 OUSD 是建立在其他 DeFi 平台之上，因此这些平台会增加额外的智能合约风险。 我们选择与管理着数亿美元资产并已努力确保其协议的正确性的平台合作。 但是，我们不能保证基础平台将继续按预期运行。基础策略的任何故障或问题都很可能导致 OUSD 持有者损失资金。
 
-**Stablecoin risks**
+**稳定币风险**
 
-It is important to understand that OUSD is only as strong as the stablecoins that are backing it. Any loss to the underlying assets will cause a similar loss to the value of OUSD.
+必须了解的是，OUSD 仅与支持它的稳定币一样强大。 底层资产的任何损失都将造成 OUSD 相似的损失。
 
-It is important to note that each of the supported stablecoins introduces non-trivial counter-party risk. Tether, in particular, has had well-documented banking troubles and regulatory challenges. In addition, both USDT and USDC have backdoors that grant their issuers the power to freeze money in their holder's wallets. While DAI does not have any direct backdoors, it's assets can also be negatively impacted since USDC is accepted as collateral for minting DAI.
+值得注意的是，所有这些稳定币都会带来重要的交易对手风险。 尤其是 Tether 遇到了许多银行业麻烦和监管挑战。 此外，USDT 和 USDC 都有后门，可以让发行者有权冻结持有者钱包中的资金。 尽管 DAI 没有任何直接后门程序，但由于 USDC 可以作为铸造 DAI 的抵押品，因此 DAI 的资产也可能受到负面影响。
 
-**In summary, OUSD is beta software. Use at your own risk. Don't deploy more capital than you are willing to lose.**
+**总之，OUSD 还处于beta阶段。 使用风险自负。 不要动用超过您愿意损失的资本。**
 
 
 
