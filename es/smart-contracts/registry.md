@@ -11,42 +11,38 @@ La dirección ERC20 principal para Origin Dollar \(OUSD\) es:
 {% tab title="Core" %}
 Direcciones conocidas \ (a menudo envoltorios de proxy\):
 
-| Contrato          | Dirección                                                                                                             | ENS                                                                   |
-|:----------------- |:--------------------------------------------------------------------------------------------------------------------- |:--------------------------------------------------------------------- |
-| OUSD              | [0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86](https://etherscan.io/address/0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86) | [ousd.eth](https://etherscan.io/address/ousd.eth)                     |
-| Bóveda            | [0x277e80f3E14E7fB3fc40A9d6184088e0241034bD](https://etherscan.io/address/0x277e80f3E14E7fB3fc40A9d6184088e0241034bD) | [originvault.eth](https://etherscan.io/address/originvault.eth)       |
-| Bloqueo de Tiempo | [0x52BEBd3d7f37EC4284853Fd5861Ae71253A7F428](https://etherscan.io/address/0x52BEBd3d7f37EC4284853Fd5861Ae71253A7F428) | [origintimelock.eth](https://etherscan.io/address/origintimelock.eth) |
-| Oracle            | [0x4d4f5e7a1FE57F5cEB38BfcE8653EFFa5e584458](https://etherscan.io/address/0x4d4f5e7a1FE57F5cEB38BfcE8653EFFa5e584458) | [originoracle.eth](https://etherscan.io/address/originoracle.eth)     |
+| Contrato | Dirección                                                                                                             | ENS                                                                   |
+|:-------- |:--------------------------------------------------------------------------------------------------------------------- |:--------------------------------------------------------------------- |
+| OUSD     | [0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86](https://etherscan.io/address/0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86) | [ousd.eth](https://etherscan.io/address/ousd.eth)                     |
+| Bóveda   | [0xE75D77B1865Ae93c7eaa3040B038D7aA7BC02F70](https://etherscan.io/address/0xe75d77b1865ae93c7eaa3040b038d7aa7bc02f70) | [originvault.eth](https://etherscan.io/address/originvault.eth)       |
+| Governor | [0x8e7bDFeCd1164C46ad51b58e49A611F954D23377](https://etherscan.io/address/0x8e7bdfecd1164c46ad51b58e49a611f954d23377) | [origintimelock.eth](https://etherscan.io/address/origintimelock.eth) |
+| Oracle   | [0x843530DC8005e13dEA30CEa2394FF60635f38cc4](https://etherscan.io/address/0x843530DC8005e13dEA30CEa2394FF60635f38cc4) | [originoracle.eth](https://etherscan.io/address/originoracle.eth)     |
 
 Contratos de ejecución interna:
 
 | Contrato                   | Dirección                                                                                                             |
 |:-------------------------- |:--------------------------------------------------------------------------------------------------------------------- |
-| OUSD                       | [0x1ae95dd4eeae7ed03da79856c2d44ffa3318f805](https://etherscan.io/address/0x1ae95dd4eeae7ed03da79856c2d44ffa3318f805) |
-| Administrador de la Bóveda | [0xfbbe3090E06721168979818Fe006A1fcb136e953](https://etherscan.io/address/0xfbbe3090E06721168979818Fe006A1fcb136e953) |
-| Bóveda Central             | [0xB95423e3ca13ce5336Cb177B06cD4f647D2aAd57](https://etherscan.io/address/0xB95423e3ca13ce5336Cb177B06cD4f647D2aAd57) |
-| Oráculos Mixtos            | [0x4d4f5e7a1FE57F5cEB38BfcE8653EFFa5e584458](https://etherscan.io/address/0x4d4f5e7a1FE57F5cEB38BfcE8653EFFa5e584458) |
-| Oráculo de Chainlink       | [0x8DE3Ac42F800a1186b6D70CB91e0D6876cC36759](https://etherscan.io/address/0x8DE3Ac42F800a1186b6D70CB91e0D6876cC36759) |
+| OUSD                       | [0x159ea2fA3a92DAE6b9f21D6753AA6a8EA5bf77BA](https://etherscan.io/address/0x159ea2fa3a92dae6b9f21d6753aa6a8ea5bf77ba) |
+| Administrador de la Bóveda | [0x84fB09fCb6fc5cc0DBA13FE5CF87A613e34a386a](https://etherscan.io/address/0x84fb09fcb6fc5cc0dba13fe5cf87a613e34a386a) |
+| Bóveda Central             | [0xE54f14FC3fBc5915D070DE4758bcF591541BD1c3](https://etherscan.io/address/0xe54f14fc3fbc5915d070de4758bcf591541bd1c3) |
+| Oráculos Mixtos            | [0x843530DC8005e13dEA30CEa2394FF60635f38cc4](https://etherscan.io/address/0x843530DC8005e13dEA30CEa2394FF60635f38cc4) |
+| Oráculo de Chainlink       | [0x017aD99900b9581Cd40C815990890EE9F0858246](https://etherscan.io/address/0x017aD99900b9581Cd40C815990890EE9F0858246) |
 {% endtab %}
 
 {% tab title="Strategies" %}
 Well-known addresses \(proxy wrappers\):
 
-| Strategy         | Address                                                                                                               | Current Auto-Allocation |
-|:---------------- |:--------------------------------------------------------------------------------------------------------------------- |:----------------------- |
-| Curve \(USDT\) | [0xe40e09cD6725E542001FcB900d9dfeA447B529C0](https://etherscan.io/address/0xe40e09cD6725E542001FcB900d9dfeA447B529C0) | 0%                      |
-| Curve \(USDC\) | [0x67023c56548BA15aD3542E65493311F19aDFdd6d](https://etherscan.io/address/0x67023c56548BA15aD3542E65493311F19aDFdd6d) | 0%                      |
-| Aave             | [0x051CaEFA90aDf261B8E8200920C83778b7B176B6](https://etherscan.io/address/0x051caefa90adf261b8e8200920c83778b7b176b6) | 100% of DAI             |
-| Compound         | [0x12115A32a19e4994C2BA4A5437C22CEf5ABb59C3](https://etherscan.io/address/0x12115A32a19e4994C2BA4A5437C22CEf5ABb59C3) | 100% of USDC and USDT   |
+| Strategy | Address                                                                                                               | Current Auto-Allocation |
+|:-------- |:--------------------------------------------------------------------------------------------------------------------- |:----------------------- |
+| Aave     | [0x9f2b18751376cF6a3432eb158Ba5F9b1AbD2F7ce](https://etherscan.io/address/0x9f2b18751376cF6a3432eb158Ba5F9b1AbD2F7ce) | 100% of DAI             |
+| Compound | [0xD5433168Ed0B1F7714819646606DB509D9d8EC1f](https://etherscan.io/address/0xD5433168Ed0B1F7714819646606DB509D9d8EC1f) | 100% of USDC and USDT   |
 
 Internal implementation contracts:
 
-| Strategy         | Address                                                                                                               |
-|:---------------- |:--------------------------------------------------------------------------------------------------------------------- |
-| Curve \(USDT\) | [0x641E3b5b081Fb2fb8B43D5a163649312a28e23Da](https://etherscan.io/address/0x641E3b5b081Fb2fb8B43D5a163649312a28e23Da) |
-| Curve \(USDC\) | [0xF92B0DE25660C18BEDaa55795986781d7899b0f9](https://etherscan.io/address/0xF92B0DE25660C18BEDaa55795986781d7899b0f9) |
-| Aave             | [0x5d9aA9f977E47eA0BFE61BA8b8f535aba02Be135](https://etherscan.io/address/0x5d9aA9f977E47eA0BFE61BA8b8f535aba02Be135) |
-| Compound         | [0xFaf23Bd848126521064184282e8AD344490BA6f0](https://etherscan.io/address/0xFaf23Bd848126521064184282e8AD344490BA6f0) |
+| Strategy | Address                                                                                                               |
+|:-------- |:--------------------------------------------------------------------------------------------------------------------- |
+| Aave     | [0xA4144d814F03a2Bb0429CcB89a77Cd3703658B61](https://etherscan.io/address/0xA4144d814F03a2Bb0429CcB89a77Cd3703658B61) |
+| Compound | [0x543eDE303EC0Dd9023208d1738681b4cB65256DF](https://etherscan.io/address/0x543eDE303EC0Dd9023208d1738681b4cB65256DF) |
 {% endtab %}
 
 {% tab title="Oracles" %}
@@ -87,7 +83,7 @@ Since not all oracles have direct USD pairs, the protocol also fetches the price
 |:--------------- |:--------------------------------------------------------------------------------------------------------------------- |:------------------------------------------------------------------------- |
 | 5 of 8 Multisig | [0xe011fA2a6Df98c69383457d87a056Ed0103aA352](https://etherscan.io/address/0xe011fA2a6Df98c69383457d87a056Ed0103aA352) | [originprotocol.eth](https://etherscan.io/address/originprotocol.eth)     |
 | 2 of 9 Multisig | [0xF14BBdf064E3F67f51cd9BD646aE3716aD938FDC](https://etherscan.io/address/0xF14BBdf064E3F67f51cd9BD646aE3716aD938FDC) | [originstrategist.eth](https://etherscan.io/address/originstrategist.eth) |
-| Governor        | [0x8a5fF78BFe0de04F5dc1B57d2e1095bE697Be76E](https://etherscan.io/address/0x8a5fF78BFe0de04F5dc1B57d2e1095bE697Be76E) | [origingovernor.eth](https://etherscan.io/address/origingovernor.eth)     |
+| Governor        | [0x8e7bDFeCd1164C46ad51b58e49A611F954D23377](https://etherscan.io/address/0x8e7bDFeCd1164C46ad51b58e49A611F954D23377) | [origingovernor.eth](https://etherscan.io/address/origingovernor.eth)     |
 {% endtab %}
 
 {% tab title="Stablecoins" %}
