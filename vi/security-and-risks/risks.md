@@ -1,7 +1,7 @@
 # Rủi ro
 
 {% hint style="danger" %}
-Use at your own risk. Don't deploy more capital than you are willing to lose.
+Use at your own risk. Do not deploy more capital than you are willing to lose.
 {% endhint %}
 
 Tương tự với bất kỳ công cụ lãi suất nào, OUSD cũng sẽ có thể chứa những rủi ro những rủi ro liên quan mà mọi người cần hiểu rõ. Những rủi ro này có thể được phân thành 3 loại:
@@ -24,7 +24,17 @@ OUSD được xây dựng dựa trên các nền tảng DeFi khác làm tăng th
 
 Điều quan trọng cần lưu ý là tất cả các stablecoin này tiềm ẩn các rủi ro tuy không đang kể đối với các bên liên quan. Đơn cử như Tether đã từng gặp phải răng rối liên quan đến thủ tục ngân hàng và đối mặt với không ít thách thức về việc tuân thủ quy định. Ngoài ra, cả USDT và USDC đều có "cửa sau" cho phép nhà phát hành có quyền đóng băng tiền trong ví của chủ sở hữu. Mặc dù DAI không có tính năng đóng băng như USDT và USDC, nhưng tài sản của nó cũng có thể bị ảnh hưởng tiêu cực bởi 2 đồng trên vì USDC được chấp nhận làm tài sản thế chấp để khai thác DAI.
 
-**Tóm lại, OUSD là đang ở bản beta. Bạn chấp nhận rủi ro khi đồng ý sử dụng OUSD. Hãy sử dụng nguồn vốn mà khi mất đi cũng không ảnh hưởng tới cuộc sống của mình.**
+_**In summary, OUSD is beta software. Use at your own risk. Do not deploy more capital than you are willing to lose.**_
+
+**Risk Mitigation**
+
+We are actively working with multiple DeFi insurance providers and will soon be announcing our initial coverage plans to further secure the protocol. Despite our plan to offer insurance coverage and our recent [audits](audits.md), we have taken extensive measures to improve our internal processes so that we do everything possible to avoid an exploit.
+
+We have retained [Certora](https://www.certora.com/) to begin formally verifying the various security properties of our contracts. They will help us establish automated verifications that will run anytime we update our contract code. We now also have automated checking for common errors with [Slither](https://github.com/crytic/slither) and [Echidna](https://github.com/crytic/echidna) tests. Together, these alert our team to common security issues in addition to our own test suite.
+
+Code reviews involving our smart contracts are now more rigorous than before. We require two engineers to review each change with a detailed checklist and we prioritize this over new feature development.
+
+Finally, we have formalized an engineering [rotation](https://github.com/OriginProtocol/security/blob/master/incidents/ROTATION.md) for reviewing [attacks on other projects](https://github.com/OriginProtocol/security/tree/master/incidents) as well as ensuring we deep dive into each of these reviews, including reviewing the affected contract’s source code ourselves.
 
 
 
