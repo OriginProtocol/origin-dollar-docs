@@ -50,7 +50,8 @@
 
 * [Rủi ro](security-and-risks/risks.md)
 * [Kiểm toán](security-and-risks/audits.md)
-* [Phần thưởng phát hiện lỗi](security-and-risks/bug-bounties.md)
+* [Insurance](security-and-risks/insurance.md)
+* [Bug Bounties](security-and-risks/bug-bounties.md)
 
 ## Danh sách các kênh
 
