@@ -50,7 +50,8 @@
 
 * [Риски](security-and-risks/risks.md)
 * [Аудиты](security-and-risks/audits.md)
-* [Призы за поиск ошибок](security-and-risks/bug-bounties.md)
+* [Insurance](security-and-risks/insurance.md)
+* [Bug Bounties](security-and-risks/bug-bounties.md)
 
 ## Ссылки
 
