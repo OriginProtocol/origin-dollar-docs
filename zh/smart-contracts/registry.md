@@ -1,26 +1,26 @@
-# Registry
+# 登记处
 
-Here is the full registry of OUSD smart contracts that have been deployed to the Ethereum mainnet.
+这是已部署到以太坊主网的 OUSD 智能合约的完整注册表。
 
 {% hint style="success" %}
-The main ERC20 address for Origin Dollar \(OUSD\) is:   
+Origin Dollar（OUSD）的主要 ERC20 地址为：   
 **0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86**
 {% endhint %}
 
 {% tabs %}
 {% tab title="Core" %}
-Well-known addresses \(often proxy wrappers\):
+知名的地址 \(often proxy wrappers\):
 
-| Contract | Address                                                                                                               | ENS                                                                   |
-|:-------- |:--------------------------------------------------------------------------------------------------------------------- |:--------------------------------------------------------------------- |
-| OUSD     | [0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86](https://etherscan.io/address/0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86) | [ousd.eth](https://etherscan.io/address/ousd.eth)                     |
-| Vault    | [0xE75D77B1865Ae93c7eaa3040B038D7aA7BC02F70](https://etherscan.io/address/0xe75d77b1865ae93c7eaa3040b038d7aa7bc02f70) | [originvault.eth](https://etherscan.io/address/originvault.eth)       |
-| Governor | [0x8e7bDFeCd1164C46ad51b58e49A611F954D23377](https://etherscan.io/address/0x8e7bdfecd1164c46ad51b58e49a611f954d23377) | [origintimelock.eth](https://etherscan.io/address/origintimelock.eth) |
-| Oracle   | [0x843530DC8005e13dEA30CEa2394FF60635f38cc4](https://etherscan.io/address/0x843530DC8005e13dEA30CEa2394FF60635f38cc4) | [originoracle.eth](https://etherscan.io/address/originoracle.eth)     |
+| 合约          | 地址                                                                                                                    | ENS                                                                   |
+|:----------- |:--------------------------------------------------------------------------------------------------------------------- |:--------------------------------------------------------------------- |
+| OUSD        | [0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86](https://etherscan.io/address/0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86) | [ousd.eth](https://etherscan.io/address/ousd.eth)                     |
+| 保险库 （Vault） | [0xE75D77B1865Ae93c7eaa3040B038D7aA7BC02F70](https://etherscan.io/address/0xe75d77b1865ae93c7eaa3040b038d7aa7bc02f70) | [originvault.eth](https://etherscan.io/address/originvault.eth)       |
+| Governor    | [0x8e7bDFeCd1164C46ad51b58e49A611F954D23377](https://etherscan.io/address/0x8e7bdfecd1164c46ad51b58e49a611f954d23377) | [origintimelock.eth](https://etherscan.io/address/origintimelock.eth) |
+| Oracle      | [0x843530DC8005e13dEA30CEa2394FF60635f38cc4](https://etherscan.io/address/0x843530DC8005e13dEA30CEa2394FF60635f38cc4) | [originoracle.eth](https://etherscan.io/address/originoracle.eth)     |
 
-Internal implementation contracts:
+内部 implementation 合约：
 
-| Contract         | Address                                                                                                               |
+| 合约               | 地址                                                                                                                    |
 |:---------------- |:--------------------------------------------------------------------------------------------------------------------- |
 | OUSD             | [0x159ea2fA3a92DAE6b9f21D6753AA6a8EA5bf77BA](https://etherscan.io/address/0x159ea2fa3a92dae6b9f21d6753aa6a8ea5bf77ba) |
 | VaultAdmin       | [0x84fB09fCb6fc5cc0DBA13FE5CF87A613e34a386a](https://etherscan.io/address/0x84fb09fcb6fc5cc0dba13fe5cf87a613e34a386a) |
