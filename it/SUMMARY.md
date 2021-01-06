@@ -50,6 +50,7 @@
 
 * [Rischi](security-and-risks/risks.md)
 * [Revisioni](security-and-risks/audits.md)
+* [Insurance](security-and-risks/insurance.md)
 * [Bug Bounties](security-and-risks/bug-bounties.md)
 
 ## Links
