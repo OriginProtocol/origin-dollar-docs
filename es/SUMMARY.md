@@ -50,7 +50,8 @@
 
 * [Riesgos](security-and-risks/risks.md)
 * [Auditorias](security-and-risks/audits.md)
-* [Recompensas de Errores](security-and-risks/bug-bounties.md)
+* [Insurance](security-and-risks/insurance.md)
+* [Bug Bounties](security-and-risks/bug-bounties.md)
 
 ## Enlaces
 
