@@ -50,7 +50,8 @@
 
 * [Riskler](security-and-risks/risks.md)
 * [Denetimler](security-and-risks/audits.md)
-* [Bug Ödülleri](security-and-risks/bug-bounties.md)
+* [Insurance](security-and-risks/insurance.md)
+* [Bug Bounties](security-and-risks/bug-bounties.md)
 
 ## Bağlantılar
 
