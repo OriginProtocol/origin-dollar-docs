@@ -20,13 +20,13 @@ Indirizzi ben conosciuti \ (spesso wrapper proxy \):
 
 Contratti di implementazione interna:
 
-| Contratto        | Indirizzo                                                                                                             |
-|:---------------- |:--------------------------------------------------------------------------------------------------------------------- |
-| OUSD             | [0x159ea2fA3a92DAE6b9f21D6753AA6a8EA5bf77BA](https://etherscan.io/address/0x159ea2fa3a92dae6b9f21d6753aa6a8ea5bf77ba) |
-| VaultAdmin       | [0x84fB09fCb6fc5cc0DBA13FE5CF87A613e34a386a](https://etherscan.io/address/0x84fb09fcb6fc5cc0dba13fe5cf87a613e34a386a) |
-| VaultCore        | [0xE54f14FC3fBc5915D070DE4758bcF591541BD1c3](https://etherscan.io/address/0xe54f14fc3fbc5915d070de4758bcf591541bd1c3) |
-| Oracolo Mix      | [0x843530DC8005e13dEA30CEa2394FF60635f38cc4](https://etherscan.io/address/0x843530DC8005e13dEA30CEa2394FF60635f38cc4) |
-| Oracle Chainlink | [0x017aD99900b9581Cd40C815990890EE9F0858246](https://etherscan.io/address/0x017aD99900b9581Cd40C815990890EE9F0858246) |
+| Contratto        | Indirizzo                                                                                                                  |
+|:---------------- |:-------------------------------------------------------------------------------------------------------------------------- |
+| OUSD             | [0x8e54f5776ac2d0322d94640e070856a04e446656](https://etherscan.io/address/0x8e54f5776ac2d0322d94640e070856a04e446656#code) |
+| VaultAdmin       | [0x84fB09fCb6fc5cc0DBA13FE5CF87A613e34a386a](https://etherscan.io/address/0x84fb09fcb6fc5cc0dba13fe5cf87a613e34a386a)      |
+| VaultCore        | [0xE54f14FC3fBc5915D070DE4758bcF591541BD1c3](https://etherscan.io/address/0xe54f14fc3fbc5915d070de4758bcf591541bd1c3)      |
+| Oracolo Mix      | [0x843530DC8005e13dEA30CEa2394FF60635f38cc4](https://etherscan.io/address/0x843530DC8005e13dEA30CEa2394FF60635f38cc4)      |
+| Oracle Chainlink | [0x017aD99900b9581Cd40C815990890EE9F0858246](https://etherscan.io/address/0x017aD99900b9581Cd40C815990890EE9F0858246)      |
 {% endtab %}
 
 {% tab title="Strategies" %}
