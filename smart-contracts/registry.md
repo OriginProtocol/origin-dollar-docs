@@ -112,11 +112,6 @@ Since not all oracles have direct USD pairs, the protocol also fetches the price
         </p>
       </td>
     </tr>
-    <tr>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-    </tr>
   </tbody>
 </table>
 {% endtab %}
