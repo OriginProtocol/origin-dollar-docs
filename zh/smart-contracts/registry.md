@@ -11,14 +11,13 @@ Origin Dollar（OUSD）的主要 ERC20 地址为：
 {% tab title="Core" %}
 知名的地址 \(often proxy wrappers\):
 
-| 合约          | 地址                                                                                                                    | ENS                                                                   |
-|:----------- |:--------------------------------------------------------------------------------------------------------------------- |:--------------------------------------------------------------------- |
-| OUSD        | [0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86](https://etherscan.io/address/0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86) | [ousd.eth](https://etherscan.io/address/ousd.eth)                     |
-| 保险库 （Vault） | [0xE75D77B1865Ae93c7eaa3040B038D7aA7BC02F70](https://etherscan.io/address/0xe75d77b1865ae93c7eaa3040b038d7aa7bc02f70) | [originvault.eth](https://etherscan.io/address/originvault.eth)       |
-| Governor    | [0x8e7bDFeCd1164C46ad51b58e49A611F954D23377](https://etherscan.io/address/0x8e7bdfecd1164c46ad51b58e49a611f954d23377) | [origintimelock.eth](https://etherscan.io/address/origintimelock.eth) |
-| Oracle      | [0x843530DC8005e13dEA30CEa2394FF60635f38cc4](https://etherscan.io/address/0x843530DC8005e13dEA30CEa2394FF60635f38cc4) | [originoracle.eth](https://etherscan.io/address/originoracle.eth)     |
+| 合约          | 地址                                                                                                                    | ENS                                                               |
+|:----------- |:--------------------------------------------------------------------------------------------------------------------- |:----------------------------------------------------------------- |
+| OUSD        | [0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86](https://etherscan.io/address/0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86) | [ousd.eth](https://etherscan.io/address/ousd.eth)                 |
+| 保险库 （Vault） | [0xE75D77B1865Ae93c7eaa3040B038D7aA7BC02F70](https://etherscan.io/address/0xe75d77b1865ae93c7eaa3040b038d7aa7bc02f70) | [originvault.eth](https://etherscan.io/address/originvault.eth)   |
+| Oracle      | [0x843530DC8005e13dEA30CEa2394FF60635f38cc4](https://etherscan.io/address/0x843530DC8005e13dEA30CEa2394FF60635f38cc4) | [originoracle.eth](https://etherscan.io/address/originoracle.eth) |
 
-内部 implementation 合约：
+Internal implementation contracts. The Vault is split into VaultAdmin and VaultCore to work-around the maximum contract size limit on Ethereum:
 
 | 合约               | 地址                                                                                                                         |
 |:---------------- |:-------------------------------------------------------------------------------------------------------------------------- |
@@ -78,12 +77,47 @@ Since not all oracles have direct USD pairs, the protocol also fetches the price
 
 {% tab title="Governance" %}
 
-
-| Contract        | Address                                                                                                               | ENS                                                                       |
-|:--------------- |:--------------------------------------------------------------------------------------------------------------------- |:------------------------------------------------------------------------- |
-| 5 of 8 Multisig | [0xe011fA2a6Df98c69383457d87a056Ed0103aA352](https://etherscan.io/address/0xe011fA2a6Df98c69383457d87a056Ed0103aA352) | [originprotocol.eth](https://etherscan.io/address/originprotocol.eth)     |
-| 2 of 9 Multisig | [0xF14BBdf064E3F67f51cd9BD646aE3716aD938FDC](https://etherscan.io/address/0xF14BBdf064E3F67f51cd9BD646aE3716aD938FDC) | [originstrategist.eth](https://etherscan.io/address/originstrategist.eth) |
-| Governor        | [0x8e7bDFeCd1164C46ad51b58e49A611F954D23377](https://etherscan.io/address/0x8e7bDFeCd1164C46ad51b58e49A611F954D23377) | [origingovernor.eth](https://etherscan.io/address/origingovernor.eth)     |
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Contract</th>
+      <th style="text-align:left">Address</th>
+      <th style="text-align:left">ENS</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">5 of 8 Multisig</td>
+      <td style="text-align:left"><a href="https://etherscan.io/address/0xe011fA2a6Df98c69383457d87a056Ed0103aA352">0xe011fA2a6Df98c69383457d87a056Ed0103aA352</a>
+      </td>
+      <td style="text-align:left"><a href="https://etherscan.io/address/originprotocol.eth">originprotocol.eth</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">2 of 9 Multisig</td>
+      <td style="text-align:left"><a href="https://etherscan.io/address/0xF14BBdf064E3F67f51cd9BD646aE3716aD938FDC">0xF14BBdf064E3F67f51cd9BD646aE3716aD938FDC</a>
+      </td>
+      <td style="text-align:left"><a href="https://etherscan.io/address/originstrategist.eth">originstrategist.eth</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Governor / Timelock</td>
+      <td style="text-align:left"><a href="https://etherscan.io/address/0x8e7bDFeCd1164C46ad51b58e49A611F954D23377">0x8e7bDFeCd1164C46ad51b58e49A611F954D23377</a>
+      </td>
+      <td style="text-align:left">
+        <p><a href="https://etherscan.io/address/origingovernor.eth">origingovernor.eth</a>
+        </p>
+        <p><a href="https://etherscan.io/address/origintimelock.eth">origintimelock.eth</a>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+  </tbody>
+</table>
 {% endtab %}
 
 {% tab title="Stablecoins" %}
