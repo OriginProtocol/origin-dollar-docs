@@ -20,9 +20,9 @@ OUSD è sviluppata on top di altre piattaforme DeFi, che aggiungono ulteriori ri
 
 **Rischi da Stablecoin**
 
-E' fondamentale capire che OUSD è tanto forte quanto le stablecoin che lo supportano, non di più. Any loss of value in to an underlying assets will cause a similar loss to the value of OUSD. While OUSD is designed to maintain a one to one relationship between supply and number of backing stablecoins, it does not guarantee which stablecoins will make up that backing.
+E' fondamentale capire che OUSD è tanto forte quanto le stablecoin che lo supportano, non di più. Any loss of value in to an underlying assets will cause a similar loss to the value of OUSD. While OUSD is designed to maintain a one to one relationship between supply and number of backing stablecoins, it does not guarantee which stablecoins will make up that backing, nor the value of those coins.
 
-E' importante notare che ogni stablecoin supportata introduce un rischio di controparte non banale. Tether, in particolare, ha avuto alcuni ben documentati problemi bancari e sfide normative. In aggiunta, sia USDT che USDC hanno delle backdoor che garantiscono ai loro emittenti il potere di congelare i fondi nei portafogli dei loro possessori. Sebbene DAI non abbia backdoor dirette di questo tipo, i suoi asset possono comunque subire impatti negativi poiché USDC è accettato come collaterale per coniare DAI.
+E' importante notare che ogni stablecoin supportata introduce un rischio di controparte non banale. Tether, in particolare, ha avuto alcuni ben documentati problemi bancari e sfide normative. In aggiunta, sia USDT che USDC hanno delle backdoor che garantiscono ai loro emittenti il potere di congelare i fondi nei portafogli dei loro possessori. While DAI does not have any direct backdoors, its assets can also be negatively impacted since USDC is accepted as collateral for minting DAI.
 
 _**In summary, OUSD is beta software. Use at your own risk. Do not deploy more capital than you are willing to lose.**_
 
