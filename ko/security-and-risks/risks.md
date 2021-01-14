@@ -20,9 +20,9 @@ OUSD는 스마트 컨트렉트 위험을 추가하는 다른 디파이(DeFi) 플
 
 **스테이블 코인 위험**
 
-OUSD는 이를 뒷받침하는 스테이블 코인 만큼 강하다는 점을 이해하는 것이 중요합니다. Any loss of value in to an underlying assets will cause a similar loss to the value of OUSD. While OUSD is designed to maintain a one to one relationship between supply and number of backing stablecoins, it does not guarantee which stablecoins will make up that backing.
+OUSD는 이를 뒷받침하는 스테이블 코인 만큼 강하다는 점을 이해하는 것이 중요합니다. Any loss of value in to an underlying assets will cause a similar loss to the value of OUSD. While OUSD is designed to maintain a one to one relationship between supply and number of backing stablecoins, it does not guarantee which stablecoins will make up that backing, nor the value of those coins.
 
-지원되는 각 스테이블 코인은 서로 다른 상대방에 대한 리스크를 유발한다는 점에 유의해야 합니다. 특히 테더(Tether) 는 잘 문서화된 은행 문제 및 규제 문제를 안고 있습니다. 또한 USDT와 USDC는 발행인이 보유자의 지갑에있는 돈을 동결(freeze) 할 수 있는 권한을 부여하는 백도어(backdoors) 기능이 있습니다. 다이(DAI) 에는 직접적인 백도어가 없지만 USDC가 다이 발행을 위한 담보로 허용되기 때문에 자산에 부정적인 영향을 미칠 수 있습니다.
+지원되는 각 스테이블 코인은 서로 다른 상대방에 대한 리스크를 유발한다는 점에 유의해야 합니다. 특히 테더(Tether) 는 잘 문서화된 은행 문제 및 규제 문제를 안고 있습니다. 또한 USDT와 USDC는 발행인이 보유자의 지갑에있는 돈을 동결(freeze) 할 수 있는 권한을 부여하는 백도어(backdoors) 기능이 있습니다. While DAI does not have any direct backdoors, its assets can also be negatively impacted since USDC is accepted as collateral for minting DAI.
 
 _**In summary, OUSD is beta software. Use at your own risk. Do not deploy more capital than you are willing to lose.**_
 
