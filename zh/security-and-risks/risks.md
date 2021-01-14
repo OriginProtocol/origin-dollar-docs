@@ -20,7 +20,7 @@ Our smart contracts have been [audited](audits.md) by multiple, well-respected s
 
 **稳定币风险**
 
-必须了解的是，OUSD 仅与支持它的稳定币一样强大。 底层资产的任何损失都将造成 OUSD 相似的损失。
+必须了解的是，OUSD 仅与支持它的稳定币一样强大。 Any loss of value in to an underlying assets will cause a similar loss to the value of OUSD. While OUSD is designed to maintain a one to one relationship between supply and number of backing stablecoins, it does not guarantee which stablecoins will make up that backing.
 
 值得注意的是，所有这些稳定币都会带来重要的交易对手风险。 尤其是 Tether 遇到了许多银行业麻烦和监管挑战。 此外，USDT 和 USDC 都有后门，可以让发行者有权冻结持有者钱包中的资金。 尽管 DAI 没有任何直接后门程序，但由于 USDC 可以作为铸造 DAI 的抵押品，因此 DAI 的资产也可能受到负面影响。
 
