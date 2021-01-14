@@ -20,7 +20,7 @@ OUSD se basa en otras plataformas DeFi que agregan un riesgo adicional de contra
 
 **Riesgos de la moneda estable**
 
-Es importante comprender que OUSD es tan fuerte como las monedas estables que lo respaldan. Cualquier pérdida de los activos subyacentes provocará una pérdida similar al valor de OUSD.
+Es importante comprender que OUSD es tan fuerte como las monedas estables que lo respaldan. Any loss of value in to an underlying assets will cause a similar loss to the value of OUSD. While OUSD is designed to maintain a one to one relationship between supply and number of backing stablecoins, it does not guarantee which stablecoins will make up that backing.
 
 Es importante tener en cuenta que cada una de las monedas estables admitidas presenta un riesgo de contraparte no trivial. Tether, en particular, ha tenido problemas bancarios y problemas regulatorios bien documentados. Además, tanto USDT como USDC tienen puertas traseras que otorgan a sus emisores el poder de congelar dinero en las billeteras de sus titulares. Si bien DAI no tiene puertas traseras directas, sus activos también pueden verse afectados negativamente ya que el USDC se acepta como garantía para acuñar DAI.
 
