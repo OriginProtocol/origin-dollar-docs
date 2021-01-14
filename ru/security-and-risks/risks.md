@@ -20,9 +20,9 @@ OUSD надстроен поверх других платформ DeFi, что 
 
 **Риски стейблкоина**
 
-Важно понимать, что OUSD настолько устойчив, насколько устойчивы стейблкоины, которые его обеспечивают. Any loss of value in to an underlying assets will cause a similar loss to the value of OUSD. While OUSD is designed to maintain a one to one relationship between supply and number of backing stablecoins, it does not guarantee which stablecoins will make up that backing.
+Важно понимать, что OUSD настолько устойчив, насколько устойчивы стейблкоины, которые его обеспечивают. Any loss of value in to an underlying assets will cause a similar loss to the value of OUSD. While OUSD is designed to maintain a one to one relationship between supply and number of backing stablecoins, it does not guarantee which stablecoins will make up that backing, nor the value of those coins.
 
-Важно отметить, что каждый из поддерживаемых стейблкоинов представляет собой нетривиальный риск для контрагента. У Tether, в частности, были хорошо задокументированные проблемы с банковской системой и нормативными требованиями. Кроме того, и в USDT, и в USDC есть лазейки, которые дают их эмитентам право замораживать деньги в кошельках их владельцев. Не смотря на то, что в DAI нет таких лазеек, на его активы также может возникнуть негативное влияние, поскольку USDC принимается в качестве обеспечения для добычи DAI.
+Важно отметить, что каждый из поддерживаемых стейблкоинов представляет собой нетривиальный риск для контрагента. У Tether, в частности, были хорошо задокументированные проблемы с банковской системой и нормативными требованиями. Кроме того, и в USDT, и в USDC есть лазейки, которые дают их эмитентам право замораживать деньги в кошельках их владельцев. While DAI does not have any direct backdoors, its assets can also be negatively impacted since USDC is accepted as collateral for minting DAI.
 
 _**In summary, OUSD is beta software. Use at your own risk. Do not deploy more capital than you are willing to lose.**_
 
