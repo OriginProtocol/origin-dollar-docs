@@ -20,7 +20,7 @@ OUSD is built on top of other DeFi platforms that add additional smart contract 
 
 **Stablecoin risks**
 
-It is important to understand that OUSD is only as strong as the stablecoins that are backing it. Any loss of value in to an underlying assets will cause a similar loss to the value of OUSD. While OUSD is designed to maintain a one to one relationship between supply and number of backing stablecoins, it does not guarantee which stablecoins will make up that backing.
+It is important to understand that OUSD is only as strong as the stablecoins that are backing it. Any loss of value in to an underlying assets will cause a similar loss to the value of OUSD. While OUSD is designed to maintain a one to one relationship between supply and number of backing stablecoins, it does not guarantee which stablecoins will make up that backing, nor the value of those coins.
 
 It is important to note that each of the supported stablecoins introduces non-trivial counter-party risk. Tether, in particular, has had well-documented banking troubles and regulatory challenges. In addition, both USDT and USDC have backdoors that grant their issuers the power to freeze money in their holder's wallets. While DAI does not have any direct backdoors, its assets can also be negatively impacted since USDC is accepted as collateral for minting DAI. 
 
