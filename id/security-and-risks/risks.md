@@ -20,7 +20,7 @@ OUSD dibangun di atas platform DeFi lain yang menambah risiko kontrak pintar tam
 
 **Risiko Stablecoin**
 
-Penting untuk dipahami bahwa OUSD hanya sekuat stablecoin yang mendukungnya. Setiap kerugian aset yang mendasarinya akan menyebabkan kerugian yang serupa dengan nilai OUSD.
+Penting untuk dipahami bahwa OUSD hanya sekuat stablecoin yang mendukungnya. Any loss of value in to an underlying assets will cause a similar loss to the value of OUSD. While OUSD is designed to maintain a one to one relationship between supply and number of backing stablecoins, it does not guarantee which stablecoins will make up that backing.
 
 Penting untuk dicatat bahwa setiap stablecoin yang didukung ini menimbulkan risiko pihak lawan yang tidak sepele. Tether, khususnya, memiliki masalah perbankan yang terdokumentasi dengan baik dan tantangan regulasi. Selain itu, baik USDT dan USDC memiliki pintu belakang yang memberikan kuasa kepada penerbitnya untuk membekukan uang di dompet pemegangnya. Meskipun DAI tidak memiliki pintu belakang langsung, asetnya juga dapat terkena dampak negatif karena USDC diterima sebagai jaminan untuk pembuatan DAI.
 
