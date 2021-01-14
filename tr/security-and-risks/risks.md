@@ -20,7 +20,7 @@ OUSD, ek akıllı sözleşme riski ekleyen diğer DeFi platformlarının üzerin
 
 **Stablecoin riskleri**
 
-OUSD'nin yalnızca onu destekleyen stabilcoinler kadar güçlü olduğunu anlamak önemlidir. Dayanak varlıklardaki herhangi bir kayıp, OUSD değerinde benzer bir kayba neden olacaktır.
+OUSD'nin yalnızca onu destekleyen stabilcoinler kadar güçlü olduğunu anlamak önemlidir. Any loss of value in to an underlying assets will cause a similar loss to the value of OUSD. While OUSD is designed to maintain a one to one relationship between supply and number of backing stablecoins, it does not guarantee which stablecoins will make up that backing.
 
 Tüm bu stablecoin'lerin önemsiz olmayan karşı taraf riski oluşturduğuna dikkat etmek önemlidir. Özellikle Tether, iyi belgelenmiş bankacılık sorunları ve yasal zorluklar yaşadı. Ek olarak, hem USDT hem de USDC, ihraççılarına sahiplerinin cüzdanlarında para dondurma yetkisi veren arka kapılara sahiptir. DAI'nin herhangi bir doğrudan arka kapısı bulunmamakla birlikte, USDC'nin DAI basımı için teminat olarak kabul edilmesi nedeniyle varlıkları da olumsuz etkilenebilir.
 
