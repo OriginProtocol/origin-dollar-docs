@@ -20,9 +20,9 @@ OUSD se basa en otras plataformas DeFi que agregan un riesgo adicional de contra
 
 **Riesgos de la moneda estable**
 
-Es importante comprender que OUSD es tan fuerte como las monedas estables que lo respaldan. Any loss of value in to an underlying assets will cause a similar loss to the value of OUSD. While OUSD is designed to maintain a one to one relationship between supply and number of backing stablecoins, it does not guarantee which stablecoins will make up that backing.
+Es importante comprender que OUSD es tan fuerte como las monedas estables que lo respaldan. Any loss of value in to an underlying assets will cause a similar loss to the value of OUSD. While OUSD is designed to maintain a one to one relationship between supply and number of backing stablecoins, it does not guarantee which stablecoins will make up that backing, nor the value of those coins.
 
-Es importante tener en cuenta que cada una de las monedas estables admitidas presenta un riesgo de contraparte no trivial. Tether, en particular, ha tenido problemas bancarios y problemas regulatorios bien documentados. Además, tanto USDT como USDC tienen puertas traseras que otorgan a sus emisores el poder de congelar dinero en las billeteras de sus titulares. Si bien DAI no tiene puertas traseras directas, sus activos también pueden verse afectados negativamente ya que el USDC se acepta como garantía para acuñar DAI.
+Es importante tener en cuenta que cada una de las monedas estables admitidas presenta un riesgo de contraparte no trivial. Tether, en particular, ha tenido problemas bancarios y problemas regulatorios bien documentados. Además, tanto USDT como USDC tienen puertas traseras que otorgan a sus emisores el poder de congelar dinero en las billeteras de sus titulares. While DAI does not have any direct backdoors, its assets can also be negatively impacted since USDC is accepted as collateral for minting DAI.
 
 _**In summary, OUSD is beta software. Use at your own risk. Do not deploy more capital than you are willing to lose.**_
 
