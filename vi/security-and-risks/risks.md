@@ -20,7 +20,7 @@ OUSD được xây dựng dựa trên các nền tảng DeFi khác làm tăng th
 
 **Rủi ro của stablecoin**
 
-Điều quan trọng cần lưu ý là OUSD chỉ mạnh ngang các đồng stablecoin đang hỗ trợ nó. Bất kỳ tổn thất nào đối với các tài sản cơ bản (tài sản hỗ trợ) sẽ gây ra tổn thất tương tự đối với giá trị của OUSD.
+Điều quan trọng cần lưu ý là OUSD chỉ mạnh ngang các đồng stablecoin đang hỗ trợ nó. Any loss of value in to an underlying assets will cause a similar loss to the value of OUSD. While OUSD is designed to maintain a one to one relationship between supply and number of backing stablecoins, it does not guarantee which stablecoins will make up that backing.
 
 Điều quan trọng cần lưu ý là tất cả các stablecoin này tiềm ẩn các rủi ro tuy không đang kể đối với các bên liên quan. Đơn cử như Tether đã từng gặp phải răng rối liên quan đến thủ tục ngân hàng và đối mặt với không ít thách thức về việc tuân thủ quy định. Ngoài ra, cả USDT và USDC đều có "cửa sau" cho phép nhà phát hành có quyền đóng băng tiền trong ví của chủ sở hữu. Mặc dù DAI không có tính năng đóng băng như USDT và USDC, nhưng tài sản của nó cũng có thể bị ảnh hưởng tiêu cực bởi 2 đồng trên vì USDC được chấp nhận làm tài sản thế chấp để khai thác DAI.
 
