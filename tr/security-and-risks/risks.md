@@ -20,9 +20,9 @@ OUSD, ek akıllı sözleşme riski ekleyen diğer DeFi platformlarının üzerin
 
 **Stablecoin riskleri**
 
-OUSD'nin yalnızca onu destekleyen stabilcoinler kadar güçlü olduğunu anlamak önemlidir. Any loss of value in to an underlying assets will cause a similar loss to the value of OUSD. While OUSD is designed to maintain a one to one relationship between supply and number of backing stablecoins, it does not guarantee which stablecoins will make up that backing.
+OUSD'nin yalnızca onu destekleyen stabilcoinler kadar güçlü olduğunu anlamak önemlidir. Any loss of value in to an underlying assets will cause a similar loss to the value of OUSD. While OUSD is designed to maintain a one to one relationship between supply and number of backing stablecoins, it does not guarantee which stablecoins will make up that backing, nor the value of those coins.
 
-Tüm bu stablecoin'lerin önemsiz olmayan karşı taraf riski oluşturduğuna dikkat etmek önemlidir. Özellikle Tether, iyi belgelenmiş bankacılık sorunları ve yasal zorluklar yaşadı. Ek olarak, hem USDT hem de USDC, ihraççılarına sahiplerinin cüzdanlarında para dondurma yetkisi veren arka kapılara sahiptir. DAI'nin herhangi bir doğrudan arka kapısı bulunmamakla birlikte, USDC'nin DAI basımı için teminat olarak kabul edilmesi nedeniyle varlıkları da olumsuz etkilenebilir.
+Tüm bu stablecoin'lerin önemsiz olmayan karşı taraf riski oluşturduğuna dikkat etmek önemlidir. Özellikle Tether, iyi belgelenmiş bankacılık sorunları ve yasal zorluklar yaşadı. Ek olarak, hem USDT hem de USDC, ihraççılarına sahiplerinin cüzdanlarında para dondurma yetkisi veren arka kapılara sahiptir. While DAI does not have any direct backdoors, its assets can also be negatively impacted since USDC is accepted as collateral for minting DAI.
 
 _**In summary, OUSD is beta software. Use at your own risk. Do not deploy more capital than you are willing to lose.**_
 
