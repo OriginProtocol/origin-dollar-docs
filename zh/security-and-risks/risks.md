@@ -4,23 +4,23 @@
 Use at your own risk. Do not deploy more capital than you are willing to lose.
 {% endhint %}
 
-与任何计息工具一样, 持有 OUSD 也有相关的风险。 这些风险可以大致分为3类：
+As with any yield-generating DeFi product, there are associated risks with holding OUSD that are important to understand. These risks can be broadly classified into 3 categories:
 
-* 智能合约风险
-* 底层平台风险
+* OUSD smart contract risk
+* Underlying third-party platform risk
 * 底层稳定币风险
 
-**智能合约风险**
+**OUSD smart contract risk**
 
-Our smart contracts have been [audited](audits.md) by multiple, well-respected security firms. However, it is important to note that even with formal audits, it is still possible for there to be logic errors that could lead to the loss of funds for OUSD holders. The contracts involve complex math and logic that may or may not be correct. Origin Protocol will not be held responsible for any loss of funds, regardless of who is at fault.
+Our smart contracts have been [audited](audits.md) by multiple, well-respected security firms. However, it is important to note that even with formal audits, it is still possible for there to be logic errors that could lead to the loss of funds for OUSD holders. The contracts involve complex math and logic. While we have taken every precaution to ensure the safety and security of our smart contracts, users are reminded to use at their own risk. Origin Protocol will not be held responsible for any loss of funds, regardless of who is at fault.
 
-**平台风险**
+**Third-party platform risk**
 
-因为 OUSD 是建立在其他 DeFi 平台之上，因此这些平台会增加额外的智能合约风险。 我们选择与管理着数亿美元资产并已努力确保其协议的正确性的平台合作。 但是，我们不能保证基础平台将继续按预期运行。基础策略的任何故障或问题都很可能导致 OUSD 持有者损失资金。
+OUSD is built on top of other DeFi platforms like Aave, Compound, and Curve that add additional smart contract risk. We are choosing to work with platforms that have hundreds of millions of dollars of assets under management and have made a reasonable efforts to ensure the security of their protocols. However, there are no guarantees that the underlying third-party platforms will continue to work as intended, and any failure in an underlying strategy would potentially lead to a loss of funds for OUSD holders.
 
 **稳定币风险**
 
-必须了解的是，OUSD 仅与支持它的稳定币一样强大。 Any loss of value in to an underlying assets will cause a similar loss to the value of OUSD. While OUSD is designed to maintain a one to one relationship between supply and number of backing stablecoins, it does not guarantee which stablecoins will make up that backing, nor the value of those coins.
+必须了解的是，OUSD 仅与支持它的稳定币一样强大。 Any loss of value in to an underlying stablecoin asset will cause a similar loss to the value of OUSD. While OUSD is designed to maintain a one to one relationship between supply and number of backing stablecoins, it does not guarantee which stablecoins will make up that backing nor the value of those coins.
 
 值得注意的是，所有这些稳定币都会带来重要的交易对手风险。 尤其是 Tether 遇到了许多银行业麻烦和监管挑战。 此外，USDT 和 USDC 都有后门，可以让发行者有权冻结持有者钱包中的资金。 While DAI does not have any direct backdoors, its assets can also be negatively impacted since USDC is accepted as collateral for minting DAI.
 
@@ -28,13 +28,13 @@ _**In summary, OUSD is beta software. Use at your own risk. Do not deploy more c
 
 **Risk Mitigation**
 
-We are actively working with multiple DeFi insurance providers and will soon be announcing our initial coverage plans to further secure the protocol. Despite our plan to offer insurance coverage and our recent [audits](audits.md), we have taken extensive measures to improve our internal processes so that we do everything possible to avoid an exploit.
+We are actively working with multiple DeFi insurance providers and will soon be announcing our initial coverage plans to further secure the protocol. In addition to our plan to offer insurance coverage and our recent [audits](audits.md), we have taken extensive measures to improve our internal processes so that we do everything possible to avoid an exploit.
 
 We have retained [Certora](https://www.certora.com/) to begin formally verifying the various security properties of our contracts. They will help us establish automated verifications that will run anytime we update our contract code. We now also have automated checking for common errors with [Slither](https://github.com/crytic/slither) and [Echidna](https://github.com/crytic/echidna) tests. Together, these alert our team to common security issues in addition to our own test suite.
 
 Code reviews involving our smart contracts are now more rigorous than before. We require two engineers to review each change with a detailed checklist and we prioritize this over new feature development.
 
-Finally, we have formalized an engineering [rotation](https://github.com/OriginProtocol/security/blob/master/incidents/ROTATION.md) for reviewing [attacks on other projects](https://github.com/OriginProtocol/security/tree/master/incidents) as well as ensuring we deep dive into each of these reviews, including reviewing the affected contract’s source code ourselves.
+Finally, we have formalized an engineering [rotation](https://github.com/OriginProtocol/security/blob/master/incidents/ROTATION.md) for reviewing [attacks on other projects](https://github.com/OriginProtocol/security/tree/master/incidents) as well as ensuring we deep dive into each of these reviews, including reviewing the affected contracts' source code ourselves.
 
 
 
