@@ -134,6 +134,12 @@ Internal implementation contracts:
 |:----------- |:--------------------------------------------------------------------------------------------------------------------- |
 | OGN Staking | [0x8cd68a1e0b79150455c5498882d5d5d3df2dde08](https://etherscan.io/address/0x8cd68a1e0b79150455c5498882d5d5d3df2dde08) |
 {% endtab %}
+
+{% tab title="Compensation" %}
+| Contract          | Address                                                                                                               |
+|:----------------- |:--------------------------------------------------------------------------------------------------------------------- |
+| OUSD Compensation | [0x9C94df9d594BA1eb94430C006c269C314B1A8281](https://etherscan.io/address/0x9C94df9d594BA1eb94430C006c269C314B1A8281) |
+{% endtab %}
 {% endtabs %}
 
 
