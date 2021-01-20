@@ -2,21 +2,21 @@
 
 ![](../../.gitbook/assets/image%20%281%29.png)
 
-Tether （USDT）是以法定货币挂钩的稳定币，最初是通过 Omni Layer Protocol 在比特币之上构建的。  2017年9月，Tether 宣布他们将在以太坊区块链上推出更多美元的ERC-20代币。
+Tether \(USDT\) is a fiat-pegged stablecoin that was initially built on top of Bitcoin via the Omni Layer Protocol.  In September 2017, Tether announced they would be launching additional ERC-20 tokens for United States dollars on the Ethereum blockchain.
 
-据说发行的每个 Tether 都具有一对一的支持，由 Tether Limited（一家与加密货币交易所 Bitfinex 有密切联系的公司）在托管账户中持有法定货币的等值金额。
+Each Tether issued into circulation is said to be backed by a one-to-one ratio with the equivalent amount of fiat currency held in a custodial account by Tether Limited, a Hong Kong-based company with close ties to the cryptocurrency exchange, Bitfinex.
 
-尽管围绕该公司未能提供承诺的审计结果来证明有足够的储备支持tether存在着争议，但按市值计算，USDT仍然是世界上最大的稳定币，目前也是仅次于 BTC，ETH 和 XRP 的第四大加密货币。
+Despite the controversy ****around ****the company's failure to provide a promised audit showing adequate reserves backing tether, USDT is still the world's largest stablecoin by market cap and currently the fourth-largest cryptocurrency after BTC, ETH and XRP.
 
-| 关键信息 |                                                                                                                  |
-|:---- |:---------------------------------------------------------------------------------------------------------------- |
-| 发行者  | Tether Limited                                                                                                   |
-| 名字   | Tether                                                                                                           |
-| 符号   | USDT                                                                                                             |
-| 地址   | [0xdac17f958d2ee523a2206206994597c13d831](https://etherscan.io/token/0xdac17f958d2ee523a2206206994597c13d831ec7) |
-| 小数点  | 6                                                                                                                |
-| 官方网站 | [https://tether.to/ ](https://tether.to/%20)                                                                     |
-| 持有者  | 超过180万个地址                                                                                                        |
+| Key Facts     |                                                                                                                  |
+|:------------- |:---------------------------------------------------------------------------------------------------------------- |
+| Issued by     | Tether Limited                                                                                                   |
+| Name          | Tether                                                                                                           |
+| Symbol        | USDT                                                                                                             |
+| Address       | [0xdac17f958d2ee523a2206206994597c13d831](https://etherscan.io/token/0xdac17f958d2ee523a2206206994597c13d831ec7) |
+| Decimals      | 6                                                                                                                |
+| Official site | [https://tether.to/ ](https://tether.to/%20)                                                                     |
+| Holders       | Over 1.8M addresses                                                                                              |
 
 
 
