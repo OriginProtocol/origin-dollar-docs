@@ -19,13 +19,13 @@ Origin Dollar için ana ERC20 adresi \(OUSD\):
 
 Internal implementation contracts. The Vault is split into VaultAdmin and VaultCore to work-around the maximum contract size limit on Ethereum:
 
-| Kontrakt         | Adres                                                                                                                      |
-|:---------------- |:-------------------------------------------------------------------------------------------------------------------------- |
-| OUSD             | [0x8e54f5776ac2d0322d94640e070856a04e446656](https://etherscan.io/address/0x8e54f5776ac2d0322d94640e070856a04e446656#code) |
-| VaultAdmin       | [0x84fB09fCb6fc5cc0DBA13FE5CF87A613e34a386a](https://etherscan.io/address/0x84fb09fcb6fc5cc0dba13fe5cf87a613e34a386a)      |
-| VaultCore        | [0xE54f14FC3fBc5915D070DE4758bcF591541BD1c3](https://etherscan.io/address/0xe54f14fc3fbc5915d070de4758bcf591541bd1c3)      |
-| Mix Oracle       | [0x843530DC8005e13dEA30CEa2394FF60635f38cc4](https://etherscan.io/address/0x843530DC8005e13dEA30CEa2394FF60635f38cc4)      |
-| Chainlink Oracle | [0x017aD99900b9581Cd40C815990890EE9F0858246](https://etherscan.io/address/0x017aD99900b9581Cd40C815990890EE9F0858246)      |
+| Kontrakt         | Adres                                                                                                                 |
+|:---------------- |:--------------------------------------------------------------------------------------------------------------------- |
+| OUSD             | [0x9d6975591E777D95Eef3bCC2a727846DA25d7083](https://etherscan.io/address/0x9d6975591E777D95Eef3bCC2a727846DA25d7083) |
+| VaultAdmin       | [0x8F245d566f886662921e0Ff76ddF43695639D999](https://etherscan.io/address/0x8F245d566f886662921e0Ff76ddF43695639D999) |
+| VaultCore        | [0xE54f14FC3fBc5915D070DE4758bcF591541BD1c3](https://etherscan.io/address/0xe54f14fc3fbc5915d070de4758bcf591541bd1c3) |
+| Mix Oracle       | [0x843530DC8005e13dEA30CEa2394FF60635f38cc4](https://etherscan.io/address/0x843530DC8005e13dEA30CEa2394FF60635f38cc4) |
+| Chainlink Oracle | [0x017aD99900b9581Cd40C815990890EE9F0858246](https://etherscan.io/address/0x017aD99900b9581Cd40C815990890EE9F0858246) |
 {% endtab %}
 
 {% tab title="Strategies" %}
@@ -41,7 +41,7 @@ Internal implementation contracts:
 | Strategy | Address                                                                                                               |
 |:-------- |:--------------------------------------------------------------------------------------------------------------------- |
 | Aave     | [0xA4144d814F03a2Bb0429CcB89a77Cd3703658B61](https://etherscan.io/address/0xA4144d814F03a2Bb0429CcB89a77Cd3703658B61) |
-| Compound | [0x543eDE303EC0Dd9023208d1738681b4cB65256DF](https://etherscan.io/address/0x543eDE303EC0Dd9023208d1738681b4cB65256DF) |
+| Compound | [0x36abc8fe8e20Bc4637EdA83B5AD9810e9e54Bf13](https://etherscan.io/address/0x36abc8fe8e20Bc4637EdA83B5AD9810e9e54Bf13) |
 {% endtab %}
 
 {% tab title="Oracles" %}
