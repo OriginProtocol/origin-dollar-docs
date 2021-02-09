@@ -1,18 +1,18 @@
 # Риски
 
 {% hint style="danger" %}
-Use at your own risk. Do not deploy more capital than you are willing to lose.
+Используйте на свой риск. Не вкладывайте больше капитала, чем вы готовы потерять.
 {% endhint %}
 
-As with any yield-generating DeFi product, there are associated risks with holding OUSD that are important to understand. These risks can be broadly classified into 3 categories:
+Как и в случае с любым продуктом DeFi, приносящим доход, с удержанием OUSD связаны риски, которые важно понимать. Эти риски можно условно разделить на 3 категории:
 
-* OUSD smart contract risk
-* Underlying third-party platform risk
+* Риск смарт-контракта OUSD
+* Риск базовой сторонней платформы
 * Риск базового стейблкоина
 
-**OUSD smart contract risk**
+**Риск смарт-контракта OUSD**
 
-Our smart contracts have been [audited](audits.md) by multiple, well-respected security firms. However, it is important to note that even with formal audits, it is still possible for there to be logic errors that could lead to the loss of funds for OUSD holders. The contracts involve complex math and logic. While we have taken every precaution to ensure the safety and security of our smart contracts, users are reminded to use at their own risk. Origin Protocol will not be held responsible for any loss of funds, regardless of who is at fault.
+Наши смарт-контракты [прошли аудиты](audits.md) во множестве уважаемых компаний по безопасности. However, it is important to note that even with formal audits, it is still possible for there to be logic errors that could lead to the loss of funds for OUSD holders. The contracts involve complex math and logic. While we have taken every precaution to ensure the safety and security of our smart contracts, users are reminded to use at their own risk. Origin Protocol will not be held responsible for any loss of funds, regardless of who is at fault.
 
 **Third-party platform risk**
 
