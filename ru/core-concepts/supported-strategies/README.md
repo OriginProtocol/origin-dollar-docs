@@ -12,7 +12,7 @@ OUSD генерирует доход за счет размещения стей
 
 {% page-ref page="aave.md" %}
 
-Integrations are currently planned or being built for the following platforms:
+В настоящее время планируются или разрабатываются интеграции для следующих платформ:
 
 {% page-ref page="dydx.md" %}
 
