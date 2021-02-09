@@ -112,9 +112,9 @@ In order to mint and redeem the appropriate number of OUSD on entry and exit, th
 OUSD fetches the price from multiple on-chain oracles and uses the exchange rate that is most advantageous for the vault when minting or redeeming.
 {% endhint %}
 
-In order to prevent malicious attacks and to encourage long-term investors over short-term speculators, the OUSD contract compares price feeds from multiple sources and will use whichever exchange rate benefits the entire vault over the individual. This mechanism protects the vault funds from arbitrageurs and prevents any individual from being able to take advantage of any temporary inefficiencies caused by mispriced oracles to deplete the shared pool of assets.
+Чтобы предотвратить злонамеренные атаки и больше поощрять долгосрочных инвесторов, чем краткосрочных спекулянтов, контракт OUSD сравнивает потоки цен из нескольких источников и использует тот обменный курс, который выгоден для всего хранилища, а не для отдельных лиц. Этот механизм защищает средства, находящиеся в хранилище, от арбитражеров и никому не позволяет воспользоваться любой временной неэффективностью, вызванной ошибкой оракулов, для истощения общего пула активов.
 
-This protects the funds in the vault while rewarding long-term holders. Since the safest price depends on the direction of the trade, the Origin oracle exposes both a `priceUSDMint()` and a `priceUSDRedeem()`.
+Это защищает средства в хранилище и поощряет долгосрочных держателей. Since the safest price depends on the direction of the trade, the Origin oracle exposes both a `priceUSDMint()` and a `priceUSDRedeem()`.
 
 Here is the initial set of oracles that are being used by OUSD:
 
