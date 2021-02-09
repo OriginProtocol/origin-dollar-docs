@@ -116,13 +116,13 @@ OUSD получает цену от нескольких оракулов в с�
 
 Это защищает средства в хранилище и поощряет долгосрочных держателей. Поскольку самая безопасная цена зависит от направления сделки, оракул Origin предоставляет как `priceUSDMint()`, так и `priceUSDRedeem()`.
 
-Here is the initial set of oracles that are being used by OUSD:
+OUSD изначально использует следующий набор оракулов:
 
 {% embed url="https://compound.finance/docs/prices" caption="" %}
 
 {% embed url="https://feeds.chain.link/eth-usd" caption="" %}
 
-The following oracles have been implemented, but are not currently being used due to gas costs:
+Следующие оракулы были реализованы, но в настоящее время не используются из-за больших затрат на газ:
 
 {% embed url="https://uniswap.org/docs/v2/core-concepts/oracles/" caption="" %}
 
