@@ -1,12 +1,12 @@
 # Перераспределение & Смарт-Контракты
 
-If you are using a multi-sig wallet or another smart contract that wishes to participate in the rebasing aspect of OUSD you must call OUSD’s`rebaseOptIn()` function. This only applies to smart contracts as standard EOA wallets are enrolled automatically.
+Если Вы используете кошелек с мульти-подписями или другой смарт-контракт для участия в перераспределении OUSD, Вы должны вызвать функцию OUSD `rebaseOptIn()`. Это относится только к смарт-контрактам, так как стандартные кошельки EOA регистрируются автоматически.
 
 {% hint style="info" %}
-Multi-sig wallets or other smart contracts must call`rebaseOptIn()`to earn yield.
+Кошельки с мульти-подписями или другие смарт-контракты должны вызвать функцию `rebaseOptIn()` чтобы получать доход.
 {% endhint %}
 
-One of the challenges with rebasing currencies like OUSD is that they don’t work very well with automated market makers \(AMM’s\) like Uniswap or Balancer. These decentralized exchanges rely on supply and demand to determine the price of the assets being traded. It messes up the math when the amount of OUSD held by the contract changes unexpectedly due to new yield being generated.
+Одна из проблем с перераспределением таких валют, как OUSD, заключается в том, что они не очень хорошо работают с автоматическими маркет-мейкерами (AMM) как, например, Uniswap или Balancer. Эти децентрализованные биржи полагаются на спрос и предложение для определения цены торгуемых активов. Это разлаживает математику, когда сумма OUSD, удерживаемая контрактом, неожиданно изменяется из-за генерирования новой доходности.
 
 We previously added a [bandaid](https://medium.com/originprotocol/upgrades-to-the-ousd-smart-contracts-deliver-higher-yield-and-better-uniswap-support-aa592e51d3f2) that called Uniswap’s `sync()` function every time a `rebase()` was triggered on OUSD’s contracts. While this prevented users from seeing an ugly error message when they tried to trade OUSD on Uniswap, it still introduced loss into the system. After calling sync, Uniswap detects that there is more OUSD than USDT in the vault, which incorrectly pushes down the price of OUSD relative to USDT. While we can count on arbitrageurs to correct the price, it’s better if we can avoid this loss altogether. Given the ever-growing number of competitive AMM’s and forks of Uniswap, it would quickly become infeasible, not to mention gas-expensive, to try and special-case all of them.
 
