@@ -1,4 +1,4 @@
-# Rebasing & Smart Contracts
+# Перераспределение & Смарт-Контракты
 
 If you are using a multi-sig wallet or another smart contract that wishes to participate in the rebasing aspect of OUSD you must call OUSD’s`rebaseOptIn()` function. This only applies to smart contracts as standard EOA wallets are enrolled automatically.
 
