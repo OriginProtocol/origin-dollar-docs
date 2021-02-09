@@ -10,7 +10,7 @@
 
 Некоторые функции, такие как перераспределение средств между стратегиями или приостановка депозитов, могут быть запущены без временной блокировки и с гораздо меньшим количеством подписей. Это позволяет команде Origin быстрее реагировать на рыночные условия или угрозы безопасности. Эти подписывающие стороны, известные как Стратеги, имеют возможность выполнять ограниченное количество функций __ только с 2 из 9 подписей.
 
-Having these admin privileges is necessary in the early days to ensure that the protocol is secure and optimized for earning yields while minimizing risks. We expect to release multiple iterations of our smart contracts in the first several months of the protocol's existence.
+На первых порах необходимо иметь эти права администратора, чтобы гарантировать безопасность протокола и его оптимизацию для получения прибыли при условии минимизации рисков. Мы собираемся выпустить несколько итераций наших смарт-контрактов в первые несколько месяцев существования протокола.
 
-Once several upgrade cycles have been completed, we intend to transfer ownership from our company control to a decentralized governance contract, thereby allowing the community to vote and participate in future protocol updates.
+После завершения нескольких циклов обновления мы намерены передать право собственности от нашей компании к контракту децентрализованного управления, что позволит сообществу голосовать и принимать участие в будущих обновлениях протокола.
 
