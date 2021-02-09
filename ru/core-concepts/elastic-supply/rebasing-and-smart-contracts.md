@@ -16,7 +16,7 @@
 Если Вы развертываете контракт и собираетесь вызвать`rebaseOptIn()`, чтобы получить доход, вы не можете вызвать его из конструктора контрактов. Контракт должен быть развернут, прежде чем его можно будет вызвать.
 {% endhint %}
 
-Если Вы используете кошелек с мульти-подписями, например [Gnosis Wallet](https://github.com/gnosis/MultiSigWallet) или [Gnosis Safe](https://gnosis-safe.io/), Вам понадобится [адрес контракта прокси для OUSD](../../smart-contracts/registry.md) и соответствующий [ABI](https://api.etherscan.io/api?module=contract&action=getabi&address=0x1ae95dd4eeae7ed03da79856c2d44ffa3318f805). Once you add those, you will be able to call the `rebaseOptIn()` function to opt into receiving yield via rebasing or`rebaseOptOut()` to turn it off again.
+Если Вы используете кошелек с мульти-подписями, например [Gnosis Wallet](https://github.com/gnosis/MultiSigWallet) или [Gnosis Safe](https://gnosis-safe.io/), Вам понадобится [адрес контракта прокси для OUSD](../../smart-contracts/registry.md) и соответствующий [ABI](https://api.etherscan.io/api?module=contract&action=getabi&address=0x1ae95dd4eeae7ed03da79856c2d44ffa3318f805). Как только Вы их добавите, получите возможность вызвать функцию `rebaseOptIn()` чтобы выбрать получение заработка через перераспределение, или `rebaseOptOut()` чтобы снова ее отключить.
 
 
 
