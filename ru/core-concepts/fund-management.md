@@ -1,8 +1,8 @@
-# Fund Management
+# Управление средствами
 
-The OUSD smart contract aggregates all users' stablecoin deposits into a single pool of investable assets. Funds are then allocated across one or more ****earning strategies at any given moment in time. The Vault favors high-yield strategies but also seeks to maintain diversification across multiple strategies. Diversification removes single points of failures and mitigates risks.
+Смарт-контракт OUSD объединяет все задепонированные стейблкоины пользователей в единый пул инвестиционных активов. Затем средства распределяются по одной или нескольким стратегиям получения прибыли**** в любой момент времени. Vault отдает предпочтение высокодоходным стратегиям, но также стремится поддерживать диверсификацию по нескольким стратегиям. Диверсификация устраняет единые точки сбоя и снижает риски.
 
-In contrast to Yearn Vaults, TokenSets, or Zapper opportunities, users do not select individual strategies. All deposited stablecoins and consequently all OUSD tokens are fungible.
+В отличие от Yearn Vaults, TokenSets или Zapper, пользователи не выбирают индивидуальные стратегии. All deposited stablecoins and consequently all OUSD tokens are fungible.
 
 **Earning Strategies**
 
