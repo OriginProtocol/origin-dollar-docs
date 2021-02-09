@@ -4,15 +4,15 @@
 
 OUSD прошел аудит в нескольких уважаемых компаниях по безопасности. Мы работали как с [Trail of Bits](https://www.trailofbits.com/) и с [Solidified](https://solidified.io/) чтобы проверить весь код, который обеспечивает функционирование Origin Dollar. Их выводы доступны ниже:
 
-* [Trail of Bits, OUSD Audit, December 2020](https://github.com/OriginProtocol/security/blob/master/audits/Trail%20of%20Bits%20-%20Origin%20Dollar%20-%20Dec%202020.pdf)
-* [Solidified, OUSD Audit, December 2020](https://github.com/OriginProtocol/security/blob/master/audits/Solidified%20-%20Origin%20Dollar%20-%20Dec%202020.pdf)
-* [Solidified, OGN Staking Audit, December 2020](https://github.com/OriginProtocol/security/blob/master/audits/Solidified%20-%20OGN%20Staking%20-%20Dec%202020.pdf)
+* [Trail of Bits, аудит OUSD, декабрь 2020 г](https://github.com/OriginProtocol/security/blob/master/audits/Trail%20of%20Bits%20-%20Origin%20Dollar%20-%20Dec%202020.pdf)
+* [Solidified, аудит OUSD, декабрь 2020г](https://github.com/OriginProtocol/security/blob/master/audits/Solidified%20-%20Origin%20Dollar%20-%20Dec%202020.pdf)
+* [Solidified, аудит стейкинга OGN, декабрь 2020 г](https://github.com/OriginProtocol/security/blob/master/audits/Solidified%20-%20OGN%20Staking%20-%20Dec%202020.pdf)
 
-The governance token, Origin Token \(OGN\), was also audited by Trail of Bits in 2018:
+Токен управления, Origin Token \(OGN\), также был проаудирован компанией Trail of Bits в 2018 году:
 
-* [Trail of Bits, OGN Audit, November 2018](https://github.com/OriginProtocol/security/blob/master/audits/Trail%20of%20Bits%20-%20Origin%20Marketplace%20and%20OGN%20Token%20-%20Nov%202018.pdf)
+* [Trail of Bits, аудит OGN, ноябрь 2018 г](https://github.com/OriginProtocol/security/blob/master/audits/Trail%20of%20Bits%20-%20Origin%20Marketplace%20and%20OGN%20Token%20-%20Nov%202018.pdf)
 
-In addition, the underlying strategies and dependencies that OUSD utilizes have been thoroughly audited by various firms.
+Кроме того, основные стратегии и зависимости, которые использует OUSD, были тщательно проверены различными компаниями.
 
 {% hint style="info" %}
 OUSD only integrates strategies that have been carefully audited and battle-tested with significant capital over an extended period of time.
