@@ -8,7 +8,7 @@
 ## Основные концепции
 
 * [Гибкое предложение](core-concepts/elastic-supply/README.md)
-  * [Rebasing & Smart Contracts](core-concepts/elastic-supply/rebasing-and-smart-contracts.md)
+  * [Перераспределение & Смарт-Контракты](core-concepts/elastic-supply/rebasing-and-smart-contracts.md)
 * [Генерирование дохода](core-concepts/yield-generation/README.md)
   * [Кредитование](core-concepts/yield-generation/lending.md)
   * [Поддержание котировок на рынке](core-concepts/yield-generation/market-making.md)
@@ -32,8 +32,8 @@
 
 * [Принципы](governance/principles.md)
 * [Права администратора](governance/admin-privileges.md)
-* [OGN Staking](governance/ogn-staking.md)
-* [Contributing](governance/contributing.md)
+* [Стейкинг токенов OGN](governance/ogn-staking.md)
+* [Сотрудничество](governance/contributing.md)
 
 ## Смарт-контракты
 
@@ -50,8 +50,8 @@
 
 * [Риски](security-and-risks/risks.md)
 * [Аудиты](security-and-risks/audits.md)
-* [Insurance](security-and-risks/insurance.md)
-* [Bug Bounties](security-and-risks/bug-bounties.md)
+* [Страхование](security-and-risks/insurance.md)
+* [Вознаграждения за поиск ошибок](security-and-risks/bug-bounties.md)
 
 ## Ссылки
 
