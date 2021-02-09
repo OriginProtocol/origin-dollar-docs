@@ -126,7 +126,7 @@ OUSD изначально использует следующий набор о�
 
 {% embed url="https://uniswap.org/docs/v2/core-concepts/oracles/" caption="" %}
 
-The specific smart contract address for each oracle being used are listed on our [registry](../smart-contracts/registry.md) page.
+Конкретный адрес смарт-контракта для каждого используемого оракула указан на нашей странице [реестра](../smart-contracts/registry.md).
 
-It is possible that additional oracles will be added to the protocol over time. Support may also be removed if any of these oracles become unreliable.
+Возможно, что со временем в протокол будут добавлены дополнительные оракулы. Поддержка также может быть удалена, если какой-либо из этих оракулов станет ненадежным.
 
