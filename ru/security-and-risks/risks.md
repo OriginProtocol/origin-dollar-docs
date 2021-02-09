@@ -12,23 +12,23 @@
 
 **Риск смарт-контракта OUSD**
 
-Наши смарт-контракты [прошли аудиты](audits.md) во множестве уважаемых компаний по безопасности. However, it is important to note that even with formal audits, it is still possible for there to be logic errors that could lead to the loss of funds for OUSD holders. The contracts involve complex math and logic. While we have taken every precaution to ensure the safety and security of our smart contracts, users are reminded to use at their own risk. Origin Protocol will not be held responsible for any loss of funds, regardless of who is at fault.
+Наши смарт-контракты [прошли аудиты](audits.md) во множестве уважаемых компаний по безопасности. Однако важно отметить, что даже с учетом пройденных аудитов, все еще возможны логические ошибки, которые могут привести к потере средств держателей OUSD. Контракты используют сложную математику и логику. Несмотря на то, что мы приняли все меры предосторожности для обеспечения безопасности наших смарт-контрактов, напоминаем пользователям, что они используют их на свой страх и риск. Origin Protocol не несет ответственности за какую бы то ни было потерю средств, независимо от того, чья в этом вина.
 
-**Third-party platform risk**
+**Риск базовой сторонней платформы**
 
-OUSD is built on top of other DeFi platforms like Aave, Compound, and Curve that add additional smart contract risk. We are choosing to work with platforms that have hundreds of millions of dollars of assets under management and have made a reasonable efforts to ensure the security of their protocols. However, there are no guarantees that the underlying third-party platforms will continue to work as intended, and any failure in an underlying strategy would potentially lead to a loss of funds for OUSD holders.
+OUSD надстроен поверх других платформ DeFi, таких как Aave, Compound и Curve, что увеличивает риски в смарт-контрактах. Мы выбираем для работы платформы, у которых под управлением находятся активы на сотни миллионов долларов, и которые приложили разумные усилия для обеспечения безопасности их протоколов. Однако нет никаких гарантий, что базовые сторонние платформы будут продолжать работать по назначению, и любой сбой в базовой стратегии, скорее всего, приведет к потере средств для держателей OUSD.
 
 **Риски стейблкоина**
 
-Важно понимать, что OUSD настолько устойчив, насколько устойчивы стейблкоины, которые его обеспечивают. Any loss of value in to an underlying stablecoin asset will cause a similar loss to the value of OUSD. While OUSD is designed to maintain a one to one relationship between supply and number of backing stablecoins, it does not guarantee which stablecoins will make up that backing nor the value of those coins.
+Важно понимать, что OUSD настолько устойчив, насколько устойчивы стейблкоины, которые его обеспечивают. Любая потеря стоимости базовых активов приведет к аналогичным убыткам в OUSD. Хотя OUSD разработан для поддержания соотношения один к одному между предложением и количеством базовых стейблкоинов, он не гарантирует ни какие стейблкоины будут использоваться, ни стоимость этих монет.
 
-Важно отметить, что каждый из поддерживаемых стейблкоинов представляет собой нетривиальный риск для контрагента. У Tether, в частности, были хорошо задокументированные проблемы с банковской системой и нормативными требованиями. Кроме того, и в USDT, и в USDC есть лазейки, которые дают их эмитентам право замораживать деньги в кошельках их владельцев. While DAI does not have any direct backdoors, its assets can also be negatively impacted since USDC is accepted as collateral for minting DAI.
+Важно отметить, что каждый из поддерживаемых стейблкоинов представляет собой нетривиальный риск для контрагента. У Tether, в частности, были хорошо задокументированные проблемы с банковской системой и нормативными требованиями. Кроме того, и в USDT, и в USDC есть лазейки, которые дают их эмитентам право замораживать деньги в кошельках их владельцев. И, хотя в DAI нет таких очевидных лазеек, на его активы также может возникнуть негативное влияние, поскольку USDC принимается в качестве обеспечения для создании новых токенов DAI.
 
-_**In summary, OUSD is beta software. Use at your own risk. Do not deploy more capital than you are willing to lose.**_
+_**В заключение подчеркнем, что OUSD - это бета-версия программного обеспечения. Используйте на свой риск. Не вкладывайте больше капитала, чем вы готовы потерять.**_
 
-**Risk Mitigation**
+**Снижение рисков**
 
-We are actively working with multiple DeFi insurance providers and will soon be announcing our initial coverage plans to further secure the protocol. In addition to our plan to offer insurance coverage and our recent [audits](audits.md), we have taken extensive measures to improve our internal processes so that we do everything possible to avoid an exploit.
+Мы активно работаем с несколькими поставщиками страховых услуг DeFi и вскоре объявим о наших первоначальных планах покрытия для дальнейшей защиты протокола. В дополнение к нашему плану по предоставлению страхового покрытия и нашим недавним [аудитам](audits.md), мы предприняли обширные меры по улучшению наших внутренних процессов, чтобы мы сделали все возможное, чтобы избежать финансовых спекуляций.
 
 We have retained [Certora](https://www.certora.com/) to begin formally verifying the various security properties of our contracts. They will help us establish automated verifications that will run anytime we update our contract code. We now also have automated checking for common errors with [Slither](https://github.com/crytic/slither) and [Echidna](https://github.com/crytic/echidna) tests. Together, these alert our team to common security issues in addition to our own test suite.
 
