@@ -1,4 +1,4 @@
-# OGN Staking
+# Стейкинг токенов OGN
 
 Origin Token \(OGN\) is intended as the governance token for OUSD and OGN will play an increasingly important role as the Origin Platform becomes more decentralized. Today, users can stake their OGN tokens to earn additional OGN after a chosen staking period has elapsed.
 
