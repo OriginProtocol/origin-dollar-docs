@@ -1,16 +1,16 @@
 # Curve
 
-Curve is a decentralized liquidity protocol and exchange on Ethereum for stablecoins and wrapped BTC, launched in January 2020. Users can swap between popular ERC-20 stablecoins or between ERC-20 representations of bitcoin. Liquidity providers facilitate trading and earn fees.
+Curve - это децентрализованный протокол ликвидности и обменник в Ethereum для стейблкоинов и оборотных BTC, запущенный в январе 2020 года. Пользователи могут переключаться между популярными стейблкоинами ERC-20 или между биткойн токенами стандарта ERC-20. Поставщики ликвидности обеспечивают торговлю и получают комиссию в качестве вознаграждения.
 
-Curve is an Automated Market Maker \(AMM\) where each market has an associated liquidity pool with two or more assets that should have the same value, like USDT, USDC, DAI and TUSD, which are all US dollar pegged stablecoins. The exchange rate between each stablecoin and their relative weights are determined by an algorithm based on supply and demand. Arbitrageurs act to normalize these exchange rates.
+Curve - это автоматизированный маркет-мейкер \(AMM\), где с каждым рынком связан пул ликвидности с двумя или более активами, которые должны иметь одинаковую стоимость, например USDT, USDC, DAI и TUSD, все из которых являются стейблкоинами с привязкой к доллару США. Обменный курс между каждым стейблкоином и их средние значения определяются алгоритмом, основанным на спросе и предложении. Арбитражёры нормализуют эти обменные курсы.
 
-Some of Curve's liquidity pools earn extra fees for liquidity providers on top of the exchange fees from traders. Curve offers stablecoin pools integrated with Compound, yearn.finance, and Synthetix. The assets in each liquidity pool are provided to those platforms to generate additional yield which is passed on to each pool's liquidity providers. Liquidity Provider \(LP\) tokens are given to pool participants and can be redeemed for their initial liquidity supplied plus accrued fees and yield. LP tokens can also transferred for use in other protocols.
+Некоторые из пулов ликвидности Curve зарабатывают дополнительные комиссии для поставщиков ликвидности в дополнение к биржевым комиссиям, получаемым от трейдеров. Curve предлагает пулы стейблкоинов, интегрированные с Compound, yearn.finance и Synthetix. Активы в каждом пуле ликвидности предоставляются этим платформам для получения дополнительной прибыли, которая передается поставщикам ликвидности этих пулов. Токены поставщика ликвидности \(LP\) выдаются участникам пула и могут быть выкуплены за их первоначально предоставленную ликвидность плюс начисленные комиссии и доход. Токены LP также могут переводиться для использования в других протоколах.
 
-Curve is governed by CRV, an ERC-20 governance token. CRV holders can vote on protocol changes. CRV holders can stake their tokens for additional voting power proportional to time staked. CRV is continuously awarded to liquidity providers and a large portion of the total supply of CRV was allocated to the team and investors on a continuous vesting schedule.
+Curve управляется CRV, токеном управления ERC-20. Держатели CRV могут голосовать за изменения протокола. Держатели CRV могут заложить свои токены, чтобы получить дополнительное количество голосов, пропорционально времени стейкинга. CRV постоянно распределяется между поставщиками ликвидности, большая часть общего предложения CRV была выделена команде и инвесторам, распределяется в соответствии с графиком вестинга.
 
-Trading volumes on Curve are often over $50 million daily. Curve has a Total Value Locked \(TVL\) of over $1 billion by liquidity providers at the time of writing.
+Объемы торгов на Curve часто превышают 50 миллионов долларов в день. На момент написания, Curve имеет общую заблокированную поставщиками ликвидности стоимость \(TVL\) более 1 миллиарда долларов.
 
-Curve has undergone two audits by Trail of Bits and maintains a bug bounty program.
+Curve прошла два аудита Trail of Bits и поддерживает программу поощрения ошибок.
 
 | Ресурсы                 |                                                                          |
 |:----------------------- |:------------------------------------------------------------------------ |
