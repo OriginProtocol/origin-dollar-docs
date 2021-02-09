@@ -1,7 +1,7 @@
 # Временная блокировка
 
 {% hint style="danger" %}
-The timelock has been added but is currently set to 1 minute. This allows for a faster response if any critical issues are discovered. The timelock is governed by Origin's 5 of 8 multi-sig.
+Временная блокировка уже была добавлена, однако на данный момент ее значение было установлено на 1 минуту. Это позволит быстрее реагировать на любые обнаруженные критические проблемы. Временная блокировка управляется 5 из 8 мультиподписей Origin.
 {% endhint %}
 
 Контракт с временной блокировкой предусматривает 48-часовой период ожидания, прежде чем любые изменения в контрактах OUSD будут выполнены. Временная блокировка может быть вызвана нашим мульти-подписями, являющимися владельцами наших контрактов [ERC-20](../architecture.md), [Vault](vault.md)и [Strategies](strategies.md). Задержка действий администратора дает пользователям возможность выхода OUSD, если его администраторы станут злонамеренными, будут скомпрометированы или внесут изменения, которые не нравятся пользователям.
@@ -13,7 +13,7 @@ The timelock has been added but is currently set to 1 minute. This allows for a 
 OUSD использует немного измененную версию [ Накапливаемой временной блокировки](https://compound.finance/docs/governance), которая была [проаудирована OpenZeppelin](https://blog.openzeppelin.com/compound-finance-patch-audit/). The two notable differences are:
 
 1. Первоначально OUSD будет использовать более короткий период ожидания \(48 часов\), чем Compound \(72 часа\), чтобы обеспечить более быстрый ответ в случае обнаружения каких-либо проблем.
-2. Some actions, such a reallocating funds between existing strategies and freezing deposits can be called immediately without requiring the 48 waiting period. This is in case a major vulnerability is discovered.
+2. Некоторые действия, такие как перераспределение средств между существующими стратегиями и замороженными депозитами, могут быть вызваны немедленно, не требуя 48 часового периода ожидания. Это было сделано на случай обнаружения серьезной уязвимости.
 
 
 
