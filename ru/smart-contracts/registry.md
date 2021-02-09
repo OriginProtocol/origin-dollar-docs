@@ -17,62 +17,62 @@
 | Хранилище (Vault) | [0xE75D77B1865Ae93c7eaa3040B038D7aA7BC02F70](https://etherscan.io/address/0xe75d77b1865ae93c7eaa3040b038d7aa7bc02f70) | [originvault.eth](https://etherscan.io/address/originvault.eth)   |
 | Oracle            | [0x843530DC8005e13dEA30CEa2394FF60635f38cc4](https://etherscan.io/address/0x843530DC8005e13dEA30CEa2394FF60635f38cc4) | [originoracle.eth](https://etherscan.io/address/originoracle.eth) |
 
-Internal implementation contracts. The Vault is split into VaultAdmin and VaultCore to work-around the maximum contract size limit on Ethereum:
+Контракты на внутреннюю реализацию. Хранилище разделено на VaultAdmin и VaultCore, чтобы обойти ограничение максимального размера контракта на Ethereum:
 
-| Контракт           | Адрес                                                                                                                 |
-|:------------------ |:--------------------------------------------------------------------------------------------------------------------- |
-| OUSD               | [0x9d6975591E777D95Eef3bCC2a727846DA25d7083](https://etherscan.io/address/0x9d6975591E777D95Eef3bCC2a727846DA25d7083) |
-| АдминистраторVault | [0x8F245d566f886662921e0Ff76ddF43695639D999](https://etherscan.io/address/0x8F245d566f886662921e0Ff76ddF43695639D999) |
-| ЯдроХранилища      | [0xE54f14FC3fBc5915D070DE4758bcF591541BD1c3](https://etherscan.io/address/0xe54f14fc3fbc5915d070de4758bcf591541bd1c3) |
-| Смешанные Оракулы  | [0x843530DC8005e13dEA30CEa2394FF60635f38cc4](https://etherscan.io/address/0x843530DC8005e13dEA30CEa2394FF60635f38cc4) |
-| Оракул Chainlink   | [0x017aD99900b9581Cd40C815990890EE9F0858246](https://etherscan.io/address/0x017aD99900b9581Cd40C815990890EE9F0858246) |
+| Контракт          | Адрес                                                                                                                 |
+|:----------------- |:--------------------------------------------------------------------------------------------------------------------- |
+| OUSD              | [0x9d6975591E777D95Eef3bCC2a727846DA25d7083](https://etherscan.io/address/0x9d6975591E777D95Eef3bCC2a727846DA25d7083) |
+| VaultAdmin        | [0x8F245d566f886662921e0Ff76ddF43695639D999](https://etherscan.io/address/0x8F245d566f886662921e0Ff76ddF43695639D999) |
+| ЯдроХранилища     | [0xE54f14FC3fBc5915D070DE4758bcF591541BD1c3](https://etherscan.io/address/0xe54f14fc3fbc5915d070de4758bcf591541bd1c3) |
+| Смешанные Оракулы | [0x843530DC8005e13dEA30CEa2394FF60635f38cc4](https://etherscan.io/address/0x843530DC8005e13dEA30CEa2394FF60635f38cc4) |
+| Оракул Chainlink  | [0x017aD99900b9581Cd40C815990890EE9F0858246](https://etherscan.io/address/0x017aD99900b9581Cd40C815990890EE9F0858246) |
 {% endtab %}
 
 {% tab title="Strategies" %}
-Well-known addresses \(proxy wrappers\):
+Общеизвестные адреса \(прокси оболочки\):
 
-| Strategy | Address                                                                                                               | Current Auto-Allocation |
-|:-------- |:--------------------------------------------------------------------------------------------------------------------- |:----------------------- |
-| Aave     | [0x9f2b18751376cF6a3432eb158Ba5F9b1AbD2F7ce](https://etherscan.io/address/0x9f2b18751376cF6a3432eb158Ba5F9b1AbD2F7ce) | 100% of DAI             |
-| Compound | [0xD5433168Ed0B1F7714819646606DB509D9d8EC1f](https://etherscan.io/address/0xD5433168Ed0B1F7714819646606DB509D9d8EC1f) | 100% of USDC and USDT   |
+| Стратегия | Адрес                                                                                                                 | Текущая аллокация |
+|:--------- |:--------------------------------------------------------------------------------------------------------------------- |:----------------- |
+| Aave      | [0x9f2b18751376cF6a3432eb158Ba5F9b1AbD2F7ce](https://etherscan.io/address/0x9f2b18751376cF6a3432eb158Ba5F9b1AbD2F7ce) | 100% DAI          |
+| Compound  | [0xD5433168Ed0B1F7714819646606DB509D9d8EC1f](https://etherscan.io/address/0xD5433168Ed0B1F7714819646606DB509D9d8EC1f) | 100% USDC и USDT  |
 
-Internal implementation contracts:
+Контракты на внутреннюю реализацию:
 
-| Strategy | Address                                                                                                               |
-|:-------- |:--------------------------------------------------------------------------------------------------------------------- |
-| Aave     | [0xA4144d814F03a2Bb0429CcB89a77Cd3703658B61](https://etherscan.io/address/0xA4144d814F03a2Bb0429CcB89a77Cd3703658B61) |
-| Compound | [0x36abc8fe8e20Bc4637EdA83B5AD9810e9e54Bf13](https://etherscan.io/address/0x36abc8fe8e20Bc4637EdA83B5AD9810e9e54Bf13) |
+| Стратегия | Адрес                                                                                                                 |
+|:--------- |:--------------------------------------------------------------------------------------------------------------------- |
+| Aave      | [0xA4144d814F03a2Bb0429CcB89a77Cd3703658B61](https://etherscan.io/address/0xA4144d814F03a2Bb0429CcB89a77Cd3703658B61) |
+| Compound  | [0x36abc8fe8e20Bc4637EdA83B5AD9810e9e54Bf13](https://etherscan.io/address/0x36abc8fe8e20Bc4637EdA83B5AD9810e9e54Bf13) |
 {% endtab %}
 
 {% tab title="Oracles" %}
-The following oracles are used to fetch or compute a price for **DAI/USD:**
+Следующие оракулы используются для получения или вычисления цены **DAI/USD:**
 
-| Oracle          | Pair    | Contract                                   |
-|:--------------- |:------- |:------------------------------------------ |
-| Open Price Feed | DAI/USD | 0x922018674c12a7f0d394ebeef9b58f186cde13c1 |
-| Chainlink       | DAI/USD | 0xa7D38FBD325a6467894A13EeFD977aFE558bC1f0 |
-| Chainlink       | DAI/ETH | 0x037E8F2125bF532F3e228991e051c8A7253B642c |
+| Оракул                   | Пара    | Контракт                                   |
+|:------------------------ |:------- |:------------------------------------------ |
+| Открытый поток котировок | DAI/USD | 0x922018674c12a7f0d394ebeef9b58f186cde13c1 |
+| Chainlink                | DAI/USD | 0xa7D38FBD325a6467894A13EeFD977aFE558bC1f0 |
+| Chainlink                | DAI/ETH | 0x037E8F2125bF532F3e228991e051c8A7253B642c |
 
-The following oracles are used to fetch a price for **USDT/USD:**
+Следующие оракулы используются для извлечения или вычисления цены **USDT/USD:**
 
-| O**racle**      | Pair     | Contract                                   |
-|:--------------- |:-------- |:------------------------------------------ |
-| Chainlink       | USDT/ETH | 0xa874fe207DF445ff19E7482C746C4D3fD0CB9AcE |
-| Open Price Feed | USDC/USD | 0x922018674c12a7f0d394ebeef9b58f186cde13c1 |
+| **Оракул**               | Пара     | Контракт                                   |
+|:------------------------ |:-------- |:------------------------------------------ |
+| Chainlink                | USDT/ETH | 0xa874fe207DF445ff19E7482C746C4D3fD0CB9AcE |
+| Открытый поток котировок | USDC/USD | 0x922018674c12a7f0d394ebeef9b58f186cde13c1 |
 
-The following oracles are used to fetch a price for **USDC/USD:**
+Следующие оракулы используются для извлечения или вычисления цены **USDC/USD:**
 
-| O**racle**      | Pair     | Contract                                   |
-|:--------------- |:-------- |:------------------------------------------ |
-| Chainlink       | USDC/ETH | 0xdE54467873c3BCAA76421061036053e371721708 |
-| Open Price Feed | USDC/USD | 0x922018674c12a7f0d394ebeef9b58f186cde13c1 |
+| **Оракул**               | Пара     | Контракт                                   |
+|:------------------------ |:-------- |:------------------------------------------ |
+| Chainlink                | USDC/ETH | 0xdE54467873c3BCAA76421061036053e371721708 |
+| Открытый поток котировок | USDC/USD | 0x922018674c12a7f0d394ebeef9b58f186cde13c1 |
 
-Since not all oracles have direct USD pairs, the protocol also fetches the prices for **ETH/USD** in order to calculate USD prices using ETH. Again, to be safe, the protocol chooses the most advantageous for the fund instead of the individual.
+Поскольку не все оракулы имеют прямые пары с долларом США, протокол также извлекает цены для **ETH/USD**, чтобы рассчитать цены в долларах США с использованием ETH. Опять же, на всякий случай протокол выбирает наиболее выгодный для фонда, а не для отдельных персон.
 
-| Oracle          | Pair    | Contract                                   |
-|:--------------- |:------- |:------------------------------------------ |
-| Open Price Feed | ETH/USD | 0x922018674c12a7f0d394ebeef9b58f186cde13c1 |
-| Chainlink       | ETH/USD | 0xF79D6aFBb6dA890132F9D7c355e3015f15F3406F |
+| Оракул                   | Пара    | Контракт                                   |
+|:------------------------ |:------- |:------------------------------------------ |
+| Открытый поток котировок | ETH/USD | 0x922018674c12a7f0d394ebeef9b58f186cde13c1 |
+| Chainlink                | ETH/USD | 0xF79D6aFBb6dA890132F9D7c355e3015f15F3406F |
 {% endtab %}
 
 {% tab title="Governance" %}
@@ -80,21 +80,21 @@ Since not all oracles have direct USD pairs, the protocol also fetches the price
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">Contract</th>
-      <th style="text-align:left">Address</th>
+      <th style="text-align:left">Контракт</th>
+      <th style="text-align:left">Адрес</th>
       <th style="text-align:left">ENS</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">5 of 8 Multisig</td>
+      <td style="text-align:left">5 из 8 мультиподписей</td>
       <td style="text-align:left"><a href="https://etherscan.io/address/0xe011fA2a6Df98c69383457d87a056Ed0103aA352">0xe011fA2a6Df98c69383457d87a056Ed0103aA352</a>
       </td>
       <td style="text-align:left"><a href="https://etherscan.io/address/originprotocol.eth">originprotocol.eth</a>
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">2 of 9 Multisig</td>
+      <td style="text-align:left">2 из 9 мультиподписей</td>
       <td style="text-align:left"><a href="https://etherscan.io/address/0xF14BBdf064E3F67f51cd9BD646aE3716aD938FDC">0xF14BBdf064E3F67f51cd9BD646aE3716aD938FDC</a>
       </td>
       <td style="text-align:left"><a href="https://etherscan.io/address/originstrategist.eth">originstrategist.eth</a>
