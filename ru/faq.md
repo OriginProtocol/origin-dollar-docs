@@ -2,27 +2,27 @@
 
 **Где я могу купить OUSD?**
 
-Ознакомьтесь с [Приступая к работе](https://docs.ousd.com/getting-started) чтобы увидеть множество вариантов.
+Ознакомьтесь с разделом [Приступая к работе](https://docs.ousd.com/getting-started) чтобы увидеть множество вариантов.
 
 **Каковы затраты на создание и выкуп OUSD?**
 
 Как и в случае любой транзакции Ethereum, Вам понадобится эфир для взаимодействия со смарт-контрактом OUSD. Мы приняли меры по сокращению использования газа, где это было возможно, но эти расходы могут варьироваться.
 
-Каждый раз, когда Вы создаете или выкупаете OUSD, к Вашим депонированным или выведенным стейблкоинам будет применяться обменный курс. You can read more about this in [Price Oracles](https://docs.ousd.com/core-concepts/price-oracles).
+Каждый раз, когда Вы создаете или выкупаете OUSD, к Вашим депонированным или выведенным стейблкоинам будет применяться обменный курс. Вы можете узнать больше об этом в разделе [Ценовые Оракулы](https://docs.ousd.com/core-concepts/price-oracles).
 
-To encourage long-term holding of OUSD and to protect the protocol from attackers, an exit fee of 0.5% is charged on all redeems. You can read more about this in [How Works](https://docs.ousd.com/how-it-works).
+Чтобы стимулировать долгосрочное хранение OUSD и защитить протокол от злоумышленников, со всех выкупов взимается комиссия за выход в размере 0,5%. Вы можете узнать больше об этом в разделе [Как это работает](https://docs.ousd.com/how-it-works).
 
-**How soon will my balance increase once I have OUSD?**
+**Как скоро мой баланс увеличится, если у меня будет OUSD?**
 
-The amount of OUSD in your wallet will grow each time there is a positive rebase event. You can read more about this in [Elastic Supply](https://docs.ousd.com/core-concepts/elastic-supply). The supply is currently rebased several times per day and is usually correlated with how many people are minting and redeeming OUSD.
+Сумма OUSD в вашем кошельке будет расти каждый раз, когда происходит положительное событие перераспределения. Вы можете узнать больше об этом в разделе [Гибкое предложение](https://docs.ousd.com/core-concepts/elastic-supply). В настоящее время предложение перераспределяется несколько раз в день и обычно зависит от того, как много людей создают и выкупают OUSD.
 
-**Why does OUSD not grow when it's held in Uniswap, SushiSwap, etc?**
+**Почему не растет OUSD, если он хранится в Uniswap, SushiSwap и т.д.?**
 
-By default, rebase events don't affect the supply of OUSD that is sitting in smart contracts. These contracts can opt in to receiving additional OUSD if they are capable of handling elastic supply tokens. You can read more about this in [Rebasing & Smart Contracts](https://docs.ousd.com/core-concepts/elastic-supply/rebasing-and-smart-contracts).
+По умолчанию события перераспределения не влияют на предложение OUSD, которое находится в смарт-контрактах. Эти контракты могут получить дополнительных OUSD, если они способны работать с токенами эластичного предложения. Вы можете прочитать больше об этом в разделе [Перераспределение & Смарт-Контракты](https://docs.ousd.com/core-concepts/elastic-supply/rebasing-and-smart-contracts).
 
-**How is it possible for the APY to be so high?**
+**За счет чего возможен такой высокий APY?**
 
-You can read about our various strategies in [Yield Generation](https://docs.ousd.com/core-concepts/yield-generation). We currently get most of the yield from harvesting rewards tokens \(namely COMP and CRV\). Additionally, the yield increases as more OUSD is held in smart contracts that do not opt into rebasing since the underlying collateral continues to earn for the average OUSD holder.
+Вы можете прочитать о наших различных стратегиях в разделе [Генерирование дохода](https://docs.ousd.com/core-concepts/yield-generation). В настоящее время мы получаем большую часть дохода от сбора токенов вознаграждений \(а именно COMP и CRV\). Additionally, the yield increases as more OUSD is held in smart contracts that do not opt into rebasing since the underlying collateral continues to earn for the average OUSD holder.
 
 **Why is my balance increasing at a slower rate than the advertised APY?**
 
