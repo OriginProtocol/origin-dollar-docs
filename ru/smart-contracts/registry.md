@@ -15,7 +15,7 @@
 |:----------------- |:--------------------------------------------------------------------------------------------------------------------- |:----------------------------------------------------------------- |
 | OUSD              | [0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86](https://etherscan.io/address/0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86) | [ousd.eth](https://etherscan.io/address/ousd.eth)                 |
 | Хранилище (Vault) | [0xE75D77B1865Ae93c7eaa3040B038D7aA7BC02F70](https://etherscan.io/address/0xe75d77b1865ae93c7eaa3040b038d7aa7bc02f70) | [originvault.eth](https://etherscan.io/address/originvault.eth)   |
-| Oracle            | [0x843530DC8005e13dEA30CEa2394FF60635f38cc4](https://etherscan.io/address/0x843530DC8005e13dEA30CEa2394FF60635f38cc4) | [originoracle.eth](https://etherscan.io/address/originoracle.eth) |
+| Оракул            | [0x843530DC8005e13dEA30CEa2394FF60635f38cc4](https://etherscan.io/address/0x843530DC8005e13dEA30CEa2394FF60635f38cc4) | [originoracle.eth](https://etherscan.io/address/originoracle.eth) |
 
 Контракты на внутреннюю реализацию. Хранилище разделено на VaultAdmin и VaultCore, чтобы обойти ограничение максимального размера контракта на Ethereum:
 
@@ -101,7 +101,7 @@
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">Governor / Timelock</td>
+      <td style="text-align:left">Регулятор / Временная блокировка</td>
       <td style="text-align:left"><a href="https://etherscan.io/address/0x8e7bDFeCd1164C46ad51b58e49A611F954D23377">0x8e7bDFeCd1164C46ad51b58e49A611F954D23377</a>
       </td>
       <td style="text-align:left">
@@ -116,7 +116,7 @@
 {% endtab %}
 
 {% tab title="Stablecoins" %}
-| Contract                                                                        | Address                                                                                                               |
+| Контракт                                                                        | Адрес                                                                                                                 |
 |:------------------------------------------------------------------------------- |:--------------------------------------------------------------------------------------------------------------------- |
 | [USDT](https://etherscan.io/address/0x52BEBd3d7f37EC4284853Fd5861Ae71253A7F428) | [0xdac17f958d2ee523a2206206994597c13d831ec7](https://etherscan.io/address/0x52BEBd3d7f37EC4284853Fd5861Ae71253A7F428) |
 | [USDC](https://etherscan.io/address/0x52BEBd3d7f37EC4284853Fd5861Ae71253A7F428) | [0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48](https://etherscan.io/address/0x52BEBd3d7f37EC4284853Fd5861Ae71253A7F428) |
@@ -124,21 +124,21 @@
 {% endtab %}
 
 {% tab title="Staking" %}
-| Contract    | Address                                    | ENS                                                                 |
-|:----------- |:------------------------------------------ |:------------------------------------------------------------------- |
-| OGN Staking | 0x501804B374EF06fa9C427476147ac09F1551B9A0 | [originstaking.eth](https://etherscan.io/address/originstaking.eth) |
+| Контракт             | Адрес                                      | ENS                                                                 |
+|:-------------------- |:------------------------------------------ |:------------------------------------------------------------------- |
+| Стейкинг токенов OGN | 0x501804B374EF06fa9C427476147ac09F1551B9A0 | [originstaking.eth](https://etherscan.io/address/originstaking.eth) |
 
-Internal implementation contracts:
+Контракты на внутреннюю реализацию:
 
-| Contract    | Address                                                                                                               |
-|:----------- |:--------------------------------------------------------------------------------------------------------------------- |
-| OGN Staking | [0x8cd68a1e0b79150455c5498882d5d5d3df2dde08](https://etherscan.io/address/0x8cd68a1e0b79150455c5498882d5d5d3df2dde08) |
+| Контракт             | Адрес                                                                                                                 |
+|:-------------------- |:--------------------------------------------------------------------------------------------------------------------- |
+| Стейкинг токенов OGN | [0x8cd68a1e0b79150455c5498882d5d5d3df2dde08](https://etherscan.io/address/0x8cd68a1e0b79150455c5498882d5d5d3df2dde08) |
 {% endtab %}
 
 {% tab title="Compensation" %}
-| Contract          | Address                                                                                                               |
-|:----------------- |:--------------------------------------------------------------------------------------------------------------------- |
-| OUSD Compensation | [0x9C94df9d594BA1eb94430C006c269C314B1A8281](https://etherscan.io/address/0x9C94df9d594BA1eb94430C006c269C314B1A8281) |
+| Контракт         | Адрес                                                                                                                 |
+|:---------------- |:--------------------------------------------------------------------------------------------------------------------- |
+| Компенсация OUSD | [0x9C94df9d594BA1eb94430C006c269C314B1A8281](https://etherscan.io/address/0x9C94df9d594BA1eb94430C006c269C314B1A8281) |
 {% endtab %}
 {% endtabs %}
 
