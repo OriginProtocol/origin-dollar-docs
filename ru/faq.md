@@ -22,13 +22,13 @@
 
 **За счет чего возможен такой высокий APY?**
 
-Вы можете прочитать о наших различных стратегиях в разделе [Генерирование дохода](https://docs.ousd.com/core-concepts/yield-generation). В настоящее время мы получаем большую часть дохода от сбора токенов вознаграждений \(а именно COMP и CRV\). Additionally, the yield increases as more OUSD is held in smart contracts that do not opt into rebasing since the underlying collateral continues to earn for the average OUSD holder.
+Вы можете прочитать о наших различных стратегиях в разделе [Генерирование дохода](https://docs.ousd.com/core-concepts/yield-generation). В настоящее время мы получаем большую часть дохода от сбора токенов вознаграждений \(а именно COMP и CRV\). Кроме того, доходность увеличивается по мере того, как увеличивается количество OUSD, хранящееся в смарт-контрактах, от которых не подана заявка на участие в перераспределении, поскольку базовые активы продолжают приносить доход среднестатистическому держателю OUSD.
 
-**Why is my balance increasing at a slower rate than the advertised APY?**
+**Почему мой баланс увеличивается медленнее, чем указано в APY?**
 
-OUSD balances increase when the supply is rebased. But the size of each rebase varies wildly depending on how much the vault has earned since the last rebase. And while most rebases collect a small amount earnings from lending strategies, other rebases involve liquidating rewards tokens or collecting fees. As a result, the yield will vary significantly during short time periods.
+Баланс OUSD увеличивается при перераспределении предложения. Но размер каждого перераспределения сильно различается в зависимости от того, сколько хранилище заработало с момента последнего перераспределения. И хотя большинство перераспределений собирают небольшую прибыль от стратегий кредитования, другие перераспределения связаны с ликвидацией токенов вознаграждения или получением комиссий. В результате доходность будет значительно варьироваться в короткие периоды времени.
 
-**What about the hack? Is OUSD safe?**
+**А как насчет взлома? Безопасен ли OUSD?**
 
-On November 7th 2020, OUSD was exploited for 7M USD due to a previously undetected reentrancy bug. You can read more [details about the hack](https://medium.com/originprotocol/urgent-ousd-has-hacked-and-there-has-been-a-loss-of-funds-7b8c4a7d534c) on our blog as well as the [detailed compensation plan](https://medium.com/originprotocol/origin-dollar-ousd-detailed-compensation-plan-faa73f87442e) for taking care of the affected users. Origin Dollar was relaunched in December after completing multiple audits and security upgrades. You can learn more about the steps taken to secure the protocol in our [relaunch announcement](https://medium.com/originprotocol/origin-dollar-ousd-is-back-b8ee0c601dad).
+7 ноября 2020 года OUSD был взломан из-за не обнаруженной ранее уязвимости повторного входа, злоумышленники получили 7 миллионов долларов США. Вы можете прочитать больше в разделе [Подробности о взломе](https://medium.com/originprotocol/urgent-ousd-has-hacked-and-there-has-been-a-loss-of-funds-7b8c4a7d534c) в нашем блоге, а также в разделе [Подробный план компенсации](https://medium.com/originprotocol/origin-dollar-ousd-detailed-compensation-plan-faa73f87442e), где описаны принятые меры в отношении пострадавших пользователей. Origin Dollar был перезапущен в декабре после завершения нескольких аудитов и обновлений безопасности. Вы можете узнать больше о шагах, предпринятых для защиты протокола, в нашем [объявлении о перезапуске](https://medium.com/originprotocol/origin-dollar-ousd-is-back-b8ee0c601dad).
 
