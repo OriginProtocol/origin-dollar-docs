@@ -4,11 +4,11 @@
 
 OUSD - это проект с полностью открытым исходным кодом, и мы приветствуем любые вклады в него. Есть много способов помочь: сообщать о проблемах, добавлять код и помогать нам улучшать наше сообщество.
 
-Мы работаем публично, и наша компания Discord открыта для всех. If you have questions or need help getting started, our [Discord OUSD channels](https://discord.gg/jyxpUSe) are the best place to get assistance from our team and community.
+Мы работаем публично, и наша компания Discord открыта для всех. Если у Вас есть вопросы или Вам нужна помощь в начале работы, наши [каналы OUSD в Discord](https://discord.gg/jyxpUSe) - лучшее место, где можно получить помощь от нашей команды и сообщества.
 
-**Developer Analytics**
+**Аналитика для разработчиков**
 
-Our internal developer dashboard is available at [analytics.ousd.com](https://analytics.ousd.com). The dashboard shows the current circulating supply, the assets under management in the vault, and the current allocations between each of the stablecoins and strategies.
+Наша внутренняя панель инструментов для разработчиков доступна по адресу [analytics.ousd.com](https://analytics.ousd.com). The dashboard shows the current circulating supply, the assets under management in the vault, and the current allocations between each of the stablecoins and strategies.
 
 #### Процесс разработки
 
