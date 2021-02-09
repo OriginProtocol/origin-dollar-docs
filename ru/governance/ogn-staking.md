@@ -1,20 +1,20 @@
 # Стейкинг токенов OGN
 
-Origin Token \(OGN\) is intended as the governance token for OUSD and OGN will play an increasingly important role as the Origin Platform becomes more decentralized. Today, users can stake their OGN tokens to earn additional OGN after a chosen staking period has elapsed.
+Токен Origin \(OGN\) предполагался как токен управления для OUSD, и OGN будет играть все более важную роль по мере того, как платформа Origin будет становиться более децентрализованной. Сегодня пользователи могут блокировать свои токены OGN, чтобы заработать дополнительные OGN по истечении выбранного периода стейкинга.
 
 {% hint style="info" %}
-Visit the [OUSD DApp](https://www.ousd.com/stake) in a web3-enabled browser to stake your OGN.
+Посетите [OUSD DApp](https://www.ousd.com/stake) в браузере с поддержкой web3, чтобы заблокировать OGN.
 {% endhint %}
 
-The initial staking program offers three staking periods and respective yields:
+Первоначальная программа стейкинга предлагает три периода блокировки и соответствующую доходность:
 
-* 30-day staking period: Earn 7.5% annualized interest
-* 90-day staking period: Earn 12.5% annualized interest
-* 365-day staking period: Earn 25% annualized interest
+* 30-дневный период: Зарабатывайте 7,5% годовых
+* 90-дневный период: Зарабатывайте 12,5% годовых
+* 365-дневный период: Зарабатывайте 25% годовых
 
-Staked tokens will be locked for the duration of the staking period. After each staking period ends, you will be able to claim both your initial OGN \(principal\) and yield.
+Токены в стейкинге будут заблокированы на выбранный период времени. После окончания каждого периода блокировки у Вас будет возможность запросить свои первоначальные вложения в OGN \(основной капитал\) и заработанный доход.
 
-OGN is currently trading on top exchanges like [Binance](https://www.binance.com/en/register?ref=NPPYAEAE), [Huobi](https://www.huobi.com/en-us/exchange/ogn_usdt/), [Upbit](https://upbit.com/exchange?code=CRIX.UPBIT.BTC-OGN), [Bittrex Global](https://global.bittrex.com/Market/Index?MarketName=BTC-OGN), and [dozens more](https://coinmarketcap.com/currencies/origin-protocol/markets/). Visit the Origin website to [learn more about OGN](https://www.originprotocol.com/ogn-token) or check out the [OGN Dashboard](https://www.originprotocol.com/dashboard) to track important token metrics.
+В настоящее время OGN торгуется на ведущих биржах, таких как [Binance](https://www.binance.com/en/register?ref=NPPYAEAE), [Huobi](https://www.huobi.com/en-us/exchange/ogn_usdt/), [Upbit](https://upbit.com/exchange?code=CRIX.UPBIT.BTC-OGN), [Bittrex Global](https://global.bittrex.com/Market/Index?MarketName=BTC-OGN) и еще на [десятках других бирж](https://coinmarketcap.com/currencies/origin-protocol/markets/). Посетите веб-сайт Origin, чтобы [узнать больше об OGN](https://www.originprotocol.com/ogn-token) или посетите панель [OGN Dashboard](https://www.originprotocol.com/dashboard) чтобы отслеживать важные показатели токенометрики.
 
 
 
