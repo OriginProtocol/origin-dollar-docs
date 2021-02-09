@@ -8,13 +8,13 @@ OUSD - это проект с полностью открытым исходны
 
 **Аналитика для разработчиков**
 
-Наша внутренняя панель инструментов для разработчиков доступна по адресу [analytics.ousd.com](https://analytics.ousd.com). The dashboard shows the current circulating supply, the assets under management in the vault, and the current allocations between each of the stablecoins and strategies.
+Наша внутренняя панель инструментов для разработчиков доступна по адресу [analytics.ousd.com](https://analytics.ousd.com). На панели инструментов отображается текущее оборотное предложение, активы, находящиеся под управлением в хранилище, и текущее распределение между стейблкоинами и стратегиями.
 
 #### Процесс разработки
 
-Our branching strategy is similar to [GitFlow](http://nvie.com/posts/a-successful-git-branching-model/), but we do all of our development in the `master` branch and have a `stable` branch for code that has been released.
+Наша стратегия ветвления кода аналогична [GitFlow](http://nvie.com/posts/a-successful-git-branching-model/), но мы ведем всю нашу разработку в ветке `master` и имеем отдельную ветку `stable` для кода, который был выпущен.
 
-Your development flow should look like:
+Ваш процесс разработки должен выглядеть так:
 
 1. Найдите интересную проблему и общайтесь! Сообщите каналу `#engineering` [Discord](https://discord.gg/jyxpUSe), над чем вы хотите работать.
 2. Отправьте запрос [члену основной команды](https://github.com/orgs/OriginProtocol/teams/core/members) в Discord и попросите добавить Вас в нашу команду [разработчиков](https://github.com/orgs/OriginProtocol/teams/contributors). В противном случае вам нужно будет форкнуть соответствующий репозиторий и поместить ветки функций в свою собственную вилку.
@@ -25,53 +25,53 @@ Your development flow should look like:
 7. Переместите свою ветку в вышестоящий репозиторий \(т.е. https://github.com/OriginProtocol/\[repo\]\), чтобы другие участники могли легко поработать над ней в случае необходимости.
 8. Запросите обзор в PR, щелкнув значок шестеренки рядом с надписью «Рецензенты» в правом столбце.
 
-For critical smart contract code to be merged it must pass the following checklist:
+Для слияния критического кода смарт-контракта он должен соответствовать следующему перечню требований:
 
-*  Code reviewed by 2 reviewers
-*  Unit tests pass
-*  Slither tests pass with no warning
-*  Echidna tests pass
+*  Код проверен 2 рецензентами
+*  Пройдены модульные (блочные) тесты
+*  Тесты Slither проходят без предупреждений
+*  Тесты Echidna пройдены
 
-The `master` branch is locked so that only members of the [core team](https://github.com/orgs/OriginProtocol/teams/core) are able to merge your pull requests. Pull requests that are peer-reviewed by other trusted contributors will be fast-tracked and merged faster! Check in the `#engineering` Discord channel for appropriate reviewers.
+Ветка `master` заблокирована таким образом, что только члены [основной команды](https://github.com/orgs/OriginProtocol/teams/core) способны обработать Ваши запросы на добавление внёсенных изменений. Запросы на добавление внёсенных изменений, которые проверяются другими доверенными участниками, будут быстрее отслеживаться и добавляться! Поищите подходящих рецензентов на канале `#engineering` в Discord.
 
 #### Стиль написания кода
 
-We use a variety of programming languages in our repositories. When contributing, please follow existing coding conventions and refer to the CONTRIBUTING.md file in the repository, if one exists.
+В наших репозиториях мы используем множество языков программирования. При внесении Вашего вклада, пожалуйста, следуйте существующим соглашениям о написании кода и обращайтесь к файлу CONTRIBUTING.md в репозитории, если он существует.
 
-For JavaScript, we use [NPM’s style](https://docs.npmjs.com/misc/coding-style), which is automatically enforced via [prettier](https://prettier.io/).
+Для JavaScript мы используем [NPM стиль](https://docs.npmjs.com/misc/coding-style), который автоматически применяется через [prettier](https://prettier.io/).
 
-For Solidity, we use two-space indents.
+Для Solidity мы используем отступы через два пробела.
 
 #### Дизайн протокола
 
-When considering protocol or implementation design proposals, we are looking for:
+При рассмотрении предложений по дизайну протокола или реализации мы ищем:
 
-* A description of the problem this design proposal solves
-* Discussion of the trade-offs involved
-* Review of other existing solutions
-* Links to relevant literature \(RFCs, papers, etc\)
-* Discussion of the proposed solution
+* Описание проблемы, которую решает данное проектное предложение
+* Обсуждение возможных компромиссов
+* Обзор других существующих решений
+* Ссылки на соответствующую литературу \(RFC, статьи и т. д.\)
+* Обсуждение предлагаемого решения
 
-Please note that protocol design is hard and meticulous work. You may need to review existing literature and think through generalized use cases.
+Обратите внимание, что разработка протокола - это тяжелая и кропотливая работа. Возможно, вам потребуется просмотреть существующую литературу и продумать обобщенные варианты использования.
 
 #### Принципы сообщества
 
-We want to keep the Origin community awesome, growing and collaborative. We need your help to keep it that way. To help with this we’ve come up with some general guidelines for the community as a whole:
+Мы хотим, чтобы сообщество Origin было отличным, растущим и открытым к сотрудничеству. Нам нужна ваша помощь, чтобы так и было. Чтобы помочь с этим, мы разработали несколько общих рекомендаций для сообщества в целом:
 
-* Be nice: Be courteous, respectful and polite to fellow community members: no regional, racial, gender, or other abuse will be tolerated. We like nice people way better than mean ones!
-* Encourage diversity and participation: Make everyone in our community feel welcome, regardless of their background and the extent of their contributions, and do everything possible to encourage participation in our community.
-* Keep it legal: Basically, don’t get anybody in trouble. Share only content that you own, do not share private or sensitive information, and don’t break laws.
-* Stay on topic: Make sure that you are posting to the correct channel and avoid off-topic discussions. Remember when you update an issue or respond to an email you are potentially sending to a large number of people. Please consider this before you update. Also remember that nobody likes spam.
+* Ведите себя хорошо: будьте вежливы, уважительны и учтивы по отношению к другим членам сообщества: недопустимы оскорбления на религиозной, расовой, гендерной или любой другой почве. Нам больше нравятся хорошие люди, чем плохие!
+* Поощряйте разнообразие и участие: сделайте так, чтобы каждый в нашем сообществе почувствовал себя желанным гостем, независимо от его происхождения и степени их вклада, и сделайте все возможное, чтобы поощрять участие в нашем сообществе.
+* Соблюдайте закон: не доставляйте никому проблем. Делитесь только контентом, принадлежащим вам, не предавайте огласке личную или конфиденциальную информацию, касающуюся других людей и не нарушайте законы.
+* Оставайтесь в теме: убедитесь, что вы публикуете сообщения на правильном канале, и избегайте обсуждений не по теме. Помните, когда Вы обновляете проблему или отвечаете на электронное письмо, потенциально оно отправляется большому количеству людей. Пожалуйста, учтите это перед обновлением. Также помните, что никто не любит спам.
 
 #### Сообщения о проблемах
 
-If you find bugs, mistakes or inconsistencies in Origin’s code or documents, please let us know by filing a GitHub issue. No issue is too small. Help us fix our tpyos!
+Если вы обнаружите баги, ошибки или несоответствия в коде или документах Origin, сообщите нам об этом, создав вопрос на GitHub. Нет слишком мелких проблем. Помогите исправить наши ошибки!
 
 #### Проблемы с безопасностью
 
-OUSD is still in early development, which means there may be problems with the protocol or in our implementations. We take security vulnerabilities very seriously. If you discover a security issue, please bring it to our attention right away!
+OUSD все еще находится на ранней стадии разработки, что означает, что могут быть проблемы с протоколом или в наших реализациях. Мы очень серьезно относимся к уязвимостям безопасности. Если вы обнаружите проблему с безопасностью, немедленно сообщите нам об этом!
 
-If you find a security vulnerability please send your report privately to [security@originprotocol.com](mailto:security@originprotocol.com) or send an encrypted message to [@joshfraser on Keybase](https://keybase.io/joshfraser). Please DO NOT file a public issue. Be sure to review our guidelines for responsible disclosure and eligibility for bug bounties.
+Если вы обнаружите уязвимость в системе безопасности, отправьте свой отчет в частном порядке на адрес [security@originprotocol.com](mailto:security@originprotocol.com) или отправьте зашифрованное сообщение на адрес [@joshfraser через Keybase](https://keybase.io/joshfraser). Пожалуйста, НЕ сообщайте о проблемах публично. Обязательно ознакомьтесь с нашими рекомендациями по ответственному раскрытию информации и правом на вознаграждение за найденные ошибки.
 
 {% page-ref page="../security-and-risks/bug-bounties.md" %}
 
