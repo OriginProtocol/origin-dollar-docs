@@ -12,11 +12,11 @@ OUSD работает не так, как большинство токенов.
 
 Этот механизм был вдохновлен новым подходом, принятым [Ampleforth](https://www.ampleforth.org/), но есть некоторые ключевые отличия, которые стоит выделить:
 
-1. OUSD is 100% backed by other stablecoins and does not have the same challenge maintaining the peg to the dollar. Учитывая простоту создания и выкупа OUSD, мы можем рассчитывать на арбитражеров, которые обеспечат поддержание привязки.
-2. OUSD rebasing will only increase supply since the amount of OUSD minted is tied to the realized gains earned by the underlying strategies. Your principal is protected as long as nothing goes wrong with the underlying lending/AMM and stablecoin protocols. Your OUSD balance will never decrease, but the value could drop if there's a failure in the underlying systems.
-3. Unlike Ampleforth, which rebases once a day, the monetary supply of OUSD is constantly being updated in real-time as yield is generated. Rebases are triggered regularly as users interact with the OUSD contracts.
+1. OUSD на 100% обеспечен другими стейблкоинами и не имеет такой же проблемы с поддержанием привязки к доллару. Учитывая простоту создания и выкупа OUSD, мы можем рассчитывать на арбитражеров, которые обеспечат поддержание привязки.
+2. Перераспределение OUSD будет только увеличивать предложение, поскольку количество вновь созданных OUSD привязано к реализованной прибыли, полученной с помощью лежащих в основе стратегий. Ваш основной капитал защищен до тех пор, пока все в порядке с основными протоколами кредитования/AMM и протоколами стейблкоинов. Ваш баланс OUSD никогда не уменьшится, но его стоимость может упасть, если произойдет сбой в основных системах.
+3. В отличие от Ampleforth, который производит перераспределение раз в день, денежная масса OUSD постоянно обновляется в режиме реального времени по мере генерирования доходности. Перераспределение запускается регулярно, когда пользователи взаимодействуют с контрактами OUSD.
 
-**Manually triggering a rebase**
+**Запуск перераспределения вручную**
 
-Anyone can trigger a rebase at any time by [calling the rebase function on the vault](https://etherscan.io/address/originvault.eth#writeProxyContract). You can do this on Etherscan by connecting a web3 wallet.
+Кто угодно в любой момент может запустить перераспределние, [вызвав функцию перераспределения в хранилище](https://etherscan.io/address/originvault.eth#writeProxyContract). Вы можете сделать это в Etherscan, подключив кошелек web3.
 
