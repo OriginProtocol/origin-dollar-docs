@@ -1,8 +1,8 @@
 # Аудиты
 
-**The OUSD Vault, ERC-20, and Overall System**
+**Хранилище OUSD, ERC-20 и Комплексная система**
 
-OUSD has been audited by multiple, well-respected security firms. We have worked with both [Trail of Bits](https://www.trailofbits.com/) and [Solidified](https://solidified.io/) to audit all of the code that powers Origin Dollar. Their findings are available below:
+OUSD прошел аудит в нескольких уважаемых компаниях по безопасности. Мы работали как с [Trail of Bits](https://www.trailofbits.com/) и с [Solidified](https://solidified.io/) чтобы проверить весь код, который обеспечивает функционирование Origin Dollar. Их выводы доступны ниже:
 
 * [Trail of Bits, OUSD Audit, December 2020](https://github.com/OriginProtocol/security/blob/master/audits/Trail%20of%20Bits%20-%20Origin%20Dollar%20-%20Dec%202020.pdf)
 * [Solidified, OUSD Audit, December 2020](https://github.com/OriginProtocol/security/blob/master/audits/Solidified%20-%20Origin%20Dollar%20-%20Dec%202020.pdf)
