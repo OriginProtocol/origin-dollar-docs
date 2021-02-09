@@ -12,7 +12,7 @@ Origin Dollar \ (OUSD \) is een nieuwe stabiele munt die voor het eerst werd gel
 
 **Achtergrond**
 
-In 1999, Yu Pan, Origin’s R&D engineer, and his fellow PayPal co-founders [conceived](https://www.cnbc.com/2017/08/14/david-sacks-cryptocurrency-interview.html) of creating “the new world currency”, complete with interest yielding strategies and debit cards without having to connect to traditional banking systems. Several pivots and an eBay acquisition later, PayPal dropped its ambitions in this area.
+In 1999 hebben Yu Pan, een R&D ingenieur en zijn collega medeoprichters van PayPal [ een concept bedacht](https://www.cnbc.com/2017/08/14/david-sacks-cryptocurrency-interview.html) voor het creëren van “de nieuwe wereld munt”, compleet met rentegevende strategieën en debetkaarten, zonder dat het verbonden was aan de traditionele bancaire systemen. Several pivots and an eBay acquisition later, PayPal dropped its ambitions in this area.
 
 Almost two decades later, Tether introduced the concept of a USD-denominated stablecoin in 2014. Since then, stablecoins have proven themselves as an ideal way of transferring value without exposing users to the price volatility of free-floating currencies. Today, more value is [transferred via Tether](https://www.bloomberg.com/news/articles/2019-10-01/tether-not-bitcoin-likely-the-world-s-most-used-cryptocurrency) than with Bitcoin. Meanwhile, Decentralized Finance \(DeFi\) has experienced an explosion of growth with [billions of dollars](https://defipulse.com/) of capital now locked up in smart contracts that generate yields from lending and trading protocols.
 
