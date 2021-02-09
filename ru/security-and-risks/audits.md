@@ -15,24 +15,24 @@ OUSD прошел аудит в нескольких уважаемых комп
 Кроме того, основные стратегии и зависимости, которые использует OUSD, были тщательно проверены различными компаниями.
 
 {% hint style="info" %}
-OUSD only integrates strategies that have been carefully audited and battle-tested with significant capital over an extended period of time.
+OUSD интегрирует только те стратегии, которые были тщательно проаудированы и проверены в деле, со значительным капиталом и в течение длительного периода времени.
 {% endhint %}
 
-**Compound Strategy and Open Price Feed**
+**Cтратегия Compound и открытый ценовой поток**
 
-Compound has been audited by [Trail of Bits](https://www.trailofbits.com) and [OpenZeppelin](https://openzeppelin.com/) and formally verified by [Certora](https://www.certora.com/). Visit the Compound website for their [full list of audits](https://compound.finance/docs/security#audits) including the original code for the modified [Timelock](../smart-contracts/api/timelock.md) that OUSD is using.
+Compound прошел аудит [Trail of Bits](https://www.trailofbits.com) и [OpenZeppelin](https://openzeppelin.com/), а так же формально проверен [Certora](https://www.certora.com/). Посетите веб-сайт Compound, чтобы получить [полный перечень аудитов](https://compound.finance/docs/security#audits), включающий исходный код для модифицированной [Временной блокировки](../smart-contracts/api/timelock.md), которую использует OUSD.
 
-**Aave Strategy**
+**Стратегия Aave**
 
-Aave has been audited by [Trail of Bits](https://www.trailofbits.com), [OpenZeppelin](https://openzeppelin.com/), [ConsenSys Diligence](https://consensys.net/diligence/), [Certik](https://certik.io/), [MixBytes](https://mixbytes.io/), and [PeckShield](https://peckshield.com/). They have also been formally verified by [Certora](https://www.certora.com/). Visit the Aave website for [their full list of audits](https://docs.aave.com/developers/security-and-audits).
+Aave прошла аудит [Trail of Bits](https://www.trailofbits.com), [OpenZeppelin](https://openzeppelin.com/), [ConsenSys Diligence](https://consensys.net/diligence/), [Certik](https://certik.io/), [MixBytes](https://mixbytes.io/)и [PeckShield](https://peckshield.com/). Она также была официально проверена [Certora](https://www.certora.com/). Посетите веб-сайт Aave, чтобы получить [полный перечень аудитов](https://docs.aave.com/developers/security-and-audits).
 
-**Curve Strategy**
+**Стратегия Curve**
 
-Curve has been audited by [Trail of Bits](https://www.trailofbits.com) and [Quantstamp](https://quantstamp.com/). Visit the Curve website for [their full list of audits](https://www.curve.fi/audits).
+Curve была проверена [Trail of Bits](https://www.trailofbits.com) и [Quantstamp](https://quantstamp.com/). Посетите веб-сайт Curve, чтобы получить [полный перечень аудитов](https://www.curve.fi/audits).
 
-**Chainlink Oracles**
+**Оракулы Chainlink**
 
-Chainlink has been audited by [Quantstamp](https://github.com/smartcontractkit/chainlink/tree/bafa91c), [SigmaPrime](https://github.com/smartcontractkit/chainlink/tree/cee356), [Callisto](https://gist.github.com/yuriy77k/c3a70d212a7f9ecda715252e45073158), and [Nick Johnson](https://github.com/smartcontractkit/chainlink/tree/5327f9). 
+Chainlink прошел аудит [Quantstamp](https://github.com/smartcontractkit/chainlink/tree/bafa91c), [SigmaPrime](https://github.com/smartcontractkit/chainlink/tree/cee356), [Callisto](https://gist.github.com/yuriy77k/c3a70d212a7f9ecda715252e45073158) и [Nick Johnson](https://github.com/smartcontractkit/chainlink/tree/5327f9). 
 
 
 
