@@ -22,7 +22,7 @@ Internal implementation contracts. The Vault is split into VaultAdmin and VaultC
 | Contract | Address |
 | :--- | :--- |
 | OUSD | [0x9d6975591E777D95Eef3bCC2a727846DA25d7083](https://etherscan.io/address/0x9d6975591E777D95Eef3bCC2a727846DA25d7083) |
-| VaultAdmin | [0x8F245d566f886662921e0Ff76ddF43695639D999](https://etherscan.io/address/0x8F245d566f886662921e0Ff76ddF43695639D999) |
+| VaultAdmin | [0xb5f7E47Bc7D271b3df4824BDcFBB279a719F8Ae6](https://etherscan.io/address/0xb5f7E47Bc7D271b3df4824BDcFBB279a719F8Ae6) |
 | VaultCore | [0xE54f14FC3fBc5915D070DE4758bcF591541BD1c3](https://etherscan.io/address/0xe54f14fc3fbc5915d070de4758bcf591541bd1c3) |
 | Mix Oracle | [0x843530DC8005e13dEA30CEa2394FF60635f38cc4](https://etherscan.io/address/0x843530DC8005e13dEA30CEa2394FF60635f38cc4) |
 | Chainlink Oracle | [0x017aD99900b9581Cd40C815990890EE9F0858246](https://etherscan.io/address/0x017aD99900b9581Cd40C815990890EE9F0858246) |
@@ -35,13 +35,15 @@ Well-known addresses \(proxy wrappers\):
 | :--- | :--- | :--- |
 | Aave | [0x9f2b18751376cF6a3432eb158Ba5F9b1AbD2F7ce](https://etherscan.io/address/0x9f2b18751376cF6a3432eb158Ba5F9b1AbD2F7ce) | 100% of DAI |
 | Compound | [0xD5433168Ed0B1F7714819646606DB509D9d8EC1f](https://etherscan.io/address/0xD5433168Ed0B1F7714819646606DB509D9d8EC1f) | 100% of USDC and USDT |
+| Curve 3Pool | [0x3c5fe0a3922777343CBD67D3732FCdc9f2Fa6f2F](https://etherscan.io/address/0x3c5fe0a3922777343CBD67D3732FCdc9f2Fa6f2F) | Manual allocation |
 
 Internal implementation contracts:
 
 | Strategy | Address |
 | :--- | :--- |
-| Aave | [0xA4144d814F03a2Bb0429CcB89a77Cd3703658B61](https://etherscan.io/address/0xA4144d814F03a2Bb0429CcB89a77Cd3703658B61) |
-| Compound | [0x36abc8fe8e20Bc4637EdA83B5AD9810e9e54Bf13](https://etherscan.io/address/0x36abc8fe8e20Bc4637EdA83B5AD9810e9e54Bf13) |
+| Aave | [0xd97fE382b923F75Ab8951915eCF07CBf12c102D4](https://etherscan.io/address/0xd97fE382b923F75Ab8951915eCF07CBf12c102D4) |
+| Compound | [0x3a2c387b84b28F438aaF53e6d0B8e790D084D1d1](https://etherscan.io/address/0x3a2c387b84b28F438aaF53e6d0B8e790D084D1d1) |
+| Curve 3Pool | [0x9F2E2b1c5F6Ac748b61f07e88f912A1df33Dfe55](https://etherscan.io/address/0x9F2E2b1c5F6Ac748b61f07e88f912A1df33Dfe55) |
 {% endtab %}
 
 {% tab title="Oracles" %}
