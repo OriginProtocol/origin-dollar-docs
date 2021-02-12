@@ -7,29 +7,37 @@ description: >-
 
 # Vault
 
+## Units
+
+All OUSD amounts passed or returned by the Vault methods use 18 decimal places. For example, 1 OUSD is expressed as 1000000000000000000.
+
+For other stable coins, the number of decimal places varies. DAI uses 18 decimal places while USDC and USDT use only 6.
+
 ## Methods‌
 
 ### mint\(\) <a id="mint"></a>
 
-**`function mint(address _asset, uint256 _amount)`**‌
+**`function mint(address _asset, uint256 _amount, uint256 _minimumOusdAmount)`**‌
 
 Mints OUSD in exchange for a deposit of a certain `_amount` of stablecoin specified by the `_asset` parameter. The caller receives a certain amount of OUSD depending on the **exchange rate**.
 
 | Parameter Name | Type | Description |
 | :--- | :--- | :--- |
 | \_asset | address | Address of the [supported](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/core-concepts/supported-assets) stablecoin |
-| \_amount | uint256 | amount deposited, expressed in decimal units |
+| \_amount | uint256 | Amount deposited, expressed in decimal units |
+| \_minimumOusdAmount | uint256 | Minimum amount of OUSD the caller is willing to receive. The call to mint\(\) reverts if the minimum is not met. |
 
 ### mintMultiple\(\) <a id="mintmultiple"></a>
 
-**`function mintMultiple(address[] _assets, uint256[] _amounts)`**‌
+**`function mintMultiple(address[] _assets, uint256[] _amounts, uint256 _minimumOusdAmount)`**‌
 
 Mints OUSD in exchange for a deposit of multiple stablecoins in a single call. Stablecoins are specified by the `_assets` array parameter and the amounts by the `_amounts` array parameter. The caller receives a certain amount of OUSD depending on the **exchange rate**.
 
 | Parameter Name | Type | Description |
 | :--- | :--- | :--- |
 | \_assets | address\[\] | Addresses of the [supported](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/core-concepts/supported-assets) stablecoins |
-| \_amounts | uint256\[\] | amounts deposited, expressed in decimal units |
+| \_amounts | uint256\[\] | Amounts deposited, expressed in decimal units |
+| \_minimumOusdAmount | uint256 | Minimum amount of OUSD the caller is willing to receive. The call to mint\(\) reverts if the minimum is not met. |
 
 {% hint style="warning" %}
 On redemptions, it is the protocol and not the user that decides which stablecoin\(s\) are returned to the user. This decision of which coin\(s\) to return is based on the internal ratios of the assets that are being held in the vault.‌
@@ -123,7 +131,7 @@ Return the number of strategies active on the Vault represented by `uint256` typ
 
 **`function getAPR()`**‌
 
-Return the total annual percentage yield \(APR\) of the Vault and all Strategies represented by `uint256` type. Resulting number has 18 decimal spaces.‌
+Return the total annual percentage yield \(APR\) of the Vault and all Strategies represented by `uint256` type. Resulting number has 18 decimal places.‌
 
 ### isSupportedAsset\(\) <a id="issupportedasset"></a>
 
@@ -139,7 +147,7 @@ Return the boolean that is true if the asset specified by the `_asset` parameter
 
 **`function priceUSDMint(string symbol)`**‌‌
 
-Returns the exchange rate price of a stable coin specified by the `symbol` parameters used when minting OUSD represented by `uint256` type. Resulting number has 18 decimal spaces.
+Returns the exchange rate price of a stable coin specified by the `symbol` parameters used when minting OUSD represented by `uint256` type. Resulting number has 18 decimal places.
 
 | Parameter Name | Type | Description |
 | :--- | :--- | :--- |
@@ -149,7 +157,7 @@ Returns the exchange rate price of a stable coin specified by the `symbol` param
 
 **`function priceUSDRedeem(string symbol)`**‌‌
 
-Returns the exchange rate price of a stable coin specified by the `symbol` parameters used when redeeming OUSD represented by `uint256` type. Resulting number has 18 decimal spaces.
+Returns the exchange rate price of a stable coin specified by the `symbol` parameters used when redeeming OUSD represented by `uint256` type. Resulting number has 18 decimal places.
 
 | Parameter Name | Type | Description |
 | :--- | :--- | :--- |
@@ -159,7 +167,7 @@ Returns the exchange rate price of a stable coin specified by the `symbol` param
 
 **`function priceAssetUSDMint(address _asset)`**‌‌
 
-Returns the exchange rate price of a stable coin specified by the `_asset` parameters used when minting OUSD represented by `uint256` type. Resulting number has 18 decimal spaces.
+Returns the exchange rate price of a stable coin specified by the `_asset` parameters used when minting OUSD represented by `uint256` type. Resulting number has 18 decimal places.
 
 | Parameter Name | Type | Description |
 | :--- | :--- | :--- |
@@ -169,7 +177,7 @@ Returns the exchange rate price of a stable coin specified by the `_asset` param
 
 **`function priceAssetUSDRedeem(address _asset)`**‌‌‌
 
-Returns the exchange rate price of a stable coin specified by the `_asset` parameters used when redeeming OUSD represented by `uint256` type. Resulting number has 18 decimal spaces.
+Returns the exchange rate price of a stable coin specified by the `_asset` parameters used when redeeming OUSD represented by `uint256` type. Resulting number has 18 decimal places.
 
 | Parameter Name | Type | Description |
 | :--- | :--- | :--- |
