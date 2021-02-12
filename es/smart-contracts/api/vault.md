@@ -5,39 +5,47 @@ description: >-
 
 # Bóveda
 
-## Métodos
+## Units
+
+All OUSD amounts passed or returned by the Vault methods use 18 decimal places. For example, 1 OUSD is expressed as 1000000000000000000.
+
+For other stable coins, the number of decimal places varies. DAI uses 18 decimal places while USDC and USDT use only 6.
+
+## Methods‌
 
 ### mint\(\) <a id="mint"></a>
 
-**`function mint(address _asset, uint256 _amount)`**
+**`function mint(address _asset, uint256 _amount, uint256 _minimumOusdAmount)`**‌
 
-Acuñar OUSD a cambio de un depósito de un determinado `_amount` de moneda estable especificado por el `_asset` parámetro. La persona que llama recibe una cierta cantidad de OUSD dependiendo del **tipo de cambio**.
+Mints OUSD in exchange for a deposit of a certain `_amount` of stablecoin specified by the `_asset` parameter. The caller receives a certain amount of OUSD depending on the **exchange rate**.
 
-| Nombre del parámetro | Tipo      | Descripción                                                                                                                                             |
-|:-------------------- |:--------- |:------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| \_asset            | dirección | Dirección de la moneda estable [admitida](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/core-concepts/supported-assets). |
-| \_amount           | uint256   | cantidad depositada, expresada en unidades decimales                                                                                                    |
+| Nombre del parámetro  | Tipo      | Descripción                                                                                                                                             |
+|:--------------------- |:--------- |:------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| \_asset             | dirección | Dirección de la moneda estable [admitida](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/core-concepts/supported-assets). |
+| \_amount            | uint256   | Amount deposited, expressed in decimal units                                                                                                            |
+| \_minimumOusdAmount | uint256   | Minimum amount of OUSD the caller is willing to receive. The call to mint\(\) reverts if the minimum is not met.                                      |
 
 ### mintMultiple \ (\) <a id="mintmultiple"></a>
 
-**`function mintMultiple(address[] _assets, uint256[] _amounts)`**
+**`function mintMultiple(address[] _assets, uint256[] _amounts, uint256 _minimumOusdAmount)`**‌
 
-Acuñar OUSD a cambio de un depósito de múltiples monedas estables en una sola llamada. Las monedas estables se especifican mediante el parámetro de matriz `_assets` y las cantidades mediante el parámetro de matriz `_amounts`. La persona que llama recibe una cierta cantidad de OUSD dependiendo del **tipo de cambio**.
+Mints OUSD in exchange for a deposit of multiple stablecoins in a single call. Stablecoins are specified by the `_assets` array parameter and the amounts by the `_amounts` array parameter. The caller receives a certain amount of OUSD depending on the **exchange rate**.
 
-| Nombre del parámetro | Tipo            | Descripción                                                                                                                                                   |
-|:-------------------- |:--------------- |:------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| \_assets           | dirección\[\] | Direcciones de las monedas estables [admitidas](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/core-concepts/supported-assets). |
-| \_amounts          | uint256\[\]   | cantidades depositadas, expresadas en unidades decimales                                                                                                      |
+| Nombre del parámetro  | Tipo            | Descripción                                                                                                                                                   |
+|:--------------------- |:--------------- |:------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| \_assets            | dirección\[\] | Direcciones de las monedas estables [admitidas](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/core-concepts/supported-assets). |
+| \_amounts           | uint256\[\]   | Amounts deposited, expressed in decimal units                                                                                                                 |
+| \_minimumOusdAmount | uint256         | Minimum amount of OUSD the caller is willing to receive. The call to mint\(\) reverts if the minimum is not met.                                            |
 
 {% hint style="warning" %}
-En los canjes, es el protocolo y no el usuario el que decide qué moneda estable \(s\) devolver al usuario. Esta decisión de qué moneda \(s\) devolver se basa en las relaciones internas de los activos que se mantienen en la bóveda.
+On redemptions, it is the protocol and not the user that decides which stablecoin\(s\) are returned to the user. This decision of which coin\(s\) to return is based on the internal ratios of the assets that are being held in the vault.‌
 {% endhint %}
 
 ### redeem\(\) <a id="redeem"></a>
 
-**`function redeem(uint256 _amount)`**
+**`function redeem(uint256 _amount)`**‌
 
-El OUSD especificado parámetro `_amount` canjea a cambio de una o varias monedas estables admitidas. La cantidad de monedas estables recibidas depende del **tipo de cambio**.
+OUSD specified by the `_amount` parameter is redeemed in exchange for one or multiple supported stablecoins. La cantidad de monedas estables recibidas depende del **tipo de cambio**.
 
 | Nombre del parámetro | Tipo    | Descripción                                      |
 |:-------------------- |:------- |:------------------------------------------------ |
@@ -45,27 +53,27 @@ El OUSD especificado parámetro `_amount` canjea a cambio de una o varias moneda
 
 ### redeemAll\(\)‌ <a id="redeemall"></a>
 
-**`function redeemAll()`**
+**`function redeemAll()`**‌
 
-Todo el OUSD en posesión del usuario se canjea a cambio de una o varias monedas estables compatibles. La cantidad de monedas estables recibidas depende del **tipo de cambio**.
+All OUSD in user's possession is redeemed in exchange for one or multiple supported stablecoins. Amount of stablecoins received depends on the **exchange rate**.
 
 ### rebase\(\) <a id="rebase"></a>
 
-**`function rebase()`**
+**`function rebase()`**‌
 
-Actualiza los saldos de todos los usuarios según el valor de los activos almacenados actualmente en la bóveda. Devuelve el valor total de los activos y estrategias subyacentes representados por el tipo `uint256`.
+Updates the balances for all users based on the value of the assets currently stored in the vault. Returns total value of the underlying assets and strategies represented by `uint256` type.‌
 
 ### allocate\(\) <a id="allocate"></a>
 
-**`function allocate()`**
+**`function allocate()`**‌
 
-Mueve los activos bajo administración a sus [estrategias](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/architecture/strategies) prescritas para maximizar el rendimiento y diversificar el riesgo.
+Moves the assets under management into their prescribed [Stategies](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/architecture/strategies) to maximize yield and diversify risk.‌
 
 ### totalValue\(\) <a id="totalvalue"></a>
 
-**`function totalValue()`**
+**`function totalValue()`**‌
 
-Devuelve el valor total de los activos y estrategias subyacentes.
+Returns total value of underlying assets and strategies.
 
 | `return` nombre | Tipo    | Descripción                                           |
 |:--------------- |:------- |:----------------------------------------------------- |
@@ -73,9 +81,9 @@ Devuelve el valor total de los activos y estrategias subyacentes.
 
 ### checkBalance\(\) <a id="checkbalance"></a>
 
-**`function checkBalance(address _asset)`**
+**`function checkBalance(address _asset)`**‌
 
-Devuelve el saldo de un activo especificado por el parámetro`_asset` contenido en la Bóveda y todas las estrategias representadas por el tipo `uint256`.
+Returns the balance of an asset specified by the`_asset` parameter held in Vault and all strategies represented by `uint256` type.
 
 | Nombre del parámetro | Tipo      | Descripción                                                                                                                                             |
 |:-------------------- |:--------- |:------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -83,13 +91,13 @@ Devuelve el saldo de un activo especificado por el parámetro`_asset` contenido 
 
 ### calculateRedeemOutputs\(\)<a id="calculateredeemoutputs"></a>
 
-**`function calculateRedeemOutputs(uint256 _amount)`**
+**`function calculateRedeemOutputs(uint256 _amount)`**‌
 
-Calcule la combinación de monedas estables que una función `redeem` devolvería al canjear cierta cantidad de OUSD especificada por el parámetro `_amount`. Devuelve una matriz de valores de monedas estables.
+Calculate the mix of stablecoins that a `redeem` function would return when redeeming certain amount of OUSD specified by the `_amount` parameter. Returns an array of stablecoin values.
 
-Para atribuir los valores de la moneda estable a la moneda de la moneda estable correcta, esta llamada debe usarse junto con la función `getAllAssets` que devuelve una matriz de direcciones de la moneda estable.
+To attribute the stablecoin values to the correct stablecoin currency this call should be used in conjunction with `getAllAssets` function that returns an array of stablecoin addresses.
 
-El índice de una matriz que devuelve `calculateRedeemOutputs` corresponde a la dirección de la moneda estable con el mismo índice en una matriz devuelta por la función `getAllAssets`.
+The index of an array that is returned by the `calculateRedeemOutputs` corresponds to the stablecoin address with the same index in an array returned by the `getAllAssets` function.
 
 | Nombre del parámetro | Tipo    | Descripción                                      |
 |:-------------------- |:------- |:------------------------------------------------ |
@@ -101,33 +109,33 @@ El índice de una matriz que devuelve `calculateRedeemOutputs` corresponde a la 
 
 ### getAssetCount\(\) <a id="getassetcount"></a>
 
-**`function getAssetCount()`**
+**`function getAssetCount()`**‌
 
-Devuelve el número de activos de stablecoin admitidos representados por el tipo `uint256`.
+Return the number of supported stablecoin assets represented by `uint256` type.‌
 
 ### getAllAssets\(\) <a id="getallassets"></a>
 
-**`function getAllAssets()`**
+**`function getAllAssets()`**‌
 
-Devuelve el número de activos de moneda estable admitidos representados por el tipo `uint256`.
+Return all assets addresses of supported stablecoin assets in order represented by `uint256` type.‌
 
 ### getStrategyCount\(\)‌ <a id="getstrategycount"></a>
 
-**`function getStrategyCount ()`**
+**`function getStrategyCount()`**‌
 
-Devuelve el número de estrategias activas en la Bóveda representado por `uint256` tipo.
+Return the number of strategies active on the Vault represented by `uint256` type.‌
 
 ### getAPR\(\) <a id="getapr"></a>
 
-**`function getAPR ()`**
+**`function getAPR()`**‌
 
-Devuelve el rendimiento porcentual anual total \ (APR \) de la Bóveda y todas las estrategias representadas por el tipo `uint256`. El número resultante tiene 18 espacios decimales.
+Return the total annual percentage yield \(APR\) of the Vault and all Strategies represented by `uint256` type. Resulting number has 18 decimal places.‌
 
 ### isSupportedAsset\(\) <a id="issupportedasset"></a>
 
-**`function isSupportedAsset(address _asset)`**
+**`function isSupportedAsset(address _asset)`**‌
 
-Devuelve el valor booleano verdadero si el activo especificado por el parámetro `_asset` es compatible con la Bóveda.
+Return the boolean that is true if the asset specified by the `_asset` parameter is supported by the Vault.
 
 | Nombre del parámetro | Tipo      | Descripción                    |
 |:-------------------- |:--------- |:------------------------------ |
@@ -135,9 +143,9 @@ Devuelve el valor booleano verdadero si el activo especificado por el parámetro
 
 ### priceUSDMint\(\) <a id="issupportedasset-1"></a>
 
-**`function priceUSDMint(string symbol)`**
+**`function priceUSDMint(string symbol)`**‌‌
 
-Devuelve el precio del tipo de cambio de una moneda estable especificado por los parámetros del `symbol` utilizados al acuñar OUSD representado por el tipo `uint256`. El número resultante tiene 18 espacios decimales.
+Returns the exchange rate price of a stable coin specified by the `symbol` parameters used when minting OUSD represented by `uint256` type. Resulting number has 18 decimal places.
 
 | Nombre del parámetro | Tipo   | Descripción                  |
 |:-------------------- |:------ |:---------------------------- |
@@ -145,9 +153,9 @@ Devuelve el precio del tipo de cambio de una moneda estable especificado por los
 
 ### priceUSDRedeem\(\) <a id="issupportedasset-2"></a>
 
-**`function priceUSDRedeem(string symbol)`**
+**`function priceUSDRedeem(string symbol)`**‌‌
 
-Devuelve el precio del tipo de cambio de una moneda estable especificado por los parámetros del `symbol` utilizados al canjear OUSD representado por el tipo `uint256`. El número resultante tiene 18 espacios decimales.
+Returns the exchange rate price of a stable coin specified by the `symbol` parameters used when redeeming OUSD represented by `uint256` type. Resulting number has 18 decimal places.
 
 | Nombre del parámetro | Tipo   | Descripción                  |
 |:-------------------- |:------ |:---------------------------- |
@@ -155,9 +163,9 @@ Devuelve el precio del tipo de cambio de una moneda estable especificado por los
 
 ### priceAssetUSDMint\(\)‌ <a id="issupportedasset-3"></a>
 
-**`function priceAssetUSDMint(address _asset)`**
+**`function priceAssetUSDMint(address _asset)`**‌‌
 
-Devuelve el precio del tipo de cambio de una moneda estable especificado por los parámetros `_asset` utilizados al acuñar OUSD representado por el tipo `uint256`. El número resultante tiene 18 espacios decimales.
+Returns the exchange rate price of a stable coin specified by the `_asset` parameters used when minting OUSD represented by `uint256` type. Resulting number has 18 decimal places.
 
 | Nombre del parámetro | Tipo      | Descripción                     |
 |:-------------------- |:--------- |:------------------------------- |
@@ -165,9 +173,9 @@ Devuelve el precio del tipo de cambio de una moneda estable especificado por los
 
 ### priceAssetUSDRedeem\(\)‌ <a id="issupportedasset-3-1"></a>
 
-**`function priceAssetUSDRedeem(address _asset)`**
+**`function priceAssetUSDRedeem(address _asset)`**‌‌‌
 
-Devuelve el precio de tipo de cambio de una moneda estable especificado por los parámetros `_asset` utilizados al canjear OUSD representado por el tipo `uint256`. El número resultante tiene 18 espacios decimales.
+Returns the exchange rate price of a stable coin specified by the `_asset` parameters used when redeeming OUSD represented by `uint256` type. Resulting number has 18 decimal places.
 
 | Nombre del parámetro | Tipo      | Descripción                    |
 |:-------------------- |:--------- |:------------------------------ |
