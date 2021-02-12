@@ -5,39 +5,47 @@ description: >-
 
 # Kasa
 
-## Yöntemler‌
+## Units
+
+All OUSD amounts passed or returned by the Vault methods use 18 decimal places. For example, 1 OUSD is expressed as 1000000000000000000.
+
+For other stable coins, the number of decimal places varies. DAI uses 18 decimal places while USDC and USDT use only 6.
+
+## Methods‌
 
 ### mint\(\)<a id="mint"></a>
 
-**`function mint(address _asset, uint256 _amount)`**
+**`function mint(address _asset, uint256 _amount, uint256 _minimumOusdAmount)`**‌
 
-`_asset` parametresi ile belirtilen `_tutar` stablecoin depozitosu karşılığında OUSD'yi daraltır. Arayan, **döviz kuru**bağlı olarak belirli miktarda OUSD alır.
+Mints OUSD in exchange for a deposit of a certain `_amount` of stablecoin specified by the `_asset` parameter. The caller receives a certain amount of OUSD depending on the **exchange rate**.
 
-| Parametre adı | Tür     | Açıklama                                                                                                                                       |
-|:------------- |:------- |:---------------------------------------------------------------------------------------------------------------------------------------------- |
-| \_asset     | address | [desteklenen](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/core-concepts/supported-assets) stabilcoinin adresi |
-| \_Miktar    | uint256 | ondalık birimlerle ifade edilen yatırılan miktar                                                                                               |
+| Parametre adı         | Tür     | Açıklama                                                                                                                                       |
+|:--------------------- |:------- |:---------------------------------------------------------------------------------------------------------------------------------------------- |
+| \_asset             | address | [desteklenen](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/core-concepts/supported-assets) stabilcoinin adresi |
+| \_Miktar            | uint256 | Amount deposited, expressed in decimal units                                                                                                   |
+| \_minimumOusdAmount | uint256 | Minimum amount of OUSD the caller is willing to receive. The call to mint\(\) reverts if the minimum is not met.                             |
 
 ### mintMultiple\(\)<a id="mintmultiple"></a>
 
-**`function mintMultiple(address[] _assets, uint256[] _amounts)`**
+**`function mintMultiple(address[] _assets, uint256[] _amounts, uint256 _minimumOusdAmount)`**‌
 
-Tek bir aramada birden fazla stabilcoin depozitosu karşılığında Mints OUSD. Sabit paralar `_assets` dizi parametresi ve miktarlar `_amounts` dizi parametresi ile belirtilir. Arayan, **döviz kuru**bağlı olarak belirli miktarda OUSD alır.
+Mints OUSD in exchange for a deposit of multiple stablecoins in a single call. Stablecoins are specified by the `_assets` array parameter and the amounts by the `_amounts` array parameter. The caller receives a certain amount of OUSD depending on the **exchange rate**.
 
-| Parametre adı      | Tür                   | Açıklama                                                                                                                                       |
-|:------------------ |:--------------------- |:---------------------------------------------------------------------------------------------------------------------------------------------- |
-| \_assets CONTEXT | address\[\] CONTEXT | [desteklenen](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/core-concepts/supported-assets) stabilcoinin adresi |
-| \_Miktar         | uint256\[\]         | ondalık birimlerle ifade edilen yatırılan miktar                                                                                               |
+| Parametre adı         | Tür                   | Açıklama                                                                                                                                       |
+|:--------------------- |:--------------------- |:---------------------------------------------------------------------------------------------------------------------------------------------- |
+| \_assets CONTEXT    | address\[\] CONTEXT | [desteklenen](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/core-concepts/supported-assets) stabilcoinin adresi |
+| \_Miktar            | uint256\[\]         | Amounts deposited, expressed in decimal units                                                                                                  |
+| \_minimumOusdAmount | uint256               | Minimum amount of OUSD the caller is willing to receive. The call to mint\(\) reverts if the minimum is not met.                             |
 
-{% hint style="uyarı" %}
-Geri alımlarda, kullanıcıya hangi stabilcoin \ (ler) i iade edeceğine karar veren kullanıcı değil protokoldür. Hangi coin\(ler)in iade edileceğine dair bu karar, havuzda tutulan varlıkların iç oranlarına dayanmaktadır.‌
+{% hint style="warning" %}
+On redemptions, it is the protocol and not the user that decides which stablecoin\(s\) are returned to the user. This decision of which coin\(s\) to return is based on the internal ratios of the assets that are being held in the vault.‌
 {% endhint %}
 
 ### tazmin etmek\(\) <a id="redeem"></a>
 
-**`function mint(address _asset, uint256 _amount)`**
+**`function redeem(uint256 _amount)`**‌
 
-`_amount` parametresiyle belirtilen OUSD, desteklenen bir veya daha fazla stablecoin karşılığında kullanılır. Alınan stablecoin miktarı **döviz kuru**bağlıdır.
+OUSD specified by the `_amount` parameter is redeemed in exchange for one or multiple supported stablecoins. Alınan stablecoin miktarı **döviz kuru**bağlıdır.
 
 | Parametre adı      | Tür     | Açıklama                                         |
 |:------------------ |:------- |:------------------------------------------------ |
@@ -45,28 +53,28 @@ Geri alımlarda, kullanıcıya hangi stabilcoin \ (ler) i iade edeceğine karar 
 
 ### redeemAll \ (\) ‌ <a id="redeemall"></a>
 
-**`function mint(address _asset, uint256 _amount)`**
+**`function redeemAll()`**‌
 
-Kullanıcının sahip olduğu tüm OUSD, desteklenen bir veya daha fazla sabit coin karşılığında kullanılır. Alınan stablecoin miktarı **döviz kuru**bağlıdır.
+All OUSD in user's possession is redeemed in exchange for one or multiple supported stablecoins. Amount of stablecoins received depends on the **exchange rate**.
 
 ### rebase\(\) 
 <a id="rebase"></a>
 
 **`function rebase()`**‌
 
-rebase (), havuzda o anda depolanan varlıkların değerine göre tüm kullanıcılar için bakiyeleri günceller. `uint256` türüyle temsil edilen dayanak varlıkların ve stratejilerin toplam değerini verir.
+Updates the balances for all users based on the value of the assets currently stored in the vault. Returns total value of the underlying assets and strategies represented by `uint256` type.‌
 
 ### ayırmak \ (\) <a id="allocate"></a>
 
-**`function rebase()`**‌
+**`function allocate()`**‌
 
-Verimi en üst düzeye çıkarmak ve riski çeşitlendirmek için yönetim altındaki varlıkları öngörülen [Stratejilere](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/architecture/strategies) taşır.
+Moves the assets under management into their prescribed [Stategies](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/architecture/strategies) to maximize yield and diversify risk.‌
 
 ### toplam değer\(\) <a id="totalvalue"></a>
 
-**`function rebase()`**‌
+**`function totalValue()`**‌
 
-Temel varlıkların ve stratejilerin toplam değerini verir.
+Returns total value of underlying assets and strategies.
 
 | `dönüş` isim | Tür     | Açıklama                                                  |
 |:------------ |:------- |:--------------------------------------------------------- |
@@ -75,9 +83,9 @@ Temel varlıkların ve stratejilerin toplam değerini verir.
 ### checkBalance\(\) 
 <a id="checkbalance"></a>
 
-**`function rebase()`**‌
+**`function checkBalance(address _asset)`**‌
 
-Apps Kasası'nda tutulan`_asset` parametresi ve `uint256` türüyle temsil edilen tüm stratejiler tarafından belirtilen bir öğenin bakiyesini döndürür.
+Returns the balance of an asset specified by the`_asset` parameter held in Vault and all strategies represented by `uint256` type.
 
 | Parametre adı | Tür   | Açıklama                                                                                                                                       |
 |:------------- |:----- |:---------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -85,13 +93,13 @@ Apps Kasası'nda tutulan`_asset` parametresi ve `uint256` türüyle temsil edile
 
 ### calculateRedeemOutputs \ (\) <a id="calculateredeemoutputs"></a>
 
-**`function mint(address _asset, uint256 _amount)`**
+**`function calculateRedeemOutputs(uint256 _amount)`**‌
 
-`redeem` işlevinin `_amount` parametresi tarafından belirtilen belirli miktarda OUSD paraya çevrildiğinde döndüreceği stabilcoin karışımını hesaplayın. Bir dizi stablecoin değeri döndürür.
+Calculate the mix of stablecoins that a `redeem` function would return when redeeming certain amount of OUSD specified by the `_amount` parameter. Returns an array of stablecoin values.
 
-Stabilcoin değerlerini doğru stabilcoin para birimine atfetmek için bu çağrı, bir stabilcoin adresi dizisi döndüren `getAllAssets` fonksiyonu ile birlikte kullanılmalıdır.
+To attribute the stablecoin values to the correct stablecoin currency this call should be used in conjunction with `getAllAssets` function that returns an array of stablecoin addresses.
 
-`calculateRedeemOutputs` tarafından döndürülen bir dizinin dizini, `getAllAssets` işlevi tarafından döndürülen bir dizideki aynı dizine sahip stabilcoin adresine karşılık gelir.
+The index of an array that is returned by the `calculateRedeemOutputs` corresponds to the stablecoin address with the same index in an array returned by the `getAllAssets` function.
 
 | Parametre adı | Tür     | Açıklama                                         |
 |:------------- |:------- |:------------------------------------------------ |
@@ -103,33 +111,33 @@ Stabilcoin değerlerini doğru stabilcoin para birimine atfetmek için bu çağr
 
 ### getAssetCount \ (\) <a id="getassetcount"></a>
 
-**`function rebase()`**‌
+**`function getAssetCount()`**‌
 
-`uint256` türü ile temsil edilen desteklenen stablecoin varlıklarının sayısını döndürün.
+Return the number of supported stablecoin assets represented by `uint256` type.‌
 
 ### getAllAssets \ (\) <a id="getallassets"></a>
 
-**`function rebase()`**‌
+**`function getAllAssets()`**‌
 
-`uint256` türü ile temsil edilen desteklenen stablecoin varlıklarının sayısını döndürün.
+Return all assets addresses of supported stablecoin assets in order represented by `uint256` type.‌
 
 ### getStrategyCount \ (\) ‌ <a id="getstrategycount"></a>
 
-**`function rebase()`**‌
+**`function getStrategyCount()`**‌
 
-`uint256` türü ile temsil edilen desteklenen stablecoin varlıklarının sayısını döndürün.
+Return the number of strategies active on the Vault represented by `uint256` type.‌
 
 ### getAPR \ (\) <a id="getapr"></a>
 
-**`function rebase()`**‌
+**`function getAPR()`**‌
 
-Apps Kasası ve `uint256` türüyle temsil edilen tüm Stratejilerin toplam yıllık yüzde getirisini \ (APR \) getirin. Ortaya çıkan numarada 18 ondalık boşluk vardır.
+Return the total annual percentage yield \(APR\) of the Vault and all Strategies represented by `uint256` type. Resulting number has 18 decimal places.‌
 
 ### isSupportedAsset \ (\) <a id="issupportedasset"></a>
 
-**`isSupportedAsset (adres _asset)`**
+**`function isSupportedAsset(address _asset)`**‌
 
-`_asset` parametresiyle belirtilen öğe Apps Kasası tarafından destekleniyorsa doğru olan boole değerini döndürür.
+Return the boolean that is true if the asset specified by the `_asset` parameter is supported by the Vault.
 
 | Parametre adı | Tür   | Açıklama             |
 |:------------- |:----- |:-------------------- |
@@ -137,9 +145,9 @@ Apps Kasası ve `uint256` türüyle temsil edilen tüm Stratejilerin toplam yıl
 
 ### fiyatUSDMint \ (\) <a id="issupportedasset-1"></a>
 
-**`function mint(address _asset, uint256 _amount)`**
+**`function priceUSDMint(string symbol)`**‌‌
 
-`uint256` türüyle temsil edilen OUSD basarken kullanılan `sembolü` parametreleri tarafından belirtilen sabit bir madeni paranın döviz kuru fiyatını döndürür. Ortaya çıkan numarada 18 ondalık boşluk vardır.
+Returns the exchange rate price of a stable coin specified by the `symbol` parameters used when minting OUSD represented by `uint256` type. Resulting number has 18 decimal places.
 
 | Parametre adı | Tür  | Açıklama              |
 |:------------- |:---- |:--------------------- |
@@ -147,9 +155,9 @@ Apps Kasası ve `uint256` türüyle temsil edilen tüm Stratejilerin toplam yıl
 
 ### fiyatUSDRedeem \ (\) <a id="issupportedasset-2"></a>
 
-**`function mint(address _asset, uint256 _amount)`**
+**`function priceUSDRedeem(string symbol)`**‌‌
 
-`uint256` türüyle temsil edilen OUSD basarken kullanılan `sembolü` parametreleri tarafından belirtilen sabit bir madeni paranın döviz kuru fiyatını döndürür. Ortaya çıkan numarada 18 ondalık boşluk vardır.
+Returns the exchange rate price of a stable coin specified by the `symbol` parameters used when redeeming OUSD represented by `uint256` type. Resulting number has 18 decimal places.
 
 | Parametre adı | Tür  | Açıklama              |
 |:------------- |:---- |:--------------------- |
@@ -157,9 +165,9 @@ Apps Kasası ve `uint256` türüyle temsil edilen tüm Stratejilerin toplam yıl
 
 ### priceAssetUSDMint \ (\) ‌ <a id="issupportedasset-3"></a>
 
-**`function mint(address _asset, uint256 _amount)`**
+**`function priceAssetUSDMint(address _asset)`**‌‌
 
-`uint256` türüyle temsil edilen OUSD basarken kullanılan `sembolü` parametreleri tarafından belirtilen sabit bir madeni paranın döviz kuru fiyatını döndürür. Ortaya çıkan numarada 18 ondalık boşluk vardır.
+Returns the exchange rate price of a stable coin specified by the `_asset` parameters used when minting OUSD represented by `uint256` type. Resulting number has 18 decimal places.
 
 | Parametre adı | Tür     | Açıklama              |
 |:------------- |:------- |:--------------------- |
@@ -167,9 +175,9 @@ Apps Kasası ve `uint256` türüyle temsil edilen tüm Stratejilerin toplam yıl
 
 ### priceAssetUSDRedeem \ (\) ‌ <a id="issupportedasset-3-1"></a>
 
-**`function mint(address _asset, uint256 _amount)`**
+**`function priceAssetUSDRedeem(address _asset)`**‌‌‌
 
-`uint256` türüyle temsil edilen OUSD basarken kullanılan `sembolü` parametreleri tarafından belirtilen stabil coinin döviz kuru fiyatını döndürür. Ortaya çıkan numarada 18 ondalık boşluk vardır.
+Returns the exchange rate price of a stable coin specified by the `_asset` parameters used when redeeming OUSD represented by `uint256` type. Resulting number has 18 decimal places.
 
 | Parametre adı | Tür   | Açıklama             |
 |:------------- |:----- |:-------------------- |
