@@ -5,39 +5,47 @@ description: >-
 
 # Vault
 
-## Phương pháp‌
+## Units
+
+All OUSD amounts passed or returned by the Vault methods use 18 decimal places. For example, 1 OUSD is expressed as 1000000000000000000.
+
+For other stable coins, the number of decimal places varies. DAI uses 18 decimal places while USDC and USDT use only 6.
+
+## Methods‌
 
 ### mint () <a id="mint"></a>
 
-**`function mint(address _asset, uint256 _amount)`**
+**`function mint(address _asset, uint256 _amount, uint256 _minimumOusdAmount)`**‌
 
-Khai thác OUSD để đổi lấy một khoản tiền gửi bằng `_mount` nhất định của stablecoin được chỉ định bởi tham số `_asset`. Người gọi lệnh nhận được một lượng OUSD nhất định tùy thuộc vào **tỷ giá hối đoái**.
+Mints OUSD in exchange for a deposit of a certain `_amount` of stablecoin specified by the `_asset` parameter. The caller receives a certain amount of OUSD depending on the **exchange rate**.
 
-| Tên thông số | Loại    | Mô tả                                                                                                                                             |
-|:------------ |:------- |:------------------------------------------------------------------------------------------------------------------------------------------------- |
-| \_asset    | địa chỉ | Địa chỉ của stablecoin [được hỗ trợ](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/core-concepts/supported-assets) |
-| \_amount   | uint256 | Số tiền gửi, được biểu thị bằng đơn vị thập phân                                                                                                  |
+| Tên thông số          | Loại    | Mô tả                                                                                                                                             |
+|:--------------------- |:------- |:------------------------------------------------------------------------------------------------------------------------------------------------- |
+| \_asset             | địa chỉ | Địa chỉ của stablecoin [được hỗ trợ](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/core-concepts/supported-assets) |
+| \_amount            | uint256 | Amount deposited, expressed in decimal units                                                                                                      |
+| \_minimumOusdAmount | uint256 | Minimum amount of OUSD the caller is willing to receive. The call to mint\(\) reverts if the minimum is not met.                                |
 
 ### mintMultiple () <a id="mintmultiple"></a>
 
-**`function mintMultiple(address[] _assets, uint256[] _amounts)`**
+**`function mintMultiple(address[] _assets, uint256[] _amounts, uint256 _minimumOusdAmount)`**‌
 
-Khai thác OUSD để đổi lấy một khoản tiền gửi chứa nhiều stablecoin trong lần gọi lệnh. Stablecoin được chỉ định bởi tham số mảng `_assets` và số tiền bằng tham số mảng `_amounts`. Người gọi lệnh nhận được một lượng OUSD nhất định tùy thuộc vào **tỷ giá hối đoái**.
+Mints OUSD in exchange for a deposit of multiple stablecoins in a single call. Stablecoins are specified by the `_assets` array parameter and the amounts by the `_amounts` array parameter. The caller receives a certain amount of OUSD depending on the **exchange rate**.
 
-| Tên thông số | Loại       | Mô tả                                                                                                                                             |
-|:------------ |:---------- |:------------------------------------------------------------------------------------------------------------------------------------------------- |
-| \_assets   | địa chỉ [] | Địa chỉ của [stablecoin được hỗ trợ](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/core-concepts/supported-assets) |
-| \_amounts  | uint256 [] | Số tiền gửi, được biểu thị bằng đơn vị thập phân                                                                                                  |
+| Tên thông số          | Loại       | Mô tả                                                                                                                                             |
+|:--------------------- |:---------- |:------------------------------------------------------------------------------------------------------------------------------------------------- |
+| \_assets            | địa chỉ [] | Địa chỉ của [stablecoin được hỗ trợ](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/core-concepts/supported-assets) |
+| \_amounts           | uint256 [] | Amounts deposited, expressed in decimal units                                                                                                     |
+| \_minimumOusdAmount | uint256    | Minimum amount of OUSD the caller is willing to receive. The call to mint\(\) reverts if the minimum is not met.                                |
 
 {% hint style="warning" %}
-Khi hoàn lại tiền, chính giao thức sẽ quyết định stablecoin nào sẽ được trả lại cho người dùng. Việc lựa chọn đồng coin nào sẽ được trả sẽ dựa trên tỷ lệ nội bộ của tài sản đang được giữ trong vault.‌
+On redemptions, it is the protocol and not the user that decides which stablecoin\(s\) are returned to the user. This decision of which coin\(s\) to return is based on the internal ratios of the assets that are being held in the vault.‌
 {% endhint %}
 
 ### redeem () <a id="redeem"></a>
 
-**`function redeem(uint256 _amount)`**
+**`function redeem(uint256 _amount)`**‌
 
-OUSD được chỉ định bởi thông số `_amount` được quy đổi để đổi lấy một hoặc nhiều stablecoin được hỗ trợ. Số lượng stablecoin nhận được phụ thuộc vào **tỷ giá hối đoái**.
+OUSD specified by the `_amount` parameter is redeemed in exchange for one or multiple supported stablecoins. Số lượng stablecoin nhận được phụ thuộc vào **tỷ giá hối đoái**.
 
 | Tên thông số | Loại    | Mô tả                                |
 |:------------ |:------- |:------------------------------------ |
@@ -45,27 +53,27 @@ OUSD được chỉ định bởi thông số `_amount` được quy đổi đ�
 
 ### redeemAll ()‌ <a id="redeemall"></a>
 
-**`function redeemAll()`**
+**`function redeemAll()`**‌
 
-Tất cả OUSD mà người dùng sở hữu đều được đổi lấy một hoặc nhiều stablecoin được hỗ trợ. Số lượng stablecoin nhận được phụ thuộc vào **tỷ giá hối đoái**.
+All OUSD in user's possession is redeemed in exchange for one or multiple supported stablecoins. Amount of stablecoins received depends on the **exchange rate**.
 
 ### rebase () <a id="rebase"></a>
 
-**`function rebase()`**
+**`function rebase()`**‌
 
-Cập nhật số dư cho tất cả người dùng dựa trên giá trị của tài sản hiện đang được lưu trữ trong vault. Trả về tổng giá trị của các tài sản đảm bảo và chiến lược cơ bản được đại diện bằng `uint256` loại.‌
+Updates the balances for all users based on the value of the assets currently stored in the vault. Returns total value of the underlying assets and strategies represented by `uint256` type.‌
 
 ### allocate () <a id="allocate"></a>
 
-**`function allocate()`**
+**`function allocate()`**‌
 
-Di chuyển các tài sản thuộc quyền quản lý tới [các chiến lược](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/architecture/strategies) để tối đa hóa năng suất và đa dạng hoá rủi ro
+Moves the assets under management into their prescribed [Stategies](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/architecture/strategies) to maximize yield and diversify risk.‌
 
 ### totalValue () <a id="totalvalue"></a>
 
-**`function totalValue()`**
+**`function totalValue()`**‌
 
-Trả về tổng giá trị của các tài sản và chiến lược cơ bản.
+Returns total value of underlying assets and strategies.
 
 | `return` Tên | Loại    | Mô tả                                                     |
 |:------------ |:------- |:--------------------------------------------------------- |
@@ -75,7 +83,7 @@ Trả về tổng giá trị của các tài sản và chiến lược cơ bản
 
 **`function checkBalance(address _asset)`**‌
 
-Trả về số dư của nội dung được chỉ định bởi tham số`_asset` được giữ trong Vault và tất cả các chiến lược được thể hiện bằng loại `uint256`.
+Returns the balance of an asset specified by the`_asset` parameter held in Vault and all strategies represented by `uint256` type.
 
 | Tên thông số | Loại    | Mô tả                                                                                                                                             |
 |:------------ |:------- |:------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -85,11 +93,11 @@ Trả về số dư của nội dung được chỉ định bởi tham số`_ass
 
 **`function calculateRedeemOutputs(uint256 _amount)`**‌
 
-Tính toán kết hợp các stablecoin mà chức năng `redeem` sẽ trả lại khi người dùng muốn rút 1 số lượng OUSD nhất định được chỉ định bởi thông số `_amount`. Trả về một mảng giá trị stablecoin.
+Calculate the mix of stablecoins that a `redeem` function would return when redeeming certain amount of OUSD specified by the `_amount` parameter. Returns an array of stablecoin values.
 
-Để phân bổ các giá trị stablecoin cho đúng đơn vị tiền tệ stablecoin, lệnh gọi này nên được sử dụng cùng với hàm `getAllAssets` để trả về một mảng địa chỉ stablecoin.
+To attribute the stablecoin values to the correct stablecoin currency this call should be used in conjunction with `getAllAssets` function that returns an array of stablecoin addresses.
 
-Chỉ số của một mảng được trả về bởi `calculateRedeemOutputs` tương ứng với địa chỉ stablecoin với chỉ số tương tự trong một mảng trả về bởi hàm `getAllAssets`.
+The index of an array that is returned by the `calculateRedeemOutputs` corresponds to the stablecoin address with the same index in an array returned by the `getAllAssets` function.
 
 | Tên thông số | Loại    | Mô tả                                |
 |:------------ |:------- |:------------------------------------ |
@@ -103,31 +111,31 @@ Chỉ số của một mảng được trả về bởi `calculateRedeemOutputs`
 
 **`function getAssetCount()`**‌
 
-Trả về số lượng tài sản stablecoin được hỗ trợ được biểu thị bằng loại `uint256`.‌
+Return the number of supported stablecoin assets represented by `uint256` type.‌
 
 ### getAllAssets () <a id="getallassets"></a>
 
 **`function getAllAssets()`**‌
 
-Trả về địa chỉ tài sản được hỗ trợ được theo thứ tự được biểu thị bằng loại `uint256`.‌
+Return all assets addresses of supported stablecoin assets in order represented by `uint256` type.‌
 
 ### getStrategyCount () <a id="getstrategycount"></a>
 
 **`function getStrategyCount()`**‌
 
-Trả về số lượng chiến lược đang được sử dụng trong Vault biểu thị bằng loại `uint256`.‌
+Return the number of strategies active on the Vault represented by `uint256` type.‌
 
 ### getAPR () <a id="getapr"></a>
 
 **`function getAPR()`**‌
 
-Trả về tổng lợi nhuận phần trăm hàng năm (APR) của Vault và tất cả các Chiến lược được biểu thị bằng loại `uint256`. Số kết quả có 18 ký tự.‌
+Return the total annual percentage yield \(APR\) of the Vault and all Strategies represented by `uint256` type. Resulting number has 18 decimal places.‌
 
 ### isSupportedAsset (\) <a id="issupportedasset"></a>
 
 **`function isSupportedAsset(address _asset)`**‌
 
-Trả về kết quả boolean true nếu nội dung được chỉ định bởi tham số `_asset` được Vault hỗ trợ.
+Return the boolean that is true if the asset specified by the `_asset` parameter is supported by the Vault.
 
 | Tên thông số | Loại    | Mô tả                  |
 |:------------ |:------- |:---------------------- |
@@ -137,7 +145,7 @@ Trả về kết quả boolean true nếu nội dung được chỉ định bở
 
 **`function priceUSDMint(string symbol)`**‌‌
 
-Trả về giá tỷ giá hối đoái của đồng xu ổn định được chỉ định bởi các tham số `symbol` được sử dụng trả lại OUSD được đại diện bằng `uint256`. Số kết quả có 18 ký tự.
+Returns the exchange rate price of a stable coin specified by the `symbol` parameters used when minting OUSD represented by `uint256` type. Resulting number has 18 decimal places.
 
 | Tên thông số | Loại  | Mô tả                  |
 |:------------ |:----- |:---------------------- |
@@ -145,9 +153,9 @@ Trả về giá tỷ giá hối đoái của đồng xu ổn định được ch
 
 ### priceUSDRedeem () <a id="issupportedasset-2"></a>
 
-**`function priceUSDRedeem(string symbol)`**
+**`function priceUSDRedeem(string symbol)`**‌‌
 
-Trả về giá tỷ giá hối đoái của đồng xu ổn định được chỉ định bởi các tham số `symbol` được sử dụng khi quy đổi OUSD được đại diện bằng `uint256`. Số kết quả có 18 ký tự.
+Returns the exchange rate price of a stable coin specified by the `symbol` parameters used when redeeming OUSD represented by `uint256` type. Resulting number has 18 decimal places.
 
 | Tên thông số | Loại  | Mô tả                  |
 |:------------ |:----- |:---------------------- |
@@ -157,7 +165,7 @@ Trả về giá tỷ giá hối đoái của đồng xu ổn định được ch
 
 **`function priceAssetUSDMint(address _asset)`**‌‌
 
-Trả về tỷ giá hối đoái của stablecoin được chỉ định bởi các tham số `_asset` được sử dụng khi khai thác OUSD được đại diện bằng loại `uint256`. Số kết quả có 18 ký tự.
+Returns the exchange rate price of a stable coin specified by the `_asset` parameters used when minting OUSD represented by `uint256` type. Resulting number has 18 decimal places.
 
 | Tên thông số | Loại    | Mô tả                   |
 |:------------ |:------- |:----------------------- |
@@ -167,7 +175,7 @@ Trả về tỷ giá hối đoái của stablecoin được chỉ định bởi 
 
 **`function priceAssetUSDRedeem(address _asset)`**‌‌‌
 
-Trả về tỷ giá hối đoái của stablecoin được chỉ định bởi các tham số `_asset` được sử dụng khi đổi OUSD được đại diện bằng loại `uint256`. Số kết quả có 18 ký tự.
+Returns the exchange rate price of a stable coin specified by the `_asset` parameters used when redeeming OUSD represented by `uint256` type. Resulting number has 18 decimal places.
 
 | Tên thông số | Loại    | Mô tả                  |
 |:------------ |:------- |:---------------------- |
