@@ -1,18 +1,18 @@
-# 开始
+# Getting Started
 
-这些文档的目的是说明 OUSD 如何运作、传达潜在的风险和益处，并为希望为我们的代码库做出贡献或将 OUSD 集成到其产品中的开发人员提供指南。 您可以通过以下几种方法开始。
+These docs are intended to explain how OUSD works, communicate the potential risks and benefits, and provide a guide for developers who wish to contribute to our codebase or integrate OUSD into their products. Here are a few ways for you to dive in and get started.
 
-**铸币或赎回**
+**Mint or Redeem**
 
-OUSD Mint （铸造）允许任何人使用我们的 [DApp](www.ousd.com) 和 Web-3 的加密钱包（如 [Metamask](https://www.metamask.io)）来制造或交易 OUSD 代币。 这是获取 OUSD 的本地方法，尤其是如果您想要带来可能在其他交易所上转移市场的风险的大量的 OUSD 。
+The OUSD Mint allows anyone to create or trade in OUSD tokens using our [DApp](www.ousd.com) and a web-3 enabled cryptocurrency wallet like [Metamask](https://www.metamask.io). This is the native way to get OUSD, especially if you want a large amount that could risk moving the market on other exchanges.
 
-**在交易所购买**
+**Buy on Exchanges**
 
 For small amounts, the easiest way to start earning with OUSD is to buy it on an exchange. We anticipate that OUSD will soon be available on many more decentralized and centralized exchanges.
 
 Decentralized exchanges:
 
-* [在Uniswap上购买OUSD](https://app.uniswap.org/#/swap?inputCurrency=0xdac17f958d2ee523a2206206994597c13d831ec7&outputCurrency=0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86)
+* [Buy OUSD on Uniswap](https://app.uniswap.org/#/swap?inputCurrency=0xdac17f958d2ee523a2206206994597c13d831ec7&outputCurrency=0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86)
 * [Buy OUSD on Sushiswap](https://exchange.sushiswapclassic.org/#/swap?inputCurrency=0xdac17f958d2ee523a2206206994597c13d831ec7&outputCurrency=0x2a8e1e676ec238d8a992307b495b45b3feaa5e86)
 
 Centralized exchanges:
