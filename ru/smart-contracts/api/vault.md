@@ -145,7 +145,7 @@ OUSD, указанный в параметре `_amount`, выкупается �
 
 **`function priceUSDMint(string symbol)`**‌‌
 
-Returns the exchange rate price of a stable coin specified by the `symbol` parameters used when minting OUSD represented by `uint256` type. Resulting number has 18 decimal places.
+Возвращает обменный курс стейблкоина, заданный параметрами `symbol`, которые используются при выпуске новых токенов OUSD, представленных типом `uint256`. Полученное число является 18-ти разрядным.
 
 | Имя параметра | Тип    | Описание           |
 |:------------- |:------ |:------------------ |
@@ -155,7 +155,7 @@ Returns the exchange rate price of a stable coin specified by the `symbol` param
 
 **`function priceUSDRedeem(string symbol)`**‌‌
 
-Returns the exchange rate price of a stable coin specified by the `symbol` parameters used when redeeming OUSD represented by `uint256` type. Resulting number has 18 decimal places.
+Возвращает обменный курс стейблкоина, заданный параметром `symbol`, которые используются при выкупе OUSD, представленных типом `uint256`. Полученное число является 18-ти разрядным.
 
 | Имя параметра | Тип    | Описание           |
 |:------------- |:------ |:------------------ |
@@ -165,7 +165,7 @@ Returns the exchange rate price of a stable coin specified by the `symbol` param
 
 **`function priceAssetUSDMint(address _asset)`**‌‌
 
-Returns the exchange rate price of a stable coin specified by the `_asset` parameters used when minting OUSD represented by `uint256` type. Resulting number has 18 decimal places.
+Возвращает курс обмена стейблкоина, заданный параметрами `_asset` используемыми при выпуске токенов OUSD, представленных типом `uint256`. Полученное число является 18-ти разрядным.
 
 | Имя параметра | Тип   | Описание           |
 |:------------- |:----- |:------------------ |
@@ -175,7 +175,7 @@ Returns the exchange rate price of a stable coin specified by the `_asset` param
 
 **`function priceAssetUSDRedeem(address _asset)`**‌‌‌
 
-Returns the exchange rate price of a stable coin specified by the `_asset` parameters used when redeeming OUSD represented by `uint256` type. Resulting number has 18 decimal places.
+Возвращает курс обмена стейблкоина, заданный параметрами `_asset` используемыми при выкупе OUSD, представленных типом `uint256`. Полученное число является 18-ти разрядным.
 
 | Имя параметра | Тип   | Описание          |
 |:------------- |:----- |:----------------- |
