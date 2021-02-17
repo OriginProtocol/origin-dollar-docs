@@ -7,17 +7,17 @@ description: >-
 
 ## Units
 
-All OUSD amounts passed or returned by the Vault methods use 18 decimal places. For example, 1 OUSD is expressed as 1000000000000000000.
+Все суммы OUSD, переданные или возвращенные методами Vault, являются 18-ти разрядными. К примеру, 1 OUSD выражается как 1000000000000000000.
 
-For other stable coins, the number of decimal places varies. DAI uses 18 decimal places while USDC and USDT use only 6.
+Разрядность других стейблкоинов отличается. DAI использует 18 знаков после запятой, в то время как USDC и USDT имеют только 6 разрядов.
 
-## Methods‌
+## Методы‌
 
 ### mint\(\) <a id="mint"></a>
 
 **`function mint(address _asset, uint256 _amount, uint256 _minimumOusdAmount)`**‌
 
-Mints OUSD in exchange for a deposit of a certain `_amount` of stablecoin specified by the `_asset` parameter. The caller receives a certain amount of OUSD depending on the **exchange rate**.
+Создает новые токены OUSD в обмен на определенное количество `__amount` стейблкоинов, указанных параметром `_asset`. Вызывающий функцию получает определенное количество OUSD в зависимости от **обменного курса**.
 
 | Имя параметра         | Тип     | Описание                                                                                                                                         |
 |:--------------------- |:------- |:------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -27,18 +27,18 @@ Mints OUSD in exchange for a deposit of a certain `_amount` of stablecoin specif
 
 ### mintMultiple\(\) <a id="mintmultiple"></a>
 
-**`function mintMultiple(address[] _assets, uint256[] _amounts, uint256 _minimumOusdAmount)`**‌
+**`function mintMultiple(address[] _assets, uint256[] _amounts, uint256 _minimumOusdAmount)`**
 
-Mints OUSD in exchange for a deposit of multiple stablecoins in a single call. Stablecoins are specified by the `_assets` array parameter and the amounts by the `_amounts` array parameter. The caller receives a certain amount of OUSD depending on the **exchange rate**.
+Создает новые токены OUSD в обмен на определенное количество разных стейблкоинов за один вызов функции. Стейблкоины указываются параметром массива `_assets` а суммы - параметром массива `_amounts`. Вызывающий функцию получает определенное количество OUSD в зависимости от **обменного курса**.
 
-| Имя параметра         | Тип           | Описание                                                                                                                                          |
-|:--------------------- |:------------- |:------------------------------------------------------------------------------------------------------------------------------------------------- |
-| \_assets            | address\[\] | Адреса [поддерживаемых](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/core-concepts/supported-assets) стейблкоинов |
-| \_amounts           | uint256\[\] | Amounts deposited, expressed in decimal units                                                                                                     |
-| \_minimumOusdAmount | uint256       | Minimum amount of OUSD the caller is willing to receive. The call to mint\(\) reverts if the minimum is not met.                                |
+| Имя параметра         | Тип           | Описание                                                                                                                                                         |
+|:--------------------- |:------------- |:---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| \_assets            | address\[\] | Адреса [поддерживаемых](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/core-concepts/supported-assets) стейблкоинов                |
+| \_amounts           | uint256\[\] | Amounts deposited, expressed in decimal units                                                                                                                    |
+| \_minimumOusdAmount | uint256       | Минимальное количество OUSD, получаемое в процессе вызова функции. Вызов функции mint\(\) отменяется, если количество создаваемых токенов меньше минимального. |
 
 {% hint style="warning" %}
-On redemptions, it is the protocol and not the user that decides which stablecoin\(s\) are returned to the user. This decision of which coin\(s\) to return is based on the internal ratios of the assets that are being held in the vault.‌
+Во время выкупа именно протоколом, а не пользователем, принимается решение о том, какой (-ие) стейблкоин (-ы) возвращаются пользователю. Решение о том, какую монету (-ы) возвратить, основывается на внутренних соотношениях активов в хранилище.‌
 {% endhint %}
 
 ### redeem\(\) <a id="redeem"></a>
