@@ -31,11 +31,11 @@
 {% tab title="Strategies" %}
 Общеизвестные адреса \(прокси оболочки\):
 
-| Стратегия   | Адрес                                                                                                                 | Текущая аллокация |
-|:----------- |:--------------------------------------------------------------------------------------------------------------------- |:----------------- |
-| Aave        | [0x9f2b18751376cF6a3432eb158Ba5F9b1AbD2F7ce](https://etherscan.io/address/0x9f2b18751376cF6a3432eb158Ba5F9b1AbD2F7ce) | 100% DAI          |
-| Compound    | [0xD5433168Ed0B1F7714819646606DB509D9d8EC1f](https://etherscan.io/address/0xD5433168Ed0B1F7714819646606DB509D9d8EC1f) | 100% USDC и USDT  |
-| Curve 3Pool | [0x3c5fe0a3922777343CBD67D3732FCdc9f2Fa6f2F](https://etherscan.io/address/0x3c5fe0a3922777343CBD67D3732FCdc9f2Fa6f2F) | Manual allocation |
+| Стратегия   | Адрес                                                                                                                 | Текущая аллокация            |
+|:----------- |:--------------------------------------------------------------------------------------------------------------------- |:---------------------------- |
+| Aave        | [0x9f2b18751376cF6a3432eb158Ba5F9b1AbD2F7ce](https://etherscan.io/address/0x9f2b18751376cF6a3432eb158Ba5F9b1AbD2F7ce) | 100% DAI                     |
+| Compound    | [0xD5433168Ed0B1F7714819646606DB509D9d8EC1f](https://etherscan.io/address/0xD5433168Ed0B1F7714819646606DB509D9d8EC1f) | 100% USDC и USDT             |
+| Curve 3Pool | [0x3c5fe0a3922777343CBD67D3732FCdc9f2Fa6f2F](https://etherscan.io/address/0x3c5fe0a3922777343CBD67D3732FCdc9f2Fa6f2F) | Аллокация выбирается вручную |
 
 Контракты на внутреннюю реализацию:
 
