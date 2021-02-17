@@ -5,7 +5,7 @@ description: >-
 
 # Хранилище (Vault)
 
-## Units
+## Единицы измерения
 
 Все суммы OUSD, переданные или возвращенные методами Vault, являются 18-ти разрядными. К примеру, 1 OUSD выражается как 1000000000000000000.
 
@@ -19,11 +19,11 @@ description: >-
 
 Создает новые токены OUSD в обмен на определенное количество `__amount` стейблкоинов, указанных параметром `_asset`. Вызывающий функцию получает определенное количество OUSD в зависимости от **обменного курса**.
 
-| Имя параметра         | Тип     | Описание                                                                                                                                         |
-|:--------------------- |:------- |:------------------------------------------------------------------------------------------------------------------------------------------------ |
-| \_asset             | адрес   | Адрес [поддерживаемого](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/core-concepts/supported-assets) стейблкоина |
-| \_amount            | uint256 | Amount deposited, expressed in decimal units                                                                                                     |
-| \_minimumOusdAmount | uint256 | Minimum amount of OUSD the caller is willing to receive. The call to mint\(\) reverts if the minimum is not met.                               |
+| Имя параметра         | Тип     | Описание                                                                                                                                                         |
+|:--------------------- |:------- |:---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| \_asset             | адрес   | Адрес [поддерживаемого](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/core-concepts/supported-assets) стейблкоина                 |
+| \_amount            | uint256 | Депозит, выраженный в десятичных единицах                                                                                                                        |
+| \_minimumOusdAmount | uint256 | Минимальное количество OUSD, получаемое в процессе вызова функции. Вызов функции mint\(\) отменяется, если количество создаваемых токенов меньше минимального. |
 
 ### mintMultiple\(\) <a id="mintmultiple"></a>
 
@@ -34,7 +34,7 @@ description: >-
 | Имя параметра         | Тип           | Описание                                                                                                                                                         |
 |:--------------------- |:------------- |:---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | \_assets            | address\[\] | Адреса [поддерживаемых](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/core-concepts/supported-assets) стейблкоинов                |
-| \_amounts           | uint256\[\] | Amounts deposited, expressed in decimal units                                                                                                                    |
+| \_amounts           | uint256\[\] | Депозит, выраженный в десятичных единицах                                                                                                                        |
 | \_minimumOusdAmount | uint256       | Минимальное количество OUSD, получаемое в процессе вызова функции. Вызов функции mint\(\) отменяется, если количество создаваемых токенов меньше минимального. |
 
 {% hint style="warning" %}
@@ -65,15 +65,15 @@ OUSD, указанный в параметре `_amount`, выкупается �
 
 ### allocate\(\) <a id="allocate"></a>
 
-**`function allocate()`**‌
+**`function allocate()`**
 
-Moves the assets under management into their prescribed [Stategies](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/architecture/strategies) to maximize yield and diversify risk.‌
+Перемещает управляемые активы согласно заранее заданных [Стратегий](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/architecture/strategies) для максимального увеличения доходности и диверсификации рисков.
 
 ### totalValue\(\) <a id="totalvalue"></a>
 
-**`function totalValue()`**‌
+**`function totalValue()`**
 
-Returns total value of underlying assets and strategies.
+Возвращает общую стоимость базовых активов и стратегий.
 
 | Имя параметра | Тип     | Описание                                     |
 |:------------- |:------- |:-------------------------------------------- |
@@ -83,7 +83,7 @@ Returns total value of underlying assets and strategies.
 
 **`function checkBalance(address _asset)`**‌
 
-Returns the balance of an asset specified by the`_asset` parameter held in Vault and all strategies represented by `uint256` type.
+Возвращает баланс актива, указанного параметром`_asset` находящегося в Хранилище, и всех стратегий, представленных типом `uint256`.
 
 | Имя параметра | Тип   | Описание                                                                                                                                         |
 |:------------- |:----- |:------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -93,7 +93,7 @@ Returns the balance of an asset specified by the`_asset` parameter held in Vault
 
 **`function calculateRedeemOutputs(uint256 _amount)`**‌
 
-Calculate the mix of stablecoins that a `redeem` function would return when redeeming certain amount of OUSD specified by the `_amount` parameter. Returns an array of stablecoin values.
+Вычисляет набор стейблкоинов, которые функция `redeem` вернет при выкупе определенного количества OUSD, указанного параметром `_amount`. Returns an array of stablecoin values.
 
 To attribute the stablecoin values to the correct stablecoin currency this call should be used in conjunction with `getAllAssets` function that returns an array of stablecoin addresses.
 
