@@ -93,11 +93,11 @@ OUSD, указанный в параметре `_amount`, выкупается �
 
 **`function calculateRedeemOutputs(uint256 _amount)`**‌
 
-Вычисляет набор стейблкоинов, которые функция `redeem` вернет при выкупе определенного количества OUSD, указанного параметром `_amount`. Returns an array of stablecoin values.
+Вычисляет набор стейблкоинов, которые функция `redeem` вернет при выкупе определенного количества OUSD, указанного параметром `_amount`. Возвращает массив стоимости стейблкоинов.
 
-To attribute the stablecoin values to the correct stablecoin currency this call should be used in conjunction with `getAllAssets` function that returns an array of stablecoin addresses.
+Чтобы получить соотношение стоимости стейблкоина и его правильного курса, данный вызов функции следует использовать вместе с функцией `getAllAssets`, которая возвращает массив адресов стейблкоинов.
 
-The index of an array that is returned by the `calculateRedeemOutputs` corresponds to the stablecoin address with the same index in an array returned by the `getAllAssets` function.
+Индекс массива, который возвращает функция `calculateRedeemOutputs`, соответствует адресу стейблкоина с таким же индексом в массиве, возвращаемым функцией `getAllAssets`.
 
 | Имя параметра | Тип     | Описание                                     |
 |:------------- |:------- |:-------------------------------------------- |
@@ -111,31 +111,31 @@ The index of an array that is returned by the `calculateRedeemOutputs` correspon
 
 **`function getAssetCount()`**‌
 
-Return the number of supported stablecoin assets represented by `uint256` type.‌
+Возвращает количество поддерживаемых стейблкоинов, представленных типом `uint256`
 
 ### getAllAssets\(\) <a id="getallassets"></a>
 
 **`function getAllAssets()`**‌
 
-Return all assets addresses of supported stablecoin assets in order represented by `uint256` type.‌
+Возвращает все адреса балансов поддерживаемых стейблкоинов, представленных типом `uint256`
 
 ### getStrategyCount\(\)‌ <a id="getstrategycount"></a>
 
 **`function getStrategyCount()`**‌
 
-Return the number of strategies active on the Vault represented by `uint256` type.‌
+Возвращает количество активных стратегий Хранилища (Vault), представленных типом `uint256`
 
 ### getAPR\(\) <a id="getapr"></a>
 
 **`function getAPR()`**‌
 
-Return the total annual percentage yield \(APR\) of the Vault and all Strategies represented by `uint256` type. Resulting number has 18 decimal places.‌
+Возвращает общую годовую процентную доходность \(APR\) Хранилища (Vault) и всех стратегий, представленных типом `uint256`. Полученное число является 18-ти разрядным.‌
 
 ### isSupportedAsset\(\) <a id="issupportedasset"></a>
 
-**`function isSupportedAsset(address _asset)`**‌
+**`function isSupportedAsset(address _asset)`**
 
-Return the boolean that is true if the asset specified by the `_asset` parameter is supported by the Vault.
+Возвращает двоичное значение, которое является истиной, если актив, указанный параметром `_asset` поддерживается Хранилищем (Vault).
 
 | Имя параметра | Тип   | Описание          |
 |:------------- |:----- |:----------------- |
