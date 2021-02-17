@@ -45,7 +45,7 @@ description: >-
 
 **`function redeem(uint256 _amount)`**‌
 
-OUSD specified by the `_amount` parameter is redeemed in exchange for one or multiple supported stablecoins. Количество полученных стейблкоинов зависит от **обменного курса**.
+OUSD, указанный в параметре `_amount`, выкупается в обмен на один или несколько поддерживаемых стейблкоинов. Количество полученных стейблкоинов зависит от **обменного курса**.
 
 | Имя параметра | Тип     | Описание                                          |
 |:------------- |:------- |:------------------------------------------------- |
@@ -55,13 +55,13 @@ OUSD specified by the `_amount` parameter is redeemed in exchange for one or mul
 
 **`function redeemAll()`**‌
 
-All OUSD in user's possession is redeemed in exchange for one or multiple supported stablecoins. Amount of stablecoins received depends on the **exchange rate**.
+Все OUSD, которыми владеет пользователь, выкупаются в обмен на один или несколько поддерживаемых стейблкоинов. Количество полученных стейблкоинов зависит от **обменного курса**.
 
 ### rebase\(\) <a id="rebase"></a>
 
-**`function rebase()`**‌
+**`function rebase()`**
 
-Updates the balances for all users based on the value of the assets currently stored in the vault. Returns total value of the underlying assets and strategies represented by `uint256` type.‌
+Обновление балансов всех пользователей основывается на стоимости активов в хранилище. Возвращает общую стоимость базовых активов и стратегий, представленных типом `uint256`
 
 ### allocate\(\) <a id="allocate"></a>
 
