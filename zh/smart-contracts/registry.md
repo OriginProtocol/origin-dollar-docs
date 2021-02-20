@@ -1,25 +1,25 @@
-# Registry
+# 登记处
 
-Here is the full registry of OUSD smart contracts that have been deployed to the Ethereum mainnet.
+这是已部署到以太坊主网的 OUSD 智能合约的完整注册表。
 
 {% hint style="success" %}
-The main ERC20 address for Origin Dollar \(OUSD\) is:   
+Origin Dollar（OUSD）的主要 ERC20 地址为：   
 **0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86**
 {% endhint %}
 
 {% tabs %}
 {% tab title="Core" %}
-Well-known addresses \(often proxy wrappers\):
+知名的地址 \(often proxy wrappers\):
 
-| Contract | Address                                                                                                               | ENS                                                               |
-|:-------- |:--------------------------------------------------------------------------------------------------------------------- |:----------------------------------------------------------------- |
-| OUSD     | [0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86](https://etherscan.io/address/0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86) | [ousd.eth](https://etherscan.io/address/ousd.eth)                 |
-| Vault    | [0xE75D77B1865Ae93c7eaa3040B038D7aA7BC02F70](https://etherscan.io/address/0xe75d77b1865ae93c7eaa3040b038d7aa7bc02f70) | [originvault.eth](https://etherscan.io/address/originvault.eth)   |
-| Oracle   | [0x843530DC8005e13dEA30CEa2394FF60635f38cc4](https://etherscan.io/address/0x843530DC8005e13dEA30CEa2394FF60635f38cc4) | [originoracle.eth](https://etherscan.io/address/originoracle.eth) |
+| 合约          | 地址                                                                                                                    | ENS                                                               |
+|:----------- |:--------------------------------------------------------------------------------------------------------------------- |:----------------------------------------------------------------- |
+| OUSD        | [0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86](https://etherscan.io/address/0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86) | [ousd.eth](https://etherscan.io/address/ousd.eth)                 |
+| 保险库 （Vault） | [0xE75D77B1865Ae93c7eaa3040B038D7aA7BC02F70](https://etherscan.io/address/0xe75d77b1865ae93c7eaa3040b038d7aa7bc02f70) | [originvault.eth](https://etherscan.io/address/originvault.eth)   |
+| Oracle      | [0x843530DC8005e13dEA30CEa2394FF60635f38cc4](https://etherscan.io/address/0x843530DC8005e13dEA30CEa2394FF60635f38cc4) | [originoracle.eth](https://etherscan.io/address/originoracle.eth) |
 
 Internal implementation contracts. The Vault is split into VaultAdmin and VaultCore to work-around the maximum contract size limit on Ethereum:
 
-| Contract         | Address                                                                                                               |
+| 合约               | 地址                                                                                                                    |
 |:---------------- |:--------------------------------------------------------------------------------------------------------------------- |
 | OUSD             | [0x9d6975591E777D95Eef3bCC2a727846DA25d7083](https://etherscan.io/address/0x9d6975591E777D95Eef3bCC2a727846DA25d7083) |
 | VaultAdmin       | [0xb5f7E47Bc7D271b3df4824BDcFBB279a719F8Ae6](https://etherscan.io/address/0xb5f7E47Bc7D271b3df4824BDcFBB279a719F8Ae6) |
@@ -31,11 +31,11 @@ Internal implementation contracts. The Vault is split into VaultAdmin and VaultC
 {% tab title="Strategies" %}
 Well-known addresses \(proxy wrappers\):
 
-| Strategy    | Address                                                                                                               | Current Auto-Allocation |
-|:----------- |:--------------------------------------------------------------------------------------------------------------------- |:----------------------- |
-| Aave        | [0x9f2b18751376cF6a3432eb158Ba5F9b1AbD2F7ce](https://etherscan.io/address/0x9f2b18751376cF6a3432eb158Ba5F9b1AbD2F7ce) | 100% of DAI             |
-| Compound    | [0xD5433168Ed0B1F7714819646606DB509D9d8EC1f](https://etherscan.io/address/0xD5433168Ed0B1F7714819646606DB509D9d8EC1f) | 100% of USDC and USDT   |
-| Curve 3Pool | [0x3c5fe0a3922777343CBD67D3732FCdc9f2Fa6f2F](https://etherscan.io/address/0x3c5fe0a3922777343CBD67D3732FCdc9f2Fa6f2F) | Manual allocation       |
+| Strategy    | Address                                                                                                               | Auto-Allocation       |
+|:----------- |:--------------------------------------------------------------------------------------------------------------------- |:--------------------- |
+| Aave        | [0x9f2b18751376cF6a3432eb158Ba5F9b1AbD2F7ce](https://etherscan.io/address/0x9f2b18751376cF6a3432eb158Ba5F9b1AbD2F7ce) | 100% of DAI           |
+| Compound    | [0xD5433168Ed0B1F7714819646606DB509D9d8EC1f](https://etherscan.io/address/0xD5433168Ed0B1F7714819646606DB509D9d8EC1f) | 100% of USDC and USDT |
+| Curve 3Pool | [0x3c5fe0a3922777343CBD67D3732FCdc9f2Fa6f2F](https://etherscan.io/address/0x3c5fe0a3922777343CBD67D3732FCdc9f2Fa6f2F) | Manual allocation     |
 
 Internal implementation contracts:
 
@@ -126,9 +126,9 @@ Since not all oracles have direct USD pairs, the protocol also fetches the price
 {% endtab %}
 
 {% tab title="Staking" %}
-| Contract    | Address                                    | ENS                                                                 |
-|:----------- |:------------------------------------------ |:------------------------------------------------------------------- |
-| OGN Staking | 0x501804B374EF06fa9C427476147ac09F1551B9A0 | [originstaking.eth](https://etherscan.io/address/originstaking.eth) |
+| Contract    | Address                                                                                                               | ENS                                                                 |
+|:----------- |:--------------------------------------------------------------------------------------------------------------------- |:------------------------------------------------------------------- |
+| OGN Staking | [0x501804B374EF06fa9C427476147ac09F1551B9A0](https://etherscan.io/address/0x501804B374EF06fa9C427476147ac09F1551B9A0) | [originstaking.eth](https://etherscan.io/address/originstaking.eth) |
 
 Internal implementation contracts:
 
@@ -141,6 +141,12 @@ Internal implementation contracts:
 | Contract          | Address                                                                                                               |
 |:----------------- |:--------------------------------------------------------------------------------------------------------------------- |
 | OUSD Compensation | [0x9C94df9d594BA1eb94430C006c269C314B1A8281](https://etherscan.io/address/0x9C94df9d594BA1eb94430C006c269C314B1A8281) |
+{% endtab %}
+
+{% tab title="Swap" %}
+| Contract | Address                                                                                                               | ENS                                                           |
+|:-------- |:--------------------------------------------------------------------------------------------------------------------- |:------------------------------------------------------------- |
+| Swap     | [0xcecaD69d7D4Ed6D52eFcFA028aF8732F27e08F70](https://etherscan.io/address/0xcecaD69d7D4Ed6D52eFcFA028aF8732F27e08F70) | [originswap.eth](https://etherscan.io/address/originswap.eth) |
 {% endtab %}
 {% endtabs %}
 
