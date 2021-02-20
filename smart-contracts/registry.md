@@ -143,6 +143,12 @@ Internal implementation contracts:
 | :--- | :--- |
 | OUSD Compensation | [0x9C94df9d594BA1eb94430C006c269C314B1A8281](https://etherscan.io/address/0x9C94df9d594BA1eb94430C006c269C314B1A8281) |
 {% endtab %}
+
+{% tab title="Swap" %}
+| Contract | Address | ENS |
+| :--- | :--- | :--- |
+| Swap | 0xcecaD69d7D4Ed6D52eFcFA028aF8732F27e08F70 | originswap.eth |
+{% endtab %}
 {% endtabs %}
 
 
