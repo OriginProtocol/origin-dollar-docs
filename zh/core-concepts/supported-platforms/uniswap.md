@@ -1,27 +1,27 @@
 # Uniswap
 
 {% hint style="info" %}
-即将推出。 Uniswap 尚未集成。
+Coming soon. Uniswap has not yet been integrated.
 {% endhint %}
 
-Uniswap 是基于以太坊的去中心化流动性协议和交易所，于2018年11月推出。 Uniswap v2 于2020年5月推出。 用户可以付一些费用来交换 ERC-20 代币，或者为流动性池提供代币以赚取费用。
+Uniswap is a decentralized liquidity protocol and exchange on Ethereum, launched in November 2018. Uniswap v2 launched in May 2020. Users can swap ERC-20 tokens for a fee or contribute tokens to liquidity pools to earn fees.
 
-Uniswap 是基于兑换池，而不是订单簿的去中心化交易协议。 这种类型的交易所称为自动做市商 \(AMM\)。 Uniswap上交易对的汇率是由它们的恒定乘积公式来决定的，始终处于此公式结果曲线上的某一点。 这鼓励套利者进入流动资金池以重新平衡相对权重并使汇率正常化。
+Markets on Uniswap operate as liquidity pools rather than order books. This type of exchange is called an Automated Market Maker \(AMM\). The exchange rate between the two assets is determined by a constant product formula and moves along a price curve depending on the relative weight of each asset in the pool. This encourages arbitrageurs to enter liquidity pools to rebalance the relative weights and normalize the exchange rate.
 
-如果某个资金池中的流动性不足，可能会产生滑点，并且交易者可能无法免受不利的汇率影响。 Uniswap价格与外部价格之间的差异会产生套利机会，并可能导致流动性提供者遭受永久损失。
+Traders can suffer from slippage if there is not enough liquidity in a given pool and may not be protected from unfavorable exchange rates. Liquidity providers may suffer impermanent loss when the pool exchange rate does not match market realities and arbitrageurs execute trades along the pricing curve.
 
-池参与者获得Uniswap流动性提供者 \(LP\) 代币，该代币与他们在给定池中提供的流动性份额相对应。 这些 LP 代币可以自由转让。 参与者可以随时进行代币对的赎回并退出对应的资金池。
+Pool participants are given Uniswap Liquidity Provider \(LP\) tokens that correspond to their share of liquidity provided in a given pool. These LP tokens are freely transferable. Participants can exit pools at any time by redeeming these tokens for the assets provided and fees accrued.
 
-寻求提高其代币流动性的代币发行者在流动性采矿活动中向流动性提供者提供激励。 新的代币发行者也已经在 Uniswap 池中推出了他们的代币。
+Token issuers seeking to improve liquidity of their token have offered incentives to liquidity providers in liquidity mining campaigns. New token issuers have also launched their tokens on Uniswap pools.
 
-现在，Uniswap 的交易量已超过许多传统交易所，每日交易量经常超过2亿美元。 Uniswap的流动性提供商锁定的总价值 \(TVL\) 超过了1.70亿美元。 Uniswap没有发行治理代币。
+Trading volumes on Uniswap now eclipse that of many traditional exchanges and regularly surpass $200 million daily. Uniswap has over $170 million in Total Value Locked \(TVL\) by liquidity providers. Uniswap does not have a native platform or governance token.
 
-Uniswap 的智能合约已被 dapp.org 审核并正式验证。 Uniswap 维护一个漏洞赏金计划。
+Uniswap has had its smart contracts audited and formally verfied by dapp.org. Uniswap maintains a bug bounty program.
 
-| 资源      |                                                                          |
-|:------- |:------------------------------------------------------------------------ |
-| 官方网站    | [https://uniswap.org/](https://uniswap.org/)                             |
-| 开发者文档   | [https://uniswap.org/docs/v2](https://uniswap.org/docs/v2)               |
-| GitHub  | [https://github.com/Uniswap](https://github.com/Uniswap)                 |
-| Discord | [https://discord.com/invite/EwFs3Pp](https://discord.com/invite/EwFs3Pp) |
+| Resources      |                                                                          |
+|:-------------- |:------------------------------------------------------------------------ |
+| Official site  | [https://uniswap.org/](https://uniswap.org/)                             |
+| Developer docs | [https://uniswap.org/docs/v2](https://uniswap.org/docs/v2)               |
+| GitHub         | [https://github.com/Uniswap](https://github.com/Uniswap)                 |
+| Discord        | [https://discord.com/invite/EwFs3Pp](https://discord.com/invite/EwFs3Pp) |
 
