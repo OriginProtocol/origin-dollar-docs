@@ -26,7 +26,8 @@
   * [Balancer](core-concepts/supported-strategies/balancer.md)
   * [Yearn.finance](core-concepts/supported-strategies/yearn.finance.md)
 * [Fund Management](core-concepts/fund-management.md)
-* [Price Oracles](core-concepts/price-oracles.md)
+* [Price Oracles](core-concepts/price-oracles/README.md)
+  * [Untitled](core-concepts/price-oracles/untitled.md)
 
 ## Governance
 
@@ -52,6 +53,10 @@
 * [Audits](security-and-risks/audits.md)
 * [Insurance](security-and-risks/insurance.md)
 * [Bug Bounties](security-and-risks/bug-bounties.md)
+
+## Guides
+
+* [Integration Guide For Exchanges](guides/integration-guide-for-exchanges.md)
 
 ## Links
 
