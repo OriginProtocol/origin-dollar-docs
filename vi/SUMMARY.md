@@ -26,7 +26,8 @@
   * [Balancer](core-concepts/supported-strategies/balancer.md)
   * [Yearn.finance](core-concepts/supported-strategies/yearn.finance.md)
 * [Quản lý quỹ](core-concepts/fund-management.md)
-* [Ước tính giá](core-concepts/price-oracles.md)
+* [Ước tính giá](core-concepts/price-oracles/README.md)
+  * [Untitled](core-concepts/price-oracles/untitled.md)
 
 ## Quản trị
 
@@ -53,9 +54,13 @@
 * [Insurance](security-and-risks/insurance.md)
 * [Bug Bounties](security-and-risks/bug-bounties.md)
 
-## Danh sách các kênh
+## Guides
 
-* [GitHub](https://www.github.com/originprotocol/origin-dollar)
+* [Integration Guide For Exchanges](guides/integration-guide-for-exchanges.md)
+
+## Links
+
+* [Github](https://www.github.com/originprotocol/origin-dollar)
 * [Discord](https://www.originprotocol.com/discord)
-* [Originprotocol.com](https://www.originprotocol.com)
+* [originprotocol.com](https://www.originprotocol.com)
 
