@@ -26,7 +26,8 @@
   * [Balancer](core-concepts/supported-strategies/balancer.md)
   * [Yearn.finance](core-concepts/supported-strategies/yearn.finance.md)
 * [Gestione dei fondi](core-concepts/fund-management.md)
-* [Oracoli di prezzo](core-concepts/price-oracles.md)
+* [Oracoli di prezzo](core-concepts/price-oracles/README.md)
+  * [Untitled](core-concepts/price-oracles/untitled.md)
 
 ## Governance
 
@@ -53,9 +54,13 @@
 * [Insurance](security-and-risks/insurance.md)
 * [Bug Bounties](security-and-risks/bug-bounties.md)
 
+## Guides
+
+* [Integration Guide For Exchanges](guides/integration-guide-for-exchanges.md)
+
 ## Links
 
-* [GitHub](https://www.github.com/originprotocol/origin-dollar)
+* [Github](https://www.github.com/originprotocol/origin-dollar)
 * [Discord](https://www.originprotocol.com/discord)
 * [originprotocol.com](https://www.originprotocol.com)
 
