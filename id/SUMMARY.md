@@ -26,7 +26,8 @@
   * [Balancer](core-concepts/supported-strategies/balancer.md)
   * [Yearn.finance](core-concepts/supported-strategies/yearn.finance.md)
 * [Pengelolaan Dana](core-concepts/fund-management.md)
-* [Harga Oracles](core-concepts/price-oracles.md)
+* [Harga Oracles](core-concepts/price-oracles/README.md)
+  * [Untitled](core-concepts/price-oracles/untitled.md)
 
 ## Pemerintahan
 
@@ -53,7 +54,11 @@
 * [Insurance](security-and-risks/insurance.md)
 * [Bug Bounties](security-and-risks/bug-bounties.md)
 
-## Tautan
+## Guides
+
+* [Integration Guide For Exchanges](guides/integration-guide-for-exchanges.md)
+
+## Links
 
 * [Github](https://www.github.com/originprotocol/origin-dollar)
 * [Discord](https://www.originprotocol.com/discord)
