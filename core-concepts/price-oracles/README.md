@@ -126,7 +126,7 @@ The following oracles have been implemented, but are not currently being used du
 
 {% embed url="https://uniswap.org/docs/v2/core-concepts/oracles/" caption="" %}
 
-The specific smart contract address for each oracle being used are listed on our [registry](../smart-contracts/registry.md) page.
+The specific smart contract address for each oracle being used are listed on our [registry](../../smart-contracts/registry.md) page.
 
 It is possible that additional oracles will be added to the protocol over time. Support may also be removed if any of these oracles become unreliable.
 
