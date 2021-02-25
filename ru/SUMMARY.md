@@ -26,7 +26,8 @@
   * [Balancer](core-concepts/supported-strategies/balancer.md)
   * [Yearn.finance](core-concepts/supported-strategies/yearn.finance.md)
 * [Управление средствами](core-concepts/fund-management.md)
-* [Ценовые оракулы](core-concepts/price-oracles.md)
+* [Ценовые оракулы](core-concepts/price-oracles/README.md)
+  * [Untitled](core-concepts/price-oracles/untitled.md)
 
 ## Управление
 
@@ -53,9 +54,13 @@
 * [Страхование](security-and-risks/insurance.md)
 * [Вознаграждения за поиск ошибок](security-and-risks/bug-bounties.md)
 
-## Ссылки
+## Guides
 
-* [GitHub](https://www.github.com/originprotocol/origin-dollar)
+* [Integration Guide For Exchanges](guides/integration-guide-for-exchanges.md)
+
+## Links
+
+* [Github](https://www.github.com/originprotocol/origin-dollar)
 * [Discord](https://www.originprotocol.com/discord)
 * [originprotocol.com](https://www.originprotocol.com)
 
