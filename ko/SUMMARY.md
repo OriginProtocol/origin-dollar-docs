@@ -26,7 +26,8 @@
   * [밸런서(Balancer)](core-concepts/supported-strategies/balancer.md)
   * [와이언파이낸스(Yearn Finance)](core-concepts/supported-strategies/yearn.finance.md)
 * [자금 관리](core-concepts/fund-management.md)
-* [가격 오라클](core-concepts/price-oracles.md)
+* [가격 오라클](core-concepts/price-oracles/README.md)
+  * [Untitled](core-concepts/price-oracles/untitled.md)
 
 ## 거버넌스(Governance)
 
@@ -53,9 +54,13 @@
 * [Insurance](security-and-risks/insurance.md)
 * [Bug Bounties](security-and-risks/bug-bounties.md)
 
-## 링크
+## Guides
 
-* [깃헙(Github)](https://www.github.com/originprotocol/origin-dollar)
-* [디스코드(Discord)](https://www.originprotocol.com/discord)
+* [Integration Guide For Exchanges](guides/integration-guide-for-exchanges.md)
+
+## Links
+
+* [Github](https://www.github.com/originprotocol/origin-dollar)
+* [Discord](https://www.originprotocol.com/discord)
 * [originprotocol.com](https://www.originprotocol.com)
 
