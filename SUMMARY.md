@@ -56,7 +56,7 @@
 
 ## Guides
 
-* [Integration Guide for Exchanges](guides/integration-guide-for-exchanges.md)
+* [Integration Guide For Exchanges](guides/integration-guide-for-exchanges.md)
 
 ## Links
 

@@ -1,4 +1,4 @@
-# Integration Guide for Exchanges
+# Integration Guide For Exchanges
 
 Centralized exchanges will play an important role in helping us reach our goal of making OUSD ubiquitous. We are happy to help any exchange that wants to make OUSD available to its users. We believe OUSD will make a great addition to any exchange that wants to offer both a superior stablecoin and a new high-yield opportunity for their users.
 
