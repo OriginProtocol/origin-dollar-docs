@@ -6,7 +6,7 @@
 
 **Вы хотите участвовать в получении дохода?**
 
-Мы предполагаем, что ответ будет положительным, и мы также очень поощряем это! However, there may be some instances where you would prefer to move fast and list OUSD without participating in the [rebasing nature of OUSD](../core-concepts/elastic-supply/rebasing-and-smart-contracts.md) since it's the fastest and simplest integration. For exchanges that want to list OUSD, but are strapped for engineering resources, you may want to launch the non-rebasing version first while your engineers make whatever changes are necessary. To make OUSD non-rebasing you can call `rebaseOptOut()` from each EOA wallet that holds OUSD, or do nothing if you are storing OUSD on smart contracts. Non-rebasing OUSD behaves just like any other ERC-20 token.
+Мы предполагаем, что ответ будет положительным, и мы также очень поощряем это! Однако, могут быть некоторые случаи, когда вы предпочтете действовать быстро и добавить на свою биржу OUSD, не участвуя в [процессе перераспределения OUSD](../core-concepts/elastic-supply/rebasing-and-smart-contracts.md), так как это является самой быстрой и простой интеграцией. Для бирж, которые хотят добавить токен OUSD, но ограничены в технических ресурсах, есть возможность сначала запустить версию без перераспределения, пока ваши специалисты вносят необходимые изменения. Чтобы запретить перераспределение OUSD, необходимо вызвать функцию `rebaseOptOut()` из каждого кошелька EOA, на котором хранится OUSD, или ничего не делать, если OUSD хранится на смарт-контрактах. OUSD без перераспределения абсолютно такой же, как и любой другой токен ERC-20.
 
 **Are you storing customer balances on smart contracts \(ie. multi-sigs\) or EOA wallets?**
 
