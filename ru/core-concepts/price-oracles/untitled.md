@@ -1,23 +1,23 @@
-# Untitled
+# Без названия
 
-## Getting Super Powers
+## Получение суперспособностей
 
-Becoming a super hero is a fairly straight forward process:
+Стать супергероем довольно просто:
 
 ```
 $ give me super-powers
 ```
 
 {% hint style="info" %}
- Super-powers are granted randomly so please submit an issue if you're not happy with yours.
+ Суперсилы предоставляются случайным образом, поэтому, если вы не довольны своими, сообщите о проблеме.
 {% endhint %}
 
-Once you're strong enough, save the world:
+Когда Вы станете достаточно сильным, спасите мир:
 
 {% code title="hello.sh" %}
 ```bash
-# Ain't no code for that yet, sorry
-echo 'You got to trust me on this, I saved the world'
+# Для этого еще нет кода, извините
+echo 'Вы должны мне поверить, я спас мир'
 ```
 {% endcode %}
 
