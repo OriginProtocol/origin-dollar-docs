@@ -6,15 +6,15 @@
 Кошельки с мульти-подписями или другие смарт-контракты должны вызвать функцию `rebaseOptIn()` чтобы получать доход.
 {% endhint %}
 
-By default, OUSD that is held on smart contracts will not participate in the rebasing nature of the token and will forfeit any yield unless the smart contract explicitly opts-in. This increases the composability of OUSD within DeFi as many protocols weren't designed with the expectation that balances might change. To other DeFi protocols, OUSD works just like any other normal, well-behaved ERC-20 until you ask it to change. This is a particularly useful attribute for automated market makers \(AMM’s\) like Uniswap which break when the number of tokens they are holding changes unexpectedly.
+По умолчанию, OUSD на смарт-контрактах не будет участвовать в перераспределении токена и потеряет любой доход, если смарт-контракт явным образом не поддерживает функцию получения токенов. Это увеличивает уровень "сочетаемости" OUSD с DeFi, поскольку многие протоколы не были разработаны с расчетом на изменение баланса. Для других протоколов DeFi OUSD работает так же, как и любой другой нормальный токен протокола ERC-20. Это особенно полезный атрибут для автоматических маркет-мейкеров (AMM), таких как Uniswap, которые перестают работать, когда количество токенов, которые они держат, неожиданно меняется.
 
-Smart contracts must explicitly opt-in to receiving yield via the rebasing mechanism. This fixes the issue with the expanding supply on AMM’s while still allowing multi-sig wallets and other smart contracts the opportunity to still participate and earn yield.
+Смарт-контракты должны явным образом давать разрешение на получение дохода через механизм перераспределения. Это решает проблему с увеличением предложения на AMM, но при этом по-прежнему предоставляет возможность кошелькам с мульти-подписями и другим смарт-контрактам участвовать и получать доход.
 
 {% hint style="warning" %}
-If you are deploying a contract and intend to call`rebaseOptIn()`to earn yield you cannot call it from the contract's constructor. The contract must be deployed before it can be called.
+Если Вы разворачиваете контракт и собираетесь вызвать функцию `rebaseOptIn()`, чтобы получить доход, Вы не можете вызвать ее из конструктора контрактов. Контракт должен быть развернут, прежде чем его можно будет вызвать.
 {% endhint %}
 
-If you are using a multi-sig wallet like [Gnosis Wallet](https://github.com/gnosis/MultiSigWallet) or [Gnosis Safe](https://gnosis-safe.io/), you will need the [proxy contract address for OUSD](../../smart-contracts/registry.md) and the corresponding [ABI](https://api.etherscan.io/api?module=contract&action=getabi&address=0x1ae95dd4eeae7ed03da79856c2d44ffa3318f805). Once you add those, you will be able to call the `rebaseOptIn()` function to opt into receiving yield via rebasing or`rebaseOptOut()` to turn it off again.
+Если Вы используете кошелек с мульти-подписями, например [Gnosis Wallet](https://github.com/gnosis/MultiSigWallet) или [Gnosis Safe](https://gnosis-safe.io/), Вам понадобится [адрес контракта прокси для OUSD](../../smart-contracts/registry.md) и соответствующий [ABI](https://api.etherscan.io/api?module=contract&action=getabi&address=0x1ae95dd4eeae7ed03da79856c2d44ffa3318f805). Как только Вы их добавите, получите возможность вызвать функцию `rebaseOptIn()` чтобы выбрать получение заработка через перераспределение, или `rebaseOptOut()` чтобы снова ее отключить.
 
 
 
