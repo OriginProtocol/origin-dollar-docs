@@ -31,7 +31,7 @@
 {% tab title="Strategies" %}
 Общеизвестные адреса \(прокси оболочки\):
 
-| Стратегия   | Адрес                                                                                                                 | Auto-Allocation              |
+| Стратегия   | Адрес                                                                                                                 | Автоматическое размещение    |
 |:----------- |:--------------------------------------------------------------------------------------------------------------------- |:---------------------------- |
 | Aave        | [0x9f2b18751376cF6a3432eb158Ba5F9b1AbD2F7ce](https://etherscan.io/address/0x9f2b18751376cF6a3432eb158Ba5F9b1AbD2F7ce) | 100% DAI                     |
 | Compound    | [0xD5433168Ed0B1F7714819646606DB509D9d8EC1f](https://etherscan.io/address/0xD5433168Ed0B1F7714819646606DB509D9d8EC1f) | 100% USDC и USDT             |
@@ -144,9 +144,9 @@
 {% endtab %}
 
 {% tab title="Swap" %}
-| Contract | Address                                                                                                               | ENS                                                           |
+| Контракт | Адрес                                                                                                                 | ENS                                                           |
 |:-------- |:--------------------------------------------------------------------------------------------------------------------- |:------------------------------------------------------------- |
-| Swap     | [0xcecaD69d7D4Ed6D52eFcFA028aF8732F27e08F70](https://etherscan.io/address/0xcecaD69d7D4Ed6D52eFcFA028aF8732F27e08F70) | [originswap.eth](https://etherscan.io/address/originswap.eth) |
+| Обмен    | [0xcecaD69d7D4Ed6D52eFcFA028aF8732F27e08F70](https://etherscan.io/address/0xcecaD69d7D4Ed6D52eFcFA028aF8732F27e08F70) | [originswap.eth](https://etherscan.io/address/originswap.eth) |
 {% endtab %}
 {% endtabs %}
 
