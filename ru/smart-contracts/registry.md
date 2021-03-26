@@ -49,32 +49,21 @@
 {% tab title="Oracles" %}
 Следующие оракулы используются для получения или вычисления цены **DAI/USD:**
 
-| Оракул                   | Пара    | Контракт                                   |
-|:------------------------ |:------- |:------------------------------------------ |
-| Открытый поток котировок | DAI/USD | 0x922018674c12a7f0d394ebeef9b58f186cde13c1 |
-| Chainlink                | DAI/USD | 0xa7D38FBD325a6467894A13EeFD977aFE558bC1f0 |
-| Chainlink                | DAI/ETH | 0x037E8F2125bF532F3e228991e051c8A7253B642c |
+| Оракул    | Пара    | Контракт                                                                                                              |
+|:--------- |:------- |:--------------------------------------------------------------------------------------------------------------------- |
+| Chainlink | DAI/USD | [0xAed0c38402a5d19df6E4c03F4E2DceD6e29c1ee9](https://etherscan.io/address/0xAed0c38402a5d19df6E4c03F4E2DceD6e29c1ee9) |
 
 Следующие оракулы используются для извлечения или вычисления цены **USDT/USD:**
 
-| **Оракул**               | Пара     | Контракт                                   |
-|:------------------------ |:-------- |:------------------------------------------ |
-| Chainlink                | USDT/ETH | 0xa874fe207DF445ff19E7482C746C4D3fD0CB9AcE |
-| Открытый поток котировок | USDC/USD | 0x922018674c12a7f0d394ebeef9b58f186cde13c1 |
+| **Оракул** | Пара     | Контракт                                                                                                              |
+|:---------- |:-------- |:--------------------------------------------------------------------------------------------------------------------- |
+| Chainlink  | USDT/USD | [0x3E7d1eAB13ad0104d2750B8863b489D65364e32D](https://etherscan.io/address/0x3E7d1eAB13ad0104d2750B8863b489D65364e32D) |
 
 Следующие оракулы используются для извлечения или вычисления цены **USDC/USD:**
 
-| **Оракул**               | Пара     | Контракт                                   |
-|:------------------------ |:-------- |:------------------------------------------ |
-| Chainlink                | USDC/ETH | 0xdE54467873c3BCAA76421061036053e371721708 |
-| Открытый поток котировок | USDC/USD | 0x922018674c12a7f0d394ebeef9b58f186cde13c1 |
-
-Поскольку не все оракулы имеют прямые пары с долларом США, протокол также извлекает цены для **ETH/USD**, чтобы рассчитать цены в долларах США с использованием ETH. Опять же, на всякий случай протокол выбирает наиболее выгодный для фонда, а не для отдельных персон.
-
-| Оракул                   | Пара    | Контракт                                   |
-|:------------------------ |:------- |:------------------------------------------ |
-| Открытый поток котировок | ETH/USD | 0x922018674c12a7f0d394ebeef9b58f186cde13c1 |
-| Chainlink                | ETH/USD | 0xF79D6aFBb6dA890132F9D7c355e3015f15F3406F |
+| O**racle** | Pair     | Contract                                                                                                              |
+|:---------- |:-------- |:--------------------------------------------------------------------------------------------------------------------- |
+| Chainlink  | USDC/USD | [0x8fFfFfd4AfB6115b954Bd326cbe7B4BA576818f6](https://etherscan.io/address/0x8fFfFfd4AfB6115b954Bd326cbe7B4BA576818f6) |
 {% endtab %}
 
 {% tab title="Governance" %}
@@ -82,28 +71,28 @@
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">Контракт</th>
-      <th style="text-align:left">Адрес</th>
+      <th style="text-align:left">Contract</th>
+      <th style="text-align:left">Address</th>
       <th style="text-align:left">ENS</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">5 из 8 мультиподписей</td>
+      <td style="text-align:left">5 of 8 Multisig</td>
       <td style="text-align:left"><a href="https://etherscan.io/address/0xe011fA2a6Df98c69383457d87a056Ed0103aA352">0xe011fA2a6Df98c69383457d87a056Ed0103aA352</a>
       </td>
       <td style="text-align:left"><a href="https://etherscan.io/address/originprotocol.eth">originprotocol.eth</a>
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">2 из 9 мультиподписей</td>
+      <td style="text-align:left">2 of 9 Multisig</td>
       <td style="text-align:left"><a href="https://etherscan.io/address/0xF14BBdf064E3F67f51cd9BD646aE3716aD938FDC">0xF14BBdf064E3F67f51cd9BD646aE3716aD938FDC</a>
       </td>
       <td style="text-align:left"><a href="https://etherscan.io/address/originstrategist.eth">originstrategist.eth</a>
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">Регулятор / Временная блокировка</td>
+      <td style="text-align:left">Governor / Timelock</td>
       <td style="text-align:left"><a href="https://etherscan.io/address/0x8e7bDFeCd1164C46ad51b58e49A611F954D23377">0x8e7bDFeCd1164C46ad51b58e49A611F954D23377</a>
       </td>
       <td style="text-align:left">
@@ -118,7 +107,7 @@
 {% endtab %}
 
 {% tab title="Stablecoins" %}
-| Контракт                                                                        | Адрес                                                                                                                 |
+| Contract                                                                        | Address                                                                                                               |
 |:------------------------------------------------------------------------------- |:--------------------------------------------------------------------------------------------------------------------- |
 | [USDT](https://etherscan.io/address/0x52BEBd3d7f37EC4284853Fd5861Ae71253A7F428) | [0xdac17f958d2ee523a2206206994597c13d831ec7](https://etherscan.io/address/0x52BEBd3d7f37EC4284853Fd5861Ae71253A7F428) |
 | [USDC](https://etherscan.io/address/0x52BEBd3d7f37EC4284853Fd5861Ae71253A7F428) | [0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48](https://etherscan.io/address/0x52BEBd3d7f37EC4284853Fd5861Ae71253A7F428) |
@@ -126,27 +115,27 @@
 {% endtab %}
 
 {% tab title="Staking" %}
-| Контракт             | Адрес                                                                                                                 | ENS                                                                 |
-|:-------------------- |:--------------------------------------------------------------------------------------------------------------------- |:------------------------------------------------------------------- |
-| Стейкинг токенов OGN | [0x501804B374EF06fa9C427476147ac09F1551B9A0](https://etherscan.io/address/0x501804B374EF06fa9C427476147ac09F1551B9A0) | [originstaking.eth](https://etherscan.io/address/originstaking.eth) |
+| Contract    | Address                                                                                                               | ENS                                                                 |
+|:----------- |:--------------------------------------------------------------------------------------------------------------------- |:------------------------------------------------------------------- |
+| OGN Staking | [0x501804B374EF06fa9C427476147ac09F1551B9A0](https://etherscan.io/address/0x501804B374EF06fa9C427476147ac09F1551B9A0) | [originstaking.eth](https://etherscan.io/address/originstaking.eth) |
 
-Контракты на внутреннюю реализацию:
+Internal implementation contracts:
 
-| Контракт             | Адрес                                                                                                                 |
-|:-------------------- |:--------------------------------------------------------------------------------------------------------------------- |
-| Стейкинг токенов OGN | [0x8cd68a1e0b79150455c5498882d5d5d3df2dde08](https://etherscan.io/address/0x8cd68a1e0b79150455c5498882d5d5d3df2dde08) |
+| Contract    | Address                                                                                                               |
+|:----------- |:--------------------------------------------------------------------------------------------------------------------- |
+| OGN Staking | [0x8cd68a1e0b79150455c5498882d5d5d3df2dde08](https://etherscan.io/address/0x8cd68a1e0b79150455c5498882d5d5d3df2dde08) |
 {% endtab %}
 
 {% tab title="Compensation" %}
-| Контракт         | Адрес                                                                                                                 |
-|:---------------- |:--------------------------------------------------------------------------------------------------------------------- |
-| Компенсация OUSD | [0x9C94df9d594BA1eb94430C006c269C314B1A8281](https://etherscan.io/address/0x9C94df9d594BA1eb94430C006c269C314B1A8281) |
+| Contract          | Address                                                                                                               |
+|:----------------- |:--------------------------------------------------------------------------------------------------------------------- |
+| OUSD Compensation | [0x9C94df9d594BA1eb94430C006c269C314B1A8281](https://etherscan.io/address/0x9C94df9d594BA1eb94430C006c269C314B1A8281) |
 {% endtab %}
 
 {% tab title="Swap" %}
-| Контракт | Адрес                                                                                                                 | ENS                                                           |
+| Contract | Address                                                                                                               | ENS                                                           |
 |:-------- |:--------------------------------------------------------------------------------------------------------------------- |:------------------------------------------------------------- |
-| Обмен    | [0xcecaD69d7D4Ed6D52eFcFA028aF8732F27e08F70](https://etherscan.io/address/0xcecaD69d7D4Ed6D52eFcFA028aF8732F27e08F70) | [originswap.eth](https://etherscan.io/address/originswap.eth) |
+| Swap     | [0xcecaD69d7D4Ed6D52eFcFA028aF8732F27e08F70](https://etherscan.io/address/0xcecaD69d7D4Ed6D52eFcFA028aF8732F27e08F70) | [originswap.eth](https://etherscan.io/address/originswap.eth) |
 {% endtab %}
 {% endtabs %}
 
