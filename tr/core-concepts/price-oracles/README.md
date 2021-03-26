@@ -127,15 +127,9 @@ In order to prevent malicious attacks and to encourage long-term investors over 
 
 This protects the funds in the vault while rewarding long-term holders. Since the safest price depends on the direction of the trade, the Origin oracle exposes both a `priceUSDMint()` and a `priceUSDRedeem()`.
 
-Here is the initial set of oracles that are being used by OUSD:
-
-{% embed url="https://compound.finance/docs/prices" caption="" %}
+OUSD uses Chainling as oracle for DAI, USDC and USDT.
 
 {% embed url="https://feeds.chain.link/eth-usd" caption="" %}
-
-The following oracles have been implemented, but are not currently being used due to gas costs:
-
-{% embed url="https://uniswap.org/docs/v2/core-concepts/oracles/" caption="" %}
 
 The specific smart contract address for each oracle being used are listed on our [registry](../../smart-contracts/registry.md) page.
 
