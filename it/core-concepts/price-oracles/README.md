@@ -116,15 +116,9 @@ Al fine di prevenire attacchi malevoli e per incoraggiare investitori di lungo p
 
 Ciò protegge i fondi nel vault e allo stesso tempo premia gli holder di lungo termine. Poiché il prezzo più sicuro dipende dalla direzione del trade, lo smart contract dell'oracolo Origin espone sia la funzione `priceUSDMint()`, sia la funzione ` priceUSDRedeem()`.
 
-Segue il set iniziale degli oracoli che vengono utilizzati da OUSD:
-
-{% embed url="https://compound.finance/docs/prices" caption="" %}
+OUSD uses Chainling as oracle for DAI, USDC and USDT.
 
 {% embed url="https://feeds.chain.link/eth-usd" caption="" %}
-
-I seguenti oracoli sono stati implementati ma non sono attualmente utilizzati a causa del costo del gas:
-
-{% embed url="https://uniswap.org/docs/v2/core-concepts/oracles/" caption="" %}
 
 The specific smart contract address for each oracle being used are listed on our [registry](../../smart-contracts/registry.md) page.
 
