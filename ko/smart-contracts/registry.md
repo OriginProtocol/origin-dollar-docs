@@ -49,32 +49,21 @@ Internal implementation contracts:
 {% tab title="Oracles" %}
 The following oracles are used to fetch or compute a price for **DAI/USD:**
 
-| Oracle          | Pair    | Contract                                   |
-|:--------------- |:------- |:------------------------------------------ |
-| Open Price Feed | DAI/USD | 0x922018674c12a7f0d394ebeef9b58f186cde13c1 |
-| Chainlink       | DAI/USD | 0xa7D38FBD325a6467894A13EeFD977aFE558bC1f0 |
-| Chainlink       | DAI/ETH | 0x037E8F2125bF532F3e228991e051c8A7253B642c |
+| Oracle    | Pair    | Contract                                                                                                              |
+|:--------- |:------- |:--------------------------------------------------------------------------------------------------------------------- |
+| Chainlink | DAI/USD | [0xAed0c38402a5d19df6E4c03F4E2DceD6e29c1ee9](https://etherscan.io/address/0xAed0c38402a5d19df6E4c03F4E2DceD6e29c1ee9) |
 
 The following oracles are used to fetch a price for **USDT/USD:**
 
-| O**racle**      | Pair     | Contract                                   |
-|:--------------- |:-------- |:------------------------------------------ |
-| Chainlink       | USDT/ETH | 0xa874fe207DF445ff19E7482C746C4D3fD0CB9AcE |
-| Open Price Feed | USDC/USD | 0x922018674c12a7f0d394ebeef9b58f186cde13c1 |
+| O**racle** | Pair     | Contract                                                                                                              |
+|:---------- |:-------- |:--------------------------------------------------------------------------------------------------------------------- |
+| Chainlink  | USDT/USD | [0x3E7d1eAB13ad0104d2750B8863b489D65364e32D](https://etherscan.io/address/0x3E7d1eAB13ad0104d2750B8863b489D65364e32D) |
 
 The following oracles are used to fetch a price for **USDC/USD:**
 
-| O**racle**      | Pair     | Contract                                   |
-|:--------------- |:-------- |:------------------------------------------ |
-| Chainlink       | USDC/ETH | 0xdE54467873c3BCAA76421061036053e371721708 |
-| Open Price Feed | USDC/USD | 0x922018674c12a7f0d394ebeef9b58f186cde13c1 |
-
-Since not all oracles have direct USD pairs, the protocol also fetches the prices for **ETH/USD** in order to calculate USD prices using ETH. Again, to be safe, the protocol chooses the most advantageous for the fund instead of the individual.
-
-| Oracle          | Pair    | Contract                                   |
-|:--------------- |:------- |:------------------------------------------ |
-| Open Price Feed | ETH/USD | 0x922018674c12a7f0d394ebeef9b58f186cde13c1 |
-| Chainlink       | ETH/USD | 0xF79D6aFBb6dA890132F9D7c355e3015f15F3406F |
+| O**racle** | Pair     | Contract                                                                                                              |
+|:---------- |:-------- |:--------------------------------------------------------------------------------------------------------------------- |
+| Chainlink  | USDC/USD | [0x8fFfFfd4AfB6115b954Bd326cbe7B4BA576818f6](https://etherscan.io/address/0x8fFfFfd4AfB6115b954Bd326cbe7B4BA576818f6) |
 {% endtab %}
 
 {% tab title="Governance" %}
