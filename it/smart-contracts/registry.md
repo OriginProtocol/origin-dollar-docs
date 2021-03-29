@@ -102,6 +102,13 @@ The following oracles are used to fetch a price for **USDC/USD:**
         </p>
       </td>
     </tr>
+    <tr>
+      <td style="text-align:left">OGN Buyback</td>
+      <td style="text-align:left"><a href="https://etherscan.io/address/0x7294CD3C3eb4097b03E1A61EB2AD280D3dD265e6">0x7294CD3C3eb4097b03E1A61EB2AD280D3dD265e6</a>
+      </td>
+      <td style="text-align:left"><a href="https://etherscan.io/address/originbuyback.eth">originbuyback.eth</a>
+      </td>
+    </tr>
   </tbody>
 </table>
 {% endtab %}
@@ -124,9 +131,9 @@ Internal implementation contracts:
 | Contract    | Address                                                                                                               |
 |:----------- |:--------------------------------------------------------------------------------------------------------------------- |
 | OGN Staking | [0x8cd68a1e0b79150455c5498882d5d5d3df2dde08](https://etherscan.io/address/0x8cd68a1e0b79150455c5498882d5d5d3df2dde08) |
-{% endtab %}
 
-{% tab title="Compensation" %}
+OUSD compensation contract \([details](https://medium.com/originprotocol/origin-delivers-on-compensation-promise-claim-your-ousd-and-ogn-now-a9fa9b840476)\):
+
 | Contract          | Address                                                                                                               |
 |:----------------- |:--------------------------------------------------------------------------------------------------------------------- |
 | OUSD Compensation | [0x9C94df9d594BA1eb94430C006c269C314B1A8281](https://etherscan.io/address/0x9C94df9d594BA1eb94430C006c269C314B1A8281) |
