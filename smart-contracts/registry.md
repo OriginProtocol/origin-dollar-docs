@@ -103,6 +103,13 @@ The following oracles are used to fetch a price for **USDC/USD:**
         </p>
       </td>
     </tr>
+    <tr>
+      <td style="text-align:left">OGN Buyback</td>
+      <td style="text-align:left"><a href="https://etherscan.io/address/0x7294CD3C3eb4097b03E1A61EB2AD280D3dD265e6">0x7294CD3C3eb4097b03E1A61EB2AD280D3dD265e6</a>
+      </td>
+      <td style="text-align:left"><a href="https://etherscan.io/address/originbuyback.eth">originbuyback.eth</a>
+      </td>
+    </tr>
   </tbody>
 </table>
 {% endtab %}
