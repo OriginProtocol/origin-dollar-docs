@@ -1,25 +1,25 @@
-# 登记处
+# Registry
 
-这是已部署到以太坊主网的 OUSD 智能合约的完整注册表。
+Here is the full registry of OUSD smart contracts that have been deployed to the Ethereum mainnet.
 
 {% hint style="success" %}
-Origin Dollar（OUSD）的主要 ERC20 地址为：   
+The main ERC20 address for Origin Dollar \(OUSD\) is:   
 **0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86**
 {% endhint %}
 
 {% tabs %}
 {% tab title="Core" %}
-知名的地址 \(often proxy wrappers\):
+Well-known addresses \(often proxy wrappers\):
 
-| 合约          | 地址                                                                                                                    | ENS                                                               |
-|:----------- |:--------------------------------------------------------------------------------------------------------------------- |:----------------------------------------------------------------- |
-| OUSD        | [0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86](https://etherscan.io/address/0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86) | [ousd.eth](https://etherscan.io/address/ousd.eth)                 |
-| 保险库 （Vault） | [0xE75D77B1865Ae93c7eaa3040B038D7aA7BC02F70](https://etherscan.io/address/0xe75d77b1865ae93c7eaa3040b038d7aa7bc02f70) | [originvault.eth](https://etherscan.io/address/originvault.eth)   |
-| Oracle      | [0x843530DC8005e13dEA30CEa2394FF60635f38cc4](https://etherscan.io/address/0x843530DC8005e13dEA30CEa2394FF60635f38cc4) | [originoracle.eth](https://etherscan.io/address/originoracle.eth) |
+| Contract | Address                                                                                                               | ENS                                                               |
+|:-------- |:--------------------------------------------------------------------------------------------------------------------- |:----------------------------------------------------------------- |
+| OUSD     | [0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86](https://etherscan.io/address/0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86) | [ousd.eth](https://etherscan.io/address/ousd.eth)                 |
+| Vault    | [0xE75D77B1865Ae93c7eaa3040B038D7aA7BC02F70](https://etherscan.io/address/0xe75d77b1865ae93c7eaa3040b038d7aa7bc02f70) | [originvault.eth](https://etherscan.io/address/originvault.eth)   |
+| Oracle   | [0x843530DC8005e13dEA30CEa2394FF60635f38cc4](https://etherscan.io/address/0x843530DC8005e13dEA30CEa2394FF60635f38cc4) | [originoracle.eth](https://etherscan.io/address/originoracle.eth) |
 
 Internal implementation contracts. The Vault is split into VaultAdmin and VaultCore to work-around the maximum contract size limit on Ethereum:
 
-| 合约               | 地址                                                                                                                    |
+| Contract         | Address                                                                                                               |
 |:---------------- |:--------------------------------------------------------------------------------------------------------------------- |
 | OUSD             | [0x9d6975591E777D95Eef3bCC2a727846DA25d7083](https://etherscan.io/address/0x9d6975591E777D95Eef3bCC2a727846DA25d7083) |
 | VaultAdmin       | [0xb5f7E47Bc7D271b3df4824BDcFBB279a719F8Ae6](https://etherscan.io/address/0xb5f7E47Bc7D271b3df4824BDcFBB279a719F8Ae6) |
@@ -102,6 +102,13 @@ The following oracles are used to fetch a price for **USDC/USD:**
         </p>
       </td>
     </tr>
+    <tr>
+      <td style="text-align:left">OGN Buyback</td>
+      <td style="text-align:left"><a href="https://etherscan.io/address/0x7294CD3C3eb4097b03E1A61EB2AD280D3dD265e6">0x7294CD3C3eb4097b03E1A61EB2AD280D3dD265e6</a>
+      </td>
+      <td style="text-align:left"><a href="https://etherscan.io/address/originbuyback.eth">originbuyback.eth</a>
+      </td>
+    </tr>
   </tbody>
 </table>
 {% endtab %}
@@ -124,9 +131,9 @@ Internal implementation contracts:
 | Contract    | Address                                                                                                               |
 |:----------- |:--------------------------------------------------------------------------------------------------------------------- |
 | OGN Staking | [0x8cd68a1e0b79150455c5498882d5d5d3df2dde08](https://etherscan.io/address/0x8cd68a1e0b79150455c5498882d5d5d3df2dde08) |
-{% endtab %}
 
-{% tab title="Compensation" %}
+OUSD compensation contract \([details](https://medium.com/originprotocol/origin-delivers-on-compensation-promise-claim-your-ousd-and-ogn-now-a9fa9b840476)\):
+
 | Contract          | Address                                                                                                               |
 |:----------------- |:--------------------------------------------------------------------------------------------------------------------- |
 | OUSD Compensation | [0x9C94df9d594BA1eb94430C006c269C314B1A8281](https://etherscan.io/address/0x9C94df9d594BA1eb94430C006c269C314B1A8281) |
