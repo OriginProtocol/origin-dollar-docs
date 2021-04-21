@@ -16,7 +16,7 @@
 
 Если вы обнаружите уязвимость, сделайте следующее:
 
-* Сообщите о своих выводах по адресу[security@originprotocol.com](mailto:security@originprotcol.com) или свяжитесь с [Джошем Фрейзером в Keybase](https://keybase.io/joshfraser)
+* Report your findings to [security@originprotocol.com](mailto:security@originprotocol.com) or contact [Josh Fraser on Keybase](https://keybase.io/joshfraser)
 * Не пользуйтесь уязвимостью или проблемой, которую вы обнаружили
 * Не сообщайте о проблеме другим, пока она не будет решена
 * Не используйте атаки на физическую безопасность, социальную инженерию, распределенный отказ в обслуживании, спам или приложения третьих лиц
