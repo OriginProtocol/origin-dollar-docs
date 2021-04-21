@@ -16,7 +16,7 @@ Jika Anda menemukan kerentanan, kami ingin segera mengetahuinya sehingga kami da
 
 Jika Anda menemukan kerentanan, lakukan hal berikut:
 
-* Laporkan temuan Anda ke[security@originprotocol.com](mailto:security@originprotcol.com) atau hubungi [Josh Fraser di Keybase](https://keybase.io/joshfraser)
+* Report your findings to [security@originprotocol.com](mailto:security@originprotocol.com) or contact [Josh Fraser on Keybase](https://keybase.io/joshfraser)
 * Jangan memanfaatkan kerentanan atau masalah yang Anda temukan
 * Jangan mengungkapkan masalah kepada orang lain sampai masalah tersebut diselesaikan
 * Jangan menggunakan serangan terhadap keamanan fisik, rekayasa sosial, penyangkalan layanan terdistribusi, spam atau aplikasi pihak ketiga
