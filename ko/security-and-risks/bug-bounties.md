@@ -16,7 +16,7 @@
 
 만약 취약점을 발견하였다면, 다음과 같은 안내를 따라주세요:
 
-* 결과를 [security@originprotocol.com](mailto:security@originprotcol.com) 로 보고하거나, [키베이스(Keybase)](https://keybase.io/joshfraser) 상에서 조쉬 프레이저(Josh Fraser)에게 연락주세요.
+* Report your findings to [security@originprotocol.com](mailto:security@originprotocol.com) or contact [Josh Fraser on Keybase](https://keybase.io/joshfraser)
 * 당신이 발견한 취약점이나 문제를 이용하지 마십시오.
 * 해당 문제가 해결 될 때까지 다른 사람에게 문제를 공개하지 말아주세요.
 * 물리적 보안, 사회 공학, 분산 서비스 거부, 스팸 또는 타사 애플리케이션에 대한 공격을 사용하지 마십시오.
