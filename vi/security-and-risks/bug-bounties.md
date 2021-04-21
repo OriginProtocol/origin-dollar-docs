@@ -16,7 +16,7 @@ Trong trường hợp bạn phát hiện ra lỗ hổng bảo mật, chúng tôi
 
 Nếu bạn phát hiện ra một lỗ hổng, vui lòng làm theo các bước sau:
 
-* Gửi báo cáo phát hiện của bạn tới địa chỉ mail[security@originprotocol.com](mailto:security@originprotcol.com) hoặc liên hệ với [Josh Fraser trên Keybase](https://keybase.io/joshfraser)
+* Report your findings to [security@originprotocol.com](mailto:security@originprotocol.com) or contact [Josh Fraser on Keybase](https://keybase.io/joshfraser)
 * Không lợi dụng lỗ hổng hoặc vấn đề bạn đã phát hiện
 * Không tiết lộ vấn đề cho người khác cho đến khi nó đã được giải quyết
 * Không sử dụng các cuộc tấn công vào an ninh vật lý, tấn công phi kỹ thuật (đánh cắp thông tin), tấn công từ chối dịch vụ phân tán, spam hoặc tấn công các ứng dụng của bên thứ ba
