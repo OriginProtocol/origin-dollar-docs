@@ -16,7 +16,7 @@ En caso de que descubra una vulnerabilidad, nos gustaría conocerla de inmediato
 
 Si descubre una vulnerabilidad, haga lo siguiente:
 
-* Informe sus hallazgos a [security@originprotocol.com](mailto:security@originprotcol.com) o comuníquese con [Josh Fraser en Keybase](https://keybase.io/joshfraser)
+* Report your findings to [security@originprotocol.com](mailto:security@originprotocol.com) or contact [Josh Fraser on Keybase](https://keybase.io/joshfraser)
 * No aproveche la vulnerabilidad o problema que ha descubierto
 * No revele el problema a otros hasta que se haya resuelto
 * No utilice ataques a la seguridad física, ingeniería social, denegación de servicio distribuida, spam o aplicaciones de terceros
