@@ -16,13 +16,11 @@ Bir güvenlik açığı keşfetmeniz durumunda, bunu olabildiğince hızlı bir 
 
 Bir güvenlik açığı keşfederseniz, lütfen aşağıdakileri yapın:
 
-* Bulgularınızı[security@originprotocol.com](mailto:security@originprotcol.com) adresine bildirin veya Keybase</a>
-Josh Fraser ile iletişime geçin</li> 
-  
-  * Keşfettiğiniz güvenlik açığından veya sorundan yararlanmayın
+* Report your findings to [security@originprotocol.com](mailto:security@originprotocol.com) or contact [Josh Fraser on Keybase](https://keybase.io/joshfraser)
+* Keşfettiğiniz güvenlik açığından veya sorundan yararlanmayın
 * Çözülene kadar sorunu başkalarına açıklamayın
 * Fiziksel güvenlik, sosyal mühendislik, dağıtılmış hizmet reddi, spam veya üçüncü taraf uygulamalarına yönelik saldırıları kullanmayın.
-* Sorunu yeniden oluşturmak için yeterli bilgi sağlayın, böylece sorunu olabildiğince çabuk çözebiliriz. Karmaşık güvenlik açıkları daha fazla açıklama gerektirebilir, bu nedenle sizden ek bilgi isteyebiliriz.</ul> 
+* Sorunu yeniden oluşturmak için yeterli bilgi sağlayın, böylece sorunu olabildiğince çabuk çözebiliriz. Karmaşık güvenlik açıkları daha fazla açıklama gerektirebilir, bu nedenle sizden ek bilgi isteyebiliriz.
 
 Karşılığında söz veriyoruz:
 
