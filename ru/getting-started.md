@@ -17,8 +17,12 @@
 
 Централизованные биржи:
 
-* [Купить OUSD на Virgox](https://virgox.com/exchange/141)
-* [Купить OUSD в приложении Dharma](https://www.dharma.io/) \(только для США\)
+* Buy OUSD on KuCoin
+  * [OUSD/USDT](https://trade.kucoin.com/OUSD-USDT)
+  * [OUSD/BTC](https://trade.kucoin.com/OUSD-BTC)
+* Buy OUSD on Virgox
+  * [OUSD/USDT](https://virgox.com/exchange/141)
+* [Buy OUSD on Dharma App](https://www.dharma.io/) \(US only\)
 
 **Добавить OUSD в Ваш кошелек**
 
