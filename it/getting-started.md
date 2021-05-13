@@ -17,8 +17,12 @@ Exchange Decentralizzati:
 
 Exchange Centralizzati:
 
-* [Acquista OUSD su Virgox](https://virgox.com/exchange/141)
-* [Acquista OUSD su Dharma App](https://www.dharma.io/)\(disponibile solo in USA\)
+* Buy OUSD on KuCoin
+  * [OUSD/USDT](https://trade.kucoin.com/OUSD-USDT)
+  * [OUSD/BTC](https://trade.kucoin.com/OUSD-BTC)
+* Buy OUSD on Virgox
+  * [OUSD/USDT](https://virgox.com/exchange/141)
+* [Buy OUSD on Dharma App](https://www.dharma.io/) \(US only\)
 
 **Aggiungi OUSD sul tuo wallet**
 
