@@ -1,25 +1,25 @@
-# Registry
+# 登记处
 
-Here is the full registry of OUSD smart contracts that have been deployed to the Ethereum mainnet.
+这是已部署到以太坊主网的 OUSD 智能合约的完整注册表。
 
 {% hint style="success" %}
-The main ERC20 address for Origin Dollar \(OUSD\) is:   
+Origin Dollar（OUSD）的主要 ERC20 地址为：   
 **0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86**
 {% endhint %}
 
 {% tabs %}
 {% tab title="Core" %}
-Well-known addresses \(often proxy wrappers\):
+知名的地址 \(often proxy wrappers\):
 
-| Contract | Address                                                                                                               | ENS                                                               |
-|:-------- |:--------------------------------------------------------------------------------------------------------------------- |:----------------------------------------------------------------- |
-| OUSD     | [0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86](https://etherscan.io/address/0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86) | [ousd.eth](https://etherscan.io/address/ousd.eth)                 |
-| Vault    | [0xE75D77B1865Ae93c7eaa3040B038D7aA7BC02F70](https://etherscan.io/address/0xe75d77b1865ae93c7eaa3040b038d7aa7bc02f70) | [originvault.eth](https://etherscan.io/address/originvault.eth)   |
-| Oracle   | [0x843530DC8005e13dEA30CEa2394FF60635f38cc4](https://etherscan.io/address/0x843530DC8005e13dEA30CEa2394FF60635f38cc4) | [originoracle.eth](https://etherscan.io/address/originoracle.eth) |
+| 合约          | 地址                                                                                                                    | ENS                                                               |
+|:----------- |:--------------------------------------------------------------------------------------------------------------------- |:----------------------------------------------------------------- |
+| OUSD        | [0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86](https://etherscan.io/address/0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86) | [ousd.eth](https://etherscan.io/address/ousd.eth)                 |
+| 保险库 （Vault） | [0xE75D77B1865Ae93c7eaa3040B038D7aA7BC02F70](https://etherscan.io/address/0xe75d77b1865ae93c7eaa3040b038d7aa7bc02f70) | [originvault.eth](https://etherscan.io/address/originvault.eth)   |
+| Oracle      | [0x843530DC8005e13dEA30CEa2394FF60635f38cc4](https://etherscan.io/address/0x843530DC8005e13dEA30CEa2394FF60635f38cc4) | [originoracle.eth](https://etherscan.io/address/originoracle.eth) |
 
 Internal implementation contracts. The Vault is split into VaultAdmin and VaultCore to work-around the maximum contract size limit on Ethereum:
 
-| Contract         | Address                                                                                                               |
+| 合约               | 地址                                                                                                                    |
 |:---------------- |:--------------------------------------------------------------------------------------------------------------------- |
 | OUSD             | [0x9d6975591E777D95Eef3bCC2a727846DA25d7083](https://etherscan.io/address/0x9d6975591E777D95Eef3bCC2a727846DA25d7083) |
 | VaultAdmin       | [0xb5f7E47Bc7D271b3df4824BDcFBB279a719F8Ae6](https://etherscan.io/address/0xb5f7E47Bc7D271b3df4824BDcFBB279a719F8Ae6) |
@@ -35,7 +35,7 @@ Well-known addresses \(proxy wrappers\):
 |:----------- |:--------------------------------------------------------------------------------------------------------------------- |:--------------------- |
 | Aave        | [0x9f2b18751376cF6a3432eb158Ba5F9b1AbD2F7ce](https://etherscan.io/address/0x9f2b18751376cF6a3432eb158Ba5F9b1AbD2F7ce) | 100% of DAI           |
 | Compound    | [0xD5433168Ed0B1F7714819646606DB509D9d8EC1f](https://etherscan.io/address/0xD5433168Ed0B1F7714819646606DB509D9d8EC1f) | 100% of USDC and USDT |
-| Curve 3Pool | [0x3c5fe0a3922777343CBD67D3732FCdc9f2Fa6f2F](https://etherscan.io/address/0x3c5fe0a3922777343CBD67D3732FCdc9f2Fa6f2F) | Manual allocation     |
+| Curve 3Pool | [0x874c74E6ec318AD0a7e6f23301678a4751d00482](https://etherscan.io/address/0x874c74E6ec318AD0a7e6f23301678a4751d00482) | Manual allocation     |
 
 Internal implementation contracts:
 
