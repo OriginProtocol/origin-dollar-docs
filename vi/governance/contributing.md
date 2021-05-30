@@ -32,31 +32,31 @@ Bạn có thể tham khảo các bước sau nếu muốn đóng góp cho Origin
 *  Vượt qua Slither không bị cảnh báo
 *  Vượt qua kiểm tra Echidna
 
-The `master` branch is locked so that only members of the [core team](https://github.com/orgs/OriginProtocol/teams/core) are able to merge your pull requests. Pull requests that are peer-reviewed by other trusted contributors will be fast-tracked and merged faster! Check in the `#engineering` Discord channel for appropriate reviewers.
+Nhánh `chính` bị khóa để chỉ các [ thành viên chính ](https://github.com/orgs/OriginProtocol/teams/core) của team có thể hợp nhất các yêu cầu kéo của bạn. Kéo các yêu cầu được đã được xem trước bởi những người đóng góp tin cậy khác sẽ nhanh và được hợp nhất nhanh hơn! Kiểm tra kênh `#engineering` trên Discord để tìm kiếm những người đánh giá thích hợp.
 
 #### Kiểu lập trình
 
-We use a variety of programming languages in our repositories. When contributing, please follow existing coding conventions and refer to the CONTRIBUTING.md file in the repository, if one exists.
+Chúng tôi sử dụng nhiều ngôn ngữ lập trình khác nhau trong kho lập trình. Khi đóng góp, vui lòng tuân theo các quy ước lập trình hiện có và tham khảo tệp CONTRIBUTING.md trong kho lưu trữ, nếu có.
 
-For JavaScript, we use [NPM’s style](https://docs.npmjs.com/misc/coding-style), which is automatically enforced via [prettier](https://prettier.io/).
+Đối với JavaScript, chúng tôi sử dụng kiểu [NPM](https://docs.npmjs.com/misc/coding-style), được thực thi tự động thông qua [prettier](https://prettier.io/).
 
-For Solidity, we use two-space indents.
+Đối với Solidity, chúng tôi sử dụng thụt lề hai dấu cách.
 
 #### Thiết kế giao thức
 
-When considering protocol or implementation design proposals, we are looking for:
+Khi xem xét đề xuất giao thức hoặc thiết kế triển khai, chúng tôi đang tìm kiếm:
 
-* A description of the problem this design proposal solves
-* Discussion of the trade-offs involved
-* Review of other existing solutions
-* Links to relevant literature \(RFCs, papers, etc\)
-* Discussion of the proposed solution
+* Mô tả vấn đề mà bản đề xuất này sẽ giải quyết
+* Thảo luận về những đánh đổi liên quan
+* Xem xét các giải pháp hiện có khác
+* Link đến tài liệu có liên quan (RFC, bài báo, v. v.)
+* Thảo luận về giải pháp đề xuất
 
-Please note that protocol design is hard and meticulous work. You may need to review existing literature and think through generalized use cases.
+Xin lưu ý rằng thiết kế giao thức là công việc khó khăn và tỉ mỉ. Bạn có thể cần xem lại tài liệu hiện có và suy nghĩ qua các trường hợp sử dụng tổng quát.
 
 #### Hỗ trợ cộng đồng
 
-We want to keep the Origin community awesome, growing and collaborative. We need your help to keep it that way. To help with this we’ve come up with some general guidelines for the community as a whole:
+Chúng tôi luôn hướng tới duy trì một cộng đồng liên tục phát triển và hợp tác. We need your help to keep it that way. To help with this we’ve come up with some general guidelines for the community as a whole:
 
 * Be nice: Be courteous, respectful and polite to fellow community members: no regional, racial, gender, or other abuse will be tolerated. We like nice people way better than mean ones!
 * Encourage diversity and participation: Make everyone in our community feel welcome, regardless of their background and the extent of their contributions, and do everything possible to encourage participation in our community.
