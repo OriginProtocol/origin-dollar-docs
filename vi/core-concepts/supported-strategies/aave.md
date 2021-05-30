@@ -10,7 +10,7 @@ Aave is currently governed by LEND, an ERC-20 token that was formerly the utilit
 
 Aave's total value locked \(TVL\) has quickly grown to over $1.2 billion, making it one of the largest DeFi protocols. LEND has a circulating market cap of over $700 million.
 
-Aave has undergone security audits by OpenZeppelin, Trail of Bits, and Consensys Diligence. Aave maintains a bug bounty program.
+Aave đã trải qua các cuộc kiểm toán bảo mật được thực hiện bởi OpenZeppelin, Trail of Bits và Consensys Diligence. Aave vẫn đang duy trì chương trình tặng tưởng cho người phát hiện ra lỗi của hệ thống.
 
 | Tài nguyên                       |                                                                                |
 |:-------------------------------- |:------------------------------------------------------------------------------ |
