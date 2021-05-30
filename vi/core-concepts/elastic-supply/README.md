@@ -12,11 +12,11 @@ Hãy coi đó là tiền lãi tích lũy trong tài khoản ngân hàng của b�
 
 Cơ chế này được lấy cảm hứng từ phương pháp mới được thực hiện bởi [Ampleforth](https://www.ampleforth.org/), nhưng có một số điểm khác biệt nổi bật như sau:
 
-1. OUSD is 100% backed by other stablecoins and does not have the same challenge maintaining the peg to the dollar. Với việc dễ dàng khai thác và hoàn trả OUSD, chúng tôi có thể tin tưởng vào những người kinh doanh dựa trên chênh lệch giá để đảm bảo tỷ giá được duy trì.
-2. OUSD rebasing will only increase supply since the amount of OUSD minted is tied to the realized gains earned by the underlying strategies. Your principal is protected as long as nothing goes wrong with the underlying lending/AMM and stablecoin protocols. Your OUSD balance will never decrease, but the value could drop if there's a failure in the underlying systems.
-3. Unlike Ampleforth, which rebases once a day, the monetary supply of OUSD is constantly being updated in real-time as yield is generated. Rebases are triggered regularly as users interact with the OUSD contracts.
+1. OUSD được hỗ trợ 100% bởi các stablecoin khác và không gặp phải thách thức tương tự khi phải duy trì tỷ giá cố định với đồng đô la. Với việc dễ dàng khai thác và hoàn trả OUSD, chúng tôi có thể tin tưởng vào những người kinh doanh dựa trên chênh lệch giá để đảm bảo tỷ giá được duy trì.
+2. Số lượng OUSD sẽ luốn tăng lên vì số lượng OUSD được mint gắn liền với lợi nhuận thực tế thu được từ các chiến lược. Tiền gốc của bạn được bảo vệ miễn là không có vấn đề gì xảy ra với các giao thức cho vay / AMM và stablecoin cơ bản. Số dư OUSD của bạn sẽ không bao giờ giảm, nhưng giá trị có thể giảm nếu hệ thống xảy ra lỗi.
+3. Không giống như Ampleforth - nguồn cung chỉ được điểu chỉnh 1 ngày 1 lần, nguồn cung tiền tệ của OUSD liên tục được cập nhật theo thời gian thực khi lợi tức được tạo ra. Rebase được kích hoạt thường xuyên khi người dùng tương tác với các hợp đồng OUSD.
 
-**Manually triggering a rebase**
+**Kích hoạt rebase thủ công**
 
-Anyone can trigger a rebase at any time by [calling the rebase function on the vault](https://etherscan.io/address/originvault.eth#writeProxyContract). You can do this on Etherscan by connecting a web3 wallet.
+Bất kỳ ai cũng có thể kích hoạt rebase tại bất kỳ thời điểm nào bằng cách [gọi hàm rebase trên vault](https://etherscan.io/address/originvault.eth#writeProxyContract). Bạn có thể thực hiện việc này trên Etherscan bằng cách kết nối ví web3.
 
