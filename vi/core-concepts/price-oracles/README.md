@@ -112,15 +112,15 @@ Chức năng rebase coi 1 stablecoin là 1 OUSD để đơn giản hóa và đ�
 Giá của OUSD được đối chiếu trên nhiều chuỗi và sử dụng tỉ giá có lợi nhất cho kho tiền khi mint hoặc redeem.
 {% endhint %}
 
-In order to prevent malicious attacks and to encourage long-term investors over short-term speculators, the OUSD contract compares price feeds from multiple sources and will use whichever exchange rate benefits the entire vault over the individual. This mechanism protects the vault funds from arbitrageurs and prevents any individual from being able to take advantage of any temporary inefficiencies caused by mispriced oracles to deplete the shared pool of assets.
+Để ngăn chặn các cuộc tấn công và khuyến khích các nhà đầu tư dài hạn thay vì các nhà đầu cơ ngắn hạn, hợp đồng OUSD so sánh các nguồn cấp giá từ nhiều nguồn và sẽ sử dụng tỷ giá hối đoái nào có lợi cho toàn bộ tài sản có trong kho tiền. Cơ chế này bảo vệ quỹ của bể khỏi tình trạng kinh doanh ăn chênh lệch giá và ngăn chặn cá nhân lợi dụng bất kỳ sơ hở tạm thời nào gây ảnh hưởng tới tài sản trong kho tiền.
 
-This protects the funds in the vault while rewarding long-term holders. Since the safest price depends on the direction of the trade, the Origin oracle exposes both a `priceUSDMint()` and a `priceUSDRedeem()`.
+Điều này bảo vệ các khoản tiền được giữ trong kho tiền đồng thời khuyến khích mọi người nắm giữ lâu dài. Mức giá an toàn nhất phụ thuộc vào giao dịch mua bán trực tiếp, mức giá của Origin đối chiếu cả `priceUSDMint ()` và `priceUSDRedeem ()`.
 
-OUSD uses Chainling as oracle for DAI, USDC and USDT.
+OUSD sử dụng oracle Chainlink cho DAI, USDC và USDT.
 
 {% embed url="https://feeds.chain.link/eth-usd" caption="" %}
 
-The specific smart contract address for each oracle being used are listed on our [registry](../../smart-contracts/registry.md) page.
+Địa chỉ hợp đồng thông minh cụ thể cho mỗi oracle đang được sử dụng được liệt kê tại [trang đăng ký](../../smart-contracts/registry.md).
 
-It is possible that additional oracles will be added to the protocol over time. Support may also be removed if any of these oracles become unreliable.
+Việc có các oracle mới bổ sung vào giao thức theo thời gian là hoàn toàn có thể. Các oracle hiện đang hỗ trợ cũng có thể bị loại bỏ nếu phị phát hiện thiếu tin cậy.
 
