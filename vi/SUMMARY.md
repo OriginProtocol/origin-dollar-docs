@@ -3,12 +3,12 @@
 * [Giới thiệu](README.md)
 * [Cơ chế hoạt động](how-it-works.md)
 * [Các bước cơ bản](getting-started.md)
-* [FAQ](faq.md)
+* [Câu hỏi thường gặp](faq.md)
 
 ## Nội dung chính
 
 * [Cung linh hoạt](core-concepts/elastic-supply/README.md)
-  * [Rebasing & Smart Contracts](core-concepts/elastic-supply/rebasing-and-smart-contracts.md)
+  * [Rebasing & Hợp đồng thông minh](core-concepts/elastic-supply/rebasing-and-smart-contracts.md)
 * [Nguồn tạo lợi nhuận](core-concepts/yield-generation/README.md)
   * [Cho vay](core-concepts/yield-generation/lending.md)
   * [Tạo lập thị trường](core-concepts/yield-generation/market-making.md)
@@ -27,14 +27,14 @@
   * [Yearn.finance](core-concepts/supported-strategies/yearn.finance.md)
 * [Quản lý quỹ](core-concepts/fund-management.md)
 * [Ước tính giá](core-concepts/price-oracles/README.md)
-  * [Untitled](core-concepts/price-oracles/untitled.md)
+  * [Không có tiêu đề](core-concepts/price-oracles/untitled.md)
 
 ## Quản trị
 
 * [Nguyên tắc](governance/principles.md)
 * [Đặc quyền của quản trị viên](governance/admin-privileges.md)
-* [OGN Staking](governance/ogn-staking.md)
-* [Contributing](governance/contributing.md)
+* [Stake OGN](governance/ogn-staking.md)
+* [Đóng góp](governance/contributing.md)
 
 ## Hợp đồng thông minh
 
@@ -51,14 +51,14 @@
 
 * [Rủi ro](security-and-risks/risks.md)
 * [Kiểm toán](security-and-risks/audits.md)
-* [Insurance](security-and-risks/insurance.md)
-* [Bug Bounties](security-and-risks/bug-bounties.md)
+* [Bảo hiểm](security-and-risks/insurance.md)
+* [Phần thưởng phát hiện lỗi](security-and-risks/bug-bounties.md)
 
-## Guides
+## Hướng dẫn
 
-* [Integration Guide For Exchanges](guides/integration-guide-for-exchanges.md)
+* [Hướng dẫn tích hợp cho các sàn giao dịch](guides/integration-guide-for-exchanges.md)
 
-## Links
+## Danh sách các kênh
 
 * [Github](https://www.github.com/originprotocol/origin-dollar)
 * [Discord](https://www.originprotocol.com/discord)
