@@ -1,14 +1,14 @@
 # Aave
 
-Aave is a lending protocol and platform built on Ethereum and launched in January 2020 by the creators of ETHLend. Users on Aave can earn compounding interest on or borrow assets against collateral. Each supported asset is aggregated in its own liquidity pool and users can choose between a variable interest rate based on supply and demand or a fixed interest rate.
+Aave là một giao thức và nền tảng cho vay xây dựng trên Ethereum và được ra mắt vào tháng 1 năm 2020 bởi những người tạo ra ETHLend. Người dùng trên Aave có thể kiếm lãi kép hoặc vay một tài sản khác dựa trên tài sản thế chấp. Mỗi tài sản được hỗ trợ được tổng hợp trong nhóm thanh khoản riêng của nó và người dùng có thể chọn giữa lãi suất thay đổi dựa trên cung và cầu hoặc lãi suất cố định.
 
-Collateral balances are represented by ERC-20 aTokens at a 1:1 ratio to the underlying assets they represent. Interest is compounded automatically and paid to lenders with aTokens, meaning lenders will steadily see their aToken balance increase over time. Users can borrow assets against their aTokens. aTokens are freely transferable and can be used on many other DeFi protocols. aTokens can be redeemed for their underlying collateral at any time.
+Số dư tài sản đảm bảo được đại diện bằng ERC-20 aTokens theo tỷ lệ 1: 1 so với tài sản cơ bản mà chúng đại diện. Tiền lãi được cộng gộp tự động và được trả cho người cho vay bằng aTokens, có nghĩa là số dư aToken của người cho vay sẽ tăng dần theo thời gian. Người dùng có thể mượn tài sản dựa trên số aTokens của họ. aTokens có thể chuyển nhượng tự do và có thể được sử dụng trên nhiều giao thức DeFi khác. aTokens có thể được đổi lấy tài sản thế chấp của họ bất kỳ lúc nào.
 
-Aave supports flash loans, which are uncollateralized loans where users borrow and repay the balance of the loan in a single transaction, meaning flash loan users do not need to put up any initial capital. Flash loans are a complex product aimed at developers and can be used to arbitrage across multiple DeFi protocols.
+Aave hỗ trợ các khoản vay nhanh, là các khoản vay không cần thế chấp trong đó người dùng vay và hoàn trả số dư của khoản vay trong một giao dịch duy nhất, có nghĩa là người dùng khoản vay nhanh không cần phải bỏ bất kỳ khoản vốn ban đầu nào. Các khoản vay nhanh là một sản phẩm phức tạp nhắm vào các nhà phát triển và có thể được sử dụng để phân bổ trên nhiều giao thức DeFi.
 
-Aave is currently governed by LEND, an ERC-20 token that was formerly the utility token for ETHLend. Aave has announced a transition to fully decentralized governance that includes a token swap where users exchange LEND for AAVE, a new ERC-20 governance token with staking rewards. Some AAVE will be distributed to users of the platform in a liquidity mining campaign.
+Aave hiện được quản lý bởi token quản trị LEND, token ERC-20 trước đây là token tiện ích của ETHLend. Aave đã công bố chuyển đổi sang quản trị phi tập trung hoàn toàn bao gồm cả hoán đổi token trong đó người dùng trao đổi LEND lấy AAVE, token quản trị ERC-20 mới với phần thưởng từ staking. Một số AAVE sẽ được phân phối cho người dùng nền tảng trong một chiến dịch khai thác thanh khoản.
 
-Aave's total value locked \(TVL\) has quickly grown to over $1.2 billion, making it one of the largest DeFi protocols. LEND has a circulating market cap of over $700 million.
+Tổng giá trị của Aave bị khóa (TVL) đã nhanh chóng tăng lên hơn 1,2 tỷ đô la, khiến nó trở thành một trong những giao thức DeFi lớn nhất. Vốn hóa thị trường của LEND đạt hơn 700 triệu đô la.
 
 Aave đã trải qua các cuộc kiểm toán bảo mật được thực hiện bởi OpenZeppelin, Trail of Bits và Consensys Diligence. Aave vẫn đang duy trì chương trình tặng tưởng cho người phát hiện ra lỗi của hệ thống.
 
