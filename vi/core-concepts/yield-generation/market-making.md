@@ -12,11 +12,11 @@ AMM chỉ có thể kích hoạt các thị trường mới khi những người
 
 Giao thức OUSD định tuyến USDT, USDC và DAI đến các nhóm thanh khoản hiệu suất cao được xác định bởi khối lượng giao dịch và token thưởng (ví dụ: Balancer thưởng token BAL cho người cung cấp thanh khoản). Lợi tức sau đó được chuyển cho người nắm giữ OUSD.
 
-Chúng tôi hiện được tích hợp với trình tạo lập thị trường tự động sau:
+Chúng tôi hiện tích hợp với trình tạo lập thị trường tự động sau:
 
 {% page-ref page="../supported-strategies/curve.md" %}
 
-We are intending to integrate with the following automated market makers:
+Chúng tôi dự kiến tích hợp với trình tạo lập thị trường tự động sau:
 
 {% page-ref page="../supported-strategies/uniswap.md" %}
 
