@@ -8,36 +8,36 @@ OUSD Mint cho phép bất kỳ ai cũng có thể tạo hoặc giao dịch OUSD 
 
 **Mua trên trên sàn giao dịch**
 
-For small amounts, the easiest way to start earning with OUSD is to buy it on an exchange. We anticipate that OUSD will soon be available on many more decentralized and centralized exchanges.
+Đối với giao dịch giá trị nhỏ, bạn nên mua OUSD trên các sàn giao dịch. Chúng tôi dự đoán rằng OUSD sẽ sớm được phổ biến rộng rãi trên các sàn giao dịch tập trung và phi tập trung khác.
 
-Decentralized exchanges:
+Sàn giao dịch phi tập trung:
 
 * [Mua OUSD trên Uniswap](https://app.uniswap.org/#/swap?inputCurrency=0xdac17f958d2ee523a2206206994597c13d831ec7&outputCurrency=0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86&use=v2)
-* [Buy OUSD on Sushiswap](https://exchange.sushiswapclassic.org/#/swap?inputCurrency=0xdac17f958d2ee523a2206206994597c13d831ec7&outputCurrency=0x2a8e1e676ec238d8a992307b495b45b3feaa5e86)
+* [Mua OUSD trên Sushiswap](https://exchange.sushiswapclassic.org/#/swap?inputCurrency=0xdac17f958d2ee523a2206206994597c13d831ec7&outputCurrency=0x2a8e1e676ec238d8a992307b495b45b3feaa5e86)
 
-Centralized exchanges:
+Sàn giao dịch tập trung:
 
-* Buy OUSD on KuCoin
+* Mua OUSD trên KuCoin
   * [OUSD/USDT](https://trade.kucoin.com/OUSD-USDT)
   * [OUSD/BTC](https://trade.kucoin.com/OUSD-BTC)
-* Buy OUSD on Virgox
+* Mua OUSD trên Virgox
   * [OUSD/USDT](https://virgox.com/exchange/141)
-* [Buy OUSD on Dharma App](https://www.dharma.io/) \(US only\)
+* [Mua OUSD trên App Dharma App](https://www.dharma.io/) \(Chỉ dành cho người dùng ở Mỹ\)
 
-**Adding OUSD to Your Wallet**
+**Thêm OUSD vào Ví của bạn**
 
 {% hint style="success" %}
-The main ERC20 address for Origin Dollar \(OUSD\) is:   
+Địa chỉ ERC20 chính của Origin Dollar \ (OUSD \) là:   
 **0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86**
 {% endhint %}
 
-If your OUSD does not automatically show up in your wallet, you should be able to add it manually using the address above. If you are planning on [storing your OUSD in a multi-sig wallet](core-concepts/elastic-supply/rebasing-and-smart-contracts.md), be sure to opt-in to receive yield. We want to have OUSD supported by as many wallets as possible and included on all the various lists of well-known tokens. We would greatly appreciate any help you can offer in this area.
+Nếu OUSD không tự động hiển thị trên ví thì bạn có thể thêm theo cách thủ công thông qua địa chỉ ở trên. Nếu bạn đang có kế hoạch [giữ OUSD trong ví đa chữ ký](core-concepts/elastic-supply/rebasing-and-smart-contracts.md), hãy nhớ chọn opt-in để nhận được lợi nhuận. Chúng tôi muốn OUSD được hỗ trợ bởi nhiều ví hơn nữa và muốn OUSD được đưa vào tất cả danh sách của token nổi tiếng trong tương lai. Chúng tôi đánh giá rất cao bất kỳ sự giúp đỡ nào từ cộng đồng để biến mục tiêu trên thành hiện thực.
 
-**Integrating OUSD**
+**Tích hợp OUSD**
 
-OUSD is a non-standard ERC-20 token that requires custom integration work for most applications that wish to support it. In particular, it is important for developers to understand how our elastic supply works as this can easily cause unexpected behavior.
+OUSD là token ERC-20 không tiêu chuẩn, hầu hết các ứng dụng muốn hỗ trợ sử dụng OUSD sẽ cần phải thực hiện thao tác tích hợp. Đặc biệt, điều quan trọng là các nhà phát triển phải hiểu cách thức hoạt động của nguồn cung lịch hoạt bởi nó có thể gây nên một số hậu quả không mong muốn nếu không nắm rõ cơ chế.
 
-If you are a wallet provider or crypto exchange that is interested in supporting OUSD, please refer to the following guides:
+Nếu bạn là nhà cung cấp ví hoặc sàn giao dịch tiền điện tử quan tâm đến việc hỗ trợ OUSD, vui lòng tham khảo các hướng dẫn sau:
 
 {% page-ref page="core-concepts/elastic-supply/rebasing-and-smart-contracts.md" %}
 
@@ -45,11 +45,11 @@ If you are a wallet provider or crypto exchange that is interested in supporting
 
 {% page-ref page="smart-contracts/api/" %}
 
-**Developer Analytics**
+**Phân tích nhà phát triển**
 
-Our internal developer dashboard is available at [analytics.ousd.com](https://analytics.ousd.com). The dashboard shows the current circulating supply, the assets under management in the vault, and the current allocations between each of the stablecoins and strategies.
+Trang theo dõi dành cho nhà phát triển nội bộ [analytics.ousd.com](https://analytics.ousd.com). Bảng điều khiển hiển thị nguồn cung lưu hành hiện tại, tài sản được quản lý trong kho tiền và phân bổ giữa từng stablecoin và chiến lược.
 
-**Getting Help**
+**Yêu cầu hỗ trợ**
 
-Please join the Origin Dollar \#engineering room in Origin's [Discord](www.originprotocol.com/discord) server.  Our team and members of our community look forward to helping you build. Your questions help us improve, so please don't hesitate to ask if you can't find what you are looking for here.
+Vui lòng tham gia kênh Origin Dollar \ #engineering trên [Discord](www.originprotocol.com/discord) của Origin.  Đội ngũ của chúng tôi và các thành viên trong cộng đồng luôn sẵn sàng hỗ trợ bạn. Câu hỏi của bạn giúp sẽ giúp chúng tôi ngày càng hoàn thiện, vì vậy đừng ngần ngại cho chúng tôi biết thắc mắc của bạn nếu bạn không tìm thấy câu trả lời ở đây.
 
