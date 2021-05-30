@@ -2,7 +2,7 @@
 
 **Phần thưởng phát hiện lỗi**
 
-Tiền thưởng lỗi được sẽ được quyết định bởi Origin Protocol. The rewards range in size from **$100 OUSD** for minor issues to **$250,000 OUSD** for major vulnerabilities. Hiện tại, chương trình tiền thưởng phát hiện lỗi chỉ áp dụng cho OUSD và không áp dụng cho các sản phẩm khác từ Origin.
+Tiền thưởng lỗi được sẽ được quyết định bởi Origin Protocol. Phần thưởng có giá trị từ **100$ OUSD** cho các lỗi nhỏ hoặc lên tới **250,000$ OUSD** cho việc phát hiện ra các lỗ hổng lớn. Hiện tại, chương trình tiền thưởng phát hiện lỗi chỉ áp dụng cho OUSD và không áp dụng cho các sản phẩm khác từ Origin.
 
 {% hint style="warning" %}
 Để đủ điều kiện nhận tiền thưởng lỗi, bạn phải tuân theo các quy tắc về khai báo thông tin được nêu dưới đây.
@@ -16,7 +16,7 @@ Trong trường hợp bạn phát hiện ra lỗ hổng bảo mật, chúng tôi
 
 Nếu bạn phát hiện ra một lỗ hổng, vui lòng làm theo các bước sau:
 
-* Report your findings to [security@originprotocol.com](mailto:security@originprotocol.com) or contact [Josh Fraser on Keybase](https://keybase.io/joshfraser)
+* Gửi báo cáo phát hiện của bạn tới địa chỉ mail[security@originprotocol.com](mailto:security@originprotocol.com) hoặc liên hệ với [Josh Fraser trên Keybase](https://keybase.io/joshfraser)
 * Không lợi dụng lỗ hổng hoặc vấn đề bạn đã phát hiện
 * Không tiết lộ vấn đề cho người khác cho đến khi nó đã được giải quyết
 * Không sử dụng các cuộc tấn công vào an ninh vật lý, tấn công phi kỹ thuật (đánh cắp thông tin), tấn công từ chối dịch vụ phân tán, spam hoặc tấn công các ứng dụng của bên thứ ba
