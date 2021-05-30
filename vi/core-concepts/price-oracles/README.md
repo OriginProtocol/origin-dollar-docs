@@ -104,12 +104,12 @@ OUSD được thiết kế để duy trì ở mức 1 USD và được hỗ tr�
   </tbody>
 </table>
 
-The rebasing function treats 1 stablecoin as 1 OUSD for simplicity and to protect OUSD balances from being affected by the daily fluctuations in the price of the underlying stablecoins. Since the rebase function only counts coins, OUSD balances should only increase.
+Chức năng rebase coi 1 stablecoin là 1 OUSD để đơn giản hóa và để bảo vệ số dư OUSD khỏi bị ảnh hưởng bởi những biến động hàng ngày về giá của các stablecoin cơ bản. Vì chức năng rebase chỉ tính số đồng, số dư OUSD chỉ nên tăng lên.
 
-In order to mint and redeem the appropriate number of OUSD on entry and exit, the smart contracts need to accurately price the USDT, USDC, and DAI that is entering and exiting the system. As a decentralized protocol, OUSD must rely on non-centralized sources for these prices.
+Để mint và redeem số lượng OUSD thích hợp, các hợp đồng thông minh cần định giá chính xác USDT, USDC và DAI đang được nạp vào và rút ra khỏi hệ thống. Là một giao thức phi tập trung, OUSD phải dựa vào các nguồn phi tập trung để xác định các mức giá.
 
 {% hint style="info" %}
-OUSD fetches the price from multiple on-chain oracles and uses the exchange rate that is most advantageous for the vault when minting or redeeming.
+Giá của OUSD được đối chiếu trên nhiều chuỗi và sử dụng tỉ giá có lợi nhất cho kho tiền khi mint hoặc redeem.
 {% endhint %}
 
 In order to prevent malicious attacks and to encourage long-term investors over short-term speculators, the OUSD contract compares price feeds from multiple sources and will use whichever exchange rate benefits the entire vault over the individual. This mechanism protects the vault funds from arbitrageurs and prevents any individual from being able to take advantage of any temporary inefficiencies caused by mispriced oracles to deplete the shared pool of assets.
