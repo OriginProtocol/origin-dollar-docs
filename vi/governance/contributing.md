@@ -4,33 +4,33 @@
 
 OUSD là dự án mã nguồn mở hoàn toàn và chúng tôi hoan nghênh mọi đóng góp của toàn thể cộng đồng. Bạn có thể hỗ trợ đội ngũ chúng tôi bằng việc báo cáo sự cố bảo mật, đóng góp lập trình hay giúp chúng tôi cải thiện cộng đồng của mình.
 
-Chúng tôi làm việc một cách công khai và tài khoản Discord luôn chào đón tất cả cá thành viên trong cộng đồng. If you have questions or need help getting started, our [Discord OUSD channels](https://discord.gg/jyxpUSe) are the best place to get assistance from our team and community.
+Chúng tôi làm việc một cách công khai và tài khoản Discord luôn chào đón tất cả cá thành viên trong cộng đồng. Nếu bạn có câu hỏi hoặc cần trợ giúp, [các kênh Discord OUSD](https://discord.gg/jyxpUSe) là nơi tốt nhất để nhận hỗ trợ từ nhóm và cộng đồng của chúng tôi.
 
-**Developer Analytics**
+**Phân tích nhà phát triển**
 
-Our internal developer dashboard is available at [analytics.ousd.com](https://analytics.ousd.com). The dashboard shows the current circulating supply, the assets under management in the vault, and the current allocations between each of the stablecoins and strategies.
+Trang theo dõi dành cho nhà phát triển nội bộ [analytics.ousd.com](https://analytics.ousd.com). Bảng điều khiển hiển thị nguồn cung lưu hành hiện tại, tài sản được quản lý trong kho tiền và phân bổ giữa từng stablecoin và chiến lược.
 
 #### Quá trình phát triển
 
-Our branching strategy is similar to [GitFlow](http://nvie.com/posts/a-successful-git-branching-model/), but we do all of our development in the `master` branch and have a `stable` branch for code that has been released.
+Chiến lược phân nhánh của chúng tôi tương tự như [GitFlow](http://nvie.com/posts/a-successful-git-branching-model/), nhưng chúng tôi thực hiện tất cả quá trình phát triển của mình trong nhánh `chính` và có nhánh `ổn định` cho các mã lập trình đã được phát hành.
 
-Your development flow should look like:
+Bạn có thể tham khảo các bước sau nếu muốn đóng góp cho Origin:
 
 1. Tìm một vấn đề thú vị và trao đổi với chúng tôi! Vui lòng ghé kênh `#engineering` [Discord](https://discord.gg/jyxpUSe) và cho chúng tôi biết bạn muốn làm gì.
 2. Nhắn tin cho [thành viên của team](https://github.com/orgs/OriginProtocol/teams/core/members) trên Discord và yêu cầu được thêm vào nhóm [cộng tác viên](https://github.com/orgs/OriginProtocol/teams/contributors) của chúng tôi. Nếu không, bạn sẽ cần phải folk kho giữ liệu code (repo) liên quan và đẩy các nhánh tính năng vào folk riêng của bạn.
 3. Thêm nhận xét về vấn đề hoặc tự phân bổ cho bản thân tránh tình trạng nhiều cộng tác viên cùng xử lý 1 nhiệm vụ.
 4. Bắt đầu với nhánh `chính` và kiểm tra nhánh tính năng mới trừ khi bạn đang đóng góp vào một tính năng hiện có.
-5. Write some awesome code.
+5. Viết code.
 6. Kéo các cam kết mới nhất từ `nhánh chính` và xác nhận rằng mã lập trình của bạn hoạt động tốt với với bất kỳ công việc nào đã được tích hợp kể từ khi bạn bắt đầu.
 7. Đẩy chi nhánh của bạn lên kho lưu trữ ngược dòng (tức là https: //github.com/OriginProtocol/ [repo]) để những người đóng góp khác có thể dễ dàng xử lý nó nếu cần.
 8. Vui lòng yêu cầu đánh giá trong bài PR bằng cách nhấp vào biểu tượng bánh răng bên cạnh “Người đánh giá” ở cột bên phải.
 
-For critical smart contract code to be merged it must pass the following checklist:
+Để hợp nhất code hợp đồng thông minh quan trọng, nó phải vượt qua danh sách tiêu chí sau:
 
-*  Code reviewed by 2 reviewers
-*  Unit tests pass
-*  Slither tests pass with no warning
-*  Echidna tests pass
+*  Code được kiểm tra bởi 2 người đánh giá
+*  Vươt qua bài kiểm tra unit
+*  Vượt qua Slither không bị cảnh báo
+*  Vượt qua kiểm tra Echidna
 
 The `master` branch is locked so that only members of the [core team](https://github.com/orgs/OriginProtocol/teams/core) are able to merge your pull requests. Pull requests that are peer-reviewed by other trusted contributors will be fast-tracked and merged faster! Check in the `#engineering` Discord channel for appropriate reviewers.
 
