@@ -1,7 +1,7 @@
 # Rủi ro
 
 {% hint style="danger" %}
-Use at your own risk. Do not deploy more capital than you are willing to lose.
+Bạn chấp nhận rủi ro khi sử dụng Ousd. Hãy sử dụng nguồn vốn mà khi mất đi cũng không ảnh hưởng tới cuộc sống của mình.
 {% endhint %}
 
 As with any yield-generating DeFi product, there are associated risks with holding OUSD that are important to understand. These risks can be broadly classified into 3 categories:
