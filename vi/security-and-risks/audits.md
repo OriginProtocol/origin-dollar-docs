@@ -26,13 +26,13 @@ Compound has been audited by [Trail of Bits](https://www.trailofbits.com) and [O
 
 Aave has been audited by [Trail of Bits](https://www.trailofbits.com), [OpenZeppelin](https://openzeppelin.com/), [ConsenSys Diligence](https://consensys.net/diligence/), [Certik](https://certik.io/), [MixBytes](https://mixbytes.io/), and [PeckShield](https://peckshield.com/). They have also been formally verified by [Certora](https://www.certora.com/). Visit the Aave website for [their full list of audits](https://docs.aave.com/developers/security-and-audits).
 
-**Curve Strategy**
+**Chiến lược Curve**
 
-Curve has been audited by [Trail of Bits](https://www.trailofbits.com) and [Quantstamp](https://quantstamp.com/). Visit the Curve website for [their full list of audits](https://www.curve.fi/audits).
+Curve đã được kiểm toán bởi [Trail of Bits](https://www.trailofbits.com) và [Quantstamp](https://quantstamp.com/). Truy cập vào trang web Curve để xem [danh sách đầy đủ các bên đã kiểm toán hợp đồng của họ](https://www.curve.fi/audits).
 
-**Chainlink Oracles**
+**Chainlink Oracle**
 
-Chainlink has been audited by [Quantstamp](https://github.com/smartcontractkit/chainlink/tree/bafa91c), [SigmaPrime](https://github.com/smartcontractkit/chainlink/tree/cee356), [Callisto](https://gist.github.com/yuriy77k/c3a70d212a7f9ecda715252e45073158), and [Nick Johnson](https://github.com/smartcontractkit/chainlink/tree/5327f9). 
+Chainlink đã được audit bởi [Quantstamp](https://github.com/smartcontractkit/chainlink/tree/bafa91c), [SigmaPrime](https://github.com/smartcontractkit/chainlink/tree/cee356), [Callisto](https://gist.github.com/yuriy77k/c3a70d212a7f9ecda715252e45073158)và [Nick Johnson](https://github.com/smartcontractkit/chainlink/tree/5327f9). 
 
 
 
