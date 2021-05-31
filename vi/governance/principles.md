@@ -12,13 +12,13 @@ Việc phân cấp sẽ tiến triển nhanh chóng qua bốn giai đoạn trong
 
 **Khoá thời gian (timelock)**
 
-Prior to full decentralized governance, we will implement a [timelock](../smart-contracts/api/timelock.md) in front of all admin function calls, giving OUSD users time to withdraw their funds if they have objections to our proposed upgrades.
+Trước khi chuyển sang chế độ quản trị phi tập trung hoàn toàn, chúng tôi sẽ triển khai [timelock](../smart-contracts/api/timelock.md) cho tất cả các lệnh đưa ra bởi admin, giúp người dùng OUSD có thời gian để rút tiền nếu họ phản đối các nâng cấp được đề xuất của chúng tôi.
 
 **Các bên liên quan hiện tại và tương lai**
 
 OUSD là một dự án mới do [đội ngũ Origin Protocol](www.originprotocol.com/team) xây dựng và sẽ được hỗ trợ bởi cộng đồng Origin hiện tại cũng như nhiều bên liên quan khác lựa chọn khai thác, nắm giữ, sử dụng và cung cấp thanh khoản cho OUSD.
 
-Ngoài ra, chúng tôi cũng muốn đảm bảo có sự tham gia của những người nắm giữa token Origin (OGN) và cộng đồng hiện có với tổng số hơn 500.000 thành viên cộng đồng và người mua/bán trên Nền tảng. Existing OGN holders are able to [stake their OGN](ogn-staking.md) to participate in governance and earn incentives for driving value to OUSD.
+Ngoài ra, chúng tôi cũng muốn đảm bảo có sự tham gia của những người nắm giữa token Origin (OGN) và cộng đồng hiện có với tổng số hơn 500.000 thành viên cộng đồng và người mua/bán trên Nền tảng. Các chủ sở hữu OGN hiện tại sẽ có thể [stake OGN](ogn-staking.md) của họ để tham gia quản trị và kiếm được tiền thưởng từ việc thúc đẩy giá trị cho OUSD.
 
 Mối liên hệ chặt chẽ giữa OUSD và phần còn lại của nền tảng thương mại Origin sẽ thúc đẩy tăng trưởng trong toàn bộ hệ sinh thái.
 
