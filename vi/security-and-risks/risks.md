@@ -12,11 +12,11 @@ Tương tự với bất kỳ sản phẩm DeFi tạo lãi suất nào khác, ng
 
 **Rủi ro hợp đồng thông minh OUSD**
 
-Các hợp đồng thông minh của Ousd đã được [kiểm toán](audits.md) bởi nhiều công ty bảo mật uy tín. However, it is important to note that even with formal audits, it is still possible for there to be logic errors that could lead to the loss of funds for OUSD holders. The contracts involve complex math and logic. While we have taken every precaution to ensure the safety and security of our smart contracts, users are reminded to use at their own risk. Origin Protocol will not be held responsible for any loss of funds, regardless of who is at fault.
+Các hợp đồng thông minh của Ousd đã được [kiểm toán](audits.md) bởi nhiều công ty bảo mật uy tín. Mặc dù đã được kiểm toán, khả năng tồn tại lỗ hỗ có thể gây ảnh hưởng tới quỹ của người nắm giữ OGN là hoàn toàn có thể. Các hợp đồng liên quan đến toán học và logic phức tạp. Mặc dù chúng tôi đã thực hiện mọi biện pháp phòng ngừa để đảm bảo sự an toàn và bảo mật của hợp đồng thông minh, người dùng vẫn nên hiểu được các rủi ro tiềm ẩn và cân nhắc trước khi sử dụng. Origin Protocol sẽ không chịu trách nhiệm về bất kỳ tổn thất nào về tiền bạc, bất kể ai là người có lỗi.
 
-**Third-party platform risk**
+**Rủi ro nền tảng của bên thứ ba**
 
-OUSD is built on top of other DeFi platforms like Aave, Compound, and Curve that add additional smart contract risk. We are choosing to work with platforms that have hundreds of millions of dollars of assets under management and have made a reasonable efforts to ensure the security of their protocols. However, there are no guarantees that the underlying third-party platforms will continue to work as intended, and any failure in an underlying strategy would potentially lead to a loss of funds for OUSD holders.
+OUSD được xây dựng dựa trên các nền tảng DeFi như Aave, Compound và Curve khác làm tăng thêm rủi ro hợp đồng thông minh. We are choosing to work with platforms that have hundreds of millions of dollars of assets under management and have made a reasonable efforts to ensure the security of their protocols. However, there are no guarantees that the underlying third-party platforms will continue to work as intended, and any failure in an underlying strategy would potentially lead to a loss of funds for OUSD holders.
 
 **Rủi ro của stablecoin**
 
