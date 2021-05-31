@@ -4,9 +4,9 @@
 Bạn chấp nhận rủi ro khi sử dụng Ousd. Hãy sử dụng nguồn vốn mà khi mất đi cũng không ảnh hưởng tới cuộc sống của mình.
 {% endhint %}
 
-As with any yield-generating DeFi product, there are associated risks with holding OUSD that are important to understand. These risks can be broadly classified into 3 categories:
+Tương tự với bất kỳ sản phẩm DeFi tạo lãi suất nào khác, người dùng cần nắm rõ các rủi ro có thể có khi nắm giữ OUSD. Những rủi ro này có thể được phân thành 3 loại:
 
-* OUSD smart contract risk
+* Rủi ro hợp đồng thông minh
 * Underlying third-party platform risk
 * Rủi ro stablecoin
 
