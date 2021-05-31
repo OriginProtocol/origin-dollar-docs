@@ -31,15 +31,15 @@ Internal implementation contracts. The Vault is split into VaultAdmin and VaultC
 {% tab title="Strategies" %}
 Well-known addresses \(proxy wrappers\):
 
-| Strategy    | Address                                                                                                               | Auto-Allocation       |
-|:----------- |:--------------------------------------------------------------------------------------------------------------------- |:--------------------- |
-| Aave        | [0x9f2b18751376cF6a3432eb158Ba5F9b1AbD2F7ce](https://etherscan.io/address/0x9f2b18751376cF6a3432eb158Ba5F9b1AbD2F7ce) | 100% of DAI           |
-| Compound    | [0xD5433168Ed0B1F7714819646606DB509D9d8EC1f](https://etherscan.io/address/0xD5433168Ed0B1F7714819646606DB509D9d8EC1f) | 100% of USDC and USDT |
-| Curve 3Pool | [0x874c74E6ec318AD0a7e6f23301678a4751d00482](https://etherscan.io/address/0x874c74E6ec318AD0a7e6f23301678a4751d00482) | Manual allocation     |
+| Chiến lược  | Địa chỉ                                                                                                               | Tự động phân bổ   |
+|:----------- |:--------------------------------------------------------------------------------------------------------------------- |:----------------- |
+| Aave        | [0x9f2b18751376cF6a3432eb158Ba5F9b1AbD2F7ce](https://etherscan.io/address/0x9f2b18751376cF6a3432eb158Ba5F9b1AbD2F7ce) | 100% DAI          |
+| Compound    | [0xD5433168Ed0B1F7714819646606DB509D9d8EC1f](https://etherscan.io/address/0xD5433168Ed0B1F7714819646606DB509D9d8EC1f) | 100% USDC và USDT |
+| Curve 3Pool | [0x874c74E6ec318AD0a7e6f23301678a4751d00482](https://etherscan.io/address/0x874c74E6ec318AD0a7e6f23301678a4751d00482) | Phân bổ thủ công  |
 
-Internal implementation contracts:
+Các hợp đồng thực hiện nội bộ:
 
-| Strategy    | Address                                                                                                               |
+| Chiến lược  | Địa chỉ                                                                                                               |
 |:----------- |:--------------------------------------------------------------------------------------------------------------------- |
 | Aave        | [0xd97fE382b923F75Ab8951915eCF07CBf12c102D4](https://etherscan.io/address/0xd97fE382b923F75Ab8951915eCF07CBf12c102D4) |
 | Compound    | [0x3a2c387b84b28F438aaF53e6d0B8e790D084D1d1](https://etherscan.io/address/0x3a2c387b84b28F438aaF53e6d0B8e790D084D1d1) |
@@ -47,21 +47,21 @@ Internal implementation contracts:
 {% endtab %}
 
 {% tab title="Oracles" %}
-The following oracles are used to fetch or compute a price for **DAI/USD:**
+Các oracle sau được sử dụng để tìm nạp hoặc tính giá cho **DAI/USD:**
 
-| Oracle    | Pair    | Contract                                                                                                              |
+| Oracle    | Cặp     | Hợp đồng                                                                                                              |
 |:--------- |:------- |:--------------------------------------------------------------------------------------------------------------------- |
 | Chainlink | DAI/USD | [0xAed0c38402a5d19df6E4c03F4E2DceD6e29c1ee9](https://etherscan.io/address/0xAed0c38402a5d19df6E4c03F4E2DceD6e29c1ee9) |
 
-The following oracles are used to fetch a price for **USDT/USD:**
+Các oracle sau được sử dụng để định giá **USDT/USD:**
 
-| O**racle** | Pair     | Contract                                                                                                              |
+| O**racle** | Cặp      | Hợp đồng                                                                                                              |
 |:---------- |:-------- |:--------------------------------------------------------------------------------------------------------------------- |
 | Chainlink  | USDT/USD | [0x3E7d1eAB13ad0104d2750B8863b489D65364e32D](https://etherscan.io/address/0x3E7d1eAB13ad0104d2750B8863b489D65364e32D) |
 
-The following oracles are used to fetch a price for **USDC/USD:**
+Các oracle sau được sử dụng để định giá **USDT/USD:**
 
-| O**racle** | Pair     | Contract                                                                                                              |
+| O**racle** | Cặp      | Hợp đồng                                                                                                              |
 |:---------- |:-------- |:--------------------------------------------------------------------------------------------------------------------- |
 | Chainlink  | USDC/USD | [0x8fFfFfd4AfB6115b954Bd326cbe7B4BA576818f6](https://etherscan.io/address/0x8fFfFfd4AfB6115b954Bd326cbe7B4BA576818f6) |
 {% endtab %}
@@ -71,14 +71,14 @@ The following oracles are used to fetch a price for **USDC/USD:**
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">Contract</th>
-      <th style="text-align:left">Address</th>
+      <th style="text-align:left">Hợp đồng</th>
+      <th style="text-align:left">Địa chỉ</th>
       <th style="text-align:left">ENS</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">5 of 8 Multisig</td>
+      <td style="text-align:left">5 trên 8 chữ ký</td>
       <td style="text-align:left"><a href="https://etherscan.io/address/0xe011fA2a6Df98c69383457d87a056Ed0103aA352">0xe011fA2a6Df98c69383457d87a056Ed0103aA352</a>
       </td>
       <td style="text-align:left"><a href="https://etherscan.io/address/originprotocol.eth">originprotocol.eth</a>
