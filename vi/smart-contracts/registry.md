@@ -17,7 +17,7 @@
 | Vault    | [0xE75D77B1865Ae93c7eaa3040B038D7aA7BC02F70](https://etherscan.io/address/0xe75d77b1865ae93c7eaa3040b038d7aa7bc02f70) | [originvault.eth](https://etherscan.io/address/originvault.eth)   |
 | Oracle   | [0x843530DC8005e13dEA30CEa2394FF60635f38cc4](https://etherscan.io/address/0x843530DC8005e13dEA30CEa2394FF60635f38cc4) | [originoracle.eth](https://etherscan.io/address/originoracle.eth) |
 
-Internal implementation contracts. The Vault is split into VaultAdmin and VaultCore to work-around the maximum contract size limit on Ethereum:
+Các hợp đồng thực hiện nội bộ. Vault được chia thành VaultAdmin và VaultCore để giải quyết giới hạn kích thước hợp đồng tối đa trên Ethereum:
 
 | Hợp đồng         | Địa chỉ                                                                                                               |
 |:---------------- |:--------------------------------------------------------------------------------------------------------------------- |
@@ -29,7 +29,7 @@ Internal implementation contracts. The Vault is split into VaultAdmin and VaultC
 {% endtab %}
 
 {% tab title="Strategies" %}
-Well-known addresses \(proxy wrappers\):
+Địa chỉ phổ biến \(proxy wrappers\):
 
 | Chiến lược  | Địa chỉ                                                                                                               | Tự động phân bổ   |
 |:----------- |:--------------------------------------------------------------------------------------------------------------------- |:----------------- |
@@ -85,14 +85,14 @@ Các oracle sau được sử dụng để định giá **USDT/USD:**
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">2 of 9 Multisig</td>
+      <td style="text-align:left">2 trên 9 chữ ký</td>
       <td style="text-align:left"><a href="https://etherscan.io/address/0xF14BBdf064E3F67f51cd9BD646aE3716aD938FDC">0xF14BBdf064E3F67f51cd9BD646aE3716aD938FDC</a>
       </td>
       <td style="text-align:left"><a href="https://etherscan.io/address/originstrategist.eth">originstrategist.eth</a>
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">Governor / Timelock</td>
+      <td style="text-align:left">Quản trị viên / Khoá thời gian</td>
       <td style="text-align:left"><a href="https://etherscan.io/address/0x8e7bDFeCd1164C46ad51b58e49A611F954D23377">0x8e7bDFeCd1164C46ad51b58e49A611F954D23377</a>
       </td>
       <td style="text-align:left">
@@ -114,7 +114,7 @@ Các oracle sau được sử dụng để định giá **USDT/USD:**
 {% endtab %}
 
 {% tab title="Stablecoins" %}
-| Contract                                                                        | Address                                                                                                               |
+| Hợp đồng                                                                        | Address                                                                                                               |
 |:------------------------------------------------------------------------------- |:--------------------------------------------------------------------------------------------------------------------- |
 | [USDT](https://etherscan.io/address/0x52BEBd3d7f37EC4284853Fd5861Ae71253A7F428) | [0xdac17f958d2ee523a2206206994597c13d831ec7](https://etherscan.io/address/0x52BEBd3d7f37EC4284853Fd5861Ae71253A7F428) |
 | [USDC](https://etherscan.io/address/0x52BEBd3d7f37EC4284853Fd5861Ae71253A7F428) | [0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48](https://etherscan.io/address/0x52BEBd3d7f37EC4284853Fd5861Ae71253A7F428) |
@@ -122,7 +122,7 @@ Các oracle sau được sử dụng để định giá **USDT/USD:**
 {% endtab %}
 
 {% tab title="Staking" %}
-| Contract    | Address                                                                                                               | ENS                                                                 |
+| Hợp đồng    | Address                                                                                                               | ENS                                                                 |
 |:----------- |:--------------------------------------------------------------------------------------------------------------------- |:------------------------------------------------------------------- |
 | OGN Staking | [0x501804B374EF06fa9C427476147ac09F1551B9A0](https://etherscan.io/address/0x501804B374EF06fa9C427476147ac09F1551B9A0) | [originstaking.eth](https://etherscan.io/address/originstaking.eth) |
 
