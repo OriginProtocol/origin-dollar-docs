@@ -28,9 +28,9 @@ _**OUSD là đang ở bản beta. Bạn chấp nhận rủi ro khi sử dụng O
 
 **Giảm thiểu rủi ro**
 
-Chúng tôi đang tích cực làm việc với nhiều nhà cung cấp bảo hiểm DeFi và sẽ sớm công bố các kế hoạch bảo hiểm ban đầu để tăng cường bảo mật của giao thức. In addition to our plan to offer insurance coverage and our recent [audits](audits.md), we have taken extensive measures to improve our internal processes so that we do everything possible to avoid an exploit.
+Chúng tôi đang tích cực làm việc với nhiều nhà cung cấp bảo hiểm DeFi và sẽ sớm công bố các kế hoạch bảo hiểm ban đầu để tăng cường bảo mật của giao thức. Ngoài kế hoạch cung cấp bảo hiểm và thực hiện các đợt [kiểm toán](audits.md)gần đây, chúng tôi đã cải thiện các quy trình nội bộ để hạn chế tối đa lỗ hổng.
 
-We have retained [Certora](https://www.certora.com/) to begin formally verifying the various security properties of our contracts. They will help us establish automated verifications that will run anytime we update our contract code. We now also have automated checking for common errors with [Slither](https://github.com/crytic/slither) and [Echidna](https://github.com/crytic/echidna) tests. Together, these alert our team to common security issues in addition to our own test suite.
+Chúng tôi đã giữ lại [Certora](https://www.certora.com/) để bắt đầu chính thức xác minh các thuộc tính bảo mật khác nhau trong hợp đồng. They will help us establish automated verifications that will run anytime we update our contract code. We now also have automated checking for common errors with [Slither](https://github.com/crytic/slither) and [Echidna](https://github.com/crytic/echidna) tests. Together, these alert our team to common security issues in addition to our own test suite.
 
 Code reviews involving our smart contracts are now more rigorous than before. We require two engineers to review each change with a detailed checklist and we prioritize this over new feature development.
 
