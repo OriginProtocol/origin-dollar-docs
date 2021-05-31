@@ -12,7 +12,7 @@ Token quản trị, Token Origin \ (OGN \), cũng đã được kiểm toán b�
 
 * [Trail of Bits, OGN Audit, tháng 12/2018](https://github.com/OriginProtocol/security/blob/master/audits/Trail%20of%20Bits%20-%20Origin%20Marketplace%20and%20OGN%20Token%20-%20Nov%202018.pdf)
 
-In addition, the underlying strategies and dependencies that OUSD utilizes have been thoroughly audited by various firms.
+Ngoài ra, các chiến lược được sử dụng và các yếu tố phụ thuộc mà OUSD sử dụng đã được các biên thức ba kiểm toán kỹ lưỡng.
 
 {% hint style="info" %}
 OUSD only integrates strategies that have been carefully audited and battle-tested with significant capital over an extended period of time.
