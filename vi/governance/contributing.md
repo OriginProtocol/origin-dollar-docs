@@ -56,40 +56,40 @@ Xin lưu ý rằng thiết kế giao thức là công việc khó khăn và tỉ
 
 #### Hỗ trợ cộng đồng
 
-Chúng tôi luôn hướng tới duy trì một cộng đồng liên tục phát triển và hợp tác. We need your help to keep it that way. To help with this we’ve come up with some general guidelines for the community as a whole:
+Chúng tôi luôn hướng tới duy trì một cộng đồng liên tục phát triển và hợp tác. Chúng tôi cần sự giúp đỡ của các bạn để đạt được mục tiêu kể trên. Nếu bạn muốn hỗ trợ chúng tôi phát triển cộng đồng, đây là một số nguyên tắc mà chúng tôi đề ra:
 
-* Be nice: Be courteous, respectful and polite to fellow community members: no regional, racial, gender, or other abuse will be tolerated. We like nice people way better than mean ones!
-* Encourage diversity and participation: Make everyone in our community feel welcome, regardless of their background and the extent of their contributions, and do everything possible to encourage participation in our community.
-* Keep it legal: Basically, don’t get anybody in trouble. Share only content that you own, do not share private or sensitive information, and don’t break laws.
-* Stay on topic: Make sure that you are posting to the correct channel and avoid off-topic discussions. Remember when you update an issue or respond to an email you are potentially sending to a large number of people. Please consider this before you update. Also remember that nobody likes spam.
+* Thái độ tốt: Lịch sự, tôn trọng với các thành viên trong cộng đồng: không phân biệt vùng miền, chủng tộc, giới tính hoặc các hành vi tương tự. Chúng tôi thích những người tử tế hơn những người xấu tính!
+* Thái độ hoan nghênh: Làm cho mọi người trong cộng đồng của chúng tôi cảm thấy được chào đón không phân biệt tiểu sử và mức độ đóng góp của họ, làm mọi cách có thể để khuyến khích sự gắn kết của cộng đồng.
+* Tuân thủ pháp luật: Về cơ bản, không để bất kỳ ai gặp rắc rối. Chỉ chia sẻ nội dung mà bạn sở hữu, không chia sẻ thông tin riêng tư hoặc thông tin nhạy cảm và không vi phạm pháp luật.
+* Duy trì đúng chủ đề: Đảm bảo rằng nội dung được đăng lên các kênh 1 cách phù hợp, tránh gây thảo luận lạc đề. Hãy nhớ khi bạn cập nhật một vấn đề hoặc trả lời email mà bạn có khả năng gửi cho một số lượng lớn người nhận. Vui lòng kiểm tra thật kỹ trước khi thực hiện. Cần lưu ý rằng không ai thích bị làm phiền cả.
 
 #### Báo cáo lỗi
 
-If you find bugs, mistakes or inconsistencies in Origin’s code or documents, please let us know by filing a GitHub issue. No issue is too small. Help us fix our tpyos!
+Nếu bạn tìm thấy lỗi, nhầm lẫn hoặc mâu thuẫn trong mã hoặc tài liệu của Origin, vui lòng cho chúng tôi biết bằng cách gửi nội dung vấn đề đó trên GitHub. Không có vấn đề nào là quá nhỏ. Hãy giúp chúng tôi sửa lỗi dù chỉ là nhỏ nhất!
 
 #### Vấn đề bảo mật
 
-OUSD is still in early development, which means there may be problems with the protocol or in our implementations. We take security vulnerabilities very seriously. If you discover a security issue, please bring it to our attention right away!
+OUSD vẫn đang trong giai đoạn phát triển ban đầu, có nghĩa là có thể tồn tại vấn đề với giao thức hoặc trong việc triển khai của chúng tôi. Chúng tôi rất coi trọng các lỗ hổng bảo mật. Nếu bạn phát hiện ra một vấn đề bảo mật, vui lòng thông báo cho chúng tôi ngay lập tức!
 
-If you find a security vulnerability please send your report privately to [security@originprotocol.com](mailto:security@originprotocol.com) or send an encrypted message to [@joshfraser on Keybase](https://keybase.io/joshfraser). Please DO NOT file a public issue. Be sure to review our guidelines for responsible disclosure and eligibility for bug bounties.
+Nếu bạn tìm thấy lỗ hổng bảo mật, vui lòng gửi báo cáo của bạn tới [security@originprotocol.com](mailto:security@originprotocol.com) hoặc gửi tin nhắn mã hóa đến [@joshfraser trên Keybase](https://keybase.io/joshfraser). Vui lòng KHÔNG gửi lỗi bảo mật mà bạn phát hiện được 1 cách công khai. Hãy nhớ xem lại nguyên tắc của chúng tôi về khai báo thông tin và đủ điều kiện nhận tiền thưởng khi tìm ra lỗi.
 
 {% page-ref page="../security-and-risks/bug-bounties.md" %}
 
 #### **Phát triển cộng đồng**
 
-Origin is just as much about community as it is about our technology.
+Duy trì và phát triển cộng đồng của Origin cũng quan trọng ngang với việc phát triển cộng nghệ.
 
-We need constant help in improving our documentation, building new tools to interface with our platform, spreading the word to new users, helping new users getting setup and much more.
+Chúng tôi cần sự trợ giúp liên tục trong việc cải thiện tài liệu, xây dựng các công cụ mới phù hợp giao diện nền tảng của chúng tôi, truyền bá thông tin đến người dùng mới, giúp người dùng mới nắm bắt thông tin quan trọng ban đầu và hơn thế nữa.
 
-Please get in touch if you would like to help out. Our `general` channel on [Discord](https://www.originprotocol.com/discord) is a great place to share ideas and volunteer to help.
+Vui lòng liên hệ với chúng tôi nếu bạn muốn giúp đỡ. Kênh `general` của chúng tôi trên [Discord](https://www.originprotocol.com/discord) là một nơi tuyệt vời để chia sẻ ý tưởng và tình nguyện giúp đỡ chúng tôi.
 
 #### Vị trí Toàn thời gian
 
-Origin occasionally hires developers for part-time or full-time positions.
+Origin thi thoảng sẽ tuyển dụng các nhà phát triển cho các vị trí bán thời gian hoặc toàn thời gian.
 
-We have a strong preference for hiring people who have already started contributing to the project. If you want a full time position on our team, your best shot is to engage with our team and start contributing code. It is very unlikely that we would offer you a full-time position on our engineering team unless you’ve had at least a few pull requests merged.
+Chúng tôi rất ưu tiên tuyển dụng những người đã có những đóng góp cho dự án. Nếu bạn muốn tham gia cùng chúng tôi với tư cách là nhân viên toàn thời gian thì cách tốt nhất để bắt đầu là tương tác với độ ngũ của Origin và bắt đầu đóng góp vào công việc lập trình. Rất ít khả năng chúng tôi sẽ offer bạn một vị trí toàn thời gian trong nhóm kỹ thuật trừ khi bạn đã có một vài đóng góp nhất định.
 
-If you are interested, check out [the Origin Protocol job listings](https://angel.co/originprotocol/jobs). If you’d like to help in other ways, please propose your ideas in [our Discord channel](https://www.originprotocol.com/discord).
+Nếu bạn muốn trở thành 1 thành viên trong đội ngũ, ghé thăm [danh sách việc làm tại Origin Protocol](https://angel.co/originprotocol/jobs). Nếu bạn muốn hỗ trợ theo cách khác, vui lòng đề xuất ý tưởng của bạn trên [kênh Discord](https://www.originprotocol.com/discord)của chúng tôi.
 
 
 
