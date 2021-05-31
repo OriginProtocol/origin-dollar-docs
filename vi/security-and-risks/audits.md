@@ -15,16 +15,16 @@ Token quản trị, Token Origin \ (OGN \), cũng đã được kiểm toán b�
 Ngoài ra, các chiến lược được sử dụng và các yếu tố phụ thuộc mà OUSD sử dụng đã được các biên thức ba kiểm toán kỹ lưỡng.
 
 {% hint style="info" %}
-OUSD only integrates strategies that have been carefully audited and battle-tested with significant capital over an extended period of time.
+OUSD chỉ tích hợp các chiến lược đã được kiểm toán cẩn thận, đã được trải nghiệm bởi 1 lượng lớn người dùng.
 {% endhint %}
 
-**Compound Strategy and Open Price Feed**
+**Chiến lược Compound và Nguồn cấp dữ liệu giá mở**
 
-Compound has been audited by [Trail of Bits](https://www.trailofbits.com) and [OpenZeppelin](https://openzeppelin.com/) and formally verified by [Certora](https://www.certora.com/). Visit the Compound website for their [full list of audits](https://compound.finance/docs/security#audits) including the original code for the modified [Timelock](../smart-contracts/api/timelock.md) that OUSD is using.
+Compund đã được kiểm toán bởi [Trail of Bits](https://www.trailofbits.com) và [OpenZeppelin](https://openzeppelin.com/) và chính thức được xác nhận bởi [Certora](https://www.certora.com/). Truy cập trang web Compound xem [danh sách các bên đã kiểm toán Compound](https://compound.finance/docs/security#audits) bao gồm code gốc trước trước khi sửa đổi của [khoá thời gian](../smart-contracts/api/timelock.md) mà OUSD đang sử dụng.
 
-**Aave Strategy**
+**Chiến lược Aave**
 
-Aave has been audited by [Trail of Bits](https://www.trailofbits.com), [OpenZeppelin](https://openzeppelin.com/), [ConsenSys Diligence](https://consensys.net/diligence/), [Certik](https://certik.io/), [MixBytes](https://mixbytes.io/), and [PeckShield](https://peckshield.com/). They have also been formally verified by [Certora](https://www.certora.com/). Visit the Aave website for [their full list of audits](https://docs.aave.com/developers/security-and-audits).
+Aave đã được kiểm tra bởi [Trail of Bits](https://www.trailofbits.com), [OpenZeppelin](https://openzeppelin.com/), [ConsenSys Diligence](https://consensys.net/diligence/), [Certik](https://certik.io/), [MixBytes](https://mixbytes.io/)và [PeckShield](https://peckshield.com/). Dự án này cũng đã được xác minh chính thức bởi [Certora](https://www.certora.com/). Truy cập vào trang web Aave để xem [danh sách đầy đủ các bên đã kiểm toán hợp đồng của họ](https://docs.aave.com/developers/security-and-audits).
 
 **Chiến lược Curve**
 
