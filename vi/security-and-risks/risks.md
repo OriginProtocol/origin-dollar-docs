@@ -28,13 +28,13 @@ _**OUSD là đang ở bản beta. Bạn chấp nhận rủi ro khi sử dụng O
 
 **Giảm thiểu rủi ro**
 
-Chúng tôi đang tích cực làm việc với nhiều nhà cung cấp bảo hiểm DeFi và sẽ sớm công bố các kế hoạch bảo hiểm ban đầu để tăng cường bảo mật của giao thức. Ngoài kế hoạch cung cấp bảo hiểm và thực hiện các đợt [kiểm toán](audits.md)gần đây, chúng tôi đã cải thiện các quy trình nội bộ để hạn chế tối đa lỗ hổng.
+Chúng tôi đang tích cực làm việc với nhiều nhà cung cấp bảo hiểm DeFi và sẽ sớm công bố các kế hoạch bảo hiểm ban đầu để tăng cường bảo mật của giao thức. Ngoài kế hoạch cung cấp bảo hiểm và thực hiện các đợt [kiểm toán](audits.md) gần đây, chúng tôi đã cải thiện các quy trình nội bộ để hạn chế tối đa lỗ hổng.
 
-Chúng tôi đã giữ lại [Certora](https://www.certora.com/) để bắt đầu chính thức xác minh các thuộc tính bảo mật khác nhau trong hợp đồng. They will help us establish automated verifications that will run anytime we update our contract code. We now also have automated checking for common errors with [Slither](https://github.com/crytic/slither) and [Echidna](https://github.com/crytic/echidna) tests. Together, these alert our team to common security issues in addition to our own test suite.
+Chúng tôi đã làm việc với [Certora](https://www.certora.com/) để bắt đầu chính thức xác minh các thuộc tính bảo mật khác nhau trong hợp đồng. Họ sẽ giúp Origin thiết lập xác minh tự động có thể chạy bất kỳ lúc nào chúng tôi cập nhật code của hợp đồng. Hiện chúng tôi cũng đã tự động kiểm tra các lỗi phổ biến bằng [Slither](https://github.com/crytic/slither) và [Echidna](https://github.com/crytic/echidna). Những biện pháp này sẽ cảnh báo nhóm của chúng tôi về các vấn đề bảo mật phổ biến ngoài các biện pháp mà chúng tôi tự xây dựng.
 
-Code reviews involving our smart contracts are now more rigorous than before. We require two engineers to review each change with a detailed checklist and we prioritize this over new feature development.
+Việc kiểm hợp đồng thông minh diễn ra chặt chẽ hơn nhiều so với trước đây. Chúng tôi yêu cầu hai kỹ sư xem xét từng thay đổi theo 1 danh sách tiêu chí chi tiết và chúng tôi ưu tiên việc này hơn là phát triển tính năng mới.
 
-Finally, we have formalized an engineering [rotation](https://github.com/OriginProtocol/security/blob/master/incidents/ROTATION.md) for reviewing [attacks on other projects](https://github.com/OriginProtocol/security/tree/master/incidents) as well as ensuring we deep dive into each of these reviews, including reviewing the affected contracts' source code ourselves.
+Cuối cùng, chúng tôi chính thức [luân phiên](https://github.com/OriginProtocol/security/blob/master/incidents/ROTATION.md) xem xét [vụ tấn công vào các dự án khác](https://github.com/OriginProtocol/security/tree/master/incidents), tìm hiểu rõ nguyên nhân để tránh trường hợp tương tự xảy ra với Origin.
 
 
 
