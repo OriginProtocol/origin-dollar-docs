@@ -7,12 +7,12 @@ Bạn chấp nhận rủi ro khi sử dụng Ousd. Hãy sử dụng nguồn vố
 Tương tự với bất kỳ sản phẩm DeFi tạo lãi suất nào khác, người dùng cần nắm rõ các rủi ro có thể có khi nắm giữ OUSD. Những rủi ro này có thể được phân thành 3 loại:
 
 * Rủi ro hợp đồng thông minh
-* Underlying third-party platform risk
+* Rủi ro tiềm ẩn của nền tảng bên thứ ba
 * Rủi ro stablecoin
 
-**OUSD smart contract risk**
+**Rủi ro hợp đồng thông minh OUSD**
 
-Our smart contracts have been [audited](audits.md) by multiple, well-respected security firms. However, it is important to note that even with formal audits, it is still possible for there to be logic errors that could lead to the loss of funds for OUSD holders. The contracts involve complex math and logic. While we have taken every precaution to ensure the safety and security of our smart contracts, users are reminded to use at their own risk. Origin Protocol will not be held responsible for any loss of funds, regardless of who is at fault.
+Các hợp đồng thông minh của Ousd đã được [kiểm toán](audits.md) bởi nhiều công ty bảo mật uy tín. However, it is important to note that even with formal audits, it is still possible for there to be logic errors that could lead to the loss of funds for OUSD holders. The contracts involve complex math and logic. While we have taken every precaution to ensure the safety and security of our smart contracts, users are reminded to use at their own risk. Origin Protocol will not be held responsible for any loss of funds, regardless of who is at fault.
 
 **Third-party platform risk**
 
