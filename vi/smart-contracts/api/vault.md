@@ -61,19 +61,19 @@ Tất cả OUSD mà người dùng sở hữu đều được đổi lấy một
 
 **`function rebase()`**‌
 
-Updates the balances for all users based on the value of the assets currently stored in the vault. Returns total value of the underlying assets and strategies represented by `uint256` type.‌
+Cập nhật số dư cho tất cả người dùng dựa trên giá trị của tài sản hiện đang được lưu trữ trong vault. Trả về tổng giá trị của các tài sản đảm bảo và chiến lược cơ bản được đại diện bằng `uint256` loại.‌
 
 ### allocate () <a id="allocate"></a>
 
 **`function allocate()`**‌
 
-Moves the assets under management into their prescribed [Stategies](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/architecture/strategies) to maximize yield and diversify risk.‌
+Di chuyển các tài sản thuộc quyền quản lý tới [các chiến lược](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/architecture/strategies) để tối đa hóa năng suất và đa dạng hoá rủi ro.
 
 ### totalValue () <a id="totalvalue"></a>
 
 **`function totalValue()`**‌
 
-Returns total value of underlying assets and strategies.
+Trả về tổng giá trị của các tài sản và chiến lược cơ bản.
 
 | `return` Tên | Loại    | Mô tả                                                     |
 |:------------ |:------- |:--------------------------------------------------------- |
@@ -83,7 +83,7 @@ Returns total value of underlying assets and strategies.
 
 **`function checkBalance(address _asset)`**‌
 
-Returns the balance of an asset specified by the`_asset` parameter held in Vault and all strategies represented by `uint256` type.
+Trả về số dư của nội dung được chỉ định bởi tham số`_asset` được giữ trong Vault và tất cả các chiến lược được thể hiện bằng loại `uint256`.
 
 | Tên thông số | Loại    | Mô tả                                                                                                                                             |
 |:------------ |:------- |:------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -93,7 +93,7 @@ Returns the balance of an asset specified by the`_asset` parameter held in Vault
 
 **`function calculateRedeemOutputs(uint256 _amount)`**‌
 
-Calculate the mix of stablecoins that a `redeem` function would return when redeeming certain amount of OUSD specified by the `_amount` parameter. Returns an array of stablecoin values.
+Tính toán kết hợp các stablecoin mà chức năng `redeem` sẽ trả lại khi người dùng muốn rút 1 số lượng OUSD nhất định được chỉ định bởi thông số `_amount`. Trả về tổng hợp giá trị các stablecoin.
 
 To attribute the stablecoin values to the correct stablecoin currency this call should be used in conjunction with `getAllAssets` function that returns an array of stablecoin addresses.
 
