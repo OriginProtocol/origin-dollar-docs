@@ -95,9 +95,9 @@ Trả về số dư của nội dung được chỉ định bởi tham số`_ass
 
 Tính toán kết hợp các stablecoin mà chức năng `redeem` sẽ trả lại khi người dùng muốn rút 1 số lượng OUSD nhất định được chỉ định bởi thông số `_amount`. Trả về tổng hợp giá trị các stablecoin.
 
-To attribute the stablecoin values to the correct stablecoin currency this call should be used in conjunction with `getAllAssets` function that returns an array of stablecoin addresses.
+Để phân bổ các giá trị stablecoin cho từng loại stablecoin, lệnh gọi này nên được sử dụng cùng với hàm `getAllAssets` trả về 1 tổ hợp địa chỉ stablecoin.
 
-The index of an array that is returned by the `calculateRedeemOutputs` corresponds to the stablecoin address with the same index in an array returned by the `getAllAssets` function.
+Chỉ số được trả về bởi `calculateRedeemOutputs` tương ứng với địa chỉ stablecoin trả về bởi hàm `getAllAssets`.
 
 | Tên thông số | Loại    | Mô tả                                |
 |:------------ |:------- |:------------------------------------ |
