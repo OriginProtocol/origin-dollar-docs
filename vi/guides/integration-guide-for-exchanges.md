@@ -1,16 +1,16 @@
 # Hướng dẫn tích hợp cho các sàn giao dịch
 
-Centralized exchanges will play an important role in helping us reach our goal of making OUSD ubiquitous. We are happy to help any exchange that wants to make OUSD available to its users. We believe OUSD will make a great addition to any exchange that wants to offer both a superior stablecoin and a new high-yield opportunity for their users.
+Các sàn giao dịch tập trung sẽ đóng một vai trò quan trọng trong việc giúp chúng tôi đạt đươc mục tiêu mang OUSD tới gần hơn với người dùng. Chúng tôi sẵn sàng hỗ trợ các sàn muốn tích hợp OUSD. Chúng tôi tin rằng OUSD sẽ là lựa chọn tuyệt vời nếu các sàn giao dịch đang tìm kiếm 1 stablecoin mang lại lợi nhuận cao.
 
-These docs are a great starting point for understanding how OUSD works. Here are some important questions for exchanges that wish to integrate OUSD to consider:
+Những tài liệu này là bước quan trọng để tìm hiểu cơ chế hoạt động của OUSD. Dưới đây là một số câu hỏi quan trọng cho các sàn giao dịch muốn tích hợp OUSD cần xem xét:
 
-**Do you want to participate in the yield that is generated?**
+**Bạn có muốn tham gia kiếm lợi nhuận không?**
 
-We're assuming the answer will be yes and we highly encourage this as well! However, there may be some instances where you would prefer to move fast and list OUSD without participating in the [rebasing nature of OUSD](../core-concepts/elastic-supply/rebasing-and-smart-contracts.md) since it's the fastest and simplest integration. For exchanges that want to list OUSD, but are strapped for engineering resources, you may want to launch the non-rebasing version first while your engineers make whatever changes are necessary. To make OUSD non-rebasing you can call `rebaseOptOut()` from each EOA wallet that holds OUSD, or do nothing if you are storing OUSD on smart contracts. Non-rebasing OUSD behaves just like any other ERC-20 token.
+Chúng tôi giả định câu trả lời sẽ là có! Tuy nhiên, nếu chỉ đơn giản là. niêm yết OUSD mà không [tích hợp rebase](../core-concepts/elastic-supply/rebasing-and-smart-contracts.md) thì bạn sẽ không đạt được mục đích mong muốn. Đối với các sàn giao dịch muốn niêm yết OUSD, nhưng bị hạn chế về kỹ thuật, bạn có thể muốn khởi chạy phiên bản không rebase trước và sau đó các kỹ sư có thể thực hiện tiếp các bước tích hợp rebase. Để dừng tính năng rebase của OUSD, bạn có thể gọi `rebaseOptOut ()` từ mỗi ví EOA nắm giữ OUSD hoặc không làm gì nếu bạn đang lưu trữ OUSD trên các hợp đồng thông minh. OUSD sau khi tạm dừng rebase hoạt động giống như token ERC-20 bình thường.
 
-**Are you storing customer balances on smart contracts \(ie. multi-sigs\) or EOA wallets?**
+**Bạn có đang lưu trữ số dư của khách hàng trên các hợp đồng thông minh \(ví dụ: ví đa chữ ký\) hoặc ví EOA không?**
 
-Any smart contract that is holding OUSD needs to manually opt-in to receive the yield by calling `rebaseOptIn()`. This is due to the [elastic supply](../core-concepts/elastic-supply/) and the [rebasing nature of OUSD](../core-concepts/elastic-supply/rebasing-and-smart-contracts.md). Many exchanges sweep customer funds into a multi-sig wallet for cold storage. If you do this, you'll want to make sure that you opt-in to rebasing so that you are always earning.
+Bất kỳ hợp đồng thông minh nào đang nắm giữ OUSD cần phải opt-in hủ công để nhận được lợi nhuận bằng cách gọi hàm `rebaseOptIn ()`. Sở dĩ bạn phải thực hiện bước này vì bản chất [cung thay đổi](../core-concepts/elastic-supply/) và [tính năng rebase](../core-concepts/elastic-supply/rebasing-and-smart-contracts.md). Nhiều sàn giao dịch lưu trữ tiền trong ví đa chữ ký. If you do this, you'll want to make sure that you opt-in to rebasing so that you are always earning.
 
 **Are you caching user balances?**
 
