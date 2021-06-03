@@ -16,19 +16,19 @@ Bất cứ khi nào bạn mint hoặc redeem OUSD, sẽ có 1 tỉ giá hối đ
 
 Số lượng OUSD trong ví của bạn sẽ tăng lên sau mỗi đợt rebase. Đọc thêm tại [Elastic supply](https://docs.ousd.com/core-concepts/elastic-supply). OUSD hiện đang được rebase nhiều lần trong ngày.
 
-**Why does OUSD not grow when it's held in Uniswap, SushiSwap, etc?**
+**Tại sao số dư OUSD không tăng lên khi được giữ trên Uniswap, SushiSwap, v. v?**
 
-By default, rebase events don't affect the supply of OUSD that is sitting in smart contracts. These contracts can opt in to receiving additional OUSD if they are capable of handling elastic supply tokens. You can read more about this in [Rebasing & Smart Contracts](https://docs.ousd.com/core-concepts/elastic-supply/rebasing-and-smart-contracts).
+Theo mặc định, các đợt rebase sẽ không tác động tới OUSD đang nằm trong các hợp đồng thông minh. Các hợp đồng này có thể chọn tham gia nhận thêm OUSD nếu chúng có khả năng xử lý các token có tổng cung thay đổi. Bạn có thể đọc thêm về cơ chế tại tại [Rebasing & Hợp đồng thông minh](https://docs.ousd.com/core-concepts/elastic-supply/rebasing-and-smart-contracts).
 
-**How is it possible for the APY to be so high?**
+**Làm thế nào để APY có thể cao như vậy?**
 
-You can read about our various strategies in [Yield Generation](https://docs.ousd.com/core-concepts/yield-generation). We currently get most of the yield from harvesting rewards tokens \(namely COMP and CRV\). Additionally, the yield increases as more OUSD is held in smart contracts that do not opt into rebasing since the underlying collateral continues to earn for the average OUSD holder.
+Bạn có thể đọc về các chiến lược khác nhau của chúng tôi ở mục [Tạo ra lợi nhuận](https://docs.ousd.com/core-concepts/yield-generation). Hiện tại, chúng tôi nhận được phần lớn lợi nhuận từ việc thu thập token thưởng \ (cụ thể là COMP và CRV \). Ngoài ra, một số OUSD được nắm giữ trong các hợp đồng không tích hợp rebase trong khi tài sản hỗ trợ của chúng vẫn tạo ra lãi suất và phân bổ cho những người nắm giữ OUSD còn lại.
 
-**Why is my balance increasing at a slower rate than the advertised APY?**
+**Tại sao số dư của tôi tăng với tốc độ chậm hơn APY được quảng cáo?**
 
-OUSD balances increase when the supply is rebased. But the size of each rebase varies wildly depending on how much the vault has earned since the last rebase. And while most rebases collect a small amount earnings from lending strategies, other rebases involve liquidating rewards tokens or collecting fees. As a result, the yield will vary significantly during short time periods.
+Số dư OUSD tăng khi rebase diễn ra. Số tiền tăng thêm ở mỗi lần rebase sẽ khác nhau tuỳ theo số tiền mà vault đã kiếm được kể từ lần rebase cuối cùng. Hầu hết các đợt rebase mang lại lãi suất nhỏ thu được từ các chiến lương cho vay, 1 số đợt cho lãi suất đột biết nhờ thanh lý token thưởng hoặc thanh lý token của các khoản phí. Kết quả là, lãi suất thay đổi liên tục trong 1 thời gian ngắn.
 
-**What about the hack? Is OUSD safe?**
+**Thông tin về vụ hack thì sao? OUSD có hiện an toàn không?**
 
-On November 7th 2020, OUSD was exploited for 7M USD due to a previously undetected reentrancy bug. You can read more [details about the hack](https://medium.com/originprotocol/urgent-ousd-has-hacked-and-there-has-been-a-loss-of-funds-7b8c4a7d534c) on our blog as well as the [detailed compensation plan](https://medium.com/originprotocol/origin-dollar-ousd-detailed-compensation-plan-faa73f87442e) for taking care of the affected users. Origin Dollar was relaunched in December after completing multiple audits and security upgrades. You can learn more about the steps taken to secure the protocol in our [relaunch announcement](https://medium.com/originprotocol/origin-dollar-ousd-is-back-b8ee0c601dad).
+Vào 7/11/2020, OUSD đã bị hack 7 triệu USD do 1 lỗ hổng trước đó. Bạn có thể đọc thêm [chi tiết về vụ hack](https://medium.com/originprotocol/urgent-ousd-has-hacked-and-there-has-been-a-loss-of-funds-7b8c4a7d534c) trên blog của chúng tôi cũng như kế hoạch bồi thường [](https://medium.com/originprotocol/origin-dollar-ousd-detailed-compensation-plan-faa73f87442e) cho những người dùng bị ảnh hưởng. Origin Dollar was relaunched in December after completing multiple audits and security upgrades. You can learn more about the steps taken to secure the protocol in our [relaunch announcement](https://medium.com/originprotocol/origin-dollar-ousd-is-back-b8ee0c601dad).
 
