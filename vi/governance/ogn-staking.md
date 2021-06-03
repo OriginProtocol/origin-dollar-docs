@@ -1,20 +1,20 @@
 # Stake OGN
 
-Origin Token \(OGN\) is intended as the governance token for OUSD and OGN will play an increasingly important role as the Origin Platform becomes more decentralized. Today, users can stake their OGN tokens to earn additional OGN after a chosen staking period has elapsed.
+Origin Token \ (OGN \) là token quản trị cho OUSD và vai trò của OGN sẽ ngày càng trở nên quan trọng khi Origin trở nên phi tập trung hơn. Hiện tại, người dùng có thể stake OGN để kiếm thêm OGN.
 
 {% hint style="info" %}
-Visit the [OUSD DApp](https://www.ousd.com/stake) in a web3-enabled browser to stake your OGN.
+Truy cập [OUSD DApp](https://www.ousd.com/stake) để stake OGN.
 {% endhint %}
 
-The initial staking program offers three staking periods and respective yields:
+Có 3 lựa chọn staking:
 
-* 30-day staking period: Earn 7.5% annualized interest
-* 90-day staking period: Earn 12.5% annualized interest
-* 365-day staking period: Earn 25% annualized interest
+* Stake 30 ngày: lãi suất hàng năm là 7,5%
+* Stake 90 ngày: lãi suất hàng năm là 12,5%
+* Stake 365 ngày: lãi suất hàng năm là 25%
 
-Staked tokens will be locked for the duration of the staking period. After each staking period ends, you will be able to claim both your initial OGN \(principal\) and yield.
+Token sẽ được khoá trong suốt thời gian stake. Khi đáo hạn, bạn có thể nhận lại số OGN ban đầu và lãi.
 
-OGN is currently trading on top exchanges like [Binance](https://www.binance.com/en/register?ref=NPPYAEAE), [Huobi](https://www.huobi.com/en-us/exchange/ogn_usdt/), [Upbit](https://upbit.com/exchange?code=CRIX.UPBIT.BTC-OGN), [Bittrex Global](https://global.bittrex.com/Market/Index?MarketName=BTC-OGN), and [dozens more](https://coinmarketcap.com/currencies/origin-protocol/markets/). Visit the Origin website to [learn more about OGN](https://www.originprotocol.com/ogn-token) or check out the [OGN Dashboard](https://www.originprotocol.com/dashboard) to track important token metrics.
+OGN hiện đang giao dịch trên các sàn giao dịch hàng đầu như [Binance](https://www.binance.com/en/register?ref=NPPYAEAE), [Huobi](https://www.huobi.com/en-us/exchange/ogn_usdt/), [Upbit](https://upbit.com/exchange?code=CRIX.UPBIT.BTC-OGN), [Bittrex Global](https://global.bittrex.com/Market/Index?MarketName=BTC-OGN)và [nhiều sàn khác](https://coinmarketcap.com/currencies/origin-protocol/markets/). Truy cập trang web Origin để [tìm hiểu thêm về OGN](https://www.originprotocol.com/ogn-token) hoặc xem [Bảng điều khiển OGN](https://www.originprotocol.com/dashboard) để theo dõi các chỉ số token quan trọng.
 
 
 
