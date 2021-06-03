@@ -10,11 +10,11 @@ Tương tự với các giao dịch trên Ethereum, người dùng sẽ cần Et
 
 Bất cứ khi nào bạn mint hoặc redeem OUSD, sẽ có 1 tỉ giá hối đoái được áp dụng giữa OUSD và các stablecoin được nạp vào hoặc rút ra. Đọc thêm tại [Price Oracles](https://docs.ousd.com/core-concepts/price-oracles).
 
-To encourage long-term holding of OUSD and to protect the protocol from attackers, an exit fee of 0.5% is charged on all redeems. You can read more about this in [How Works](https://docs.ousd.com/how-it-works).
+Để khuyến khích người dùng nắm giữ OUSD lâu dài và để bảo vệ giao thức khỏi các đợt tấn công, người dùng redeem OUSD sẽ chịu 1 khoản phí 0,5%. Đọc thêm tại [Cách thức hoạt động](https://docs.ousd.com/how-it-works).
 
-**How soon will my balance increase once I have OUSD?**
+**Số dư của tôi sẽ bắt đầu tăng từ lúc nào kể từ khi bắt đầu nắm giữ OUSD?**
 
-The amount of OUSD in your wallet will grow each time there is a positive rebase event. You can read more about this in [Elastic Supply](https://docs.ousd.com/core-concepts/elastic-supply). The supply is currently rebased several times per day and is usually correlated with how many people are minting and redeeming OUSD.
+Số lượng OUSD trong ví của bạn sẽ tăng lên sau mỗi đợt rebase. Đọc thêm tại [Elastic supply](https://docs.ousd.com/core-concepts/elastic-supply). OUSD hiện đang được rebase nhiều lần trong ngày.
 
 **Why does OUSD not grow when it's held in Uniswap, SushiSwap, etc?**
 
