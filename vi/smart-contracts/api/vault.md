@@ -1,6 +1,6 @@
 ---
 description: >-
-  Vault là điểm cốt lõi của giao thức. Kho tiền chịu trách nhiệm khai tác / hoàn trả OUSD, cân bằng lại quỹ giữa các chiến lược được hỗ trợ khác nhau và thanh lý token thưởng.
+  Vault (kho tiền) là điểm cốt lõi của giao thức. Kho tiền chịu trách nhiệm khai tác / hoàn trả OUSD, cân bằng lại quỹ giữa các chiến lược được hỗ trợ khác nhau và thanh lý token thưởng.
 ---
 
 # Vault
@@ -111,25 +111,25 @@ Chỉ số được trả về bởi `calculateRedeemOutputs` tương ứng vớ
 
 **`function getAssetCount()`**‌
 
-Return the number of supported stablecoin assets represented by `uint256` type.‌
+Trả về số lượng tài sản stablecoin hỗ trợ được đại diện bằng loại `uint256`.‌
 
 ### getAllAssets () <a id="getallassets"></a>
 
 **`function getAllAssets()`**‌
 
-Return all assets addresses of supported stablecoin assets in order represented by `uint256` type.‌
+Trả về địa chỉ tài sản hỗ trợ theo thứ tự được đại diện bằng loại `uint256`.‌
 
 ### getStrategyCount () <a id="getstrategycount"></a>
 
 **`function getStrategyCount()`**‌
 
-Return the number of strategies active on the Vault represented by `uint256` type.‌
+Trả về số lượng chiến lược đang được sử dụng trong Vault đại điện bằng loại `uint256`.‌
 
 ### getAPR () <a id="getapr"></a>
 
 **`function getAPR()`**‌
 
-Return the total annual percentage yield \(APR\) of the Vault and all Strategies represented by `uint256` type. Resulting number has 18 decimal places.‌
+Trả về tổng lợi nhuận phần trăm hàng năm (APR) của Vault và tất cả các Chiến lược được đại diện bằng loại `uint256`. Kết quả là số có 18 ký tự.‌
 
 ### isSupportedAsset (\) <a id="issupportedasset"></a>
 
