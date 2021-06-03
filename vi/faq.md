@@ -1,14 +1,14 @@
-# FAQ
+# Câu hỏi thường gặp
 
-**Where can I buy OUSD?**
+**Tôi có thể mua OUSD ở đâu?**
 
-Check out [Getting Started](https://docs.ousd.com/getting-started) to see a variety of options.
+Ghé thăm [làm thế nào để bắt đầu](https://docs.ousd.com/getting-started) để tham khảo các lựa chọn.
 
-**What are the costs to mint and redeem OUSD?**
+**Chi phí để mint và redeem OUSD là bao nhiêu?**
 
-As with any Ethereum transaction, you will need Ether to interact with the OUSD smart contract. We have taken measures to reduce gas usage where possible, but these costs can vary.
+Tương tự với các giao dịch trên Ethereum, người dùng sẽ cần Ether để tương tác với hợp đồng thông minh OUSD. Chúng tôi đã thực hiện các biện pháp tối ưu phí gas, nhưng các chi phí này có thể thay đổi tuỳ theo mạng Ethereum.
 
-Anytime you mint or redeem OUSD, there will be an exchange rate applied to your stablecoins deposited or withdrawn. You can read more about this in [Price Oracles](https://docs.ousd.com/core-concepts/price-oracles).
+Bất cứ khi nào bạn mint hoặc redeem OUSD, sẽ có 1 tỉ giá hối đoái được áp dụng giữa OUSD và các stablecoin được nạp vào hoặc rút ra. Đọc thêm tại [Price Oracles](https://docs.ousd.com/core-concepts/price-oracles).
 
 To encourage long-term holding of OUSD and to protect the protocol from attackers, an exit fee of 0.5% is charged on all redeems. You can read more about this in [How Works](https://docs.ousd.com/how-it-works).
 
