@@ -122,25 +122,25 @@ Các oracle sau được sử dụng để định giá **USDT/USD:**
 {% endtab %}
 
 {% tab title="Staking" %}
-| Hợp đồng    | Address                                                                                                               | ENS                                                                 |
-|:----------- |:--------------------------------------------------------------------------------------------------------------------- |:------------------------------------------------------------------- |
-| OGN Staking | [0x501804B374EF06fa9C427476147ac09F1551B9A0](https://etherscan.io/address/0x501804B374EF06fa9C427476147ac09F1551B9A0) | [originstaking.eth](https://etherscan.io/address/originstaking.eth) |
+| Hợp đồng  | Địa chỉ                                                                                                               | ENS                                                                 |
+|:--------- |:--------------------------------------------------------------------------------------------------------------------- |:------------------------------------------------------------------- |
+| Stake OGN | [0x501804B374EF06fa9C427476147ac09F1551B9A0](https://etherscan.io/address/0x501804B374EF06fa9C427476147ac09F1551B9A0) | [originstaking.eth](https://etherscan.io/address/originstaking.eth) |
 
-Internal implementation contracts:
+Các hợp đồng thực hiện nội bộ:
 
-| Contract    | Address                                                                                                               |
-|:----------- |:--------------------------------------------------------------------------------------------------------------------- |
-| OGN Staking | [0x8cd68a1e0b79150455c5498882d5d5d3df2dde08](https://etherscan.io/address/0x8cd68a1e0b79150455c5498882d5d5d3df2dde08) |
+| Hợp đồng  | Địa chỉ                                                                                                               |
+|:--------- |:--------------------------------------------------------------------------------------------------------------------- |
+| Stake OGN | [0x8cd68a1e0b79150455c5498882d5d5d3df2dde08](https://etherscan.io/address/0x8cd68a1e0b79150455c5498882d5d5d3df2dde08) |
 
-OUSD compensation contract \([details](https://medium.com/originprotocol/origin-delivers-on-compensation-promise-claim-your-ousd-and-ogn-now-a9fa9b840476)\):
+Hợp đồng bồi thường OUSD \ ([chi tiết](https://medium.com/originprotocol/origin-delivers-on-compensation-promise-claim-your-ousd-and-ogn-now-a9fa9b840476)\):
 
-| Contract          | Address                                                                                                               |
-|:----------------- |:--------------------------------------------------------------------------------------------------------------------- |
-| OUSD Compensation | [0x9C94df9d594BA1eb94430C006c269C314B1A8281](https://etherscan.io/address/0x9C94df9d594BA1eb94430C006c269C314B1A8281) |
+| Hợp đồng        | Địa chỉ                                                                                                               |
+|:--------------- |:--------------------------------------------------------------------------------------------------------------------- |
+| Bồi thường OUSD | [0x9C94df9d594BA1eb94430C006c269C314B1A8281](https://etherscan.io/address/0x9C94df9d594BA1eb94430C006c269C314B1A8281) |
 {% endtab %}
 
 {% tab title="Swap" %}
-| Contract | Address                                                                                                               | ENS                                                           |
+| Hợp đồng | Địa chỉ                                                                                                               | ENS                                                           |
 |:-------- |:--------------------------------------------------------------------------------------------------------------------- |:------------------------------------------------------------- |
 | Swap     | [0xcecaD69d7D4Ed6D52eFcFA028aF8732F27e08F70](https://etherscan.io/address/0xcecaD69d7D4Ed6D52eFcFA028aF8732F27e08F70) | [originswap.eth](https://etherscan.io/address/originswap.eth) |
 {% endtab %}
