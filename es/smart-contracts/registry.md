@@ -22,7 +22,7 @@ Internal implementation contracts. The Vault is split into VaultAdmin and VaultC
 | Contrato                   | Dirección                                                                                                             |
 |:-------------------------- |:--------------------------------------------------------------------------------------------------------------------- |
 | OUSD                       | [0x9d6975591E777D95Eef3bCC2a727846DA25d7083](https://etherscan.io/address/0x9d6975591E777D95Eef3bCC2a727846DA25d7083) |
-| Administrador de la Bóveda | [0xb5f7E47Bc7D271b3df4824BDcFBB279a719F8Ae6](https://etherscan.io/address/0xb5f7E47Bc7D271b3df4824BDcFBB279a719F8Ae6) |
+| Administrador de la Bóveda | [0x8E55b527901BC88206a1cE5C292B2404bcb8F76D](https://etherscan.io/address/0x8e55b527901bc88206a1ce5c292b2404bcb8f76d) |
 | Bóveda Central             | [0xE54f14FC3fBc5915D070DE4758bcF591541BD1c3](https://etherscan.io/address/0xe54f14fc3fbc5915d070de4758bcf591541bd1c3) |
 | Oráculos Mixtos            | [0x843530DC8005e13dEA30CEa2394FF60635f38cc4](https://etherscan.io/address/0x843530DC8005e13dEA30CEa2394FF60635f38cc4) |
 | Oráculo de Chainlink       | [0x017aD99900b9581Cd40C815990890EE9F0858246](https://etherscan.io/address/0x017aD99900b9581Cd40C815990890EE9F0858246) |
