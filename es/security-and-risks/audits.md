@@ -1,11 +1,11 @@
 # Auditorias
 
-**The OUSD Vault, ERC-20, and Overall System**
+**La bóveda de OUSD, ERC-20 y el sistema general**
 
-OUSD has been audited by multiple, well-respected security firms. We have worked with both [Trail of Bits](https://www.trailofbits.com/) and [Solidified](https://solidified.io/) to audit all of the code that powers Origin Dollar. Their findings are available below:
+OUSD ha sido auditado por varias firmas de seguridad muy respetadas. Hemos trabajado con [Trail of Bits](https://www.trailofbits.com/) y [Solidified](https://solidified.io/) para auditar todo el código que impulsa a Origin Dollar. Sus hallazgos están disponibles a continuación:
 
-* [Trail of Bits, OUSD Audit, December 2020](https://github.com/OriginProtocol/security/blob/master/audits/Trail%20of%20Bits%20-%20Origin%20Dollar%20-%20Dec%202020.pdf)
-* [Solidified, OUSD Audit, December 2020](https://github.com/OriginProtocol/security/blob/master/audits/Solidified%20-%20Origin%20Dollar%20-%20Dec%202020.pdf)
+* [Trail of Bits, auditoría de OUSD, diciembre de 2020](https://github.com/OriginProtocol/security/blob/master/audits/Trail%20of%20Bits%20-%20Origin%20Dollar%20-%20Dec%202020.pdf)
+* [Solidified, auditoría de OUSD, diciembre de 2020](https://github.com/OriginProtocol/security/blob/master/audits/Solidified%20-%20Origin%20Dollar%20-%20Dec%202020.pdf)
 * [Solidified, OGN Staking Audit, December 2020](https://github.com/OriginProtocol/security/blob/master/audits/Solidified%20-%20OGN%20Staking%20-%20Dec%202020.pdf)
 
 The governance token, Origin Token \(OGN\), was also audited by Trail of Bits in 2018:
