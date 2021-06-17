@@ -1,16 +1,16 @@
 # Aave
 
-Aave is a lending protocol and platform built on Ethereum and launched in January 2020 by the creators of ETHLend. Users on Aave can earn compounding interest on or borrow assets against collateral. Each supported asset is aggregated in its own liquidity pool and users can choose between a variable interest rate based on supply and demand or a fixed interest rate.
+Aave es un protocolo y una plataforma de préstamos construido sobre la red de Ethereum y lanzado en enero de 2020 por los creadores de ETHLend. Los usuarios de Aave pueden ganar intereses compuestos o tomar prestados activos con colateral. Cada activo respaldado se agrega a su propio grupo de liquidez y los usuarios pueden elegir entre una tasa de interés variable basada en la oferta y la demanda o una tasa de interés fija.
 
-Collateral balances are represented by ERC-20 aTokens at a 1:1 ratio to the underlying assets they represent. Interest is compounded automatically and paid to lenders with aTokens, meaning lenders will steadily see their aToken balance increase over time. Users can borrow assets against their aTokens. aTokens are freely transferable and can be used on many other DeFi protocols. aTokens can be redeemed for their underlying collateral at any time.
+Los balances de colateral están representados por ERC-20 aTokens en una proporción de 1:1 a los activos subyacentes que representan. El interés se capitaliza automáticamente y se paga a los prestamistas con aTokens, lo que significa que los prestamistas verán que su saldo de tokens aumenta constantemente con el tiempo. Los usuarios pueden tomar prestados activos contra sus aTokens. Los aTokens se pueden transferir libremente y se pueden usar en muchos otros protocolos DeFi. Los aTokens se pueden canjear por su colateral subyacente en cualquier momento.
 
-Aave supports flash loans, which are uncollateralized loans where users borrow and repay the balance of the loan in a single transaction, meaning flash loan users do not need to put up any initial capital. Flash loans are a complex product aimed at developers and can be used to arbitrage across multiple DeFi protocols.
+Aave permite préstamos tipo flash, que son préstamos sin colateral en los que los usuarios piden prestado y reembolsan el monto del préstamo en una sola transacción, lo que significa que los usuarios de préstamos tipo flash no necesitan aportar capital inicial. Los préstamos de tipo flash son un producto complejo dirigido a desarrolladores y se pueden utilizar para arbitrar a través de múltiples protocolos DeFi.
 
-Aave is currently governed by LEND, an ERC-20 token that was formerly the utility token for ETHLend. Aave has announced a transition to fully decentralized governance that includes a token swap where users exchange LEND for AAVE, a new ERC-20 governance token with staking rewards. Some AAVE will be distributed to users of the platform in a liquidity mining campaign.
+Aave está gobernada actualmente por LEND, un token ERC-20 que anteriormente era el token de utilidad para ETHLend. Aave ha anunciado una transición a una gobernanza totalmente descentralizada que incluye un exchange de tokens en el que los usuarios cambian LEND por AAVE, un nuevo token de gobernanza ERC-20 con recompensas de participación. Algunos AAVE se distribuirán a los usuarios de la plataforma en una campaña de minería de liquidez.
 
-Aave's total value locked \(TVL\) has quickly grown to over $1.2 billion, making it one of the largest DeFi protocols. LEND has a circulating market cap of over $700 million.
+El valor total bloqueado \(TVL\) de Aave ha crecido rápidamente a más de $1.2 mil millones, lo que lo convierte en uno de los protocolos DeFi más grandes. LEND tiene una capitalización de mercado circulante de más de $700 millones.
 
-Aave has undergone security audits by OpenZeppelin, Trail of Bits, and Consensys Diligence. Aave maintains a bug bounty program.
+Aave se ha sometido a auditorías de seguridad por OpenZeppelin, Trail of Bits y Consensys Diligence. Aave mantiene un programa de recompensas por errores.
 
 | Recursos                        |                                                                                |
 |:------------------------------- |:------------------------------------------------------------------------------ |
