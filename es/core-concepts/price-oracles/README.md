@@ -116,11 +116,11 @@ Con el fin de prevenir ataques maliciosos y alentar a los inversores a largo pla
 
 Esto protege los fondos en el grupo de liquidez mientras recompensa a los holders a largo plazo. Dado que el precio más seguro depende de la dirección de la operación, el oráculo de Origin expone tanto un `priceUSDMint()` y un `priceUSDRedeem()`.
 
-OUSD uses Chainling as oracle for DAI, USDC and USDT.
+OUSD usa Chainlink como oráculo para DAI, USDC y USDT.
 
-{% embed url="https://feeds.chain.link/eth-usd" caption="" %}
+{% embed url="https://feeds.chain.link/eth-usd" caption=""%}
 
-The specific smart contract address for each oracle being used are listed on our [registry](../../smart-contracts/registry.md) page.
+La dirección de contrato inteligente específica para cada oráculo que se utiliza se enumera en nuestra [página de registro](../../smart-contracts/registry.md).
 
-It is possible that additional oracles will be added to the protocol over time. Support may also be removed if any of these oracles become unreliable.
+Es posible que con el tiempo se agreguen más oráculos al protocolo. También pueden eliminarse si alguno de estos oráculos deja de ser confiable.
 
