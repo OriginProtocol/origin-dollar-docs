@@ -1,20 +1,20 @@
-# Rebasing & Smart Contracts
+# Rebase & Contratos Inteligentes
 
-If you are using a multi-sig wallet or another smart contract that wishes to participate in the rebasing aspect of OUSD you must call OUSD’s`rebaseOptIn()` function. This only applies to smart contracts as standard EOA wallets are enrolled automatically.
+Si está utilizando una billetera multi-sig u otro contrato inteligente que desea participar en el aspecto de rebase de OUSD, debe llamar a la función `rebaseOptIn()` de OUSD. Esto solo se aplica a los contratos inteligentes, ya que las billeteras EOA estándar se inscriben automáticamente.
 
 {% hint style="info" %}
-Multi-sig wallets or other smart contracts must call`rebaseOptIn()`to earn yield.
+Las billeteras multi-sig u otros contratos inteligentes deben llamar a `rebaseOptIn()` para obtener rendimiento.
 {% endhint %}
 
-By default, OUSD that is held on smart contracts will not participate in the rebasing nature of the token and will forfeit any yield unless the smart contract explicitly opts-in. This increases the composability of OUSD within DeFi as many protocols weren't designed with the expectation that balances might change. To other DeFi protocols, OUSD works just like any other normal, well-behaved ERC-20 until you ask it to change. This is a particularly useful attribute for automated market makers \(AMM’s\) like Uniswap which break when the number of tokens they are holding changes unexpectedly.
+De forma predeterminada, el OUSD que se mantiene en contratos inteligentes no participará en la naturaleza de rebase del token y perderá cualquier rendimiento a menos que el contrato inteligente lo acepte explícitamente. Esto aumenta la capacidad de composición de OUSD dentro de DeFi, ya que muchos protocolos no se diseñaron con la expectativa de que los equilibrios pudieran cambiar. Para otros protocolos DeFi, OUSD funciona como cualquier otro ERC-20 normal y de buen comportamiento hasta que le pida que cambie. Este es un atributo particularmente útil para los creadores de mercado automatizados \(AMMs\) como Uniswap, que se rompen cuando la cantidad de tokens que tienen cambia inesperadamente.
 
-Smart contracts must explicitly opt-in to receiving yield via the rebasing mechanism. This fixes the issue with the expanding supply on AMM’s while still allowing multi-sig wallets and other smart contracts the opportunity to still participate and earn yield.
+Los contratos inteligentes deben optar explícitamente por recibir rendimiento a través del mecanismo de reajuste. Esto soluciona el problema con la oferta en expansión de AMM y, al mismo tiempo, permite que las billeteras multi-sig y otros contratos inteligentes tengan la oportunidad de participar y obtener rendimiento.
 
 {% hint style="warning" %}
-If you are deploying a contract and intend to call`rebaseOptIn()`to earn yield you cannot call it from the contract's constructor. The contract must be deployed before it can be called.
+Si está implementando un contrato y tiene la intención de llamar a `rebaseOptIn()` para obtener rendimiento, no puede llamarlo desde el constructor del contrato. El contrato debe implementarse antes de que se pueda llamar.
 {% endhint %}
 
-If you are using a multi-sig wallet like [Gnosis Wallet](https://github.com/gnosis/MultiSigWallet) or [Gnosis Safe](https://gnosis-safe.io/), you will need the [proxy contract address for OUSD](../../smart-contracts/registry.md) and the corresponding [ABI](https://api.etherscan.io/api?module=contract&action=getabi&address=0x1ae95dd4eeae7ed03da79856c2d44ffa3318f805). Once you add those, you will be able to call the `rebaseOptIn()` function to opt into receiving yield via rebasing or`rebaseOptOut()` to turn it off again.
+Si está utilizando una billetera multi-sig como [Gnosis Wallet](https://github.com/gnosis/MultiSigWallet) o [Gnosis Safe](https://gnosis-safe.io/), necesitará la dirección de contrato de OUSD [](../../smart-contracts/registry.md) y las [ABI](https://api.etherscan.io/api?module=contract&action=getabi&address=0x1ae95dd4eeae7ed03da79856c2d44ffa3318f805) correspondientes. Una vez que los agregue, podrá llamar a la función `rebaseOptIn()` para optar por recibir rendimiento a través de rebase o `rebaseOptOut()` para apagarlo nuevamente.
 
 
 
