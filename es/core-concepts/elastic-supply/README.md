@@ -12,9 +12,9 @@ Piense en ello como intereses acumulados en su cuenta bancaria. La unidad de cue
 
 Este mecanismo se inspiró en el enfoque novedoso adoptado por [Ampleforth](https://www.ampleforth.org/), pero hay algunas diferencias clave que vale la pena destacar:
 
-1. OUSD is 100% backed by other stablecoins and does not have the same challenge maintaining the peg to the dollar. Dada la facilidad de acuñar y canjear OUSD, podemos contar con arbitrajistas para garantizar que se mantenga la paridad.
-2. OUSD rebasing will only increase supply since the amount of OUSD minted is tied to the realized gains earned by the underlying strategies. Your principal is protected as long as nothing goes wrong with the underlying lending/AMM and stablecoin protocols. Your OUSD balance will never decrease, but the value could drop if there's a failure in the underlying systems.
-3. Unlike Ampleforth, which rebases once a day, the monetary supply of OUSD is constantly being updated in real-time as yield is generated. Rebases are triggered regularly as users interact with the OUSD contracts.
+1. OUSD está respaldado al 100% por otras monedas estables y no tiene el mismo desafío de mantener la paridad con el dólar. Dada la facilidad de acuñar y canjear OUSD, podemos contar con arbitrajistas para garantizar que se mantenga la paridad.
+2. El rebasamiento de OUSD está fuertemente sesgado hacia el aumento de la oferta, ya que la cantidad de OUSD acuñada está vinculada a las ganancias obtenidas por las estrategias subyacentes. Su principal está protegido siempre que nada salga mal con los protocolos subyacentes de préstamos/AMM y moneda estable. Su saldo de OUSD nunca disminuirá, pero el valor podría disminuir si hay una falla en los sistemas subyacentes.
+3. A diferencia de Ampleforth, que se reactiva una vez al día, la oferta monetaria de OUSD se actualiza constantemente en tiempo real a medida que se genera el rendimiento. Rebases are triggered regularly as users interact with the OUSD contracts.
 
 **Manually triggering a rebase**
 
