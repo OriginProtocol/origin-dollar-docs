@@ -1,6 +1,6 @@
 # Curve
 
-Curve is a decentralized liquidity protocol and exchange on Ethereum for stablecoins and wrapped BTC, launched in January 2020. Users can swap between popular ERC-20 stablecoins or between ERC-20 representations of bitcoin. Liquidity providers facilitate trading and earn fees.
+Curve es un protocolo de liquidez descentralizado y un exchange en la red de Ethereum para monedas estables y BTC envuelto, lanzado en enero de 2020. Los usuarios pueden intercambiar entre las populares monedas estables ERC-20 o entre las representaciones ERC-20 de bitcoin. Los proveedores de liquidez facilitan el tradeo y ganan comisiones.
 
 Curve is an Automated Market Maker \(AMM\) where each market has an associated liquidity pool with two or more assets that should have the same value, like USDT, USDC, DAI and TUSD, which are all US dollar pegged stablecoins. The exchange rate between each stablecoin and their relative weights are determined by an algorithm based on supply and demand. Arbitrageurs act to normalize these exchange rates.
 
