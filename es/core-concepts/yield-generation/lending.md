@@ -6,15 +6,15 @@ Las plataformas de préstamos DeFi permiten a los usuarios prestar y pedir prest
 
 OUSD se integra con las plataformas de préstamos DeFi que brindan préstamos con exceso de garantía. La sobregarantía, combinada con reglas inteligentes sobre liquidaciones, proporciona un nivel razonable de seguridad para los prestamistas. Aave también asegura sus grupos de préstamos con tokens AAVE respectivamente, lo que reduce aún más el riesgo.
 
-OUSD se integra con los principales proveedores de préstamos que tienen un historial probado, contratos inteligentes auditados y que han prestado con éxito cientos de millones de dólares sin problemas. We are currently integrated with the following lending platforms:
+OUSD se integra con los principales proveedores de préstamos que tienen un historial probado, contratos inteligentes auditados y que han prestado con éxito cientos de millones de dólares sin problemas. Actualmente estamos integrados con las siguientes plataformas de préstamos:
 
 {% page-ref page = "../ supported-Strategies / composite.md"%}
 
 {% page-ref page = "../ supported-Strategies / aave.md"%}
 
-We are planning on integrating the following lending platform:
+Estamos planeando integrar la siguiente plataforma de préstamos:
 
-{% page-ref page="../supported-strategies/dydx.md" %}
+{% page-ref page="../supported-Strategies/dydx.md"%}
 
 
 
