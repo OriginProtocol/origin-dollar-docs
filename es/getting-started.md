@@ -10,7 +10,7 @@ Acuñar OUSD permite a cualquier persona crear o intercambiar tokens OUSD utiliz
 
 **Comprar en Plataformas de Intercambio**
 
-For small amounts, the easiest way to start earning with OUSD is to buy it on an exchange. We anticipate that OUSD will soon be available on many more decentralized and centralized exchanges. 
+Para pequeñas cantidades, la forma más fácil de comenzar a ganar con OUSD es comprarlo en una plataforma de intercambio (exchange) descentralizado como Uniswap. Anticipamos que OUSD pronto estará disponible en muchos más exchanges descentralizados y centralizados. 
 
 Decentralized exchanges:
 
