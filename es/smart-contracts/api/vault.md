@@ -5,45 +5,45 @@ description: >-
 
 # Bóveda
 
-## Units
+## Unidades
 
-All OUSD amounts passed or returned by the Vault methods use 18 decimal places. For example, 1 OUSD is expressed as 1000000000000000000.
+Todas las cantidades de OUSD aprobadas o devueltas por los métodos de Vault utilizan 18 lugares decimales. Por ejemplo, 1 OUSD se expresa como 1000000000000000000.
 
-For other stable coins, the number of decimal places varies. DAI uses 18 decimal places while USDC and USDT use only 6.
+Para otras monedas estables, el número de decimales varía. DAI usa 18 lugares decimales, mientras que USDC y USDT usan solo 6.
 
-## Methods‌
+## Métodos
 
 ### mint\(\) <a id="mint"></a>
 
-**`function mint(address _asset, uint256 _amount, uint256 _minimumOusdAmount)`**‌
+**`function mint(address _asset, uint256 _amount)`**
 
-Mints OUSD in exchange for a deposit of a certain `_amount` of stablecoin specified by the `_asset` parameter. The caller receives a certain amount of OUSD depending on the **exchange rate**.
+Acuñar OUSD a cambio de un depósito de un determinado `_amount` de moneda estable especificado por el `_asset` parámetro. La persona que llama recibe una cierta cantidad de OUSD dependiendo del **tipo de cambio**.
 
 | Nombre del parámetro  | Tipo      | Descripción                                                                                                                                             |
 |:--------------------- |:--------- |:------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | \_asset             | dirección | Dirección de la moneda estable [admitida](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/core-concepts/supported-assets). |
-| \_amount            | uint256   | Amount deposited, expressed in decimal units                                                                                                            |
-| \_minimumOusdAmount | uint256   | Minimum amount of OUSD the caller is willing to receive. The call to mint\(\) reverts if the minimum is not met.                                      |
+| \_amount            | uint256   | Cantidad depositada, expresada en unidades decimales                                                                                                    |
+| \_minimumOusdAmount | uint256   | Cantidad mínima de OUSD que la persona que llama está dispuesta a recibir. La llamada a mint\(\) se revierte si no se cumple el mínimo.               |
 
 ### mintMultiple \ (\) <a id="mintmultiple"></a>
 
 **`function mintMultiple(address[] _assets, uint256[] _amounts, uint256 _minimumOusdAmount)`**‌
 
-Mints OUSD in exchange for a deposit of multiple stablecoins in a single call. Stablecoins are specified by the `_assets` array parameter and the amounts by the `_amounts` array parameter. The caller receives a certain amount of OUSD depending on the **exchange rate**.
+Acuñar OUSD a cambio de un depósito de múltiples monedas estables en una sola llamada. Las monedas estables se especifican mediante el parámetro de matriz `_assets` y las cantidades mediante el parámetro de matriz `_amounts`. La persona que llama recibe una cierta cantidad de OUSD dependiendo del **tipo de cambio**.
 
 | Nombre del parámetro  | Tipo            | Descripción                                                                                                                                                   |
 |:--------------------- |:--------------- |:------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | \_assets            | dirección\[\] | Direcciones de las monedas estables [admitidas](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/core-concepts/supported-assets). |
-| \_amounts           | uint256\[\]   | Amounts deposited, expressed in decimal units                                                                                                                 |
-| \_minimumOusdAmount | uint256         | Minimum amount of OUSD the caller is willing to receive. The call to mint\(\) reverts if the minimum is not met.                                            |
+| \_amounts           | uint256\[\]   | Cantidades depositadas, expresadas en unidades decimales                                                                                                      |
+| \_minimumOusdAmount | uint256         | Cantidad mínima de OUSD que la persona que llama está dispuesta a recibir. La llamada a mint\(\) se revierte si no se cumple el mínimo.                     |
 
 {% hint style="warning" %}
-On redemptions, it is the protocol and not the user that decides which stablecoin\(s\) are returned to the user. This decision of which coin\(s\) to return is based on the internal ratios of the assets that are being held in the vault.‌
+En los canjes, es el protocolo y no el usuario el que decide qué monedas estables\(s\) se devuelven al usuario. Esta decisión de qué moneda\(s\) devolver se basa en las proporciones internas de los activos que se mantienen en la bóveda.
 {% endhint %}
 
 ### redeem\(\) <a id="redeem"></a>
 
-**`function redeem(uint256 _amount)`**‌
+**`function redeem(uint256 _amount)`**
 
 OUSD specified by the `_amount` parameter is redeemed in exchange for one or multiple supported stablecoins. La cantidad de monedas estables recibidas depende del **tipo de cambio**.
 
