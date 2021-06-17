@@ -15,9 +15,9 @@ Direcciones conocidas \ (a menudo envoltorios de proxy\):
 |:-------- |:--------------------------------------------------------------------------------------------------------------------- |:----------------------------------------------------------------- |
 | OUSD     | [0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86](https://etherscan.io/address/0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86) | [ousd.eth](https://etherscan.io/address/ousd.eth)                 |
 | Bóveda   | [0xE75D77B1865Ae93c7eaa3040B038D7aA7BC02F70](https://etherscan.io/address/0xe75d77b1865ae93c7eaa3040b038d7aa7bc02f70) | [originvault.eth](https://etherscan.io/address/originvault.eth)   |
-| Oracle   | [0x843530DC8005e13dEA30CEa2394FF60635f38cc4](https://etherscan.io/address/0x843530DC8005e13dEA30CEa2394FF60635f38cc4) | [originoracle.eth](https://etherscan.io/address/originoracle.eth) |
+| Oráculo  | [0x843530DC8005e13dEA30CEa2394FF60635f38cc4](https://etherscan.io/address/0x843530DC8005e13dEA30CEa2394FF60635f38cc4) | [originoracle.eth](https://etherscan.io/address/originoracle.eth) |
 
-Internal implementation contracts. The Vault is split into VaultAdmin and VaultCore to work-around the maximum contract size limit on Ethereum:
+Contratos de ejecución interna. El bóveda se divide en VaultAdmin y VaultCore para solucionar el límite máximo de tamaño de contrato en Ethereum:
 
 | Contrato                   | Dirección                                                                                                             |
 |:-------------------------- |:--------------------------------------------------------------------------------------------------------------------- |
@@ -29,17 +29,17 @@ Internal implementation contracts. The Vault is split into VaultAdmin and VaultC
 {% endtab %}
 
 {% tab title="Strategies" %}
-Well-known addresses \(proxy wrappers\):
+Direcciones conocidas \(envoltorios de proxy\):
 
-| Strategy    | Address                                                                                                               | Auto-Allocation       |
+| Estrategia  | Dirección                                                                                                             | Asignación automática |
 |:----------- |:--------------------------------------------------------------------------------------------------------------------- |:--------------------- |
-| Aave        | [0x9f2b18751376cF6a3432eb158Ba5F9b1AbD2F7ce](https://etherscan.io/address/0x9f2b18751376cF6a3432eb158Ba5F9b1AbD2F7ce) | 100% of DAI           |
-| Compound    | [0xD5433168Ed0B1F7714819646606DB509D9d8EC1f](https://etherscan.io/address/0xD5433168Ed0B1F7714819646606DB509D9d8EC1f) | 100% of USDC and USDT |
-| Curve 3Pool | [0x874c74E6ec318AD0a7e6f23301678a4751d00482](https://etherscan.io/address/0x874c74E6ec318AD0a7e6f23301678a4751d00482) | Manual allocation     |
+| Aave        | [0x9f2b18751376cF6a3432eb158Ba5F9b1AbD2F7ce](https://etherscan.io/address/0x9f2b18751376cF6a3432eb158Ba5F9b1AbD2F7ce) | 100% de DAI           |
+| Compound    | [0xD5433168Ed0B1F7714819646606DB509D9d8EC1f](https://etherscan.io/address/0xD5433168Ed0B1F7714819646606DB509D9d8EC1f) | 100% de USDC y USDT   |
+| Curve 3Pool | [0x874c74E6ec318AD0a7e6f23301678a4751d00482](https://etherscan.io/address/0x874c74E6ec318AD0a7e6f23301678a4751d00482) | Asignación manual     |
 
-Internal implementation contracts:
+Contratos de ejecución interna:
 
-| Strategy    | Address                                                                                                               |
+| Estrategia  | Dirección                                                                                                             |
 |:----------- |:--------------------------------------------------------------------------------------------------------------------- |
 | Aave        | [0xd97fE382b923F75Ab8951915eCF07CBf12c102D4](https://etherscan.io/address/0xd97fE382b923F75Ab8951915eCF07CBf12c102D4) |
 | Compound    | [0x3a2c387b84b28F438aaF53e6d0B8e790D084D1d1](https://etherscan.io/address/0x3a2c387b84b28F438aaF53e6d0B8e790D084D1d1) |
@@ -47,23 +47,23 @@ Internal implementation contracts:
 {% endtab %}
 
 {% tab title="Oracles" %}
-The following oracles are used to fetch or compute a price for **DAI/USD:**
+Los siguientes oráculos se utilizan para obtener o calcular un precio de **DAI/USD:**
 
-| Oracle    | Pair    | Contract                                                                                                              |
+| Oráculo   | Par     | Contrato                                                                                                              |
 |:--------- |:------- |:--------------------------------------------------------------------------------------------------------------------- |
 | Chainlink | DAI/USD | [0xAed0c38402a5d19df6E4c03F4E2DceD6e29c1ee9](https://etherscan.io/address/0xAed0c38402a5d19df6E4c03F4E2DceD6e29c1ee9) |
 
-The following oracles are used to fetch a price for **USDT/USD:**
+Los siguientes oráculos se utilizan para obtener o calcular un precio de **USDT/USD:**
 
-| O**racle** | Pair     | Contract                                                                                                              |
-|:---------- |:-------- |:--------------------------------------------------------------------------------------------------------------------- |
-| Chainlink  | USDT/USD | [0x3E7d1eAB13ad0104d2750B8863b489D65364e32D](https://etherscan.io/address/0x3E7d1eAB13ad0104d2750B8863b489D65364e32D) |
+| **Oráculo** | Par      | Contrato                                                                                                              |
+|:----------- |:-------- |:--------------------------------------------------------------------------------------------------------------------- |
+| Chainlink   | USDT/USD | [0x3E7d1eAB13ad0104d2750B8863b489D65364e32D](https://etherscan.io/address/0x3E7d1eAB13ad0104d2750B8863b489D65364e32D) |
 
-The following oracles are used to fetch a price for **USDC/USD:**
+Los siguientes oráculos se utilizan para obtener o calcular un precio de **USDC/USD:**
 
-| O**racle** | Pair     | Contract                                                                                                              |
-|:---------- |:-------- |:--------------------------------------------------------------------------------------------------------------------- |
-| Chainlink  | USDC/USD | [0x8fFfFfd4AfB6115b954Bd326cbe7B4BA576818f6](https://etherscan.io/address/0x8fFfFfd4AfB6115b954Bd326cbe7B4BA576818f6) |
+| **Oráculo** | Par      | Contrato                                                                                                              |
+|:----------- |:-------- |:--------------------------------------------------------------------------------------------------------------------- |
+| Chainlink   | USDC/USD | [0x8fFfFfd4AfB6115b954Bd326cbe7B4BA576818f6](https://etherscan.io/address/0x8fFfFfd4AfB6115b954Bd326cbe7B4BA576818f6) |
 {% endtab %}
 
 {% tab title="Governance" %}
@@ -71,28 +71,28 @@ The following oracles are used to fetch a price for **USDC/USD:**
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">Contract</th>
-      <th style="text-align:left">Address</th>
+      <th style="text-align:left">Contrato</th>
+      <th style="text-align:left">Dirección</th>
       <th style="text-align:left">ENS</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">5 of 8 Multisig</td>
+      <td style="text-align:left">5 de 8 Multiples-firmas</td>
       <td style="text-align:left"><a href="https://etherscan.io/address/0xe011fA2a6Df98c69383457d87a056Ed0103aA352">0xe011fA2a6Df98c69383457d87a056Ed0103aA352</a>
       </td>
       <td style="text-align:left"><a href="https://etherscan.io/address/originprotocol.eth">originprotocol.eth</a>
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">2 of 9 Multisig</td>
+      <td style="text-align:left">2 de 9 Multiples-firmas</td>
       <td style="text-align:left"><a href="https://etherscan.io/address/0xF14BBdf064E3F67f51cd9BD646aE3716aD938FDC">0xF14BBdf064E3F67f51cd9BD646aE3716aD938FDC</a>
       </td>
       <td style="text-align:left"><a href="https://etherscan.io/address/originstrategist.eth">originstrategist.eth</a>
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">Governor / Timelock</td>
+      <td style="text-align:left">Gobernador / Timelock</td>
       <td style="text-align:left"><a href="https://etherscan.io/address/0x8e7bDFeCd1164C46ad51b58e49A611F954D23377">0x8e7bDFeCd1164C46ad51b58e49A611F954D23377</a>
       </td>
       <td style="text-align:left">
@@ -103,7 +103,7 @@ The following oracles are used to fetch a price for **USDC/USD:**
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">OGN Buyback</td>
+      <td style="text-align:left">Recompra de OGN</td>
       <td style="text-align:left"><a href="https://etherscan.io/address/0x7294CD3C3eb4097b03E1A61EB2AD280D3dD265e6">0x7294CD3C3eb4097b03E1A61EB2AD280D3dD265e6</a>
       </td>
       <td style="text-align:left"><a href="https://etherscan.io/address/originbuyback.eth">originbuyback.eth</a>
@@ -114,7 +114,7 @@ The following oracles are used to fetch a price for **USDC/USD:**
 {% endtab %}
 
 {% tab title="Stablecoins" %}
-| Contract                                                                        | Address                                                                                                               |
+| Contrato                                                                        | Dirección                                                                                                             |
 |:------------------------------------------------------------------------------- |:--------------------------------------------------------------------------------------------------------------------- |
 | [USDT](https://etherscan.io/address/0x52BEBd3d7f37EC4284853Fd5861Ae71253A7F428) | [0xdac17f958d2ee523a2206206994597c13d831ec7](https://etherscan.io/address/0x52BEBd3d7f37EC4284853Fd5861Ae71253A7F428) |
 | [USDC](https://etherscan.io/address/0x52BEBd3d7f37EC4284853Fd5861Ae71253A7F428) | [0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48](https://etherscan.io/address/0x52BEBd3d7f37EC4284853Fd5861Ae71253A7F428) |
@@ -122,27 +122,27 @@ The following oracles are used to fetch a price for **USDC/USD:**
 {% endtab %}
 
 {% tab title="Staking" %}
-| Contract    | Address                                                                                                               | ENS                                                                 |
-|:----------- |:--------------------------------------------------------------------------------------------------------------------- |:------------------------------------------------------------------- |
-| OGN Staking | [0x501804B374EF06fa9C427476147ac09F1551B9A0](https://etherscan.io/address/0x501804B374EF06fa9C427476147ac09F1551B9A0) | [originstaking.eth](https://etherscan.io/address/originstaking.eth) |
+| Contrato       | Dirección                                                                                                             | ENS                                                                 |
+|:-------------- |:--------------------------------------------------------------------------------------------------------------------- |:------------------------------------------------------------------- |
+| Staking de OGN | [0x501804B374EF06fa9C427476147ac09F1551B9A0](https://etherscan.io/address/0x501804B374EF06fa9C427476147ac09F1551B9A0) | [originstaking.eth](https://etherscan.io/address/originstaking.eth) |
 
-Internal implementation contracts:
+Contratos de ejecución interna:
 
-| Contract    | Address                                                                                                               |
-|:----------- |:--------------------------------------------------------------------------------------------------------------------- |
-| OGN Staking | [0x8cd68a1e0b79150455c5498882d5d5d3df2dde08](https://etherscan.io/address/0x8cd68a1e0b79150455c5498882d5d5d3df2dde08) |
+| Contrato       | Dirección                                                                                                             |
+|:-------------- |:--------------------------------------------------------------------------------------------------------------------- |
+| Staking de OGN | [0x8cd68a1e0b79150455c5498882d5d5d3df2dde08](https://etherscan.io/address/0x8cd68a1e0b79150455c5498882d5d5d3df2dde08) |
 
-OUSD compensation contract \([details](https://medium.com/originprotocol/origin-delivers-on-compensation-promise-claim-your-ousd-and-ogn-now-a9fa9b840476)\):
+Contrato de compensación OUSD \([detalles](https://medium.com/originprotocol/origin-delivers-on-compensation-promise-claim-your-ousd-and-ogn-now-a9fa9b840476)\):
 
-| Contract          | Address                                                                                                               |
-|:----------------- |:--------------------------------------------------------------------------------------------------------------------- |
-| OUSD Compensation | [0x9C94df9d594BA1eb94430C006c269C314B1A8281](https://etherscan.io/address/0x9C94df9d594BA1eb94430C006c269C314B1A8281) |
+| Contrato             | Dirección                                                                                                             |
+|:-------------------- |:--------------------------------------------------------------------------------------------------------------------- |
+| Compensación de OUSD | [0x9C94df9d594BA1eb94430C006c269C314B1A8281](https://etherscan.io/address/0x9C94df9d594BA1eb94430C006c269C314B1A8281) |
 {% endtab %}
 
 {% tab title="Swap" %}
-| Contract | Address                                                                                                               | ENS                                                           |
+| Contrato | Dirección                                                                                                             | ENS                                                           |
 |:-------- |:--------------------------------------------------------------------------------------------------------------------- |:------------------------------------------------------------- |
-| Swap     | [0xcecaD69d7D4Ed6D52eFcFA028aF8732F27e08F70](https://etherscan.io/address/0xcecaD69d7D4Ed6D52eFcFA028aF8732F27e08F70) | [originswap.eth](https://etherscan.io/address/originswap.eth) |
+| Canjeo   | [0xcecaD69d7D4Ed6D52eFcFA028aF8732F27e08F70](https://etherscan.io/address/0xcecaD69d7D4Ed6D52eFcFA028aF8732F27e08F70) | [originswap.eth](https://etherscan.io/address/originswap.eth) |
 {% endtab %}
 {% endtabs %}
 
