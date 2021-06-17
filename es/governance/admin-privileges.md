@@ -1,16 +1,16 @@
 # Privilegios de Administrador
 
-The OUSD smart contracts are designed to be owner upgradable. The Origin team uses two different Gnosis multisig wallet contracts in order to make changes to the protocol. These multisig wallets have been [audited by OpenZeppelin](https://blog.openzeppelin.com/gnosis-multisig-wallet-audit-d702ff0e2b1e/), [ConsenSys Dilligence](https://blog.gnosis.pm/the-gnosis-multisig-wallet-and-our-commitment-to-security-ce9aca0d17f6), Origin’s team, and others.
+Los contratos inteligentes de OUSD están diseñados para que el propietario pueda actualizarlos. El equipo de Origin utiliza dos contratos de billetera multifirma Gnosis diferentes para realizar cambios en el protocolo. Estas carteras multifirma han sido [auditadas por OpenZeppelin](https://blog.openzeppelin.com/gnosis-multisig-wallet-audit-d702ff0e2b1e/), [ConsenSys Dilligence](https://blog.gnosis.pm/the-gnosis-multisig-wallet-and-our-commitment-to-security-ce9aca0d17f6), el equipo de Origin y otros.
 
 {% hint style="info" %}
-Time-delayed admin actions gives users a chance to exit OUSD if its admins become malicious, are compromised, or make a change that the users do not like.
+Las acciones administrativas que retrasan el tiempo les dan a los usuarios la oportunidad de salir de OUSD si sus administradores se vuelven maliciosos, se ven comprometidos o hacen un cambio que a los usuarios no les gusta.
 {% endhint %}
 
-The primary admin is a 5 of 8 multisig contract which is required to make any code changes to the protocol. OUSD can only be upgraded from this 5 of 8 multi-sig wallet. The keys to this multi-sig are held by individuals with close ties to the company, and not even the Origin founders acting together have enough control to execute owner functions on their own. In addition, the OUSD contracts are owned by the [timelock](../smart-contracts/api/timelock.md) which allows the Origin team to continue making changes to the protocol, but only after a time delay.
+El administrador principal es un contrato multifirma 5 de 8 que se requiere para realizar cualquier cambio de código en el protocolo. OUSD solo se puede actualizar desde esta billetera multi-sig de 5 de 8. Las claves de este multi-sig están en manos de personas con vínculos estrechos con la empresa, y ni siquiera los fundadores de Origin que actúan juntos tienen suficiente control para ejecutar las funciones de propietario por su cuenta. Además, los contratos de OUSD son propiedad de [timelock](../smart-contracts/api/timelock.md) que permite que el equipo de Origin continúe realizando cambios en el protocolo, pero solo después de un retraso de tiempo.
 
-Some functionality, such as rebalancing funds between strategies or pausing deposits, can be triggered without the timelock and with far less signers. This allows the Origin team to react more quickly to market conditions or security threats. These signers, known as Strategists,  have the ability to execute a limited number of functions __with only 2 of 9 signers.
+Algunas funciones, como reequilibrar fondos entre estrategias o pausar depósitos, se pueden activar sin el bloqueo de tiempo y con muchos menos firmantes. Esto permite que el equipo de Origin reaccione más rápidamente ante las condiciones del mercado o las amenazas a la seguridad. Estos firmantes, conocidos como estrategas, tienen la capacidad de ejecutar un número limitado de funciones __con solo 2 de 9 firmantes.
 
-Having these admin privileges is necessary in the early days to ensure that the protocol is secure and optimized for earning yields while minimizing risks. We expect to release multiple iterations of our smart contracts in the first several months of the protocol's existence.
+Tener privilegios de administrador es necesario en los primeros días para garantizar que el protocolo sea seguro y esté optimizado para obtener rendimientos y minimizar los riesgos. Esperamos lanzar múltiples iteraciones de nuestros contratos inteligentes en los primeros meses de existencia del protocolo.
 
-Once several upgrade cycles have been completed, we intend to transfer ownership from our company control to a decentralized governance contract, thereby allowing the community to vote and participate in future protocol updates.
+Una vez que se hayan completado varios ciclos de actualización, tenemos la intención de transferir la propiedad del control de nuestra empresa a un contrato de gobernanza descentralizado, permitiendo así que la comunidad vote y participe en futuras actualizaciones de protocolo.
 
