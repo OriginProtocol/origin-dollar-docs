@@ -93,11 +93,11 @@ Devuelve el saldo de un activo especificado por el parámetro`_asset` contenido 
 
 **`function calculateRedeemOutputs(uint256 _amount)`**‌
 
-Calculate the mix of stablecoins that a `redeem` function would return when redeeming certain amount of OUSD specified by the `_amount` parameter. Returns an array of stablecoin values.
+Calcule la combinación de monedas estables que una función `redeem` devolvería al canjear cierta cantidad de OUSD especificada por el parámetro `_amount`. Devuelve una matriz de valores de monedas estables.
 
-To attribute the stablecoin values to the correct stablecoin currency this call should be used in conjunction with `getAllAssets` function that returns an array of stablecoin addresses.
+Para atribuir los valores de la moneda estable a la moneda de la moneda estable correcta, esta llamada debe usarse junto con la función `getAllAssets` que devuelve una matriz de direcciones de la moneda estable.
 
-The index of an array that is returned by the `calculateRedeemOutputs` corresponds to the stablecoin address with the same index in an array returned by the `getAllAssets` function.
+El índice de una matriz que devuelve `calculateRedeemOutputs` corresponde a la dirección de la moneda estable con el mismo índice en una matriz devuelta por la función `getAllAssets`.
 
 | Nombre del parámetro | Tipo    | Descripción                                      |
 |:-------------------- |:------- |:------------------------------------------------ |
@@ -109,33 +109,33 @@ The index of an array that is returned by the `calculateRedeemOutputs` correspon
 
 ### getAssetCount\(\) <a id="getassetcount"></a>
 
-**`function getAssetCount()`**‌
+**`function getAssetCount()`**
 
-Return the number of supported stablecoin assets represented by `uint256` type.‌
+Devuelve el número de activos de stablecoin admitidos representados por el tipo `uint256`.
 
 ### getAllAssets\(\) <a id="getallassets"></a>
 
-**`function getAllAssets()`**‌
+**`function getAllAssets()`**
 
-Return all assets addresses of supported stablecoin assets in order represented by `uint256` type.‌
+Devuelve el número de activos de moneda estable admitidos representados por el tipo `uint256`.
 
 ### getStrategyCount\(\)‌ <a id="getstrategycount"></a>
 
-**`function getStrategyCount()`**‌
+**`function getStrategyCount()`**
 
-Return the number of strategies active on the Vault represented by `uint256` type.‌
+Devuelve el número de estrategias activas en la Bóveda representado por `uint256` tipo.
 
 ### getAPR\(\) <a id="getapr"></a>
 
-**`function getAPR()`**‌
+**`function getAPR()`**
 
-Return the total annual percentage yield \(APR\) of the Vault and all Strategies represented by `uint256` type. Resulting number has 18 decimal places.‌
+Devuelve el rendimiento porcentual anual total \(APR\) de la Bóveda y todas las estrategias representadas por el tipo `uint256`. El número resultante tiene 18 espacios decimales.
 
 ### isSupportedAsset\(\) <a id="issupportedasset"></a>
 
-**`function isSupportedAsset(address _asset)`**‌
+**`function isSupportedAsset(address _asset)`**
 
-Return the boolean that is true if the asset specified by the `_asset` parameter is supported by the Vault.
+Devuelve el valor booleano verdadero si el activo especificado por el parámetro `_asset` es compatible con la Bóveda.
 
 | Nombre del parámetro | Tipo      | Descripción                    |
 |:-------------------- |:--------- |:------------------------------ |
@@ -143,9 +143,9 @@ Return the boolean that is true if the asset specified by the `_asset` parameter
 
 ### priceUSDMint\(\) <a id="issupportedasset-1"></a>
 
-**`function priceUSDMint(string symbol)`**‌‌
+**`function priceUSDMint(string symbol)`**
 
-Returns the exchange rate price of a stable coin specified by the `symbol` parameters used when minting OUSD represented by `uint256` type. Resulting number has 18 decimal places.
+Devuelve el precio del tipo de cambio de una moneda estable especificado por los parámetros del `symbol` utilizados al acuñar OUSD representado por el tipo `uint256`. El número resultante tiene 18 decimales.
 
 | Nombre del parámetro | Tipo   | Descripción                  |
 |:-------------------- |:------ |:---------------------------- |
@@ -153,9 +153,9 @@ Returns the exchange rate price of a stable coin specified by the `symbol` param
 
 ### priceUSDRedeem\(\) <a id="issupportedasset-2"></a>
 
-**`function priceUSDRedeem(string symbol)`**‌‌
+**`function priceUSDRedeem(string symbol)`**
 
-Returns the exchange rate price of a stable coin specified by the `symbol` parameters used when redeeming OUSD represented by `uint256` type. Resulting number has 18 decimal places.
+Devuelve el precio del tipo de cambio de una moneda estable especificado por los parámetros del `symbol` utilizados al canjear OUSD representado por el tipo `uint256`. El número resultante tiene 18 decimales.
 
 | Nombre del parámetro | Tipo   | Descripción                  |
 |:-------------------- |:------ |:---------------------------- |
@@ -163,9 +163,9 @@ Returns the exchange rate price of a stable coin specified by the `symbol` param
 
 ### priceAssetUSDMint\(\)‌ <a id="issupportedasset-3"></a>
 
-**`function priceAssetUSDMint(address _asset)`**‌‌
+**`function priceAssetUSDMint(address _asset)`**
 
-Returns the exchange rate price of a stable coin specified by the `_asset` parameters used when minting OUSD represented by `uint256` type. Resulting number has 18 decimal places.
+Devuelve el precio del tipo de cambio de una moneda estable especificado por los parámetros `_asset` utilizados al acuñar OUSD representado por el tipo `uint256`. El número resultante tiene 18 decimales.
 
 | Nombre del parámetro | Tipo      | Descripción                     |
 |:-------------------- |:--------- |:------------------------------- |
@@ -173,9 +173,9 @@ Returns the exchange rate price of a stable coin specified by the `_asset` param
 
 ### priceAssetUSDRedeem\(\)‌ <a id="issupportedasset-3-1"></a>
 
-**`function priceAssetUSDRedeem(address _asset)`**‌‌‌
+**`function priceAssetUSDRedeem(address _asset)`**
 
-Returns the exchange rate price of a stable coin specified by the `_asset` parameters used when redeeming OUSD represented by `uint256` type. Resulting number has 18 decimal places.
+Devuelve el precio de tipo de cambio de una moneda estable especificado por los parámetros `_asset` utilizados al canjear OUSD representado por el tipo `uint256`. El número resultante tiene 18 decimales.
 
 | Nombre del parámetro | Tipo      | Descripción                    |
 |:-------------------- |:--------- |:------------------------------ |
