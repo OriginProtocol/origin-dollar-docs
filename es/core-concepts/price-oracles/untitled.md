@@ -1,23 +1,23 @@
-# Untitled
+# Intitulado
 
-## Getting Super Powers
+## Obteniendo superpoderes
 
-Becoming a super hero is a fairly straight forward process:
+Convertirse en un superhéroe es un proceso bastante sencillo:
 
 ```
-$ give me super-powers
+$ dame superpoderes
 ```
 
 {% hint style="info" %}
- Super-powers are granted randomly so please submit an issue if you're not happy with yours.
+ Los superpoderes se otorgan al azar, así que envíe un problema si no está satisfecho con el suyo.
 {% endhint %}
 
-Once you're strong enough, save the world:
+Una vez que seas lo suficientemente fuerte, salva el mundo:
 
 {% code title="hello.sh" %}
 ```bash
-# Ain't no code for that yet, sorry
-echo 'You got to trust me on this, I saved the world'
+# Todavía no hay un código para eso, lo siento
+eco 'Tienes que confiar en mí en esto, salvé al mundo'
 ```
 {% endcode %}
 
