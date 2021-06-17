@@ -2,7 +2,7 @@
 
 **Recompensas de Errores**
 
-Las recompensas por errores se otorgan a total discreción de Origin Protocol. The rewards range in size from **$100 OUSD** for minor issues to **$250,000 OUSD** for major vulnerabilities. Actualmente, el programa de recompensas solo se aplica a OUSD y no a otros productos de Origin.
+Las recompensas por errores se otorgan a total discreción de Origin Protocol. Las recompensas varían en tamaño desde **$100** para problemas menores hasta **$250.000** para vulnerabilidades importantes. Actualmente, el programa de recompensas solo se aplica a OUSD y no a otros productos de Origin.
 
 {% hint style="warning" %}
 Para ser elegible para una recompensa por errores, debe seguir las reglas de Divulgación Responsable que se describen a continuación.
@@ -16,7 +16,7 @@ En caso de que descubra una vulnerabilidad, nos gustaría conocerla de inmediato
 
 Si descubre una vulnerabilidad, haga lo siguiente:
 
-* Report your findings to [security@originprotocol.com](mailto:security@originprotocol.com) or contact [Josh Fraser on Keybase](https://keybase.io/joshfraser)
+* Informe sus hallazgos a [security@originprotocol.com](mailto:security@originprotocol.com) o comuníquese con [Josh Fraser en Keybase](https://keybase.io/joshfraser)
 * No aproveche la vulnerabilidad o problema que ha descubierto
 * No revele el problema a otros hasta que se haya resuelto
 * No utilice ataques a la seguridad física, ingeniería social, denegación de servicio distribuida, spam o aplicaciones de terceros
