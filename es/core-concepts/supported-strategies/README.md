@@ -12,7 +12,7 @@ Actualmente, OUSD obtiene rendimientos de la siguiente plataforma \(s\):
 
 {% page-ref page="aave.md" %}
 
-Integrations are currently planned or being built for the following platforms:
+Las integraciones están actualmente planificadas o en construcción para las siguientes plataformas:
 
 {% page-ref page="dydx.md" %}
 
