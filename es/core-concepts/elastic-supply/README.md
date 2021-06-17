@@ -14,9 +14,9 @@ Este mecanismo se inspiró en el enfoque novedoso adoptado por [Ampleforth](http
 
 1. OUSD está respaldado al 100% por otras monedas estables y no tiene el mismo desafío de mantener la paridad con el dólar. Dada la facilidad de acuñar y canjear OUSD, podemos contar con arbitrajistas para garantizar que se mantenga la paridad.
 2. El rebasamiento de OUSD está fuertemente sesgado hacia el aumento de la oferta, ya que la cantidad de OUSD acuñada está vinculada a las ganancias obtenidas por las estrategias subyacentes. Su principal está protegido siempre que nada salga mal con los protocolos subyacentes de préstamos/AMM y moneda estable. Su saldo de OUSD nunca disminuirá, pero el valor podría disminuir si hay una falla en los sistemas subyacentes.
-3. A diferencia de Ampleforth, que se reactiva una vez al día, la oferta monetaria de OUSD se actualiza constantemente en tiempo real a medida que se genera el rendimiento. Rebases are triggered regularly as users interact with the OUSD contracts.
+3. A diferencia de Ampleforth, que se reactiva una vez al día, la oferta monetaria de OUSD se actualiza constantemente en tiempo real a medida que se genera el rendimiento. Las nuevas bases se activan regularmente a medida que los usuarios interactúan con los contratos de OUSD.
 
-**Manually triggering a rebase**
+**Activación manual de una rebase**
 
-Anyone can trigger a rebase at any time by [calling the rebase function on the vault](https://etherscan.io/address/originvault.eth#writeProxyContract). You can do this on Etherscan by connecting a web3 wallet.
+Cualquiera puede activar una rebase en cualquier momento [llamando a la función de rebase en la bóveda](https://etherscan.io/address/originvault.eth#writeProxyContract). Puede hacer esto en Etherscan conectando una billetera web3.
 
