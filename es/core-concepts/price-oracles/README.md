@@ -104,17 +104,17 @@ OUSD está diseñado para mantenerse vinculado a 1 USD y tener un respaldo 1:1 c
   </tbody>
 </table>
 
-The rebasing function treats 1 stablecoin as 1 OUSD for simplicity and to protect OUSD balances from being affected by the daily fluctuations in the price of the underlying stablecoins. Since the rebase function only counts coins, OUSD balances should only increase.
+La función de rebase trata 1 moneda estable como 1 OUSD por simplicidad y para proteger los saldos de OUSD de verse afectados por las fluctuaciones diarias en el precio de las monedas estables subyacentes. Dado que la función de rebase solo cuenta monedas, los saldos de OUSD solo deberían aumentar.
 
-In order to mint and redeem the appropriate number of OUSD on entry and exit, the smart contracts need to accurately price the USDT, USDC, and DAI that is entering and exiting the system. As a decentralized protocol, OUSD must rely on non-centralized sources for these prices.
+Para acuñar y quemar la cantidad apropiada de OUSD al entrar y salir, los contratos inteligentes deben fijar el precio con precisión del USDT, USDC y DAI que ingresa y sale del sistema. Como protocolo descentralizado, OUSD debe depender de fuentes no centralizadas para estos precios.
 
 {% hint style="info" %}
-OUSD fetches the price from multiple on-chain oracles and uses the exchange rate that is most advantageous for the vault when minting or redeeming.
+OUSD obtiene el precio de múltiples oráculos en cadena y usa el tipo de cambio que es más ventajoso para el grupo.
 {% endhint %}
 
-In order to prevent malicious attacks and to encourage long-term investors over short-term speculators, the OUSD contract compares price feeds from multiple sources and will use whichever exchange rate benefits the entire vault over the individual. This mechanism protects the vault funds from arbitrageurs and prevents any individual from being able to take advantage of any temporary inefficiencies caused by mispriced oracles to deplete the shared pool of assets.
+Con el fin de prevenir ataques maliciosos y alentar a los inversores a largo plazo sobre los especuladores a corto plazo, el contrato de OUSD compara las fuentes de precios de múltiples fuentes y utilizará el tipo de cambio que beneficie a todo el grupo sobre el individuo. Este mecanismo protege los fondos del grupo de liquidez de los arbitrajistas y evita que cualquier individuo pueda aprovechar cualquier ineficiencia temporal causada por oráculos mal valorados para agotar el grupo de liquidez de activos.
 
-This protects the funds in the vault while rewarding long-term holders. Since the safest price depends on the direction of the trade, the Origin oracle exposes both a `priceUSDMint()` and a `priceUSDRedeem()`.
+Esto protege los fondos en el grupo de liquidez mientras recompensa a los holders a largo plazo. Dado que el precio más seguro depende de la dirección de la operación, el oráculo de Origin expone tanto un `priceUSDMint()` y un `priceUSDRedeem()`.
 
 OUSD uses Chainling as oracle for DAI, USDC and USDT.
 
