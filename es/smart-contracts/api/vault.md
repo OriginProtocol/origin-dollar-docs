@@ -45,7 +45,7 @@ En los canjes, es el protocolo y no el usuario el que decide qué monedas establ
 
 **`function redeem(uint256 _amount)`**
 
-OUSD specified by the `_amount` parameter is redeemed in exchange for one or multiple supported stablecoins. La cantidad de monedas estables recibidas depende del **tipo de cambio**.
+El OUSD especificado parámetro `_amount` canjea a cambio de una o varias monedas estables admitidas. La cantidad de monedas estables recibidas depende del **tipo de cambio**.
 
 | Nombre del parámetro | Tipo    | Descripción                                      |
 |:-------------------- |:------- |:------------------------------------------------ |
@@ -53,27 +53,27 @@ OUSD specified by the `_amount` parameter is redeemed in exchange for one or mul
 
 ### redeemAll\(\)‌ <a id="redeemall"></a>
 
-**`function redeemAll()`**‌
+**`function redeemAll()`**
 
-All OUSD in user's possession is redeemed in exchange for one or multiple supported stablecoins. Amount of stablecoins received depends on the **exchange rate**.
+Todo el OUSD en posesión del usuario se canjea a cambio de una o varias monedas estables compatibles. La cantidad de monedas estables recibidas depende del **tipo de cambio**.
 
 ### rebase\(\) <a id="rebase"></a>
 
-**`function rebase()`**‌
+**`function rebase()`**
 
-Updates the balances for all users based on the value of the assets currently stored in the vault. Returns total value of the underlying assets and strategies represented by `uint256` type.‌
+Actualiza los saldos de todos los usuarios según el valor de los activos almacenados actualmente en la bóveda. Devuelve el valor total de los activos y estrategias subyacentes representados por el tipo `uint256`.
 
 ### allocate\(\) <a id="allocate"></a>
 
-**`function allocate()`**‌
+**`function allocate()`**
 
-Moves the assets under management into their prescribed [Stategies](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/architecture/strategies) to maximize yield and diversify risk.‌
+Mueve los activos bajo administración a sus [estrategias](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/architecture/strategies) prescritas para maximizar el rendimiento y diversificar el riesgo.
 
 ### totalValue\(\) <a id="totalvalue"></a>
 
-**`function totalValue()`**‌
+**`function totalValue()`**
 
-Returns total value of underlying assets and strategies.
+Devuelve el valor total de los activos y estrategias subyacentes.
 
 | `return` nombre | Tipo    | Descripción                                           |
 |:--------------- |:------- |:----------------------------------------------------- |
@@ -81,9 +81,9 @@ Returns total value of underlying assets and strategies.
 
 ### checkBalance\(\) <a id="checkbalance"></a>
 
-**`function checkBalance(address _asset)`**‌
+**`function checkBalance(address _asset)`**
 
-Returns the balance of an asset specified by the`_asset` parameter held in Vault and all strategies represented by `uint256` type.
+Devuelve el saldo de un activo especificado por el parámetro`_asset` contenido en la Bóveda y todas las estrategias representadas por el tipo `uint256`.
 
 | Nombre del parámetro | Tipo      | Descripción                                                                                                                                             |
 |:-------------------- |:--------- |:------------------------------------------------------------------------------------------------------------------------------------------------------- |
