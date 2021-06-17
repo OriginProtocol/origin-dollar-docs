@@ -1,12 +1,12 @@
-# Integration Guide For Exchanges
+# Guía de Integración para Exchanges
 
-Centralized exchanges will play an important role in helping us reach our goal of making OUSD ubiquitous. We are happy to help any exchange that wants to make OUSD available to its users. We believe OUSD will make a great addition to any exchange that wants to offer both a superior stablecoin and a new high-yield opportunity for their users.
+Los exchanges centralizados jugarán un papel importante para ayudarnos a alcanzar nuestra meta de hacer que OUSD sea omnipresente. Nos complace ayudar a cualquier exchange que desee que OUSD esté disponible para sus usuarios. Creemos que OUSD será una gran adición a cualquier exchange que quiera ofrecer una moneda estable superior y una nueva oportunidad de alto rendimiento para sus usuarios.
 
-These docs are a great starting point for understanding how OUSD works. Here are some important questions for exchanges that wish to integrate OUSD to consider:
+Estos documentos son un excelente punto de partida para comprender cómo funciona OUSD. Aquí hay algunas preguntas importantes para los exchanges que deseen integrar OUSD para considerar:
 
-**Do you want to participate in the yield that is generated?**
+**¿Quieres participar del rendimiento que se genera?**
 
-We're assuming the answer will be yes and we highly encourage this as well! However, there may be some instances where you would prefer to move fast and list OUSD without participating in the [rebasing nature of OUSD](../core-concepts/elastic-supply/rebasing-and-smart-contracts.md) since it's the fastest and simplest integration. For exchanges that want to list OUSD, but are strapped for engineering resources, you may want to launch the non-rebasing version first while your engineers make whatever changes are necessary. To make OUSD non-rebasing you can call `rebaseOptOut()` from each EOA wallet that holds OUSD, or do nothing if you are storing OUSD on smart contracts. Non-rebasing OUSD behaves just like any other ERC-20 token.
+¡Asumimos que la respuesta será sí y también lo alentamos a seguir! However, there may be some instances where you would prefer to move fast and list OUSD without participating in the [rebasing nature of OUSD](../core-concepts/elastic-supply/rebasing-and-smart-contracts.md) since it's the fastest and simplest integration. For exchanges that want to list OUSD, but are strapped for engineering resources, you may want to launch the non-rebasing version first while your engineers make whatever changes are necessary. To make OUSD non-rebasing you can call `rebaseOptOut()` from each EOA wallet that holds OUSD, or do nothing if you are storing OUSD on smart contracts. Non-rebasing OUSD behaves just like any other ERC-20 token.
 
 **Are you storing customer balances on smart contracts \(ie. multi-sigs\) or EOA wallets?**
 
