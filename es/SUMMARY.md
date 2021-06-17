@@ -3,12 +3,12 @@
 * [Introducción](README.md)
 * [Cómo funciona](how-it-works.md)
 * [Empezando](getting-started.md)
-* [FAQ](faq.md)
+* [Preguntas Frecuentes](faq.md)
 
 ## Conceptos básicos
 
 * [Suministro elástico](core-concepts/elastic-supply/README.md)
-  * [Rebasing & Smart Contracts](core-concepts/elastic-supply/rebasing-and-smart-contracts.md)
+  * [Rebase & Contratos Inteligentes](core-concepts/elastic-supply/rebasing-and-smart-contracts.md)
 * [Generación de rendimiento](core-concepts/yield-generation/README.md)
   * [Préstamo](core-concepts/yield-generation/lending.md)
   * [Creación de Mercado](core-concepts/yield-generation/market-making.md)
@@ -27,14 +27,14 @@
   * [Yearn.finance](core-concepts/supported-strategies/yearn.finance.md)
 * [Gestión de fondos](core-concepts/fund-management.md)
 * [Precio de Oráculos](core-concepts/price-oracles/README.md)
-  * [Untitled](core-concepts/price-oracles/untitled.md)
+  * [Intitulado](core-concepts/price-oracles/untitled.md)
 
 ## Gobernancia
 
 * [Principios](governance/principles.md)
 * [Privilegios de Administrador](governance/admin-privileges.md)
-* [OGN Staking](governance/ogn-staking.md)
-* [Contributing](governance/contributing.md)
+* [Staking de OGN](governance/ogn-staking.md)
+* [Contribuyendo](governance/contributing.md)
 
 ## Contratos Inteligentes
 
@@ -51,14 +51,14 @@
 
 * [Riesgos](security-and-risks/risks.md)
 * [Auditorias](security-and-risks/audits.md)
-* [Insurance](security-and-risks/insurance.md)
-* [Bug Bounties](security-and-risks/bug-bounties.md)
+* [Seguro](security-and-risks/insurance.md)
+* [Recompensas de Errores](security-and-risks/bug-bounties.md)
 
-## Guides
+## Guías
 
-* [Integration Guide For Exchanges](guides/integration-guide-for-exchanges.md)
+* [Guía de Integración para Exchanges](guides/integration-guide-for-exchanges.md)
 
-## Links
+## Enlaces
 
 * [Github](https://www.github.com/originprotocol/origin-dollar)
 * [Discord](https://www.originprotocol.com/discord)
