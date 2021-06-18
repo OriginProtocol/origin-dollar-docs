@@ -26,8 +26,7 @@
   * [Balancer](core-concepts/supported-strategies/balancer.md)
   * [Yearn.finance](core-concepts/supported-strategies/yearn.finance.md)
 * [Pengelolaan Dana](core-concepts/fund-management.md)
-* [Harga Oracles](core-concepts/price-oracles/README.md)
-  * [Untitled](core-concepts/price-oracles/untitled.md)
+* [Harga Oracles](core-concepts/price-oracles.md)
 
 ## Pemerintahan
 
