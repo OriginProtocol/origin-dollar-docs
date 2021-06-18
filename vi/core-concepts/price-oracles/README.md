@@ -116,7 +116,7 @@ Giá của OUSD được đối chiếu trên nhiều chuỗi và sử dụng t�
 
 Điều này bảo vệ các khoản tiền được giữ trong kho tiền đồng thời khuyến khích mọi người nắm giữ lâu dài. Mức giá an toàn nhất phụ thuộc vào giao dịch mua bán trực tiếp, mức giá của Origin đối chiếu cả `priceUSDMint ()` và `priceUSDRedeem ()`.
 
-OUSD sử dụng oracle Chainlink cho DAI, USDC và USDT.
+OUSD uses Chainlink as oracle for DAI, USDC and USDT.
 
 {% embed url="https://feeds.chain.link/eth-usd" caption="" %}
 
