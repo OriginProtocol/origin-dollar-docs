@@ -26,8 +26,7 @@
   * [Balancer](core-concepts/supported-strategies/balancer.md)
   * [Yearn.finance](core-concepts/supported-strategies/yearn.finance.md)
 * [Quản lý quỹ](core-concepts/fund-management.md)
-* [Ước tính giá](core-concepts/price-oracles/README.md)
-  * [Không có tiêu đề](core-concepts/price-oracles/untitled.md)
+* [Ước tính giá](core-concepts/price-oracles.md)
 
 ## Quản trị
 
