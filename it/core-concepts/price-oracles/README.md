@@ -116,7 +116,7 @@ Al fine di prevenire attacchi malevoli e per incoraggiare investitori di lungo p
 
 Ciò protegge i fondi nel vault e allo stesso tempo premia gli holder di lungo termine. Poiché il prezzo più sicuro dipende dalla direzione del trade, lo smart contract dell'oracolo Origin espone sia la funzione `priceUSDMint()`, sia la funzione ` priceUSDRedeem()`.
 
-OUSD uses Chainling as oracle for DAI, USDC and USDT.
+OUSD uses Chainlink as oracle for DAI, USDC and USDT.
 
 {% embed url="https://feeds.chain.link/eth-usd" caption="" %}
 
