@@ -26,8 +26,7 @@
   * [밸런서(Balancer)](core-concepts/supported-strategies/balancer.md)
   * [와이언파이낸스(Yearn Finance)](core-concepts/supported-strategies/yearn.finance.md)
 * [자금 관리](core-concepts/fund-management.md)
-* [가격 오라클](core-concepts/price-oracles/README.md)
-  * [Untitled](core-concepts/price-oracles/untitled.md)
+* [가격 오라클](core-concepts/price-oracles.md)
 
 ## 거버넌스(Governance)
 
