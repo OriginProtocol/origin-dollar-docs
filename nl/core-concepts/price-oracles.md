@@ -108,13 +108,15 @@ The rebasing function treats 1 stablecoin as 1 OUSD for simplicity and to protec
 
 In order to mint and redeem the appropriate number of OUSD on entry and exit, the smart contracts need to accurately price the USDT, USDC, and DAI that is entering and exiting the system.
 
-As a decentralized protocol, OUSD must rely on non-centralized sources for these prices. OUSD uses Chainlink oracles for pricing data for DAI, USDC and USDT. You can read more about [our decision to work with Chainlink](https://blog.originprotocol.com/how-origin-uses-chainlink-oracles-to-secure-ousd-bff5601e840e) on our blog.
-
 As an added precaution, OUSD never pays more than a dollar for a stablecoin. This prevents the protocol from being attacked via mispriced oracles. Any additional gains that are collected as a result of stablecoins slipping from their peg are redistributed to the remaining holders of OUSD in the form of additional yield.
 
-{% embed url="https://feeds.chain.link/eth-usd" caption="" %}
+As a decentralized protocol, OUSD must rely on non-centralized sources for these prices. OUSD uses Chainlink oracles for pricing data for DAI, USDC and USDT. You can read more about [our decision to work with Chainlink](https://blog.originprotocol.com/how-origin-uses-chainlink-oracles-to-secure-ousd-bff5601e840e) on our blog. Here are the Chainlink oracles we are currently using:
 
-The specific smart contract address for each oracle being used are listed on our [registry](../smart-contracts/registry.md) page.
+{% embed url="https://data.chain.link/usdt-usd" %}
 
-It is possible that additional oracles will be added to the protocol over time. Support may also be removed if any of these oracles become unreliable.
+{% embed url="https://data.chain.link/usdc-usd" %}
+
+{% embed url="https://data.chain.link/dai-usd" %}
+
+The specific smart contract address for each oracle being used are listed on our [registry](../smart-contracts/registry.md) page. It is possible that additional oracles will be added to the protocol over time. Support may also be removed if any of these oracles become unreliable.
 
