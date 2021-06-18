@@ -26,8 +26,7 @@
   * [Balancer](core-concepts/supported-strategies/balancer.md)
   * [Yearn.finance](core-concepts/supported-strategies/yearn.finance.md)
 * [Управление средствами](core-concepts/fund-management.md)
-* [Ценовые оракулы](core-concepts/price-oracles/README.md)
-  * [Без названия :)](core-concepts/price-oracles/untitled.md)
+* [Ценовые оракулы](core-concepts/price-oracles.md)
 
 ## Управление
 
