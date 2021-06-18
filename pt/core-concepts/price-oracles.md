@@ -106,25 +106,13 @@ OUSD is designed to stay pegged at 1 USD and be 1:1 backed with its underlying s
 
 The rebasing function treats 1 stablecoin as 1 OUSD for simplicity and to protect OUSD balances from being affected by the daily fluctuations in the price of the underlying stablecoins. Since the rebase function only counts coins, OUSD balances should only increase.
 
-In order to mint and redeem the appropriate number of OUSD on entry and exit, the smart contracts need to accurately price the USDT, USDC, and DAI that is entering and exiting the system. As a decentralized protocol, OUSD must rely on non-centralized sources for these prices.
+In order to mint and redeem the appropriate number of OUSD on entry and exit, the smart contracts need to accurately price the USDT, USDC, and DAI that is entering and exiting the system.
 
-{% hint style="info" %}
-OUSD fetches the price from multiple on-chain oracles and uses the exchange rate that is most advantageous for the vault when minting or redeeming.
-{% endhint %}
+As a decentralized protocol, OUSD must rely on non-centralized sources for these prices. OUSD uses Chainlink oracles for pricing data for DAI, USDC and USDT. You can read more about [our decision to work with Chainlink](https://blog.originprotocol.com/how-origin-uses-chainlink-oracles-to-secure-ousd-bff5601e840e) on our blog.
 
-In order to prevent malicious attacks and to encourage long-term investors over short-term speculators, the OUSD contract compares price feeds from multiple sources and will use whichever exchange rate benefits the entire vault over the individual. This mechanism protects the vault funds from arbitrageurs and prevents any individual from being able to take advantage of any temporary inefficiencies caused by mispriced oracles to deplete the shared pool of assets.
-
-This protects the funds in the vault while rewarding long-term holders. Since the safest price depends on the direction of the trade, the Origin oracle exposes both a `priceUSDMint()` and a `priceUSDRedeem()`.
-
-Here is the initial set of oracles that are being used by OUSD:
-
-{% embed url="https://compound.finance/docs/prices" caption="" %}
+As an added precaution, OUSD never pays more than a dollar for a stablecoin. This prevents the protocol from being attacked via mispriced oracles. Any additional gains that are collected as a result of stablecoins slipping from their peg are redistributed to the remaining holders of OUSD in the form of additional yield.
 
 {% embed url="https://feeds.chain.link/eth-usd" caption="" %}
-
-The following oracles have been implemented, but are not currently being used due to gas costs:
-
-{% embed url="https://uniswap.org/docs/v2/core-concepts/oracles/" caption="" %}
 
 The specific smart contract address for each oracle being used are listed on our [registry](../smart-contracts/registry.md) page.
 
