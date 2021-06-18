@@ -26,8 +26,7 @@
   * [Balancer](core-concepts/supported-strategies/balancer.md)
   * [Yearn.finance](core-concepts/supported-strategies/yearn.finance.md)
 * [Fon Yönetimi](core-concepts/fund-management.md)
-* [Fiyat Oracle'ları](core-concepts/price-oracles/README.md)
-  * [Untitled](core-concepts/price-oracles/untitled.md)
+* [Fiyat Oracle'ları](core-concepts/price-oracles.md)
 
 ## Yönetişim
 
