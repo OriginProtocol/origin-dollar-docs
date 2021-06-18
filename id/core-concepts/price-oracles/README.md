@@ -116,7 +116,7 @@ In order to prevent malicious attacks and to encourage long-term investors over 
 
 This protects the funds in the vault while rewarding long-term holders. Karena harga paling aman tergantung pada arah perdagangan, oracle Origin menghadapkan kedua `priceUSDMint ()` dan `priceUSDRedeem ()`.
 
-OUSD uses Chainling as oracle for DAI, USDC and USDT.
+OUSD uses Chainlink as oracle for DAI, USDC and USDT.
 
 {% embed url="https://feeds.chain.link/eth-usd" caption="" %}
 
