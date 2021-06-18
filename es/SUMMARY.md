@@ -26,8 +26,7 @@
   * [Balancer](core-concepts/supported-strategies/balancer.md)
   * [Yearn.finance](core-concepts/supported-strategies/yearn.finance.md)
 * [Gestión de fondos](core-concepts/fund-management.md)
-* [Precio de Oráculos](core-concepts/price-oracles/README.md)
-  * [Intitulado](core-concepts/price-oracles/untitled.md)
+* [Precio de Oráculos](core-concepts/price-oracles.md)
 
 ## Gobernancia
 
