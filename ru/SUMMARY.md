@@ -3,6 +3,7 @@
 * [Введение](README.md)
 * [Как это работает](how-it-works.md)
 * [Приступая к работе](getting-started.md)
+* [Analytics Dashboard](analytics-dashboard.md)
 * [FAQ](faq.md)
 
 ## Основные концепции
