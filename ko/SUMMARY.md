@@ -3,6 +3,7 @@
 * [소개](README.md)
 * [작동 방법](how-it-works.md)
 * [시작](getting-started.md)
+* [Analytics Dashboard](analytics-dashboard.md)
 * [FAQ](faq.md)
 
 ## 핵심 개념
