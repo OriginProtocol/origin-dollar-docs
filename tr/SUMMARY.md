@@ -3,6 +3,7 @@
 * [Giriş](README.md)
 * [Nasıl çalışır](how-it-works.md)
 * [Başlamak](getting-started.md)
+* [Analytics Dashboard](analytics-dashboard.md)
 * [FAQ](faq.md)
 
 ## Temel Kavramlar
