@@ -3,6 +3,7 @@
 * [介绍](README.md)
 * [OUSD 如何运作](how-it-works.md)
 * [开始](getting-started.md)
+* [Analytics Dashboard](analytics-dashboard.md)
 * [FAQ](faq.md)
 
 ## 核心概念
