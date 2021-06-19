@@ -3,6 +3,7 @@
 * [Introduzione](README.md)
 * [Come funziona](how-it-works.md)
 * [Come Iniziare](getting-started.md)
+* [Analytics Dashboard](analytics-dashboard.md)
 * [FAQ](faq.md)
 
 ## Concetti princiapli
