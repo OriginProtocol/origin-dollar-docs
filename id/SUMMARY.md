@@ -3,6 +3,7 @@
 * [Pengantar](README.md)
 * [Cara kerjanya](how-it-works.md)
 * [Mulai](getting-started.md)
+* [Analytics Dashboard](analytics-dashboard.md)
 * [FAQ](faq.md)
 
 ## Konsep inti
