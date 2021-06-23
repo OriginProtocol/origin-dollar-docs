@@ -35,7 +35,7 @@ Well-known addresses \(proxy wrappers\):
 | :--- | :--- | :--- |
 | Aave | [0x9f2b18751376cF6a3432eb158Ba5F9b1AbD2F7ce](https://etherscan.io/address/0x9f2b18751376cF6a3432eb158Ba5F9b1AbD2F7ce) | 100% of DAI |
 | Compound | [0xD5433168Ed0B1F7714819646606DB509D9d8EC1f](https://etherscan.io/address/0xD5433168Ed0B1F7714819646606DB509D9d8EC1f) | 100% of USDC and USDT |
-| Curve 3Pool | [0x874c74E6ec318AD0a7e6f23301678a4751d00482](https://etherscan.io/address/0x874c74E6ec318AD0a7e6f23301678a4751d00482) | Manual allocation |
+| Curve 3Pool | [0x3c5fe0a3922777343CBD67D3732FCdc9f2Fa6f2F](https://etherscan.io/address/0x3c5fe0a3922777343CBD67D3732FCdc9f2Fa6f2F) | Manual allocation |
 
 Internal implementation contracts:
 
