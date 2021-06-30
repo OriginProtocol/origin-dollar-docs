@@ -79,7 +79,7 @@ Các oracle sau được sử dụng để định giá **USDT/USD:**
   <tbody>
     <tr>
       <td style="text-align:left">5 trên 8 chữ ký</td>
-      <td style="text-align:left"><a href="https://etherscan.io/address/0xbe2AB3d3d8F6a32b96414ebbd865dBD276d3d899">0xbe2AB3d3d8F6a32b96414ebbd865dBD276d3d89</a>
+      <td style="text-align:left"><a href="https://etherscan.io/address/0xbe2AB3d3d8F6a32b96414ebbd865dBD276d3d899">0xbe2AB3d3d8F6a32b96414ebbd865dBD276d3d899</a>
       </td>
       <td style="text-align:left"><a href="https://etherscan.io/address/originprotocol.eth">originprotocol.eth</a>
       </td>
