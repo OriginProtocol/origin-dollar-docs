@@ -79,7 +79,7 @@ The following oracles are used to fetch a price for **USDC/USD:**
   <tbody>
     <tr>
       <td style="text-align:left">5 of 8 Multisig</td>
-      <td style="text-align:left"><a href="https://etherscan.io/address/0xe011fA2a6Df98c69383457d87a056Ed0103aA352">0xe011fA2a6Df98c69383457d87a056Ed0103aA352</a>
+      <td style="text-align:left"><a href="https://etherscan.io/address/0xbe2AB3d3d8F6a32b96414ebbd865dBD276d3d899">0xbe2AB3d3d8F6a32b96414ebbd865dBD276d3d89</a>
       </td>
       <td style="text-align:left"><a href="https://etherscan.io/address/originprotocol.eth">originprotocol.eth</a>
       </td>
@@ -93,7 +93,7 @@ The following oracles are used to fetch a price for **USDC/USD:**
     </tr>
     <tr>
       <td style="text-align:left">Governor / Timelock</td>
-      <td style="text-align:left"><a href="https://etherscan.io/address/0x8e7bDFeCd1164C46ad51b58e49A611F954D23377">0x8e7bDFeCd1164C46ad51b58e49A611F954D23377</a>
+      <td style="text-align:left"><a href="https://etherscan.io/address/0x830622bdd79cc677ee6594e20bbda5b26568b781">0x830622BDd79CC677eE6594E20bBda5B26568b781</a>
       </td>
       <td style="text-align:left">
         <p><a href="https://etherscan.io/address/origingovernor.eth">origingovernor.eth</a>
