@@ -21,9 +21,9 @@ Internal implementation contracts. The Vault is split into VaultAdmin and VaultC
 
 | 合约               | 地址                                                                                                                    |
 |:---------------- |:--------------------------------------------------------------------------------------------------------------------- |
-| OUSD             | [0x9d6975591E777D95Eef3bCC2a727846DA25d7083](https://etherscan.io/address/0x9d6975591E777D95Eef3bCC2a727846DA25d7083) |
+| OUSD             | [0x23DCc0Cc5F08b9D85daF8d29490c7f74a655b359](https://etherscan.io/address/0x23DCc0Cc5F08b9D85daF8d29490c7f74a655b359) |
 | VaultAdmin       | [0x8E55b527901BC88206a1cE5C292B2404bcb8F76D](https://etherscan.io/address/0x8e55b527901bc88206a1ce5c292b2404bcb8f76d) |
-| VaultCore        | [0xE54f14FC3fBc5915D070DE4758bcF591541BD1c3](https://etherscan.io/address/0xe54f14fc3fbc5915d070de4758bcf591541bd1c3) |
+| VaultCore        | [0xA4D15507112c0DB37E1320Bf3Fff8891DFd1D2Ed](https://etherscan.io/address/0xA4D15507112c0DB37E1320Bf3Fff8891DFd1D2Ed) |
 | Mix Oracle       | [0x843530DC8005e13dEA30CEa2394FF60635f38cc4](https://etherscan.io/address/0x843530DC8005e13dEA30CEa2394FF60635f38cc4) |
 | Chainlink Oracle | [0x017aD99900b9581Cd40C815990890EE9F0858246](https://etherscan.io/address/0x017aD99900b9581Cd40C815990890EE9F0858246) |
 {% endtab %}
