@@ -2,11 +2,12 @@
 
 **OUSD Vault, ERC-20 và Tổng quan hệ thống**
 
-OUSD đã được kiểm toán bởi nhiều công ty bảo mật uy tín. Chúng tôi đã làm việc với cả [Trail of Bits](https://www.trailofbits.com/) và [Solidured](https://solidified.io/) để kiểm tra toàn bộ code của Origin Đô la. Báo cáo kiểm toán các đợt như sau:
+OUSD đã được kiểm toán bởi nhiều công ty bảo mật uy tín. We have worked with [Trail of Bits](https://www.trailofbits.com/), [Solidified](https://solidified.io/), and [Certora](https://www.certora.com/) to audit all of the code that powers Origin Dollar. Báo cáo kiểm toán các đợt như sau:
 
 * [Trail of Bits, OUSD Audit, tháng 12/2020](https://github.com/OriginProtocol/security/blob/master/audits/Trail%20of%20Bits%20-%20Origin%20Dollar%20-%20Dec%202020.pdf)
 * [Solidified, OUSD Audit, tháng 12/2020](https://github.com/OriginProtocol/security/blob/master/audits/Solidified%20-%20Origin%20Dollar%20-%20Dec%202020.pdf)
 * [Solidified, OGN staking Audit, tháng 12/2020](https://github.com/OriginProtocol/security/blob/master/audits/Solidified%20-%20OGN%20Staking%20-%20Dec%202020.pdf)
+* [Certora, OUSD Formal Verification Audit, January 2021](https://www.certora.com/pubs/OriginFeb2021.pdf)
 
 Token quản trị, Token Origin \ (OGN \), cũng đã được kiểm toán bởi Trail of Bits vào năm 2018:
 
