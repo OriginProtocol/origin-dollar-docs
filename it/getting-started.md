@@ -4,7 +4,7 @@ Questa documentazione ha lo scopo di spiegare il funzionamento di OUSD, di comun
 
 **Mint o Redeem**
 
-Il Minting di OUSD consente a chiunque di creare o scambiare token OUSD utilizzando la nostra [DApp](www.ousd.com) e un wallet critpo abilitato per il web-3 come ad esempio [Metamask](https://www.metamask.io). Questo è il modo nativo per ottenere OUSD, specialmente se si desidera un grande quantità che potrebbe comportare una notevole variazione di mercato in altri exchange.
+The OUSD Mint allows anyone to create or trade-in OUSD tokens using our [DApp](www.ousd.com) and a web-3 enabled cryptocurrency wallet like [Metamask](https://www.metamask.io). Questo è il modo nativo per ottenere OUSD, specialmente se si desidera un grande quantità che potrebbe comportare una notevole variazione di mercato in altri exchange.
 
 **Acquista negli Exchange**
 
@@ -13,6 +13,7 @@ Per piccoli importi, il modo più semplice di cominciare a guadagnare con OUSD �
 Exchange Decentralizzati:
 
 * [Buy OUSD on 1inch](https://app.1inch.io/#/1/swap/USDT/OUSD)
+* [Buy OUSD on Curve Swaps](https://crv.to/) \([alternative UI](https://crv.finance/)\)
 * [Buy OUSD on Uniswap v3](https://app.uniswap.org/#/swap?inputCurrency=0xdac17f958d2ee523a2206206994597c13d831ec7&outputCurrency=0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86)
 * [Buy OUSD on Uniswap v2](https://app.uniswap.org/#/swap?inputCurrency=0xdac17f958d2ee523a2206206994597c13d831ec7&outputCurrency=0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86&use=v2)
 * [Buy OUSD on Sushiswap](https://exchange.sushiswapclassic.org/#/swap?inputCurrency=0xdac17f958d2ee523a2206206994597c13d831ec7&outputCurrency=0x2a8e1e676ec238d8a992307b495b45b3feaa5e86)
