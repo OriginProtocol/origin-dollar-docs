@@ -2,11 +2,12 @@
 
 **Хранилище OUSD, ERC-20 и Комплексная система**
 
-OUSD прошел аудит в нескольких уважаемых компаниях по безопасности. Мы работали как с [Trail of Bits](https://www.trailofbits.com/) и с [Solidified](https://solidified.io/) чтобы проверить весь код, который обеспечивает функционирование Origin Dollar. Их выводы доступны ниже:
+OUSD прошел аудит в нескольких уважаемых компаниях по безопасности. We have worked with [Trail of Bits](https://www.trailofbits.com/), [Solidified](https://solidified.io/), and [Certora](https://www.certora.com/) to audit all of the code that powers Origin Dollar. Их выводы доступны ниже:
 
 * [Trail of Bits, аудит OUSD, декабрь 2020 г](https://github.com/OriginProtocol/security/blob/master/audits/Trail%20of%20Bits%20-%20Origin%20Dollar%20-%20Dec%202020.pdf)
 * [Solidified, аудит OUSD, декабрь 2020г](https://github.com/OriginProtocol/security/blob/master/audits/Solidified%20-%20Origin%20Dollar%20-%20Dec%202020.pdf)
 * [Solidified, аудит стейкинга OGN, декабрь 2020 г](https://github.com/OriginProtocol/security/blob/master/audits/Solidified%20-%20OGN%20Staking%20-%20Dec%202020.pdf)
+* [Certora, OUSD Formal Verification Audit, January 2021](https://www.certora.com/pubs/OriginFeb2021.pdf)
 
 Токен управления, Origin Token \(OGN\), также был проаудирован компанией Trail of Bits в 2018 году:
 
