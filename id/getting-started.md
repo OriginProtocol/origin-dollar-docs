@@ -4,7 +4,7 @@ Dokumen ini dimaksudkan untuk menjelaskan cara kerja OUSD, mengkomunikasikan pot
 
 **Mint atau Redeem**
 
-OUSD Mint memungkinkan siapa saja untuk membuat atau memperdagangkan token OUSD menggunakan [DApp](www.ousd.com) dan dompet cryptocurrency yang mendukung web-3 seperti [Metamask](https://www.metamask.io). Ini adalah cara asli untuk mendapatkan OUSD, terutama jika Anda menginginkan jumlah besar yang dapat berisiko menggerakkan pasar di bursa lain.
+The OUSD Mint allows anyone to create or trade-in OUSD tokens using our [DApp](www.ousd.com) and a web-3 enabled cryptocurrency wallet like [Metamask](https://www.metamask.io). Ini adalah cara asli untuk mendapatkan OUSD, terutama jika Anda menginginkan jumlah besar yang dapat berisiko menggerakkan pasar di bursa lain.
 
 **Beli di Bursa**
 
@@ -13,6 +13,7 @@ For small amounts, the easiest way to start earning with OUSD is to buy it on an
 Decentralized exchanges:
 
 * [Buy OUSD on 1inch](https://app.1inch.io/#/1/swap/USDT/OUSD)
+* [Buy OUSD on Curve Swaps](https://crv.to/) \([alternative UI](https://crv.finance/)\)
 * [Buy OUSD on Uniswap v3](https://app.uniswap.org/#/swap?inputCurrency=0xdac17f958d2ee523a2206206994597c13d831ec7&outputCurrency=0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86)
 * [Buy OUSD on Uniswap v2](https://app.uniswap.org/#/swap?inputCurrency=0xdac17f958d2ee523a2206206994597c13d831ec7&outputCurrency=0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86&use=v2)
 * [Buy OUSD on Sushiswap](https://exchange.sushiswapclassic.org/#/swap?inputCurrency=0xdac17f958d2ee523a2206206994597c13d831ec7&outputCurrency=0x2a8e1e676ec238d8a992307b495b45b3feaa5e86)
