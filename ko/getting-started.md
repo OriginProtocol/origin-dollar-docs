@@ -4,7 +4,7 @@
 
 **발행(Mint) 또는 상환(Redeem)**
 
-OUSD 발행(Mint) 를 사용하면 누구나 [디앱(DApp)](www.ousd.com) 및 [메타마스크(Metamask)](https://www.metamask.io)와 같은 웹-3 지원 암호화폐 지갑을 사용하여 OUSD 토큰을 생성하거나 거래 할 수 있습니다. 이것은 특히 다른 거래소에서 시장을 움직일 위험이있는 많은 금액을 원할 경우 OUSD를 얻는 기본 방법입니다.
+The OUSD Mint allows anyone to create or trade-in OUSD tokens using our [DApp](www.ousd.com) and a web-3 enabled cryptocurrency wallet like [Metamask](https://www.metamask.io). 이것은 특히 다른 거래소에서 시장을 움직일 위험이있는 많은 금액을 원할 경우 OUSD를 얻는 기본 방법입니다.
 
 **거래소에서 구매**
 
@@ -13,6 +13,7 @@ For small amounts, the easiest way to start earning with OUSD is to buy it on an
 Decentralized exchanges:
 
 * [Buy OUSD on 1inch](https://app.1inch.io/#/1/swap/USDT/OUSD)
+* [Buy OUSD on Curve Swaps](https://crv.to/) \([alternative UI](https://crv.finance/)\)
 * [Buy OUSD on Uniswap v3](https://app.uniswap.org/#/swap?inputCurrency=0xdac17f958d2ee523a2206206994597c13d831ec7&outputCurrency=0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86)
 * [Buy OUSD on Uniswap v2](https://app.uniswap.org/#/swap?inputCurrency=0xdac17f958d2ee523a2206206994597c13d831ec7&outputCurrency=0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86&use=v2)
 * [Buy OUSD on Sushiswap](https://exchange.sushiswapclassic.org/#/swap?inputCurrency=0xdac17f958d2ee523a2206206994597c13d831ec7&outputCurrency=0x2a8e1e676ec238d8a992307b495b45b3feaa5e86)
