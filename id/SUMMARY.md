@@ -3,13 +3,13 @@
 * [Pengantar](README.md)
 * [Cara kerjanya](how-it-works.md)
 * [Mulai](getting-started.md)
-* [Analytics Dashboard](analytics-dashboard.md)
+* [Dasbor Analisis](analytics-dashboard.md)
 * [FAQ](faq.md)
 
 ## Konsep inti
 
 * [Pasokan Elastis](core-concepts/elastic-supply/README.md)
-  * [Rebasing & Smart Contracts](core-concepts/elastic-supply/rebasing-and-smart-contracts.md)
+  * [Rebasing & Kontrak Pintar](core-concepts/elastic-supply/rebasing-and-smart-contracts.md)
 * [Menghasilkan keuntungan](core-concepts/yield-generation/README.md)
   * [Pinjaman](core-concepts/yield-generation/lending.md)
   * [Pembuatan Pasar](core-concepts/yield-generation/market-making.md)
@@ -33,8 +33,8 @@
 
 * [Prinsip](governance/principles.md)
 * [Hak Istimewa Admin](governance/admin-privileges.md)
-* [OGN Staking](governance/ogn-staking.md)
-* [Contributing](governance/contributing.md)
+* [Staking OGN](governance/ogn-staking.md)
+* [Berkontribusi](governance/contributing.md)
 
 ## Kontrak Pintar
 
@@ -51,14 +51,14 @@
 
 * [Resiko](security-and-risks/risks.md)
 * [Audit](security-and-risks/audits.md)
-* [Insurance](security-and-risks/insurance.md)
+* [Pertanggungan](security-and-risks/insurance.md)
 * [Bug Bounties](security-and-risks/bug-bounties.md)
 
-## Guides
+## Panduan
 
-* [Integration Guide For Exchanges](guides/integration-guide-for-exchanges.md)
+* [Panduan Integrasi Untuk Pertukaran](guides/integration-guide-for-exchanges.md)
 
-## Links
+## Tautan
 
 * [Github](https://www.github.com/originprotocol/origin-dollar)
 * [Discord](https://www.originprotocol.com/discord)
