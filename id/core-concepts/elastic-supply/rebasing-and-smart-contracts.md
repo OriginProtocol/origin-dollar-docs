@@ -8,7 +8,7 @@ Dompet multi-sig atau kontrak pintar lainnya harus memanggil`rebaseOptIn()`untuk
 
 Secara default, OUSD yang diadakan pada kontrak pintar tidak akan berpartisipasi dalam sifat rebasing token dan akan kehilangan hasil apa pun kecuali kontrak pintar secara eksplisit ikut serta. Ini meningkatkan komposisi OUSD dalam DeFi karena banyak protokol tidak dirancang dengan harapan bahwa saldo mungkin berubah. Untuk protokol DeFi lainnya, OUSD berfungsi seperti ERC-20 normal lainnya yang berperilaku baik hingga Anda memintanya untuk mengubahnya. Ini adalah atribut yang sangat berguna untuk pembuat pasar otomatis \(AMM\) seperti Uniswap yang rusak ketika jumlah token yang mereka pegang berubah secara tak terduga.
 
-Smart contracts must explicitly opt-in to receiving yield via the rebasing mechanism. This fixes the issue with the expanding supply on AMM’s while still allowing multi-sig wallets and other smart contracts the opportunity to still participate and earn yield.
+Kontrak pintar harus secara eksplisit memilih untuk menerima hasil melalui mekanisme rebasing. This fixes the issue with the expanding supply on AMM’s while still allowing multi-sig wallets and other smart contracts the opportunity to still participate and earn yield.
 
 {% hint style="warning" %}
 If you are deploying a contract and intend to call`rebaseOptIn()`to earn yield you cannot call it from the contract's constructor. The contract must be deployed before it can be called.
