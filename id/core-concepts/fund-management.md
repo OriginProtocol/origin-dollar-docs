@@ -1,20 +1,20 @@
-# Fund Management
+# Pengelolaan Dana
 
-The OUSD smart contract aggregates all users' stablecoin deposits into a single pool of deployable assets. Funds are then allocated across one or more ****earning strategies at any given moment in time. The Vault favors high-yield strategies but also seeks to maintain diversification across multiple strategies. Diversification removes single points of failures and mitigates risks.
+Kontrak pintar OUSD menggabungkan semua deposit stablecoin pengguna ke dalam satu kumpulan aset yang dapat digunakan. Dana kemudian dialokasikan di satu atau lebih strategi penghasilan **** pada saat tertentu. Vault lebih menyukai strategi hasil tinggi tetapi juga berusaha mempertahankan diversifikasi di berbagai strategi. Diversifikasi menghilangkan satu titik kegagalan dan mengurangi risiko.
 
-In contrast to Yearn Vaults, TokenSets, or Zapper opportunities, users do not select individual strategies. All deposited stablecoins and consequently all OUSD tokens are fungible. Once our full governance structure is implemented, these decisions will be made with input from OUSD governance token holders.
+Berbeda dengan peluang Yearn Vaults, TokenSets, atau Zapper, pengguna tidak memilih strategi individu. Semua stablecoin yang disimpan dan akibatnya semua token OUSD dapat dipertukarkan. Setelah struktur tata kelola penuh kami diterapkan, keputusan ini akan dibuat dengan masukan dari pemegang token tata kelola OUSD.
 
-**Earning Strategies**
+**Strategi Penghasilan**
 
-Earning strategies put deployed capital to work across various DeFi platforms. The Vault will determine which strategies are active and what percentage of deployed capital they will receive. These strategies will be upgraded and replaced over time.
+Strategi penghasilan menempatkan modal yang dikerahkan untuk bekerja di berbagai platform DeFi. Vault akan menentukan strategi mana yang aktif dan berapa persentase dari modal yang diterapkan yang akan mereka terima. Strategi ini akan ditingkatkan dan diganti seiring waktu.
 
-**Strategist**
+**Penyiasat**
 
-The initial version of the OUSD Vault smart contract gives each valid strategy a simple weight between 0% and 100% to perform simple asset allocation. These weights will be shifted often via updates by Origin in the short-term and by decentralized governance in the long-term.
+Versi awal kontrak pintar OUSD Vault memberikan bobot sederhana antara 0% dan 100% untuk setiap strategi yang valid untuk melakukan alokasi aset sederhana. Bobot ini akan sering diubah melalui pembaruan oleh Origin dalam jangka pendek dan oleh tata kelola yang terdesentralisasi dalam jangka panjang.
 
-**Diversification**
+**Diversifikasi**
 
-Diversification across multiple underlying DeFi [platforms](supported-strategies/) will reduce smart contract and other systemic risks. The smart contract will calculate current and expected APYs in an effort to provide competitive returns to OUSD holders. Over time, the Vault contract will be upgraded to intelligently and autonomously shift between strategies without any manual intervention. For example, the Vault will automatically shift capital between various lending strategies to optimize for yields.
+Diversifikasi di beberapa platform DeFi [mendasarinya](supported-strategies/) akan mengurangi kontrak pintar dan risiko sistemik lainnya. Kontrak pintar akan menghitung APY saat ini dan yang diharapkan dalam upaya memberikan pengembalian yang kompetitif kepada pemegang OUSD. Seiring waktu, kontrak Vault akan ditingkatkan untuk secara cerdas dan otonom beralih di antara strategi tanpa intervensi manual apa pun. Misalnya, Vault akan secara otomatis mengalihkan modal di antara berbagai strategi pinjaman untuk mengoptimalkan hasil.
 
-However, it is still expected that certain risk parameters or decisions on whether certain strategies will be included in the automated decision-making engine will be made through governance votes. 
+Namun, masih diharapkan bahwa parameter risiko atau keputusan tertentu tentang apakah strategi tertentu akan dimasukkan dalam mesin pengambilan keputusan otomatis akan dibuat melalui suara tata kelola. 
 
