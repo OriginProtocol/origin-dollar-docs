@@ -93,11 +93,11 @@ Mengembalikan saldo aset yang ditentukan oleh`_asset` parameter yang disimpan di
 
 **`fungsi countRedeemOutputs(uint256 _amount)`**
 
-Calculate the mix of stablecoins that a `redeem` function would return when redeeming certain amount of OUSD specified by the `_amount` parameter. Returns an array of stablecoin values.
+Hitung campuran stablecoin yang akan dikembalikan oleh fungsi `redeem` saat menebus sejumlah OUSD yang ditentukan oleh parameter `_amount`. Mengembalikan himpunan nilai stablecoin.
 
-To attribute the stablecoin values to the correct stablecoin currency this call should be used in conjunction with `getAllAssets` function that returns an array of stablecoin addresses.
+Untuk menghubungkan nilai stablecoin ke mata uang stablecoin yang benar, panggilan ini harus digunakan bersama dengan `fungsi getAllAssets` yang mengembalikan himpunan alamat stablecoin.
 
-The index of an array that is returned by the `calculateRedeemOutputs` corresponds to the stablecoin address with the same index in an array returned by the `getAllAssets` function.
+Indeks array yang dikembalikan oleh `countRedeemOutputs` sesuai dengan alamat stablecoin dengan indeks yang sama dalam array yang dikembalikan oleh fungsi `getAllAssets`.
 
 | Nama Parameter | Tipe    | Deskripsi                                                |
 |:-------------- |:------- |:-------------------------------------------------------- |
@@ -109,33 +109,33 @@ The index of an array that is returned by the `calculateRedeemOutputs` correspon
 
 ### getAssetCount \ (\) <a id="getassetcount"></a>
 
-**`function getAssetCount()`**‌
+**`fungsi rebase ()`**
 
-Return the number of supported stablecoin assets represented by `uint256` type.‌
+Kembalikan jumlah aset stablecoin yang didukung yang diwakili oleh `uint256` jenis.‌
 
 ### getAllAssets \ (\) <a id="getallassets"></a>
 
-**`function getAllAssets()`**‌
+**`fungsi getAllAssets()`**
 
-Return all assets addresses of supported stablecoin assets in order represented by `uint256` type.‌
+Kembalikan jumlah aset stablecoin yang didukung yang diwakili oleh `uint256` tipe.‌
 
 ### dapatkanPerhitunganStrategi \ (\) ‌ <a id="getstrategycount"></a>
 
-**`function getStrategyCount()`**‌
+**`fungsi getStrategyCount()`**
 
-Return the number of strategies active on the Vault represented by `uint256` type.‌
+Kembalikan jumlah strategi aktif di Vault yang yang diwakili oleh tipe `uint256`.‌
 
 ### dapatkanAPR \ (\) <a id="getapr"></a>
 
-**`function getAPR()`**‌
+**`fungsi dapatkanAPR ()`**
 
-Return the total annual percentage yield \(APR\) of the Vault and all Strategies represented by `uint256` type. Resulting number has 18 decimal places.‌
+Return the total annual percentage yield \(APR\) of the Vault and all Strategies represented by `uint256` type. Angka yang dihasilkan memiliki 18 desimal.‌
 
 ### adalahAsetyangdidukung \ (\) <a id="issupportedasset"></a>
 
-**`function isSupportedAsset(address _asset)`**‌
+**`fungsi adalahAsetyangdidukung (address _asset)`**
 
-Return the boolean that is true if the asset specified by the `_asset` parameter is supported by the Vault.
+Kembalikan boolean yang benar jika aset yang ditentukan oleh parameter `_aset` didukung oleh Vault.
 
 | Nama Parameter | Tipe   | Deskripsi         |
 |:-------------- |:------ |:----------------- |
@@ -143,9 +143,9 @@ Return the boolean that is true if the asset specified by the `_asset` parameter
 
 ### hargaUSDMint \ (\) <a id="issupportedasset-1"></a>
 
-**`function priceUSDMint(string symbol)`**‌‌
+**`fungsi priceAssetUSDMint (alamat _asset)`**
 
-Returns the exchange rate price of a stable coin specified by the `symbol` parameters used when minting OUSD represented by `uint256` type. Resulting number has 18 decimal places.
+Mengembalikan harga nilai tukar stablecoin yang ditentukan oleh `simbol` parameter yang digunakan saat mencetak OUSD yang diwakili oleh tipe ` uint256`. Angka yang dihasilkan memiliki 18 desimal.
 
 | Nama Parameter | Tipe | Deskripsi         |
 |:-------------- |:---- |:----------------- |
@@ -153,29 +153,29 @@ Returns the exchange rate price of a stable coin specified by the `symbol` param
 
 ### hargatebusUSD \ (\) <a id="issupportedasset-2"></a>
 
-**`function priceUSDRedeem(string symbol)`**‌‌
+**`fungsi hargaUSDRedeem (alamat _asset)`**
 
-Returns the exchange rate price of a stable coin specified by the `symbol` parameters used when redeeming OUSD represented by `uint256` type. Resulting number has 18 decimal places.
+Mengembalikan harga nilai tukar koin stabil yang ditentukan oleh simbol `` parameter yang digunakan saat menukarkan OUSD yang diwakili oleh `tipe uint256`. Angka yang dihasilkan memiliki 18 desimal.
 
 | Nama Parameter | Tipe | Deskripsi         |
 |:-------------- |:---- |:----------------- |
 | simbol         | tali | Simbol stablecoin |
 
-### priceAssetUSDMint \ (\) ‌ <a id="issupportedasset-3"></a>
+### hargaAsetUSDMint\(\)‌ <a id="issupportedasset-3"></a>
 
-**`function priceAssetUSDMint(address _asset)`**‌‌
+**`fungsi hargaAsetUSDMint (alamat _asset)`**
 
-Returns the exchange rate price of a stable coin specified by the `_asset` parameters used when minting OUSD represented by `uint256` type. Resulting number has 18 decimal places.
+Mengembalikan harga nilai tukar stablecoin yang ditentukan oleh `_asset` parameter yang digunakan saat mencetak OUSD yang diwakili oleh tipe `jenis uint256`. Angka yang dihasilkan memiliki 18 desimal.
 
 | Nama Parameter | Tipe   | Deskripsi          |
 |:-------------- |:------ |:------------------ |
 | \_aset       | alamat | Alamat stablecoin‌ |
 
-### priceAssetUSDRedeem \ (\) ‌ <a id="issupportedasset-3-1"></a>
+### hargaAsetUSDRedeem \ (\) ‌ <a id="issupportedasset-3-1"></a>
 
-**`function priceAssetUSDRedeem(address _asset)`**‌‌‌
+**`fungsi harga AsetUSDRedeem (address _asset)`**
 
-Returns the exchange rate price of a stable coin specified by the `_asset` parameters used when redeeming OUSD represented by `uint256` type. Resulting number has 18 decimal places.
+Mengembalikan harga nilai tukar stabelcoin yang ditentukan oleh parameter `_aset` yang digunakan saat menukarkan OUSD yang diwakili oleh tipe ` uint256`. Angka yang dihasilkan memiliki 18 desimal.
 
 | Nama Parameter | Tipe   | Deskripsi         |
 |:-------------- |:------ |:----------------- |
