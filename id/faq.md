@@ -26,9 +26,9 @@ Anda dapat membaca tentang berbagai strategi kami di [Yield Generation](https://
 
 **Mengapa saldo saya meningkat lebih lambat dari APY yang diiklankan?**
 
-OUSD balances increase when the supply is rebased. But the size of each rebase varies wildly depending on how much the vault has earned since the last rebase. And while most rebases collect a small amount earnings from lending strategies, other rebases involve liquidating rewards tokens or collecting fees. As a result, the yield will vary significantly during short time periods.
+Saldo OUSD meningkat saat pasokan mengalami rebase. Tetapi ukuran setiap rebase sangat bervariasi tergantung pada berapa banyak yang diperoleh vault sejak rebase terakhir. Dan sementara sebagian besar rebase mengumpulkan sedikit pendapatan dari strategi pinjaman, rebase lainnya melibatkan likuidasi token hadiah atau mengumpulkan biaya. Akibatnya, hasil akan bervariasi secara signifikan selama periode waktu yang singkat.
 
-**What about the hack? Is OUSD safe?**
+**Bagaimana dengan hack? Apakah OUSD aman?**
 
-On November 7th 2020, OUSD was exploited for 7M USD due to a previously undetected reentrancy bug. You can read more [details about the hack](https://medium.com/originprotocol/urgent-ousd-has-hacked-and-there-has-been-a-loss-of-funds-7b8c4a7d534c) on our blog as well as the [detailed compensation plan](https://medium.com/originprotocol/origin-dollar-ousd-detailed-compensation-plan-faa73f87442e) for taking care of the affected users. Origin Dollar was relaunched in December after completing multiple audits and security upgrades. You can learn more about the steps taken to secure the protocol in our [relaunch announcement](https://medium.com/originprotocol/origin-dollar-ousd-is-back-b8ee0c601dad).
+Pada 7 November 2020, OUSD dieksploitasi untuk 7 juta USD karena bug reentrancy yang sebelumnya tidak terdeteksi. You can read more [details about the hack](https://medium.com/originprotocol/urgent-ousd-has-hacked-and-there-has-been-a-loss-of-funds-7b8c4a7d534c) on our blog as well as the [detailed compensation plan](https://medium.com/originprotocol/origin-dollar-ousd-detailed-compensation-plan-faa73f87442e) for taking care of the affected users. Origin Dollar was relaunched in December after completing multiple audits and security upgrades. You can learn more about the steps taken to secure the protocol in our [relaunch announcement](https://medium.com/originprotocol/origin-dollar-ousd-is-back-b8ee0c601dad).
 
