@@ -14,7 +14,7 @@ Kontrak pintar harus secara eksplisit memilih untuk menerima hasil melalui mekan
 Jika Anda menerapkan kontrak dan bermaksud memanggil`rebaseOptIn()`untuk mendapatkan hasil, Anda tidak dapat memanggilnya dari konstruktor kontrak. Kontrak harus disebarkan sebelum dapat dipanggil.
 {% endhint %}
 
-Jika Anda menggunakan dompet multi-sig seperti [Gnosis Wallet](https://github.com/gnosis/MultiSigWallet) atau [Gnosis Safe](https://gnosis-safe.io/), Anda memerlukan [alamat kontrak proxy untuk OUSD](../../smart-contracts/registry.md) dan [ABI](https://api.etherscan.io/api?module=contract&action=getabi&address=0x1ae95dd4eeae7ed03da79856c2d44ffa3318f805)sesuai. Once you add those, you will be able to call the `rebaseOptIn()` function to opt into receiving yield via rebasing or`rebaseOptOut()` to turn it off again.
+Jika Anda menggunakan dompet multi-sig seperti [Gnosis Wallet](https://github.com/gnosis/MultiSigWallet) atau [Gnosis Safe](https://gnosis-safe.io/), Anda memerlukan [alamat kontrak proxy untuk OUSD](../../smart-contracts/registry.md) dan [ABI](https://api.etherscan.io/api?module=contract&action=getabi&address=0x1ae95dd4eeae7ed03da79856c2d44ffa3318f805)sesuai. Setelah Anda menambahkannya, Anda akan dapat memanggil fungsi `rebaseOptIn()` untuk memilih menerima hasil melalui rebasing atau`rebaseOptOut()` untuk mematikannya lagi.
 
 
 
