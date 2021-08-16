@@ -1,18 +1,18 @@
-# Analytics Dashboard
+# Dasbor Analisis
 
 {% hint style="info" %}
-Visit [analytics.ousd.com](https://analytics.ousd.com) to see how funds are allocated, view historical performance data, and track your personal gains.
+Kunjungi [analytics.ousd.com](https://analytics.ousd.com) untuk melihat bagaimana dana dialokasikan, melihat data kinerja historis, dan melacak keuntungan pribadi Anda.
 {% endhint %}
 
-The [APY dashboard](https://analytics.ousd.com/apy) is primarily intended for consumption by our engineering team, but we went ahead and deployed it since our ethos is "public by default" and everything that we do is [open-source](http://github.com/OriginProtocol). Unfortunately, that often means erring on the side of transparency and not necessarily the side of taking the time to explain things clearly.
+Dasbor [](https://analytics.ousd.com/apy) terutama ditujukan untuk konsumsi oleh tim teknik kami, tetapi kami melanjutkan dan menerapkannya karena etos kami adalah "publik secara default" dan semua yang kami lakukan adalah [sumber terbuka](http://github.com/OriginProtocol). Sayangnya, hal itu sering kali berarti melakukan kesalahan di sisi transparansi dan belum tentu di sisi meluangkan waktu untuk menjelaskan hal-hal dengan jelas.
 
-Before diving into the yield calculation, it's important to understand how OUSD works both in terms of [yield generation](https://docs.ousd.com/core-concepts/yield-generation) and [rebasing](https://docs.ousd.com/core-concepts/elastic-supply). You can read all about that in these [docs](https://docs.ousd.com/), including [the part about smart contracts being excluded from yield](https://docs.ousd.com/core-concepts/elastic-supply/rebasing-and-smart-contracts).
+Sebelum masuk ke perhitungan hasil, penting untuk memahami cara kerja OUSD baik dalam hal [generasi hasil](https://docs.ousd.com/core-concepts/yield-generation) dan [rebasing](https://docs.ousd.com/core-concepts/elastic-supply). Anda dapat membaca semua tentang itu di [dokumen](https://docs.ousd.com/), termasuk [bagian tentang kontrak pintar yang dikeluarkan dari hasil](https://docs.ousd.com/core-concepts/elastic-supply/rebasing-and-smart-contracts).
 
-To summarize how APY is calculated, it's the annualized rate of change in OUSD's internal accounting of users' balances between two points in time. To understand that, let's break down the columns in the historical APY table \(in reverse order\).
+Untuk meringkas bagaimana APY dihitung, ini adalah tingkat tahunan perubahan dalam akuntansi internal OUSD dari saldo pengguna antara dua titik waktu. Untuk memahaminya, mari kita urai kolom dalam tabel APY historis \(dalam urutan terbalik\).
 
-**Ratio**
+**Perbandingan**
 
-There are two types of OUSD balances: rebasing \(most accounts\) and non-rebasing \(smart contracts that have not opted in\). The OUSD token contract maintains a separate internal accounting for each type of balance using what it calls "credits". The ratio shown here is the rebasing supply of OUSD divided by the rebasing credits, which gives us the exchange rate between the two.
+Ada dua jenis saldo OUSD: rebasing \(sebagian besar akun\) dan non-rebasing \(kontrak pintar yang tidak ikut serta\). The OUSD token contract maintains a separate internal accounting for each type of balance using what it calls "credits". The ratio shown here is the rebasing supply of OUSD divided by the rebasing credits, which gives us the exchange rate between the two.
 
 **Credits**
 
