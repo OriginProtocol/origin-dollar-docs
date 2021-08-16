@@ -12,7 +12,7 @@ Saat ini, OUSD mendapatkan hasil dari platform berikut \ (s \):
 
 {% page-ref page="aave.md" %}
 
-Integrations are currently planned or being built for the following platforms:
+Integrasi saat ini sedang direncanakan atau sedang dibangun untuk platform berikut:
 
 {% page-ref page="dydx.md" %}
 
