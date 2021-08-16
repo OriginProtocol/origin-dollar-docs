@@ -109,18 +109,18 @@ Fungsi rebasing memperlakukan 1 stablecoin sebagai 1 OUSD untuk kesederhanaan da
 Untuk membuat dan menebus sejumlah OUSD yang sesuai saat masuk dan keluar, kontrak pintar harus memberi harga yang akurat pada USDT, USDC, dan DAI yang masuk dan keluar dari sistem. Sebagai protokol terdesentralisasi, OUSD harus bergantung pada sumber non-sentralisasi untuk harga ini.
 
 {% hint style="info" %}
-OUSD fetches the price from multiple on-chain oracles and uses the exchange rate that is most advantageous for the vault when minting or redeeming.
+OUSD mengambil harga dari beberapa oracle on-chain dan menggunakan nilai tukar yang paling menguntungkan untuk kumpulan ketika mencetak atau menebus.
 {% endhint %}
 
-In order to prevent malicious attacks and to encourage long-term investors over short-term speculators, the OUSD contract compares price feeds from multiple sources and will use whichever exchange rate benefits the entire vault over the individual. This mechanism protects the vault funds from arbitrageurs and prevents any individual from being able to take advantage of any temporary inefficiencies caused by mispriced oracles to deplete the shared pool of assets.
+Untuk mencegah serangan jahat dan untuk mendorong investor jangka panjang daripada spekulan jangka pendek, kontrak OUSD membandingkan umpan harga dari berbagai sumber dan akan menggunakan nilai tukar mana pun yang menguntungkan seluruh kelompok dibandingkan individu. Mekanisme ini melindungi dana kumpulan dari arbitrase dan mencegah individu mana pun untuk dapat memanfaatkan inefisiensi sementara yang disebabkan oleh oracle yang salah harga untuk menghabiskan kumpulan aset bersama.
 
-This protects the funds in the vault while rewarding long-term holders. Karena harga paling aman tergantung pada arah perdagangan, oracle Origin menghadapkan kedua `priceUSDMint ()` dan `priceUSDRedeem ()`.
+Ini melindungi dana di kumpulan sambil memberi penghargaan kepada pemegang jangka panjang. Karena harga paling aman tergantung pada arah perdagangan, oracle Origin menghadapkan kedua `priceUSDMint ()` dan `priceUSDRedeem ()`.
 
-OUSD uses Chainlink as oracle for DAI, USDC and USDT.
+OUSD menggunakan Chainlink sebagai oracle untuk DAI, USDC, dan USDT.
 
-{% embed url="https://feeds.chain.link/eth-usd" caption="" %}
+{% embed url = "https://feeds.chain.link/eth-usd" caption = ""%}
 
-The specific smart contract address for each oracle being used are listed on our [registry](../../smart-contracts/registry.md) page.
+Alamat kontrak pintar khusus untuk setiap oracle yang digunakan tercantum di halaman [registry](../../smart-contracts/registry.md).
 
-It is possible that additional oracles will be added to the protocol over time. Support may also be removed if any of these oracles become unreliable.
+Ada kemungkinan bahwa oracle tambahan akan ditambahkan ke protokol dari waktu ke waktu. Dukungan juga dapat dihapus jika salah satu dari oracle ini menjadi tidak dapat diandalkan.
 
