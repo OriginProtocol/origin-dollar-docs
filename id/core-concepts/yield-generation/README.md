@@ -4,11 +4,11 @@
 
 Sementara ledakan Cambrian dari pinjaman baru dan automated market maker otomatis telah memicu total nilai terkunci \ (TVL \), hal itu juga membuat semakin sulit bagi petani hasil untuk mengalokasikan modal secara manual dengan cara yang efisien dan optimal.
 
-[Yearn](https://yearn.finance/) telah menunjukkan bahwa kontrak pintar dapat mengotomatiskan penyeimbangan kembali dana di berbagai strategi untuk secara optimal mendapatkan bunga pinjaman, biaya pembuatan pasar, dan token hadiah. Over time, new strategies will be deployed that maximize returns while minimizing risk and dependencies.
+[Yearn](https://yearn.finance/) telah menunjukkan bahwa kontrak pintar dapat mengotomatiskan penyeimbangan kembali dana di berbagai strategi untuk secara optimal mendapatkan bunga pinjaman, biaya pembuatan pasar, dan token hadiah. Seiring waktu, strategi baru akan diterapkan yang memaksimalkan pengembalian sambil meminimalkan risiko dan ketergantungan.
 
 ![](../../.gitbook/assets/ousd_docs_graphics_1.png)
 
-OUSD uses the following high-level strategies for generating yield:
+OUSD menggunakan strategi tingkat tinggi berikut untuk menghasilkan hasil:
 
 {% page-ref page="lending.md" %}
 
@@ -16,10 +16,10 @@ OUSD uses the following high-level strategies for generating yield:
 
 {% page-ref page="rewards.md" %}
 
-OUSD is able to generate higher yields than competing protocols due to a combination of important design decisions that amplify the rewards that are returned to OUSD holders:
+OUSD mampu menghasilkan hasil yang lebih tinggi daripada protokol pesaing karena kombinasi dari keputusan desain penting yang memperkuat imbalan yang dikembalikan kepada pemegang OUSD:
 
-* Exit fees are returned to the pool, rewarding long term holders
-* Price oracles favor the collective over the individual, again rewarding long term holders
-* Smart contracts must manually opt-in to earn yield. This allows the protocol to put more capital to work than would be otherwise possible.
-* Smart strategies balance risk and reward more effectively than deploying capital in any single underlying strategy.
+* Biaya keluar dikembalikan ke pool, memberi penghargaan kepada pemegang jangka panjang
+* Price oracle lebih menyukai kolektif daripada individu, sekali lagi memberi penghargaan kepada pemegang jangka panjang
+* Kontrak pintar harus secara manual memilih untuk mendapatkan hasil. Hal ini memungkinkan protokol untuk menempatkan lebih banyak modal untuk bekerja daripada yang mungkin dilakukan.
+* Strategi cerdas menyeimbangkan risiko dan penghargaan dengan lebih efektif daripada menggunakan modal dalam strategi dasar apa pun.
 
