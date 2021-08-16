@@ -46,22 +46,22 @@ Kontrak implementasi internal:
 | Kurva 3Pool | [0x9F2E2b1c5F6Ac748b61f07e88f912A1df33Dfe55](https://etherscan.io/address/0x9F2E2b1c5F6Ac748b61f07e88f912A1df33Dfe55) |
 {% endtab %}
 
-{% tab title="Oracles" %}
-The following oracles are used to fetch or compute a price for **DAI/USD:**
+{% judul tab="Oracles" %}
+Oracle berikut digunakan untuk mengambil atau menghitung harga **DAI / USD:**
 
-| Oracle    | Pair    | Contract                                                                                                              |
-|:--------- |:------- |:--------------------------------------------------------------------------------------------------------------------- |
-| Chainlink | DAI/USD | [0xAed0c38402a5d19df6E4c03F4E2DceD6e29c1ee9](https://etherscan.io/address/0xAed0c38402a5d19df6E4c03F4E2DceD6e29c1ee9) |
+| Oracle    | Pasangan  | Kontrak                                                                                                               |
+|:--------- |:--------- |:--------------------------------------------------------------------------------------------------------------------- |
+| Chainlink | DAI / USD | [0xAed0c38402a5d19df6E4c03F4E2DceD6e29c1ee9](https://etherscan.io/address/0xAed0c38402a5d19df6E4c03F4E2DceD6e29c1ee9) |
 
-The following oracles are used to fetch a price for **USDT/USD:**
+Oracle berikut digunakan untuk mengambil atau menghitung harga **USDT / USD:**
 
-| O**racle** | Pair     | Contract                                                                                                              |
+| O**racle** | Pasangan | Kontrak                                                                                                               |
 |:---------- |:-------- |:--------------------------------------------------------------------------------------------------------------------- |
 | Chainlink  | USDT/USD | [0x3E7d1eAB13ad0104d2750B8863b489D65364e32D](https://etherscan.io/address/0x3E7d1eAB13ad0104d2750B8863b489D65364e32D) |
 
-The following oracles are used to fetch a price for **USDC/USD:**
+Oracle berikut digunakan untuk mengambil atau menghitung harga **USDT / USD:**
 
-| O**racle** | Pair     | Contract                                                                                                              |
+| O**racle** | Pasangan | Kontrak                                                                                                               |
 |:---------- |:-------- |:--------------------------------------------------------------------------------------------------------------------- |
 | Chainlink  | USDC/USD | [0x8fFfFfd4AfB6115b954Bd326cbe7B4BA576818f6](https://etherscan.io/address/0x8fFfFfd4AfB6115b954Bd326cbe7B4BA576818f6) |
 {% endtab %}
@@ -71,8 +71,8 @@ The following oracles are used to fetch a price for **USDC/USD:**
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">Contract</th>
-      <th style="text-align:left">Address</th>
+      <th style="text-align:left">Kontrak</th>
+      <th style="text-align:left">Alamat</th>
       <th style="text-align:left">ENS</th>
     </tr>
   </thead>
@@ -103,7 +103,7 @@ The following oracles are used to fetch a price for **USDC/USD:**
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">OGN Buyback</td>
+      <td style="text-align:left">Pembelian Kembali OGN</td>
       <td style="text-align:left"><a href="https://etherscan.io/address/0x7294CD3C3eb4097b03E1A61EB2AD280D3dD265e6">0x7294CD3C3eb4097b03E1A61EB2AD280D3dD265e6</a>
       </td>
       <td style="text-align:left"><a href="https://etherscan.io/address/originbuyback.eth">originbuyback.eth</a>
@@ -114,7 +114,7 @@ The following oracles are used to fetch a price for **USDC/USD:**
 {% endtab %}
 
 {% tab title="Stablecoins" %}
-| Contract                                                                        | Address                                                                                                               |
+| Kontrak                                                                         | Alamat                                                                                                                |
 |:------------------------------------------------------------------------------- |:--------------------------------------------------------------------------------------------------------------------- |
 | [USDT](https://etherscan.io/address/0x52BEBd3d7f37EC4284853Fd5861Ae71253A7F428) | [0xdac17f958d2ee523a2206206994597c13d831ec7](https://etherscan.io/address/0x52BEBd3d7f37EC4284853Fd5861Ae71253A7F428) |
 | [USDC](https://etherscan.io/address/0x52BEBd3d7f37EC4284853Fd5861Ae71253A7F428) | [0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48](https://etherscan.io/address/0x52BEBd3d7f37EC4284853Fd5861Ae71253A7F428) |
@@ -122,27 +122,27 @@ The following oracles are used to fetch a price for **USDC/USD:**
 {% endtab %}
 
 {% tab title="Staking" %}
-| Contract    | Address                                                                                                               | ENS                                                                 |
+| Kontrak     | Alamat                                                                                                                | ENS                                                                 |
 |:----------- |:--------------------------------------------------------------------------------------------------------------------- |:------------------------------------------------------------------- |
-| OGN Staking | [0x501804B374EF06fa9C427476147ac09F1551B9A0](https://etherscan.io/address/0x501804B374EF06fa9C427476147ac09F1551B9A0) | [originstaking.eth](https://etherscan.io/address/originstaking.eth) |
+| Staking OGN | [0x501804B374EF06fa9C427476147ac09F1551B9A0](https://etherscan.io/address/0x501804B374EF06fa9C427476147ac09F1551B9A0) | [originstaking.eth](https://etherscan.io/address/originstaking.eth) |
 
-Internal implementation contracts:
+Kontrak implementasi internal:
 
-| Contract    | Address                                                                                                               |
+| Kontrak     | Alamat                                                                                                                |
 |:----------- |:--------------------------------------------------------------------------------------------------------------------- |
-| OGN Staking | [0x8cd68a1e0b79150455c5498882d5d5d3df2dde08](https://etherscan.io/address/0x8cd68a1e0b79150455c5498882d5d5d3df2dde08) |
+| Staking OGN | [0x8cd68a1e0b79150455c5498882d5d5d3df2dde08](https://etherscan.io/address/0x8cd68a1e0b79150455c5498882d5d5d3df2dde08) |
 
-OUSD compensation contract \([details](https://medium.com/originprotocol/origin-delivers-on-compensation-promise-claim-your-ousd-and-ogn-now-a9fa9b840476)\):
+Kontrak kompensasi OUSD \([rincian](https://medium.com/originprotocol/origin-delivers-on-compensation-promise-claim-your-ousd-and-ogn-now-a9fa9b840476)\):
 
-| Contract          | Address                                                                                                               |
-|:----------------- |:--------------------------------------------------------------------------------------------------------------------- |
-| OUSD Compensation | [0x9C94df9d594BA1eb94430C006c269C314B1A8281](https://etherscan.io/address/0x9C94df9d594BA1eb94430C006c269C314B1A8281) |
+| Kontrak         | Alamat                                                                                                                |
+|:--------------- |:--------------------------------------------------------------------------------------------------------------------- |
+| Kompensasi OUSD | [0x9C94df9d594BA1eb94430C006c269C314B1A8281](https://etherscan.io/address/0x9C94df9d594BA1eb94430C006c269C314B1A8281) |
 {% endtab %}
 
 {% tab title="Swap" %}
-| Contract | Address                                                                                                               | ENS                                                           |
-|:-------- |:--------------------------------------------------------------------------------------------------------------------- |:------------------------------------------------------------- |
-| Swap     | [0xcecaD69d7D4Ed6D52eFcFA028aF8732F27e08F70](https://etherscan.io/address/0xcecaD69d7D4Ed6D52eFcFA028aF8732F27e08F70) | [originswap.eth](https://etherscan.io/address/originswap.eth) |
+| Kontrak | Alamat                                                                                                                | ENS                                                           |
+|:------- |:--------------------------------------------------------------------------------------------------------------------- |:------------------------------------------------------------- |
+| Swap    | [0xcecaD69d7D4Ed6D52eFcFA028aF8732F27e08F70](https://etherscan.io/address/0xcecaD69d7D4Ed6D52eFcFA028aF8732F27e08F70) | [originswap.eth](https://etherscan.io/address/originswap.eth) |
 {% endtab %}
 {% endtabs %}
 
