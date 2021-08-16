@@ -4,39 +4,39 @@
 
 OUSD sepenuhnya merupakan proyek sumber terbuka dan kami menerima segala macam kontribusi. Ada banyak cara untuk membantu, dari melaporkan masalah, menyumbangkan kode, dan membantu kami meningkatkan komunitas kami.
 
-Kami bekerja di depan umum dan perusahaan kami Discord terbuka untuk semua. If you have questions or need help getting started, our [Discord OUSD channels](https://discord.gg/jyxpUSe) are the best place to get assistance from our team and community.
+Kami bekerja di depan umum dan perusahaan kami Discord terbuka untuk semua. Jika Anda memiliki pertanyaan atau butuh bantuan untuk memulai, [Discord OUSD](https://discord.gg/jyxpUSe) adalah tempat terbaik untuk mendapatkan bantuan dari tim dan komunitas kami.
 
-**Developer Analytics**
+**Analisis Pengembang**
 
-Our internal developer dashboard is available at [analytics.ousd.com](https://analytics.ousd.com). The dashboard shows the current circulating supply, the assets under management in the vault, and the current allocations between each of the stablecoins and strategies.
+Dasbor pengembang internal kami tersedia di [analytics.ousd.com](https://analytics.ousd.com). Dasbor menunjukkan pasokan yang beredar saat ini, aset yang dikelola di brankas, dan alokasi saat ini antara masing-masing stablecoin dan strategi.
 
 #### Proses pengembangan
 
-Our branching strategy is similar to [GitFlow](http://nvie.com/posts/a-successful-git-branching-model/), but we do all of our development in the `master` branch and have a `stable` branch for code that has been released.
+Strategi percabangan kami mirip dengan [GitFlow](http://nvie.com/posts/a-successful-git-branching-model/), tetapi kami melakukan semua pengembangan kami di cabang ` master` dan memiliki cabang ` stabil` untuk kode yang telah dirilis.
 
-Your development flow should look like:
+Alur pengembangan Anda akan terlihat seperti:
 
 1. Temukan masalah yang menarik dan komunikasikan! Harap beri tahu saluran `#engineering` [Discord](https://discord.gg/jyxpUSe) apa yang ingin Anda kerjakan.
 2. Ping [anggota tim inti](https://github.com/orgs/OriginProtocol/teams/core/members) anggota di Discord dan minta untuk ditambahkan ke [tim kontributor](https://github.com/orgs/OriginProtocol/teams/contributors). Jika tidak, Anda harus membagi repositori yang relevan dan mendorong cabang fitur ke garpu Anda sendiri.
 3. Tambahkan komentar ke masalah atau tetapkan sendiri sehingga kami tidak memiliki beberapa kontributor yang secara tidak sengaja mengerjakan tugas yang sama.
 4. Mulailah dengan cabang `master` dan periksa cabang fitur baru kecuali Anda berkontribusi ke fitur yang ada.
-5. Write some awesome code.
+5. Tulis beberapa kode yang luar biasa.
 6. Tarik komit terbaru dari `master` dan konfirmasikan bahwa kode Anda berfungsi dengan pekerjaan lain yang telah digabungkan sejak Anda mulai.
 7. Dorong cabang Anda ke repositori hulu \ (yaitu https: //github.com/OriginProtocol/ \ [repo \] \) sehingga kontributor lain dapat dengan mudah mengerjakannya jika perlu.
 8. Silakan meminta peninjauan di PR dengan mengklik ikon roda gigi di sebelah "Pengulas" di kolom kanan.
 
-For critical smart contract code to be merged it must pass the following checklist:
+Agar kode kontrak pintar kritis dapat digabungkan, kode tersebut harus melewati daftar periksa berikut:
 
-*  Code reviewed by 2 reviewers
-*  Unit tests pass
-*  Slither tests pass with no warning
-*  Echidna tests pass
+*  Kode ditinjau oleh 2 pengulas
+*  Tes unit lulus
+*  Tes meluncur lulus tanpa peringatan
+*  Tes Echidna lulus
 
-The `master` branch is locked so that only members of the [core team](https://github.com/orgs/OriginProtocol/teams/core) are able to merge your pull requests. Pull requests that are peer-reviewed by other trusted contributors will be fast-tracked and merged faster! Check in the `#engineering` Discord channel for appropriate reviewers.
+Cabang `master` dikunci sehingga hanya anggota dari [tim inti](https://github.com/orgs/OriginProtocol/teams/core) yang dapat menggabungkan permintaan tarik Anda. Permintaan penarikan yang ditinjau oleh kontributor tepercaya lainnya akan dilacak dengan cepat dan digabungkan lebih cepat! Periksa di saluran `#engineering` Discord untuk pengulas yang sesuai.
 
 #### Gaya Pengkodean
 
-We use a variety of programming languages in our repositories. When contributing, please follow existing coding conventions and refer to the CONTRIBUTING.md file in the repository, if one exists.
+Kami menggunakan berbagai bahasa pemrograman di repositori kami. When contributing, please follow existing coding conventions and refer to the CONTRIBUTING.md file in the repository, if one exists.
 
 For JavaScript, we use [NPM’s style](https://docs.npmjs.com/misc/coding-style), which is automatically enforced via [prettier](https://prettier.io/).
 
