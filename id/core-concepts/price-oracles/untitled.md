@@ -1,23 +1,23 @@
-# Untitled
+# Tanpa Judul
 
-## Getting Super Powers
+## Mendapatkan Kekuatan Super
 
-Becoming a super hero is a fairly straight forward process:
+Menjadi pahlawan super adalah proses yang cukup mudah:
 
 ```
-$ give me super-powers
+$ beri aku kekuatan super
 ```
 
 {% hint style="info" %}
- Super-powers are granted randomly so please submit an issue if you're not happy with yours.
+ Kekuatan super diberikan secara acak jadi silakan ajukan masalah jika Anda tidak puas dengan masalah Anda.
 {% endhint %}
 
-Once you're strong enough, save the world:
+Setelah Anda cukup kuat, selamatkan dunia:
 
 {% code title="hello.sh" %}
 ```bash
-# Ain't no code for that yet, sorry
-echo 'You got to trust me on this, I saved the world'
+# Belum ada kode untuk itu, maaf
+echo 'Anda harus mempercayai saya dalam hal ini, saya menyelamatkan dunia'
 ```
 {% endcode %}
 
