@@ -1,7 +1,7 @@
 # Resiko
 
 {% hint style="danger" %}
-Use at your own risk. Do not deploy more capital than you are willing to lose.
+Gunakan dengan resiko Anda sendiri. Do not deploy more capital than you are willing to lose.
 {% endhint %}
 
 As with any yield-generating DeFi product, there are associated risks with holding OUSD that are important to understand. These risks can be broadly classified into 3 categories:
