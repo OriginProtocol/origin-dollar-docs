@@ -36,60 +36,60 @@ Cabang `master` dikunci sehingga hanya anggota dari [tim inti](https://github.co
 
 #### Gaya Pengkodean
 
-Kami menggunakan berbagai bahasa pemrograman di repositori kami. When contributing, please follow existing coding conventions and refer to the CONTRIBUTING.md file in the repository, if one exists.
+Kami menggunakan berbagai bahasa pemrograman di repositori kami. Saat berkontribusi, harap ikuti konvensi pengkodean yang ada dan lihat file CONTRIBUTING.md di repositori, jika ada.
 
-For JavaScript, we use [NPM’s style](https://docs.npmjs.com/misc/coding-style), which is automatically enforced via [prettier](https://prettier.io/).
+Untuk JavaScript, kami menggunakan [NPM gaya](https://docs.npmjs.com/misc/coding-style), yang secara otomatis diberlakukan melalui [lebih cantik](https://prettier.io/).
 
-For Solidity, we use two-space indents.
+Untuk Soliditas, kami menggunakan indentasi dua spasi.
 
 #### Desain Protokol
 
-When considering protocol or implementation design proposals, we are looking for:
+Saat mempertimbangkan protokol atau proposal desain implementasi, kami mencari:
 
-* A description of the problem this design proposal solves
-* Discussion of the trade-offs involved
-* Review of other existing solutions
-* Links to relevant literature \(RFCs, papers, etc\)
-* Discussion of the proposed solution
+* Deskripsi masalah yang diselesaikan oleh proposal desain ini
+* Diskusi tentang trade-off yang terlibat
+* Review solusi lain yang ada
+* Tautan ke literatur yang relevan \ (RFC, makalah, dll \)
+* Diskusi tentang solusi yang diusulkan
 
-Please note that protocol design is hard and meticulous work. You may need to review existing literature and think through generalized use cases.
+Harap dicatat bahwa desain protokol adalah pekerjaan yang sulit dan membutuhkan ketelitian. Anda mungkin perlu meninjau literatur yang ada dan memikirkan kasus penggunaan umum.
 
 #### Pedoman Komunitas
 
-We want to keep the Origin community awesome, growing and collaborative. We need your help to keep it that way. To help with this we’ve come up with some general guidelines for the community as a whole:
+Kami ingin membuat komunitas Origin tetap mengagumkan, berkembang, dan kolaboratif. Kami membutuhkan bantuan Anda untuk tetap seperti itu. Untuk membantu hal ini, kami telah membuat beberapa pedoman umum untuk komunitas secara keseluruhan:
 
-* Be nice: Be courteous, respectful and polite to fellow community members: no regional, racial, gender, or other abuse will be tolerated. We like nice people way better than mean ones!
-* Encourage diversity and participation: Make everyone in our community feel welcome, regardless of their background and the extent of their contributions, and do everything possible to encourage participation in our community.
-* Keep it legal: Basically, don’t get anybody in trouble. Share only content that you own, do not share private or sensitive information, and don’t break laws.
-* Stay on topic: Make sure that you are posting to the correct channel and avoid off-topic discussions. Remember when you update an issue or respond to an email you are potentially sending to a large number of people. Please consider this before you update. Also remember that nobody likes spam.
+* Bersikap baik: Bersikaplah sopan, hormat, dan sopan kepada sesama anggota komunitas: tidak ada pelecehan regional, ras, jenis kelamin, atau lainnya yang akan ditoleransi. Kami menyukai orang baik jauh lebih baik daripada orang jahat!
+* Dorong keberagaman dan partisipasi: Buat semua orang di komunitas kami merasa diterima, terlepas dari latar belakang dan tingkat kontribusi mereka, dan lakukan segala kemungkinan untuk mendorong partisipasi dalam komunitas kami.
+* Tetap legal: Pada dasarnya, jangan membuat siapa pun mendapat masalah. Bagikan hanya konten yang Anda miliki, jangan bagikan informasi pribadi atau sensitif, dan jangan melanggar hukum.
+* Tetap sesuai topik: Pastikan Anda memposting ke saluran yang benar dan hindari diskusi di luar topik. Ingatlah saat Anda memperbarui masalah atau membalas email yang berpotensi Anda kirim ke banyak orang. Harap pertimbangkan ini sebelum Anda memperbarui. Ingat juga bahwa tidak ada yang suka spam.
 
 #### Melaporkan Masalah
 
-If you find bugs, mistakes or inconsistencies in Origin’s code or documents, please let us know by filing a GitHub issue. No issue is too small. Help us fix our tpyos!
+Jika Anda menemukan bug, kesalahan, atau ketidakkonsistenan dalam kode atau dokumen Origin, beri tahu kami dengan mengajukan masalah GitHub. Tidak ada masalah yang terlalu kecil. Bantu kami memperbaiki typos kami!
 
 #### Masalah Keamanan
 
-OUSD is still in early development, which means there may be problems with the protocol or in our implementations. We take security vulnerabilities very seriously. If you discover a security issue, please bring it to our attention right away!
+OUSD masih dalam pengembangan awal, yang berarti mungkin ada masalah dengan protokol atau dalam implementasi kami. Kami menangani kerentanan keamanan dengan sangat serius. Jika Anda menemukan masalah keamanan, harap segera hubungi kami!
 
-If you find a security vulnerability please send your report privately to [security@originprotocol.com](mailto:security@originprotocol.com) or send an encrypted message to [@joshfraser on Keybase](https://keybase.io/joshfraser). Please DO NOT file a public issue. Be sure to review our guidelines for responsible disclosure and eligibility for bug bounties.
+Jika Anda menemukan kerentanan keamanan, silakan kirim laporan Anda secara pribadi ke [security@originprotocol.com](mailto:security@originprotocol.com) atau kirim pesan terenkripsi ke [@joshfraser di Keybase](https://keybase.io/joshfraser). Harap JANGAN mengajukan masalah publik. Pastikan untuk meninjau pedoman kami untuk pengungkapan yang bertanggung jawab dan kelayakan untuk bug bounties.
 
 {% page-ref page="../security-and-risks/bug-bounties.md" %}
 
 #### **Peningkatan Komunitas**
 
-Origin is just as much about community as it is about our technology.
+Origin adalah tentang komunitas seperti tentang teknologi kita.
 
-We need constant help in improving our documentation, building new tools to interface with our platform, spreading the word to new users, helping new users getting setup and much more.
+Kami membutuhkan bantuan terus-menerus dalam meningkatkan dokumentasi kami, membuat alat baru untuk berinteraksi dengan platform kami, menyebarkan berita ke pengguna baru, membantu pengguna baru mendapatkan penyiapan, dan banyak lagi.
 
-Please get in touch if you would like to help out. Our `general` channel on [Discord](https://www.originprotocol.com/discord) is a great place to share ideas and volunteer to help.
+Silakan hubungi jika Anda ingin membantu. Saluran `umum` kami di [Discord](https://www.originprotocol.com/discord) adalah tempat yang tepat untuk berbagi ide dan menjadi sukarelawan untuk membantu.
 
 #### Posisi Penuh Waktu
 
-Origin occasionally hires developers for part-time or full-time positions.
+Origin terkadang mempekerjakan pengembang untuk posisi paruh waktu atau penuh waktu.
 
-We have a strong preference for hiring people who have already started contributing to the project. If you want a full time position on our team, your best shot is to engage with our team and start contributing code. It is very unlikely that we would offer you a full-time position on our engineering team unless you’ve had at least a few pull requests merged.
+Kami memiliki preferensi kuat untuk mempekerjakan orang yang sudah mulai berkontribusi pada proyek. Jika Anda menginginkan posisi penuh waktu di tim kami, kesempatan terbaik Anda adalah terlibat dengan tim kami dan mulai kode berkontribusi. Sangat kecil kemungkinannya kami akan menawarkan Anda posisi penuh waktu di tim teknik kami kecuali Anda memiliki setidaknya beberapa permintaan tarik yang digabungkan.
 
-If you are interested, check out [the Origin Protocol job listings](https://angel.co/originprotocol/jobs). If you’d like to help in other ways, please propose your ideas in [our Discord channel](https://www.originprotocol.com/discord).
+Jika Anda tertarik, lihat [daftar pekerjaan Protokol Origin](https://angel.co/originprotocol/jobs). Jika Anda ingin membantu dengan cara lain, ajukan ide Anda di [saluran Discord kami](https://www.originprotocol.com/discord).
 
 
 
