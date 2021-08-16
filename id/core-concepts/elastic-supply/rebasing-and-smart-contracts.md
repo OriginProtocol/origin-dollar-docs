@@ -1,12 +1,12 @@
-# Rebasing & Smart Contracts
+# Rebasing & Kontrak Cerdas
 
-If you are using a multi-sig wallet or another smart contract that wishes to participate in the rebasing aspect of OUSD you must call OUSD’s`rebaseOptIn()` function. This only applies to smart contracts as standard EOA wallets are enrolled automatically.
+Jika Anda menggunakan dompet multi-sig atau kontrak pintar lain yang ingin berpartisipasi dalam aspek rebasing OUSD, Anda harus memanggil fungsi`rebaseOptIn()` OUSD. Ini hanya berlaku untuk kontrak pintar karena dompet EOA standar didaftarkan secara otomatis.
 
 {% hint style="info" %}
-Multi-sig wallets or other smart contracts must call`rebaseOptIn()`to earn yield.
+Dompet multi-sig atau kontrak pintar lainnya harus memanggil`rebaseOptIn()`untuk mendapatkan hasil.
 {% endhint %}
 
-By default, OUSD that is held on smart contracts will not participate in the rebasing nature of the token and will forfeit any yield unless the smart contract explicitly opts-in. This increases the composability of OUSD within DeFi as many protocols weren't designed with the expectation that balances might change. To other DeFi protocols, OUSD works just like any other normal, well-behaved ERC-20 until you ask it to change. This is a particularly useful attribute for automated market makers \(AMM’s\) like Uniswap which break when the number of tokens they are holding changes unexpectedly.
+Secara default, OUSD yang diadakan pada kontrak pintar tidak akan berpartisipasi dalam sifat rebasing token dan akan kehilangan hasil apa pun kecuali kontrak pintar secara eksplisit ikut serta. Ini meningkatkan komposisi OUSD dalam DeFi karena banyak protokol tidak dirancang dengan harapan bahwa saldo mungkin berubah. Untuk protokol DeFi lainnya, OUSD berfungsi seperti ERC-20 normal lainnya yang berperilaku baik hingga Anda memintanya untuk mengubahnya. Ini adalah atribut yang sangat berguna untuk pembuat pasar otomatis \(AMM\) seperti Uniswap yang rusak ketika jumlah token yang mereka pegang berubah secara tak terduga.
 
 Smart contracts must explicitly opt-in to receiving yield via the rebasing mechanism. This fixes the issue with the expanding supply on AMM’s while still allowing multi-sig wallets and other smart contracts the opportunity to still participate and earn yield.
 
