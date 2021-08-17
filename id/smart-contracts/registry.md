@@ -17,7 +17,7 @@ Alamat terkenal \ (seringkali pembungkus proxy \):
 | Vault   | [0xE75D77B1865Ae93c7eaa3040B038D7aA7BC02F70](https://etherscan.io/address/0xe75d77b1865ae93c7eaa3040b038d7aa7bc02f70) | [originvault.eth](https://etherscan.io/address/originvault.eth)   |
 | Oracle  | [0x843530DC8005e13dEA30CEa2394FF60635f38cc4](https://etherscan.io/address/0x843530DC8005e13dEA30CEa2394FF60635f38cc4) | [originoracle.eth](https://etherscan.io/address/originoracle.eth) |
 
-Internal implementation contracts. The Vault is split into VaultAdmin and VaultCore to work-around the maximum contract size limit on Ethereum:
+Kontrak implementasi internal. Vault dibagi menjadi VaultAdmin dan VaultCore untuk bekerja berdasarkan batas ukuran kontrak maksimum pada Ethereum:
 
 | Kontrak          | Alamat                                                                                                                |
 |:---------------- |:--------------------------------------------------------------------------------------------------------------------- |
