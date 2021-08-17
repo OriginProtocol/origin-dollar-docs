@@ -129,7 +129,7 @@ Kembalikan jumlah strategi aktif di Vault yang yang diwakili oleh tipe `uint256`
 
 **`fungsi dapatkanAPR ()`**
 
-Return the total annual percentage yield \(APR\) of the Vault and all Strategies represented by `uint256` type. Angka yang dihasilkan memiliki 18 desimal.‌
+Kembalikan total hasil persentase tahunan \ (APR \) Vault dan semua Strategi yang diwakili oleh tipe `uint256`. Angka yang dihasilkan memiliki 18 desimal.‌
 
 ### adalahAsetyangdidukung \ (\) <a id="issupportedasset"></a>
 
