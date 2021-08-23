@@ -16,7 +16,7 @@ A pesar de la controversia **** en torno **** a que la compañía no proporcion�
 | Dirección     | [0xdac17f958d2ee523a2206206994597c13d831](https://etherscan.io/token/0xdac17f958d2ee523a2206206994597c13d831ec7) |
 | Decimales     | 6                                                                                                                |
 | Sitio oficial | [https://tether.to/ ](https://tether.to/%20)                                                                     |
-| Holders       | Más de 1.8 millones de direcciones                                                                               |
+| Holders       | Over 3.4M addresses                                                                                              |
 
 
 
