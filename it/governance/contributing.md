@@ -8,7 +8,7 @@ Noi lavoriamo pubblicamente e la nostra azienda è su Discord ed è aperta a tut
 
 **Analytics per sviluppatori**
 
-La nostra dashboard interna per sviluppatori è disponibile all'URL [analytics.ousd.com](https://analytics.ousd.com). La nostra dashboard mostra l'attuale offerta circolante, gli asset gestiti all'interno del vault e le attuali allocazioni tra ogni stablecoin e le strategie.
+La nostra dashboard interna per sviluppatori è disponibile all'URL [analytics.ousd.com](https://analytics.ousd.com). La nostra dashboard mostra l'attuale offerta circolante, gli asset gestiti all'interno del vault e le attuali allocazioni tra ogni stablecoin e le strategie. Various other developer tools can be found at [ousd.com/dashboard](https://ousd.com/dashboard).
 
 #### Processo di sviluppo
 
@@ -81,13 +81,13 @@ Origin is just as much about community as it is about our technology.
 
 We need constant help in improving our documentation, building new tools to interface with our platform, spreading the word to new users, helping new users getting setup and much more.
 
-Please get in touch if you would like to help out. Our `general` channel on [Discord](https://www.originprotocol.com/discord) is a great place to share ideas and volunteer to help.
+Please get in touch if you would like to help out. Our `discussion` channel on [Discord](https://www.originprotocol.com/discord) is a great place to share ideas and volunteer to help.
 
 #### Posizioni lavorative a tempo pieno
 
 Origin occasionally hires developers for part-time or full-time positions.
 
-We have a strong preference for hiring people who have already started contributing to the project. If you want a full time position on our team, your best shot is to engage with our team and start contributing code. It is very unlikely that we would offer you a full-time position on our engineering team unless you’ve had at least a few pull requests merged.
+We have a strong preference for hiring people who have already started contributing to the project. If you want a full-time position on our team, your best shot is to engage with our team and start contributing code. It is very unlikely that we would offer you a full-time position on our engineering team unless you’ve had at least a few pull requests merged.
 
 If you are interested, check out [the Origin Protocol job listings](https://angel.co/originprotocol/jobs). If you’d like to help in other ways, please propose your ideas in [our Discord channel](https://www.originprotocol.com/discord).
 
