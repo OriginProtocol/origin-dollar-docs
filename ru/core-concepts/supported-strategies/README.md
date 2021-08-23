@@ -12,19 +12,9 @@ OUSD генерирует доход за счет размещения стей
 
 {% page-ref page="aave.md" %}
 
-В настоящее время планируются или разрабатываются интеграции для следующих платформ:
+Although DeFi has grown very quickly and there are now billions of dollars worth of value deposited on these platforms, several of these projects are still in beta and are highly experimental. There may be hidden vulnerabilities in the smart contracts that power these platforms, and there have been multi-million dollar losses caused by vulnerabilities in Ethereum applications in the past.
 
-{% page-ref page="dydx.md" %}
-
-{% page-ref page="uniswap.md" %}
-
-{% page-ref page="balancer.md" %}
-
-{% page-ref page="yearn.finance.md" %}
-
-Хотя рынок DeFi очень быстро вырос, и сейчас на этих платформах размещена стоимость в миллиарды долларов, некоторые из этих проектов все еще находятся в стадии бета-тестирования и являются экспериментальными. В смарт-контрактах, на которых работают эти платформы, могут быть скрытые уязвимости, и в прошлом были понесены многомиллионные убытки, вызванные уязвимостями в приложениях Ethereum.
-
-Мы внимательно следим за событиями безопасности на поддерживаемых нами платформах и немедленно приступим к защите средств держателей OUSD, если обнаружим какие-либо угрозы.
+We closely monitor security events on the platforms we support and will immediately move to secure OUSD holder funds if we identify any threats.
 
 
 
