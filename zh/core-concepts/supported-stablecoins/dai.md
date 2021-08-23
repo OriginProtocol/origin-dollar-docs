@@ -16,5 +16,5 @@ Dai 是世界上第三大穩定幣，流通量超過 4 億美元。 此外，cDA
 | 地址   | [0x6b175474e89094c44da98b954eedeac495271d0f](https://etherscan.io/token/0x6b175474e89094c44da98b954eedeac495271d0f) |
 | 小數點  | 18                                                                                                                  |
 | 官方網站 | [https://makerdao.com/](https://makerdao.com/)                                                                      |
-| 持有者  | 超過 14 萬個地址                                                                                                          |
+| 持有者  | Over 380k addresses                                                                                                 |
 
