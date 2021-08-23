@@ -14,8 +14,6 @@ OUSD integrates with leading lending providers that have a proven track record, 
 
 We are planning on integrating the following lending platform:
 
-{% page-ref page="../supported-strategies/dydx.md" %}
-
 
 
 
