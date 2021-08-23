@@ -1,18 +1,18 @@
 # Принципы
 
-**Прогрессивная децентрализация**
-
-OUSD разработан как децентрализованный протокол, которым управляет множество заинтересованных сторон по всему миру. We believe that the holders of OUSD should collectively determine important protocol decisions as soon as possible.
-
-Вместе с тем, на самом начальном этапе крайне важно, чтобы основная команда инженеров могла действовать быстро и решительно для создания основных частей протокола.
-
-Децентрализация будет быстро прогрессировать в четыре этапа в течение следующих нескольких месяцев. Мы намерены как можно скорее передать контроль и управление сообществу.
-
-![](../.gitbook/assets/ousd_docs_graphics_2%20%283%29.png)
-
 **Governance Portal**
 
-OGN holders are encouraged to participate in creating and voting on proposals that impact the protocol in the [OGN governance portal](https://vote.originprotocol.com). Anyone with at least 1,000 OGN in their wallet or staked in our OGN Staking contract can create a new proposal. All OGN holders are able to vote for proposals. Our desire is for our community to have a strong impact on the direction of Origin’s products, open-source codebase, and to have a voice in key business decisions and the overall direction of the project.
+OGN holders are encouraged to participate in creating and voting on proposals that impact the protocol in the [OGN governance portal](https://vote.originprotocol.com). Anyone with at least 1,000 OGN in their wallet or staked in our OGN Staking contract can create a new proposal using Snapshot. All OGN holders are able to vote for proposals. Our desire is for our community to have a strong impact on the direction of Origin’s products, open-source codebase, and to have a voice in key business decisions and the overall direction of the project.
+
+**Progressive Decentralization**
+
+OUSD is designed to be a decentralized protocol governed by many stakeholders all over the world. We believe that the holders of OUSD should collectively determine important protocol decisions as soon as possible.
+
+That being said, in the very early days, it is imperative that the core engineering team can act quickly and decisively to build the foundational parts of the protocol.
+
+Decentralization will progress across four phases rapidly over the next few months. It is our intent to relinquish control and governance to the community as soon as possible.
+
+![](../.gitbook/assets/ousd_docs_graphics_2%20%283%29.png)
 
 **Timelock**
 
