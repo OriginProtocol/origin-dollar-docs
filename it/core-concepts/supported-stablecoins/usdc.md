@@ -16,7 +16,7 @@ USDC è la seconda stablecoin più grande al mondo dopo USDT ed è rapidamente c
 | Indirizzo          | [0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48](https://etherscan.io/token/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48) |
 | Decimali           | 6                                                                                                                   |
 | Sito ufficiale     | [https://www.centre.io/usdc](https://www.centre.io/usdc)                                                            |
-| Possessori         | Oltre 200.000 indirizzi                                                                                             |
+| Possessori         | Over 1M addresses                                                                                                   |
 
 
 
