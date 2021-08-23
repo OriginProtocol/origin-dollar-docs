@@ -10,27 +10,31 @@ OUSD는 USDT, USDC 및 DAI와 같은 검증된 스테이블 코인이 1:1로 지
 1 OUSD = 1 USD
 {% endhint %}
 
-#### OUSD 발행(Minting)
+#### Buying OUSD
 
-사용자는 공식 [오리진 달러 디앱(DApp)](www.ousd.com)에서 기존 스테이블 코인 \ (현재 USDT, USDC, DAI \) 을 OUSD로 전환합니다. 발행된 OUSD는 즉시 복리로 수익을 발생시키기 시작합니다.
+Users can convert their existing stablecoins \(currently USDT, USDC, and DAI\) to OUSD at the official [Origin Dollar DApp](www.ousd.com). Received OUSD begins accruing compounding yield immediately.
 
-**OUSD 사용하기**
+The Origin DApp will intelligently route user's transactions to give them the best available price while taking slippage and gas costs into consideration. This means that the DApp will sometimes encourage users to buy OUSD that is already in circulation versus minting fresh OUSD from the vault. The OUSD DApp will choose from multiple sources of liquidity \(Origin Vault, Origin Swap, Uniswap, etc\) and will suggest the option that gives the user the best possible rate.
 
-사용자는 [오리진 달러 디앱(DApp)](www.ousd.com)을 사용하여 언제든지 OUSD를 다른 스테이블 코인(stablecoin) 으로 전환 할 수 있습니다. A 0.5% exit fee is charged upon redemption and is distributed as additional yield to the remaining participants in the vault. The fee serves as a security feature to make it difficult for attackers to take advantage of lagging oracles, preventing them from siphoning stablecoins from the vault in the event of mispriced underlying assets. 해당 수수료는 단기 투기자 보다는 장기 보유자가 될 것을 장려하기 위해 존재합니다.
+**Selling OUSD**
 
-상환시 스마트 컨트렉트는 사용자에게 반환할 스테이블 코인을 결정합니다. In the current implementation, the vault will return coins in the same ratio as the current holdings. This lack of user optionality also protects the vault as a whole in the event that any of the supported stablecoins loses its peg to the dollar.
+Users can convert their OUSD back into other stablecoins at any time using the [Origin Dollar DApp](www.ousd.com). The Origin DApp will intelligently route user's transactions to give them the best available price while taking slippage, gas costs, and the vault's exit fee into consideration. This means that the DApp will often help users sell their OUSD on AMM's instead of redeeming OUSD with the vault and incurring the protocol's exit fee.
+
+A 0.5% exit fee is charged upon redemption with the OUSD vault. This fee is distributed as additional yield to the remaining participants in the vault \(ie. other OUSD holders\). The fee serves as a security feature to make it difficult for attackers to take advantage of lagging oracles, preventing them from siphoning stablecoins from the vault in the event of mispriced underlying assets. The fee exists to incentivize long-term holders over short-term speculators.
+
+Upon redemption, the vault will determine which stablecoin\(s\) to return to the user. In the current implementation, the vault will return coins in the same ratio as the current holdings. This lack of user optionality also protects the vault as a whole in the event that any of the supported stablecoins loses its peg to the dollar.
 
 {% hint style="warning" %}
-**0.5 % 출금 수수료** 가 있으며, 사용자는 어떤 종류의 스테이블 코인을 받을지를 직접 선택할 수는 없습니다.
+Redemptions on the OUSD vault incur a **0.5% exit fee** and the user doesn't get to pick which stablecoins they receive. Users can often avoid this fee by selling to an AMM instead.
 {% endhint %}
 
 #### **자동화 이자 농사(Automated Yield Farming)**
 
-OUSD generates yields by deploying the underlying stablecoins that were deposited to the OUSD smart contract to other DeFi protocols such as Compound, Aave, and Curve. There may be new diversified strategies added to the vault in the future. 수집된 이자, 거래 수수료 및 보상 토큰은 OUSD 표시 수익률을 생성하기 위해 풀링(pooling) 되고 청산됩니다. 시간이 지남에 따라 프로토콜은 OUSD 보유자에게 최상의 수익을 제공하기 위해 프로그래밍 방식으로 자산을 다른 유동성 풀(liquidity pool) 안팎으로 이동합니다.
+OUSD generates yields by deploying the underlying stablecoins that were deposited to the OUSD smart contract to other DeFi protocols such as Compound, Aave, and Curve. There may be new diversified strategies added to the vault in the future. Collected interest, trading fees, and rewards tokens are pooled and converted to stablecoins to produce OUSD-denominated yields. Over time, the protocol will move assets in and out of different liquidity pools in order to provide the best yield to the holders of OUSD.
 
 #### **공급 탄력성**
 
-생성된 수익은 통화 공급의 지속적인 리베이스(rebase) 를 통해 OUSD 보유자에게 전달됩니다. OUSD는 프로토콜이 생성한 수익률에 따라 통화 공급을 지속적으로 조정합니다. 이를 통해 OUSD의 가격은 1달러로 고정되는 반면 토큰 보유자의 지갑 잔액은 프로토콜로 얻은 수익률을 반영하기 위해 실시간으로 조정됩니다.
+The generated returns are passed on to the holders of OUSD via constant rebasing of the money supply. OUSD constantly adjusts the money supply in response to the yield the protocol has generated. This allows the price of OUSD to stay pegged at $1 while the balances in token holders' wallets adjust in real-time to reflect yields that have been earned by the protocol.
 
-결론적으로 OUSD는 사용하기 쉬우며, 자동으로 큰 수익을 제공하기에 기존 스테이블 코인 보다 보유시에 더 많은 이익을 제공하는 스테이블 코인입니다.
+The end result is a stablecoin that is easy to spend, earns outsized yields automatically, and is more desirable to hold than existing stablecoins.
 
