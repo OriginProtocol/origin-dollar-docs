@@ -18,10 +18,6 @@ AMM могут открывать новые рынки только тогда,
 
 Мы намерены интегрироваться со следующими автоматизированными маркет-мейкерами:
 
-{% page-ref page="../supported-strategies/uniswap.md" %}
-
-{% page-ref page="../supported-strategies/balancer.md" %}
-
 
 
 
