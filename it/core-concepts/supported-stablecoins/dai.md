@@ -16,5 +16,5 @@ Dai è la terza più grande stablecoin al mondo con oltre $400 milioni di circol
 | Indirizzo          | [0x6b175474e89094c44da98b954eedeac495271d0f](https://etherscan.io/token/0x6b175474e89094c44da98b954eedeac495271d0f) |
 | Decimali           | 18                                                                                                                  |
 | Sito ufficiale     | [https://makerdao.com/](https://makerdao.com/)                                                                      |
-| Possessori         | Oltre 140.000 indirizzi                                                                                             |
+| Possessori         | Over 380k addresses                                                                                                 |
 
