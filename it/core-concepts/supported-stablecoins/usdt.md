@@ -16,7 +16,7 @@ Nonostante la controversia ****intorno a *****, la mancata fornitura da parte de
 | Indirizzo          | [0xdac17f958d2ee523a2206206994597c13d831](https://etherscan.io/token/0xdac17f958d2ee523a2206206994597c13d831ec7) |
 | Decimali           | 6                                                                                                                |
 | Sito ufficiale     | [https://tether.to/ ](https://tether.to/%20)                                                                     |
-| Possessori         | Oltre 1,8 milioni di indirizzi                                                                                   |
+| Possessori         | Over 3.4M addresses                                                                                              |
 
 
 
