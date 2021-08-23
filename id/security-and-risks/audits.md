@@ -2,12 +2,13 @@
 
 **Gudang OUSD, ERC-20, dan Sistem Keseluruhan**
 
-OUSD telah diaudit oleh beberapa perusahaan keamanan yang dihormati. Kami telah bekerja dengan [Trail of Bits](https://www.trailofbits.com/), [Solidified](https://solidified.io/), dan [Certora](https://www.certora.com/) untuk mengaudit semua kode yang mendukung Origin Dollar. Temuan mereka tersedia di bawah ini:
+OUSD telah diaudit oleh beberapa perusahaan keamanan yang dihormati. We have worked with [OpenZeppelin](https://openzeppelin.com/),  [Trail of Bits](https://www.trailofbits.com/), [Solidified](https://solidified.io/), and [Certora](https://www.certora.com/) to audit all of the code that powers Origin Dollar. Temuan mereka tersedia di bawah ini:
 
 * [Trail of Bits, Audit OUSD, Desember 2020](https://github.com/OriginProtocol/security/blob/master/audits/Trail%20of%20Bits%20-%20Origin%20Dollar%20-%20Dec%202020.pdf)
 * [Solidified, Audit OUSD, Desember 2020](https://github.com/OriginProtocol/security/blob/master/audits/Solidified%20-%20Origin%20Dollar%20-%20Dec%202020.pdf)
 * [Solidified, Audit Staking OUSD, Desember 2020](https://github.com/OriginProtocol/security/blob/master/audits/Solidified%20-%20OGN%20Staking%20-%20Dec%202020.pdf)
 * [Certora, Audit Verifikasi Formal OUSD, Januari 2021](https://www.certora.com/pubs/OriginFeb2021.pdf)
+* OpenZeppelin, OUSD Audit, August 2021 \(Coming soon\)
 
 Token tata kelola, Origin Token \(OGN\), juga diaudit oleh Trail of Bits pada tahun 2018:
 
