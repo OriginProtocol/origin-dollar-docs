@@ -2,12 +2,13 @@
 
 **The OUSD Vault, ERC-20, and Overall System**
 
-OUSD has been audited by multiple, well-respected security firms. We have worked with [Trail of Bits](https://www.trailofbits.com/), [Solidified](https://solidified.io/), and [Certora](https://www.certora.com/) to audit all of the code that powers Origin Dollar. Their findings are available below:
+OUSD has been audited by multiple, well-respected security firms. We have worked with [OpenZeppelin](https://openzeppelin.com/),  [Trail of Bits](https://www.trailofbits.com/), [Solidified](https://solidified.io/), and [Certora](https://www.certora.com/) to audit all of the code that powers Origin Dollar. Their findings are available below:
 
 * [Trail of Bits, OUSD Audit, December 2020](https://github.com/OriginProtocol/security/blob/master/audits/Trail%20of%20Bits%20-%20Origin%20Dollar%20-%20Dec%202020.pdf)
 * [Solidified, OUSD Audit, December 2020](https://github.com/OriginProtocol/security/blob/master/audits/Solidified%20-%20Origin%20Dollar%20-%20Dec%202020.pdf)
 * [Solidified, OGN Staking Audit, December 2020](https://github.com/OriginProtocol/security/blob/master/audits/Solidified%20-%20OGN%20Staking%20-%20Dec%202020.pdf)
 * [Certora, OUSD Formal Verification Audit, January 2021](https://www.certora.com/pubs/OriginFeb2021.pdf)
+* OpenZeppelin, OUSD Audit, August 2021 \(Coming soon\)
 
 The governance token, Origin Token \(OGN\), was also audited by Trail of Bits in 2018:
 
