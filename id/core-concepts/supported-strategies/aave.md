@@ -6,9 +6,9 @@ Saldo jaminan diwakili oleh ERC-20 aTokens dengan rasio 1: 1 terhadap aset dasar
 
 Aave mendukung pinjaman kilat, yaitu pinjaman tanpa jaminan di mana pengguna meminjam dan membayar kembali saldo pinjaman dalam satu transaksi, artinya pengguna pinjaman kilat tidak perlu menyiapkan modal awal. Pinjaman cepat adalah produk kompleks yang ditujukan untuk pengembang dan dapat digunakan untuk arbitrase di beberapa protokol DeFi.
 
-Aave saat ini diatur oleh LEND, token ERC-20 yang sebelumnya merupakan token utilitas untuk ETHLend. Aave telah mengumumkan transisi ke tata kelola yang sepenuhnya terdesentralisasi yang mencakup pertukaran token di mana pengguna menukar LEND dengan AAVE, token tata kelola ERC-20 baru dengan imbalan staking. Beberapa AAVE akan didistribusikan ke pengguna platform dalam kampanye penambangan likuiditas.
+Aave's governance token was formerly called LEND which was the utility token for ETHLend. As part of their transition to fully decentralized governance, LEND holders were able to exchange LEND for AAVE, a new ERC-20 governance token with staking rewards. Some AAVE tokens have been distributed to users of the platform in a liquidity mining campaign.
 
-Nilai total Aave terkunci \ (TVL \) telah dengan cepat tumbuh menjadi lebih dari $ 1,2 miliar, menjadikannya salah satu protokol DeFi terbesar. LEND memiliki kapitalisasi pasar yang beredar lebih dari $700 juta.
+Aave's total value locked \(TVL\) has quickly grown to over $15.5 billion, making it the largest DeFi protocol at the time of writing. LEND has a circulating market cap of over $5.3 billion.
 
 Aave telah menjalani audit keamanan oleh OpenZeppelin, Trail of Bits, dan Consensys Diligence. Aave memelihara program bug bounty.
 
