@@ -16,5 +16,5 @@ Dai adalah stablecoin terbesar ketiga di dunia dengan sirkulasi lebih dari $ 400
 | Alamat            | [0x6b175474e89094c44da98b954eedeac495271d0f](https://etherscan.io/token/0x6b175474e89094c44da98b954eedeac495271d0f) |
 | Desimal           | 18                                                                                                                  |
 | Situs resmi       | [https://makerdao.com/](https://makerdao.com/)                                                                      |
-| Pemegang          | Lebih dari 140 ribu alamat                                                                                          |
+| Pemegang          | Over 380k addresses                                                                                                 |
 
