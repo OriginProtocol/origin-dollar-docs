@@ -8,7 +8,7 @@ Some of Curve's liquidity pools earn extra fees for liquidity providers on top o
 
 Curve is governed by CRV, an ERC-20 governance token. CRV holders can vote on protocol changes. CRV holders can stake their tokens for additional voting power proportional to time staked. CRV is continuously awarded to liquidity providers and a large portion of the total supply of CRV was allocated to the team and investors on a continuous vesting schedule.
 
-Trading volumes on Curve are often over $50 million daily. Curve has a Total Value Locked \(TVL\) of over $1 billion by liquidity providers at the time of writing.
+Curve has a Total Value Locked \(TVL\) of over $11.5 billion by liquidity providers at the time of writing. Hundreds of millions of dollars of trading volume are generated on Curve every day.
 
 Curve has undergone two audits by Trail of Bits and maintains a bug bounty program.
 
