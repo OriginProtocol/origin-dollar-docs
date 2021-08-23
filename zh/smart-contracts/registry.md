@@ -1,25 +1,25 @@
-# 登记处
+# Registry
 
-这是已部署到以太坊主网的 OUSD 智能合约的完整注册表。
+Here is the full registry of OUSD smart contracts that have been deployed to the Ethereum mainnet.
 
 {% hint style="success" %}
-Origin Dollar（OUSD）的主要 ERC20 地址为：   
+The main ERC20 address for Origin Dollar \(OUSD\) is:   
 **0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86**
 {% endhint %}
 
 {% tabs %}
 {% tab title="Core" %}
-知名的地址 \(often proxy wrappers\):
+Well-known addresses \(often proxy wrappers\):
 
-| 合约          | 地址                                                                                                                    | ENS                                                               |
-|:----------- |:--------------------------------------------------------------------------------------------------------------------- |:----------------------------------------------------------------- |
-| OUSD        | [0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86](https://etherscan.io/address/0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86) | [ousd.eth](https://etherscan.io/address/ousd.eth)                 |
-| 保险库 （Vault） | [0xE75D77B1865Ae93c7eaa3040B038D7aA7BC02F70](https://etherscan.io/address/0xe75d77b1865ae93c7eaa3040b038d7aa7bc02f70) | [originvault.eth](https://etherscan.io/address/originvault.eth)   |
-| Oracle      | [0x843530DC8005e13dEA30CEa2394FF60635f38cc4](https://etherscan.io/address/0x843530DC8005e13dEA30CEa2394FF60635f38cc4) | [originoracle.eth](https://etherscan.io/address/originoracle.eth) |
+| Contract | Address                                                                                                               | ENS                                                               |
+|:-------- |:--------------------------------------------------------------------------------------------------------------------- |:----------------------------------------------------------------- |
+| OUSD     | [0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86](https://etherscan.io/address/0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86) | [ousd.eth](https://etherscan.io/address/ousd.eth)                 |
+| Vault    | [0xE75D77B1865Ae93c7eaa3040B038D7aA7BC02F70](https://etherscan.io/address/0xe75d77b1865ae93c7eaa3040b038d7aa7bc02f70) | [originvault.eth](https://etherscan.io/address/originvault.eth)   |
+| Oracle   | [0x843530DC8005e13dEA30CEa2394FF60635f38cc4](https://etherscan.io/address/0x843530DC8005e13dEA30CEa2394FF60635f38cc4) | [originoracle.eth](https://etherscan.io/address/originoracle.eth) |
 
 Internal implementation contracts. The Vault is split into VaultAdmin and VaultCore to work-around the maximum contract size limit on Ethereum:
 
-| 合约               | 地址                                                                                                                    |
+| Contract         | Address                                                                                                               |
 |:---------------- |:--------------------------------------------------------------------------------------------------------------------- |
 | OUSD             | [0x23DCc0Cc5F08b9D85daF8d29490c7f74a655b359](https://etherscan.io/address/0x23DCc0Cc5F08b9D85daF8d29490c7f74a655b359) |
 | VaultAdmin       | [0x8E55b527901BC88206a1cE5C292B2404bcb8F76D](https://etherscan.io/address/0x8e55b527901bc88206a1ce5c292b2404bcb8f76d) |
