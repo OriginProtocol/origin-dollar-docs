@@ -12,19 +12,9 @@ OUSD, stabilcoinleri borç verme platformlarına ve piyasa yapıcı likidite hav
 
 {% page-ref page="aave.md" %}
 
-Integrations are currently planned or being built for the following platforms:
+Although DeFi has grown very quickly and there are now billions of dollars worth of value deposited on these platforms, several of these projects are still in beta and are highly experimental. There may be hidden vulnerabilities in the smart contracts that power these platforms, and there have been multi-million dollar losses caused by vulnerabilities in Ethereum applications in the past.
 
-{% page-ref page="dydx.md" %}
-
-{% page-ref page="uniswap.md" %}
-
-{% page-ref page="balancer.md" %}
-
-{% page-ref page="yearn.finance.md" %}
-
-DeFi çok hızlı bir şekilde büyümesine ve şu anda bu platformlara yatırılan milyarlarca dolar değerinde değer olmasına rağmen, bu projelerin birçoğu hala beta aşamasındadır ve oldukça deneyseldir. Bu platformlara güç veren akıllı sözleşmelerde gizli güvenlik açıkları olabilir ve geçmişte Ethereum uygulamalarındaki güvenlik açıklarının neden olduğu multi milyon dolarlık kayıplar olmuştur.
-
-Desteklediğimiz platformlardaki güvenlik olaylarını yakından izliyoruz ve herhangi bir tehdit tespit edersek, derhal OUSD sahibi fonlarını korumak için harekete geçeceğiz.
+We closely monitor security events on the platforms we support and will immediately move to secure OUSD holder funds if we identify any threats.
 
 
 
