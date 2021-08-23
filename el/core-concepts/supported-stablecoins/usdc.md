@@ -16,7 +16,7 @@ USDC is the world's second-largest stablecoin after USDT and has quickly grown t
 | Address       | [0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48](https://etherscan.io/token/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48) |
 | Decimals      | 6                                                                                                                   |
 | Official site | [https://www.centre.io/usdc](https://www.centre.io/usdc)                                                            |
-| Holders       | Over 200k addresses                                                                                                 |
+| Holders       | Over 1M addresses                                                                                                   |
 
 
 
