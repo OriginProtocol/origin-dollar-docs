@@ -12,8 +12,6 @@ OUSD terintegrasi dengan penyedia pinjaman terkemuka yang memiliki rekam jejak y
 
 {% page-ref page = "../ didukung-strategi / aave.md"%}
 
-Kami berencana untuk mengintegrasikan platform pinjaman berikut:
-
 
 
 
