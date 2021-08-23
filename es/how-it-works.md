@@ -16,7 +16,7 @@ Los usuarios convierten sus monedas estables existentes \ (actualmente USDT, USD
 
 **Canjeando OUSD**
 
-Los usuarios pueden volver a convertir su OUSD en otras monedas estables en cualquier momento utilizando [Origin Dollar DApp](www.ousd.com). Se cobra una tarifa de salida del 0,5% en el momento del canje y se distribuye como rendimiento adicional a los participantes restantes en el grupo de liquidez. La tarifa sirve como una característica de seguridad para dificultar que los atacantes aprovechen los oráculos rezagados, lo que les impide desviar monedas estables del grupo de liquidez en caso de errores en los precios de los activos subyacentes. La tarifa existe para incentivar a los holders a largo plazo sobre los especuladores a corto plazo.
+Los usuarios pueden volver a convertir su OUSD en otras monedas estables en cualquier momento utilizando [Origin Dollar DApp](www.ousd.com). Se cobra una tarifa de salida del 0,5% en el momento del canje y se distribuye como rendimiento adicional a los participantes restantes en el grupo de liquidez. The fee serves as a security feature to make it difficult for attackers to take advantage of lagging oracles, preventing them from siphoning stablecoins from the vault in the event of mispriced underlying assets. La tarifa existe para incentivar a los holders a largo plazo sobre los especuladores a corto plazo.
 
 Tras el canje, el contrato inteligente determinará qué moneda estable \ (s \) devolver al usuario. En la implementación actual, el grupo de liquidez devolverá monedas en la misma proporción que las existencias actuales. Esta falta de opciones para el usuario también protege al grupo de liquidez en su conjunto en caso de que alguna de las monedas estables admitidas pierda su vínculo con el dólar.
 
@@ -26,7 +26,7 @@ Hay una tarifa de salida de **0.5%** y el usuario no puede elegir qué monedas e
 
 #### **Rendimiento de Cultivo Automatizado **
 
-OUSD genera rendimientos mediante la implementación de las monedas estables subyacentes que se depositaron en el contrato inteligente de OUSD en otros protocolos DeFi como Compound, Aave, Uniswap, Balancer y Curve. Se espera que cada mes se agreguen nuevas estrategias diversificadas al grupo de liquidez. Los intereses cobrados, las tarifas de tradeo y los tokens de recompensa se agrupan y se convierten en monedas estables para producir rendimientos denominados en OUSD. Con el tiempo, el protocolo moverá activos dentro y fuera de diferentes grupos de liquidez para brindar el mejor rendimiento a los holders de OUSD.
+OUSD generates yields by deploying the underlying stablecoins that were deposited to the OUSD smart contract to other DeFi protocols such as Compound, Aave, and Curve. There may be new diversified strategies added to the vault in the future. Los intereses cobrados, las tarifas de tradeo y los tokens de recompensa se agrupan y se convierten en monedas estables para producir rendimientos denominados en OUSD. Con el tiempo, el protocolo moverá activos dentro y fuera de diferentes grupos de liquidez para brindar el mejor rendimiento a los holders de OUSD.
 
 #### **Suministro Elástico**
 
