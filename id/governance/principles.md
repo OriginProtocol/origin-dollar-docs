@@ -2,7 +2,7 @@
 
 **Desentralisasi Progresif**
 
-OUSD dirancang untuk menjadi protokol terdesentralisasi yang diatur oleh banyak pemangku kepentingan di seluruh dunia. Kami percaya bahwa pembuat dan pemegang OUSD harus secara kolektif menentukan keputusan protokol yang penting secepat mungkin.
+OUSD dirancang untuk menjadi protokol terdesentralisasi yang diatur oleh banyak pemangku kepentingan di seluruh dunia. We believe that the holders of OUSD should collectively determine important protocol decisions as soon as possible.
 
 Meskipun demikian, pada masa-masa awal, sangat penting bagi tim teknisi inti untuk bertindak cepat dan tegas untuk membangun bagian dasar protokol.
 
@@ -10,17 +10,21 @@ Desentralisasi akan berkembang pesat dalam empat fase dalam beberapa bulan menda
 
 ![](../.gitbook/assets/ousd_docs_graphics_2%20%283%29.png)
 
+**Governance Portal**
+
+OGN holders are encouraged to participate in creating and voting on proposals that impact the protocol in the [OGN governance portal](https://vote.originprotocol.com). Anyone with at least 1,000 OGN in their wallet or staked in our OGN Staking contract can create a new proposal. All OGN holders are able to vote for proposals. Our desire is for our community to have a strong impact on the direction of Origin’s products, open-source codebase, and to have a voice in key business decisions and the overall direction of the project.
+
 **Timelock**
 
-Sebelum tata kelola terdesentralisasi penuh, kami akan menerapkan [timelock](../smart-contracts/api/timelock.md) di depan semua panggilan fungsi admin, memberikan waktu kepada pengguna OUSD untuk menarik dana mereka jika mereka keberatan dengan peningkatan yang kami usulkan.
+Prior to full decentralized governance, we will implement a [timelock](../smart-contracts/api/timelock.md) in front of all admin function calls, giving OUSD users time to withdraw their funds if they have objections to our proposed upgrades.
 
-**Pemangku Kepentingan Baru dan Yang Sudah Ada**
+**New and Existing Stakeholders**
 
-OUSD adalah proyek baru yang didirikan oleh [tim](www.originprotocol.com/team) Origin Protocol dan akan didukung oleh komunitas Origin yang sudah ada serta banyak pemangku kepentingan baru yang memilih untuk mencetak, menahan, menggunakan, dan menyediakan likuiditas untuk OUSD.
+OUSD is a new project founded by Origin Protocol [team](www.originprotocol.com/team) and will be supported by the existing Origin community as well as many new stakeholders that choose to mint, hold, use, and provide liquidity for OUSD.
 
-Selain itu, kami juga ingin memastikan partisipasi yang tinggi dari pemegang Token Asal \ (OGN \) kami yang sudah ada, komunitas dengan hampir 500.000 anggota, dan pembeli / penjual di Platform. Pemegang OGN yang ada dapat [stake OGN mereka](ogn-staking.md) untuk berpartisipasi dalam tata kelola dan mendapatkan insentif untuk mendorong nilai ke OUSD.
+In addition, we also want to ensure high participation from our existing Origin Token \(OGN\) holders and the millions of people in our community. Existing OGN holders are able to [stake their OGN](ogn-staking.md) to participate in governance and earn incentives for driving value to OUSD.
 
-Hubungan yang kuat antara OUSD dan platform perdagangan Origin lainnya akan mendorong pertumbuhan di kedua inisiatif.
+The strong connection between OUSD and the rest of the Origin commerce platform will fuel growth in both initiatives.
 
 
 
