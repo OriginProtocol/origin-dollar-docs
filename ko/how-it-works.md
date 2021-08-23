@@ -16,7 +16,7 @@ OUSD는 USDT, USDC 및 DAI와 같은 검증된 스테이블 코인이 1:1로 지
 
 **OUSD 사용하기**
 
-사용자는 [오리진 달러 디앱(DApp)](www.ousd.com)을 사용하여 언제든지 OUSD를 다른 스테이블 코인(stablecoin) 으로 전환 할 수 있습니다. A 0.5% exit fee is charged upon redemption and is distributed as additional yield to the remaining participants in the vault. The fee serves as a security feature to make it difficult for attackers to take advantage of lagging oracles, preventing them from syphoning stablecoins from the vault in the event of mispricings of of the underlying assets. 해당 수수료는 단기 투기자 보다는 장기 보유자가 될 것을 장려하기 위해 존재합니다.
+사용자는 [오리진 달러 디앱(DApp)](www.ousd.com)을 사용하여 언제든지 OUSD를 다른 스테이블 코인(stablecoin) 으로 전환 할 수 있습니다. A 0.5% exit fee is charged upon redemption and is distributed as additional yield to the remaining participants in the vault. The fee serves as a security feature to make it difficult for attackers to take advantage of lagging oracles, preventing them from siphoning stablecoins from the vault in the event of mispriced underlying assets. 해당 수수료는 단기 투기자 보다는 장기 보유자가 될 것을 장려하기 위해 존재합니다.
 
 상환시 스마트 컨트렉트는 사용자에게 반환할 스테이블 코인을 결정합니다. In the current implementation, the vault will return coins in the same ratio as the current holdings. This lack of user optionality also protects the vault as a whole in the event that any of the supported stablecoins loses its peg to the dollar.
 
@@ -26,7 +26,7 @@ OUSD는 USDT, USDC 및 DAI와 같은 검증된 스테이블 코인이 1:1로 지
 
 #### **자동화 이자 농사(Automated Yield Farming)**
 
-OUSD는 OUSD 스마트 컨트렉트에 예치된 기본 스테이블 코인을 컴파운드(Compound), 에이브(Aave), 유니스왑(Uniswap), 밸런서(Balance) 및 커브(Curve) 와 같은 다른 디파이(DeFi) 프로토콜에 배포하여 수익을 창출합니다. It is expected there will be new diversified strategies added to the vault every month. 수집된 이자, 거래 수수료 및 보상 토큰은 OUSD 표시 수익률을 생성하기 위해 풀링(pooling) 되고 청산됩니다. 시간이 지남에 따라 프로토콜은 OUSD 보유자에게 최상의 수익을 제공하기 위해 프로그래밍 방식으로 자산을 다른 유동성 풀(liquidity pool) 안팎으로 이동합니다.
+OUSD generates yields by deploying the underlying stablecoins that were deposited to the OUSD smart contract to other DeFi protocols such as Compound, Aave, and Curve. There may be new diversified strategies added to the vault in the future. 수집된 이자, 거래 수수료 및 보상 토큰은 OUSD 표시 수익률을 생성하기 위해 풀링(pooling) 되고 청산됩니다. 시간이 지남에 따라 프로토콜은 OUSD 보유자에게 최상의 수익을 제공하기 위해 프로그래밍 방식으로 자산을 다른 유동성 풀(liquidity pool) 안팎으로 이동합니다.
 
 #### **공급 탄력성**
 
