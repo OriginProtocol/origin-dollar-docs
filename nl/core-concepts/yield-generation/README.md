@@ -4,9 +4,9 @@
 
 While the Cambrian explosion of new lending and automated market maker pools has fueled total value locked \(TVL\), it has also made it increasingly challenging for yield farmers to manually allocate capital in efficient and optimal ways.
 
-[Yearn](https://yearn.finance/) has demonstrated that smart contracts can automate the rebalancing of funds across various strategies to optimally earn lending interest, market making fees, and rewards tokens. Over time, new strategies will be deployed that maximize returns while minimizing risk and dependencies.
+[Yearn](https://yearn.finance/) has demonstrated that smart contracts can automate the rebalancing of funds across various strategies to optimally earn lending interest, market-making fees, and rewards tokens. Over time, new strategies will be deployed that maximize returns while minimizing risk and dependencies.
 
-![](../../.gitbook/assets/ousd_docs_graphics_1.png)
+![Automated yield farming on the OUSD protocol](../../.gitbook/assets/ousd_earnings_graphic.png)
 
 OUSD uses the following high-level strategies for generating yield:
 
