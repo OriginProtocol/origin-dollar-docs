@@ -1,26 +1,16 @@
-# Supported Strategies
+# 支持策略
 
-**Supported DeFi Platforms**
+**支持的DeFi平台**
 
-OUSD generates yield by depositing stablecoins into lending platforms and market maker liquidity pools. It is important to understand that these platforms do carry technological risk and funds can be lost if there is a major security event. We are choosing to work with the platforms that have had their smart contracts audited and that we feel are most secure.
+OUSD 通过将稳定币存入贷款平台和做市商流动性池来产生收益。 请注意，这些平台都带来技术风险。如果发生重大安全事件，可能会导致资金的亏损。 我们选择使用已经过智能合约审核并且我们认为是最安全的平台。
 
-Currently, OUSD earns yield from the following platform\(s\):
+目前，OUSD 从以下平台赚取收益：
 
 {% page-ref page="compound.md" %}
 
 {% page-ref page="curve.md" %}
 
 {% page-ref page="aave.md" %}
-
-Integrations are currently planned or being built for the following platforms:
-
-{% page-ref page="dydx.md" %}
-
-{% page-ref page="uniswap.md" %}
-
-{% page-ref page="balancer.md" %}
-
-{% page-ref page="yearn.finance.md" %}
 
 Although DeFi has grown very quickly and there are now billions of dollars worth of value deposited on these platforms, several of these projects are still in beta and are highly experimental. There may be hidden vulnerabilities in the smart contracts that power these platforms, and there have been multi-million dollar losses caused by vulnerabilities in Ethereum applications in the past.
 
