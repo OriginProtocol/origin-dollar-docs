@@ -12,19 +12,9 @@ Saat ini, OUSD mendapatkan hasil dari platform berikut \ (s \):
 
 {% page-ref page="aave.md" %}
 
-Integrasi saat ini sedang direncanakan atau sedang dibangun untuk platform berikut:
+Although DeFi has grown very quickly and there are now billions of dollars worth of value deposited on these platforms, several of these projects are still in beta and are highly experimental. There may be hidden vulnerabilities in the smart contracts that power these platforms, and there have been multi-million dollar losses caused by vulnerabilities in Ethereum applications in the past.
 
-{% page-ref page="dydx.md" %}
-
-{% page-ref page="uniswap.md" %}
-
-{% page-ref page="balancer.md" %}
-
-{% page-ref page="yearn.finance.md" %}
-
-Meskipun DeFi telah berkembang sangat cepat dan sekarang ada nilai miliaran dolar yang disimpan di platform ini, beberapa dari proyek ini masih dalam versi beta dan sangat eksperimental. Mungkin ada kerentanan tersembunyi dalam kontrak pintar yang memberdayakan platform ini, dan ada kerugian jutaan dolar yang disebabkan oleh kerentanan dalam aplikasi Ethereum di masa lalu.
-
-Kami memantau dengan cermat peristiwa keamanan pada platform yang kami dukung dan akan segera bergerak untuk mengamankan dana pemegang OUSD jika kami mengidentifikasi ancaman apa pun.
+We closely monitor security events on the platforms we support and will immediately move to secure OUSD holder funds if we identify any threats.
 
 
 
