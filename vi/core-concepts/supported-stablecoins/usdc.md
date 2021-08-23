@@ -16,7 +16,7 @@ USDC là stablecoin lớn thứ hai thế giới sau USDT và nhanh chóng tăng
 | Địa chỉ         | [0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48](https://etherscan.io/token/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48) |
 | Decimal         | 6                                                                                                                   |
 | Website        | [https://www.centre.io/usdc](https://www.centre.io/usdc)                                                            |
-| Người nắm giữ   | Hơn 200k địa chỉ                                                                                                    |
+| Người nắm giữ   | Over 1M addresses                                                                                                   |
 
 
 
