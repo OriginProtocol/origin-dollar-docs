@@ -12,8 +12,6 @@ OUSD tích hợp với các nhà cung cấp dịch vụ cho vay hàng đầu đ�
 
 {% page-ref page="../supported-strategies/aave.md" %}
 
-Chúng tôi dự kiến tích hợp với các nền tảng cho vay sau:
-
 
 
 
