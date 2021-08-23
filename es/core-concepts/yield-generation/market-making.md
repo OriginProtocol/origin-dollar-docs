@@ -18,10 +18,6 @@ Actualmente estamos integrados con el siguiente creador de mercado automatizado:
 
 Tenemos la intención de integrarnos directamente con al menos los siguientes creadores de mercado automatizados:
 
-{% page-ref page="../supported-Strategies/uniswap.md"%}
-
-{% page-ref page="../supported-Strategies /balancer.md"%}
-
 
 
 
