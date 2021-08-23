@@ -22,10 +22,6 @@
   * [Compound](core-concepts/supported-strategies/compound.md)
   * [Curve](core-concepts/supported-strategies/curve.md)
   * [Aave](core-concepts/supported-strategies/aave.md)
-  * [dYdX](core-concepts/supported-strategies/dydx.md)
-  * [Uniswap](core-concepts/supported-strategies/uniswap.md)
-  * [Balancer](core-concepts/supported-strategies/balancer.md)
-  * [Yearn.finance](core-concepts/supported-strategies/yearn.finance.md)
 * [Quản lý quỹ](core-concepts/fund-management.md)
 * [Ước tính giá](core-concepts/price-oracles.md)
 
