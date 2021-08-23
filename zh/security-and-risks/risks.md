@@ -1,4 +1,4 @@
-# 风险
+# Risks
 
 {% hint style="danger" %}
 Use at your own risk. Do not deploy more capital than you are willing to lose.
@@ -8,7 +8,7 @@ As with any yield-generating DeFi product, there are associated risks with holdi
 
 * OUSD smart contract risk
 * Underlying third-party platform risk
-* 底层稳定币风险
+* Underlying stablecoin risk
 
 **OUSD smart contract risk**
 
@@ -18,11 +18,11 @@ Our smart contracts have been [audited](audits.md) by multiple, well-respected s
 
 OUSD is built on top of other DeFi platforms like Aave, Compound, and Curve that add additional smart contract risk. We are choosing to work with platforms that have literally billions of dollars of assets under management and have made a reasonable efforts to ensure the security of their protocols. However, there are no guarantees that the underlying third-party platforms will continue to work as intended, and any failure in an underlying strategy would potentially lead to a loss of funds for OUSD holders.
 
-**稳定币风险**
+**Stablecoin risks**
 
-必须了解的是，OUSD 仅与支持它的稳定币一样强大。 Any loss of value to an underlying stablecoin asset will cause a similar loss to the value of OUSD. While OUSD is designed to maintain a 1:1 relationship between supply and number of backing stablecoins, it does not guarantee which stablecoins will make up that backing nor the value of those coins.
+It is important to understand that OUSD is only as strong as the stablecoins that are backing it. Any loss of value to an underlying stablecoin asset will cause a similar loss to the value of OUSD. While OUSD is designed to maintain a 1:1 relationship between supply and number of backing stablecoins, it does not guarantee which stablecoins will make up that backing nor the value of those coins.
 
-值得注意的是，所有这些稳定币都会带来重要的交易对手风险。 尤其是 Tether 遇到了许多银行业麻烦和监管挑战。 此外，USDT 和 USDC 都有后门，可以让发行者有权冻结持有者钱包中的资金。 While DAI does not have any direct backdoors, its assets can also be negatively impacted since USDC and USDT are accepted as collateral for minting DAI.
+It is important to note that each of the supported stablecoins introduces non-trivial counter-party risk. Tether, in particular, has had well-documented banking troubles and regulatory challenges. In addition, both USDT and USDC have backdoors that grant their issuers the power to freeze money in their holder's wallets. While DAI does not have any direct backdoors, its assets can also be negatively impacted since USDC and USDT are accepted as collateral for minting DAI.
 
 **Risk mitigation**
 
