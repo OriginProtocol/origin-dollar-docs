@@ -16,7 +16,7 @@ USDC는 USDT 다음으로 세계에서 두 번째로 큰 규모의 스테이블 
 | 주소            | [0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48](https://etherscan.io/token/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48) |
 | 데시멀(Decimals) | 6                                                                                                                   |
 | 공식 사이트        | [https://www.centre.io/usdc](https://www.centre.io/usdc)                                                            |
-| 보유자           | 200만 개 이상의 주소                                                                                                       |
+| 보유자           | Over 1M addresses                                                                                                   |
 
 
 
