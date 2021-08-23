@@ -18,10 +18,6 @@ Kami saat ini terintegrasi dengan pembuat pasar otomatis berikut:
 
 Kami bermaksud untuk berintegrasi dengan pembuat pasar otomatis berikut:
 
-{% page-ref page = "../ didukung-strategi / uniswap.md"%}
-
-{% page-ref page = "../ didukung-strategi / balancer.md"%}
-
 
 
 
