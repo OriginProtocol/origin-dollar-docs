@@ -16,7 +16,7 @@ USDC, USDT'den sonra dünyanın en büyük ikinci stabilcoinidir ve hızla dola�
 | Adres            | [0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48](https://etherscan.io/token/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48) |
 | Decimals         | 6                                                                                                                   |
 | Resmi site       | [https://www.centre.io/usdc](https://www.centre.io/usdc)                                                            |
-| Sahipleri        | 140 binden fazla adres                                                                                              |
+| Sahipleri        | Over 1M addresses                                                                                                   |
 
 
 
