@@ -11,13 +11,15 @@ description: >-
 
 Разрядность других стейблкоинов отличается. DAI использует 18 знаков после запятой, в то время как USDC и USDT имеют только 6 разрядов.
 
+Efforts are [currently underway](https://github.com/OriginProtocol/origin-dollar/issues/590) to increase the resolution of rebasing calculations from 18 decimals to 27 decimals. The OUSD token itself will still retain 18 decimals of precision and user balances should not change.
+
 ## Методы‌
 
 ### mint\(\) <a id="mint"></a>
 
 **`function mint(address _asset, uint256 _amount, uint256 _minimumOusdAmount)`**‌
 
-Создает новые токены OUSD в обмен на определенное количество `__amount` стейблкоинов, указанных параметром `_asset`. Вызывающий функцию получает определенное количество OUSD в зависимости от **обменного курса**.
+Mints OUSD in exchange for a deposit of a certain `_amount` of stablecoin specified by the `_asset` parameter. The caller receives a certain amount of OUSD depending on the **exchange rate**.
 
 | Имя параметра         | Тип     | Описание                                                                                                                                                         |
 |:--------------------- |:------- |:---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -27,9 +29,9 @@ description: >-
 
 ### mintMultiple\(\) <a id="mintmultiple"></a>
 
-**`function mintMultiple(address[] _assets, uint256[] _amounts, uint256 _minimumOusdAmount)`**
+**`function mintMultiple(address[] _assets, uint256[] _amounts, uint256 _minimumOusdAmount)`**‌
 
-Создает новые токены OUSD в обмен на определенное количество разных стейблкоинов за один вызов функции. Стейблкоины указываются параметром массива `_assets` а суммы - параметром массива `_amounts`. Вызывающий функцию получает определенное количество OUSD в зависимости от **обменного курса**.
+Mints OUSD in exchange for a deposit of multiple stablecoins in a single call. Stablecoins are specified by the `_assets` array parameter and the amounts by the `_amounts` array parameter. The caller receives a certain amount of OUSD depending on the **exchange rate**.
 
 | Имя параметра         | Тип           | Описание                                                                                                                                                         |
 |:--------------------- |:------------- |:---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -38,14 +40,14 @@ description: >-
 | \_minimumOusdAmount | uint256       | Минимальное количество OUSD, получаемое в процессе вызова функции. Вызов функции mint\(\) отменяется, если количество создаваемых токенов меньше минимального. |
 
 {% hint style="warning" %}
-Во время выкупа именно протоколом, а не пользователем, принимается решение о том, какой (-ие) стейблкоин (-ы) возвращаются пользователю. Решение о том, какую монету (-ы) возвратить, основывается на внутренних соотношениях активов в хранилище.‌
+On redemptions, it is the protocol and not the user that decides which stablecoin\(s\) are returned to the user. This decision of which coin\(s\) to return is based on the internal ratios of the assets that are being held in the vault.‌
 {% endhint %}
 
 ### redeem\(\) <a id="redeem"></a>
 
 **`function redeem(uint256 _amount)`**‌
 
-OUSD, указанный в параметре `_amount`, выкупается в обмен на один или несколько поддерживаемых стейблкоинов. Количество полученных стейблкоинов зависит от **обменного курса**.
+OUSD specified by the `_amount` parameter is redeemed in exchange for one or multiple supported stablecoins. Amount of stablecoins received depends on the **exchange rate**.
 
 | Имя параметра | Тип     | Описание                                          |
 |:------------- |:------- |:------------------------------------------------- |
@@ -55,25 +57,25 @@ OUSD, указанный в параметре `_amount`, выкупается �
 
 **`function redeemAll()`**‌
 
-Все OUSD, которыми владеет пользователь, выкупаются в обмен на один или несколько поддерживаемых стейблкоинов. Количество полученных стейблкоинов зависит от **обменного курса**.
+All OUSD in user's possession is redeemed in exchange for one or multiple supported stablecoins. Amount of stablecoins received depends on the **exchange rate**.
 
 ### rebase\(\) <a id="rebase"></a>
 
-**`function rebase()`**
+**`function rebase()`**‌
 
-Обновление балансов всех пользователей основывается на стоимости активов в хранилище. Возвращает общую стоимость базовых активов и стратегий, представленных типом `uint256`
+Updates the balances for all users based on the value of the assets currently stored in the vault. Returns total value of the underlying assets and strategies represented by `uint256` type.‌
 
 ### allocate\(\) <a id="allocate"></a>
 
-**`function allocate()`**
+**`function allocate()`**‌
 
-Перемещает управляемые активы согласно заранее заданных [Стратегий](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/architecture/strategies) для максимального увеличения доходности и диверсификации рисков.
+Moves the assets under management into their prescribed [Stategies](https://app.gitbook.com/@originprotocol/s/ousd/~/drafts/-MHSojsgAcBjyg6RCmpF/architecture/strategies) to maximize yield and diversify risk.‌
 
 ### totalValue\(\) <a id="totalvalue"></a>
 
-**`function totalValue()`**
+**`function totalValue()`**‌
 
-Возвращает общую стоимость базовых активов и стратегий.
+Returns total value of underlying assets and strategies.
 
 | Имя параметра | Тип     | Описание                                     |
 |:------------- |:------- |:-------------------------------------------- |
@@ -83,7 +85,7 @@ OUSD, указанный в параметре `_amount`, выкупается �
 
 **`function checkBalance(address _asset)`**‌
 
-Возвращает баланс актива, указанного параметром`_asset` находящегося в Хранилище, и всех стратегий, представленных типом `uint256`.
+Returns the balance of an asset specified by the`_asset` parameter held in Vault and all strategies represented by `uint256` type.
 
 | Имя параметра | Тип   | Описание                                                                                                                                         |
 |:------------- |:----- |:------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -93,11 +95,11 @@ OUSD, указанный в параметре `_amount`, выкупается �
 
 **`function calculateRedeemOutputs(uint256 _amount)`**‌
 
-Вычисляет набор стейблкоинов, которые функция `redeem` вернет при выкупе определенного количества OUSD, указанного параметром `_amount`. Возвращает массив стоимости стейблкоинов.
+Calculate the mix of stablecoins that a `redeem` function would return when redeeming certain amount of OUSD specified by the `_amount` parameter. Returns an array of stablecoin values.
 
-Чтобы получить соотношение стоимости стейблкоина и его правильного курса, данный вызов функции следует использовать вместе с функцией `getAllAssets`, которая возвращает массив адресов стейблкоинов.
+To attribute the stablecoin values to the correct stablecoin currency this call should be used in conjunction with `getAllAssets` function that returns an array of stablecoin addresses.
 
-Индекс массива, который возвращает функция `calculateRedeemOutputs`, соответствует адресу стейблкоина с таким же индексом в массиве, возвращаемым функцией `getAllAssets`.
+The index of an array that is returned by the `calculateRedeemOutputs` corresponds to the stablecoin address with the same index in an array returned by the `getAllAssets` function.
 
 | Имя параметра | Тип     | Описание                                     |
 |:------------- |:------- |:-------------------------------------------- |
@@ -111,31 +113,31 @@ OUSD, указанный в параметре `_amount`, выкупается �
 
 **`function getAssetCount()`**‌
 
-Возвращает количество поддерживаемых стейблкоинов, представленных типом `uint256`
+Return the number of supported stablecoin assets represented by `uint256` type.‌
 
 ### getAllAssets\(\) <a id="getallassets"></a>
 
 **`function getAllAssets()`**‌
 
-Возвращает все адреса балансов поддерживаемых стейблкоинов, представленных типом `uint256`
+Return all assets addresses of supported stablecoin assets in order represented by `uint256` type.‌
 
 ### getStrategyCount\(\)‌ <a id="getstrategycount"></a>
 
 **`function getStrategyCount()`**‌
 
-Возвращает количество активных стратегий Хранилища (Vault), представленных типом `uint256`
+Return the number of strategies active on the Vault represented by `uint256` type.‌
 
 ### getAPR\(\) <a id="getapr"></a>
 
 **`function getAPR()`**‌
 
-Возвращает общую годовую процентную доходность \(APR\) Хранилища (Vault) и всех стратегий, представленных типом `uint256`. Полученное число является 18-ти разрядным.‌
+Return the total annual percentage yield \(APR\) of the Vault and all Strategies represented by `uint256` type. Resulting number has 18 decimal places.‌
 
 ### isSupportedAsset\(\) <a id="issupportedasset"></a>
 
-**`function isSupportedAsset(address _asset)`**
+**`function isSupportedAsset(address _asset)`**‌
 
-Возвращает двоичное значение, которое является истиной, если актив, указанный параметром `_asset` поддерживается Хранилищем (Vault).
+Return the boolean that is true if the asset specified by the `_asset` parameter is supported by the Vault.
 
 | Имя параметра | Тип   | Описание          |
 |:------------- |:----- |:----------------- |
@@ -145,7 +147,7 @@ OUSD, указанный в параметре `_amount`, выкупается �
 
 **`function priceUSDMint(string symbol)`**‌‌
 
-Возвращает обменный курс стейблкоина, заданный параметрами `symbol`, которые используются при выпуске новых токенов OUSD, представленных типом `uint256`. Полученное число является 18-ти разрядным.
+Returns the exchange rate price of a stable coin specified by the `symbol` parameters used when minting OUSD represented by `uint256` type. Resulting number has 18 decimal places.
 
 | Имя параметра | Тип    | Описание           |
 |:------------- |:------ |:------------------ |
@@ -155,7 +157,7 @@ OUSD, указанный в параметре `_amount`, выкупается �
 
 **`function priceUSDRedeem(string symbol)`**‌‌
 
-Возвращает обменный курс стейблкоина, заданный параметром `symbol`, которые используются при выкупе OUSD, представленных типом `uint256`. Полученное число является 18-ти разрядным.
+Returns the exchange rate price of a stable coin specified by the `symbol` parameters used when redeeming OUSD represented by `uint256` type. Resulting number has 18 decimal places.
 
 | Имя параметра | Тип    | Описание           |
 |:------------- |:------ |:------------------ |
@@ -165,7 +167,7 @@ OUSD, указанный в параметре `_amount`, выкупается �
 
 **`function priceAssetUSDMint(address _asset)`**‌‌
 
-Возвращает курс обмена стейблкоина, заданный параметрами `_asset` используемыми при выпуске токенов OUSD, представленных типом `uint256`. Полученное число является 18-ти разрядным.
+Returns the exchange rate price of a stable coin specified by the `_asset` parameters used when minting OUSD represented by `uint256` type. Resulting number has 18 decimal places.
 
 | Имя параметра | Тип   | Описание           |
 |:------------- |:----- |:------------------ |
@@ -175,7 +177,7 @@ OUSD, указанный в параметре `_amount`, выкупается �
 
 **`function priceAssetUSDRedeem(address _asset)`**‌‌‌
 
-Возвращает курс обмена стейблкоина, заданный параметрами `_asset` используемыми при выкупе OUSD, представленных типом `uint256`. Полученное число является 18-ти разрядным.
+Returns the exchange rate price of a stable coin specified by the `_asset` parameters used when redeeming OUSD represented by `uint256` type. Resulting number has 18 decimal places.
 
 | Имя параметра | Тип   | Описание          |
 |:------------- |:----- |:----------------- |
