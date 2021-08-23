@@ -2,7 +2,7 @@
 
 Kontrak pintar OUSD menggabungkan semua deposit stablecoin pengguna ke dalam satu kumpulan aset yang dapat digunakan. Dana kemudian dialokasikan di satu atau lebih strategi penghasilan **** pada saat tertentu. Vault lebih menyukai strategi hasil tinggi tetapi juga berusaha mempertahankan diversifikasi di berbagai strategi. Diversifikasi menghilangkan satu titik kegagalan dan mengurangi risiko.
 
-Berbeda dengan peluang Yearn Vaults, TokenSets, atau Zapper, pengguna tidak memilih strategi individu. Semua stablecoin yang disimpan dan akibatnya semua token OUSD dapat dipertukarkan. Setelah struktur tata kelola penuh kami diterapkan, keputusan ini akan dibuat dengan masukan dari pemegang token tata kelola OUSD.
+Berbeda dengan peluang Yearn Vaults, TokenSets, atau Zapper, pengguna tidak memilih strategi individu. Semua stablecoin yang disimpan dan akibatnya semua token OUSD dapat dipertukarkan. Setelah struktur tata kelola penuh kami diterapkan, keputusan ini akan dibuat dengan masukan dari pemegang token tata kelola OUSD. OGN holders are encouraged to participate in creating and voting on proposals that impact the protocol in the [OGN governance portal](https://vote.originprotocol.com).
 
 **Strategi Penghasilan**
 
