@@ -4,9 +4,9 @@
 
 Mentre l'esplosione di Cambrian dei nuovi pool di prestiti e market making automatizzati ha alimentato il valore totale bloccato \(TVL\), allo stesso tempo ha anche fatto sì che diventasse sempre più difficile allocare manualmente il capitale in modi efficienti e ottimali per i procacciatori di yield.
 
-[Yearn](https://yearn.finance/) ha dimostrato che gli smart contract possono automatizzare il ribilanciamento dei fondi attraverso varie strategie per guadagnare in modo ottimizzato: interessi di prestito, commissioni di market making e token di ricompensa. Over time, new strategies will be deployed that maximize returns while minimizing risk and dependencies.
+[Yearn](https://yearn.finance/) has demonstrated that smart contracts can automate the rebalancing of funds across various strategies to optimally earn lending interest, market-making fees, and rewards tokens. Over time, new strategies will be deployed that maximize returns while minimizing risk and dependencies.
 
-![](../../.gitbook/assets/ousd_docs_graphics_1.png)
+![Automated yield farming on the OUSD protocol](../../.gitbook/assets/ousd_earnings_graphic.png)
 
 OUSD uses the following high-level strategies for generating yield:
 
