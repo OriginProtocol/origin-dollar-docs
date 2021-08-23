@@ -12,8 +12,6 @@ OUSD, kanıtlanmış bir sicile sahip, akıllı sözleşmeleri denetleyen ve sor
 
 {% page-ref page = "../ supported-Strategies / complex.md"%}
 
-We are planning on integrating the following lending platform:
-
 
 
 
