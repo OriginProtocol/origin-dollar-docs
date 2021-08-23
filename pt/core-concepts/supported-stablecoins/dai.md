@@ -16,5 +16,5 @@ Dai is the world's third-largest stablecoin with over $400 million in circulatio
 | Address       | [0x6b175474e89094c44da98b954eedeac495271d0f](https://etherscan.io/token/0x6b175474e89094c44da98b954eedeac495271d0f) |
 | Decimals      | 18                                                                                                                  |
 | Official site | [https://makerdao.com/](https://makerdao.com/)                                                                      |
-| Holders       | Over 140k addresses                                                                                                 |
+| Holders       | Over 380k addresses                                                                                                 |
 
