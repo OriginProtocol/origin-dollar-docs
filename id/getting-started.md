@@ -13,7 +13,7 @@ Untuk jumlah kecil, cara termudah untuk mulai mendapatkan penghasilan dengan OUS
 Bursa Terdesentralisasi:
 
 * [Beli OUSD di 1inch](https://app.1inch.io/#/1/swap/USDT/OUSD)
-* [Beli OUSD di Curve Swaps](https://crv.to/) \([alternatif UI](https://crv.finance/)\)
+* [Buy OUSD on Curve](https://curve.fi/factory/9)
 * [Beli OUSD di Uniswap v3](https://app.uniswap.org/#/swap?inputCurrency=0xdac17f958d2ee523a2206206994597c13d831ec7&outputCurrency=0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86)
 * [Beli OUSD di Uniswap v2](https://app.uniswap.org/#/swap?inputCurrency=0xdac17f958d2ee523a2206206994597c13d831ec7&outputCurrency=0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86&use=v2)
 * [Beli OUSD di Sushiswap](https://exchange.sushiswapclassic.org/#/swap?inputCurrency=0xdac17f958d2ee523a2206206994597c13d831ec7&outputCurrency=0x2a8e1e676ec238d8a992307b495b45b3feaa5e86)
