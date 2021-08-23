@@ -6,9 +6,9 @@ Collateral balances are represented by ERC-20 aTokens at a 1:1 ratio to the unde
 
 Aave supports flash loans, which are uncollateralized loans where users borrow and repay the balance of the loan in a single transaction, meaning flash loan users do not need to put up any initial capital. Flash loans are a complex product aimed at developers and can be used to arbitrage across multiple DeFi protocols.
 
-Aave is currently governed by LEND, an ERC-20 token that was formerly the utility token for ETHLend. Aave has announced a transition to fully decentralized governance that includes a token swap where users exchange LEND for AAVE, a new ERC-20 governance token with staking rewards. Some AAVE will be distributed to users of the platform in a liquidity mining campaign.
+Aave's governance token was formerly called LEND which was the utility token for ETHLend. As part of their transition to fully decentralized governance, LEND holders were able to exchange LEND for AAVE, a new ERC-20 governance token with staking rewards. Some AAVE tokens have been distributed to users of the platform in a liquidity mining campaign.
 
-Aave's total value locked \(TVL\) has quickly grown to over $1.2 billion, making it one of the largest DeFi protocols. LEND has a circulating market cap of over $700 million.
+Aave's total value locked \(TVL\) has quickly grown to over $15.5 billion, making it the largest DeFi protocol at the time of writing. LEND has a circulating market cap of over $5.3 billion.
 
 Aave has undergone security audits by OpenZeppelin, Trail of Bits, and Consensys Diligence. Aave maintains a bug bounty program.
 
