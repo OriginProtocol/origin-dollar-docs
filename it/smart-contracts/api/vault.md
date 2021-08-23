@@ -11,6 +11,8 @@ All OUSD amounts passed or returned by the Vault methods use 18 decimal places. 
 
 For other stable coins, the number of decimal places varies. DAI uses 18 decimal places while USDC and USDT use only 6.
 
+Efforts are [currently underway](https://github.com/OriginProtocol/origin-dollar/issues/590) to increase the resolution of rebasing calculations from 18 decimals to 27 decimals. The OUSD token itself will still retain 18 decimals of precision and user balances should not change.
+
 ## Methods‌
 
 ### mint\(\) <a id="mint"></a>
@@ -45,7 +47,7 @@ On redemptions, it is the protocol and not the user that decides which stablecoi
 
 **`function redeem(uint256 _amount)`**‌
 
-OUSD specified by the `_amount` parameter is redeemed in exchange for one or multiple supported stablecoins. La quantità di stablecoin ricevute dipende dal **tasso di cambio**.
+OUSD specified by the `_amount` parameter is redeemed in exchange for one or multiple supported stablecoins. Amount of stablecoins received depends on the **exchange rate**.
 
 | Nome del Parametro | Tipo    | Descrizione                                 |
 |:------------------ |:------- |:------------------------------------------- |
