@@ -8,7 +8,7 @@ Chúng tôi làm việc một cách công khai và tài khoản Discord luôn ch
 
 **Phân tích nhà phát triển**
 
-Trang theo dõi dành cho nhà phát triển nội bộ [analytics.ousd.com](https://analytics.ousd.com). Bảng điều khiển hiển thị nguồn cung lưu hành hiện tại, tài sản được quản lý trong kho tiền và phân bổ giữa từng stablecoin và chiến lược.
+Trang theo dõi dành cho nhà phát triển nội bộ [analytics.ousd.com](https://analytics.ousd.com). Bảng điều khiển hiển thị nguồn cung lưu hành hiện tại, tài sản được quản lý trong kho tiền và phân bổ giữa từng stablecoin và chiến lược. Various other developer tools can be found at [ousd.com/dashboard](https://ousd.com/dashboard).
 
 #### Quá trình phát triển
 
@@ -81,13 +81,13 @@ Duy trì và phát triển cộng đồng của Origin cũng quan trọng ngang 
 
 Chúng tôi cần sự trợ giúp liên tục trong việc cải thiện tài liệu, xây dựng các công cụ mới phù hợp giao diện nền tảng của chúng tôi, truyền bá thông tin đến người dùng mới, giúp người dùng mới nắm bắt thông tin quan trọng ban đầu và hơn thế nữa.
 
-Vui lòng liên hệ với chúng tôi nếu bạn muốn giúp đỡ. Kênh `general` của chúng tôi trên [Discord](https://www.originprotocol.com/discord) là một nơi tuyệt vời để chia sẻ ý tưởng và tình nguyện giúp đỡ chúng tôi.
+Vui lòng liên hệ với chúng tôi nếu bạn muốn giúp đỡ. Our `discussion` channel on [Discord](https://www.originprotocol.com/discord) is a great place to share ideas and volunteer to help.
 
 #### Vị trí Toàn thời gian
 
 Origin thi thoảng sẽ tuyển dụng các nhà phát triển cho các vị trí bán thời gian hoặc toàn thời gian.
 
-Chúng tôi rất ưu tiên tuyển dụng những người đã có những đóng góp cho dự án. Nếu bạn muốn tham gia cùng chúng tôi với tư cách là nhân viên toàn thời gian thì cách tốt nhất để bắt đầu là tương tác với độ ngũ của Origin và bắt đầu đóng góp vào công việc lập trình. Rất ít khả năng chúng tôi sẽ offer bạn một vị trí toàn thời gian trong nhóm kỹ thuật trừ khi bạn đã có một vài đóng góp nhất định.
+Chúng tôi rất ưu tiên tuyển dụng những người đã có những đóng góp cho dự án. If you want a full-time position on our team, your best shot is to engage with our team and start contributing code. Rất ít khả năng chúng tôi sẽ offer bạn một vị trí toàn thời gian trong nhóm kỹ thuật trừ khi bạn đã có một vài đóng góp nhất định.
 
 Nếu bạn muốn trở thành 1 thành viên trong đội ngũ, ghé thăm [danh sách việc làm tại Origin Protocol](https://angel.co/originprotocol/jobs). Nếu bạn muốn hỗ trợ theo cách khác, vui lòng đề xuất ý tưởng của bạn trên [kênh Discord](https://www.originprotocol.com/discord)của chúng tôi.
 
