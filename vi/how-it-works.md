@@ -10,35 +10,31 @@ OUSD là tiền tệ ổn định được hỗ trợ 1:1 bởi các stablecoin 
 1 OUSD = 1 USD
 {% endhint %}
 
-#### Kiếm lợi nhuận từ OUSD
+#### Buying OUSD
 
-Người dùng chuyển đổi stablecoin hiện có của họ \ (hiện đang hỗ trợ USDT, USDC và DAI \) sang OUSD thông qua DApp </a>chính thức
+Users can convert their existing stablecoins \(currently USDT, USDC, and DAI\) to OUSD at the official [Origin Dollar DApp](www.ousd.com). Received OUSD begins accruing compounding yield immediately.
 
-Origin Dollar. Ngay sau khi được chuyển đổi, OUSD sẽ tạo ra lợi nhuận ngay gộp ngay tức thì.</p> 
+The Origin DApp will intelligently route user's transactions to give them the best available price while taking slippage and gas costs into consideration. This means that the DApp will sometimes encourage users to buy OUSD that is already in circulation versus minting fresh OUSD from the vault. The OUSD DApp will choose from multiple sources of liquidity \(Origin Vault, Origin Swap, Uniswap, etc\) and will suggest the option that gives the user the best possible rate.
 
-**Quy đổi OUSD sang stablecoin khác**
+**Selling OUSD**
 
-Người dùng có thể chuyển đổi OUSD của họ sang các stablecoin khác bất kỳ lúc nào bằng cách sử dụng DApp </a>Origin Dollar. Khoản phí 0,5% được tính khi quy đổi và được phân phối dưới dạng lợi nhuận bổ sung cho những người đang nắm giữ OUSD. The fee serves as a security feature to make it difficult for attackers to take advantage of lagging oracles, preventing them from siphoning stablecoins from the vault in the event of mispriced underlying assets. Khoản phí nêu trên còn nhằm mục tiêu để khuyến khích những người nắm giữ dài hạn hơn những người đầu cơ ngắn hạn.</p> 
+Users can convert their OUSD back into other stablecoins at any time using the [Origin Dollar DApp](www.ousd.com). The Origin DApp will intelligently route user's transactions to give them the best available price while taking slippage, gas costs, and the vault's exit fee into consideration. This means that the DApp will often help users sell their OUSD on AMM's instead of redeeming OUSD with the vault and incurring the protocol's exit fee.
 
-Sau thực hiện lệnh quy đổi, hợp đồng thông minh sẽ xác định loại stablecoin sẽ được trả lại cho người dùng. Trong quá trình triển khai hiện tại, kho tiền sẽ trả lại tiền theo tỉ lệ đúng nắm giữ hiện tại. Việc không cho người dùng có quyền lựa chọn sẽ bảo vệ được toàn bộ kho tiền trong khỏi tình huống 1 đồng stablecoin nào đó sẽ bị mất giá so với đồng Đô La.
+A 0.5% exit fee is charged upon redemption with the OUSD vault. This fee is distributed as additional yield to the remaining participants in the vault \(ie. other OUSD holders\). The fee serves as a security feature to make it difficult for attackers to take advantage of lagging oracles, preventing them from siphoning stablecoins from the vault in the event of mispriced underlying assets. The fee exists to incentivize long-term holders over short-term speculators.
+
+Upon redemption, the vault will determine which stablecoin\(s\) to return to the user. In the current implementation, the vault will return coins in the same ratio as the current holdings. This lack of user optionality also protects the vault as a whole in the event that any of the supported stablecoins loses its peg to the dollar.
 
 {% hint style="warning" %}
-
-Người dùng sẽ bị tính **0,5%** phí khi chuyển đổi từ OUSD sang stablecoins và sẽ không được lựa chọn stablecoin mà họ nhận được. 
-
+Redemptions on the OUSD vault incur a **0.5% exit fee** and the user doesn't get to pick which stablecoins they receive. Users can often avoid this fee by selling to an AMM instead.
 {% endhint %}
-
-
 
 #### Tạo ra **lợi nhuận thụ động**
 
-OUSD generates yields by deploying the underlying stablecoins that were deposited to the OUSD smart contract to other DeFi protocols such as Compound, Aave, and Curve. There may be new diversified strategies added to the vault in the future. Tiền lãi thu được, phí giao dịch và token phần thưởng được tổng hợp lại và chuyển đổi thành stablecoin để tạo ra lợi tức bằng OUSD. Theo thời gian, giao thức sẽ di chuyển tài sản vào và ra khỏi các nhóm thanh khoản khác nhau để mang lại lợi nhuận tốt nhất cho người nắm giữ OUSD. 
-
-
+OUSD generates yields by deploying the underlying stablecoins that were deposited to the OUSD smart contract to other DeFi protocols such as Compound, Aave, and Curve. There may be new diversified strategies added to the vault in the future. Collected interest, trading fees, and rewards tokens are pooled and converted to stablecoins to produce OUSD-denominated yields. Over time, the protocol will move assets in and out of different liquidity pools in order to provide the best yield to the holders of OUSD.
 
 #### **Cung linh hoạt**
 
-Lợi nhuận được tạo ra được chuyển cho người nắm giữ OUSD thông qua cơ chế cung tiền linh hoạt. OUSD liên tục điều chỉnh nguồn cung tiền để đáp ứng với lợi suất mà giao thức đã tạo ra. Điều này cho phép giá OUSD được cố định ở mức 1 đô la trong khi số dư trong ví của chủ sở hữu OUSD điều chỉnh theo thời gian thực để phản ánh lợi nhuận mà giao thức kiếm được.
+The generated returns are passed on to the holders of OUSD via constant rebasing of the money supply. OUSD constantly adjusts the money supply in response to the yield the protocol has generated. This allows the price of OUSD to stay pegged at $1 while the balances in token holders' wallets adjust in real-time to reflect yields that have been earned by the protocol.
 
-Kết quả cuối cùng sẽ một stablecoin dễ chi tiêu, tự động kiếm được lợi nhuận vượt trội và được nhiều người mong muốn nắm giữ hơn các loại stablecoin hiện có.
+The end result is a stablecoin that is easy to spend, earns outsized yields automatically, and is more desirable to hold than existing stablecoins.
 
