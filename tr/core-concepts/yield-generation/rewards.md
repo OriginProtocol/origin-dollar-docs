@@ -2,7 +2,7 @@
 
 **Ödül Toplama**
 
-Borç verme faizinden ve piyasa yapıcılığından ücret toplamaya ek olarak, birçok DeFi protokolü tarafından dağıtılan bonus teşviklerini otomatik olarak talep etmeyi ve dönüştürmeyi planlıyoruz. Örneğin, Compound COMP token'ları verir, Balancer BAL tokenleri verir ve Curve CRV tokenleri dağıtır. Bu bonus ödüller düzenli olarak stabilcoinlere dönüştürülecek, pazarda konuşlandırılacak ve OUSD sahiplerine ek getiri şeklinde dağıtılacaktır.
+Borç verme faizinden ve piyasa yapıcılığından ücret toplamaya ek olarak, birçok DeFi protokolü tarafından dağıtılan bonus teşviklerini otomatik olarak talep etmeyi ve dönüştürmeyi planlıyoruz. For example, Compound gives away COMP tokens and Curve gives away CRV tokens. Bu bonus ödüller düzenli olarak stabilcoinlere dönüştürülecek, pazarda konuşlandırılacak ve OUSD sahiplerine ek getiri şeklinde dağıtılacaktır.
 
 {% hint style="bilgi" %}
 Kasa, aldığı beklenmedik ödülleri güvenli bir şekilde saklarken, protokolün bunları ne zaman ve nasıl stabilcoinlere dönüştürmesi gerektiğine karar vermek için özel stratejilerin yazılması ve kullanılması gerekecektir.
