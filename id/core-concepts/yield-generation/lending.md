@@ -14,8 +14,6 @@ OUSD terintegrasi dengan penyedia pinjaman terkemuka yang memiliki rekam jejak y
 
 Kami berencana untuk mengintegrasikan platform pinjaman berikut:
 
-{% page-ref page = "../ didukung-strategi / dydx.md"%}
-
 
 
 
