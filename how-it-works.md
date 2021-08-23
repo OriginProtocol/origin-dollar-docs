@@ -14,7 +14,7 @@ OUSD is a stable currency that is backed 1:1 by other stablecoins like USDT, USD
 
 Users can convert their existing stablecoins \(currently USDT, USDC, and DAI\) to OUSD at the official [Origin Dollar DApp](www.ousd.com). Received OUSD begins accruing compounding yield immediately. 
 
-The Origin DApp will intelligently route user's transactions to give them the best available price while taking slippage and gas costs into consideration. This means that the DApp will sometimes encourage users to buy OUSD that is already in circulation versus minting fresh OUSD from the Vault. The OUSD DApp will choose from multiple sources of liquidity and will suggest the option that gives the user the best possible rate. 
+The Origin DApp will intelligently route user's transactions to give them the best available price while taking slippage and gas costs into consideration. This means that the DApp will sometimes encourage users to buy OUSD that is already in circulation versus minting fresh OUSD from the vault. The OUSD DApp will choose from multiple sources of liquidity and will suggest the option that gives the user the best possible rate. 
 
 **Selling OUSD**
 
