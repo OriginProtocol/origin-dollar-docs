@@ -18,10 +18,6 @@ Chúng tôi hiện tích hợp với trình tạo lập thị trường tự đ�
 
 Chúng tôi dự kiến tích hợp với trình tạo lập thị trường tự động sau:
 
-{% page-ref page="../supported-strategies/uniswap.md" %}
-
-{% page-ref page="../supported-strategies/balancer.md" %}
-
 
 
 
