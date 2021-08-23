@@ -14,13 +14,13 @@ OUSD adalah mata uang stabil yang didukung 1: 1 oleh stablecoin lain seperti USD
 
 Users can convert their existing stablecoins \(currently USDT, USDC, and DAI\) to OUSD at the official [Origin Dollar DApp](www.ousd.com). Received OUSD begins accruing compounding yield immediately.
 
-The Origin DApp will intelligently route user's transactions to give them the best available price while taking slippage and gas costs into consideration. This means that the DApp will sometimes encourage users to buy OUSD that is already in circulation versus minting fresh OUSD from the vault. The OUSD DApp will choose from multiple sources of liquidity \(Origin Vault, Origin Swap, Uniswap, etc\) and will suggest the option that gives the user the best possible rate.
+The Origin DApp will intelligently route user's transactions to give them the best available price while taking slippage and gas costs into consideration. This means that the DApp will sometimes encourage users to buy OUSD that is already in circulation versus minting fresh OUSD from the vault. The OUSD DApp will choose from multiple sources of liquidity and will suggest the option that gives the user the best possible rate.
 
 **Selling OUSD**
 
 Users can convert their OUSD back into other stablecoins at any time using the [Origin Dollar DApp](www.ousd.com). The Origin DApp will intelligently route user's transactions to give them the best available price while taking slippage, gas costs, and the vault's exit fee into consideration. This means that the DApp will often help users sell their OUSD on AMM's instead of redeeming OUSD with the vault and incurring the protocol's exit fee.
 
-A 0.5% exit fee is charged upon redemption with the OUSD vault. This fee is distributed as additional yield to the remaining participants in the vault \(ie. other OUSD holders\). The fee serves as a security feature to make it difficult for attackers to take advantage of lagging oracles, preventing them from siphoning stablecoins from the vault in the event of mispriced underlying assets. The fee exists to incentivize long-term holders over short-term speculators.
+A 0.5% exit fee is charged upon redemption with the vault. This fee is distributed as additional yield to the remaining participants in the vault \(ie. other OUSD holders\). The fee serves as a security feature to make it difficult for attackers to take advantage of lagging oracles, preventing them from siphoning stablecoins from the vault in the event of mispriced underlying assets. The fee exists to incentivize long-term holders over short-term speculators.
 
 Upon redemption, the vault will determine which stablecoin\(s\) to return to the user. In the current implementation, the vault will return coins in the same ratio as the current holdings. This lack of user optionality also protects the vault as a whole in the event that any of the supported stablecoins loses its peg to the dollar.
 
