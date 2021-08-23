@@ -1,12 +1,12 @@
-# 开始
+# Getting Started
 
-这些文档的目的是说明 OUSD 如何运作、传达潜在的风险和益处，并为希望为我们的代码库做出贡献或将 OUSD 集成到其产品中的开发人员提供指南。 您可以通过以下几种方法开始。
+These docs are intended to explain how OUSD works, communicate the potential risks and benefits, and provide a guide for developers who wish to contribute to our codebase or integrate OUSD into their products. Here are a few ways for you to dive in and get started.
 
-**铸币或赎回**
+**Mint or Redeem**
 
-The OUSD Mint allows anyone to create or trade-in OUSD tokens using our [DApp](www.ousd.com) and a web-3 enabled cryptocurrency wallet like [Metamask](https://www.metamask.io). 这是获取 OUSD 的本地方法，尤其是如果您想要带来可能在其他交易所上转移市场的风险的大量的 OUSD 。
+The OUSD Mint allows anyone to create or trade-in OUSD tokens using our [DApp](www.ousd.com) and a web-3 enabled cryptocurrency wallet like [Metamask](https://www.metamask.io). This is the native way to get OUSD, especially if you want a large amount that could risk moving the market on other exchanges.
 
-**在交易所购买**
+**Buy on Exchanges**
 
 For small amounts, the easiest way to start earning with OUSD is to buy it on an exchange. We anticipate that OUSD will soon be available on many more decentralized and centralized exchanges.
 
