@@ -4,9 +4,9 @@
 
 Si bien la explosión Cámbrica de nuevos préstamos y grupos de creadores de mercado automatizados ha impulsado el valor total bloqueado \(TVL\), también ha hecho que sea cada vez más difícil para los cultivadores de rendimiento asignar capital manualmente de manera eficiente y óptima.
 
-[Yearn](https://yearn.finance/) ha demostrado que los contratos inteligentes pueden automatizar el reequilibrio de fondos en diversas estrategias para ganar de manera óptima intereses crediticios, tarifas de creación de mercado y tokens de recompensa. Con el tiempo, se implementarán nuevas estrategias que maximizan los retornos y minimizan el riesgo y las dependencias.
+[Yearn](https://yearn.finance/) has demonstrated that smart contracts can automate the rebalancing of funds across various strategies to optimally earn lending interest, market-making fees, and rewards tokens. Con el tiempo, se implementarán nuevas estrategias que maximizan los retornos y minimizan el riesgo y las dependencias.
 
-![](../../.gitbook/assets/ousd_docs_graphics_1.png)
+![Automated yield farming on the OUSD protocol](../../.gitbook/assets/ousd_earnings_graphic.png)
 
 OUSD utiliza las siguientes estrategias de alto nivel para generar rendimiento:
 
