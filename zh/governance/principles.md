@@ -1,12 +1,12 @@
-# 原则
+# Principles
 
-**渐进式去中心化**
+**Progressive Decentralization**
 
-我们希望 OUSD 能够成为一个由世界各地的许多利益相关者管理的一个去中心化协议。 We believe that the holders of OUSD should collectively determine important protocol decisions as soon as possible.
+OUSD is designed to be a decentralized protocol governed by many stakeholders all over the world. We believe that the holders of OUSD should collectively determine important protocol decisions as soon as possible.
 
-但是在OUSD的早期，核心工程团队必须能够迅速而果断地采取行动，以构建协议的基础部分。
+That being said, in the very early days, it is imperative that the core engineering team can act quickly and decisively to build the foundational parts of the protocol.
 
-在接下来的几个月里，OUSD的去中心化将通过四个阶段快速进行。 我们的目标是尽快将控制权和治理权移交给社区。
+Decentralization will progress across four phases rapidly over the next few months. It is our intent to relinquish control and governance to the community as soon as possible.
 
 ![](../.gitbook/assets/ousd_docs_graphics_2%20%283%29.png)
 
