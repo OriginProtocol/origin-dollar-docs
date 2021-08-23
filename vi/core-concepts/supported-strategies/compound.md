@@ -4,9 +4,9 @@ Compound là một giao thức và nền tảng cho vay được xây dựng tr�
 
 Số dư tài sản thế chấp được đại diện bởi ERC-20 cTokens, tự động tích lũy lãi suất và tăng giá trị theo thời gian so với tài sản cơ bản mà chúng đại diện. Người dùng có thể mượn tài sản dựa trên số cTokens của họ. cToken có thể chuyển nhượng tự do và có thể được sử dụng trên nhiều giao thức DeFi khác. cTokens có thể được đổi lấy tài sản thế chấp của họ bất kỳ lúc nào.
 
-Compound được quản lý bởi COMP, token quản trị ERC-20. Người nắm giữ COMP có thể đề xuất và bỏ phiếu về các thay đổi giao thức hoặc ủy quyền phiếu bầu của họ cho người khác. Token COMP tặng tưởng theo tỷ lệ cho người dùng giao thức hàng ngày, được chia đều giữa người đi vay và người cho vay. Một phần lớn nguồn cung token COMP được giữ lại bởi nhóm Compound, các nhà đầu tư và cố vấn.
+Compound được quản lý bởi COMP, token quản trị ERC-20. Người nắm giữ COMP có thể đề xuất và bỏ phiếu về các thay đổi giao thức hoặc ủy quyền phiếu bầu của họ cho người khác. COMP tokens are awarded pro-rata to users of the protocol daily, split equally between borrowers and lenders. Một phần lớn nguồn cung token COMP được giữ lại bởi nhóm Compound, các nhà đầu tư và cố vấn.
 
-Tổng giá trị bị khoá trên Compound (TVL) đã nhanh chóng tăng lên gần 800 triệu đô la, khiến nó trở thành một trong những giao thức DeFi lớn nhất. Vốn hóa thị trường của COMP đạt hơn 500 triệu đô la.
+Compound's total value locked \(TVL\) has quickly grown to over $10 billion, making it one of the largest DeFi protocols. COMP has a circulating market cap of over $2.5 billion.
 
 Compound đã trải qua nhiều lần kiểm toán bảo mật thực hiện bởi OpenZeppelin và Trail of Bits. Giao thức Compound đã được CertiK chính thức xác minh và đã trải qua thử nghiệm kiểm tra sức chịu đựng bởi Gauntlet. Compound vẫn đang duy trì chương trình tặng tưởng cho người phát hiện ra lỗi của hệ thống.
 
