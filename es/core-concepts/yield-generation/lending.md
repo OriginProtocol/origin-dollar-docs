@@ -14,8 +14,6 @@ OUSD se integra con los principales proveedores de préstamos que tienen un hist
 
 Estamos planeando integrar la siguiente plataforma de préstamos:
 
-{% page-ref page="../supported-Strategies/dydx.md"%}
-
 
 
 
