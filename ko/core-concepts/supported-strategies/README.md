@@ -12,19 +12,9 @@ OUSD는 스테이블 코인을 대출 플랫폼과 마켓 메이커 유동성 �
 
 {% page-ref page="aave.md" %}
 
-Integrations are currently planned or being built for the following platforms:
+Although DeFi has grown very quickly and there are now billions of dollars worth of value deposited on these platforms, several of these projects are still in beta and are highly experimental. There may be hidden vulnerabilities in the smart contracts that power these platforms, and there have been multi-million dollar losses caused by vulnerabilities in Ethereum applications in the past.
 
-{% page-ref page="dydx.md" %}
-
-{% page-ref page="uniswap.md" %}
-
-{% page-ref page="balancer.md" %}
-
-{% page-ref page="yearn.finance.md" %}
-
-디파이(DeFi) 는 매우 빠르게 성장했고 현재 이러한 플랫폼에 수십억 달러 상당의 가치가 예치되어 있지만, 이러한 프로젝트 중 몇몇은 여전히 베타 버전이며 매우 실험적입니다. 이러한 플랫폼을 구동하는 스마트 컨트랙트 에는 숨겨진 취약성이 있을 수 있으며, 과거 이더리움 애플리케이션 취약성으로 인해 수백만 달러의 손실이 발생한 바 있습니다.
-
-오리진은 지원되는 플랫폼 상에서 보안 이벤트들을 면밀히 모니터링 할 것입니다. 또한, 위협이 식별되면 즉시 OUSD 보유자 자금을 안전하게 확보 할 것입니다.
+We closely monitor security events on the platforms we support and will immediately move to secure OUSD holder funds if we identify any threats.
 
 
 
