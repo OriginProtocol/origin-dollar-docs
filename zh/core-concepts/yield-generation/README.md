@@ -1,8 +1,8 @@
-# 收益产生
+# Yield Generation
 
-**自动收益耕作**
+**Automated Yield Farming**
 
-虽然新兴的借贷和自动做市商池爆炸式地推动了总锁定价值 (TVL)，但同时产量农户想继续以高效，最优的方式手动分配资本，也变得越来越困难了。
+While the Cambrian explosion of new lending and automated market maker pools has fueled total value locked \(TVL\), it has also made it increasingly challenging for yield farmers to manually allocate capital in efficient and optimal ways.
 
 [Yearn](https://yearn.finance/) has demonstrated that smart contracts can automate the rebalancing of funds across various strategies to optimally earn lending interest, market-making fees, and rewards tokens. Over time, new strategies will be deployed that maximize returns while minimizing risk and dependencies.
 
