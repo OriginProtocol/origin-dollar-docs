@@ -8,7 +8,7 @@ Kami bekerja di depan umum dan perusahaan kami Discord terbuka untuk semua. Jika
 
 **Analisis Pengembang**
 
-Dasbor pengembang internal kami tersedia di [analytics.ousd.com](https://analytics.ousd.com). Dasbor menunjukkan pasokan yang beredar saat ini, aset yang dikelola di brankas, dan alokasi saat ini antara masing-masing stablecoin dan strategi.
+Dasbor pengembang internal kami tersedia di [analytics.ousd.com](https://analytics.ousd.com). Dasbor menunjukkan pasokan yang beredar saat ini, aset yang dikelola di brankas, dan alokasi saat ini antara masing-masing stablecoin dan strategi. Various other developer tools can be found at [ousd.com/dashboard](https://ousd.com/dashboard).
 
 #### Proses pengembangan
 
@@ -81,13 +81,13 @@ Origin adalah tentang komunitas seperti tentang teknologi kita.
 
 Kami membutuhkan bantuan terus-menerus dalam meningkatkan dokumentasi kami, membuat alat baru untuk berinteraksi dengan platform kami, menyebarkan berita ke pengguna baru, membantu pengguna baru mendapatkan penyiapan, dan banyak lagi.
 
-Silakan hubungi jika Anda ingin membantu. Saluran `umum` kami di [Discord](https://www.originprotocol.com/discord) adalah tempat yang tepat untuk berbagi ide dan menjadi sukarelawan untuk membantu.
+Silakan hubungi jika Anda ingin membantu. Our `discussion` channel on [Discord](https://www.originprotocol.com/discord) is a great place to share ideas and volunteer to help.
 
 #### Posisi Penuh Waktu
 
 Origin terkadang mempekerjakan pengembang untuk posisi paruh waktu atau penuh waktu.
 
-Kami memiliki preferensi kuat untuk mempekerjakan orang yang sudah mulai berkontribusi pada proyek. Jika Anda menginginkan posisi penuh waktu di tim kami, kesempatan terbaik Anda adalah terlibat dengan tim kami dan mulai kode berkontribusi. Sangat kecil kemungkinannya kami akan menawarkan Anda posisi penuh waktu di tim teknik kami kecuali Anda memiliki setidaknya beberapa permintaan tarik yang digabungkan.
+Kami memiliki preferensi kuat untuk mempekerjakan orang yang sudah mulai berkontribusi pada proyek. If you want a full-time position on our team, your best shot is to engage with our team and start contributing code. Sangat kecil kemungkinannya kami akan menawarkan Anda posisi penuh waktu di tim teknik kami kecuali Anda memiliki setidaknya beberapa permintaan tarik yang digabungkan.
 
 Jika Anda tertarik, lihat [daftar pekerjaan Protokol Origin](https://angel.co/originprotocol/jobs). Jika Anda ingin membantu dengan cara lain, ajukan ide Anda di [saluran Discord kami](https://www.originprotocol.com/discord).
 
