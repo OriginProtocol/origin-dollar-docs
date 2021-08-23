@@ -22,10 +22,6 @@
   * [컴파운드(Compound)](core-concepts/supported-strategies/compound.md)
   * [Curve](core-concepts/supported-strategies/curve.md)
   * [Aave](core-concepts/supported-strategies/aave.md)
-  * [dYdX](core-concepts/supported-strategies/dydx.md)
-  * [Uniswap](core-concepts/supported-strategies/uniswap.md)
-  * [밸런서(Balancer)](core-concepts/supported-strategies/balancer.md)
-  * [와이언파이낸스(Yearn Finance)](core-concepts/supported-strategies/yearn.finance.md)
 * [자금 관리](core-concepts/fund-management.md)
 * [가격 오라클](core-concepts/price-oracles.md)
 
