@@ -14,8 +14,6 @@ OUSD 与具有良好记录，经过审核的智能合约并已成功借出数亿
 
 We are planning on integrating the following lending platform:
 
-{% page-ref page="../supported-strategies/dydx.md" %}
-
 
 
 
