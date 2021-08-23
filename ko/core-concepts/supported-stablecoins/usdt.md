@@ -16,7 +16,7 @@
 | 주소            | [0xdac17f958d2ee523a2206206994597c13d831](https://etherscan.io/token/0xdac17f958d2ee523a2206206994597c13d831ec7) |
 | 데시멀(Decimals) | 6                                                                                                                |
 | 공식 사이트        | [https://tether.to/ ](https://tether.to/%20)                                                                     |
-| 보유자           | 180만 개 이상의 주소                                                                                                    |
+| 보유자           | Over 3.4M addresses                                                                                              |
 
 
 
