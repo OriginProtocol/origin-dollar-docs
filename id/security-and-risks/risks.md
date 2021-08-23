@@ -16,29 +16,31 @@ Kontrak cerdas kami telah [diaudit](audits.md) oleh beberapa perusahaan keamanan
 
 **Risiko platform pihak ketiga**
 
-OUSD dibangun di atas platform DeFi lainnya seperti Aave, Compound, dan Curve yang menambahkan risiko kontrak pintar tambahan. Kami memilih untuk bekerja dengan platform yang memiliki aset ratusan juta dolar di bawah manajemen dan telah melakukan upaya yang wajar untuk memastikan kebenaran protokol mereka. Namun, tidak ada jaminan bahwa platform yang mendasarinya akan terus berfungsi sebagaimana mestinya, dan kegagalan dalam strategi yang mendasarinya kemungkinan besar akan menyebabkan hilangnya dana bagi para pemegang OUSD.
+OUSD dibangun di atas platform DeFi lainnya seperti Aave, Compound, dan Curve yang menambahkan risiko kontrak pintar tambahan. We are choosing to work with platforms that have literally billions of dollars of assets under management and have made a reasonable efforts to ensure the security of their protocols. Namun, tidak ada jaminan bahwa platform yang mendasarinya akan terus berfungsi sebagaimana mestinya, dan kegagalan dalam strategi yang mendasarinya kemungkinan besar akan menyebabkan hilangnya dana bagi para pemegang OUSD.
 
 **Risiko Stablecoin**
 
-Penting untuk dipahami bahwa OUSD hanya sekuat stablecoin yang mendukungnya. Setiap kehilangan nilai pada aset stablecoin yang mendasarinya akan menyebabkan kerugian yang serupa dengan nilai OUSD. Meskipun OUSD dirancang untuk mempertahankan hubungan satu lawan satu antara pasokan dan jumlah stablecoin pendukung, OUSD tidak menjamin stablecoin mana yang akan membentuk dukungan itu atau nilai koin tersebut.
+Penting untuk dipahami bahwa OUSD hanya sekuat stablecoin yang mendukungnya. Any loss of value to an underlying stablecoin asset will cause a similar loss to the value of OUSD. While OUSD is designed to maintain a 1:1 relationship between supply and number of backing stablecoins, it does not guarantee which stablecoins will make up that backing nor the value of those coins.
 
-Penting untuk dicatat bahwa setiap stablecoin yang didukung ini menimbulkan risiko pihak lawan yang tidak sepele. Tether, khususnya, memiliki masalah perbankan yang terdokumentasi dengan baik dan tantangan regulasi. Selain itu, baik USDT dan USDC memiliki pintu belakang yang memberikan kuasa kepada penerbitnya untuk membekukan uang di dompet pemegangnya. Meskipun DAI tidak memiliki pintu belakang langsung, asetnya juga dapat terkena dampak negatif karena USDC diterima sebagai jaminan untuk pembuatan DAI.
+Penting untuk dicatat bahwa setiap stablecoin yang didukung ini menimbulkan risiko pihak lawan yang tidak sepele. Tether, khususnya, memiliki masalah perbankan yang terdokumentasi dengan baik dan tantangan regulasi. Selain itu, baik USDT dan USDC memiliki pintu belakang yang memberikan kuasa kepada penerbitnya untuk membekukan uang di dompet pemegangnya. While DAI does not have any direct backdoors, its assets can also be negatively impacted since USDC and USDT are accepted as collateral for minting DAI.
 
-_**Singkatnya, OUSD adalah perangkat lunak beta. Gunakan dengan resiko Anda sendiri. Jangan menggunakan modal lebih dari yang Anda rela kehilangan.**_
+**Risk mitigation**
 
-**Mitigasi risiko**
+While it's impossible to guarantee our contracts are 100% safe, we have taken every step possible to mitigate the chance of losing funds:
 
-Kami secara aktif bekerja dengan beberapa penyedia asuransi DeFi dan akan segera mengumumkan rencana pertanggungan awal kami untuk lebih mengamankan protokol. Selain rencana kami untuk menawarkan pertanggungan asuransi dan [audit](audits.md)kami baru-baru ini, kami telah mengambil langkah-langkah ekstensif untuk meningkatkan proses internal kami sehingga kami melakukan segala kemungkinan untuk menghindari eksploitasi.
+We regularly have our work [audited ](audits.md)by the top auditors in the industry.
 
-Kami telah mempertahankan [Certora](https://www.certora.com/) untuk mulai memverifikasi secara formal berbagai properti keamanan kontrak kami. Mereka akan membantu kami membuat verifikasi otomatis yang akan berjalan setiap kali kami memperbarui kode kontrak kami. Kami sekarang juga memiliki pemeriksaan otomatis untuk kesalahan umum dengan tes [Slither](https://github.com/crytic/slither) dan [Echidna](https://github.com/crytic/echidna). Bersama-sama, ini mengingatkan tim kami tentang masalah keamanan umum selain rangkaian pengujian kami sendiri.
+We've worked with the top two [DeFi insurance](insurance.md) providers to offer smart contract coverage as an optional add-on service for OUSD holders.
 
-Peninjauan kode yang melibatkan kontrak pintar kami sekarang lebih ketat dari sebelumnya. Kami membutuhkan dua insinyur untuk meninjau setiap perubahan dengan daftar periksa terperinci dan kami memprioritaskan ini daripada pengembangan fitur baru.
+We have retained [Certora](https://www.certora.com/) to formally verify the various security properties of our contracts. They helped us establish automated verifications that will run anytime we update our contract code. We have automated checking for common errors with [Slither](https://github.com/crytic/slither) and [Echidna](https://github.com/crytic/echidna) tests. Together, these alert our team to common security issues in addition to our own test suite.
 
-Terakhir, kami telah meresmikan rotasi [](https://github.com/OriginProtocol/security/blob/master/incidents/ROTATION.md) untuk meninjau [serangan pada proyek lain](https://github.com/OriginProtocol/security/tree/master/incidents) serta memastikan kami menyelami lebih dalam ke masing-masing tinjauan ini, termasuk meninjau kode sumber kontrak yang terpengaruh sendiri.
+Code reviews involving our smart contracts are incredibly rigorous. We require at least two engineers to review each change with a detailed checklist and we prioritize security reviews over new feature development.
 
+Finally, we have formalized an engineering [rotation](https://github.com/OriginProtocol/security/blob/master/incidents/ROTATION.md) for reviewing [attacks on other projects](https://github.com/OriginProtocol/security/tree/master/incidents) as well as ensuring we deep dive into each of these reviews, including reviewing the affected contracts' source code ourselves. We've observed that attackers often exploit the same fundamental vulnerability on multiple different projects. By reviewing other project's vulnerabilities, we force ourselves to stay up to date on the latest security threats in our industry and are constantly learning from their mistakes.
 
+**Actions speak louder than words**
 
-
+You should also know that many members of the Origin team, including both founders, are holding a significant portion of their personal wealth in OUSD. Origin Protocol's corporate treasury is also holding millions of dollars in OUSD. We have skin in the game and are willing to put our own money at risk with the code we have written.
 
 
 
