@@ -12,8 +12,6 @@ OUSD si integra con i leader tra i fornitori di servizi di prestito, i quali han
 
 {% page-ref page="../supported-strategies/aave.md" %}
 
-We are planning on integrating the following lending platform:
-
 
 
 
