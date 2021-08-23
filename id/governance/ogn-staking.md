@@ -14,7 +14,7 @@ Program staking awal menawarkan tiga periode staking dan hasil masing-masing:
 
 Token yang distakingkan akan dikunci selama periode staking. Setelah setiap periode taruhan berakhir, Anda akan dapat mengklaim OGN awal \(prinsipal\) dan hasil Anda.
 
-OGN saat ini berdagang di bursa teratas seperti [Binance](https://www.binance.com/en/register?ref=NPPYAEAE), [Huobi](https://www.huobi.com/en-us/exchange/ogn_usdt/), [Upbit](https://upbit.com/exchange?code=CRIX.UPBIT.BTC-OGN), [Bittrex Global](https://global.bittrex.com/Market/Index?MarketName=BTC-OGN), dan [lusin lainnya](https://coinmarketcap.com/currencies/origin-protocol/markets/). Kunjungi website Asal ke [mempelajari lebih lanjut tentang OGN](https://www.originprotocol.com/ogn-token) atau memeriksa [OGN Dashboard](https://www.originprotocol.com/dashboard) untuk melacak metrik tanda penting.
+OGN is currently trading on top exchanges like [Coinbase](https://www.coinbase.com/price/origin-token), [Binance](https://www.binance.com/en/register?ref=NPPYAEAE), [Huobi](https://www.huobi.com/en-us/exchange/ogn_usdt/), [Upbit](https://upbit.com/exchange?code=CRIX.UPBIT.BTC-OGN), [Bittrex Global](https://global.bittrex.com/Market/Index?MarketName=BTC-OGN), and [dozens more](https://coinmarketcap.com/currencies/origin-protocol/markets/). Kunjungi website Asal ke [mempelajari lebih lanjut tentang OGN](https://www.originprotocol.com/ogn-token) atau memeriksa [OGN Dashboard](https://www.originprotocol.com/dashboard) untuk melacak metrik tanda penting.
 
 
 
