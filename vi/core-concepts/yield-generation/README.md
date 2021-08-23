@@ -4,9 +4,9 @@
 
 Bên cạnh sự bùng nổ của các nhóm tạo lập thị trường tự động và cho vay mới đã thúc đẩy tổng giá trị bị khóa (TVL), việc có quá nhiều bên cung cấp cùng 1 loại hình dịch vụ cũng khiến những người khai thác năng suất ngày càng gặp khó khăn trong việc phân bổ vốn một cách cách hiệu quả và tối ưu.
 
-[Yearn](https://yearn.finance/) đã chứng minh rằng các hợp đồng thông minh có thể tự động hóa việc tái cân bằng quỹ theo nhiều chiến lược khác nhau để kiếm được lãi suất cho vay, phí tạo thị trường và token phần thưởng một cách tối ưu. Theo thời gian, các chiến lược mới sẽ được triển khai nhằm tối đa hóa lợi nhuận, giảm thiểu rủi ro và tính phụ thuộc.
+[Yearn](https://yearn.finance/) has demonstrated that smart contracts can automate the rebalancing of funds across various strategies to optimally earn lending interest, market-making fees, and rewards tokens. Theo thời gian, các chiến lược mới sẽ được triển khai nhằm tối đa hóa lợi nhuận, giảm thiểu rủi ro và tính phụ thuộc.
 
-![](../../.gitbook/assets/ousd_docs_graphics_1.png)
+![Automated yield farming on the OUSD protocol](../../.gitbook/assets/ousd_earnings_graphic.png)
 
 OUSD sử dụng các chiến lược cấp cao sau đây để tạo ra lợi nhuận:
 
