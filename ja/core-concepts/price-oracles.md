@@ -1,3 +1,7 @@
+- - -
+description: OUSD uses Chainlink to secure the protocol from pricing attacks
+- - -
+
 # Price Oracles
 
 OUSD is designed to stay pegged at 1 USD and be 1:1 backed with its underlying stablecoins. This is trickier than it sounds because these underlying stablecoins are constantly deviating from their own desired 1 USD pegs. While the majority of daily fluctuations are minor, there have been major swings in price that have occurred in the past and are likely to occur again in the future.
