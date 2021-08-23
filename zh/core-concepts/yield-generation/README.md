@@ -4,9 +4,9 @@
 
 虽然新兴的借贷和自动做市商池爆炸式地推动了总锁定价值 (TVL)，但同时产量农户想继续以高效，最优的方式手动分配资本，也变得越来越困难了。
 
-[Yearn](https://yearn.finance/) 证明了智能合约可以将各种策略中的资金重新平衡自动化，以最佳方式赚取贷款利息，做市费和奖励代币。 Over time, new strategies will be deployed that maximize returns while minimizing risk and dependencies.
+[Yearn](https://yearn.finance/) has demonstrated that smart contracts can automate the rebalancing of funds across various strategies to optimally earn lending interest, market-making fees, and rewards tokens. Over time, new strategies will be deployed that maximize returns while minimizing risk and dependencies.
 
-![](../../.gitbook/assets/ousd_docs_graphics_1.png)
+![Automated yield farming on the OUSD protocol](../../.gitbook/assets/ousd_earnings_graphic.png)
 
 OUSD uses the following high-level strategies for generating yield:
 
