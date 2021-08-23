@@ -16,5 +16,5 @@
 | 주소            | [0x6b175474e89094c44da98b954eedeac495271d0f](https://etherscan.io/token/0x6b175474e89094c44da98b954eedeac495271d0f) |
 | 데시멀(Decimals) | 18                                                                                                                  |
 | 공식 사이트        | [https://makerdao.com/](https://makerdao.com/)                                                                      |
-| 보유자           | 14만개 이상의 주소                                                                                                         |
+| 보유자           | Over 380k addresses                                                                                                 |
 
