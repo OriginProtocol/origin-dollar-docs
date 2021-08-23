@@ -4,9 +4,9 @@
 
 Sementara ledakan Cambrian dari pinjaman baru dan automated market maker otomatis telah memicu total nilai terkunci \ (TVL \), hal itu juga membuat semakin sulit bagi petani hasil untuk mengalokasikan modal secara manual dengan cara yang efisien dan optimal.
 
-[Yearn](https://yearn.finance/) telah menunjukkan bahwa kontrak pintar dapat mengotomatiskan penyeimbangan kembali dana di berbagai strategi untuk secara optimal mendapatkan bunga pinjaman, biaya pembuatan pasar, dan token hadiah. Seiring waktu, strategi baru akan diterapkan yang memaksimalkan pengembalian sambil meminimalkan risiko dan ketergantungan.
+[Yearn](https://yearn.finance/) has demonstrated that smart contracts can automate the rebalancing of funds across various strategies to optimally earn lending interest, market-making fees, and rewards tokens. Seiring waktu, strategi baru akan diterapkan yang memaksimalkan pengembalian sambil meminimalkan risiko dan ketergantungan.
 
-![](../../.gitbook/assets/ousd_docs_graphics_1.png)
+![Automated yield farming on the OUSD protocol](../../.gitbook/assets/ousd_earnings_graphic.png)
 
 OUSD menggunakan strategi tingkat tinggi berikut untuk menghasilkan hasil:
 
