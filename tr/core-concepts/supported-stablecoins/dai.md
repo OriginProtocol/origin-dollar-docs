@@ -16,5 +16,5 @@ Dai, 400 milyon doların üzerinde dolaşımda olan dünyanın üçüncü en bü
 | Adres            | [0x6b175474e89094c44da98b954eedeac495271d0f](https://etherscan.io/token/0x6b175474e89094c44da98b954eedeac495271d0f) |
 | Decimals         | 18                                                                                                                  |
 | Resmi site       | [https://makerdao.com/](https://makerdao.com/)                                                                      |
-| Sahipleri        | 140 binden fazla adres                                                                                              |
+| Sahipleri        | Over 380k addresses                                                                                                 |
 
