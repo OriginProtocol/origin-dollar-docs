@@ -4,9 +4,9 @@
 
 Yeni borç verme ve otomatikleştirilmiş piyasa yapıcı havuzlarındaki Kambriyen patlaması, kilitlenen toplam değeri \ (TVL \) beslerken, aynı zamanda verim çiftçilerinin sermayeyi verimli ve en uygun yollarla manuel olarak tahsis etmesini giderek daha zor hale getirdi.
 
-[Yıl](https://yearn.finance/) , akıllı sözleşmelerin, en uygun şekilde borç verme faizi, piyasa yapma ücretleri ve ödül tokenları kazanmak için çeşitli stratejilerdeki fonların yeniden dengelenmesini otomatikleştirebileceğini gösterdi. Over time, new strategies will be deployed that maximize returns while minimizing risk and dependencies.
+[Yearn](https://yearn.finance/) has demonstrated that smart contracts can automate the rebalancing of funds across various strategies to optimally earn lending interest, market-making fees, and rewards tokens. Over time, new strategies will be deployed that maximize returns while minimizing risk and dependencies.
 
-![](../../.gitbook/assets/ousd_docs_graphics_1.png)
+![Automated yield farming on the OUSD protocol](../../.gitbook/assets/ousd_earnings_graphic.png)
 
 OUSD uses the following high-level strategies for generating yield:
 
