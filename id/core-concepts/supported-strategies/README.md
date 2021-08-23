@@ -16,5 +16,3 @@ Although DeFi has grown very quickly and there are now billions of dollars worth
 
 We closely monitor security events on the platforms we support and will immediately move to secure OUSD holder funds if we identify any threats.
 
-
-
