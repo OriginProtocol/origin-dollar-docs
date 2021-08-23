@@ -10,27 +10,31 @@ OUSD, USDT, USDC ve DAI gibi diğer sabit paralar tarafından 1: 1 desteklenen i
 1 OUSD = 1 USD
 {% endhint %}
 
-#### OUSD Basmak (minting)
+#### Buying OUSD
 
-Kullanıcılar mevcut stablecoin'lerini (şu anda USDT, USDC ve DAI \) resmi [Origin Dollar DApp](www.ousd.com)OUSD'ye çeviriyor. Verilen OUSD, derhal bileşik getiriyi tahakkuk etmeye başlar.
+Users can convert their existing stablecoins \(currently USDT, USDC, and DAI\) to OUSD at the official [Origin Dollar DApp](www.ousd.com). Received OUSD begins accruing compounding yield immediately.
 
-**OUSD'yi kullanma**
+The Origin DApp will intelligently route user's transactions to give them the best available price while taking slippage and gas costs into consideration. This means that the DApp will sometimes encourage users to buy OUSD that is already in circulation versus minting fresh OUSD from the vault. The OUSD DApp will choose from multiple sources of liquidity \(Origin Vault, Origin Swap, Uniswap, etc\) and will suggest the option that gives the user the best possible rate.
 
-Kullanıcılar, [Origin Dollar DApp](www.ousd.com)kullanarak OUSD'larını istedikleri zaman diğer stabilcoinlere dönüştürebilirler. A 0.5% exit fee is charged upon redemption and is distributed as additional yield to the remaining participants in the vault. The fee serves as a security feature to make it difficult for attackers to take advantage of lagging oracles, preventing them from siphoning stablecoins from the vault in the event of mispriced underlying assets. Bu ücret, uzun vadeli sahiplerini kısa vadeli spekülatörlere teşvik etmek için var.
+**Selling OUSD**
 
-Kullanımdan sonra, akıllı sözleşme hangi stabilcoin \ (ler) in kullanıcıya iade edileceğini belirleyecektir. In the current implementation, the vault will return coins in the same ratio as the current holdings. This lack of user optionality also protects the vault as a whole in the event that any of the supported stablecoins loses its peg to the dollar.
+Users can convert their OUSD back into other stablecoins at any time using the [Origin Dollar DApp](www.ousd.com). The Origin DApp will intelligently route user's transactions to give them the best available price while taking slippage, gas costs, and the vault's exit fee into consideration. This means that the DApp will often help users sell their OUSD on AMM's instead of redeeming OUSD with the vault and incurring the protocol's exit fee.
 
-{% hint style="uyarı" %}
-% **0,5'lik bir çıkış ücreti vardır** ve kullanıcı hangi sabit paraları alacağını seçemez.
+A 0.5% exit fee is charged upon redemption with the OUSD vault. This fee is distributed as additional yield to the remaining participants in the vault \(ie. other OUSD holders\). The fee serves as a security feature to make it difficult for attackers to take advantage of lagging oracles, preventing them from siphoning stablecoins from the vault in the event of mispriced underlying assets. The fee exists to incentivize long-term holders over short-term speculators.
+
+Upon redemption, the vault will determine which stablecoin\(s\) to return to the user. In the current implementation, the vault will return coins in the same ratio as the current holdings. This lack of user optionality also protects the vault as a whole in the event that any of the supported stablecoins loses its peg to the dollar.
+
+{% hint style="warning" %}
+Redemptions on the OUSD vault incur a **0.5% exit fee** and the user doesn't get to pick which stablecoins they receive. Users can often avoid this fee by selling to an AMM instead.
 {% endhint %}
 
 #### Bir**utomated Verim Tarım ( Yield Farming)**
 
-OUSD generates yields by deploying the underlying stablecoins that were deposited to the OUSD smart contract to other DeFi protocols such as Compound, Aave, and Curve. There may be new diversified strategies added to the vault in the future. Toplanan faiz, alım satım ücretleri ve ödül jetonları bir araya getirilir ve OUSD cinsinden getiriler üretmek için stabilcoinlere dönüştürülür. Zamanla, protokol, OUSD sahiplerine en iyi verimi sağlamak için varlıkları farklı likidite havuzlarına girip çıkaracaktır.
+OUSD generates yields by deploying the underlying stablecoins that were deposited to the OUSD smart contract to other DeFi protocols such as Compound, Aave, and Curve. There may be new diversified strategies added to the vault in the future. Collected interest, trading fees, and rewards tokens are pooled and converted to stablecoins to produce OUSD-denominated yields. Over time, the protocol will move assets in and out of different liquidity pools in order to provide the best yield to the holders of OUSD.
 
 #### **Elastik Tedarik**
 
-Oluşturulan getiriler, para arzının sürekli olarak yeniden finanse edilmesi yoluyla OUSD sahiplerine aktarılır. OUSD, protokolün ürettiği getiriye yanıt olarak para arzını sürekli olarak ayarlar. Bu, OUSD fiyatının 1 $ olarak sabit kalmasına izin verirken, token sahiplerinin cüzdanlarındaki bakiyeler, protokol tarafından kazanılan getirileri yansıtacak şekilde gerçek zamanlı olarak ayarlanır.
+The generated returns are passed on to the holders of OUSD via constant rebasing of the money supply. OUSD constantly adjusts the money supply in response to the yield the protocol has generated. This allows the price of OUSD to stay pegged at $1 while the balances in token holders' wallets adjust in real-time to reflect yields that have been earned by the protocol.
 
-Sonuç, harcanması kolay, otomatik olarak aşırı büyük getiriler kazanan ve mevcut stabilcoinlerden daha fazla tutulması arzu edilen bir stablecoin'dir.
+The end result is a stablecoin that is easy to spend, earns outsized yields automatically, and is more desirable to hold than existing stablecoins.
 
