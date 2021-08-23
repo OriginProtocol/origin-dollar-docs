@@ -16,29 +16,31 @@
 
 **Риск базовой сторонней платформы**
 
-OUSD надстроен поверх других платформ DeFi, таких как Aave, Compound и Curve, что увеличивает риски в смарт-контрактах. Мы выбираем для работы платформы, у которых под управлением находятся активы на сотни миллионов долларов, и которые приложили разумные усилия для обеспечения безопасности их протоколов. Однако нет никаких гарантий, что базовые сторонние платформы будут продолжать работать по назначению, и любой сбой в базовой стратегии, скорее всего, приведет к потере средств для держателей OUSD.
+OUSD надстроен поверх других платформ DeFi, таких как Aave, Compound и Curve, что увеличивает риски в смарт-контрактах. We are choosing to work with platforms that have literally billions of dollars of assets under management and have made a reasonable efforts to ensure the security of their protocols. Однако нет никаких гарантий, что базовые сторонние платформы будут продолжать работать по назначению, и любой сбой в базовой стратегии, скорее всего, приведет к потере средств для держателей OUSD.
 
 **Риски стейблкоина**
 
-Важно понимать, что OUSD настолько устойчив, насколько устойчивы стейблкоины, которые его обеспечивают. Любая потеря стоимости базовых активов приведет к аналогичным убыткам в OUSD. Хотя OUSD разработан для поддержания соотношения один к одному между предложением и количеством базовых стейблкоинов, он не гарантирует ни какие стейблкоины будут использоваться, ни стоимость этих монет.
+Важно понимать, что OUSD настолько устойчив, насколько устойчивы стейблкоины, которые его обеспечивают. Any loss of value to an underlying stablecoin asset will cause a similar loss to the value of OUSD. While OUSD is designed to maintain a 1:1 relationship between supply and number of backing stablecoins, it does not guarantee which stablecoins will make up that backing nor the value of those coins.
 
-Важно отметить, что каждый из поддерживаемых стейблкоинов представляет собой нетривиальный риск для контрагента. У Tether, в частности, были хорошо задокументированные проблемы с банковской системой и нормативными требованиями. Кроме того, и в USDT, и в USDC есть лазейки, которые дают их эмитентам право замораживать деньги в кошельках их владельцев. И, хотя в DAI нет таких очевидных лазеек, на его активы также может возникнуть негативное влияние, поскольку USDC принимается в качестве обеспечения для создании новых токенов DAI.
+Важно отметить, что каждый из поддерживаемых стейблкоинов представляет собой нетривиальный риск для контрагента. У Tether, в частности, были хорошо задокументированные проблемы с банковской системой и нормативными требованиями. Кроме того, и в USDT, и в USDC есть лазейки, которые дают их эмитентам право замораживать деньги в кошельках их владельцев. While DAI does not have any direct backdoors, its assets can also be negatively impacted since USDC and USDT are accepted as collateral for minting DAI.
 
-_**В заключение подчеркнем, что OUSD - это бета-версия программного обеспечения. Используйте на свой риск. Не вкладывайте больше капитала, чем вы готовы потерять.**_
+**Risk mitigation**
 
-**Снижение рисков**
+While it's impossible to guarantee our contracts are 100% safe, we have taken every step possible to mitigate the chance of losing funds:
 
-Мы активно работаем с несколькими поставщиками страховых услуг DeFi и вскоре объявим о наших первоначальных планах покрытия для дальнейшей защиты протокола. В дополнение к нашему плану по предоставлению страхового покрытия и нашим недавним [аудитам](audits.md), мы предприняли обширные меры по улучшению наших внутренних процессов, чтобы мы сделали все возможное, чтобы избежать финансовых спекуляций.
+We regularly have our work [audited ](audits.md)by the top auditors in the industry.
 
-Мы пригласили [Certora](https://www.certora.com/), чтобы начать официальную проверку различных свойств безопасности наших контрактов. Они помогут нам установить автоматические проверки, которые будут выполняться каждый раз, когда мы обновляем код нашего контракта. Теперь у нас также есть автоматическая проверка на общие ошибки с помощью тестов [Slither](https://github.com/crytic/slither) и [Echidna](https://github.com/crytic/echidna). Вместе они предупреждают нашу команду об общих проблемах безопасности в дополнение к нашему собственному набору тестов.
+We've worked with the top two [DeFi insurance](insurance.md) providers to offer smart contract coverage as an optional add-on service for OUSD holders.
 
-Проверки кода наших смарт-контрактов теперь стали более строгими, чем раньше. Нам требуется, чтобы два инженера просматривали каждое изменение с подробным контрольным списком, и мы отдаем ему приоритет перед разработкой новых функций.
+We have retained [Certora](https://www.certora.com/) to formally verify the various security properties of our contracts. They helped us establish automated verifications that will run anytime we update our contract code. We have automated checking for common errors with [Slither](https://github.com/crytic/slither) and [Echidna](https://github.com/crytic/echidna) tests. Together, these alert our team to common security issues in addition to our own test suite.
 
-Наконец, мы формализовали [ротацию](https://github.com/OriginProtocol/security/blob/master/incidents/ROTATION.md) инженеров для анализа [атак на другие проекты](https://github.com/OriginProtocol/security/tree/master/incidents) а также для обеспечения глубокого разбора каждого их этих обзоров, включая самостоятельную проверку исходного кода затронутых контрактов.
+Code reviews involving our smart contracts are incredibly rigorous. We require at least two engineers to review each change with a detailed checklist and we prioritize security reviews over new feature development.
 
+Finally, we have formalized an engineering [rotation](https://github.com/OriginProtocol/security/blob/master/incidents/ROTATION.md) for reviewing [attacks on other projects](https://github.com/OriginProtocol/security/tree/master/incidents) as well as ensuring we deep dive into each of these reviews, including reviewing the affected contracts' source code ourselves. We've observed that attackers often exploit the same fundamental vulnerability on multiple different projects. By reviewing other project's vulnerabilities, we force ourselves to stay up to date on the latest security threats in our industry and are constantly learning from their mistakes.
 
+**Actions speak louder than words**
 
-
+You should also know that many members of the Origin team, including both founders, are holding a significant portion of their personal wealth in OUSD. Origin Protocol's corporate treasury is also holding millions of dollars in OUSD. We have skin in the game and are willing to put our own money at risk with the code we have written.
 
 
 
