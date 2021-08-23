@@ -14,8 +14,6 @@ OUSD는 이미 입증된 실적을 보유하고, 감사된 스마트 컨트렉�
 
 We are planning on integrating the following lending platform:
 
-{% page-ref page="../supported-strategies/dydx.md" %}
-
 
 
 
