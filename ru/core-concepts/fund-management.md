@@ -2,7 +2,7 @@
 
 The OUSD smart contract aggregates all users' stablecoin deposits into a single pool of deployable assets. Затем средства распределяются по одной или нескольким стратегиям получения прибыли**** в любой момент времени. Vault отдает предпочтение высокодоходным стратегиям, но также стремится поддерживать диверсификацию по нескольким стратегиям. Диверсификация устраняет единые точки сбоя и снижает риски.
 
-В отличие от Yearn Vaults, TokenSets или Zapper, пользователи не выбирают индивидуальные стратегии. Все депонированные стейблкоины и, следовательно, все токены OUSD являются взаимно конвертируемыми. Once our full governance structure is implemented, these decisions will be made with input from OUSD governance token holders.
+В отличие от Yearn Vaults, TokenSets или Zapper, пользователи не выбирают индивидуальные стратегии. Все депонированные стейблкоины и, следовательно, все токены OUSD являются взаимно конвертируемыми. Once our full governance structure is implemented, these decisions will be made with input from OUSD governance token holders. OGN holders are encouraged to participate in creating and voting on proposals that impact the protocol in the [OGN governance portal](https://vote.originprotocol.com).
 
 **Стратегии заработка**
 
