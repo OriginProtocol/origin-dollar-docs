@@ -2,7 +2,7 @@
 
 **Descentralización progresiva**
 
-OUSD está diseñado para ser un protocolo descentralizado gobernado por muchas partes interesadas en todo el mundo. Creemos que los mineros y holders de OUSD deben determinar colectivamente las decisiones importantes sobre el protocolo lo antes posible.
+OUSD está diseñado para ser un protocolo descentralizado gobernado por muchas partes interesadas en todo el mundo. We believe that the holders of OUSD should collectively determine important protocol decisions as soon as possible.
 
 Dicho esto, en los primeros días, es imperativo que el equipo de ingeniería central pueda actuar de manera rápida y decisiva para construir las partes fundamentales del protocolo.
 
@@ -10,17 +10,21 @@ La descentralización progresará rápidamente en cuatro fases durante los próx
 
 ![](../.gitbook/assets/ousd_docs_graphics_2%20%283%29.png)
 
-**Bloqueo de Tiempo**
+**Governance Portal**
 
-Antes de la gobernanza descentralizada total, implementaremos un [bloqueo de tiempo](../smart-contracts/api/timelock.md) frente a todas las llamadas de funciones de administración, lo que dará a los usuarios de OUSD tiempo \(horas\) para retirar sus fondos si tienen objeciones a nuestras actualizaciones propuestas.
+OGN holders are encouraged to participate in creating and voting on proposals that impact the protocol in the [OGN governance portal](https://vote.originprotocol.com). Anyone with at least 1,000 OGN in their wallet or staked in our OGN Staking contract can create a new proposal. All OGN holders are able to vote for proposals. Our desire is for our community to have a strong impact on the direction of Origin’s products, open-source codebase, and to have a voice in key business decisions and the overall direction of the project.
 
-**Partes interesadas nuevas y existentes**
+**Timelock**
 
-OUSD es un nuevo proyecto fundado por el [equipo](www.originprotocol.com/team) de Origin Protocol y será apoyado por la comunidad de Origin existente, así como por muchas nuevas partes interesadas que elijan acuñar, mantener, usar y proporcionar liquidez para OUSD.
+Prior to full decentralized governance, we will implement a [timelock](../smart-contracts/api/timelock.md) in front of all admin function calls, giving OUSD users time to withdraw their funds if they have objections to our proposed upgrades.
 
-Además, también queremos asegurar una alta participación de nuestros holders del Token de Origin \(OGN\), una comunidad de cerca de 500.000 miembros y compradores/vendedores en la Plataforma. Los holders de OGN existentes podrán colocar en staking sus OGN para participar en la gobernanza y ganar incentivos por generar valor para OUSD.
+**New and Existing Stakeholders**
 
-La fuerte conexión entre OUSD y el resto de la plataforma de comercio Origin impulsará el crecimiento de ambas iniciativas.
+OUSD is a new project founded by Origin Protocol [team](www.originprotocol.com/team) and will be supported by the existing Origin community as well as many new stakeholders that choose to mint, hold, use, and provide liquidity for OUSD.
+
+In addition, we also want to ensure high participation from our existing Origin Token \(OGN\) holders and the millions of people in our community. Existing OGN holders are able to [stake their OGN](ogn-staking.md) to participate in governance and earn incentives for driving value to OUSD.
+
+The strong connection between OUSD and the rest of the Origin commerce platform will fuel growth in both initiatives.
 
 
 
