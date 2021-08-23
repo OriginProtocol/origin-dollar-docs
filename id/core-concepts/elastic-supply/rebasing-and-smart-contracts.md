@@ -8,13 +8,15 @@ Dompet multi-sig atau kontrak pintar lainnya harus memanggil`rebaseOptIn()`untuk
 
 Secara default, OUSD yang diadakan pada kontrak pintar tidak akan berpartisipasi dalam sifat rebasing token dan akan kehilangan hasil apa pun kecuali kontrak pintar secara eksplisit ikut serta. Ini meningkatkan komposisi OUSD dalam DeFi karena banyak protokol tidak dirancang dengan harapan bahwa saldo mungkin berubah. Untuk protokol DeFi lainnya, OUSD berfungsi seperti ERC-20 normal lainnya yang berperilaku baik hingga Anda memintanya untuk mengubahnya. Ini adalah atribut yang sangat berguna untuk pembuat pasar otomatis \(AMM\) seperti Uniswap yang rusak ketika jumlah token yang mereka pegang berubah secara tak terduga.
 
-Kontrak pintar harus secara eksplisit memilih untuk menerima hasil melalui mekanisme rebasing. Ini memperbaiki masalah dengan perluasan pasokan di AMM sementara masih memungkinkan dompet multi-sig dan kontrak pintar lainnya kesempatan untuk tetap berpartisipasi dan mendapatkan hasil.
+![The Gnosis Safe OUSD app will prompt you to opt in to yield](../../.gitbook/assets/ousd-app-in-gnosis-safe.png)
+
+Smart contracts must explicitly opt-in to receiving yield via the rebasing mechanism. This fixes the issue with the expanding supply on AMM’s while still allowing multi-sig wallets and other smart contracts the opportunity to still participate and earn yield.
 
 {% hint style="warning" %}
-Jika Anda menerapkan kontrak dan bermaksud memanggil`rebaseOptIn()`untuk mendapatkan hasil, Anda tidak dapat memanggilnya dari konstruktor kontrak. Kontrak harus disebarkan sebelum dapat dipanggil.
+If you are deploying a contract and intend to call`rebaseOptIn()`to earn yield you cannot call it from the contract's constructor. The contract must be deployed before it can be called.
 {% endhint %}
 
-Jika Anda menggunakan dompet multi-sig seperti [Gnosis Wallet](https://github.com/gnosis/MultiSigWallet) atau [Gnosis Safe](https://gnosis-safe.io/), Anda memerlukan [alamat kontrak proxy untuk OUSD](../../smart-contracts/registry.md) dan [ABI](https://api.etherscan.io/api?module=contract&action=getabi&address=0x1ae95dd4eeae7ed03da79856c2d44ffa3318f805)sesuai. Setelah Anda menambahkannya, Anda akan dapat memanggil fungsi `rebaseOptIn()` untuk memilih menerima hasil melalui rebasing atau`rebaseOptOut()` untuk mematikannya lagi.
+[Gnosis Safe](https://gnosis-safe.io/) users are encouraged to use the Origin Dollar app which will prompt you to opt in to receiving yield. If you are using the "Old" [Gnosis Wallet](https://github.com/gnosis/MultiSigWallet) or another contract-based wallet, you will need the [proxy contract address for OUSD](../../smart-contracts/registry.md) and the corresponding [ABI](https://api.etherscan.io/api?module=contract&action=getabi&address=0x1ae95dd4eeae7ed03da79856c2d44ffa3318f805). Once you add those, you will be able to call the `rebaseOptIn()` function to opt into receiving yield via rebasing or`rebaseOptOut()` to turn it off again.
 
 
 
