@@ -14,8 +14,6 @@ OUSD tích hợp với các nhà cung cấp dịch vụ cho vay hàng đầu đ�
 
 Chúng tôi dự kiến tích hợp với các nền tảng cho vay sau:
 
-{% page-ref page="../supported-strategies/dydx.md" %}
-
 
 
 
