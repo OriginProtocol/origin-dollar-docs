@@ -14,7 +14,7 @@
 
 Токены в стейкинге будут заблокированы на выбранный период времени. После окончания каждого периода блокировки у Вас будет возможность запросить свои первоначальные вложения в OGN \(основной капитал\) и заработанный доход.
 
-В настоящее время OGN торгуется на ведущих биржах, таких как [Binance](https://www.binance.com/en/register?ref=NPPYAEAE), [Huobi](https://www.huobi.com/en-us/exchange/ogn_usdt/), [Upbit](https://upbit.com/exchange?code=CRIX.UPBIT.BTC-OGN), [Bittrex Global](https://global.bittrex.com/Market/Index?MarketName=BTC-OGN) и еще на [десятках других бирж](https://coinmarketcap.com/currencies/origin-protocol/markets/). Посетите веб-сайт Origin, чтобы [узнать больше об OGN](https://www.originprotocol.com/ogn-token) или посетите панель [OGN Dashboard](https://www.originprotocol.com/dashboard) чтобы отслеживать важные показатели токенометрики.
+OGN is currently trading on top exchanges like [Coinbase](https://www.coinbase.com/price/origin-token), [Binance](https://www.binance.com/en/register?ref=NPPYAEAE), [Huobi](https://www.huobi.com/en-us/exchange/ogn_usdt/), [Upbit](https://upbit.com/exchange?code=CRIX.UPBIT.BTC-OGN), [Bittrex Global](https://global.bittrex.com/Market/Index?MarketName=BTC-OGN), and [dozens more](https://coinmarketcap.com/currencies/origin-protocol/markets/). Посетите веб-сайт Origin, чтобы [узнать больше об OGN](https://www.originprotocol.com/ogn-token) или посетите панель [OGN Dashboard](https://www.originprotocol.com/dashboard) чтобы отслеживать важные показатели токенометрики.
 
 
 
