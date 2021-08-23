@@ -8,7 +8,7 @@ Beberapa kumpulan likuiditas Curve mendapatkan biaya tambahan untuk penyedia lik
 
 Curve diatur oleh CRV, token tata kelola ERC-20. Pemegang CRV dapat memberikan suara pada perubahan protokol. Pemegang CRV dapat mempertaruhkan token mereka untuk kekuatan voting tambahan yang sebanding dengan waktu yang dipertaruhkan. CRV terus diberikan kepada penyedia likuiditas dan sebagian besar dari total pasokan CRV dialokasikan ke tim dan investor dengan jadwal vesting yang berkelanjutan.
 
-Volume perdagangan di Curve seringkali melebihi $50 juta setiap hari. Curve memiliki Total Value Locked \ (TVL \) lebih dari $1 miliar oleh penyedia likuiditas pada saat penulisan.
+Curve has a Total Value Locked \(TVL\) of over $11.5 billion by liquidity providers at the time of writing. Hundreds of millions of dollars of trading volume are generated on Curve every day.
 
 Curve telah menjalani dua audit oleh Trail of Bits dan menjalankan program bug bounty.
 
