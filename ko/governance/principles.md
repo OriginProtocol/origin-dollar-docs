@@ -1,18 +1,18 @@
 # 원리
 
-**점진적 탈 중앙화**
-
-OUSD는 전 세계의 많은 이해 관계자들이 함께 관리하는 탈 중앙화 프로토콜로 설계되었습니다. We believe that the holders of OUSD should collectively determine important protocol decisions as soon as possible.
-
-즉, 아주 초기 단계에는 오리진 팀의 핵심 엔지니어 팀이 프로토콜의 기초적인 부분 구축을 위해 신속하고 결단력 있게 행동해야 합니다.
-
-탈 중앙화는 향후 몇 달 동안 4 단계에 걸쳐 빠르게 진행될 것입니다. 오리진은 가능한 한 빨리 커뮤니티에 통제 및 거버넌스를 양도하고자 합니다.
-
-![](../.gitbook/assets/ousd_docs_graphics_3.png)
-
 **Governance Portal**
 
-OGN holders are encouraged to participate in creating and voting on proposals that impact the protocol in the [OGN governance portal](https://vote.originprotocol.com). Anyone with at least 1,000 OGN in their wallet or staked in our OGN Staking contract can create a new proposal. All OGN holders are able to vote for proposals. Our desire is for our community to have a strong impact on the direction of Origin’s products, open-source codebase, and to have a voice in key business decisions and the overall direction of the project.
+OGN holders are encouraged to participate in creating and voting on proposals that impact the protocol in the [OGN governance portal](https://vote.originprotocol.com). Anyone with at least 1,000 OGN in their wallet or staked in our OGN Staking contract can create a new proposal using Snapshot. All OGN holders are able to vote for proposals. Our desire is for our community to have a strong impact on the direction of Origin’s products, open-source codebase, and to have a voice in key business decisions and the overall direction of the project.
+
+**Progressive Decentralization**
+
+OUSD is designed to be a decentralized protocol governed by many stakeholders all over the world. We believe that the holders of OUSD should collectively determine important protocol decisions as soon as possible.
+
+That being said, in the very early days, it is imperative that the core engineering team can act quickly and decisively to build the foundational parts of the protocol.
+
+Decentralization will progress across four phases rapidly over the next few months. It is our intent to relinquish control and governance to the community as soon as possible.
+
+![](../.gitbook/assets/ousd_docs_graphics_2%20%283%29.png)
 
 **Timelock**
 
