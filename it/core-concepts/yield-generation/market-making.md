@@ -18,10 +18,6 @@ We are currently integrated with the following automated market maker:
 
 We are intending to integrate with the following automated market makers:
 
-{% page-ref page="../supported-strategies/uniswap.md" %}
-
-{% page-ref page="../supported-strategies/balancer.md" %}
-
 
 
 
