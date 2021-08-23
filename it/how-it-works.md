@@ -16,7 +16,7 @@ Gli utenti convertono le loro stable coins \(attualmente USDT, USDC e DAI\) in O
 
 **Riscattare OUSD**
 
-Gli utenti possono riconvertire indietro in altre stablecoins i loro OUSD in qualsiasi momento utilizzando la [DApp Origin Dollar](www.ousd.com). Verrà applicata una commissione di uscita pari allo 0.5% e sarà distribuita come rendimento aggiuntivo per i partecipanti rimanenti al vault. La commissione è necessaria come caratteristica di sicurezza per mettere in difficoltà gli hacker malevoli che volessero avvantaggiarsi dei ritardi degli oracoli, impedendogli di travasare le stablecoin dal vault in caso di prezzi errati degli asset sottostanti. La commissione esiste per incentivare gli holders di lungo periodo contro gli speculatori di breve periodo.
+Gli utenti possono riconvertire indietro in altre stablecoins i loro OUSD in qualsiasi momento utilizzando la [DApp Origin Dollar](www.ousd.com). Verrà applicata una commissione di uscita pari allo 0.5% e sarà distribuita come rendimento aggiuntivo per i partecipanti rimanenti al vault. The fee serves as a security feature to make it difficult for attackers to take advantage of lagging oracles, preventing them from siphoning stablecoins from the vault in the event of mispriced underlying assets. La commissione esiste per incentivare gli holders di lungo periodo contro gli speculatori di breve periodo.
 
 Al momento del riscatto, lo smart contract determinrà quale o quali stablecoin restituirà all'utente. Nell'implementazione corrente, il vault restituirà le coin con la stessa proporzione di quelle che sono detenute al momento. Questa mancanza di opzioni, lato utente, protegge il vault nel caso in cui una delle qualsiasi stablecoin supportate dovesse perdere il suo ancoraggio al dollaro.
 
@@ -26,7 +26,7 @@ E' prevista una commissione di uscita dello **0.5%** è l'utente non può scegli
 
 #### **Automated Yield Farming**
 
-OUSD genera rendimenti distribuendo le stablecoin sottostanti che sono state depositate nello smart contract di OUSD, ad altri protocolli DEFI come ad esempio Compound, Aave, Uniswap, Balancer e Curve. Si prevede che ogni mese verranno aggiunte nuove strategie diversificate al vault. Gli interessi maturati, le commissioni di trading, e i token di ricompensa vengono raccolti e convertiti in stablecoin per produrre rendimenti in OUSD. Nel tempo, il protocollo sposterà assets dentro e fuori diversi pool di liquidità al fine di fornire il miglior rendimento ai detentori di OUSD.
+OUSD generates yields by deploying the underlying stablecoins that were deposited to the OUSD smart contract to other DeFi protocols such as Compound, Aave, and Curve. There may be new diversified strategies added to the vault in the future. Gli interessi maturati, le commissioni di trading, e i token di ricompensa vengono raccolti e convertiti in stablecoin per produrre rendimenti in OUSD. Nel tempo, il protocollo sposterà assets dentro e fuori diversi pool di liquidità al fine di fornire il miglior rendimento ai detentori di OUSD.
 
 #### **Elastic Supply**
 
