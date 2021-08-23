@@ -16,7 +16,7 @@ USDC 是僅次於 USDT 全球第二大穩定幣，並已迅速增長至超過 10
 | 地址   | [0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48](https://etherscan.io/token/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48) |
 | 小數點  | 6                                                                                                                   |
 | 官方網站 | [https://www.centre.io/usdc](https://www.centre.io/usdc)                                                            |
-| 持有者  | 超過 20 萬個地址                                                                                                          |
+| 持有者  | Over 1M addresses                                                                                                   |
 
 
 
