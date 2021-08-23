@@ -2,7 +2,7 @@
 
 **Thu thập phần thưởng**
 
-Ngoài việc thu lãi từ cho vay và phí từ tạo lập thị trường, chúng tôi dự định sẽ tự động thu về và chuyển đổi phần tiền lãi thu được từ nhiều giao thức DeFi. Ví dụ: Compound tặng token COMP, Balancer tặng token BAL và Curve tặng token CRV. Những phần thưởng tiền thưởng này sẽ thường xuyên được chuyển đổi thành stablecoin, tiếp tục đưa đi tìm kiếm lợi nhuận và sau đó phân phối cho những người nắm giữ OUSD dưới dạng lợi nhuận bổ sung.
+Ngoài việc thu lãi từ cho vay và phí từ tạo lập thị trường, chúng tôi dự định sẽ tự động thu về và chuyển đổi phần tiền lãi thu được từ nhiều giao thức DeFi. For example, Compound gives away COMP tokens and Curve gives away CRV tokens. Những phần thưởng tiền thưởng này sẽ thường xuyên được chuyển đổi thành stablecoin, tiếp tục đưa đi tìm kiếm lợi nhuận và sau đó phân phối cho những người nắm giữ OUSD dưới dạng lợi nhuận bổ sung.
 
 {% hint style="info" %}
 Mặc dù vault lưu trữ an toàn mọi phần thưởng ngoài dự kiến mà nó nhận được, nhưng các chiến lược tùy chỉnh sẽ cần được xây dựng và triển khai để quyết định thời điểm và cách thức giao thức chuyển đổi chúng thành stablecoin.
