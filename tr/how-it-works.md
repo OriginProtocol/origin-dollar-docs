@@ -16,7 +16,7 @@ Kullanıcılar mevcut stablecoin'lerini (şu anda USDT, USDC ve DAI \) resmi [Or
 
 **OUSD'yi kullanma**
 
-Kullanıcılar, [Origin Dollar DApp](www.ousd.com)kullanarak OUSD'larını istedikleri zaman diğer stabilcoinlere dönüştürebilirler. A 0.5% exit fee is charged upon redemption and is distributed as additional yield to the remaining participants in the vault. The fee serves as a security feature to make it difficult for attackers to take advantage of lagging oracles, preventing them from syphoning stablecoins from the vault in the event of mispricings of of the underlying assets. Bu ücret, uzun vadeli sahiplerini kısa vadeli spekülatörlere teşvik etmek için var.
+Kullanıcılar, [Origin Dollar DApp](www.ousd.com)kullanarak OUSD'larını istedikleri zaman diğer stabilcoinlere dönüştürebilirler. A 0.5% exit fee is charged upon redemption and is distributed as additional yield to the remaining participants in the vault. The fee serves as a security feature to make it difficult for attackers to take advantage of lagging oracles, preventing them from siphoning stablecoins from the vault in the event of mispriced underlying assets. Bu ücret, uzun vadeli sahiplerini kısa vadeli spekülatörlere teşvik etmek için var.
 
 Kullanımdan sonra, akıllı sözleşme hangi stabilcoin \ (ler) in kullanıcıya iade edileceğini belirleyecektir. In the current implementation, the vault will return coins in the same ratio as the current holdings. This lack of user optionality also protects the vault as a whole in the event that any of the supported stablecoins loses its peg to the dollar.
 
@@ -26,7 +26,7 @@ Kullanımdan sonra, akıllı sözleşme hangi stabilcoin \ (ler) in kullanıcıy
 
 #### Bir**utomated Verim Tarım ( Yield Farming)**
 
-OUSD, Bileşik, Aave, Uniswap, Dengeleyici ve Eğri gibi diğer DeFi protokollerine OUSD akıllı sözleşmesine yatırılan temel sabit paraları dağıtarak getiri üretir. It is expected there will be new diversified strategies added to the vault every month. Toplanan faiz, alım satım ücretleri ve ödül jetonları bir araya getirilir ve OUSD cinsinden getiriler üretmek için stabilcoinlere dönüştürülür. Zamanla, protokol, OUSD sahiplerine en iyi verimi sağlamak için varlıkları farklı likidite havuzlarına girip çıkaracaktır.
+OUSD generates yields by deploying the underlying stablecoins that were deposited to the OUSD smart contract to other DeFi protocols such as Compound, Aave, and Curve. There may be new diversified strategies added to the vault in the future. Toplanan faiz, alım satım ücretleri ve ödül jetonları bir araya getirilir ve OUSD cinsinden getiriler üretmek için stabilcoinlere dönüştürülür. Zamanla, protokol, OUSD sahiplerine en iyi verimi sağlamak için varlıkları farklı likidite havuzlarına girip çıkaracaktır.
 
 #### **Elastik Tedarik**
 
