@@ -5,10 +5,10 @@ These docs are intended to explain how OUSD works, communicate the potential ris
 **Buying OUSD**
 
 {% hint style="info" %}
-The [Origin Dollar DApp](https://ousd.com/swap) will intelligently route your transaction to get you OUSD at the best rate.
+The [Origin Dollar DApp](https://ousd.com/swap) will intelligently route your transaction to get you the best rate.
 {% endhint %}
 
-The [Origin Dollar DApp](https://ousd.com/swap) allows anyone to buy or sell OUSD using a web-3 enabled cryptocurrency wallet like [Metamask](https://www.metamask.io), [Ledger](https://www.ledger.com/), or [Gnosis Safe](https://gnosis-safe.io/). This is the native way to get OUSD, especially if you want a large amount that could risk moving the market on other exchanges. The DApp will intelligently decide whether to create or trade-in OUSD tokens using the Vault or help you complete the trade on whichever AMM is currently offering the best rate.
+The [Origin Dollar DApp](https://ousd.com/swap) allows anyone to buy or sell OUSD using a web-3 enabled cryptocurrency wallet like [Metamask](https://www.metamask.io), [Ledger](https://www.ledger.com/), or [Gnosis Safe](https://gnosis-safe.io/). This is the native way to get OUSD, especially if you want a large amount that could risk moving the market on other exchanges. The DApp will intelligently decide whether to create or trade-in OUSD tokens using the vault or help you complete the trade on whichever AMM is currently offering the best rate.
 
 **Decentralized Exchanges**
 
