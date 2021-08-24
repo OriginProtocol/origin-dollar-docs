@@ -8,5 +8,7 @@ Internally, ownership in the vault is tracked using a credits system that repres
 
 The [Vault](api/vault.md) is responsible for minting and burning OUSD. 또한 지원되는 각 [전략 ](../core-concepts/supported-strategies/)에 배포되는 자산의 비율도 적용합니다. 가스 비용 최적화를 위해, 금고(Vault) 는 대부분의 예금 및 상환이 전략에서 자산을 감거나 풀지 않고 발생할 수 있도록 버퍼를 유지합니다.
 
+OUSD Swap, aka "Flipper" is a smart contract that is provided by Origin for users to swap in and out of OUSD cheaply for any of DAI, USDC, or USDT at a fixed 1:1 rate. This contract is used as an alternative way to route user transactions originating from the web app. It's important to note that this contract may become bankrupt on one side \(e.g., contain 0 OUSD balance\), and thus sometimes provides limited swap routes. While limited in functionality, Origin Swap uses around 45% less gas than Uniswap v3 due to its simplicity.
+
 
 
