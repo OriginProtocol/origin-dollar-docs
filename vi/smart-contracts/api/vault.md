@@ -157,7 +157,7 @@ Trả về giá tỷ giá hối đoái của đồng stablecoin được chỉ �
 
 **`function priceUSDRedeem(string symbol)`**‌‌
 
-Returns the exchange rate price of a stable coin specified by the `symbol` parameters used when redeeming OUSD represented by `uint256` type. Resulting number has 18 decimal places.
+Trả về tỷ giá hối đoái của stablecoin được chỉ định bởi các tham số `_asset` sử dụng khi đổi OUSD sang stablecoin khác được đại diện bằng loại `uint256`. Kết quả là số có 18 ký tự.
 
 | Tên thông số | Loại  | Mô tả                  |
 |:------------ |:----- |:---------------------- |
@@ -167,7 +167,7 @@ Returns the exchange rate price of a stable coin specified by the `symbol` param
 
 **`function priceAssetUSDMint(address _asset)`**‌‌
 
-Returns the exchange rate price of a stable coin specified by the `_asset` parameters used when minting OUSD represented by `uint256` type. Resulting number has 18 decimal places.
+Trả về tỷ giá hối đoái của stablecoin được chỉ định bởi các tham số `_asset` được sử dụng khi khai thác OUSD được đại diện bằng loại `uint256`. Kết quả là số có 18 ký tự.
 
 | Tên thông số | Loại    | Mô tả                   |
 |:------------ |:------- |:----------------------- |
@@ -177,7 +177,7 @@ Returns the exchange rate price of a stable coin specified by the `_asset` param
 
 **`function priceAssetUSDRedeem(address _asset)`**‌‌‌
 
-Returns the exchange rate price of a stable coin specified by the `_asset` parameters used when redeeming OUSD represented by `uint256` type. Resulting number has 18 decimal places.
+Trả về tỷ giá hối đoái của stablecoin được chỉ định bởi các tham số `_asset` sử dụng khi đổi OUSD sang stablecoin khác được đại diện bằng loại `uint256`. Kết quả là số có 18 ký tự.
 
 | Tên thông số | Loại    | Mô tả                  |
 |:------------ |:------- |:---------------------- |
