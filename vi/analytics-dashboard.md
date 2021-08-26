@@ -4,9 +4,9 @@
 Truy cập [analytics.ousd.com](https://analytics.ousd.com) để xem cách thức phân bổ các quỹ, dữ liệu khai thác trong lịch sử và lợi nhuận của bạn.
 {% endhint %}
 
-The [APY dashboard](https://analytics.ousd.com/apy) is primarily intended for consumption by our engineering team, but we went ahead and deployed it since our ethos is "public by default" and everything that we do is [open-source](http://github.com/OriginProtocol). Unfortunately, that often means erring on the side of transparency and not necessarily the side of taking the time to explain things clearly.
+[Bảng điều khiển](https://analytics.ousd.com/apy) đầu tiên được xây dựng nhằm mục đích phục vụ đội ngũ kỹ thuật, nhưng chúng tôi chúng tôi quyết định công bố ra công chúng vì [nguồn mở](http://github.com/OriginProtocol) luôn là mục tiêu mà chúng tôi hướng tới. Thật không may, điều dẫn tới hiểu nhầm về tính minh bạch và không nhất thiết phải dành thời gian để giải thích mọi thứ rõ ràng.
 
-Before diving into the yield calculation, it's important to understand how OUSD works both in terms of [yield generation](https://docs.ousd.com/core-concepts/yield-generation) and [rebasing](https://docs.ousd.com/core-concepts/elastic-supply). You can read all about that in these [docs](https://docs.ousd.com/), including [the part about smart contracts being excluded from yield](https://docs.ousd.com/core-concepts/elastic-supply/rebasing-and-smart-contracts).
+Trước khi đi sâu vào tính toán lãi suất, điều quan trọng bạn phải nắm rõ cách thức OUSD [tạo ra lợi nhuận](https://docs.ousd.com/core-concepts/yield-generation) và [rebase](https://docs.ousd.com/core-concepts/elastic-supply). Bạn có thể đọc tất cả về điều đó trong [tài liệu](https://docs.ousd.com/), bao gồm cả [về hợp đồng thông minh bị loại trừ khỏi lợi nhuận](https://docs.ousd.com/core-concepts/elastic-supply/rebasing-and-smart-contracts).
 
 To summarize how APY is calculated, it's the annualized rate of change in OUSD's internal accounting of users' balances between two points in time. To understand that, let's break down the columns in the historical APY table \(in reverse order\).
 
