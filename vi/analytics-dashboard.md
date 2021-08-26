@@ -12,15 +12,15 @@ Trước khi đi sâu vào tính toán lãi suất, điều quan trọng bạn p
 
 **Tỉ lệ**
 
-Có hai loại số dư OUSD: Rebasing (hầu hết các tài khoản) và non-rebasing(hợp đồng thông minh chưa opt in). Hợp đồng OUSD duy trì phép tính riêng biệt cho từng loại số dư bằng cách sử dụng "tín dụng". The ratio shown here is the rebasing supply of OUSD divided by the rebasing credits, which gives us the exchange rate between the two.
+Có hai loại số dư OUSD: Rebasing (hầu hết các tài khoản) và non-rebasing(hợp đồng thông minh chưa opt in). Hợp đồng OUSD duy trì phép tính riêng biệt cho từng loại số dư bằng cách sử dụng "credit". Tỷ lệ được hiển thị ở đây là cung OUSD rebase chia cho credit được rebase, cho chúng ta tỷ giá hối đoái giữa hai loại.
 
-**Credits**
+**Credit**
 
-Some smart contracts holding OUSD have unique credit balances because their rebasing status has changed at some point in the past \(by opting in or out\). Here we show the sum of all rebasing credits and non-rebasing credits. When multiplied by the ratio, it gives the difference between backing supply and non-rebasing supply.
+Một số hợp đồng thông minh nắm giữ OUSD có số dư credit duy nhất vì trạng thái phục hồi của chúng đã thay đổi ở một thời điểm nào đó trong quá khứ (bằng cách chọn opt in hoặc out). Ở đây chúng tôi hiển thị tổng của tất cả các credit rebasing và non-rebasing. Khi nhân với tỷ lệ, nó cho ra sự khác biệt giữa lượng đang hỗ trợ tổng cung và lượng cung non-rebase.
 
 **Non-rebasing**
 
-This is the portion of supply held in other smart contracts that have not opted in to rebasing. When added to \(credits \* ratio\), this equals backing supply. Note also that the **%** column shows the percentage of OUSD that is non-rebasing.
+Đây là phần nguồn cung được giữ trong các hợp đồng thông minh khác mà chưa được rebase. Khi được thêm vào (credit* tỷ lệ) sẽ bằng lượng đang hỗ trợ tổng cung. Cũng lưu ý rằng cột **%** hiển thị phần trăm OUSD non-rebase.
 
 **Boost**
 
