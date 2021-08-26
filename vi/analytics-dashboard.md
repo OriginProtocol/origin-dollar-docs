@@ -24,7 +24,7 @@ Một số hợp đồng thông minh nắm giữ OUSD có số dư credit duy nh
 
 **Boost**
 
-The APY is effectively "boosted" for rebasing accounts thanks to the fact that some OUSD is non-rebasing. Think about all of the stablecoins that were used as collateral to mint the non-rebasing OUSD. Those stablecoins are still earning through our yield farming strategies, but the gains are accruing only to the rebasing accounts. The result is that the effective APY is higher than it would be without this mechanism. The boost is the measure of this difference. If boost is 100%, then regular OUSD holders are enjoying double the APY that they otherwise would.
+APY được "thúc đẩy" cho các tài khoản rebase nhờ vào các OUSD non-rebasing. Think about all of the stablecoins that were used as collateral to mint the non-rebasing OUSD. Those stablecoins are still earning through our yield farming strategies, but the gains are accruing only to the rebasing accounts. The result is that the effective APY is higher than it would be without this mechanism. The boost is the measure of this difference. If boost is 100%, then regular OUSD holders are enjoying double the APY that they otherwise would.
 
 **APR/APY calculation**
 
