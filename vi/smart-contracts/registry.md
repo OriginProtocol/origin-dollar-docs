@@ -140,7 +140,7 @@ Hợp đồng bồi thường OUSD \ ([chi tiết](https://medium.com/originprot
 {% endtab %}
 
 {% tab title="Swap" %}
-| Contract | Address                                                                                                               | ENS                                                           |
+| Hợp đồng | Địa chỉ                                                                                                               | ENS                                                           |
 |:-------- |:--------------------------------------------------------------------------------------------------------------------- |:------------------------------------------------------------- |
 | Swap     | [0xcecaD69d7D4Ed6D52eFcFA028aF8732F27e08F70](https://etherscan.io/address/0xcecaD69d7D4Ed6D52eFcFA028aF8732F27e08F70) | [originswap.eth](https://etherscan.io/address/originswap.eth) |
 {% endtab %}
