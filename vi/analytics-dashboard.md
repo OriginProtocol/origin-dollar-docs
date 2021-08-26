@@ -8,11 +8,11 @@ Truy cập [analytics.ousd.com](https://analytics.ousd.com) để xem cách th�
 
 Trước khi đi sâu vào tính toán lãi suất, điều quan trọng bạn phải nắm rõ cách thức OUSD [tạo ra lợi nhuận](https://docs.ousd.com/core-concepts/yield-generation) và [rebase](https://docs.ousd.com/core-concepts/elastic-supply). Bạn có thể đọc tất cả về điều đó trong [tài liệu](https://docs.ousd.com/), bao gồm cả [về hợp đồng thông minh bị loại trừ khỏi lợi nhuận](https://docs.ousd.com/core-concepts/elastic-supply/rebasing-and-smart-contracts).
 
-To summarize how APY is calculated, it's the annualized rate of change in OUSD's internal accounting of users' balances between two points in time. To understand that, let's break down the columns in the historical APY table \(in reverse order\).
+Để tóm tắt cách tính APY, đó là tỷ lệ thay đổi lãi suất hàng năm của số dư OUSD của người dùng giữa hai thời điểm. Để hiểu điều đó, hãy xem xét kỹ các cột trong bảng APY lịch sử (theo thứ tự ngược lại).
 
-**Ratio**
+**Tỉ lệ**
 
-There are two types of OUSD balances: rebasing \(most accounts\) and non-rebasing \(smart contracts that have not opted in\). The OUSD token contract maintains a separate internal accounting for each type of balance using what it calls "credits". The ratio shown here is the rebasing supply of OUSD divided by the rebasing credits, which gives us the exchange rate between the two.
+Có hai loại số dư OUSD: Rebasing (hầu hết các tài khoản) và non-rebasing(hợp đồng thông minh chưa opt in). Hợp đồng OUSD duy trì phép tính riêng biệt cho từng loại số dư bằng cách sử dụng "tín dụng". The ratio shown here is the rebasing supply of OUSD divided by the rebasing credits, which gives us the exchange rate between the two.
 
 **Credits**
 
