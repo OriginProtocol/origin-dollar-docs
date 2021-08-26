@@ -1,7 +1,7 @@
-# Analytics Dashboard
+# Bảng phân tích
 
 {% hint style="info" %}
-Visit [analytics.ousd.com](https://analytics.ousd.com) to see how funds are allocated, view historical performance data, and track your personal gains.
+Truy cập [analytics.ousd.com](https://analytics.ousd.com) để xem cách thức phân bổ các quỹ, dữ liệu khai thác trong lịch sử và lợi nhuận của bạn.
 {% endhint %}
 
 The [APY dashboard](https://analytics.ousd.com/apy) is primarily intended for consumption by our engineering team, but we went ahead and deployed it since our ethos is "public by default" and everything that we do is [open-source](http://github.com/OriginProtocol). Unfortunately, that often means erring on the side of transparency and not necessarily the side of taking the time to explain things clearly.
