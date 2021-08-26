@@ -3,8 +3,8 @@
 * [Giới thiệu](README.md)
 * [Cơ chế hoạt động](how-it-works.md)
 * [Các bước cơ bản](getting-started.md)
-* [Analytics Dashboard](analytics-dashboard.md)
-* [FAQ](faq.md)
+* [Bảng phân tích](analytics-dashboard.md)
+* [Câu hỏi thường gặp](faq.md)
 
 ## Nội dung chính
 
