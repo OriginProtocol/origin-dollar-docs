@@ -8,7 +8,7 @@ Chúng tôi làm việc một cách công khai và tài khoản Discord luôn ch
 
 **Phân tích nhà phát triển**
 
-Trang theo dõi dành cho nhà phát triển nội bộ [analytics.ousd.com](https://analytics.ousd.com). Bảng điều khiển hiển thị nguồn cung lưu hành hiện tại, tài sản được quản lý trong kho tiền và phân bổ giữa từng stablecoin và chiến lược. Various other developer tools can be found at [ousd.com/dashboard](https://ousd.com/dashboard).
+Trang theo dõi dành cho nhà phát triển nội bộ [analytics.ousd.com](https://analytics.ousd.com). Bảng điều khiển hiển thị nguồn cung lưu hành hiện tại, tài sản được quản lý trong kho tiền và phân bổ giữa từng stablecoin và chiến lược. Bạn có thể tìm thấy nhiều công cụ lập trình tại [ousd.com/dashboard](https://ousd.com/dashboard).
 
 #### Quá trình phát triển
 
@@ -81,7 +81,7 @@ Duy trì và phát triển cộng đồng của Origin cũng quan trọng ngang 
 
 Chúng tôi cần sự trợ giúp liên tục trong việc cải thiện tài liệu, xây dựng các công cụ mới phù hợp giao diện nền tảng của chúng tôi, truyền bá thông tin đến người dùng mới, giúp người dùng mới nắm bắt thông tin quan trọng ban đầu và hơn thế nữa.
 
-Vui lòng liên hệ với chúng tôi nếu bạn muốn giúp đỡ. Our `discussion` channel on [Discord](https://www.originprotocol.com/discord) is a great place to share ideas and volunteer to help.
+Vui lòng liên hệ với chúng tôi nếu bạn muốn giúp đỡ. Kênh `discussion` của Origin trên [Discord](https://www.originprotocol.com/discord) là nơi chia sẻ ý tưởng với đội ngũ nòng cốt của Origin.
 
 #### Vị trí Toàn thời gian
 
