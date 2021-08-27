@@ -8,7 +8,7 @@ Một số pool thanh khoản của Curve kiếm thêm phí cho những người
 
 Curve được quản lý bởi CRV, token quản trị ERC-20. Người nắm giữ CRV có thể bỏ phiếu về các thay đổi giao thức. Chủ sở hữu CRV có thể stake của họ để có thêm quyền biểu quyết tỉ lệ thuận với thời gian stake. CRV liên tục được trao cho những người cung cấp thanh khoản và một phần lớn trong tổng nguồn cung CRV được phân bổ cho nhóm và các nhà đầu tư theo lịch trả token.
 
-Curve has a Total Value Locked \(TVL\) of over $11.5 billion by liquidity providers at the time of writing. Hundreds of millions of dollars of trading volume are generated on Curve every day.
+Curve có Tổng giá trị bị khóa (TVL) hơn 11.5 tỉ đô la bởi các nhà cung cấp thanh khoản tại thời điểm viết bài. Hàng trăm triệu đô khối lượng giao dịch được tạo ra trên Curve mỗi ngày.
 
 Curve được kiểm toán bảo mật bởi Trail of Bits và đang chạy 1 chương trình tặng thưởng cho người phát hiện ra lỗi.
 
