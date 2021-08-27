@@ -16,7 +16,7 @@ Bất chấp những tranh cãi **** xung quanh **** việc công ty không cung
 | Địa chỉ         | [0xdac17f958d2ee523a2206206994597c13d831](https://etherscan.io/token/0xdac17f958d2ee523a2206206994597c13d831ec7) |
 | Decimal         | 6                                                                                                                |
 | Website        | [https://tether.to/ ](https://tether.to/%20)                                                                     |
-| Người nắm giữ   | Over 3.4M addresses                                                                                              |
+| Người nắm giữ   | Hơn 3,4 triệu địa chỉ                                                                                            |
 
 
 
