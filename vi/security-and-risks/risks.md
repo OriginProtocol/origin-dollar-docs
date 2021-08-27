@@ -30,9 +30,9 @@ Mặc dù không thể đảm bảo hợp đồng của chúng tôi là an toàn
 
 Hợp đồng và các chương trình được [kiểm toán ](audits.md)bởi các kiểm toán viên hàng đầu trong ngành.
 
-We've worked with the top two [DeFi insurance](insurance.md) providers to offer smart contract coverage as an optional add-on service for OUSD holders.
+Chúng tôi đã làm việc với 2 đơn vị cung cấp [Bảo hiểm Defi](insurance.md) để cung cấp bảo hiểm tuỳ chọn cho người nắm giữ OUSD.
 
-We have retained [Certora](https://www.certora.com/) to formally verify the various security properties of our contracts. They helped us establish automated verifications that will run anytime we update our contract code. We have automated checking for common errors with [Slither](https://github.com/crytic/slither) and [Echidna](https://github.com/crytic/echidna) tests. Together, these alert our team to common security issues in addition to our own test suite.
+Chúng tôi đã làm việc với [Certora](https://www.certora.com/) để bắt đầu chính thức xác minh các thuộc tính bảo mật khác nhau trong hợp đồng. Họ đã giúp Origin thiết lập xác minh tự động có thể chạy bất kỳ lúc nào chúng tôi cập nhật code của hợp đồng. We have automated checking for common errors with [Slither](https://github.com/crytic/slither) and [Echidna](https://github.com/crytic/echidna) tests. Together, these alert our team to common security issues in addition to our own test suite.
 
 Code reviews involving our smart contracts are incredibly rigorous. We require at least two engineers to review each change with a detailed checklist and we prioritize security reviews over new feature development.
 
