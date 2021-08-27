@@ -10,9 +10,9 @@ OUSD là tiền tệ ổn định được hỗ trợ 1:1 bởi các stablecoin 
 1 OUSD = 1 USD
 {% endhint %}
 
-#### Buying OUSD
+#### Mua OUSD
 
-Users can convert their existing stablecoins \(currently USDT, USDC, and DAI\) to OUSD at the official [Origin Dollar DApp](www.ousd.com). Received OUSD begins accruing compounding yield immediately.
+Người dùng có thể chuyển đổi stablecoin hiện có của họ (hiện đang hỗ trợ USDT, USDC và DAI) sang OUSD thông qua  [Origin Dollar DApp](www.ousd.com). Received OUSD begins accruing compounding yield immediately.
 
 The Origin DApp will intelligently route user's transactions to give them the best available price while taking slippage and gas costs into consideration. This means that the DApp will sometimes encourage users to buy OUSD that is already in circulation versus minting fresh OUSD from the vault. The OUSD DApp will choose from multiple sources of liquidity and will suggest the option that gives the user the best possible rate.
 
