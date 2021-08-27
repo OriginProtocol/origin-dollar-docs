@@ -16,5 +16,5 @@ Dai là stablecoin lớn thứ ba thế giới với hơn 400 triệu đô la đ
 | Địa chỉ         | [0x6b175474e89094c44da98b954eedeac495271d0f](https://etherscan.io/token/0x6b175474e89094c44da98b954eedeac495271d0f) |
 | Decimal         | 18                                                                                                                  |
 | Website        | [https://makerdao.com/](https://makerdao.com/)                                                                      |
-| Người nắm giữ   | Over 380k addresses                                                                                                 |
+| Người nắm giữ   | Hơn 380k địa chỉ                                                                                                    |
 
