@@ -87,7 +87,7 @@ Vui lòng liên hệ với chúng tôi nếu bạn muốn giúp đỡ. Kênh `di
 
 Origin thi thoảng sẽ tuyển dụng các nhà phát triển cho các vị trí bán thời gian hoặc toàn thời gian.
 
-Chúng tôi rất ưu tiên tuyển dụng những người đã có những đóng góp cho dự án. If you want a full-time position on our team, your best shot is to engage with our team and start contributing code. Rất ít khả năng chúng tôi sẽ offer bạn một vị trí toàn thời gian trong nhóm kỹ thuật trừ khi bạn đã có một vài đóng góp nhất định.
+Chúng tôi rất ưu tiên tuyển dụng những người đã có những đóng góp cho dự án. Nếu bạn muốn gia nhập đội ngũ chúng tôi với tư cách là nhân viên toàn thời gian thì cách tốt nhất để bắt đầu là tương tác với độ ngũ của Origin và bắt đầu đóng góp vào nền tảng mã nguồn mở của Origin. Rất ít khả năng chúng tôi sẽ offer bạn một vị trí toàn thời gian trong nhóm kỹ thuật trừ khi bạn đã có một vài đóng góp nhất định.
 
 Nếu bạn muốn trở thành 1 thành viên trong đội ngũ, ghé thăm [danh sách việc làm tại Origin Protocol](https://angel.co/originprotocol/jobs). Nếu bạn muốn hỗ trợ theo cách khác, vui lòng đề xuất ý tưởng của bạn trên [kênh Discord](https://www.originprotocol.com/discord)của chúng tôi.
 
