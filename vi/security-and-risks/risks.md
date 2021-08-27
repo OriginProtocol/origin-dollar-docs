@@ -38,9 +38,9 @@ Việc kiểm tra code của hợp đồng thông minh dễ ra cực kỳ nghiê
 
 Cuối cùng, chúng tôi chính thức [luân phiên](https://github.com/OriginProtocol/security/blob/master/incidents/ROTATION.md) xem xét [vụ tấn công vào các dự án khác](https://github.com/OriginProtocol/security/tree/master/incidents), tìm hiểu rõ nguyên nhân để tránh trường hợp tương tự xảy ra với Origin. Chúng tôi nhận ra 1 điều là những kẻ tấn công thường khai thác cùng một lỗ hổng cơ bản trên nhiều dự án khác nhau. Bằng cách xem xét các lỗ hổng bảo mật của dự án khác, chúng tôi buộc mình phải cập nhật các mối đe dọa bảo mật mới nhất trong ngành và không ngừng học hỏi từ những sai lầm của họ.
 
-**Actions speak louder than words**
+**Hành động thay lời nói**
 
-You should also know that many members of the Origin team, including both founders, are holding a significant portion of their personal wealth in OUSD. Origin Protocol's corporate treasury is also holding millions of dollars in OUSD. We have skin in the game and are willing to put our own money at risk with the code we have written.
+Nhiều thành viên của nhóm Origin bao gồm cả hai sáng lập viện đang nắm giữ một phần đáng kể tài sản cá nhân của họ trong OUSD. Tài khoản tiền mặt của Origin Protocol cũng đang nắm giữ hàng triệu đô la OUSD. Chúng tôi là người tạo ra sản phẩm và sẵn sàng đặt tiền của mình vào rủi ro với code chúng tôi đã viết.
 
 
 
