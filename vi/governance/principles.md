@@ -1,8 +1,8 @@
 # Nguyên tắc
 
-**Governance Portal**
+**Cổng quản trị**
 
-OGN holders are encouraged to participate in creating and voting on proposals that impact the protocol in the [OGN governance portal](https://vote.originprotocol.com). Anyone with at least 1,000 OGN in their wallet or staked in our OGN Staking contract can create a new proposal using Snapshot. All OGN holders are able to vote for proposals. Our desire is for our community to have a strong impact on the direction of Origin’s products, open-source codebase, and to have a voice in key business decisions and the overall direction of the project.
+Chủ sở hữu OGN được khuyến khích tham gia tạo và bỏ phiếu các đề xuất cho giao thức trong [cổng quản trị OGN](https://vote.originprotocol.com). Bất kỳ ai sở hữu ít nhất 1.000 OGN trong ví hoặc stake trong hợp đồng OGN Staking đều có thể tạo một đề xuất mới bằng cách sử dụng Snapshot. Tất cả người nắm giữ OGN đều có thể bỏ phiếu cho các đề xuất. Mong muốn của chúng tôi là biến cộng đồng trở thành 1 phần của dự án, đưa ra các ý tưởng về định hướng sản phẩm, cơ sở mã nguồn mở và có tiếng nói trong các quyết định kinh doanh quan trọng cũng như định hướng chung của dự án.
 
 **Progressive Decentralization**
 
