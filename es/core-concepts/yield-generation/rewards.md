@@ -2,7 +2,7 @@
 
 **Recolección de recompensas**
 
-Además de cobrar intereses de préstamos y comisiones de creación de mercado, tenemos la intención de reclamar y convertir automáticamente los incentivos de bonificación que están siendo distribuidos por muchos de los protocolos DeFi. For example, Compound gives away COMP tokens and Curve gives away CRV tokens. Estas recompensas de bonificación se convertirán regularmente en monedas estables, se implementarán en el mercado y se distribuirán a los titulares de OUSD en forma de rendimiento adicional.
+Además de cobrar intereses de préstamos y comisiones de creación de mercado, tenemos la intención de reclamar y convertir automáticamente los incentivos de bonificación que están siendo distribuidos por muchos de los protocolos DeFi. Por ejemplo, Compound regala tokens COMP y Curve regala tokens CRV. Estas recompensas de bonificación se convertirán regularmente en monedas estables, se implementarán en el mercado y se distribuirán a los titulares de OUSD en forma de rendimiento adicional.
 
 {% hint style="info" %}
 Si bien la bóveda almacena de forma segura cualquier recompensa inesperada que reciba, será necesario escribir e implementar estrategias personalizadas para decidir cuándo y cómo el protocolo debe convertirlas en monedas estables.
