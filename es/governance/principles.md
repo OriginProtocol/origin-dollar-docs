@@ -1,30 +1,30 @@
 # Principios
 
-**Governance Portal**
+**Portal de Gobernanza**
 
-OGN holders are encouraged to participate in creating and voting on proposals that impact the protocol in the [OGN governance portal](https://vote.originprotocol.com). Anyone with at least 1,000 OGN in their wallet or staked in our OGN Staking contract can create a new proposal using Snapshot. All OGN holders are able to vote for proposals. Our desire is for our community to have a strong impact on the direction of Origin’s products, open-source codebase, and to have a voice in key business decisions and the overall direction of the project.
+Se anima a los holders de OGN a participar en la creación y votación de propuestas que afecten al protocolo en [el portal de gobernanza de OGN](https://vote.originprotocol.com). Cualquiera con al menos 1,000 OGN en su billetera o puestos en staking en nuestro contrato de OGN Staking puede crear una nueva propuesta usando Snapshot. Todos los holders de OGN pueden votar en propuestas. Nuestro deseo es que nuestra comunidad tenga un fuerte impacto en la dirección de los productos de Origin, la base de código de fuente abierta y tenga voz en las decisiones comerciales clave y la dirección general del proyecto.
 
-**Progressive Decentralization**
+**Descentralización progresiva**
 
-OUSD is designed to be a decentralized protocol governed by many stakeholders all over the world. We believe that the holders of OUSD should collectively determine important protocol decisions as soon as possible.
+OUSD está diseñado para ser un protocolo descentralizado gobernado por muchas partes interesadas en todo el mundo. Creemos que los mineros y holders de OUSD deben determinar colectivamente las decisiones importantes sobre el protocolo lo antes posible.
 
-That being said, in the very early days, it is imperative that the core engineering team can act quickly and decisively to build the foundational parts of the protocol.
+Dicho esto, en los primeros días, es imperativo que el equipo de ingeniería central pueda actuar de manera rápida y decisiva para construir las partes fundamentales del protocolo.
 
-Decentralization will progress across four phases rapidly over the next few months. It is our intent to relinquish control and governance to the community as soon as possible.
+La descentralización progresará rápidamente en cuatro fases durante los próximos meses. Nuestra intención es ceder el control y la gobernanza a la comunidad lo antes posible.
 
 ![](../.gitbook/assets/ousd_docs_graphics_2%20%283%29.png)
 
-**Timelock**
+**Bloqueo de Tiempo**
 
-Prior to full decentralized governance, we will implement a [timelock](../smart-contracts/api/timelock.md) in front of all admin function calls, giving OUSD users time to withdraw their funds if they have objections to our proposed upgrades.
+Antes de la gobernanza descentralizada total, implementaremos un [bloqueo de tiempo](../smart-contracts/api/timelock.md) frente a todas las llamadas de funciones de administración, lo que dará a los usuarios de OUSD tiempo \(horas\) para retirar sus fondos si tienen objeciones a nuestras actualizaciones propuestas.
 
-**New and Existing Stakeholders**
+**Partes interesadas nuevas y existentes**
 
-OUSD is a new project founded by Origin Protocol [team](www.originprotocol.com/team) and will be supported by the existing Origin community as well as many new stakeholders that choose to mint, hold, use, and provide liquidity for OUSD.
+OUSD es un nuevo proyecto fundado por el [equipo](www.originprotocol.com/team) de Origin Protocol y será apoyado por la comunidad de Origin existente, así como por muchas nuevas partes interesadas que elijan acuñar, holdear, usar y proporcionar liquidez para OUSD.
 
-In addition, we also want to ensure high participation from our existing Origin Token \(OGN\) holders and the millions of people in our community. Existing OGN holders are able to [stake their OGN](ogn-staking.md) to participate in governance and earn incentives for driving value to OUSD.
+Además, también queremos asegurar una alta participación de nuestros holders del Token de Origin \(OGN\) existentes y de los millones de personas de nuestra comunidad. Los holders de OGN existentes podrán colocar en staking sus OGN para participar en la gobernanza y ganar incentivos por generar valor para OUSD.
 
-The strong connection between OUSD and the rest of the Origin commerce platform will fuel growth in both initiatives.
+La fuerte conexión entre OUSD y el resto de la plataforma de comercio de Origin impulsará el crecimiento de ambas iniciativas.
 
 
 
