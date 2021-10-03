@@ -122,5 +122,5 @@ Como protocolo descentralizado, OUSD debe depender de fuentes no centralizadas p
 
 {% embed url="https://data.chain.link/dai-usd"%}
 
-The specific smart contract address for each oracle being used are listed on our [registry](../smart-contracts/registry.md) page. It is possible that additional oracles will be added to the protocol over time. Support may also be removed if any of these oracles become unreliable.
+La dirección de contrato inteligente específica para cada oráculo que se utiliza se enumera en nuestra [página de registro](../smart-contracts/registry.md). Es posible que con el tiempo se agreguen más oráculos al protocolo. También pueden eliminarse si alguno de estos oráculos deja de ser confiable.
 
