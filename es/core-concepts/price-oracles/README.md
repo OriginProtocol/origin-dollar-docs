@@ -116,7 +116,7 @@ Con el fin de prevenir ataques maliciosos y alentar a los inversores a largo pla
 
 Esto protege los fondos en el grupo de liquidez mientras recompensa a los holders a largo plazo. Dado que el precio más seguro depende de la dirección de la operación, el oráculo de Origin expone tanto un `priceUSDMint()` y un `priceUSDRedeem()`.
 
-OUSD uses Chainlink as oracle for DAI, USDC and USDT.
+OUSD usa Chainlink como oráculo para DAI, USDC y USDT.
 
 {% embed url="https://feeds.chain.link/eth-usd" caption=""%}
 
