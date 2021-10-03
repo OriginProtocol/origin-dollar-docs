@@ -2,13 +2,13 @@
 
 **La bóveda de OUSD, ERC-20 y el sistema general**
 
-OUSD ha sido auditado por varias firmas de seguridad muy respetadas. We have worked with [OpenZeppelin](https://openzeppelin.com/),  [Trail of Bits](https://www.trailofbits.com/), [Solidified](https://solidified.io/), and [Certora](https://www.certora.com/) to audit all of the code that powers Origin Dollar. Sus hallazgos están disponibles a continuación:
+OUSD ha sido auditado por varias firmas de seguridad muy respetadas. Hemos trabajado con [OpenZeppelin](https://openzeppelin.com/),  [Trail of Bits](https://www.trailofbits.com/), [Solidified](https://solidified.io/) y [Certora](https://www.certora.com/) para auditar todo el código que alimenta Origin Dollar. Sus hallazgos están disponibles a continuación:
 
 * [Trail of Bits, auditoría de OUSD, diciembre de 2020](https://github.com/OriginProtocol/security/blob/master/audits/Trail%20of%20Bits%20-%20Origin%20Dollar%20-%20Dec%202020.pdf)
 * [Solidified, auditoría de OUSD, diciembre de 2020](https://github.com/OriginProtocol/security/blob/master/audits/Solidified%20-%20Origin%20Dollar%20-%20Dec%202020.pdf)
 * [Solidified, Staking de OGN auditado, diciembre de 2020](https://github.com/OriginProtocol/security/blob/master/audits/Solidified%20-%20OGN%20Staking%20-%20Dec%202020.pdf)
-* [Certora, OUSD Formal Verification Audit, January 2021](https://www.certora.com/pubs/OriginFeb2021.pdf)
-* OpenZeppelin, OUSD Audit, August 2021 \(Coming soon\)
+* [Certora, Auditoría de verificación formal de OUSD, enero de 2021](https://www.certora.com/pubs/OriginFeb2021.pdf)
+* OpenZeppelin, auditoría de OUSD, agosto de 2021 \(Próximamente\)
 
 El token de gobernanza, Origin Token \(OGN\), también fue auditado por Trail of Bits en 2018:
 
