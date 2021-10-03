@@ -16,31 +16,33 @@ Nuestros contratos inteligentes han sido [auditados](audits.md) por varias empre
 
 **Riesgo de plataforma de terceros**
 
-OUSD se basa en otras plataformas DeFi que agregan un riesgo adicional de contrato inteligente. We are choosing to work with platforms that have literally billions of dollars of assets under management and have made a reasonable efforts to ensure the security of their protocols. Sin embargo, no hay garantías de que las plataformas subyacentes continuarán funcionando según lo previsto, y cualquier falla en una estrategia subyacente probablemente conduciría a una pérdida de fondos para los holders de OUSD.
+OUSD se basa en otras plataformas DeFi que agregan un riesgo adicional de contrato inteligente. Estamos eligiendo trabajar con plataformas que tienen literalmente miles de millones de dólares en activos bajo administración y han realizado esfuerzos razonables para garantizar la seguridad de sus protocolos. Sin embargo, no hay garantías de que las plataformas subyacentes continuarán funcionando según lo previsto, y cualquier falla en una estrategia subyacente probablemente conduciría a una pérdida de fondos para los holders de OUSD.
 
 **Riesgos de la moneda estable**
 
-Es importante comprender que OUSD es tan fuerte como las monedas estables que lo respaldan. Any loss of value to an underlying stablecoin asset will cause a similar loss to the value of OUSD. While OUSD is designed to maintain a 1:1 relationship between supply and number of backing stablecoins, it does not guarantee which stablecoins will make up that backing nor the value of those coins.
+Es importante comprender que OUSD es tan fuerte como las monedas estables que lo respaldan. Cualquier pérdida de valor de un activo de moneda estable subyacente provocará una pérdida similar al valor de OUSD. Si bien OUSD está diseñado para mantener una relación 1:1 entre el suministro y la cantidad de monedas estables de respaldo, no garantiza qué monedas estables conformarán ese respaldo ni el valor de esas monedas.
 
-Es importante tener en cuenta que cada una de las monedas estables admitidas presenta un riesgo de contraparte no trivial. Tether, en particular, ha tenido problemas bancarios y problemas regulatorios bien documentados. Además, tanto USDT como USDC tienen puertas traseras que otorgan a sus emisores el poder de congelar dinero en las billeteras de sus titulares. While DAI does not have any direct backdoors, its assets can also be negatively impacted since USDC and USDT are accepted as collateral for minting DAI.
+Es importante tener en cuenta que cada una de las monedas estables admitidas presenta un riesgo de contraparte no trivial. Tether, en particular, ha tenido problemas bancarios y problemas regulatorios bien documentados. Además, tanto USDT como USDC tienen puertas traseras que otorgan a sus emisores el poder de congelar dinero en las billeteras de sus titulares. Si bien DAI no tiene puertas traseras directas, sus activos también pueden verse afectados negativamente, ya que el USDC y el USDT se aceptan como garantía para la acuñación de DAI.
 
-**Risk mitigation**
+**Mitigación de riesgos**
 
-While it's impossible to guarantee our contracts are 100% safe, we have taken every step possible to mitigate the chance of losing funds:
+Si bien es imposible garantizar que nuestros contratos sean 100% seguros, hemos tomado todas las medidas posibles para mitigar la posibilidad de perder fondos:
 
-We regularly have our work [audited ](audits.md)by the top auditors in the industry.
+Regularmente tenemos nuestro trabajo [auditado](audits.md) por los mejores auditores de la industria.
 
-We've worked with the top two [DeFi insurance](insurance.md) providers to offer smart contract coverage as an optional add-on service for OUSD holders.
+Hemos trabajado con los dos principales [proveedores de seguros](insurance.md) para ofrecer cobertura de contrato inteligente como un servicio adicional opcional para los holders de OUSD.
 
-We have retained [Certora](https://www.certora.com/) to formally verify the various security properties of our contracts. They helped us establish automated verifications that will run anytime we update our contract code. We have automated checking for common errors with [Slither](https://github.com/crytic/slither) and [Echidna](https://github.com/crytic/echidna) tests. Together, these alert our team to common security issues in addition to our own test suite.
+Hemos contratado [Certora](https://www.certora.com/) para comenzar a verificar formalmente las diversas propiedades de seguridad de nuestros contratos. Nos ayudaron a establecer verificaciones automatizadas que se ejecutarán cada vez que actualicemos nuestro código de contrato. Hemos automatizado la comprobación de errores comunes con las pruebas [Slither](https://github.com/crytic/slither) y [Echidna](https://github.com/crytic/echidna) Juntos, alertan a nuestro equipo sobre problemas de seguridad comunes, además de nuestro propio conjunto de pruebas.
 
-Code reviews involving our smart contracts are incredibly rigorous. We require at least two engineers to review each change with a detailed checklist and we prioritize security reviews over new feature development.
+Las revisiones de código que involucran nuestros contratos inteligentes son increíblemente rigurosas. Requerimos que al menos dos ingenieros revisen cada cambio con una lista de verificación detallada y damos prioridad a las revisiones de seguridad sobre el desarrollo de nuevas funciones.
 
-Finally, we have formalized an engineering [rotation](https://github.com/OriginProtocol/security/blob/master/incidents/ROTATION.md) for reviewing [attacks on other projects](https://github.com/OriginProtocol/security/tree/master/incidents) as well as ensuring we deep dive into each of these reviews, including reviewing the affected contracts' source code ourselves. We've observed that attackers often exploit the same fundamental vulnerability on multiple different projects. By reviewing other project's vulnerabilities, we force ourselves to stay up to date on the latest security threats in our industry and are constantly learning from their mistakes.
+Finalmente, hemos formalizado una rotación</a>
 
-**Actions speak louder than words**
+para revisar [ataques en otros proyectos](https://github.com/OriginProtocol/security/tree/master/incidents) , así como para asegurarnos de profundizar en cada una de estas revisiones, incluida la revisión del código fuente de los contratos afectados nosotros mismos. Hemos observado que los atacantes a menudo aprovechan la misma vulnerabilidad fundamental en varios proyectos diferentes. Al revisar las vulnerabilidades de otros proyectos, nos obligamos a estar al día sobre las últimas amenazas de seguridad en nuestra industria y aprendemos constantemente de sus errores.</p> 
 
-You should also know that many members of the Origin team, including both founders, are holding a significant portion of their personal wealth in OUSD. Origin Protocol's corporate treasury is also holding millions of dollars in OUSD. We have skin in the game and are willing to put our own money at risk with the code we have written.
+**Las acciones hablan más que las palabras**
+
+También debe saber que muchos miembros del equipo de Origin, incluidos ambos fundadores, poseen una parte significativa de su patrimonio personal en OUSD. La tesorería corporativa de Origin Protocol también tiene millones de dólares en OUSD. Tenemos cuero en juego y estamos dispuestos a arriesgar nuestro propio dinero con el código que hemos escrito.
 
 
 
