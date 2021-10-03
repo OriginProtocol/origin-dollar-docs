@@ -16,5 +16,5 @@ Dai es la tercera moneda estable más grande del mundo con más de $400 millones
 | Dirección     | [0x6b175474e89094c44da98b954eedeac495271d0f](https://etherscan.io/token/0x6b175474e89094c44da98b954eedeac495271d0f) |
 | Decimales     | 18                                                                                                                  |
 | Sitio oficial | [https://makerdao.com/](https://makerdao.com/)                                                                      |
-| Holders       | Over 380k addresses                                                                                                 |
+| Holders       | Más de 380k direcciones                                                                                             |
 
