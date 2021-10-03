@@ -14,7 +14,7 @@ El programa de staking inicial ofrece tres períodos de staking y rendimientos r
 
 Los tokens colocados en staking se bloquearán durante el período de staking. Después de que finalice cada período de staking, podrá reclamar tanto su OGN \(principal\) como su rendimiento inicial.
 
-OGN is currently trading on top exchanges like [Coinbase](https://www.coinbase.com/price/origin-token), [Binance](https://www.binance.com/en/register?ref=NPPYAEAE), [Huobi](https://www.huobi.com/en-us/exchange/ogn_usdt/), [Upbit](https://upbit.com/exchange?code=CRIX.UPBIT.BTC-OGN), [Bittrex Global](https://global.bittrex.com/Market/Index?MarketName=BTC-OGN), and [dozens more](https://coinmarketcap.com/currencies/origin-protocol/markets/). Visite el sitio web de Origin para [obtener más información sobre OGN](https://www.originprotocol.com/ogn-token) o consulte [el panel de OGN](https://www.originprotocol.com/dashboard) para realizar un seguimiento de métricas de tokens importantes.
+OGN actualmente cotiza en los principales exchanges como [Coinbase](https://www.coinbase.com/price/origin-token), [Binance](https://www.binance.com/en/register?ref=NPPYAEAE), [Huobi](https://www.huobi.com/en-us/exchange/ogn_usdt/), [Upbit](https://upbit.com/exchange?code=CRIX.UPBIT.BTC-OGN), [Bittrex Global](https://global.bittrex.com/Market/Index?MarketName=BTC-OGN) y [docenas más](https://coinmarketcap.com/currencies/origin-protocol/markets/). Visite el sitio web de Origin para [obtener más información sobre OGN](https://www.originprotocol.com/ogn-token) o consulte [el panel de OGN](https://www.originprotocol.com/dashboard) para realizar un seguimiento de métricas de tokens importantes.
 
 
 
