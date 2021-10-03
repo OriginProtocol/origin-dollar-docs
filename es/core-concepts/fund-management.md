@@ -2,7 +2,7 @@
 
 El contrato inteligente de OUSD agrega los depósitos de monedas estables de todos los usuarios en un solo grupo de activos invertibles. Luego, los fondos se asignan a través de una o más estrategias de ingresos en cualquier momento dado. La Bóveda favorece las estrategias de alto rendimiento, pero también busca mantener la diversificación en múltiples estrategias. La diversificación elimina los puntos únicos de fallas y mitiga los riesgos.
 
-A diferencia de las oportunidades de Yearn Vaults, TokenSets o Zapper, los usuarios no seleccionan estrategias individuales. Todas las monedas estables depositadas y, en consecuencia, todos los tokens OUSD son fungibles. Una vez que se implemente nuestra estructura de gobierno completa, estas decisiones se tomarán con los comentarios de los holders de los tokens de gobierno de OUSD. OGN holders are encouraged to participate in creating and voting on proposals that impact the protocol in the [OGN governance portal](https://vote.originprotocol.com).
+A diferencia de las oportunidades de Yearn Vaults, TokenSets o Zapper, los usuarios no seleccionan estrategias individuales. Todas las monedas estables depositadas y, en consecuencia, todos los tokens OUSD son fungibles. Una vez que se implemente nuestra estructura de gobierno completa, estas decisiones se tomarán con los comentarios de los holders de los tokens de gobierno de OUSD. Se anima a los holders de OGN a participar en la creación y votación de propuestas que afecten al protocolo en [el portal de gobernanza de OGN](https://vote.originprotocol.com).
 
 **Estrategias de Ganancias**
 
