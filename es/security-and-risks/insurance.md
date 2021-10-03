@@ -2,7 +2,7 @@
 
 Los holders de OUSD pueden comprar un seguro de contrato inteligente para cubrir cualquier pérdida que pueda resultar de cualquier error o vulnerabilidad en los contratos de OUSD, incluidas las explotaciones económicas \(como los ataques de préstamos flash\). Además, cualquier persona que quiera hacer una apuesta económica por la seguridad de nuestros contratos puede obtener un rendimiento proporcionando cobertura.
 
-DeFi coverage for OUSD is currently available via  [Nexus Mutual](https://nexusmutual.io/). This partnership allows for more effective risk management by OUSD holders while creating new opportunities for coverage providers to profit.
+La cobertura DeFi para OUSD está disponible actualmente a través de [Nexus Mutual](https://nexusmutual.io/). Esta asociación permite una gestión de riesgos más eficaz por parte de los holders de OUSD al tiempo que crea nuevas oportunidades para que los proveedores de cobertura se beneficien.
 
-Read our [announcement post](https://medium.com/originprotocol/origin-partners-with-nexus-mutual-to-offer-defi-insurance-for-origin-dollar-ousd-6eb3432ee042) to learn how to [buy coverage](https://app.nexusmutual.io/cover/buy/get-quote?address=0xE75D77B1865Ae93c7eaa3040B038D7aA7BC02F70), [provide coverage](https://app.nexusmutual.io/staking), or [participate in shield mining campaigns](https://app.nexusmutual.io/rewards) with Nexus Mutual.
+Lea nuestra publicación</a> para aprender cómo [comprar cobertura](https://app.nexusmutual.io/cover/buy/get-quote?address=0xE75D77B1865Ae93c7eaa3040B038D7aA7BC02F70), [proporcionar cobertura](https://app.nexusmutual.io/staking) o [participar en campañas de minería de escudo](https://app.nexusmutual.io/rewards) con Nexus Mutual.</p>
 
