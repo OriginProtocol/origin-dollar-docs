@@ -140,9 +140,9 @@ Contrato de compensación OUSD \([detalles](https://medium.com/originprotocol/or
 {% endtab %}
 
 {% tab title="Swap" %}
-| Contract | Address                                                                                                               | ENS                                                           |
+| Contrato | Dirección                                                                                                             | ENS                                                           |
 |:-------- |:--------------------------------------------------------------------------------------------------------------------- |:------------------------------------------------------------- |
-| Swap     | [0xcecaD69d7D4Ed6D52eFcFA028aF8732F27e08F70](https://etherscan.io/address/0xcecaD69d7D4Ed6D52eFcFA028aF8732F27e08F70) | [originswap.eth](https://etherscan.io/address/originswap.eth) |
+| Canjeo   | [0xcecaD69d7D4Ed6D52eFcFA028aF8732F27e08F70](https://etherscan.io/address/0xcecaD69d7D4Ed6D52eFcFA028aF8732F27e08F70) | [originswap.eth](https://etherscan.io/address/originswap.eth) |
 {% endtab %}
 {% endtabs %}
 
