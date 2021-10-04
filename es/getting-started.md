@@ -2,7 +2,7 @@
 
 Estos documentos están destinados a explicar cómo funciona OUSD, comunicar los riesgos y beneficios potenciales y proporcionar una guía para los desarrolladores que deseen contribuir a nuestro código base o integrar OUSD en sus productos. Aquí hay algunas formas en las que puede sumergirse y comenzar.
 
-**Buying OUSD**
+**Comprando OUSD**
 
 {% hint style="info" %}
 The [Origin Dollar DApp](https://ousd.com/swap) will intelligently route your transaction to get you the best rate.
