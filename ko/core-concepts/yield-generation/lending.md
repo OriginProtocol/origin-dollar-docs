@@ -8,11 +8,13 @@ OUSD는 높은 금액의 담보 대출을 제공하는 디파이 대출 플랫�
 
 OUSD는 이미 입증된 실적을 보유하고, 감사된 스마트 컨트렉트를 보유하고 있으며, 문제 없이 수억 달러의 대출 시스템을 성공적으로 운영해온 주요 대출 기관들과 통합됩니다. We are currently integrated with the following lending platforms:
 
-{% page-ref page = "../ supported-strategies / compound.md"%}
+{% content-ref url="../supported-strategies/compound.md" %}
+[compound.md](../supported-strategies/compound.md)
+{% endcontent-ref %}
 
-{% page-ref page = "../ supported-strategies / aave.md"%}
-
-
+{% content-ref url="../supported-strategies/aave.md" %}
+[aave.md](../supported-strategies/aave.md)
+{% endcontent-ref %}
 
 
 
