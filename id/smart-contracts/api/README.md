@@ -8,5 +8,3 @@ Dokumentasi API kontrak yang digunakan oleh protokol:
 * [Oracle](oracle.md)
 * [Strategi](strategies.md)
 
-
-
