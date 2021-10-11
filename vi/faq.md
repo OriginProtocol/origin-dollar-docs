@@ -22,7 +22,7 @@ Theo mặc định, các đợt rebase sẽ không tác động tới OUSD đang
 
 **Làm thế nào để APY có thể cao như vậy?**
 
-Bạn có thể đọc về các chiến lược khác nhau của chúng tôi ở mục [Tạo ra lợi nhuận](https://docs.ousd.com/core-concepts/yield-generation). Hiện tại, chúng tôi nhận được phần lớn lợi nhuận từ việc thu thập token thưởng \ (cụ thể là COMP và CRV \). Ngoài ra, một số OUSD được nắm giữ trong các hợp đồng không tích hợp rebase trong khi tài sản hỗ trợ của chúng vẫn tạo ra lãi suất và phân bổ cho những người nắm giữ OUSD còn lại.
+Bạn có thể đọc về các chiến lược khác nhau của chúng tôi ở mục [Tạo ra lợi nhuận](https://docs.ousd.com/core-concepts/yield-generation). We currently get most of the yield from harvesting rewards tokens (namely COMP and CRV). Ngoài ra, một số OUSD được nắm giữ trong các hợp đồng không tích hợp rebase trong khi tài sản hỗ trợ của chúng vẫn tạo ra lãi suất và phân bổ cho những người nắm giữ OUSD còn lại.
 
 **Tại sao số dư của tôi tăng với tốc độ chậm hơn APY được quảng cáo?**
 
@@ -31,4 +31,3 @@ Số dư OUSD tăng khi rebase diễn ra. Số tiền tăng thêm ở mỗi lầ
 **Thông tin về vụ hack thì sao? OUSD có hiện an toàn không?**
 
 Vào 7/11/2020, OUSD đã bị hack 7 triệu USD do 1 lỗ hổng trước đó. Bạn có thể đọc thêm [chi tiết về vụ hack](https://medium.com/originprotocol/urgent-ousd-has-hacked-and-there-has-been-a-loss-of-funds-7b8c4a7d534c) trên blog của chúng tôi cũng như kế hoạch bồi thường [](https://medium.com/originprotocol/origin-dollar-ousd-detailed-compensation-plan-faa73f87442e) cho những người dùng bị ảnh hưởng. Origin Dollar đã được khởi chạy lại vào tháng 12 sau khi hoàn thành nhiều đợt kiểm toán và nâng cấp bảo mật. Bạn có thể tìm hiểu thêm về các bước thực hiện để bảo mật giao thức trong [thông báo khởi chạy lại](https://medium.com/originprotocol/origin-dollar-ousd-is-back-b8ee0c601dad)của chúng tôi.
-
