@@ -12,10 +12,8 @@ Timelock là một biện pháp an toàn cho phép chủ sở hữu OUSD rút ti
 
 OUSD đang sử dụng một phiên bản sửa đổi 1 vài chi tiết nhỏ của [Compound TimeLock](https://compound.finance/docs/governance) đã được [kiểm toán bởi OpenZeppelin](https://blog.openzeppelin.com/compound-finance-patch-audit/). Hai điểm khác biệt đáng chú ý là:
 
-1. OUSD ban đầu sẽ sử dụng khoảng thời gian chờ ngắn hơn (48 giờ) so với Compound (72 giờ) cho phép phản hồi nhanh hơn nếu bất kỳ vấn đề nào được phát hiện.
+1. OUSD will initially use a shorter wait period (48 hours) than Compound (72 hours) to allow for a faster response if any issues are discovered.
 2. Một số quyết định, chẳng hạn như phân bổ lại tiền giữa các chiến lược hiện tại và khoá tiền gửi có thể được thực hiện ngay lập tức mà không cần chờ 48 giờ. Trường hợp này sẽ áp dụng khi có 1 lỗ hổng nghiêm trọng được phát hiện.
-
-
 
 
 
