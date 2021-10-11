@@ -1,8 +1,8 @@
-# 如何贡献
+# Contributing
 
-**100% 开源。**
+**100% Open-source**
 
-OUSD 是一个完全开源的项目，而我们欢迎各种各样的贡献。 您可以通过报告问题，贡献代码或帮助我们改善社区的多种方式提供帮助。
+OUSD is an entirely open-source project and we welcome contributions of all sorts. There are many ways to help, from reporting issues, contributing code, and helping us improve our community.
 
 {% content-ref url="broken-reference" %}
 [Broken link](broken-reference)
@@ -18,20 +18,20 @@ We work in public and our company Discord is open to all. If you have questions 
 
 Our internal developer dashboard is available at [analytics.ousd.com](https://analytics.ousd.com). The dashboard shows the current circulating supply, the assets under management in the vault, and the current allocations between each of the stablecoins and strategies. Various other developer tools can be found at [ousd.com/dashboard](https://ousd.com/dashboard).
 
-#### 开发过程
+#### Development Process
 
 Our branching strategy is similar to [GitFlow](http://nvie.com/posts/a-successful-git-branching-model/), but we do all of our development in the `master` branch and have a `stable` branch for code that has been released.
 
 Your development flow should look like:
 
-1. 选择一个您感兴趣的问题！ 请在 `#engineering` [Discord](https://discord.gg/jyxpUSe) 频道里让我们的团队知道您想贡献的内容。
-2. 在 Discord 给其中一位 [核心团队成员](https://github.com/orgs/OriginProtocol/teams/core/members) 发信息，并要求把您添加到我们的 [贡献者团队](https://github.com/orgs/OriginProtocol/teams/contributors)。 否则，您需要分支相关的存储库，并将功能分支推到您自己的分叉。
-3. 在议题上添加评论或将议题分配给自己，这样我们不会有多个贡献者无意间试图解决同一个问题。
-4. 从 `master` 分支开始，然后签出新功能分支，除非您想为现有功能做出贡献。
+1. Find an interesting issue and communicate! Please let the `#engineering` [Discord](https://discord.gg/jyxpUSe) channel know what you want to work on.
+2. Ping a [core team member](https://github.com/orgs/OriginProtocol/teams/core/members) member on Discord and ask to be added to our [contributors team](https://github.com/orgs/OriginProtocol/teams/contributors). Otherwise, you’ll need to fork the relevant repository and push feature branches to your own fork.
+3. Add a comment to the issue or self-assign so we don’t have multiple contributors unintentionally working on the same task.
+4. Start with the `master` branch and check out a new feature branch unless you’re contributing to an existing feature.
 5. Write some awesome code.
-6. 从 `master` 提取最新提交，并确认您的代码可与自您开始之后已合并的任何其他代码一起使用。
+6. Pull the latest commits from `master` and confirm that your code works with any other work that has been merged since you started.
 7. Push your branch to the upstream repository (i.e. https://github.com/OriginProtocol/\[repo]) so that other contributors can easily work off of it if necessary.
-8. 请通过单击右列的“Reviewers”旁边的齿轮图标来请求 PR 的审阅。
+8. Please request a review in the PR by clicking on the gear icon next to “Reviewers” in the right column.
 
 For critical smart contract code to be merged it must pass the following checklist:
 
@@ -42,7 +42,7 @@ For critical smart contract code to be merged it must pass the following checkli
 
 The `master` branch is locked so that only members of the [core team](https://github.com/orgs/OriginProtocol/teams/core) are able to merge your pull requests. Pull requests that are peer-reviewed by other trusted contributors will be fast-tracked and merged faster! Check in the `#engineering` Discord channel for appropriate reviewers.
 
-#### 编码风格
+#### Coding Style
 
 We use a variety of programming languages in our repositories. When contributing, please follow existing coding conventions and refer to the CONTRIBUTING.md file in the repository, if one exists.
 
@@ -50,7 +50,7 @@ For JavaScript, we use [NPM’s style](https://docs.npmjs.com/misc/coding-style)
 
 For Solidity, we use two-space indents.
 
-#### 协议设计
+#### Protocol Design
 
 When considering protocol or implementation design proposals, we are looking for:
 
@@ -62,7 +62,7 @@ When considering protocol or implementation design proposals, we are looking for
 
 Please note that protocol design is hard and meticulous work. You may need to review existing literature and think through generalized use cases.
 
-#### 社区准则
+#### Community Guidelines
 
 We want to keep the Origin community awesome, growing and collaborative. We need your help to keep it that way. To help with this we’ve come up with some general guidelines for the community as a whole:
 
@@ -71,11 +71,11 @@ We want to keep the Origin community awesome, growing and collaborative. We need
 * Keep it legal: Basically, don’t get anybody in trouble. Share only content that you own, do not share private or sensitive information, and don’t break laws.
 * Stay on topic: Make sure that you are posting to the correct channel and avoid off-topic discussions. Remember when you update an issue or respond to an email you are potentially sending to a large number of people. Please consider this before you update. Also remember that nobody likes spam.
 
-#### 报告问题
+#### Reporting Issues
 
 If you find bugs, mistakes or inconsistencies in Origin’s code or documents, please let us know by filing a GitHub issue. No issue is too small. Help us fix our tpyos!
 
-#### 安全问题
+#### Security Issues
 
 OUSD is still in early development, which means there may be problems with the protocol or in our implementations. We take security vulnerabilities very seriously. If you discover a security issue, please bring it to our attention right away!
 
@@ -85,7 +85,7 @@ If you find a security vulnerability please send your report privately to [secur
 [bug-bounties.md](../security-and-risks/bug-bounties.md)
 {% endcontent-ref %}
 
-#### **社区发展**
+#### **Community Improvement**
 
 Origin is just as much about community as it is about our technology.
 
@@ -93,7 +93,7 @@ We need constant help in improving our documentation, building new tools to inte
 
 Please get in touch if you would like to help out. Our `discussion` channel on [Discord](https://www.originprotocol.com/discord) is a great place to share ideas and volunteer to help.
 
-#### 全职职位
+#### Full-Time Positions
 
 Origin occasionally hires developers for part-time or full-time positions.
 
