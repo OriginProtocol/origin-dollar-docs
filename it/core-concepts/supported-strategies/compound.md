@@ -6,14 +6,13 @@ I saldi del collaterale sono rappresentati da cToken ERC-20, che automaticamente
 
 Compount è governato da COMP, un token di governance ERC-20. I titolari di COMP possono proporre e votare modifiche al protocollo o delegare i propri voti a qualcun altro. COMP tokens are awarded pro-rata to users of the protocol daily, split equally between borrowers and lenders. Gran parte dell'offerta di token COMP è in mano al team di Compound, agli investitori e ai loro Advisors.
 
-Compound's total value locked \(TVL\) has quickly grown to over $10 billion, making it one of the largest DeFi protocols. COMP has a circulating market cap of over $2.5 billion.
+Compound's total value locked (TVL) has quickly grown to over $10 billion, making it one of the largest DeFi protocols. COMP has a circulating market cap of over $2.5 billion.
 
 Compound è stato sottoposto a moltpelici revisioni di sicurezza, effettuati da OpenZeppelin e Trails of Bits. Il protocollo Compound è stato formalmente verificato da CertiK ed è stato sottoposto a stress test economici da Gauntlet. Compound ha attivo un programma di bug bounty.
 
 | Risorse        |                                                                                                                |
-|:-------------- |:-------------------------------------------------------------------------------------------------------------- |
-| Sito ufficiale | [https://compound.finance/](https://compound.finance/)                                                         |
+| -------------- | -------------------------------------------------------------------------------------------------------------- |
+| Sito ufficiale | [https://compound.finance/](https://compound.finance)                                                          |
 | Docs           | [https://compound.finance/docs](https://compound.finance/docs)                                                 |
 | GitHub         | [https://github.com/compound-finance/compound-protocol](https://github.com/compound-finance/compound-protocol) |
 | Discord        | [https://discord.com/invite/cU7vmVW](https://discord.com/invite/cU7vmVW)                                       |
-
