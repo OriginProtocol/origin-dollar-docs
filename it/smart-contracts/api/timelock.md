@@ -12,10 +12,8 @@ Il timelock è una misura di sicurezza che offre 48 ore ai titolari di OUSD per 
 
 OUSD utilizza una versione leggermente modificata di [Compound Timelock](https://compound.finance/docs/governance) che è stata [verificata da OpenZeppelin](https://blog.openzeppelin.com/compound-finance-patch-audit/). The two notable differences are:
 
-1. OUSD inizialmente utilizzerà un periodo di attesa più breve \(48 ore\) rispetto a quello di Compund \(72 ore\), per permettere una più rapida risposta a qualsiasi tipo di problema riscontrato.
+1. OUSD will initially use a shorter wait period (48 hours) than Compound (72 hours) to allow for a faster response if any issues are discovered.
 2. Some actions, such a reallocating funds between existing strategies and freezing deposits can be called immediately without requiring the 48 waiting period. This is in case a major vulnerability is discovered.
-
-
 
 
 
