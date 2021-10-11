@@ -1,10 +1,10 @@
 # API
 
-协议使用的合约API的文档：
+Documentation of contracts API used by the protocol:
 
-* [保险库 （Vault）](vault.md)
+* [Vault](vault.md)
 * [ERC-20](erc-20-1.md)
-* [时间锁（Timelock）](timelock.md)
-* [神谕 (Oracles)](oracle.md)
-* [策略](strategies.md)
+* [Timelock](timelock.md)
+* [Oracles](oracle.md)
+* [Stategies](strategies.md)
 
