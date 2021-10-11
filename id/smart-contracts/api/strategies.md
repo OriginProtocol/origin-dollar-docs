@@ -12,5 +12,3 @@ Setelah kami bermigrasi ke tata kelola yang terdesentralisasi, kami bermaksud ag
 
 
 
-
-
