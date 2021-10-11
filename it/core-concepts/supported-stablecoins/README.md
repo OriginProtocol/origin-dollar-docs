@@ -6,15 +6,20 @@ E' fondamentale capire che OUSD è tanto forte quanto le stablecoin che lo suppo
 
 Attualmente, OUSD supporta le seguenti stablecoin:
 
-{% page-ref page="usdt.md" %}
+{% content-ref url="usdt.md" %}
+[usdt.md](usdt.md)
+{% endcontent-ref %}
 
-{% page-ref page="usdc.md" %}
+{% content-ref url="usdc.md" %}
+[usdc.md](usdc.md)
+{% endcontent-ref %}
 
-{% page-ref page="dai.md" %}
+{% content-ref url="dai.md" %}
+[dai.md](dai.md)
+{% endcontent-ref %}
 
-Nessuna di queste stablecoin è perfetta, ma le abbiamo selezionate per il loro utilizzo diffuso. Sebbene queste stablecoin abbiano perso il loro ancoraggio al dollaro statunitense (USD) in più occasioni, hanno dimostrato resilienza nel tornare infine al loro obiettivo di 1 USD.
+None of these stablecoins are perfect, but we selected them because of their widespread usage. While these stablecoins have lost their USD peg on multiple occasions, they have demonstrated resiliency in eventually getting back to their 1 USD targets.
 
-E' importante notare che tutte le stablecoin supportate introducono un rischio della controparte non banale. Tether, in particolare, ha avuto ben documentatiproblemi bancari e sfide normative. Inoltre, sia USDT che USDC hanno delle backdoor che concedono ai loro emittenti il potere di congelare i fondi nei portafogli dei loro possessori. While DAI does not have any direct backdoors, its assets can also be negatively impacted since USDC and USDT are accepted as collateral for minting DAI.
+It is important to note that all these stablecoins introduce non-trivial counter-party risk. Tether, in particular, has had well-documented banking troubles and regulatory challenges. In addition, both USDT and USDC have backdoors that grant their issuers the power to freeze money in their holder's wallets. While DAI does not have any direct backdoors, its assets can also be negatively impacted since USDC and USDT are accepted as collateral for minting DAI.
 
-Malgrado queste preoccupazioni, ci sono già miliardi di dollari di scommesse sulla sicurezza di queste stablecoin. È possibile che ulteriori stablecoins verranno aggiunte al protocollo nel corso del tempo. Support may also be removed if any of these stablecoins prove to be too unreliable or put OUSD holder's funds in jeopardy. 
-
+Despite these concerns, there are already billions of dollars betting on the security of these stablecoins. It is possible that additional stablecoins will be added to the protocol over time. Support may also be removed if any of these stablecoins prove to be too unreliable or put OUSD holder's funds in jeopardy. 
