@@ -8,5 +8,3 @@
 * [오라클](oracle.md)
 * [전략](strategies.md)
 
-
-
