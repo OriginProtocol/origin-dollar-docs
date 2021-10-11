@@ -8,14 +8,13 @@ Aave supports flash loans, which are uncollateralized loans where users borrow a
 
 Aave's governance token was formerly called LEND which was the utility token for ETHLend. As part of their transition to fully decentralized governance, LEND holders were able to exchange LEND for AAVE, a new ERC-20 governance token with staking rewards. Some AAVE tokens have been distributed to users of the platform in a liquidity mining campaign.
 
-Aave's total value locked \(TVL\) has quickly grown to over $15.5 billion, making it the largest DeFi protocol at the time of writing. LEND has a circulating market cap of over $5.3 billion.
+Aave's total value locked (TVL) has quickly grown to over $15.5 billion, making it the largest DeFi protocol at the time of writing. LEND has a circulating market cap of over $5.3 billion.
 
 Aave has undergone security audits by OpenZeppelin, Trail of Bits, and Consensys Diligence. Aave maintains a bug bounty program.
 
 | 리소스           |                                                                                |
-|:------------- |:------------------------------------------------------------------------------ |
-| 공식 사이트        | [https://aave.com/](https://aave.com/)                                         |
-| 개발자 문서        | [http://docs.aave.com/](http://docs.aave.com/)                                 |
+| ------------- | ------------------------------------------------------------------------------ |
+| 공식 사이트        | [https://aave.com/](https://aave.com)                                          |
+| 개발자 문서        | [http://docs.aave.com/](http://docs.aave.com)                                  |
 | 깃허브(Github)   | [https://github.com/aave/aave-protocol](https://github.com/aave/aave-protocol) |
 | 디스코드(Discord) | [https://aave.com/discord](https://aave.com/discord)                           |
-
