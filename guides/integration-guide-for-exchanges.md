@@ -8,7 +8,7 @@ These docs are a great starting point for understanding how OUSD works. Here are
 
 We're assuming the answer will be yes and we highly encourage this as well! However, there may be some instances where you would prefer to move fast and list OUSD without participating in the [rebasing nature of OUSD](../core-concepts/elastic-supply/rebasing-and-smart-contracts.md) since it's the fastest and simplest integration. For exchanges that want to list OUSD, but are strapped for engineering resources, you may want to launch the non-rebasing version first while your engineers make whatever changes are necessary. To make OUSD non-rebasing you can call `rebaseOptOut()` from each EOA wallet that holds OUSD, or do nothing if you are storing OUSD on smart contracts. Non-rebasing OUSD behaves just like any other ERC-20 token. 
 
-**Are you storing customer balances on smart contracts \(ie. multi-sigs\) or EOA wallets?**
+**Are you storing customer balances on smart contracts (ie. multi-sigs) or EOA wallets?**
 
 Any smart contract that is holding OUSD needs to manually opt-in to receive the yield by calling `rebaseOptIn()`. This is due to the [elastic supply](../core-concepts/elastic-supply/) and the [rebasing nature of OUSD](../core-concepts/elastic-supply/rebasing-and-smart-contracts.md). Many exchanges sweep customer funds into a multi-sig wallet for cold storage. If you do this, you'll want to make sure that you opt-in to rebasing so that you are always earning.
 
@@ -23,6 +23,4 @@ If you are comingling funds, you'll want to be sure that each user gets their pr
 **What is your plan for liquidity?**
 
 OUSD can be minted or redeemed at any time using the [Origin Dollar DApp](https://www.ousd.com), or directly from our smart contracts. If you are planning on providing liquidity yourself, you should be aware that the exact amount of OUSD you will receive in exchange for your USDT, USDC, or DAI depends on the current exchange rates as determined by the [oracles](../smart-contracts/api/oracle.md). If you are planning on redeeming OUSD for the underlying stablecoins, you should know there is a 0.5% exit fee and OUSD will return a basket of stable coins in proportion to the backing stablecoins in the pool. We encourage exchanges to leverage other pools of liquidity, such as on Uniswap or Curve to avoid those fees. If possible, mints or redeems should be done in large batches for maximum efficiency. 
-
-
 
