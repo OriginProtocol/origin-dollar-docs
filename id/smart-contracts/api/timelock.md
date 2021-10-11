@@ -12,10 +12,8 @@ Timelock adalah ukuran keamanan yang memberi pemegang OUSD 48 jam untuk menarik 
 
 OUSD menggunakan versi [Compound Timelock](https://compound.finance/docs/governance) yang sedikit dimodifikasi yang telah [diaudit oleh OpenZeppelin](https://blog.openzeppelin.com/compound-finance-patch-audit/). Dua perbedaan yang mencolok adalah:
 
-1. OUSD awalnya akan menggunakan periode tunggu yang lebih pendek \ (48 jam \) daripada Compound \ (72 jam \) untuk memungkinkan respons yang lebih cepat jika ditemukan masalah.
+1. OUSD will initially use a shorter wait period (48 hours) than Compound (72 hours) to allow for a faster response if any issues are discovered.
 2. Beberapa tindakan, seperti realokasi dana antara strategi yang ada dan pembekuan deposito dapat segera dilakukan tanpa memerlukan 48 masa tunggu. Ini apabila sebuah kerentanan besar ditemukan.
-
-
 
 
 
