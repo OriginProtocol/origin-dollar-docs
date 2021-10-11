@@ -8,11 +8,13 @@ OUSD интегрируется с кредитными платформами D
 
 OUSD интегрируется с ведущими поставщиками кредитных услуг, которые имеют проверенный послужной список, проверенные смарт-контракты и успешно ссудили сотни миллионов долларов без каких-либо проблем. В настоящее время мы интегрируем следующие кредитные платформы:
 
-{% page-ref page="../supported-strategies/compound.md" %}
+{% content-ref url="../supported-strategies/compound.md" %}
+[compound.md](../supported-strategies/compound.md)
+{% endcontent-ref %}
 
-{% page-ref page="../supported-strategies/aave.md" %}
-
-
+{% content-ref url="../supported-strategies/aave.md" %}
+[aave.md](../supported-strategies/aave.md)
+{% endcontent-ref %}
 
 
 
