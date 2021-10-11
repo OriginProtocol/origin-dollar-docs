@@ -4,17 +4,25 @@
 
 OUSD là dự án mã nguồn mở hoàn toàn và chúng tôi hoan nghênh mọi đóng góp của toàn thể cộng đồng. Bạn có thể hỗ trợ đội ngũ chúng tôi bằng việc báo cáo sự cố bảo mật, đóng góp lập trình hay giúp chúng tôi cải thiện cộng đồng của mình.
 
-Chúng tôi làm việc một cách công khai và tài khoản Discord luôn chào đón tất cả cá thành viên trong cộng đồng. Nếu bạn có câu hỏi hoặc cần trợ giúp, [các kênh Discord OUSD](https://discord.gg/jyxpUSe) là nơi tốt nhất để nhận hỗ trợ từ nhóm và cộng đồng của chúng tôi.
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
+{% endcontent-ref %}
 
-**Phân tích nhà phát triển**
+We work in public and our company Discord is open to all. If you have questions or need help getting started, our [Discord OUSD channels](https://discord.gg/jyxpUSe) are the best place to get assistance from our team and community.
 
-Trang theo dõi dành cho nhà phát triển nội bộ [analytics.ousd.com](https://analytics.ousd.com). Bảng điều khiển hiển thị nguồn cung lưu hành hiện tại, tài sản được quản lý trong kho tiền và phân bổ giữa từng stablecoin và chiến lược. Bạn có thể tìm thấy nhiều công cụ lập trình tại [ousd.com/dashboard](https://ousd.com/dashboard).
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
+{% endcontent-ref %}
+
+**Developer Analytics**
+
+Our internal developer dashboard is available at [analytics.ousd.com](https://analytics.ousd.com). The dashboard shows the current circulating supply, the assets under management in the vault, and the current allocations between each of the stablecoins and strategies. Various other developer tools can be found at [ousd.com/dashboard](https://ousd.com/dashboard).
 
 #### Quá trình phát triển
 
-Chiến lược phân nhánh của chúng tôi tương tự như [GitFlow](http://nvie.com/posts/a-successful-git-branching-model/), nhưng chúng tôi thực hiện tất cả quá trình phát triển của mình trong nhánh `chính` và có nhánh `ổn định` cho các mã lập trình đã được phát hành.
+Our branching strategy is similar to [GitFlow](http://nvie.com/posts/a-successful-git-branching-model/), but we do all of our development in the `master` branch and have a `stable` branch for code that has been released.
 
-Bạn có thể tham khảo các bước sau nếu muốn đóng góp cho Origin:
+Your development flow should look like:
 
 1. Tìm một vấn đề thú vị và trao đổi với chúng tôi! Vui lòng ghé kênh `#engineering` [Discord](https://discord.gg/jyxpUSe) và cho chúng tôi biết bạn muốn làm gì.
 2. Nhắn tin cho [thành viên của team](https://github.com/orgs/OriginProtocol/teams/core/members) trên Discord và yêu cầu được thêm vào nhóm [cộng tác viên](https://github.com/orgs/OriginProtocol/teams/contributors) của chúng tôi. Nếu không, bạn sẽ cần phải folk kho giữ liệu code (repo) liên quan và đẩy các nhánh tính năng vào folk riêng của bạn.
@@ -22,41 +30,41 @@ Bạn có thể tham khảo các bước sau nếu muốn đóng góp cho Origin
 4. Bắt đầu với nhánh `chính` và kiểm tra nhánh tính năng mới trừ khi bạn đang đóng góp vào một tính năng hiện có.
 5. Viết code.
 6. Kéo các cam kết mới nhất từ `nhánh chính` và xác nhận rằng mã lập trình của bạn hoạt động tốt với với bất kỳ công việc nào đã được tích hợp kể từ khi bạn bắt đầu.
-7. Đẩy chi nhánh của bạn lên kho lưu trữ ngược dòng (tức là https: //github.com/OriginProtocol/ [repo]) để những người đóng góp khác có thể dễ dàng xử lý nó nếu cần.
+7. Push your branch to the upstream repository (i.e. https://github.com/OriginProtocol/\[repo]) so that other contributors can easily work off of it if necessary.
 8. Vui lòng yêu cầu đánh giá trong bài PR bằng cách nhấp vào biểu tượng bánh răng bên cạnh “Người đánh giá” ở cột bên phải.
 
-Để hợp nhất code hợp đồng thông minh quan trọng, nó phải vượt qua danh sách tiêu chí sau:
+For critical smart contract code to be merged it must pass the following checklist:
 
 *  Code được kiểm tra bởi 2 người đánh giá
 *  Vươt qua bài kiểm tra unit
 *  Vượt qua Slither không bị cảnh báo
 *  Vượt qua kiểm tra Echidna
 
-Nhánh `chính` bị khóa để chỉ các [ thành viên chính ](https://github.com/orgs/OriginProtocol/teams/core) của team có thể hợp nhất các yêu cầu kéo của bạn. Kéo các yêu cầu được đã được xem trước bởi những người đóng góp tin cậy khác sẽ nhanh và được hợp nhất nhanh hơn! Kiểm tra kênh `#engineering` trên Discord để tìm kiếm những người đánh giá thích hợp.
+The `master` branch is locked so that only members of the [core team](https://github.com/orgs/OriginProtocol/teams/core) are able to merge your pull requests. Pull requests that are peer-reviewed by other trusted contributors will be fast-tracked and merged faster! Check in the `#engineering` Discord channel for appropriate reviewers.
 
 #### Kiểu lập trình
 
-Chúng tôi sử dụng nhiều ngôn ngữ lập trình khác nhau trong kho lập trình. Khi đóng góp, vui lòng tuân theo các quy ước lập trình hiện có và tham khảo tệp CONTRIBUTING.md trong kho lưu trữ, nếu có.
+We use a variety of programming languages in our repositories. When contributing, please follow existing coding conventions and refer to the CONTRIBUTING.md file in the repository, if one exists.
 
-Đối với JavaScript, chúng tôi sử dụng kiểu [NPM](https://docs.npmjs.com/misc/coding-style), được thực thi tự động thông qua [prettier](https://prettier.io/).
+For JavaScript, we use [NPM’s style](https://docs.npmjs.com/misc/coding-style), which is automatically enforced via [prettier](https://prettier.io).
 
-Đối với Solidity, chúng tôi sử dụng thụt lề hai dấu cách.
+For Solidity, we use two-space indents.
 
 #### Thiết kế giao thức
 
-Khi xem xét đề xuất giao thức hoặc thiết kế triển khai, chúng tôi đang tìm kiếm:
+When considering protocol or implementation design proposals, we are looking for:
 
 * Mô tả vấn đề mà bản đề xuất này sẽ giải quyết
 * Thảo luận về những đánh đổi liên quan
 * Xem xét các giải pháp hiện có khác
-* Link đến tài liệu có liên quan (RFC, bài báo, v. v.)
+* Links to relevant literature (RFCs, papers, etc)
 * Thảo luận về giải pháp đề xuất
 
-Xin lưu ý rằng thiết kế giao thức là công việc khó khăn và tỉ mỉ. Bạn có thể cần xem lại tài liệu hiện có và suy nghĩ qua các trường hợp sử dụng tổng quát.
+Please note that protocol design is hard and meticulous work. You may need to review existing literature and think through generalized use cases.
 
 #### Hỗ trợ cộng đồng
 
-Chúng tôi luôn hướng tới duy trì một cộng đồng liên tục phát triển và hợp tác. Chúng tôi cần sự giúp đỡ của các bạn để đạt được mục tiêu kể trên. Nếu bạn muốn hỗ trợ chúng tôi phát triển cộng đồng, đây là một số nguyên tắc mà chúng tôi đề ra:
+We want to keep the Origin community awesome, growing and collaborative. We need your help to keep it that way. To help with this we’ve come up with some general guidelines for the community as a whole:
 
 * Thái độ tốt: Lịch sự, tôn trọng với các thành viên trong cộng đồng: không phân biệt vùng miền, chủng tộc, giới tính hoặc các hành vi tương tự. Chúng tôi thích những người tử tế hơn những người xấu tính!
 * Thái độ hoan nghênh: Làm cho mọi người trong cộng đồng của chúng tôi cảm thấy được chào đón không phân biệt tiểu sử và mức độ đóng góp của họ, làm mọi cách có thể để khuyến khích sự gắn kết của cộng đồng.
@@ -65,31 +73,31 @@ Chúng tôi luôn hướng tới duy trì một cộng đồng liên tục phát
 
 #### Báo cáo lỗi
 
-Nếu bạn tìm thấy lỗi, nhầm lẫn hoặc mâu thuẫn trong mã hoặc tài liệu của Origin, vui lòng cho chúng tôi biết bằng cách gửi nội dung vấn đề đó trên GitHub. Không có vấn đề nào là quá nhỏ. Hãy giúp chúng tôi sửa lỗi dù chỉ là nhỏ nhất!
+If you find bugs, mistakes or inconsistencies in Origin’s code or documents, please let us know by filing a GitHub issue. No issue is too small. Help us fix our tpyos!
 
 #### Vấn đề bảo mật
 
-OUSD vẫn đang trong giai đoạn phát triển ban đầu, có nghĩa là có thể tồn tại vấn đề với giao thức hoặc trong việc triển khai của chúng tôi. Chúng tôi rất coi trọng các lỗ hổng bảo mật. Nếu bạn phát hiện ra một vấn đề bảo mật, vui lòng thông báo cho chúng tôi ngay lập tức!
+OUSD is still in early development, which means there may be problems with the protocol or in our implementations. We take security vulnerabilities very seriously. If you discover a security issue, please bring it to our attention right away!
 
-Nếu bạn tìm thấy lỗ hổng bảo mật, vui lòng gửi báo cáo của bạn tới [security@originprotocol.com](mailto:security@originprotocol.com) hoặc gửi tin nhắn mã hóa đến [@joshfraser trên Keybase](https://keybase.io/joshfraser). Vui lòng KHÔNG gửi lỗi bảo mật mà bạn phát hiện được 1 cách công khai. Hãy nhớ xem lại nguyên tắc của chúng tôi về khai báo thông tin và đủ điều kiện nhận tiền thưởng khi tìm ra lỗi.
+If you find a security vulnerability please send your report privately to [security@originprotocol.com](mailto:security@originprotocol.com) or send an encrypted message to [@joshfraser on Keybase](https://keybase.io/joshfraser). Please DO NOT file a public issue. Be sure to review our guidelines for responsible disclosure and eligibility for bug bounties.
 
-{% page-ref page="../security-and-risks/bug-bounties.md" %}
+{% content-ref url="../security-and-risks/bug-bounties.md" %}
+[bug-bounties.md](../security-and-risks/bug-bounties.md)
+{% endcontent-ref %}
 
 #### **Phát triển cộng đồng**
 
-Duy trì và phát triển cộng đồng của Origin cũng quan trọng ngang với việc phát triển cộng nghệ.
+Origin is just as much about community as it is about our technology.
 
-Chúng tôi cần sự trợ giúp liên tục trong việc cải thiện tài liệu, xây dựng các công cụ mới phù hợp giao diện nền tảng của chúng tôi, truyền bá thông tin đến người dùng mới, giúp người dùng mới nắm bắt thông tin quan trọng ban đầu và hơn thế nữa.
+We need constant help in improving our documentation, building new tools to interface with our platform, spreading the word to new users, helping new users getting setup and much more.
 
-Vui lòng liên hệ với chúng tôi nếu bạn muốn giúp đỡ. Kênh `discussion` của Origin trên [Discord](https://www.originprotocol.com/discord) là nơi chia sẻ ý tưởng với đội ngũ nòng cốt của Origin.
+Please get in touch if you would like to help out. Our `discussion` channel on [Discord](https://www.originprotocol.com/discord) is a great place to share ideas and volunteer to help.
 
 #### Vị trí Toàn thời gian
 
-Origin thi thoảng sẽ tuyển dụng các nhà phát triển cho các vị trí bán thời gian hoặc toàn thời gian.
+Origin occasionally hires developers for part-time or full-time positions.
 
-Chúng tôi rất ưu tiên tuyển dụng những người đã có những đóng góp cho dự án. Nếu bạn muốn gia nhập đội ngũ chúng tôi với tư cách là nhân viên toàn thời gian thì cách tốt nhất để bắt đầu là tương tác với độ ngũ của Origin và bắt đầu đóng góp vào nền tảng mã nguồn mở của Origin. Rất ít khả năng chúng tôi sẽ offer bạn một vị trí toàn thời gian trong nhóm kỹ thuật trừ khi bạn đã có một vài đóng góp nhất định.
+We have a strong preference for hiring people who have already started contributing to the project. If you want a full-time position on our team, your best shot is to engage with our team and start contributing code. It is very unlikely that we would offer you a full-time position on our engineering team unless you’ve had at least a few pull requests merged.
 
-Nếu bạn muốn trở thành 1 thành viên trong đội ngũ, ghé thăm [danh sách việc làm tại Origin Protocol](https://angel.co/originprotocol/jobs). Nếu bạn muốn hỗ trợ theo cách khác, vui lòng đề xuất ý tưởng của bạn trên [kênh Discord](https://www.originprotocol.com/discord)của chúng tôi.
-
-
+If you are interested, check out [the Origin Protocol job listings](https://angel.co/originprotocol/jobs). If you’d like to help in other ways, please propose your ideas in [our Discord channel](https://www.originprotocol.com/discord).
 
