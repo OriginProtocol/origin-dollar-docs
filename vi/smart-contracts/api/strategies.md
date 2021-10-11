@@ -12,5 +12,3 @@ Khi Ousd chuyển sang chế độ quản trị phi tập trung, cộng đồng 
 
 
 
-
-
