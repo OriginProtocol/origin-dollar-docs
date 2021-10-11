@@ -32,7 +32,7 @@ Regularmente tenemos nuestro trabajo [auditado](audits.md) por los mejores audit
 
 Hemos trabajado con los dos principales [proveedores de seguros](insurance.md) para ofrecer cobertura de contrato inteligente como un servicio adicional opcional para los holders de OUSD.
 
-Hemos contratado [Certora](https://www.certora.com/) para comenzar a verificar formalmente las diversas propiedades de seguridad de nuestros contratos. Nos ayudaron a establecer verificaciones automatizadas que se ejecutarán cada vez que actualicemos nuestro código de contrato. Hemos automatizado la comprobación de errores comunes con las pruebas [Slither](https://github.com/crytic/slither) y [Echidna](https://github.com/crytic/echidna) Juntos, alertan a nuestro equipo sobre problemas de seguridad comunes, además de nuestro propio conjunto de pruebas.
+We have retained [Certora](https://www.certora.com) to formally verify the various security properties of our contracts. Nos ayudaron a establecer verificaciones automatizadas que se ejecutarán cada vez que actualicemos nuestro código de contrato. Hemos automatizado la comprobación de errores comunes con las pruebas [Slither](https://github.com/crytic/slither) y [Echidna](https://github.com/crytic/echidna) Juntos, alertan a nuestro equipo sobre problemas de seguridad comunes, además de nuestro propio conjunto de pruebas.
 
 Las revisiones de código que involucran nuestros contratos inteligentes son increíblemente rigurosas. Requerimos que al menos dos ingenieros revisen cada cambio con una lista de verificación detallada y damos prioridad a las revisiones de seguridad sobre el desarrollo de nuevas funciones.
 
@@ -43,6 +43,4 @@ para revisar [ataques en otros proyectos](https://github.com/OriginProtocol/secu
 **Las acciones hablan más que las palabras**
 
 También debe saber que muchos miembros del equipo de Origin, incluidos ambos fundadores, poseen una parte significativa de su patrimonio personal en OUSD. La tesorería corporativa de Origin Protocol también tiene millones de dólares en OUSD. Tenemos cuero en juego y estamos dispuestos a arriesgar nuestro propio dinero con el código que hemos escrito.
-
-
 
