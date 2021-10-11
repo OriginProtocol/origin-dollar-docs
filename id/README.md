@@ -6,15 +6,15 @@ description: Stablecoin pertama yang menghasilkan keuntungan saat masih ada di d
 
 ## **Bentuk Uang yang Lebih Baik**
 
-Origin Dollar \ (OUSD \) adalah stablecoin baru yang pertama kali diluncurkan pada September 2020 di jaringan Ethereum. Desainnya lebih unggul dari stablecoin yang sudah ada karena OUSD menangkap hasil yang kompetitif saat disimpan secara pasif di dompet.
+Origin Dollar (OUSD) is a new stablecoin that was initially launched in September 2020 on the Ethereum network. Desainnya lebih unggul dari stablecoin yang sudah ada karena OUSD menangkap hasil yang kompetitif saat disimpan secara pasif di dompet.
 
 ![](.gitbook/assets/origin-dollar-summary.jpeg)
 
 **Latar Belakang**
 
-Pada tahun 1999, Yu Pan, insinyur R&D Origin, dan rekan sesama pendiri PayPal [memahami](https://www.cnbc.com/2017/08/14/david-sacks-cryptocurrency-interview.html) menciptakan "mata uang dunia baru", lengkap dengan strategi menghasilkan bunga dan kartu debit tanpa harus terhubung ke sistem perbankan tradisional. Beberapa pivot dan akuisisi eBay kemudian, PayPal menjatuhkan ambisinya di bidang ini.
+In 1999, Yu Pan, Origin’s R\&D engineer, and his fellow PayPal co-founders [conceived](https://www.cnbc.com/2017/08/14/david-sacks-cryptocurrency-interview.html) of creating “the new world currency”, complete with interest yielding strategies and debit cards without having to connect to traditional banking systems. Beberapa pivot dan akuisisi eBay kemudian, PayPal menjatuhkan ambisinya di bidang ini.
 
-Hampir dua dekade kemudian, Tether memperkenalkan konsep stablecoin dalam mata uang USD pada tahun 2014. Sejak saat itu, stablecoin telah membuktikan dirinya sebagai cara ideal untuk mentransfer nilai tanpa membuat pengguna rentan terhadap volatilitas harga mata uang yang mengambang bebas. Saat ini, lebih banyak nilai [ditransfer melalui Tether](https://www.bloomberg.com/news/articles/2019-10-01/tether-not-bitcoin-likely-the-world-s-most-used-cryptocurrency) daripada dengan Bitcoin. Sementara itu, Keuangan Terdesentralisasi \ (DeFi \) telah mengalami ledakan pertumbuhan dengan modal [miliar dolar](https://defipulse.com/) sekarang terkunci dalam kontrak pintar yang menghasilkan imbal hasil dari protokol pinjaman dan perdagangan.
+Hampir dua dekade kemudian, Tether memperkenalkan konsep stablecoin dalam mata uang USD pada tahun 2014. Sejak saat itu, stablecoin telah membuktikan dirinya sebagai cara ideal untuk mentransfer nilai tanpa membuat pengguna rentan terhadap volatilitas harga mata uang yang mengambang bebas. Saat ini, lebih banyak nilai [ditransfer melalui Tether](https://www.bloomberg.com/news/articles/2019-10-01/tether-not-bitcoin-likely-the-world-s-most-used-cryptocurrency) daripada dengan Bitcoin. Meanwhile, Decentralized Finance (DeFi) has experienced an explosion of growth with [billions of dollars](https://defipulse.com) of capital now locked up in smart contracts that generate yields from lending and trading protocols.
 
 Salah satu masalah dengan stablecoin yang ada adalah bahwa pengguna harus terus-menerus memilih antara memegang koin yang mudah digunakan dan mendapatkan hasil dengan mengunci token mereka dalam kontrak pintar. Misalnya, pengguna yang mengunci USDC di Aave tidak dapat membelanjakan sebagian dari USDC tersebut secara bersamaan. Biaya gas Ethereum yang mahal berfungsi sebagai "biaya peralihan" setiap kali pengguna tersebut ingin beralih antara mode pengeluaran dan mode penghasilan.
 
@@ -24,7 +24,6 @@ Dengan OUSD, tidak perlu melepaskan posisi yang rumit saat Anda ingin membelanja
 
 Dibuat oleh para veteran cryptocurrency dan fintech, Origin Dollar dipersembahkan oleh [tim](https://www.originprotocol.com/team) di [Origin Protocol](https://www.originprotocol.com) yang mencakup pengusaha serial, investor cryptocurrency awal, karyawan awal di YouTube, manajer teknik di Google / Dropbox, dan salah satu pendiri Paypal, Yu Pan.
 
-Bagi mereka yang tertarik mempelajari detail teknis tentang cara kerjanya, dokumen ini adalah tempat yang tepat untuk memulai. Kami mendorong para pengembang untuk mengaudit dan berkontribusi pada [Github](http://www.github.com/OriginProtocol) \ (100% open-source \) kami. Tim kami berkumpul di [Discord](https://www.originprotocol.com/discord) jika Anda memiliki pertanyaan atau membutuhkan bantuan untuk memulai.
+Bagi mereka yang tertarik mempelajari detail teknis tentang cara kerjanya, dokumen ini adalah tempat yang tepat untuk memulai. We encourage developers to audit and contribute to our [Github](http://www.github.com/OriginProtocol) (100% open-source). Tim kami berkumpul di [Discord](https://www.originprotocol.com/discord) jika Anda memiliki pertanyaan atau membutuhkan bantuan untuk memulai.
 
 Selamat datang di masa depan uang.
-
