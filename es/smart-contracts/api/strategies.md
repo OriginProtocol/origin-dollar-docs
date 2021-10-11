@@ -12,5 +12,3 @@ Una vez que migremos a la gobernanza descentralizada, nuestra intención es que 
 
 
 
-
-
