@@ -1,4 +1,4 @@
-# Principles
+# 原则
 
 **Governance Portal**
 
@@ -12,7 +12,7 @@ That being said, in the very early days, it is imperative that the core engineer
 
 Decentralization will progress across four phases rapidly over the next few months. It is our intent to relinquish control and governance to the community as soon as possible.
 
-![](../.gitbook/assets/ousd_docs_graphics_2%20%283%29.png)
+![](../.gitbook/assets/ousd_docs_graphics\_2 (2).png)
 
 **Timelock**
 
@@ -20,11 +20,9 @@ Prior to full decentralized governance, we will implement a [timelock](../smart-
 
 **New and Existing Stakeholders**
 
-OUSD is a new project founded by Origin Protocol [team](www.originprotocol.com/team) and will be supported by the existing Origin community as well as many new stakeholders that choose to mint, hold, use, and provide liquidity for OUSD.
+OUSD is a new project founded by Origin Protocol [team](https://www.originprotocol.com/team) and will be supported by the existing Origin community as well as many new stakeholders that choose to mint, hold, use, and provide liquidity for OUSD.
 
-In addition, we also want to ensure high participation from our existing Origin Token \(OGN\) holders and the millions of people in our community. Existing OGN holders are able to [stake their OGN](ogn-staking.md) to participate in governance and earn incentives for driving value to OUSD.
+In addition, we also want to ensure high participation from our existing Origin Token (OGN) holders and the millions of people in our community. Existing OGN holders are able to [stake their OGN](ogn-staking.md) to participate in governance and earn incentives for driving value to OUSD.
 
 The strong connection between OUSD and the rest of the Origin commerce platform will fuel growth in both initiatives.
-
-
 
