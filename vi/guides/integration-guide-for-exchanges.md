@@ -8,7 +8,7 @@ Những tài liệu này là bước quan trọng để tìm hiểu cơ chế ho
 
 Chúng tôi giả định câu trả lời sẽ là có! Tuy nhiên, nếu chỉ đơn giản là. niêm yết OUSD mà không [tích hợp rebase](../core-concepts/elastic-supply/rebasing-and-smart-contracts.md) thì bạn sẽ không đạt được mục đích mong muốn. Đối với các sàn giao dịch muốn niêm yết OUSD, nhưng bị hạn chế về kỹ thuật, bạn có thể muốn khởi chạy phiên bản không rebase trước và sau đó các kỹ sư có thể thực hiện tiếp các bước tích hợp rebase. Để dừng tính năng rebase của OUSD, bạn có thể gọi `rebaseOptOut ()` từ mỗi ví EOA nắm giữ OUSD hoặc không làm gì nếu bạn đang lưu trữ OUSD trên các hợp đồng thông minh. OUSD sau khi tạm dừng rebase hoạt động giống như token ERC-20 bình thường.
 
-**Bạn có đang lưu trữ số dư của khách hàng trên các hợp đồng thông minh \(ví dụ: ví đa chữ ký\) hoặc ví EOA không?**
+**Are you storing customer balances on smart contracts (ie. multi-sigs) or EOA wallets?**
 
 Bất kỳ hợp đồng thông minh nào đang nắm giữ OUSD cần phải opt-in hủ công để nhận được lợi nhuận bằng cách gọi hàm `rebaseOptIn ()`. Sở dĩ bạn phải thực hiện bước này vì bản chất [cung thay đổi](../core-concepts/elastic-supply/) và [tính năng rebase](../core-concepts/elastic-supply/rebasing-and-smart-contracts.md). Nếu sàn giao dịch của bạn đang lưu trữ tiền trong ví đa chữ ký, đừng quên thực hiện opt-in để kiếm lợi nhuận.
 
@@ -23,6 +23,4 @@ Nếu bạn đang trộn lẫn quỹ của người dùng, bạn cần đảm b�
 **Kế hoạch thanh khoản của bạn là gì?**
 
 OUSD có thể được mint hoặc redeem bất kỳ lúc nào bằng cách sử dụng [Origin Dollar DApp](https://www.ousd.com)hoặc thực hiện trực tiếp từ các hợp đồng thông minh của Origin. Nếu bạn đang có kế hoạch tự cung cấp thanh khoản, bạn nên lưu ý rằng số lượng OUSD chính xác mà bạn sẽ nhận được để đổi lấy USDT, USDC hoặc DAI của bạn phụ thuộc vào tỷ giá hối đoái hiện tại được xác định bởi [oracles](../smart-contracts/api/oracle.md). Nếu bạn đang có kế hoạch đổi OUSD để lấy các stablecoin cơ bản, lưu ý rằng giao thức sẽ thu 1 khoản phí là 0.5% và sẽ trả về hỗn hợp tác stablecoin đang có trong pool. Chúng tôi khuyến khích các sàn giao dịch chuyển đổi qua các nền tảng khác như Uniswap hoặc Curve để tránh các khoản fee nêu trên. Nếu có thể, bạn nên thực hiện mint hoặc redeem số lượng lớn để tối thiểu hoá chi phí. 
-
-
 
