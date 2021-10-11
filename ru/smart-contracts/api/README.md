@@ -8,5 +8,3 @@
 * [Оракулы](oracle.md)
 * [Стратегии](strategies.md)
 
-
-
