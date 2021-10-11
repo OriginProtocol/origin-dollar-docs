@@ -8,11 +8,13 @@ OUSD integrates with DeFi lending platforms that provide over-collateralized loa
 
 OUSD integrates with leading lending providers that have a proven track record, audited smart contracts, and have successfully lent hundreds of millions of dollars without issue. We are currently integrated with the following lending platforms:
 
-{% page-ref page="../supported-strategies/compound.md" %}
+{% content-ref url="../supported-strategies/compound.md" %}
+[compound.md](../supported-strategies/compound.md)
+{% endcontent-ref %}
 
-{% page-ref page="../supported-strategies/aave.md" %}
-
-
+{% content-ref url="../supported-strategies/aave.md" %}
+[aave.md](../supported-strategies/aave.md)
+{% endcontent-ref %}
 
 
 
