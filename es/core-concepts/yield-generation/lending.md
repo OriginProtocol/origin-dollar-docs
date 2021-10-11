@@ -8,11 +8,13 @@ OUSD se integra con las plataformas de préstamos DeFi que brindan préstamos co
 
 OUSD se integra con los principales proveedores de préstamos que tienen un historial probado, contratos inteligentes auditados y que han prestado con éxito cientos de millones de dólares sin problemas. Actualmente estamos integrados con las siguientes plataformas de préstamos:
 
-{% page-ref page = "../ supported-Strategies / composite.md"%}
+{% content-ref url="../supported-strategies/compound.md" %}
+[compound.md](../supported-strategies/compound.md)
+{% endcontent-ref %}
 
-{% page-ref page = "../ supported-Strategies / aave.md"%}
-
-
+{% content-ref url="../supported-strategies/aave.md" %}
+[aave.md](../supported-strategies/aave.md)
+{% endcontent-ref %}
 
 
 
