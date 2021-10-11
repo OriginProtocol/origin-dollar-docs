@@ -8,14 +8,13 @@ Aave hỗ trợ các khoản vay nhanh, là các khoản vay không cần thế 
 
 Token quản trị của Aave trước đây được gọi là LEND, là token tiện ích cho ETHLend. Người nắm giữ LEND có thể đổi LEND lấy AAVE - token quản trị ERC-20 mới và phần thưởng staking. Một số AAVE đã được phân phối cho người dùng nền tảng trong một chiến dịch khai thác thanh khoản.
 
-Tổng giá trị của Aave bị khóa (TVL) đã nhanh chóng tăng lên hơn 15,5 tỷ đô la, khiến nó trở thành một trong những giao thức DeFi lớn nhất tại thời điểm viết bài. Vốn hóa thị trường của LEND đạt hơn 5.3 tỉ đô la.
+Aave's total value locked (TVL) has quickly grown to over $15.5 billion, making it the largest DeFi protocol at the time of writing. Vốn hóa thị trường của LEND đạt hơn 5.3 tỉ đô la.
 
 Aave đã trải qua các cuộc kiểm toán bảo mật được thực hiện bởi OpenZeppelin, Trail of Bits và Consensys Diligence. Aave vẫn đang duy trì chương trình tặng tưởng cho người phát hiện ra lỗi của hệ thống.
 
 | Tài nguyên                       |                                                                                |
-|:-------------------------------- |:------------------------------------------------------------------------------ |
-| Website                         | [https://aave.com/](https://aave.com/)                                         |
-| Tài liệu dành cho nhà phát triển | [http://docs.aave.com/](http://docs.aave.com/)                                 |
+| -------------------------------- | ------------------------------------------------------------------------------ |
+| Website                         | [https://aave.com/](https://aave.com)                                          |
+| Tài liệu dành cho nhà phát triển | [http://docs.aave.com/](http://docs.aave.com)                                  |
 | GitHub                           | [https://github.com/aave/aave-protocol](https://github.com/aave/aave-protocol) |
 | Discord                          | [https://aave.com/discord](https://aave.com/discord)                           |
-
