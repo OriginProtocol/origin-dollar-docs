@@ -8,7 +8,7 @@ Bu belgeler, OUSD'nin nasıl çalıştığını açıklamayı, potansiyel riskle
 The [Origin Dollar DApp](https://ousd.com/swap) will intelligently route your transaction to get you the best rate.
 {% endhint %}
 
-The [Origin Dollar DApp](https://ousd.com/swap) allows anyone to buy or sell OUSD using a web-3 enabled cryptocurrency wallet like [Metamask](https://www.metamask.io), [Ledger](https://www.ledger.com/), or [Gnosis Safe](https://gnosis-safe.io/). This is the native way to get OUSD, especially if you want a large amount that could risk moving the market on other exchanges. The DApp will intelligently decide whether to create or trade-in OUSD tokens using the vault or help you complete the trade on whichever AMM is currently offering the best rate.
+The [Origin Dollar DApp](https://ousd.com/swap) allows anyone to buy or sell OUSD using a web-3 enabled cryptocurrency wallet like [Metamask](https://www.metamask.io), [Ledger](https://www.ledger.com), or [Gnosis Safe](https://gnosis-safe.io). This is the native way to get OUSD, especially if you want a large amount that could risk moving the market on other exchanges. The DApp will intelligently decide whether to create or trade-in OUSD tokens using the vault or help you complete the trade on whichever AMM is currently offering the best rate.
 
 **Decentralized Exchanges**
 
@@ -16,9 +16,9 @@ OUSD is currently available on the following decentralized exchanges. These are 
 
 * [Buy OUSD on 1inch](https://app.1inch.io/#/1/swap/USDT/OUSD)
 * [Buy OUSD on Curve](https://curve.fi/factory/9)
-* [Buy OUSD on Uniswap v3](https://app.uniswap.org/#/swap?inputCurrency=0xdac17f958d2ee523a2206206994597c13d831ec7&outputCurrency=0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86)
-* [Buy OUSD on Uniswap v2](https://app.uniswap.org/#/swap?inputCurrency=0xdac17f958d2ee523a2206206994597c13d831ec7&outputCurrency=0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86&use=v2)
-* [Buy OUSD on Sushiswap](https://exchange.sushiswapclassic.org/#/swap?inputCurrency=0xdac17f958d2ee523a2206206994597c13d831ec7&outputCurrency=0x2a8e1e676ec238d8a992307b495b45b3feaa5e86)
+* [Buy OUSD on Uniswap v3](https://app.uniswap.org/#/swap?inputCurrency=0xdac17f958d2ee523a2206206994597c13d831ec7\&outputCurrency=0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86)
+* [Buy OUSD on Uniswap v2](https://app.uniswap.org/#/swap?inputCurrency=0xdac17f958d2ee523a2206206994597c13d831ec7\&outputCurrency=0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86\&use=v2)
+* [Buy OUSD on Sushiswap](https://exchange.sushiswapclassic.org/#/swap?inputCurrency=0xdac17f958d2ee523a2206206994597c13d831ec7\&outputCurrency=0x2a8e1e676ec238d8a992307b495b45b3feaa5e86)
 
 **Centralized Exchanges**
 
@@ -29,15 +29,14 @@ OUSD is currently available on the following centralized exchanges. Be sure to c
   * [OUSD/BTC](https://trade.kucoin.com/OUSD-BTC)
 * Buy OUSD on Virgox
   * [OUSD/USDT](https://virgox.com/exchange/141)
-* [Buy OUSD on Dharma App](https://www.dharma.io/) \(US only\)
+* [Buy OUSD on Dharma App](https://www.dharma.io) (US only)
 
 We're continuing to work on making OUSD available on additional centralized exchanges.
 
 **Adding OUSD to Your Wallet**
 
 {% hint style="success" %}
-The main ERC20 address for Origin Dollar \(OUSD\) is:   
-**0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86**
+The main ERC20 address for Origin Dollar (OUSD) is: \ **0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86**
 {% endhint %}
 
 If your OUSD does not automatically show up in your wallet, you should be able to add it manually using the address above. If you are planning on [storing your OUSD in a multi-sig wallet](core-concepts/elastic-supply/rebasing-and-smart-contracts.md), be sure to opt-in to receive yield. We want to have OUSD supported by as many wallets as possible and included on all the various lists of well-known tokens. We would greatly appreciate any help you can offer in this area.
@@ -48,11 +47,17 @@ OUSD is a non-standard ERC-20 token that requires custom integration work for mo
 
 If you are a wallet provider or crypto exchange that is interested in supporting OUSD, please refer to the following guides:
 
-{% page-ref page="core-concepts/elastic-supply/rebasing-and-smart-contracts.md" %}
+{% content-ref url="core-concepts/elastic-supply/rebasing-and-smart-contracts.md" %}
+[rebasing-and-smart-contracts.md](core-concepts/elastic-supply/rebasing-and-smart-contracts.md)
+{% endcontent-ref %}
 
-{% page-ref page="smart-contracts/architecture.md" %}
+{% content-ref url="smart-contracts/architecture.md" %}
+[architecture.md](smart-contracts/architecture.md)
+{% endcontent-ref %}
 
-{% page-ref page="smart-contracts/api/" %}
+{% content-ref url="smart-contracts/api/" %}
+[api](smart-contracts/api/)
+{% endcontent-ref %}
 
 **Developer Analytics**
 
@@ -60,5 +65,8 @@ Our internal developer dashboard is available at [analytics.ousd.com](https://an
 
 **Getting Help**
 
-Please join the Origin Dollar \#engineering room in Origin's [Discord](www.originprotocol.com/discord) server.  Our team and members of our community look forward to helping you build. Your questions help us improve, so please don't hesitate to ask if you can't find what you are looking for here.
+Please join the Origin Dollar #engineering room in Origin's [Discord](https://www.originprotocol.com/discord) server.  Our team and members of our community look forward to helping you build. Your questions help us improve, so please don't hesitate to ask if you can't find what you are looking for here.
 
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
+{% endcontent-ref %}
