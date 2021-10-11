@@ -8,5 +8,3 @@ Tài liệu về các hợp đồng API được sử dụng bởi giao thức:
 * [Oracle](oracle.md)
 * [Các chiến lược](strategies.md)
 
-
-
