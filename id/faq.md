@@ -22,7 +22,7 @@ Secara default, peristiwa rebase tidak memengaruhi pasokan OUSD yang ada dalam k
 
 **Bagaimana mungkin APY bisa begitu tinggi?**
 
-Anda dapat membaca tentang berbagai strategi kami di [Yield Generation](https://docs.ousd.com/core-concepts/yield-generation). Saat ini kami mendapatkan sebagian besar hasil dari memanen token hadiah \(yaitu COMP dan CRV\). Selain itu, imbal hasil meningkat karena lebih banyak OUSD ditahan dalam kontrak pintar yang tidak memilih untuk melakukan rebasing karena jaminan yang mendasarinya terus menghasilkan untuk pemegang OUSD rata-rata.
+Anda dapat membaca tentang berbagai strategi kami di [Yield Generation](https://docs.ousd.com/core-concepts/yield-generation). We currently get most of the yield from harvesting rewards tokens (namely COMP and CRV). Selain itu, imbal hasil meningkat karena lebih banyak OUSD ditahan dalam kontrak pintar yang tidak memilih untuk melakukan rebasing karena jaminan yang mendasarinya terus menghasilkan untuk pemegang OUSD rata-rata.
 
 **Mengapa saldo saya meningkat lebih lambat dari APY yang diiklankan?**
 
@@ -31,4 +31,3 @@ Saldo OUSD meningkat saat pasokan mengalami rebase. Tetapi ukuran setiap rebase 
 **Bagaimana dengan peretasan? Apakah OUSD aman?**
 
 Pada 7 November 2020, OUSD dieksploitasi sebanyak 7 juta USD karena bug reentrancy yang sebelumnya tidak terdeteksi. Anda dapat membaca lebih lanjut [detail tentang peretasan](https://medium.com/originprotocol/urgent-ousd-has-hacked-and-there-has-been-a-loss-of-funds-7b8c4a7d534c) di blog kami serta [detail rencana kompensasi](https://medium.com/originprotocol/origin-dollar-ousd-detailed-compensation-plan-faa73f87442e) untuk mengganti rugi pengguna yang terkena dampak. Origin Dollar diluncurkan kembali pada bulan Desember setelah menyelesaikan beberapa audit dan peningkatan keamanan. Anda dapat mempelajari lebih lanjut tentang langkah-langkah yang diambil untuk mengamankan protokol di [pengumuman peluncuran kembali](https://medium.com/originprotocol/origin-dollar-ousd-is-back-b8ee0c601dad).
-
