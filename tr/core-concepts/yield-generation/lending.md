@@ -8,11 +8,13 @@ OUSD, aşırı teminatlı krediler sağlayan DeFi borç verme platformlarıyla e
 
 OUSD, kanıtlanmış bir sicile sahip, akıllı sözleşmeleri denetleyen ve sorunsuz bir şekilde yüz milyonlarca doları başarıyla borç veren önde gelen kredi sağlayıcılarıyla entegre olur. We are currently integrated with the following lending platforms:
 
-{% page-ref page = "../ supported-Strategies / complex.md"%}
+{% content-ref url="../supported-strategies/compound.md" %}
+[compound.md](../supported-strategies/compound.md)
+{% endcontent-ref %}
 
-{% page-ref page = "../ supported-Strategies / complex.md"%}
-
-
+{% content-ref url="../supported-strategies/aave.md" %}
+[aave.md](../supported-strategies/aave.md)
+{% endcontent-ref %}
 
 
 
