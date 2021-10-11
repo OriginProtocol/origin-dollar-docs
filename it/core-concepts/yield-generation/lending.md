@@ -8,11 +8,13 @@ OUSD si integra con le piattaforme di prestito DeFi che forniscono prestiti sovr
 
 OUSD si integra con i leader tra i fornitori di servizi di prestito, i quali hanno una comprovata esperienza, smartcontract revisionati, e che hanno già prestato con successo centinaia di milioni di dollari senza alcun problema. We are currently integrated with the following lending platforms:
 
-{% page-ref page="../supported-strategies/compound.md" %}
+{% content-ref url="../supported-strategies/compound.md" %}
+[compound.md](../supported-strategies/compound.md)
+{% endcontent-ref %}
 
-{% page-ref page="../supported-strategies/aave.md" %}
-
-
+{% content-ref url="../supported-strategies/aave.md" %}
+[aave.md](../supported-strategies/aave.md)
+{% endcontent-ref %}
 
 
 
