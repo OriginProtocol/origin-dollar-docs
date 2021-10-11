@@ -6,17 +6,17 @@ description: 지갑에 있는동안 수익을 만들어 내는 최초의 스테�
 
 ## **더 나은 형태의 돈**
 
-Origin Dollar \ (OUSD \) 는 Ethereum 네트워크에서 2020 년 9 월에 처음 출시된 새로운 스테이블코인(stablecoin) 입니다. OUSD는 단순히 지갑에 코인을 보관하기만 해도 경쟁력있는 수익률을 확보하기 때문에 기존 스테이블 코인보다 우수합니다.
+Origin Dollar (OUSD) is a new stablecoin that was initially launched in September 2020 on the Ethereum network. OUSD는 단순히 지갑에 코인을 보관하기만 해도 경쟁력있는 수익률을 확보하기 때문에 기존 스테이블 코인보다 우수합니다.
 
 ![](.gitbook /assets/origin-dollar-summary.jpeg)
 
 **배경**
 
-1999 년 Origin의 R&D 엔지니어 인 Yu Pan과 그의 동료 PayPal 공동 창립자 [는 기존의 뱅킹 시스템에 연결하지 않고도 이자 수익률 전략과 직불 카드로 완성 된 "새로운 세계의 통화"를 만드는](https://www.cnbc.com/2017/08/14/david-sacks-cryptocurrency-interview.html) 것을 구상했습니다. 몇 차례의 피벗(pivot) 과 eBay 인수후, PayPal은 이 야망에서 멀어져 갔습니다.
+In 1999, Yu Pan, Origin’s R\&D engineer, and his fellow PayPal co-founders [conceived](https://www.cnbc.com/2017/08/14/david-sacks-cryptocurrency-interview.html) of creating “the new world currency”, complete with interest yielding strategies and debit cards without having to connect to traditional banking systems. 몇 차례의 피벗(pivot) 과 eBay 인수후, PayPal은 이 야망에서 멀어져 갔습니다.
 
 거의 20 년 후 Tether는 2014 년에 USD로 표시된 스테이블 코인 개념을 도입했습니다. 그 이후로 스테이블 코인은 사용자에게 자유 유동성 통화의 가격 변동성에 노출되지 않고 가치를 이전하는 이상적인 방법으로 입증되었습니다. 오늘날 비트코인보다 Tether</a>을 통해 전송되는 가치가
 
-더 높습니다. 한편, 탈중앙화 금융 \ (DeFi \)은 현재 대출 및 거래 프로토콜에서 수익을 창출하는 스마트 컨트랙트에 자본금이 [수십억 달러](https://defipulse.com/) 로 고정되어 폭발적인 성장을 경험했습니다.</p> 
+더 높습니다. Meanwhile, Decentralized Finance (DeFi) has experienced an explosion of growth with [billions of dollars](https://defipulse.com) of capital now locked up in smart contracts that generate yields from lending and trading protocols.</p> 
 
 기존 스테이블코인의 문제점 중 하나는 사용자가 쉽게 사용할 수있는 코인을 보유하는 것과 스마트 컨트랙트에 토큰을 락(lock) 해 수익을 얻는 것 중에서 항상 선택해야한다는 것입니다. 예를 들어 Aave에서 USDC를 락(lock) 하는 사용자는 해당 USDC의 일부를 동시에 사용할 수 없습니다. 비싼 이더리움 가스 요금은 사용자가 지출 모드와 수입 모드 사이를 전환 할 때마다 생기는 "전환 비용" 역할을 합니다.
 
@@ -26,7 +26,6 @@ OUSD를 사용하려고 할 때 복잡한 포지션을 풀 필요가 없습니�
 
 암호화폐 및 핀테크 베테랑이 만든 오리진 달러(Origin Dollar)는 연쇄 창업가, 초기 암호 화폐 투자자, 유투브(YouTube)의 초기 직원, 구글/드랍박스(Google / Dropbox)의 개발 및 관리자, 페이팔(Paypal)의 공동 창립자, 유 팬(Yu Pan)이 소속되어 있는 [오리진 프로토콜(Origin Protocol)](https://www.originprotocol.com) [팀](https://www.originprotocol.com/team)이 지원하고 있습니다.
 
-이 문서는 작동 방식에 대한 기술적 세부사항에 관심있는 사람들이 시작하기에 좋은 곳입니다. 개발자가 [Github](http://www.github.com/OriginProtocol) \ (100 % 오픈 소스 \)를 감사하고 기여하도록 권장합니다. 질문이 있거나 시작하는 데 도움이 필요한 경우 저희 팀이 많은 시간을 보내는 [Discord](https://www.originprotocol.com/discord)를 찾아주세요.
+이 문서는 작동 방식에 대한 기술적 세부사항에 관심있는 사람들이 시작하기에 좋은 곳입니다. We encourage developers to audit and contribute to our [Github](http://www.github.com/OriginProtocol) (100% open-source). 질문이 있거나 시작하는 데 도움이 필요한 경우 저희 팀이 많은 시간을 보내는 [Discord](https://www.originprotocol.com/discord)를 찾아주세요.
 
 '미래의 돈'에 오신 것을 환영합니다.
-
