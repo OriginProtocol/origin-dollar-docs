@@ -4,15 +4,20 @@
 
 OUSD generates yield by depositing stablecoins into lending platforms and market maker liquidity pools. It is important to understand that these platforms do carry technological risk and funds can be lost if there is a major security event. We are choosing to work with the platforms that have had their smart contracts audited and that we feel are most secure.
 
-Currently, OUSD earns yield from the following platform\(s\):
+Currently, OUSD earns yield from the following platform(s):
 
-{% page-ref page="compound.md" %}
+{% content-ref url="compound.md" %}
+[compound.md](compound.md)
+{% endcontent-ref %}
 
-{% page-ref page="curve.md" %}
+{% content-ref url="curve.md" %}
+[curve.md](curve.md)
+{% endcontent-ref %}
 
-{% page-ref page="aave.md" %}
+{% content-ref url="aave.md" %}
+[aave.md](aave.md)
+{% endcontent-ref %}
 
 Although DeFi has grown very quickly and there are now billions of dollars worth of value deposited on these platforms, several of these projects are still in beta and are highly experimental. There may be hidden vulnerabilities in the smart contracts that power these platforms, and there have been multi-million dollar losses caused by vulnerabilities in Ethereum applications in the past.
 
 We closely monitor security events on the platforms we support and will immediately move to secure OUSD holder funds if we identify any threats.
-
