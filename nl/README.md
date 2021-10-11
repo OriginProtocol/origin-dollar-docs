@@ -6,15 +6,15 @@ description: De eerste stabiele munt die een opbrengst verdient terwijl deze nog
 
 ## **Een betere vorm van geld**
 
-Origin Dollar \ (OUSD \) is een nieuwe stabiele munt die voor het eerst werd gelanceerd in september 2020 op het Ethereum-netwerk. Het ontwerp is vele malen beter dan bestaande stabiele munten doordat OUSD concurrerende opbrengsten behaalt, terwijl het passief in je portefeuilles wordt gehouden.
+Origin Dollar (OUSD) is a new stablecoin that was initially launched in September 2020 on the Ethereum network. Het ontwerp is vele malen beter dan bestaande stabiele munten doordat OUSD concurrerende opbrengsten behaalt, terwijl het passief in je portefeuilles wordt gehouden.
 
 ![](.gitbook/assets/origin-dollar-summary.jpeg)
 
 **Achtergrond**
 
-In 1999 hebben Yu Pan, een R&D ingenieur en zijn collega medeoprichters van PayPal [ een concept bedacht](https://www.cnbc.com/2017/08/14/david-sacks-cryptocurrency-interview.html) voor het creëren van “de nieuwe wereld munt”, compleet met rentegevende strategieën en debetkaarten, zonder dat het verbonden was aan de traditionele bancaire systemen. Several pivots and an eBay acquisition later, PayPal dropped its ambitions in this area.
+In 1999, Yu Pan, Origin’s R\&D engineer, and his fellow PayPal co-founders [conceived](https://www.cnbc.com/2017/08/14/david-sacks-cryptocurrency-interview.html) of creating “the new world currency”, complete with interest yielding strategies and debit cards without having to connect to traditional banking systems. Several pivots and an eBay acquisition later, PayPal dropped its ambitions in this area.
 
-Almost two decades later, Tether introduced the concept of a USD-denominated stablecoin in 2014. Since then, stablecoins have proven themselves as an ideal way of transferring value without exposing users to the price volatility of free-floating currencies. Today, more value is [transferred via Tether](https://www.bloomberg.com/news/articles/2019-10-01/tether-not-bitcoin-likely-the-world-s-most-used-cryptocurrency) than with Bitcoin. Meanwhile, Decentralized Finance \(DeFi\) has experienced an explosion of growth with [billions of dollars](https://defipulse.com/) of capital now locked up in smart contracts that generate yields from lending and trading protocols.
+Almost two decades later, Tether introduced the concept of a USD-denominated stablecoin in 2014. Since then, stablecoins have proven themselves as an ideal way of transferring value without exposing users to the price volatility of free-floating currencies. Today, more value is [transferred via Tether](https://www.bloomberg.com/news/articles/2019-10-01/tether-not-bitcoin-likely-the-world-s-most-used-cryptocurrency) than with Bitcoin. Meanwhile, Decentralized Finance (DeFi) has experienced an explosion of growth with [billions of dollars](https://defipulse.com) of capital now locked up in smart contracts that generate yields from lending and trading protocols.
 
 One of the problems with existing stablecoins is that users have to constantly choose between holding an easily spendable coin and earning yields by locking their tokens up in smart contracts. For example, users that lock up USDC in Aave cannot spend a portion of that USDC simultaneously. Expensive Ethereum gas fees serve as "switching costs" each time those users want to switch between spending mode and earning mode.
 
@@ -24,7 +24,6 @@ With OUSD, there’s no need to unwind complicated positions when you want to sp
 
 Created by cryptocurrency and fintech veterans, the Origin Dollar is brought to you by the [team](https://www.originprotocol.com/team) at [Origin Protocol](https://www.originprotocol.com) that includes serial entrepreneurs, early cryptocurrency investors, early employees at YouTube, engineering managers at Google/Dropbox, and one of the Paypal co-founders, Yu Pan.
 
-For those interested in diving into the technical details of how it works, these docs are a great place to start. We encourage developers to audit and contribute to our [Github](http://www.github.com/OriginProtocol) \(100% open-source\). Our team hangs out in [Discord](https://www.originprotocol.com/discord) if you have questions or need help getting started.
+For those interested in diving into the technical details of how it works, these docs are a great place to start. We encourage developers to audit and contribute to our [Github](http://www.github.com/OriginProtocol) (100% open-source). Our team hangs out in [Discord](https://www.originprotocol.com/discord) if you have questions or need help getting started.
 
 Welcome to the future of money.
-
