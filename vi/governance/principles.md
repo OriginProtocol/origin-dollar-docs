@@ -12,7 +12,7 @@ Vì vậy, kể từ những ngày đầu tiên, nhóm kỹ sư bắt buộc ph�
 
 Quản trị phi tập trung sẽ được phát triển nhanh chóng qua bốn giai đoạn trong vài tháng tới. Mục đích của chúng tôi trao lại quyền kiểm soát và quản trị cho cộng đồng càng sớm càng tốt.
 
-![](../.gitbook/assets/ousd_docs_graphics_2%20%283%29.png)
+![](../.gitbook/assets/ousd_docs_graphics\_2 (2).png)
 
 **Khoá thời gian (timelock)**
 
@@ -20,11 +20,9 @@ Trước khi chuyển sang chế độ quản trị phi tập trung hoàn toàn,
 
 **Các bên liên quan hiện tại và tương lai**
 
-OUSD là một dự án mới do [đội ngũ Origin Protocol](www.originprotocol.com/team) xây dựng và sẽ được hỗ trợ bởi cộng đồng Origin hiện tại cũng như nhiều bên liên quan khác lựa chọn khai thác, nắm giữ, sử dụng và cung cấp thanh khoản cho OUSD.
+OUSD is a new project founded by Origin Protocol [team](https://www.originprotocol.com/team) and will be supported by the existing Origin community as well as many new stakeholders that choose to mint, hold, use, and provide liquidity for OUSD.
 
-Ngoài ra, chúng tôi cũng muốn những người nắm giữ Origin token (OGN) và hàng triệu người trong cộng đồng cũng tham gia vào nền tảng. Các chủ sở hữu OGN hiện tại sẽ có thể [stake OGN](ogn-staking.md) của họ để tham gia quản trị và kiếm được tiền thưởng từ việc thúc đẩy giá trị cho OUSD.
+In addition, we also want to ensure high participation from our existing Origin Token (OGN) holders and the millions of people in our community. Các chủ sở hữu OGN hiện tại sẽ có thể [stake OGN](ogn-staking.md) của họ để tham gia quản trị và kiếm được tiền thưởng từ việc thúc đẩy giá trị cho OUSD.
 
 Mối liên hệ chặt chẽ giữa OUSD và phần còn lại của nền tảng Origin sẽ thúc đẩy tăng trưởng của toàn bộ hệ sinh thái.
-
-
 
