@@ -2,7 +2,7 @@
 
 **버그 현상금**
 
-버그 현상금은 오리진 프로토콜(Origin Protocol) 의 전적인 재량에 따라 부여됩니다. The rewards range in size from **$100 OUSD** for minor issues to **$250,000 OUSD** for major vulnerabilities. Currently, the bounty program only applies to OUSD and not other products from Origin.
+버그 현상금은 오리진 프로토콜(Origin Protocol) 의 전적인 재량에 따라 부여됩니다. The rewards range in size from **$100 OUSD** for minor issues to **$250,000 OUSD **for major vulnerabilities. Currently, the bounty program only applies to OUSD and not other products from Origin.
 
 {% hint style="warning" %}
 버그 현상금을 받을 자격을 얻기 위해서는 아래에 설명된 책임 공개 규칙을 따라야 합니다.
@@ -28,6 +28,5 @@
 * 위의 지침을 따랐을 경우 신고와 관련하여 어떠한 법적 조치도 취하지 않습니다.
 * 우리는 귀하의 신고를 엄격한 기밀로 처리하고, 귀하의 허가없이 귀하의 개인 정보를 제 3 자에게 전달하지 않습니다.
 * 원하는 경우 문제 해결을위한 진행 상황을 계속 알려드립니다.
-* 보고 된 문제에 대한 공개 정보에서 문제 발견 자로서 귀하의 이름을 제공 할 것입니다. \ (보고자가 원하지 않는 경우 제외\)
+* In the public information concerning the problem reported, we will give your name as the discoverer of the problem (unless you desire otherwise)
 * 귀하의 도움에 대한 감사의 표시로써, 아직 알려지지 않은 모든 보안 문제 보고에 대한 보상을 제공합니다. 보상 금액은 누출의 심각도, 보고서의 품질 및 귀하가 제공하는 추가 지원에 따라 결정됩니다.  
-
