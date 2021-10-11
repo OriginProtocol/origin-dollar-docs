@@ -2,24 +2,29 @@
 
 **Canh tác năng suất tự động**
 
-Bên cạnh sự bùng nổ của các nhóm tạo lập thị trường tự động và cho vay mới đã thúc đẩy tổng giá trị bị khóa (TVL), việc có quá nhiều bên cung cấp cùng 1 loại hình dịch vụ cũng khiến những người khai thác năng suất ngày càng gặp khó khăn trong việc phân bổ vốn một cách cách hiệu quả và tối ưu.
+While the Cambrian explosion of new lending and automated market maker pools has fueled total value locked (TVL), it has also made it increasingly challenging for yield farmers to manually allocate capital in efficient and optimal ways.
 
-[Yearn](https://yearn.finance/) đã chứng minh rằng các hợp đồng thông minh có thể tự động hóa việc tái cân bằng quỹ theo nhiều chiến lược khác nhau để kiếm được lãi suất cho vay, phí tạo thị trường và token phần thưởng một cách tối ưu. Theo thời gian, các chiến lược mới sẽ được triển khai nhằm tối đa hóa lợi nhuận, giảm thiểu rủi ro và tính phụ thuộc.
+[Yearn](https://yearn.finance) has demonstrated that smart contracts can automate the rebalancing of funds across various strategies to optimally earn lending interest, market-making fees, and rewards tokens. Theo thời gian, các chiến lược mới sẽ được triển khai nhằm tối đa hóa lợi nhuận, giảm thiểu rủi ro và tính phụ thuộc.
 
 ![Tìm kiếm lợi nhuận tự động trên giao thức OUSD](../../.gitbook/assets/ousd_earnings_graphic.png)
 
 OUSD sử dụng các chiến lược cấp cao sau đây để tạo ra lợi nhuận:
 
-{% page-ref page="lending.md" %}
+{% content-ref url="lending.md" %}
+[lending.md](lending.md)
+{% endcontent-ref %}
 
-{% page-ref page="market-making.md" %}
+{% content-ref url="market-making.md" %}
+[market-making.md](market-making.md)
+{% endcontent-ref %}
 
-{% page-ref page="rewards.md" %}
+{% content-ref url="rewards.md" %}
+[rewards.md](rewards.md)
+{% endcontent-ref %}
 
-OUSD có thể tạo ra lợi suất cao hơn so với các giao thức đối thủ nhờ 1 được thiết kế đặc biệt, giúp khuếch đại phần thưởng trả cho chủ sở hữu OUSD:
+OUSD is able to generate higher yields than competing protocols due to a combination of important design decisions that amplify the rewards that are returned to OUSD holders:
 
 * Phí khi rút Ousd sẽ được gửi về pool như 1 phần thưởng cho cho những người nắm giữ lâu dài
 * Oracle giá ưu tiên nhóm hơn cá nhân, một lần nữa thưởng cho những người nắm giữ lâu dài
 * Hợp đồng thông minh phải chọn opt-in theo cách thủ công để kiếm được lợi nhuận. Điều này cho phép giao thức tạo ra nhiều lợi nhuận nhất có thể.
 * Các chiến lược thông minh cân bằng rủi ro và lãi suất thay vì sử dụng các chiến lược 1 cách ngẫu nhiên.
-
