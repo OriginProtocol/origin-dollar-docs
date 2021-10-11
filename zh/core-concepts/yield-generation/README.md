@@ -1,6 +1,6 @@
-# 收益产生
+# Yield Generation
 
-**自动收益耕作**
+**Automated Yield Farming**
 
 While the Cambrian explosion of new lending and automated market maker pools has fueled total value locked (TVL), it has also made it increasingly challenging for yield farmers to manually allocate capital in efficient and optimal ways.
 
