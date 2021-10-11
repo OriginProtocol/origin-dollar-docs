@@ -12,5 +12,3 @@ Once we migrate to decentralized governance, it is our intent for the community 
 
 
 
-
-
