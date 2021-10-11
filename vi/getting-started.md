@@ -6,12 +6,11 @@ Tài liệu này được xây dựng nhằm giải thích cách thức hoạt �
 
 {% hint style="info" %}
 </a>Origin Dollar
-
  sẽ định tuyến giao dịch của bạn một cách thông minh, giúp bạn mua OUSD với mức giá tốt nhất. </p> 
 
 {% endhint %}
 
-</a>Origin Dollar Dapp cho phép người dùng mua hoặc bán OUSD bằng ví tiền điện tử hỗ trợ web-3 như [Metamask](https://www.metamask.io), [Ledger](https://www.ledger.com/)hoặc [Gnosis Safe](https://gnosis-safe.io/). Đây là cách cơ bản để có được OUSD, đặc biệt là trong trường hợp bạn muốn hạn chế rủi ro di chuyển số lượng tiền lớn trên các sàn giao dịch. DApp sẽ tự động lựa chọn mua OUSD trong vault hoặc giúp bạn mua trên bất kỳ AMM nào hiện đang cung cấp tỷ giá tốt nhất.</p> 
+The [Origin Dollar DApp](https://ousd.com/swap) allows anyone to buy or sell OUSD using a web-3 enabled cryptocurrency wallet like [Metamask](https://www.metamask.io), [Ledger](https://www.ledger.com), or [Gnosis Safe](https://gnosis-safe.io). Đây là cách cơ bản để có được OUSD, đặc biệt là trong trường hợp bạn muốn hạn chế rủi ro di chuyển số lượng tiền lớn trên các sàn giao dịch. DApp sẽ tự động lựa chọn mua OUSD trong vault hoặc giúp bạn mua trên bất kỳ AMM nào hiện đang cung cấp tỷ giá tốt nhất.
 
 **Sàn giao dịch phi tập trung**
 
@@ -19,9 +18,9 @@ OUSD hiện có sẵn trên các sàn giao dịch phi tập trung sau. Danh sác
 
 * [Mua OUSD trên 1inch](https://app.1inch.io/#/1/swap/USDT/OUSD)
 * [Mua OUSD trên Virgox](https://curve.fi/factory/9)
-* [Mua OUSD trên Uniswap V3](https://app.uniswap.org/#/swap?inputCurrency=0xdac17f958d2ee523a2206206994597c13d831ec7&outputCurrency=0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86)
-* [Mua OUSD trên Uniswap V2](https://app.uniswap.org/#/swap?inputCurrency=0xdac17f958d2ee523a2206206994597c13d831ec7&outputCurrency=0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86&use=v2)
-* [Mua OUSD trên Sushiswap](https://exchange.sushiswapclassic.org/#/swap?inputCurrency=0xdac17f958d2ee523a2206206994597c13d831ec7&outputCurrency=0x2a8e1e676ec238d8a992307b495b45b3feaa5e86)
+* [Mua OUSD trên Uniswap V3](https://app.uniswap.org/#/swap?inputCurrency=0xdac17f958d2ee523a2206206994597c13d831ec7\&outputCurrency=0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86)
+* [Mua OUSD trên Uniswap V2](https://app.uniswap.org/#/swap?inputCurrency=0xdac17f958d2ee523a2206206994597c13d831ec7\&outputCurrency=0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86\&use=v2)
+* [Mua OUSD trên Sushiswap](https://exchange.sushiswapclassic.org/#/swap?inputCurrency=0xdac17f958d2ee523a2206206994597c13d831ec7\&outputCurrency=0x2a8e1e676ec238d8a992307b495b45b3feaa5e86)
 
 **Sàn giao dịch tập trung**
 
@@ -32,7 +31,7 @@ OUSD hiện có sẵn trên các sàn giao dịch tập trung sau. Vui lòng ki�
   * [OUSD/BTC](https://trade.kucoin.com/OUSD-BTC)
 * Mua OUSD trên Virgox 
     * [OUSD/USDT](https://virgox.com/exchange/141)
-* [Mua OUSD trên App Dharma](https://www.dharma.io/) (Chỉ dành cho người dùng ở Mỹ)
+* [Buy OUSD on Dharma App](https://www.dharma.io) (US only)
 
 Chúng tôi đang tiếp tục nỗ lực để niêm yết OUSD trên các sàn giao dịch tập khác.
 
@@ -40,8 +39,7 @@ Chúng tôi đang tiếp tục nỗ lực để niêm yết OUSD trên các sàn
 
 {% hint style="success" %}
 
-Địa chỉ ERC20 chính của Origin Dollar (OUSD) là:   
-**0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86** 
+The main ERC20 address for Origin Dollar (OUSD) is: \ **0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86** 
 
 {% endhint %}
 
@@ -53,17 +51,34 @@ OUSD là token ERC-20 không tiêu chuẩn, hầu hết các ứng dụng muốn
 
 Nếu bạn là bên cung cấp ví hoặc sàn giao dịch tiền điện tử quan tâm đến việc hỗ trợ OUSD, vui lòng tham khảo các hướng dẫn sau: 
 
-{% page-ref page = "core-concept /astic-supply / rebasing-and-smart-contracts.md"%}
+{% content-ref url="core-concepts/elastic-supply/rebasing-and-smart-contracts.md" %}
 
-{% page-ref page = "smart-Contract / architecture.md"%}
+[rebasing-and-smart-contracts.md](core-concepts/elastic-supply/rebasing-and-smart-contracts.md) 
 
-{% page-ref page = "smart-contract / api /"%}
+{% endcontent-ref %}
 
-**Phân tích nhà phát triển**
+{% content-ref url="smart-contracts/architecture.md" %}
 
-Trang theo dõi dành cho nhà phát triển nội bộ [analytics.ousd.com](https://analytics.ousd.com). Bảng điều khiển hiển thị nguồn cung lưu hành hiện tại, tài sản được quản lý trong kho tiền và phân bổ giữa từng stablecoin và chiến lược.
+[architecture.md](smart-contracts/architecture.md) 
 
-**Yêu cầu hỗ trợ**
+{% endcontent-ref %}
 
-Vui lòng tham gia kênh Origin Dollar \ #engineering trên [Discord](www.originprotocol.com/discord) của Origin.  Đội ngũ của chúng tôi và các thành viên trong cộng đồng luôn sẵn sàng hỗ trợ bạn. Câu hỏi của bạn giúp sẽ giúp chúng tôi ngày càng hoàn thiện, vì vậy đừng ngần ngại cho chúng tôi biết thắc mắc của bạn nếu bạn không tìm thấy câu trả lời ở đây.
+{% content-ref url="smart-contracts/api/" %}
 
+[api](smart-contracts/api/) 
+
+{% endcontent-ref %}
+
+**Developer Analytics**
+
+Our internal developer dashboard is available at [analytics.ousd.com](https://analytics.ousd.com). The dashboard shows the current circulating supply, the assets under management in the vault, and the current allocations between each of the stablecoins and strategies.
+
+**Getting Help**
+
+Please join the Origin Dollar #engineering room in Origin's [Discord](https://www.originprotocol.com/discord) server.  Our team and members of our community look forward to helping you build. Your questions help us improve, so please don't hesitate to ask if you can't find what you are looking for here.
+
+{% content-ref url="broken-reference" %}
+
+[Broken link](broken-reference) 
+
+{% endcontent-ref %}
