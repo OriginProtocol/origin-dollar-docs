@@ -12,10 +12,8 @@ Zaman kilidi, protokolde önerilen yükseltmelere itirazları olması halinde OU
 
 OUSD biraz değiştirilmiş bir versiyonu kullanılarak bir [Bileşik Timelock](https://compound.finance/docs/governance) olmuştur [OpenZeppelin tarafından denetlenmektedir](https://blog.openzeppelin.com/compound-finance-patch-audit/). The two notable differences are:
 
-1. OUSD, herhangi bir sorun tespit edilirse daha hızlı yanıt verebilmek için başlangıçta Bileşik \ (72 saat \) 'ten daha kısa bir bekleme süresi \ (48 saat \) kullanacaktır.
+1. OUSD will initially use a shorter wait period (48 hours) than Compound (72 hours) to allow for a faster response if any issues are discovered.
 2. Some actions, such a reallocating funds between existing strategies and freezing deposits can be called immediately without requiring the 48 waiting period. This is in case a major vulnerability is discovered.
-
-
 
 
 
