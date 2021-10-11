@@ -8,5 +8,3 @@ Protokol tarafından kullanılan sözleşmeler API'sinin dokümantasyonu:
 * [Oracle'lar](oracle.md)
 * [Stratejiler](strategies.md)
 
-
-
