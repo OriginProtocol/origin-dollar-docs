@@ -8,14 +8,13 @@ Aave permite préstamos tipo flash, que son préstamos sin colateral en los que 
 
 El token de gobernanza de Aave se llamaba anteriormente LEND, que era el token de utilidad para ETHLend. Como parte de su transición a una gobernanza totalmente descentralizada, los holders de LEND pudieron intercambiar LEND por AAVE, un nuevo token de gobernanza ERC-20 con recompensas de participación. Se han distribuido algunos tokens AAVE a los usuarios de la plataforma en una campaña de minería de liquidez.
 
-El valor total bloqueado de Aave \(TVL\) ha crecido rápidamente a más de $15.5 mil millones, lo que lo convierte en el protocolo DeFi más grande en el momento de escribir este artículo. LEND tiene una capitalización de mercado circulante de más de $5.3 mil millones.
+Aave's total value locked (TVL) has quickly grown to over $15.5 billion, making it the largest DeFi protocol at the time of writing. LEND tiene una capitalización de mercado circulante de más de $5.3 mil millones.
 
 Aave se ha sometido a auditorías de seguridad por OpenZeppelin, Trail of Bits y Consensys Diligence. Aave mantiene un programa de recompensas por errores.
 
 | Recursos                        |                                                                                |
-|:------------------------------- |:------------------------------------------------------------------------------ |
-| Sitio oficial                   | [https://aave.com/](https://aave.com/)                                         |
-| Documentos para desarrolladores | [http://docs.aave.com/](http://docs.aave.com/)                                 |
+| ------------------------------- | ------------------------------------------------------------------------------ |
+| Sitio oficial                   | [https://aave.com/](https://aave.com)                                          |
+| Documentos para desarrolladores | [http://docs.aave.com/](http://docs.aave.com)                                  |
 | GitHub                          | [https://github.com/aave/aave-protocol](https://github.com/aave/aave-protocol) |
 | Discord                         | [https://aave.com/discord](https://aave.com/discord)                           |
-
