@@ -6,17 +6,17 @@ description: Hâlâ cüzdanınızdayken getiri sağlayan ilk stabilcoin
 
 ## **Daha İyi Bir Para Şekli**
 
-Origin Dollar \ (OUSD \), Ethereum ağında ilk olarak Eylül 2020'de piyasaya sürülen yeni bir stabilcoin. OUSD, pasif olarak cüzdanlarda tutulurken oldukça rekabetçi getiriler elde ettiğinden, tasarımı mevcut sabit paralardan daha üstündür.
+Origin Dollar (OUSD) is a new stablecoin that was initially launched in September 2020 on the Ethereum network. OUSD, pasif olarak cüzdanlarda tutulurken oldukça rekabetçi getiriler elde ettiğinden, tasarımı mevcut sabit paralardan daha üstündür.
 
 ![](.gitbook/assets/origin-dollar-summary.jpeg)
 
 **Arka plan**
 
-1999 yılında, Yu Pan, Origin Ar&Ge mühendisi ve yoldaşı PayPal kurucuları [tasavvur](https://www.cnbc.com/2017/08/14/david-sacks-cryptocurrency-interview.html) faiz geleneksel bankacılık sistemlerine bağlanmak zorunda kalmadan stratejileri ve banka kartlarını veren ile tamamlandı, “yeni dünya para birimi” oluşturma. Birkaç pivot ve  bir eBay satın alma sonrası, PayPal bu alandaki hedeflerinden vazgeçti.
+In 1999, Yu Pan, Origin’s R\&D engineer, and his fellow PayPal co-founders [conceived](https://www.cnbc.com/2017/08/14/david-sacks-cryptocurrency-interview.html) of creating “the new world currency”, complete with interest yielding strategies and debit cards without having to connect to traditional banking systems. Birkaç pivot ve  bir eBay satın alma sonrası, PayPal bu alandaki hedeflerinden vazgeçti.
 
 Neredeyse yirmi yıl sonra, Tether, 2014 yılında USD cinsinden bir stabilcoin konseptini tanıttı. O zamandan beri, stabilcoinler, kullanıcıları serbest dalgalı para birimlerinin fiyat dalgalanmalarına maruz bırakmadan değer aktarmanın ideal bir yolu olarak kendilerini kanıtladılar. Bugün, Tether</a> aracılığıyla Bitcoin'den daha fazla değer
 
-aktarılıyor. Bu arada, Merkezi Olmayan Finans \ (DeFi \), borç verme ve ticaret protokollerinden getiri sağlayan akıllı sözleşmelere kilitlenmiş [milyar dolarlık](https://defipulse.com/) sermaye ile bir büyüme patlaması yaşadı.</p> 
+aktarılıyor. Meanwhile, Decentralized Finance (DeFi) has experienced an explosion of growth with [billions of dollars](https://defipulse.com) of capital now locked up in smart contracts that generate yields from lending and trading protocols.</p> 
 
 Mevcut stablecoin'lerle ilgili sorunlardan biri, kullanıcıların tokenlerini akıllı sözleşmelerde kilitleyerek kolayca harcanabilir bir madeni para tutma ile getiri elde etme arasında sürekli seçim yapmak zorunda olmalarıdır. Örneğin, Aave'de USDC'yi kilitleyen kullanıcılar bu USDC'nin bir kısmını aynı anda harcayamazlar. Pahalı Ethereum gaz ücretleri, bu kullanıcılar harcama modu ile kazanç modu arasında geçiş yapmak istediklerinde "geçiş maliyeti" olarak işlev görür.
 
@@ -26,7 +26,6 @@ OUSD ile OUSD'nizi harcamak istediğinizde karmaşık pozisyonları çözmenize 
 
 Cryptocurrency ve fintech gazileri tarafından oluşturulan Origin Dollar, seri girişimcileri, erken kripto para birimi yatırımcılarını, YouTube'daki ilk çalışanları, Google / Dropbox'taki mühendislik yöneticileri ve Paypal'dan birini içeren [Origin Protocol](https://www.originprotocol.com) [takım](https://www.originprotocol.com/team) tarafından sunulur. kurucularından Yu Pan.
 
-Nasıl çalıştığına dair teknik ayrıntılara dalmak isteyenler için bu dokümanlar harika bir başlangıç noktasıdır. Geliştiricileri, [Github](http://www.github.com/OriginProtocol) \ (% 100 açık kaynak \) ürünümüzü denetlemeye ve katkıda bulunmaya teşvik ediyoruz. Sorularınız varsa veya başlamak için yardıma ihtiyacınız olursa ekibimiz [Discord](https://www.originprotocol.com/discord) takılıyor.
+Nasıl çalıştığına dair teknik ayrıntılara dalmak isteyenler için bu dokümanlar harika bir başlangıç noktasıdır. We encourage developers to audit and contribute to our [Github](http://www.github.com/OriginProtocol) (100% open-source). Sorularınız varsa veya başlamak için yardıma ihtiyacınız olursa ekibimiz [Discord](https://www.originprotocol.com/discord) takılıyor.
 
 Paranın geleceğine hoş geldiniz.
-
