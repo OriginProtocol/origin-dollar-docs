@@ -1,12 +1,12 @@
-# 借贷
+# Lending
 
-**不再需要银行**
+**Unbank the Banked**
 
-DeFi 借贷平台允许用户在无需任何中间商的情况下借出和借用加密资产。 贷方和借方都从其加密货币中获得更多价值。 贷款人赚取利息，而借款人将加密货币作为抵押品获得信贷，而无需面临传统银行的问题。 目前，DeFi 借贷平台为贷方提供的回报要远远超过传统市场上通常可获得的回报。
+DeFi lending platforms let users lend and borrow crypto assets without any middlemen. Both lenders and borrowers get more value from their crypto. Lenders earn interest, while borrowers deposit crypto as collateral to gain access to credit without traditional banking headaches. DeFi lending platforms currently provide far superior returns for lenders than are generally available in the traditional markets.
 
-OUSD 与提供过度抵押贷款的 DeFi 贷款平台集成。 过度抵押与清算方面的明智规则相结合，可为贷方提供相当的担保。 此外，Aave 还使用 AAVE 代币保护其贷款池，从而进一步降低了风险。
+OUSD integrates with DeFi lending platforms that provide over-collateralized loans. Over-collateralization, combined with smart rules around liquidations, provide a reasonable level of security for lenders. Aave also additionally secures their lending pools with AAVE tokens respectively, further lowering risk.
 
-OUSD 与具有良好记录，经过审核的智能合约并已成功借出数亿美元而没有问题的领先贷款提供商集成。 We are currently integrated with the following lending platforms:
+OUSD integrates with leading lending providers that have a proven track record, audited smart contracts, and have successfully lent hundreds of millions of dollars without issue. We are currently integrated with the following lending platforms:
 
 {% content-ref url="../supported-strategies/compound.md" %}
 [compound.md](../supported-strategies/compound.md)
