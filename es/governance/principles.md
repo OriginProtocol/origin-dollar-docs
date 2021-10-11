@@ -12,7 +12,7 @@ Dicho esto, en los primeros días, es imperativo que el equipo de ingeniería ce
 
 La descentralización progresará rápidamente en cuatro fases durante los próximos meses. Nuestra intención es ceder el control y la gobernanza a la comunidad lo antes posible.
 
-![](../.gitbook/assets/ousd_docs_graphics_2%20%283%29.png)
+![](../.gitbook/assets/ousd_docs_graphics\_2 (2).png)
 
 **Bloqueo de Tiempo**
 
@@ -20,11 +20,9 @@ Antes de la gobernanza descentralizada total, implementaremos un [bloqueo de tie
 
 **Partes interesadas nuevas y existentes**
 
-OUSD es un nuevo proyecto fundado por el [equipo](www.originprotocol.com/team) de Origin Protocol y será apoyado por la comunidad de Origin existente, así como por muchas nuevas partes interesadas que elijan acuñar, holdear, usar y proporcionar liquidez para OUSD.
+OUSD is a new project founded by Origin Protocol [team](https://www.originprotocol.com/team) and will be supported by the existing Origin community as well as many new stakeholders that choose to mint, hold, use, and provide liquidity for OUSD.
 
-Además, también queremos asegurar una alta participación de nuestros holders del Token de Origin \(OGN\) existentes y de los millones de personas de nuestra comunidad. Los holders de OGN existentes podrán colocar en staking sus OGN para participar en la gobernanza y ganar incentivos por generar valor para OUSD.
+In addition, we also want to ensure high participation from our existing Origin Token (OGN) holders and the millions of people in our community. Los holders de OGN existentes podrán colocar en staking sus OGN para participar en la gobernanza y ganar incentivos por generar valor para OUSD.
 
 La fuerte conexión entre OUSD y el resto de la plataforma de comercio de Origin impulsará el crecimiento de ambas iniciativas.
-
-
 
