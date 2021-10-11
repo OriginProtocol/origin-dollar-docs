@@ -8,5 +8,3 @@ Documentation of contracts API used by the protocol:
 * [Oracles](oracle.md)
 * [Stategies](strategies.md)
 
-
-
