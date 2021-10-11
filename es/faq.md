@@ -22,7 +22,7 @@ De forma predeterminada, los eventos de rebase no afectan el suministro de OUSD 
 
 **¿Cómo es posible que el APY sea tan alto?**
 
-Puede leer sobre nuestras diversas estrategias en [Generación de Rendimientos](https://docs.ousd.com/core-concepts/yield-generation). Actualmente obtenemos la mayor parte del rendimiento de la recolección de tokens de recompensa \(es decir, COMP y CRV\). Además, el rendimiento aumenta a medida que se mantiene más OUSD en contratos inteligentes que no optan por reajustar, ya que la garantía subyacente continúa ganando para el holder promedio de OUSD.
+Puede leer sobre nuestras diversas estrategias en [Generación de Rendimientos](https://docs.ousd.com/core-concepts/yield-generation). We currently get most of the yield from harvesting rewards tokens (namely COMP and CRV). Además, el rendimiento aumenta a medida que se mantiene más OUSD en contratos inteligentes que no optan por reajustar, ya que la garantía subyacente continúa ganando para el holder promedio de OUSD.
 
 **¿Por qué mi saldo aumenta a un ritmo más lento que el APY anunciado?**
 
@@ -31,4 +31,3 @@ Los saldos de OUSD aumentan cuando se reajusta la oferta. Pero el tamaño de cad
 **¿Y el hackeo? ¿Es seguro OUSD?**
 
 El 7 de noviembre de 2020, OUSD sufrió un exploit por 7M USD debido a un error de reentrada no detectado previamente. Puede leer más [detalles sobre el hack](https://medium.com/originprotocol/urgent-ousd-has-hacked-and-there-has-been-a-loss-of-funds-7b8c4a7d534c) en nuestro blog, así como el [plan de compensación detallado](https://medium.com/originprotocol/origin-dollar-ousd-detailed-compensation-plan-faa73f87442e) para cuidar a los usuarios afectados. Origin Dollar se relanzó en diciembre después de completar varias auditorías y actualizaciones de seguridad. Puede obtener más información sobre los pasos tomados para asegurar el protocolo en nuestro [anuncio de relanzamiento](https://medium.com/originprotocol/origin-dollar-ousd-is-back-b8ee0c601dad).
-
