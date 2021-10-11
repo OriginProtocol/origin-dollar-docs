@@ -8,11 +8,13 @@ OUSD terintegrasi dengan platform pinjaman DeFi yang menyediakan pinjaman dengan
 
 OUSD terintegrasi dengan penyedia pinjaman terkemuka yang memiliki rekam jejak yang terbukti, mengaudit kontrak pintar, dan telah berhasil meminjamkan ratusan juta dolar tanpa masalah. Kami saat ini terintegrasi dengan platform pinjaman berikut:
 
-{% page-ref page = "../ didukung-strategi / compound.md"%}
+{% content-ref url="../supported-strategies/compound.md" %}
+[compound.md](../supported-strategies/compound.md)
+{% endcontent-ref %}
 
-{% page-ref page = "../ didukung-strategi / aave.md"%}
-
-
+{% content-ref url="../supported-strategies/aave.md" %}
+[aave.md](../supported-strategies/aave.md)
+{% endcontent-ref %}
 
 
 
