@@ -32,7 +32,7 @@ Hợp đồng và các chương trình được [kiểm toán ](audits.md)bởi 
 
 Chúng tôi đã làm việc với 2 đơn vị cung cấp [Bảo hiểm Defi](insurance.md) để cung cấp bảo hiểm tuỳ chọn cho người nắm giữ OUSD.
 
-Chúng tôi đã làm việc với [Certora](https://www.certora.com/) để bắt đầu chính thức xác minh các thuộc tính bảo mật khác nhau trong hợp đồng. Họ đã giúp Origin thiết lập xác minh tự động có thể chạy bất kỳ lúc nào chúng tôi cập nhật code của hợp đồng. Chúng tôi đã tự động kiểm tra các lỗi phổ biến bằng kiểm tra [Slither](https://github.com/crytic/slither) và [Echidna](https://github.com/crytic/echidna). Những biện pháp này sẽ cảnh báo chúng tôi về các vấn đề bảo mật phổ biến ngoài các biện pháp mà chúng tôi tự xây dựng.
+We have retained [Certora](https://www.certora.com) to formally verify the various security properties of our contracts. Họ đã giúp Origin thiết lập xác minh tự động có thể chạy bất kỳ lúc nào chúng tôi cập nhật code của hợp đồng. Chúng tôi đã tự động kiểm tra các lỗi phổ biến bằng kiểm tra [Slither](https://github.com/crytic/slither) và [Echidna](https://github.com/crytic/echidna). Những biện pháp này sẽ cảnh báo chúng tôi về các vấn đề bảo mật phổ biến ngoài các biện pháp mà chúng tôi tự xây dựng.
 
 Việc kiểm tra code của hợp đồng thông minh dễ ra cực kỳ nghiêm ngặt. Chúng tôi yêu cầu hai kỹ sư xem xét từng thay đổi theo 1 danh sách tiêu chí chi tiết và chúng tôi ưu tiên đảm bảo bảo mật hơn là phát triển tính năng mới.
 
@@ -41,6 +41,4 @@ Cuối cùng, chúng tôi chính thức [luân phiên](https://github.com/Origin
 **Hành động thay lời nói**
 
 Nhiều thành viên của nhóm Origin bao gồm cả hai sáng lập viện đang nắm giữ một phần đáng kể tài sản cá nhân của họ trong OUSD. Tài khoản tiền mặt của Origin Protocol cũng đang nắm giữ hàng triệu đô la OUSD. Chúng tôi là người tạo ra sản phẩm và sẵn sàng đặt tiền của mình vào rủi ro với code chúng tôi đã viết.
-
-
 
