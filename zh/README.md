@@ -1,29 +1,29 @@
 ---
-description: 首个在您的钱包中赚取收益的稳定币
+description: The first stablecoin that earns a yield while it's still in your wallet
 ---
 
-# 介绍
+# Introduction
 
-## **一种更好的货币形式**
+## **A Better Form of Money**
 
-Origin Dollar (OUSD) is a new stablecoin that was initially launched in September 2020 on the Ethereum network. 它的设计优于现有的稳定币，因为 OUSD 在被动地保存在钱包中的同时获得了具竞争力的收益。
+Origin Dollar (OUSD) is a new stablecoin that was initially launched in September 2020 on the Ethereum network. Its design is superior to existing stablecoins because OUSD captures competitive yields while being passively held in wallets.
 
 ![](.gitbook/assets/origin-dollar-summary.jpeg)
 
-**背景**
+**Background**
 
-In 1999, Yu Pan, Origin’s R\&D engineer, and his fellow PayPal co-founders [conceived](https://www.cnbc.com/2017/08/14/david-sacks-cryptocurrency-interview.html) of creating “the new world currency”, complete with interest yielding strategies and debit cards without having to connect to traditional banking systems. PayPal 经过几次重整然后被 eBay 收购后，放弃了这方面的野心。
+In 1999, Yu Pan, Origin’s R\&D engineer, and his fellow PayPal co-founders [conceived](https://www.cnbc.com/2017/08/14/david-sacks-cryptocurrency-interview.html) of creating “the new world currency”, complete with interest yielding strategies and debit cards without having to connect to traditional banking systems. Several pivots and an eBay acquisition later, PayPal dropped its ambitions in this area.
 
-近二十年后，Tether 在 2014 年提出了以美元计价的稳定币的概念。 从那时起，稳定币证明了它们是转移价值的理想方法，同时用户也不会面临货币价格波动的问题。 如今，[通过 Tether 转移的值](https://www.bloomberg.com/news/articles/2019-10-01/tether-not-bitcoin-likely-the-world-s-most-used-cryptocurrency)比比特币还要多。 Meanwhile, Decentralized Finance (DeFi) has experienced an explosion of growth with [billions of dollars](https://defipulse.com) of capital now locked up in smart contracts that generate yields from lending and trading protocols.
+Almost two decades later, Tether introduced the concept of a USD-denominated stablecoin in 2014. Since then, stablecoins have proven themselves as an ideal way of transferring value without exposing users to the price volatility of free-floating currencies. Today, more value is [transferred via Tether](https://www.bloomberg.com/news/articles/2019-10-01/tether-not-bitcoin-likely-the-world-s-most-used-cryptocurrency) than with Bitcoin. Meanwhile, Decentralized Finance (DeFi) has experienced an explosion of growth with [billions of dollars](https://defipulse.com) of capital now locked up in smart contracts that generate yields from lending and trading protocols.
 
-现有稳定币的其中一个问题是用户必须不断地选择持有易于消费的硬币或者通过将代币锁定在智能合约中来赚取收益。 例如，将 USDC 锁定在 Aave 中的用户不能同时花费该 USDC 的一部分。 每当这些用户想要在支出模式和收入模式之间切换时，昂贵的以太坊 gas 费变成了“转换成本”。
+One of the problems with existing stablecoins is that users have to constantly choose between holding an easily spendable coin and earning yields by locking their tokens up in smart contracts. For example, users that lock up USDC in Aave cannot spend a portion of that USDC simultaneously. Expensive Ethereum gas fees serve as "switching costs" each time those users want to switch between spending mode and earning mode.
 
-更糟糕的是，贷款和交易活动的收益迅速变化。 经验丰富的 DeFi 收益者都了解需要不断在许多竞争平台之间重新平衡其资产组合的情况。 这既费时又昂贵，因为gas费再次蚕食了收益。 此外，由于 APY 不稳定且不断波动，因此计算真实的 ROI 十分耗时。 目前并不存在一个简单的帐户单位。 因此，尽管 DeFi 增长非常迅速，但对于许多加密货币用户来说仍然难以参与。
+To make matters worse, yields from lending and trading activities change rapidly. Sophisticated DeFi yield earners are familiar with constantly having to rebalance their portfolio of assets across many competing platforms. This is time-consuming and expensive as gas fees once again eat into yields. In addition, it is time-consuming to calculate real ROI as APYs are unstable and constantly fluctuating. There isn't an easy unit of account. As a result, while DeFi is growing extremely rapidly, it still makes it difficult for many cryptocurrency users to participate.
 
-您可以轻松使用您的 OUSD。 想转移 OUSD 时，无需花费gas以释放您的资金。 此外，OUSD 允许您轻松地得到 DeFi 里其中一些收入最高的机会。 OUSD 将您的资金部署到一套多样化的收益策略，并随着时间进行重新平衡以在实现高收益的同时分散风险。 当您持有 OUSD 时，收入会自动累积在您的钱包中累积并不断增加。 无需锁定或抵押。 OUSD 允许您轻松掌控您的投资。 DeFi 投资者不再需复杂的电子表格来计算收益。他们可以轻松地看到随着利息自动增加而实时不断更新的 OUSD 余额。 OUSD 是经验丰富的 DeFi 专家和新手理想的稳定币。
+With OUSD, there’s no need to unwind complicated positions when you want to spend your OUSD. You can transfer it freely without having to pay gas to unlock spendable capital. In addition, OUSD gives you access to some of the highest-earning opportunities across DeFi with none of the hassles. The OUSD smart contract will deploy your underlying capital to a diversified set of yield-earning strategies, rebalancing over time to achieve great yields while diversifying risk. Earnings automatically accrue in your wallet and compound continuously while you hold OUSD. Again, no staking or lockups are required. OUSD also serves as an ideal unit of account. DeFi investors no longer need complicated spreadsheets to calculate their earnings as they can easily see their constantly updated OUSD balances in real-time as their interest compounds automatically. OUSD is an ideal stablecoin for DeFi yield farmers and novice cryptocurrency users alike.
 
-Origin Dollar是由加密货币和金融技术资深人士创建的。背后的[团队](https://www.originprotocol.com/team) 来自 [Origin Protocol](https://www.originprotocol.com)，其中包括许多连续创业者，早期加密货币投资者，YouTube 的早期员工，Google和Dropbox 的工程经理以及其中一名 Paypal 联合创始人 Yu Pan。
+Created by cryptocurrency and fintech veterans, the Origin Dollar is brought to you by the [team](https://www.originprotocol.com/team) at [Origin Protocol](https://www.originprotocol.com) that includes serial entrepreneurs, early cryptocurrency investors, early employees at YouTube, engineering managers at Google/Dropbox, and one of the Paypal co-founders, Yu Pan.
 
-对于那些有兴趣深入了解背后的技术细节，我们建议从这些文档读起。 We encourage developers to audit and contribute to our [Github](http://www.github.com/OriginProtocol) (100% open-source). 如果您有任何疑问或需要帮助，可以随时在 [Discord](https://www.originprotocol.com/discord)找到我们。
+For those interested in diving into the technical details of how it works, these docs are a great place to start. We encourage developers to audit and contribute to our [Github](http://www.github.com/OriginProtocol) (100% open-source). Our team hangs out in [Discord](https://www.originprotocol.com/discord) if you have questions or need help getting started.
 
-欢迎来到金钱的未来。
+Welcome to the future of money.
