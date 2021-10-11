@@ -4,17 +4,25 @@
 
 OUSD sepenuhnya merupakan proyek sumber terbuka dan kami menerima segala macam kontribusi. Ada banyak cara untuk membantu, dari melaporkan masalah, menyumbangkan kode, dan membantu kami meningkatkan komunitas kami.
 
-Kami bekerja di depan umum dan perusahaan kami Discord terbuka untuk semua. Jika Anda memiliki pertanyaan atau butuh bantuan untuk memulai, [Discord OUSD](https://discord.gg/jyxpUSe) adalah tempat terbaik untuk mendapatkan bantuan dari tim dan komunitas kami.
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
+{% endcontent-ref %}
 
-**Analisis Pengembang**
+We work in public and our company Discord is open to all. If you have questions or need help getting started, our [Discord OUSD channels](https://discord.gg/jyxpUSe) are the best place to get assistance from our team and community.
 
-Dasbor pengembang internal kami tersedia di [analytics.ousd.com](https://analytics.ousd.com). Dasbor menunjukkan pasokan yang beredar saat ini, aset yang dikelola di brankas, dan alokasi saat ini antara masing-masing stablecoin dan strategi. Various other developer tools can be found at [ousd.com/dashboard](https://ousd.com/dashboard).
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
+{% endcontent-ref %}
+
+**Developer Analytics**
+
+Our internal developer dashboard is available at [analytics.ousd.com](https://analytics.ousd.com). The dashboard shows the current circulating supply, the assets under management in the vault, and the current allocations between each of the stablecoins and strategies. Various other developer tools can be found at [ousd.com/dashboard](https://ousd.com/dashboard).
 
 #### Proses pengembangan
 
-Strategi percabangan kami mirip dengan [GitFlow](http://nvie.com/posts/a-successful-git-branching-model/), tetapi kami melakukan semua pengembangan kami di cabang ` master` dan memiliki cabang ` stabil` untuk kode yang telah dirilis.
+Our branching strategy is similar to [GitFlow](http://nvie.com/posts/a-successful-git-branching-model/), but we do all of our development in the `master` branch and have a `stable` branch for code that has been released.
 
-Alur pengembangan Anda akan terlihat seperti:
+Your development flow should look like:
 
 1. Temukan masalah yang menarik dan komunikasikan! Harap beri tahu saluran `#engineering` [Discord](https://discord.gg/jyxpUSe) apa yang ingin Anda kerjakan.
 2. Ping [anggota tim inti](https://github.com/orgs/OriginProtocol/teams/core/members) anggota di Discord dan minta untuk ditambahkan ke [tim kontributor](https://github.com/orgs/OriginProtocol/teams/contributors). Jika tidak, Anda harus membagi repositori yang relevan dan mendorong cabang fitur ke garpu Anda sendiri.
@@ -22,41 +30,41 @@ Alur pengembangan Anda akan terlihat seperti:
 4. Mulailah dengan cabang `master` dan periksa cabang fitur baru kecuali Anda berkontribusi ke fitur yang ada.
 5. Tulis beberapa kode yang luar biasa.
 6. Tarik komit terbaru dari `master` dan konfirmasikan bahwa kode Anda berfungsi dengan pekerjaan lain yang telah digabungkan sejak Anda mulai.
-7. Dorong cabang Anda ke repositori hulu \ (yaitu https: //github.com/OriginProtocol/ \ [repo \] \) sehingga kontributor lain dapat dengan mudah mengerjakannya jika perlu.
+7. Push your branch to the upstream repository (i.e. https://github.com/OriginProtocol/\[repo]) so that other contributors can easily work off of it if necessary.
 8. Silakan meminta peninjauan di PR dengan mengklik ikon roda gigi di sebelah "Pengulas" di kolom kanan.
 
-Agar kode kontrak pintar kritis dapat digabungkan, kode tersebut harus melewati daftar periksa berikut:
+For critical smart contract code to be merged it must pass the following checklist:
 
 *  Kode ditinjau oleh 2 pengulas
 *  Tes unit lulus
 *  Tes meluncur lulus tanpa peringatan
 *  Tes Echidna lulus
 
-Cabang `master` dikunci sehingga hanya anggota dari [tim inti](https://github.com/orgs/OriginProtocol/teams/core) yang dapat menggabungkan permintaan tarik Anda. Permintaan penarikan yang ditinjau oleh kontributor tepercaya lainnya akan dilacak dengan cepat dan digabungkan lebih cepat! Periksa di saluran `#engineering` Discord untuk pengulas yang sesuai.
+The `master` branch is locked so that only members of the [core team](https://github.com/orgs/OriginProtocol/teams/core) are able to merge your pull requests. Pull requests that are peer-reviewed by other trusted contributors will be fast-tracked and merged faster! Check in the `#engineering` Discord channel for appropriate reviewers.
 
 #### Gaya Pengkodean
 
-Kami menggunakan berbagai bahasa pemrograman di repositori kami. Saat berkontribusi, harap ikuti konvensi pengkodean yang ada dan lihat file CONTRIBUTING.md di repositori, jika ada.
+We use a variety of programming languages in our repositories. When contributing, please follow existing coding conventions and refer to the CONTRIBUTING.md file in the repository, if one exists.
 
-Untuk JavaScript, kami menggunakan [NPM gaya](https://docs.npmjs.com/misc/coding-style), yang secara otomatis diberlakukan melalui [lebih cantik](https://prettier.io/).
+For JavaScript, we use [NPM’s style](https://docs.npmjs.com/misc/coding-style), which is automatically enforced via [prettier](https://prettier.io).
 
-Untuk Soliditas, kami menggunakan indentasi dua spasi.
+For Solidity, we use two-space indents.
 
 #### Desain Protokol
 
-Saat mempertimbangkan protokol atau proposal desain implementasi, kami mencari:
+When considering protocol or implementation design proposals, we are looking for:
 
 * Deskripsi masalah yang diselesaikan oleh proposal desain ini
 * Diskusi tentang trade-off yang terlibat
 * Review solusi lain yang ada
-* Tautan ke literatur yang relevan \ (RFC, makalah, dll \)
+* Links to relevant literature (RFCs, papers, etc)
 * Diskusi tentang solusi yang diusulkan
 
-Harap dicatat bahwa desain protokol adalah pekerjaan yang sulit dan membutuhkan ketelitian. Anda mungkin perlu meninjau literatur yang ada dan memikirkan kasus penggunaan umum.
+Please note that protocol design is hard and meticulous work. You may need to review existing literature and think through generalized use cases.
 
 #### Pedoman Komunitas
 
-Kami ingin membuat komunitas Origin tetap mengagumkan, berkembang, dan kolaboratif. Kami membutuhkan bantuan Anda untuk tetap seperti itu. Untuk membantu hal ini, kami telah membuat beberapa pedoman umum untuk komunitas secara keseluruhan:
+We want to keep the Origin community awesome, growing and collaborative. We need your help to keep it that way. To help with this we’ve come up with some general guidelines for the community as a whole:
 
 * Bersikap baik: Bersikaplah sopan, hormat, dan sopan kepada sesama anggota komunitas: tidak ada pelecehan regional, ras, jenis kelamin, atau lainnya yang akan ditoleransi. Kami menyukai orang baik jauh lebih baik daripada orang jahat!
 * Dorong keberagaman dan partisipasi: Buat semua orang di komunitas kami merasa diterima, terlepas dari latar belakang dan tingkat kontribusi mereka, dan lakukan segala kemungkinan untuk mendorong partisipasi dalam komunitas kami.
@@ -65,31 +73,31 @@ Kami ingin membuat komunitas Origin tetap mengagumkan, berkembang, dan kolaborat
 
 #### Melaporkan Masalah
 
-Jika Anda menemukan bug, kesalahan, atau ketidakkonsistenan dalam kode atau dokumen Origin, beri tahu kami dengan mengajukan masalah GitHub. Tidak ada masalah yang terlalu kecil. Bantu kami memperbaiki typos kami!
+If you find bugs, mistakes or inconsistencies in Origin’s code or documents, please let us know by filing a GitHub issue. No issue is too small. Help us fix our tpyos!
 
 #### Masalah Keamanan
 
-OUSD masih dalam pengembangan awal, yang berarti mungkin ada masalah dengan protokol atau dalam implementasi kami. Kami menangani kerentanan keamanan dengan sangat serius. Jika Anda menemukan masalah keamanan, harap segera hubungi kami!
+OUSD is still in early development, which means there may be problems with the protocol or in our implementations. We take security vulnerabilities very seriously. If you discover a security issue, please bring it to our attention right away!
 
-Jika Anda menemukan kerentanan keamanan, silakan kirim laporan Anda secara pribadi ke [security@originprotocol.com](mailto:security@originprotocol.com) atau kirim pesan terenkripsi ke [@joshfraser di Keybase](https://keybase.io/joshfraser). Harap JANGAN mengajukan masalah publik. Pastikan untuk meninjau pedoman kami untuk pengungkapan yang bertanggung jawab dan kelayakan untuk bug bounties.
+If you find a security vulnerability please send your report privately to [security@originprotocol.com](mailto:security@originprotocol.com) or send an encrypted message to [@joshfraser on Keybase](https://keybase.io/joshfraser). Please DO NOT file a public issue. Be sure to review our guidelines for responsible disclosure and eligibility for bug bounties.
 
-{% page-ref page="../security-and-risks/bug-bounties.md" %}
+{% content-ref url="../security-and-risks/bug-bounties.md" %}
+[bug-bounties.md](../security-and-risks/bug-bounties.md)
+{% endcontent-ref %}
 
 #### **Peningkatan Komunitas**
 
-Origin adalah tentang komunitas seperti tentang teknologi kita.
+Origin is just as much about community as it is about our technology.
 
-Kami membutuhkan bantuan terus-menerus dalam meningkatkan dokumentasi kami, membuat alat baru untuk berinteraksi dengan platform kami, menyebarkan berita ke pengguna baru, membantu pengguna baru mendapatkan penyiapan, dan banyak lagi.
+We need constant help in improving our documentation, building new tools to interface with our platform, spreading the word to new users, helping new users getting setup and much more.
 
-Silakan hubungi jika Anda ingin membantu. Our `discussion` channel on [Discord](https://www.originprotocol.com/discord) is a great place to share ideas and volunteer to help.
+Please get in touch if you would like to help out. Our `discussion` channel on [Discord](https://www.originprotocol.com/discord) is a great place to share ideas and volunteer to help.
 
 #### Posisi Penuh Waktu
 
-Origin terkadang mempekerjakan pengembang untuk posisi paruh waktu atau penuh waktu.
+Origin occasionally hires developers for part-time or full-time positions.
 
-Kami memiliki preferensi kuat untuk mempekerjakan orang yang sudah mulai berkontribusi pada proyek. If you want a full-time position on our team, your best shot is to engage with our team and start contributing code. Sangat kecil kemungkinannya kami akan menawarkan Anda posisi penuh waktu di tim teknik kami kecuali Anda memiliki setidaknya beberapa permintaan tarik yang digabungkan.
+We have a strong preference for hiring people who have already started contributing to the project. If you want a full-time position on our team, your best shot is to engage with our team and start contributing code. It is very unlikely that we would offer you a full-time position on our engineering team unless you’ve had at least a few pull requests merged.
 
-Jika Anda tertarik, lihat [daftar pekerjaan Protokol Origin](https://angel.co/originprotocol/jobs). Jika Anda ingin membantu dengan cara lain, ajukan ide Anda di [saluran Discord kami](https://www.originprotocol.com/discord).
-
-
+If you are interested, check out [the Origin Protocol job listings](https://angel.co/originprotocol/jobs). If you’d like to help in other ways, please propose your ideas in [our Discord channel](https://www.originprotocol.com/discord).
 
