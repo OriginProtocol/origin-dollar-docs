@@ -8,7 +8,7 @@ Dokumen ini adalah titik awal yang bagus untuk memahami cara kerja OUSD. Berikut
 
 Kami berasumsi bahwa jawabannya adalah ya dan kami juga sangat menganjurkan hal ini! Namun, mungkin ada beberapa contoh di mana Anda lebih memilih untuk bergerak cepat dan mendaftar OUSD tanpa berpartisipasi dalam sifat [rebasing dari OUSD](../core-concepts/elastic-supply/rebasing-and-smart-contracts.md) karena ini adalah integrasi tercepat dan paling sederhana. Untuk pertukaran yang ingin mencantumkan OUSD, tetapi kekurangan sumber daya teknik, Anda mungkin ingin meluncurkan versi non-rebasing terlebih dahulu sementara teknisi Anda membuat perubahan apa pun yang diperlukan. Untuk membuat OUSD non-rebasing, Anda dapat memanggil `rebaseOptOut()` dari setiap dompet EOA yang menyimpan OUSD, atau tidak melakukan apa pun jika Anda menyimpan OUSD pada kontrak pintar. OUSD non-rebasing berperilaku seperti token ERC-20 lainnya.
 
-**Apakah Anda menyimpan saldo pelanggan pada kontrak pintar \(mis. multi-tanda\) atau dompet EOA?**
+**Are you storing customer balances on smart contracts (ie. multi-sigs) or EOA wallets?**
 
 Kontrak cerdas apa pun yang memegang OUSD perlu memilih secara manual untuk menerima hasil dengan memanggil `rebaseOptIn()`. Hal ini disebabkan oleh pasokan elastis [](../core-concepts/elastic-supply/) dan sifat [rebasing dari OUSD](../core-concepts/elastic-supply/rebasing-and-smart-contracts.md). Banyak pertukaran menyapu dana pelanggan ke dompet multi-tanda untuk penyimpanan dingin. Jika Anda melakukan ini, Anda pasti ingin memastikan bahwa Anda memilih untuk melakukan rebasing sehingga Anda selalu menghasilkan.
 
@@ -23,6 +23,4 @@ Jika Anda mengumpulkan dana, Anda pasti ingin memastikan bahwa setiap pengguna m
 **Apa rencana Anda untuk likuiditas?**
 
 OUSD dapat dicetak atau ditebus kapan saja menggunakan [Origin Dollar DApp](https://www.ousd.com), atau langsung dari kontrak pintar kami. Jika Anda berencana untuk menyediakan likuiditas sendiri, Anda harus menyadari bahwa jumlah pasti OUSD yang akan Anda terima sebagai ganti USDT, USDC, atau DAI Anda bergantung pada nilai tukar saat ini sebagaimana ditentukan oleh [oracle](../smart-contracts/api/oracle.md). Jika Anda berencana menebus OUSD untuk stablecoin yang mendasarinya, Anda harus tahu bahwa ada biaya keluar 0,5% dan OUSD akan mengembalikan sekeranjang stablecoin sebanding dengan stablecoin pendukung di pool. We encourage exchanges to leverage other pools of liquidity, such as on Uniswap or Curve to avoid those fees. Jika memungkinkan, permen atau penebusan harus dilakukan dalam jumlah besar untuk efisiensi maksimum. 
-
-
 
