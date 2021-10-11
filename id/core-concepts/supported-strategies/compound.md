@@ -6,14 +6,13 @@ Saldo agunan diwakili oleh ERC-20 cTokens, yang secara otomatis menghasilkan bun
 
 Compound diatur oleh COMP, token tata kelola ERC-20. Pemegang COMP dapat mengusulkan dan memberikan suara pada perubahan protokol atau mendelegasikan suara mereka kepada orang lain. COMP tokens are awarded pro-rata to users of the protocol daily, split equally between borrowers and lenders. Sebagian besar pasokan token COMP disimpan oleh tim Compound, investor, dan penasihat.
 
-Compound's total value locked \(TVL\) has quickly grown to over $10 billion, making it one of the largest DeFi protocols. COMP has a circulating market cap of over $2.5 billion.
+Compound's total value locked (TVL) has quickly grown to over $10 billion, making it one of the largest DeFi protocols. COMP has a circulating market cap of over $2.5 billion.
 
 Compound telah menjalani beberapa audit keamanan oleh OpenZeppelin dan Trail of Bits. Protokol Compound secara resmi diverifikasi oleh CertiK dan telah menjalani uji tekanan ekonomi oleh Gauntlet. Compound memelihara program bug bounty.
 
 | Sumber             |                                                                                                                |
-|:------------------ |:-------------------------------------------------------------------------------------------------------------- |
-| Situs resmi        | [https://compound.finance/](https://compound.finance/)                                                         |
+| ------------------ | -------------------------------------------------------------------------------------------------------------- |
+| Situs resmi        | [https://compound.finance/](https://compound.finance)                                                          |
 | Dokumen pengembang | [https://compound.finance/docs](https://compound.finance/docs)                                                 |
 | GitHub             | [https://github.com/compound-finance/compound-protocol](https://github.com/compound-finance/compound-protocol) |
 | Discord            | [https://discord.com/invite/cU7vmVW](https://discord.com/invite/cU7vmVW)                                       |
-
