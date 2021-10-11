@@ -8,11 +8,13 @@ OUSD tích hợp với nền tảng cho vay DeFi cung cấp các khoản vay th�
 
 OUSD tích hợp với các nhà cung cấp dịch vụ cho vay hàng đầu đã được sử dụng rộng rãi, các hợp đồng thông minh đã được kiểm toán và đã cho vay thành công hàng trăm triệu đô la mà không gặp vấn đề gì. Chúng tôi hiện được tích hợp với các nền tảng cho vay sau:
 
-{% page-ref page="../supported-strategies/compound.md" %}
+{% content-ref url="../supported-strategies/compound.md" %}
+[compound.md](../supported-strategies/compound.md)
+{% endcontent-ref %}
 
-{% page-ref page="../supported-strategies/aave.md" %}
-
-
+{% content-ref url="../supported-strategies/aave.md" %}
+[aave.md](../supported-strategies/aave.md)
+{% endcontent-ref %}
 
 
 
