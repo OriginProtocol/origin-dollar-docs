@@ -2,7 +2,7 @@
 
 **Bug Ödülleri**
 
-Hata ödülleri, Origin Protocol'ün tam takdirine bağlı olarak verilir. The rewards range in size from **$100 OUSD** for minor issues to **$250,000 OUSD** for major vulnerabilities. Şu anda, ödül programı yalnızca OUSD için geçerlidir, Origin'deki diğer ürünler için geçerli değildir.
+Hata ödülleri, Origin Protocol'ün tam takdirine bağlı olarak verilir. The rewards range in size from **$100 OUSD** for minor issues to **$250,000 OUSD **for major vulnerabilities. Şu anda, ödül programı yalnızca OUSD için geçerlidir, Origin'deki diğer ürünler için geçerli değildir.
 
 {% hint style="uyarı" %}
 Bir hata ödülüne hak kazanmak için aşağıda ana hatları verilen Sorumlu Açıklama kurallarına uymanız gerekir.
@@ -28,6 +28,5 @@ Karşılığında söz veriyoruz:
 * Yukarıdaki talimatları izlediyseniz, bildirimle ilgili olarak size karşı herhangi bir yasal işlem yapmayacağız.
 * Bildiriminizi sıkı bir gizlilik içinde ele alacağız ve kişisel bilgilerinizi izniniz olmadan üçüncü şahıslara vermeyeceğiz.
 * Dilerseniz, sorunu çözme yolunda ilerlemenizden sizi haberdar edeceğiz.
-* Bildirilen sorunla ilgili kamuya açık bilgilerde, sorunun keşfi olarak adınızı vereceğiz \ (aksini istemediğiniz sürece \)
+* In the public information concerning the problem reported, we will give your name as the discoverer of the problem (unless you desire otherwise)
 * Yardımınız için minnettarlığımızın bir göstergesi olarak, henüz bilmediğimiz bir güvenlik sorununun her bildirimi için bir ödül sunuyoruz. Ödül miktarı, sızıntının ciddiyetine, raporun kalitesine ve sağladığınız ek yardımlara göre belirlenecektir.  
-
