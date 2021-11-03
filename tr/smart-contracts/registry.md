@@ -20,7 +20,7 @@ Internal implementation contracts. The Vault is split into VaultAdmin and VaultC
 
 | Kontrakt         | Adres                                                                                                                 |
 | ---------------- | --------------------------------------------------------------------------------------------------------------------- |
-| OUSD             | [0xFc9f0C869b63C9346DfF4a3fc146e52791028d7d](https://etherscan.io/address/0xFc9f0C869b63C9346DfF4a3fc146e52791028d7d) |
+| OUSD             | [0x33db8d52d65F75E4cdDA1b02463760c9561A2aa1](https://etherscan.io/address/0x33db8d52d65F75E4cdDA1b02463760c9561A2aa1) |
 | VaultAdmin       | [0x3EB68D8f4992A0e34aA58cc3dF86A40814078cF6](https://etherscan.io/address/0x3EB68D8f4992A0e34aA58cc3dF86A40814078cF6) |
 | VaultCore        | [0x226de75867B2f785BA19600e2a7e6eFccD57157B](https://etherscan.io/address/0x226de75867B2f785BA19600e2a7e6eFccD57157B) |
 | Chainlink Oracle | [0xa7695eED05094E28AA575CB0cCa3CF17848a7981](https://etherscan.io/address/0xa7695eED05094E28AA575CB0cCa3CF17848a7981) |
@@ -110,4 +110,4 @@ OUSD compensation contract ([details](https://medium.com/originprotocol/origin-d
 
 
 
- 
+&#x20;
