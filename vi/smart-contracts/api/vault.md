@@ -11,7 +11,7 @@ Tất cả OUSD được chuyển hoặc trả về theo phương thức Vault �
 
 Các đồng stablecoin khác nhau sẽ có số thập phân hiển thị khác nhau. DAI sử dụng 18 chữ số thập phân trong khi USDC và USDT chỉ sử dụng 6.
 
-Các nỗ lực [đang được thực hiện](https://github.com/OriginProtocol/origin-dollar/issues/590) để tăng tính chính xác của các phép tính từ 18 số thập phân lên 27 số thập phân. Bản thân token OUSD sẽ vẫn giữ độ chính xác 18 số thập phân và số dư của người dùng sẽ không thay đổi.
+The protocol was updated in November  are [currently underway](https://github.com/OriginProtocol/origin-dollar/issues/590) to increase the resolution of rebasing calculations from 18 decimals to 27 decimals. Bản thân token OUSD sẽ vẫn giữ độ chính xác 18 số thập phân và số dư của người dùng sẽ không thay đổi.
 
 ## Phương pháp‌
 
