@@ -1,19 +1,15 @@
 # Временная блокировка
 
-{% hint style="danger" %}
-Временная блокировка уже была добавлена, однако на данный момент ее значение было установлено на 1 минуту. Это позволит быстрее реагировать на любые обнаруженные критические проблемы. Временная блокировка управляется 5 из 8 мультиподписей Origin.
-{% endhint %}
-
-Контракт с временной блокировкой предусматривает 48-часовой период ожидания, прежде чем любые изменения в контрактах OUSD будут выполнены. Временная блокировка может быть вызвана нашим мульти-подписями, являющимися владельцами наших контрактов [ERC-20](../architecture.md), [Vault](vault.md)и [Strategies](strategies.md). Задержка действий администратора дает пользователям возможность выхода OUSD, если его администраторы станут злонамеренными, будут скомпрометированы или внесут изменения, которые не нравятся пользователям.
+The timelock contract enforces a 48 hour wait period before any changes to the OUSD contracts can be executed. The timelock can be called by our multi-sig and is the owner of our [ERC-20](../architecture.md), [Vault](vault.md), and [Strategies](strategies.md) contracts. Time-delaying admin actions gives users a chance to exit OUSD if its admins become malicious, are compromised, or make a change that the users do not like.
 
 {% hint style="info" %}
-Временная блокировка - это мера безопасности, которая дает держателям OUSD 48 часов, чтобы вывести свои средства, если у них есть возражения против любых предлагаемых обновлений протокола.
+The timelock is a safety measure that gives OUSD holders 48 hours to withdraw their funds if they have objections to any proposed upgrades to the protocol.
 {% endhint %}
 
-OUSD использует немного измененную версию [ Накапливаемой временной блокировки](https://compound.finance/docs/governance), которая была [проаудирована OpenZeppelin](https://blog.openzeppelin.com/compound-finance-patch-audit/). Двумя заметными отличиями являются:
+OUSD is using a slightly modified version of the [Compound Timelock](https://compound.finance/docs/governance) which has been [audited by OpenZeppelin](https://blog.openzeppelin.com/compound-finance-patch-audit/). The two notable differences are:
 
-1. OUSD will initially use a shorter wait period (48 hours) than Compound (72 hours) to allow for a faster response if any issues are discovered.
-2. Некоторые действия, такие как перераспределение средств между существующими стратегиями и замороженными депозитами, могут быть вызваны немедленно, не требуя 48 часового периода ожидания. Это было сделано на случай обнаружения серьезной уязвимости.
+1. OUSD will initially use a shorter wait period (48 hours) than Compound (72 hours) to allow for a faster response if any issues are discovered.&#x20;
+2. Some actions, such as reallocating funds between existing strategies and freezing deposits can be called immediately without requiring the 48 waiting period. Это было сделано на случай обнаружения серьезной уязвимости.
 
 
 
