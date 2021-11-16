@@ -11,7 +11,7 @@ Semua jumlah OUSD yang diteruskan atau dikembalikan oleh metode Vault menggunaka
 
 Untuk koin stabil lainnya, jumlah tempat desimal bervariasi. DAI menggunakan 18 tempat desimal sedangkan USDC dan USDT hanya menggunakan 6.
 
-Efforts are [currently underway](https://github.com/OriginProtocol/origin-dollar/issues/590) to increase the resolution of rebasing calculations from 18 decimals to 27 decimals. The OUSD token itself will still retain 18 decimals of precision and user balances should not change.
+The protocol was updated in November  are [currently underway](https://github.com/OriginProtocol/origin-dollar/issues/590) to increase the resolution of rebasing calculations from 18 decimals to 27 decimals. The OUSD token itself will still retain 18 decimals of precision and user balances should not change.
 
 ## Metode‌
 
