@@ -11,7 +11,7 @@ Todas las cantidades de OUSD aprobadas o devueltas por los métodos de Vault uti
 
 Para otras monedas estables, el número de decimales varía. DAI usa 18 lugares decimales, mientras que USDC y USDT usan solo 6.
 
-Los esfuerzos están [actualmente en marcha](https://github.com/OriginProtocol/origin-dollar/issues/590) para aumentar la resolución de cálculos de cambio de base a partir de 18 decimales a 27 decimales. El token de OUSD en sí mismo conservará 18 decimales de precisión y los saldos de los usuarios no deberían cambiar.
+The protocol was updated in November  are [currently underway](https://github.com/OriginProtocol/origin-dollar/issues/590) to increase the resolution of rebasing calculations from 18 decimals to 27 decimals. El token de OUSD en sí mismo conservará 18 decimales de precisión y los saldos de los usuarios no deberían cambiar.
 
 ## Métodos
 
