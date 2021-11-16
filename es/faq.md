@@ -10,7 +10,7 @@ Al igual que con cualquier transacción de Ethereum, necesitará Ether para inte
 
 Cada vez que acuñe o canjee OUSD, se aplicará un tipo de cambio a sus monedas estables depositadas o retiradas. Puede leer más sobre esto en [Precios de Oráculos](https://docs.ousd.com/core-concepts/price-oracles).
 
-Para fomentar la retención a largo plazo de OUSD y proteger el protocolo de los atacantes, se cobra una tarifa de salida del 0,5% en todos los canjes. Puede leer más sobre esto en [Cómo funciona](https://docs.ousd.com/how-it-works).
+Para fomentar la retención a largo plazo de OUSD y proteger el protocolo de los atacantes, se cobra una tarifa de salida del 0,5% en todos los canjes. You can read more about this in [How It Works](https://docs.ousd.com/how-it-works).
 
 **¿Qué tan pronto aumentará mi saldo una vez que tenga OUSD?**
 
