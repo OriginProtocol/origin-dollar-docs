@@ -11,7 +11,7 @@ description: >-
 
 Разрядность других стейблкоинов отличается. DAI использует 18 знаков после запятой, в то время как USDC и USDT имеют только 6 разрядов.
 
-Efforts are [currently underway](https://github.com/OriginProtocol/origin-dollar/issues/590) to increase the resolution of rebasing calculations from 18 decimals to 27 decimals. The OUSD token itself will still retain 18 decimals of precision and user balances should not change.
+The protocol was updated in November  are [currently underway](https://github.com/OriginProtocol/origin-dollar/issues/590) to increase the resolution of rebasing calculations from 18 decimals to 27 decimals. The OUSD token itself will still retain 18 decimals of precision and user balances should not change.
 
 ## Методы‌
 
