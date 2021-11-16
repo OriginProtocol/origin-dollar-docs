@@ -10,7 +10,7 @@ Seperti halnya transaksi Ethereum, Anda akan memerlukan Eter untuk berinteraksi 
 
 Setiap kali Anda mencetak atau menukarkan OUSD, akan ada nilai tukar yang diterapkan ke stablecoin Anda yang disetor atau ditarik. Anda dapat membaca lebih lanjut tentang ini di [Harga Oracles](https://docs.ousd.com/core-concepts/price-oracles).
 
-Untuk mendorong kepemilikan jangka panjang OUSD dan untuk melindungi protokol dari penyerang, biaya keluar sebesar 0,5% dibebankan pada semua penukaran. Anda dapat membaca lebih lanjut tentang ini di [Harga Oracles](https://docs.ousd.com/how-it-works).
+Untuk mendorong kepemilikan jangka panjang OUSD dan untuk melindungi protokol dari penyerang, biaya keluar sebesar 0,5% dibebankan pada semua penukaran. You can read more about this in [How It Works](https://docs.ousd.com/how-it-works).
 
 **Seberapa cepat saldo saya akan bertambah setelah saya memiliki OUSD?**
 
