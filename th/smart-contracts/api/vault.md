@@ -11,7 +11,7 @@ All OUSD amounts passed or returned by the Vault methods use 18 decimal places. 
 
 For other stable coins, the number of decimal places varies. DAI uses 18 decimal places while USDC and USDT use only 6.
 
-Efforts are [currently underway](https://github.com/OriginProtocol/origin-dollar/issues/590) to increase the resolution of rebasing calculations from 18 decimals to 27 decimals. The OUSD token itself will still retain 18 decimals of precision and user balances should not change.
+The protocol was updated in November  are [currently underway](https://github.com/OriginProtocol/origin-dollar/issues/590) to increase the resolution of rebasing calculations from 18 decimals to 27 decimals. The OUSD token itself will still retain 18 decimals of precision and user balances should not change.
 
 ## Methods‌
 
