@@ -30,7 +30,7 @@ Mặc dù không thể đảm bảo hợp đồng của chúng tôi là an toàn
 
 Hợp đồng và các chương trình được [kiểm toán ](audits.md)bởi các kiểm toán viên hàng đầu trong ngành.
 
-Chúng tôi đã làm việc với 2 đơn vị cung cấp [Bảo hiểm Defi](insurance.md) để cung cấp bảo hiểm tuỳ chọn cho người nắm giữ OUSD.
+[DeFi insurance](insurance.md) is availble  to offer smart contract coverage as an optional add-on service for OUSD holders.
 
 We have retained [Certora](https://www.certora.com) to formally verify the various security properties of our contracts. Họ đã giúp Origin thiết lập xác minh tự động có thể chạy bất kỳ lúc nào chúng tôi cập nhật code của hợp đồng. Chúng tôi đã tự động kiểm tra các lỗi phổ biến bằng kiểm tra [Slither](https://github.com/crytic/slither) và [Echidna](https://github.com/crytic/echidna). Những biện pháp này sẽ cảnh báo chúng tôi về các vấn đề bảo mật phổ biến ngoài các biện pháp mà chúng tôi tự xây dựng.
 
