@@ -39,13 +39,13 @@ We're continuing to work on making OUSD available on additional centralized exch
 The main ERC20 address for Origin Dollar (OUSD) is: \ **0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86**
 {% endhint %}
 
-If your OUSD does not automatically show up in your wallet, you should be able to add it manually using the address above. If you are planning on [storing your OUSD in a multi-sig wallet](core-concepts/elastic-supply/rebasing-and-smart-contracts.md), be sure to opt-in to receive yield. We want to have OUSD supported by as many wallets as possible and included on all the various lists of well-known tokens. We would greatly appreciate any help you can offer in this area.
+If your OUSD does not automatically show up in your wallet, you should be able to add it manually using the address above. If you are planning on [storing your OUSD in a multi-sig wallet](core-concepts/elastic-supply/rebasing-and-smart-contracts.md), be sure to opt-in to receive yield. We want to have OUSD supported by as many wallets as possible and included on all the various lists of well-known tokens. We would greatly appreciate any help you can offer in this area.&#x20;
 
 **Integrating OUSD**
 
 OUSD is a non-standard ERC-20 token that requires custom integration work for most applications that wish to support it. In particular, it is important for developers to understand how our elastic supply works as this can easily cause unexpected behavior.
 
-If you are a wallet provider or crypto exchange that is interested in supporting OUSD, please refer to the following guides:
+If you are a wallet provider or crypto exchange that is interested in supporting OUSD, please refer to the following guides:&#x20;
 
 {% content-ref url="core-concepts/elastic-supply/rebasing-and-smart-contracts.md" %}
 [rebasing-and-smart-contracts.md](core-concepts/elastic-supply/rebasing-and-smart-contracts.md)
@@ -66,7 +66,3 @@ Our internal developer dashboard is available at [analytics.ousd.com](https://an
 **Getting Help**
 
 Please join the Origin Dollar #engineering room in Origin's [Discord](https://www.originprotocol.com/discord) server.  Our team and members of our community look forward to helping you build. Your questions help us improve, so please don't hesitate to ask if you can't find what you are looking for here.
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
