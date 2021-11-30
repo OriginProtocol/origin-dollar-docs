@@ -6,6 +6,7 @@ Tài liệu này được xây dựng nhằm giải thích cách thức hoạt �
 
 {% hint style="info" %}
 </a>Origin Dollar
+
  sẽ định tuyến giao dịch của bạn một cách thông minh, giúp bạn mua OUSD với mức giá tốt nhất. </p> 
 
 {% endhint %}
@@ -43,13 +44,13 @@ The main ERC20 address for Origin Dollar (OUSD) is: \ **0x2A8e1E676Ec238d8A99230
 
 {% endhint %}
 
-Nếu OUSD không tự động hiển thị trên ví thì bạn có thể thêm theo cách thủ công thông qua địa chỉ ở trên. Nếu bạn đang có kế hoạch [giữ OUSD trong ví đa chữ ký](core-concepts/elastic-supply/rebasing-and-smart-contracts.md), hãy nhớ chọn opt-in để nhận được lợi nhuận. Chúng tôi muốn OUSD được hỗ trợ bởi nhiều ví hơn nữa và muốn OUSD được đưa vào tất cả danh sách của token nổi tiếng trong tương lai. Chúng tôi đánh giá rất cao bất kỳ sự giúp đỡ nào từ cộng đồng để biến mục tiêu trên thành hiện thực. 
+Nếu OUSD không tự động hiển thị trên ví thì bạn có thể thêm theo cách thủ công thông qua địa chỉ ở trên. Nếu bạn đang có kế hoạch [giữ OUSD trong ví đa chữ ký](core-concepts/elastic-supply/rebasing-and-smart-contracts.md), hãy nhớ chọn opt-in để nhận được lợi nhuận. Chúng tôi muốn OUSD được hỗ trợ bởi nhiều ví hơn nữa và muốn OUSD được đưa vào tất cả danh sách của token nổi tiếng trong tương lai. We would greatly appreciate any help you can offer in this area.&#x20;
 
 **Tích hợp OUSD**
 
 OUSD là token ERC-20 không tiêu chuẩn, hầu hết các ứng dụng muốn hỗ trợ sử dụng OUSD sẽ cần phải thực hiện thao tác tích hợp. Đặc biệt, điều quan trọng là các nhà phát triển phải hiểu cách thức hoạt động của nguồn cung lịch hoạt bởi nó có thể gây nên một số hậu quả không mong muốn nếu không nắm rõ cơ chế.
 
-Nếu bạn là bên cung cấp ví hoặc sàn giao dịch tiền điện tử quan tâm đến việc hỗ trợ OUSD, vui lòng tham khảo các hướng dẫn sau: 
+If you are a wallet provider or crypto exchange that is interested in supporting OUSD, please refer to the following guides:&#x20;
 
 {% content-ref url="core-concepts/elastic-supply/rebasing-and-smart-contracts.md" %}
 
@@ -76,9 +77,3 @@ Our internal developer dashboard is available at [analytics.ousd.com](https://an
 **Getting Help**
 
 Please join the Origin Dollar #engineering room in Origin's [Discord](https://www.originprotocol.com/discord) server.  Our team and members of our community look forward to helping you build. Your questions help us improve, so please don't hesitate to ask if you can't find what you are looking for here.
-
-{% content-ref url="broken-reference" %}
-
-[Broken link](broken-reference) 
-
-{% endcontent-ref %}
