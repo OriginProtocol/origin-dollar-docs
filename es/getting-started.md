@@ -39,13 +39,13 @@ Seguimos trabajando para que OUSD esté disponible en exchanges centralizados ad
 The main ERC20 address for Origin Dollar (OUSD) is: \ **0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86**
 {% endhint %}
 
-Si su OUSD no aparece automáticamente en su billetera, debería poder agregarlo manualmente usando la dirección anterior. Si usted está planeando en [almacenar su OUSD en una billetera de múltiples firmas](core-concepts/elastic-supply/rebasing-and-smart-contracts.md), asegúrese de optar para recibir el rendimiento. Queremos que OUSD sea compatible con tantas billeteras como sea posible y que se incluya en todas las diversas listas de tokens conocidos. Agradeceríamos enormemente cualquier ayuda que pueda ofrecer en esta área.
+Si su OUSD no aparece automáticamente en su billetera, debería poder agregarlo manualmente usando la dirección anterior. Si usted está planeando en [almacenar su OUSD en una billetera de múltiples firmas](core-concepts/elastic-supply/rebasing-and-smart-contracts.md), asegúrese de optar para recibir el rendimiento. Queremos que OUSD sea compatible con tantas billeteras como sea posible y que se incluya en todas las diversas listas de tokens conocidos. We would greatly appreciate any help you can offer in this area.&#x20;
 
 **Integrando OUSD**
 
 OUSD es un token ERC-20 no estándar que requiere un trabajo de integración personalizado para la mayoría de las aplicaciones que desean admitirlo. En particular, es importante que los desarrolladores comprendan cómo funciona nuestro suministro elástico, ya que esto puede causar fácilmente un comportamiento inesperado.
 
-Si usted es un proveedor de billeteras o un exchange de criptomonedas que está interesado en respaldar OUSD, consulte las siguientes guías:
+If you are a wallet provider or crypto exchange that is interested in supporting OUSD, please refer to the following guides:&#x20;
 
 {% content-ref url="core-concepts/elastic-supply/rebasing-and-smart-contracts.md" %}
 [rebasing-and-smart-contracts.md](core-concepts/elastic-supply/rebasing-and-smart-contracts.md)
@@ -66,7 +66,3 @@ Our internal developer dashboard is available at [analytics.ousd.com](https://an
 **Getting Help**
 
 Please join the Origin Dollar #engineering room in Origin's [Discord](https://www.originprotocol.com/discord) server.  Our team and members of our community look forward to helping you build. Your questions help us improve, so please don't hesitate to ask if you can't find what you are looking for here.
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
