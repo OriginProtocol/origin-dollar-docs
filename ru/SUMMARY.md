@@ -20,8 +20,9 @@
   * [DAI](core-concepts/supported-stablecoins/dai.md)
 * [Поддерживаемые стратегии](core-concepts/supported-strategies/README.md)
   * [Накапливание](core-concepts/supported-strategies/compound.md)
-  * [Curve](core-concepts/supported-strategies/curve.md)
   * [Aave](core-concepts/supported-strategies/aave.md)
+  * [Curve](core-concepts/supported-strategies/curve.md)
+  * [Convex](core-concepts/supported-strategies/convex.md)
 * [Управление средствами](core-concepts/fund-management.md)
 * [Ценовые оракулы](core-concepts/price-oracles.md)
 
@@ -59,4 +60,3 @@
 * [Github](https://www.github.com/originprotocol/origin-dollar)
 * [Discord](https://www.originprotocol.com/discord)
 * [originprotocol.com](https://www.originprotocol.com)
-
