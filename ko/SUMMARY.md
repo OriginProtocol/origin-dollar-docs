@@ -20,8 +20,9 @@
   * [DAI](core-concepts/supported-stablecoins/dai.md)
 * [지원되는 전략](core-concepts/supported-strategies/README.md)
   * [컴파운드(Compound)](core-concepts/supported-strategies/compound.md)
-  * [Curve](core-concepts/supported-strategies/curve.md)
   * [Aave](core-concepts/supported-strategies/aave.md)
+  * [Curve](core-concepts/supported-strategies/curve.md)
+  * [Convex](core-concepts/supported-strategies/convex.md)
 * [자금 관리](core-concepts/fund-management.md)
 * [가격 오라클](core-concepts/price-oracles.md)
 
@@ -59,4 +60,3 @@
 * [Github](https://www.github.com/originprotocol/origin-dollar)
 * [Discord](https://www.originprotocol.com/discord)
 * [originprotocol.com](https://www.originprotocol.com)
-
