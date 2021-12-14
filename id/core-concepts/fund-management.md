@@ -1,19 +1,19 @@
 # Pengelolaan Dana
 
-Kontrak pintar OUSD menggabungkan semua deposit stablecoin pengguna ke dalam satu kumpulan aset yang dapat digunakan. Funds are then allocated across one or more** **earning strategies at any given moment in time. Vault lebih menyukai strategi hasil tinggi tetapi juga berusaha mempertahankan diversifikasi di berbagai strategi. Diversifikasi menghilangkan satu titik kegagalan dan mengurangi risiko.
+The OUSD smart contract aggregates all users' stablecoin deposits into a single pool of assets that then get deployed into earning strategies based on preset allocations. In contrast to Yearn Vaults, TokenSets, or Zapper opportunities, users do not select individual strategies. All deposited stablecoins and consequently all OUSD tokens are fungible.&#x20;
 
-Berbeda dengan peluang Yearn Vaults, TokenSets, atau Zapper, pengguna tidak memilih strategi individu. Semua stablecoin yang disimpan dan akibatnya semua token OUSD dapat dipertukarkan. Setelah struktur tata kelola penuh kami diterapkan, keputusan ini akan dibuat dengan masukan dari pemegang token tata kelola OUSD. OGN holders are encouraged to participate in creating and voting on proposals that impact the protocol in the [OGN governance portal](https://vote.originprotocol.com).
+The weighting of how assets are distributed between the supported strategies is decided by OGN holders using weekly snapshot voting. Ultimately, we believe it should be up to the community to decide what the right balance of risk/reward is appropriate for OUSD. We encourage the community to favor high-yield strategies while still maintaining diversification across multiple strategies to remove single points of failure and minimize risk.&#x20;
 
-**Strategi Penghasilan**
+**How strategy allocation voting works:**
 
-Strategi penghasilan menempatkan modal yang dikerahkan untuk bekerja di berbagai platform DeFi. Vault akan menentukan strategi mana yang aktif dan berapa persentase dari modal yang diterapkan yang akan mereka terima. Strategi ini akan ditingkatkan dan diganti seiring waktu.
+* New snapshot proposals will be posted on the [OGN governance portal ](https://vote.orignprotocol.com)around midnight Tuesday UTC (7pm eastern Monday)&#x20;
+* Each proposal will use "weighted voting", with options for each coin/strategy combination. OGN holders can spread their votes among different listed strategies.
+* The poll will be open for 48 hours, ending around midnight Thursday UTC (7pm eastern on Wednesday)
+* During this time, those interested can discuss allocation changes in a thread in the #governance channel on [Origin's Discord](https://www.originprotocol.com/discord).
+* After the voting time has ended, members of the [Strategist multi-sig](https://etherscan.io/address/0xF14BBdf064E3F67f51cd9BD646aE3716aD938FDC) will submit, verify, and execute transactions to change OUSD to the determined allocation percentages for the week.
+* These allocations will be executed for strategies that use all stablecoins first (like Convex), then each stablecoin will be allocated to the remaining strategies according to the ratio of votes for that stablecoin / strategy combination.
+* If the strategist multi-sig members deem any of the allocations unsafe to the funds behind OUSD, they may choose to not execute those. In addition, the multi-sig members may decline to execute minor adjustments where the gas costs would be greater than the expected benefits. The strategist multi-sig will continue to have the ability to instantly pause rebasing and capital to protect OUSD funds.
+* Community members can use the [Strategy Validator tool](https://analytics.ousd.com/strategist) to more easily decode which actions  are being performed by the Strategist multi-sig.
+* Please note it is inefficient to move in and out of the Convex strategy frequently and some funds need to always remain outside of Convex in order to accommodate withdrawals.
 
-**Penyiasat**
-
-Versi awal kontrak pintar OUSD Vault memberikan bobot sederhana antara 0% dan 100% untuk setiap strategi yang valid untuk melakukan alokasi aset sederhana. Bobot ini akan sering diubah melalui pembaruan oleh Origin dalam jangka pendek dan oleh tata kelola yang terdesentralisasi dalam jangka panjang.
-
-**Diversifikasi**
-
-Diversifikasi di beberapa platform DeFi [mendasarinya](supported-strategies/) akan mengurangi kontrak pintar dan risiko sistemik lainnya. Kontrak pintar akan menghitung APY saat ini dan yang diharapkan dalam upaya memberikan pengembalian yang kompetitif kepada pemegang OUSD. Seiring waktu, kontrak Vault akan ditingkatkan untuk secara cerdas dan otonom beralih di antara strategi tanpa intervensi manual apa pun. Misalnya, Vault akan secara otomatis mengalihkan modal di antara berbagai strategi pinjaman untuk mengoptimalkan hasil.
-
-Namun, masih diharapkan bahwa parameter risiko atau keputusan tertentu tentang apakah strategi tertentu akan dimasukkan dalam mesin pengambilan keputusan otomatis akan dibuat melalui suara tata kelola. 
+****
