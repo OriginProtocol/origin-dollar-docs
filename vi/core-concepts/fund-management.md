@@ -1,19 +1,19 @@
 # Quản lý quỹ
 
-Hợp đồng thông minh OUSD tổng hợp tất cả các khoản stablecoin của người dùng vào pool tài sản đầu tư. Funds are then allocated across one or more** **earning strategies at any given moment in time. Vault tìm kiếm các chiến lược năng suất cao nhưng cũng tìm cách duy trì sự đa dạng hóa trên nhiều chiến lược. Đa dạng hóa giúp loại bỏ lỗi cục bộ và giảm thiểu rủi ro.
+The OUSD smart contract aggregates all users' stablecoin deposits into a single pool of assets that then get deployed into earning strategies based on preset allocations. In contrast to Yearn Vaults, TokenSets, or Zapper opportunities, users do not select individual strategies. All deposited stablecoins and consequently all OUSD tokens are fungible.&#x20;
 
-Khác với Yearn Vaults, TokenSets hoặc Zapper, người dùng không cần lựa chọn các chiến lược đơn lẻ. Tất cả các stablecoin đã ký gửi và do đó, tất cả các token OUSD đều là token có thể thay thế được. Sau khi chương tính năng quản trị ra mắt, những quyết định này sẽ được đề xuất bởi người nắm giữ token quản trị mạng OUSD. Chủ sở hữu OGN được khuyến khích tham gia tạo và bỏ phiếu các đề xuất cho giao thức trong [cổng quản trị OGN](https://vote.originprotocol.com).
+The weighting of how assets are distributed between the supported strategies is decided by OGN holders using weekly snapshot voting. Ultimately, we believe it should be up to the community to decide what the right balance of risk/reward is appropriate for OUSD. We encourage the community to favor high-yield strategies while still maintaining diversification across multiple strategies to remove single points of failure and minimize risk.&#x20;
 
-**Chiến lược tạo lợi nhuận**
+**How strategy allocation voting works:**
 
-Các chiến lược kiếm sẽ chuyển vốn tới nhiều nền tảng DeFi khác nhau. Vault sẽ xác định chiến lược nào đang hoạt động và ước tính lợi nhuận thu về của nguồn vốn gửi đi. Các chiến lược này sẽ được nâng cấp và cải tiến theo thời gian.
+* New snapshot proposals will be posted on the [OGN governance portal ](https://vote.orignprotocol.com)around midnight Tuesday UTC (7pm eastern Monday)&#x20;
+* Each proposal will use "weighted voting", with options for each coin/strategy combination. OGN holders can spread their votes among different listed strategies.
+* The poll will be open for 48 hours, ending around midnight Thursday UTC (7pm eastern on Wednesday)
+* During this time, those interested can discuss allocation changes in a thread in the #governance channel on [Origin's Discord](https://www.originprotocol.com/discord).
+* After the voting time has ended, members of the [Strategist multi-sig](https://etherscan.io/address/0xF14BBdf064E3F67f51cd9BD646aE3716aD938FDC) will submit, verify, and execute transactions to change OUSD to the determined allocation percentages for the week.
+* These allocations will be executed for strategies that use all stablecoins first (like Convex), then each stablecoin will be allocated to the remaining strategies according to the ratio of votes for that stablecoin / strategy combination.
+* If the strategist multi-sig members deem any of the allocations unsafe to the funds behind OUSD, they may choose to not execute those. In addition, the multi-sig members may decline to execute minor adjustments where the gas costs would be greater than the expected benefits. The strategist multi-sig will continue to have the ability to instantly pause rebasing and capital to protect OUSD funds.
+* Community members can use the [Strategy Validator tool](https://analytics.ousd.com/strategist) to more easily decode which actions  are being performed by the Strategist multi-sig.
+* Please note it is inefficient to move in and out of the Convex strategy frequently and some funds need to always remain outside of Convex in order to accommodate withdrawals.
 
-**Chiến lược**
-
-Phiên bản ban đầu của hợp đồng thông minh OUSD Vault cung cấp cho mỗi chiến lược hợp lệ một trọng số đơn giản từ 0% đến 100% để thực hiện phân bổ tài sản đơn giản. Các trọng số này sẽ được thay đổi thường xuyên thông qua các bản cập nhật của Origin trong ngắn hạn và dài hạn sẽ theo cơ chế quản trị phi tập trung.
-
-**Đa dạng hóa**
-
-Đa dạng hóa trên nhiều [nền tảng](supported-strategies/) DeFi sẽ làm giảm rủi ro cho hợp đồng thông minh và các rủi ro hệ thống khác. Hợp đồng thông minh sẽ tính toán các APY hiện tại và dự kiến nhằm nỗ lực mang lại lợi nhuận cạnh tranh cho người nắm giữ OUSD. Theo thời gian, hợp đồng Vault sẽ được nâng cấp để chuyển đổi một cách thông minh và tự động giữa các chiến lược mà không cần bất kỳ sự can thiệp thủ công nào. Ví dụ: Vault sẽ tự động luân chuyển vốn giữa các chiến lược cho vay khác nhau để tối ưu hóa lợi tức.
-
-Tuy nhiên, chúng tôi vẫn kỳ vọng rằng các thông số rủi ro hoặc quyết định về việc liệu các chiến lược nhất định có nên được đưa vào hay không sẽ sẽ được thực hiện thông qua cơ chế phiếu bầu quản trị. 
+****
