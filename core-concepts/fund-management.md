@@ -8,15 +8,15 @@ Ultimately, we believe it should be up to the community to decide what the right
 
 **How strategy allocation voting works:**
 
-* New snapshot proposals will open for voting on the [OGN governance portal ](https://vote.orignprotocol.com)at midnight Tuesday UTC (7pm eastern Monday)&#x20;
-* Each proposal will use "weighted voting", with options for each coin/strategy combination. OGN holders can spread their votes among different listed strategies.
-* The poll will be open for 48 hours, ending at midnight Thursday UTC (7pm eastern on Wednesday)
+* New snapshot proposals will open for voting on the [OGN governance portal ](https://vote.orignprotocol.com)at midnight Tuesday UTC (7pm eastern Monday). The poll will be open for 48 hours, ending at midnight Thursday UTC (7pm eastern on Wednesday).
 * During this time, those interested can discuss allocation changes in a thread in the #governance channel on [Origin's Discord](https://www.originprotocol.com/discord).
+* Each proposal will use "weighted voting", with options for each coin/strategy combination. OGN holders can spread their votes among different listed strategies.
 * After the voting time has ended, Strategists will submit, verify, and execute transactions to change OUSD to the determined allocation percentages for the week.
 * These allocations will be executed for strategies that use all stablecoins first (like Convex), then each stablecoin will be allocated to the remaining strategies according to the ratio of votes for that stablecoin / strategy combination.
 * If the Strategists deem any of the allocations unsafe to the funds behind OUSD, they may choose to not execute those. In addition, Strategists may decline to execute minor adjustments where the gas costs would be greater than the expected benefits.&#x20;
-* While Strategists have the ability to move funds between approved strategies or instantly pause rebasing in the case of an emergency, Strategists do not have the power to add new strategies or withdraw funds without going through the timelock.
-* Please note it is inefficient to move in and out of the Convex strategy frequently and some funds need to always remain outside of Convex in order to accommodate withdrawals.
-* Community members can use the [Strategy Validator tool](https://analytics.ousd.com/strategist) to more easily decode which actions are being performed by the Strategists.
+* From a security standpoint, it is important to know that while Strategists have the ability to move funds between approved strategies or instantly pause rebasing in the case of an emergency, Strategists do not have the power to add new strategies or withdraw funds without going through the timelock. Community members can use the [Strategy Validator tool](https://analytics.ousd.com/strategist) to more easily decode which actions are being performed by the Strategists.
+* When voting, please remember it is inefficient to move in and out of the Convex strategy frequently and some funds need to always remain outside of Convex in order to accommodate withdrawals.
+
+
 
 ****
