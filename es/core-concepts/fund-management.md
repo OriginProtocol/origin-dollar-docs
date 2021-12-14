@@ -1,19 +1,19 @@
 # Gestión de Fondos
 
-El contrato inteligente de OUSD agrega los depósitos de monedas estables de todos los usuarios en un solo grupo de activos invertibles. Funds are then allocated across one or more** **earning strategies at any given moment in time. La Bóveda favorece las estrategias de alto rendimiento, pero también busca mantener la diversificación en múltiples estrategias. La diversificación elimina los puntos únicos de fallas y mitiga los riesgos.
+The OUSD smart contract aggregates all users' stablecoin deposits into a single pool of assets that then get deployed into earning strategies based on preset allocations. In contrast to Yearn Vaults, TokenSets, or Zapper opportunities, users do not select individual strategies. All deposited stablecoins and consequently all OUSD tokens are fungible.&#x20;
 
-A diferencia de las oportunidades de Yearn Vaults, TokenSets o Zapper, los usuarios no seleccionan estrategias individuales. Todas las monedas estables depositadas y, en consecuencia, todos los tokens OUSD son fungibles. Una vez que se implemente nuestra estructura de gobierno completa, estas decisiones se tomarán con los comentarios de los holders de los tokens de gobierno de OUSD. Se anima a los holders de OGN a participar en la creación y votación de propuestas que afecten al protocolo en [el portal de gobernanza de OGN](https://vote.originprotocol.com).
+The weighting of how assets are distributed between the supported strategies is decided by OGN holders using weekly snapshot voting. Ultimately, we believe it should be up to the community to decide what the right balance of risk/reward is appropriate for OUSD. We encourage the community to favor high-yield strategies while still maintaining diversification across multiple strategies to remove single points of failure and minimize risk.&#x20;
 
-**Estrategias de Ganancias**
+**How strategy allocation voting works:**
 
-Las estrategias de ganancias ponen a trabajar el capital desplegado en varias plataformas DeFi. La Bóveda determinará qué estrategias están activas y qué porcentaje del capital implementado recibirán. Estas estrategias se actualizarán y reemplazarán con el tiempo.
+* New snapshot proposals will be posted on the [OGN governance portal ](https://vote.orignprotocol.com)around midnight Tuesday UTC (7pm eastern Monday)&#x20;
+* Each proposal will use "weighted voting", with options for each coin/strategy combination. OGN holders can spread their votes among different listed strategies.
+* The poll will be open for 48 hours, ending around midnight Thursday UTC (7pm eastern on Wednesday)
+* During this time, those interested can discuss allocation changes in a thread in the #governance channel on [Origin's Discord](https://www.originprotocol.com/discord).
+* After the voting time has ended, members of the [Strategist multi-sig](https://etherscan.io/address/0xF14BBdf064E3F67f51cd9BD646aE3716aD938FDC) will submit, verify, and execute transactions to change OUSD to the determined allocation percentages for the week.
+* These allocations will be executed for strategies that use all stablecoins first (like Convex), then each stablecoin will be allocated to the remaining strategies according to the ratio of votes for that stablecoin / strategy combination.
+* If the strategist multi-sig members deem any of the allocations unsafe to the funds behind OUSD, they may choose to not execute those. In addition, the multi-sig members may decline to execute minor adjustments where the gas costs would be greater than the expected benefits. The strategist multi-sig will continue to have the ability to instantly pause rebasing and capital to protect OUSD funds.
+* Community members can use the [Strategy Validator tool](https://analytics.ousd.com/strategist) to more easily decode which actions  are being performed by the Strategist multi-sig.
+* Please note it is inefficient to move in and out of the Convex strategy frequently and some funds need to always remain outside of Convex in order to accommodate withdrawals.
 
-**Estratega**
-
-La versión inicial del contrato inteligente de la Bóveda de OUSD le da a cada estrategia válida un peso simple entre 0% y 100% para realizar una asignación de activos simple. Estos pesos se cambiarán a menudo mediante actualizaciones de Origin a corto plazo y mediante una gobernanza descentralizada a largo plazo.
-
-**Diversificación**
-
-La diversificación a través de múltiples [plataformas](supported-strategies/) DeFi subyacentes reducirá el contrato inteligente y otros riesgos sistémicos. El contrato inteligente calculará los APY actuales y esperados en un esfuerzo por proporcionar rendimientos competitivos a los holders de OUSD. Con el tiempo, el contrato de la Bóveda se actualizará para cambiar de forma inteligente y autónoma entre estrategias sin ninguna intervención manual. Por ejemplo, la Bóveda cambiará automáticamente el capital entre varias estrategias de préstamos para optimizar los rendimientos.
-
-Sin embargo, todavía se espera que ciertos parámetros de riesgo o decisiones sobre si ciertas estrategias se incluirán en el motor de toma de decisiones automatizado se tomen a través de votaciones de gobernanza. 
+****
