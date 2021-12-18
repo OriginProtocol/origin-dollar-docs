@@ -29,19 +29,19 @@ Internal implementation contracts. The Vault is split into VaultAdmin and VaultC
 {% tab title="Strategies" %}
 Well-known addresses (proxy wrappers):
 
-| Strategy    | Address                                                                                                               | Auto-Allocation            |
-| ----------- | --------------------------------------------------------------------------------------------------------------------- | -------------------------- |
-| Aave        | [0x5e3646A1Db86993f73E6b74A57D8640B69F7e259](https://etherscan.io/address/0x5e3646A1Db86993f73E6b74A57D8640B69F7e259) | Manual allocation          |
-| Compound    | [0x9c459eeb3FA179a40329b81C1635525e9A0Ef094](https://etherscan.io/address/0x9c459eeb3FA179a40329b81C1635525e9A0Ef094) | 100% of USDC, USDT and DAI |
-| Curve 3Pool | [0x3c5fe0a3922777343CBD67D3732FCdc9f2Fa6f2F](https://etherscan.io/address/0x3c5fe0a3922777343CBD67D3732FCdc9f2Fa6f2F) | Manual allocation          |
+| Strategy | Address                                                                                                                    | Auto-Allocation            |
+| -------- | -------------------------------------------------------------------------------------------------------------------------- | -------------------------- |
+| Aave     | [0x5e3646A1Db86993f73E6b74A57D8640B69F7e259](https://etherscan.io/address/0x5e3646A1Db86993f73E6b74A57D8640B69F7e259)      | Manual allocation          |
+| Compound | [0x9c459eeb3FA179a40329b81C1635525e9A0Ef094](https://etherscan.io/address/0x9c459eeb3FA179a40329b81C1635525e9A0Ef094)      | 100% of USDC, USDT and DAI |
+| Convex   | [0xEA2Ef2e2E5A749D4A66b41Db9aD85a38Aa264cb3](https://etherscan.io/address/0xEA2Ef2e2E5A749D4A66b41Db9aD85a38Aa264cb3#code) | Manual allocation          |
 
 Internal implementation contracts:
 
-| Strategy    | Address                                                                                                               |
-| ----------- | --------------------------------------------------------------------------------------------------------------------- |
-| Aave        | [0xA050eBE34Be464902F7E0F7F451f4B5253d57114](https://etherscan.io/address/0xA050eBE34Be464902F7E0F7F451f4B5253d57114) |
-| Compound    | [0xF37B4C48fd3ce4C8E7E8b2ad391a9480842F0b8E](https://etherscan.io/address/0xF37B4C48fd3ce4C8E7E8b2ad391a9480842F0b8E) |
-| Curve 3Pool | [0x9F2E2b1c5F6Ac748b61f07e88f912A1df33Dfe55](https://etherscan.io/address/0x9F2E2b1c5F6Ac748b61f07e88f912A1df33Dfe55) |
+| Strategy | Address                                                                                                                    |
+| -------- | -------------------------------------------------------------------------------------------------------------------------- |
+| Aave     | [0xA050eBE34Be464902F7E0F7F451f4B5253d57114](https://etherscan.io/address/0xA050eBE34Be464902F7E0F7F451f4B5253d57114)      |
+| Compound | [0xF37B4C48fd3ce4C8E7E8b2ad391a9480842F0b8E](https://etherscan.io/address/0xF37B4C48fd3ce4C8E7E8b2ad391a9480842F0b8E)      |
+| Convex   | [0x08f3a0637851aA1B0E0750aA3d46E0E356f349aC](https://etherscan.io/address/0x08f3a0637851aa1b0e0750aa3d46e0e356f349ac#code) |
 {% endtab %}
 
 {% tab title="Oracles" %}
@@ -107,6 +107,8 @@ OUSD compensation contract ([details](https://medium.com/originprotocol/origin-d
 | Swap     | [0xcecaD69d7D4Ed6D52eFcFA028aF8732F27e08F70](https://etherscan.io/address/0xcecaD69d7D4Ed6D52eFcFA028aF8732F27e08F70) | [originswap.eth](https://etherscan.io/address/originswap.eth) |
 {% endtab %}
 {% endtabs %}
+
+
 
 
 
