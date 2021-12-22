@@ -2,9 +2,9 @@
 
 **Cultivo de Rendimiento Automatizado**
 
-While the Cambrian explosion of new lending and automated market maker pools has fueled total value locked (TVL), it has also made it increasingly challenging for yield farmers to manually allocate capital in efficient and optimal ways.
+Si bien la explosión cámbrica de nuevos préstamos y pools de creadores de mercado automatizados ha impulsado el valor total bloqueado (TVL), también ha hecho que sea cada vez más difícil para los productores de rendimiento asignar capital manualmente de manera eficiente y óptima.
 
-[Yearn](https://yearn.finance) has demonstrated that smart contracts can automate the rebalancing of funds across various strategies to optimally earn lending interest, market-making fees, and rewards tokens. Con el tiempo, se implementarán nuevas estrategias que maximizan los retornos y minimizan el riesgo y las dependencias.
+[Yearn](https://yearn.finance) ha demostrado que los contratos inteligentes pueden automatizar el reequilibrio de fondos en varias estrategias para ganar de manera óptima intereses, tarifas de creación de mercado y tokens de recompensa. Con el tiempo, se implementarán nuevas estrategias que maximizan los retornos y minimizan el riesgo y las dependencias.
 
 ![Recolección de rendimiento automatizada en el protocolo OUSD](../../.gitbook/assets/ousd_earnings_graphic.png)
 
