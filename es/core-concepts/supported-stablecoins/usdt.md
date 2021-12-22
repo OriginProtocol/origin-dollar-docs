@@ -2,11 +2,11 @@
 
 ![](../../.gitbook/assets/image (1).png)
 
-Tether (USDT) is a fiat-pegged stablecoin that was initially built on top of Bitcoin via the Omni Layer Protocol.  En septiembre de 2017, Tether anunció que lanzarían tokens ERC-20 adicionales por dólares estadounidenses en la blockchain de Ethereum.
+Tether (USDT) es una moneda estable con vinculación fiduciaria que se construyó inicialmente sobre Bitcoin a través del Protocolo Omni Layer.  En septiembre de 2017, Tether anunció que lanzarían tokens ERC-20 adicionales por dólares estadounidenses en la blockchain de Ethereum.
 
 Se dice que cada Tether emitido en circulación está respaldado por una proporción de uno a uno con la cantidad equivalente de moneda fiduciaria mantenida en una cuenta de custodia de Tether Limited, una empresa con sede en Hong Kong con estrechos vínculos con el intercambio de criptomonedas, Bitfinex.
 
-Despite the controversy** **around** **the company's failure to provide a promised audit showing adequate reserves backing tether, USDT is still the world's largest stablecoin by market cap and currently the fourth-largest cryptocurrency after BTC, ETH and XRP.
+A pesar de la controversia ** **alrededor** **, la compañía no proporcionó una auditoría prometida que muestre las reservas adecuadas que respaldan a tether, USDT sigue siendo la moneda estable más grande del mundo por capitalización de mercado y actualmente la cuarta criptomoneda más grande después de BTC, ETH y XRP.
 
 | Hechos Clave  |                                                                                                                  |
 | ------------- | ---------------------------------------------------------------------------------------------------------------- |
