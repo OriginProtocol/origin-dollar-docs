@@ -6,15 +6,15 @@ description: La primera moneda estable que obtiene un rendimiento mientras está
 
 ## **Una mejor forma de dinero**
 
-Origin Dollar (OUSD) is a new stablecoin that was initially launched in September 2020 on the Ethereum network. Su diseño es superior a las monedas estables existentes porque OUSD captura rendimientos competitivos mientras se mantiene pasivamente en billeteras.
+Origin Dollar (OUSD) es una nueva moneda estable que se lanzó inicialmente en septiembre de 2020 en la red Ethereum. Su diseño es superior a las monedas estables existentes porque OUSD captura rendimientos competitivos mientras se mantiene pasivamente en billeteras.
 
 ![](.gitbook/assets/origin-dollar-summary.jpeg)
 
 **Antecedentes**
 
-In 1999, Yu Pan, Origin’s R\&D engineer, and his fellow PayPal co-founders [conceived](https://www.cnbc.com/2017/08/14/david-sacks-cryptocurrency-interview.html) of creating “the new world currency”, complete with interest yielding strategies and debit cards without having to connect to traditional banking systems. Varios pivotes y una adquisición de eBay más tarde, PayPal abandonó sus ambiciones en esta área.
+En 1999, Yu Pan, ingeniero de Origin, y sus compañeros cofundadores de PayPal [concibieron](https://www.cnbc.com/2017/08/14/david-sacks-cryptocurrency-interview.html) crear “la nueva moneda mundial”, con estrategias que dan intereses y tarjetas de débito sin tener que conectarse a los sistemas bancarios tradicionales. Varios pivotes y una adquisición de eBay más tarde, PayPal abandonó sus ambiciones en esta área.
 
-Casi dos décadas después, Tether introdujo el concepto de moneda estable denominada en USD en 2014. Desde entonces, las monedas estables han demostrado ser una forma ideal de transferir valor sin exponer a los usuarios a la volatilidad de los precios de las monedas flotantes. Hoy en día, más valor es [transferido a través de Tether](https://www.bloomberg.com/news/articles/2019-10-01/tether-not-bitcoin-likely-the-world-s-most-used-cryptocurrency) que con Bitcoin. Meanwhile, Decentralized Finance (DeFi) has experienced an explosion of growth with [billions of dollars](https://defipulse.com) of capital now locked up in smart contracts that generate yields from lending and trading protocols.
+Casi dos décadas después, Tether introdujo el concepto de moneda estable denominada en USD en 2014. Desde entonces, las monedas estables han demostrado ser una forma ideal de transferir valor sin exponer a los usuarios a la volatilidad de los precios de las monedas flotantes. Hoy en día, más valor es [transferido a través de Tether](https://www.bloomberg.com/news/articles/2019-10-01/tether-not-bitcoin-likely-the-world-s-most-used-cryptocurrency) que con Bitcoin. Mientras tanto, las finanzas descentralizadas (DeFi) han experimentado una explosión de crecimiento con [miles de millones de dolares](https://defipulse.com) de capital ahora bloqueados en contratos inteligentes que generan rendimientos a partir de protocolos de préstamos y negociación.
 
 Uno de los problemas con las monedas estables existentes es que los usuarios tienen que elegir constantemente entre tener una moneda fácilmente gastable y obtener rendimientos bloqueando sus tokens en contratos inteligentes. Por ejemplo, los usuarios que bloquean USDC en Aave no pueden gastar una parte de ese USDC simultáneamente. Las costosas tarifas de gas de Ethereum sirven como "costos de cambio" cada vez que los usuarios desean cambiar entre el modo de gasto y el modo de ganancia.
 
@@ -24,6 +24,6 @@ Con OUSD, no hay necesidad de deshacer posiciones complicadas cuando quiere gast
 
 Creado por veteranos de criptomonedas y fintech, el Origin Dollar es presentado por el equipo [](https://www.originprotocol.com/team) en [Origin Protocol](https://www.originprotocol.com) que incluye emprendedores en serie, primeros inversores en criptomonedas, primeros empleados en YouTube, gerentes de ingeniería en Google / Dropbox y uno de los cofundadores de PayPal, Yu Pan.
 
-Para aquellos interesados en profundizar en los detalles técnicos de cómo funciona, estos documentos son un excelente lugar para comenzar. We encourage developers to audit and contribute to our [Github](http://www.github.com/OriginProtocol) (100% open-source). Nuestro equipo participa en [Discord](https://www.originprotocol.com/discord) si tiene preguntas o necesita ayuda para comenzar.
+Para aquellos interesados en profundizar en los detalles técnicos de cómo funciona, estos documentos son un excelente lugar para comenzar. Alentamos a los desarrolladores a auditar y contribuir a nuestro [Github](http://www.github.com/OriginProtocol) (100% de código abierto). Nuestro equipo participa en [Discord](https://www.originprotocol.com/discord) si tiene preguntas o necesita ayuda para comenzar.
 
 Bienvenidos al futuro del dinero.
