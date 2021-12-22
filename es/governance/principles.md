@@ -20,9 +20,9 @@ Antes de la gobernanza descentralizada total, implementaremos un [bloqueo de tie
 
 **Partes interesadas nuevas y existentes**
 
-OUSD is a new project founded by Origin Protocol [team](https://www.originprotocol.com/team) and will be supported by the existing Origin community as well as many new stakeholders that choose to mint, hold, use, and provide liquidity for OUSD.
+OUSD es un nuevo proyecto fundado por el [equipo](https://www.originprotocol.com/team) de Origin Protocol y contará con el apoyo de la comunidad existente de Origin, así como de muchas nuevas partes interesadas que elijan acuñar, mantener, usar y proporcionar liquidez para OUSD.
 
-In addition, we also want to ensure high participation from our existing Origin Token (OGN) holders and the millions of people in our community. Los holders de OGN existentes podrán colocar en staking sus OGN para participar en la gobernanza y ganar incentivos por generar valor para OUSD.
+Además, también queremos garantizar una alta participación de nuestros holder de Origin Token (OGN) existentes y de los millones de personas de nuestra comunidad. Los holders de OGN existentes podrán colocar en staking sus OGN para participar en la gobernanza y ganar incentivos por generar valor para OUSD.
 
 La fuerte conexión entre OUSD y el resto de la plataforma de comercio de Origin impulsará el crecimiento de ambas iniciativas.
 
