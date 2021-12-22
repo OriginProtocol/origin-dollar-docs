@@ -2,7 +2,7 @@
 
 **Sea dueño de su participación en exchanges descentralizados**
 
-Automated market makers (AMMs) have quickly risen as the preferred form of decentralized exchange on the Ethereum network. Esto se debe en parte a la dificultad de admitir libros de pedidos en los DEX en la red de Ethereum 1.0 que pueden rivalizar con las experiencias instantáneas y de bajo deslizamiento de los exchanges centralizados. Además, los AMM como Uniswap son relativamente fáciles de usar y de uso eficiente del gas.
+Los creadores de mercado automatizados (AMM) se han convertido rápidamente en la forma preferida de intercambio descentralizado en la red Ethereum. Esto se debe en parte a la dificultad de admitir libros de pedidos en los DEX en la red de Ethereum 1.0 que pueden rivalizar con las experiencias instantáneas y de bajo deslizamiento de los exchanges centralizados. Además, los AMM como Uniswap son relativamente fáciles de usar y de uso eficiente del gas.
 
 Los AMM solo pueden habilitar nuevos mercados cuando los proveedores de liquidez brindan liquidez (por ejemplo, múltiples tokens para determinados pares comerciales o pools). A cambio de proporcionar liquidez, los proveedores de liquidez son recompensados con comisiones de trading cuando otros usuarios intercambian tokens. Por ejemplo, cuando los comerciantes intercambian dos tokens en Uniswap v3, actualmente se les cobra entre el 0,05% y el 1% además de las tarifas del gas. Estas tarifas se distribuyen proporcionalmente a los proveedores de liquidez del par en función del porcentaje de liquidez total que hayan proporcionado.
 
