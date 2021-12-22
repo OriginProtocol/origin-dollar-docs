@@ -6,7 +6,7 @@ Los saldos de garantías están representados por ERC-20 cTokens, que automátic
 
 Compound está gobernado por COMP, un token de gobernanza ERC-20. Los holders de COMP pueden proponer y votar cambios de protocolo o delegar sus votos en otra persona. Los tokens COMP se otorgan a prorrata a los usuarios del protocolo diariamente, divididos en partes iguales entre prestatarios y prestamistas. Una gran parte del suministro de tokens COMP fue retenida por el equipo de Compound, los inversores y los asesores.
 
-Compound's total value locked (TVL) has quickly grown to over $10 billion, making it one of the largest DeFi protocols. COMP tiene una capitalización de mercado circulante de más de $2.5 mil millones.
+El valor total bloqueado (TVL) de Compound ha crecido rápidamente a más de $10 mil millones, lo que lo convierte en uno de los protocolos DeFi más grandes. COMP tiene una capitalización de mercado circulante de más de $2.5 mil millones.
 
 Compound ha sido sometido a múltiples auditorías de seguridad por OpenZeppelin y Trail of Bits. El protocolo del Compound fue verificado formalmente por CertiK y ha sido sometido a pruebas de estrés económico por parte de Gauntlet. Compound mantiene un programa de recompensas por errores.
 
