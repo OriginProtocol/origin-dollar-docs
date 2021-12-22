@@ -8,7 +8,7 @@ Estos documentos están destinados a explicar cómo funciona OUSD, comunicar los
 La [DApp de Origin Dollar](https://ousd.com/swap) enrutará inteligentemente su transacción para obtener la mejor tarifa.
 {% endhint %}
 
-The [Origin Dollar DApp](https://ousd.com/swap) allows anyone to buy or sell OUSD using a web-3 enabled cryptocurrency wallet like [Metamask](https://www.metamask.io), [Ledger](https://www.ledger.com), or [Gnosis Safe](https://gnosis-safe.io). Esta es la forma nativa de obtener OUSD, especialmente si desea una gran cantidad que podría arriesgar el movimiento del mercado en otros exchanges. La DApp decidirá inteligentemente si crear o intercambiar tokens OUSD utilizando la bóveda o lo ayudará a completar el intercambio en el AMM que actualmente ofrezca la mejor tarifa.
+La [DApp de Origin Dollar](https://ousd.com/swap) permite a cualquier persona comprar o vender OUSD utilizando una billetera de criptomonedas compatible con web-3 como [Metamask](https://www.metamask.io), [Ledger](https://www.ledger.com) o [Gnosis Safe](https://gnosis-safe.io). Esta es la forma nativa de obtener OUSD, especialmente si desea una gran cantidad que podría arriesgar el movimiento del mercado en otros exchanges. La DApp decidirá inteligentemente si crear o intercambiar tokens OUSD utilizando la bóveda o lo ayudará a completar el intercambio en el AMM que actualmente ofrezca la mejor tarifa.
 
 **Exchanges descentralizados**
 
@@ -29,23 +29,23 @@ OUSD está disponible actualmente en los siguientes exchanges centralizados. Ase
   * [OUSD/BTC](https://trade.kucoin.com/OUSD-BTC)
 * Compre OUSD en Virgox
   * [OUSD/USDT](https://virgox.com/exchange/141)
-* [Buy OUSD on Dharma App](https://www.dharma.io) (US only)
+* [Compre OUSD en la App de Dharma](https://www.dharma.io) (solo en EE. UU.)
 
 Seguimos trabajando para que OUSD esté disponible en exchanges centralizados adicionales.
 
 **Agregando OUSD a su billetera**
 
 {% hint style="success" %}
-The main ERC20 address for Origin Dollar (OUSD) is: \ **0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86**
+La dirección ERC20 principal de Origin Dollar(OUSD) es: \ **0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86**
 {% endhint %}
 
-Si su OUSD no aparece automáticamente en su billetera, debería poder agregarlo manualmente usando la dirección anterior. Si usted está planeando en [almacenar su OUSD en una billetera de múltiples firmas](core-concepts/elastic-supply/rebasing-and-smart-contracts.md), asegúrese de optar para recibir el rendimiento. Queremos que OUSD sea compatible con tantas billeteras como sea posible y que se incluya en todas las diversas listas de tokens conocidos. We would greatly appreciate any help you can offer in this area.&#x20;
+Si su OUSD no aparece automáticamente en su billetera, debería poder agregarlo manualmente usando la dirección anterior. Si usted está planeando en [almacenar su OUSD en una billetera de múltiples firmas](core-concepts/elastic-supply/rebasing-and-smart-contracts.md), asegúrese de optar para recibir el rendimiento. Queremos que OUSD sea compatible con tantas billeteras como sea posible y que se incluya en todas las diversas listas de tokens conocidos. Agradeceríamos enormemente cualquier ayuda que pueda ofrecer en esta área.&#x20;
 
 **Integrando OUSD**
 
 OUSD es un token ERC-20 no estándar que requiere un trabajo de integración personalizado para la mayoría de las aplicaciones que desean admitirlo. En particular, es importante que los desarrolladores comprendan cómo funciona nuestro suministro elástico, ya que esto puede causar fácilmente un comportamiento inesperado.
 
-If you are a wallet provider or crypto exchange that is interested in supporting OUSD, please refer to the following guides:&#x20;
+Si es un proveedor de billetera o un intercambio de criptomonedas que está interesado en respaldar OUSD, consulte las siguientes guías:&#x20;
 
 {% content-ref url="core-concepts/elastic-supply/rebasing-and-smart-contracts.md" %}
 [rebasing-and-smart-contracts.md](core-concepts/elastic-supply/rebasing-and-smart-contracts.md)
@@ -59,10 +59,10 @@ If you are a wallet provider or crypto exchange that is interested in supporting
 [api](smart-contracts/api/)
 {% endcontent-ref %}
 
-**Developer Analytics**
+**Panel de Desarrolladores**
 
-Our internal developer dashboard is available at [analytics.ousd.com](https://analytics.ousd.com). The dashboard shows the current circulating supply, the assets under management in the vault, and the current allocations between each of the stablecoins and strategies.
+Nuestro panel de desarrolladores interno está disponible en [analytics.ousd.com](https://analytics.ousd.com). El panel muestra el suministro circulante actual, los activos bajo administración en la bóveda y las asignaciones actuales entre cada una de las monedas estables y estrategias.
 
-**Getting Help**
+**Obtener ayuda**
 
-Please join the Origin Dollar #engineering room in Origin's [Discord](https://www.originprotocol.com/discord) server.  Our team and members of our community look forward to helping you build. Your questions help us improve, so please don't hesitate to ask if you can't find what you are looking for here.
+Únase a la sala de #engineering de Origin Dollar en el servidor de [Discord](https://www.originprotocol.com/discord) de Origin.  Nuestro equipo y los miembros de nuestra comunidad esperan poder ayudarlo a construir. Sus preguntas nos ayudan a mejorar, así que no dude en preguntar si no encuentra aquí lo que busca.
