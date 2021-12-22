@@ -22,7 +22,7 @@ OUSD utiliza las siguientes estrategias de alto nivel para generar rendimiento:
 [rewards.md](rewards.md)
 {% endcontent-ref %}
 
-OUSD is able to generate higher yields than competing protocols due to a combination of important design decisions that amplify the rewards that are returned to OUSD holders:
+OUSD puede generar mayores rendimientos que los protocolos de la competencia debido a una combinación de importantes decisiones de diseño que amplifican las recompensas que se devuelven a los holders de OUSD:
 
 * Las tarifas de salida se devuelven al grupo de liquidez, recompensando a los holders a largo plazo
 * Los oráculos de precios favorecen al colectivo sobre el individual, recompensando nuevamente a los holders a largo plazo
