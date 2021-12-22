@@ -10,7 +10,7 @@ Al igual que con cualquier transacción de Ethereum, necesitará Ether para inte
 
 Cada vez que acuñe o canjee OUSD, se aplicará un tipo de cambio a sus monedas estables depositadas o retiradas. Puede leer más sobre esto en [Precios de Oráculos](https://docs.ousd.com/core-concepts/price-oracles).
 
-Para fomentar la retención a largo plazo de OUSD y proteger el protocolo de los atacantes, se cobra una tarifa de salida del 0,5% en todos los canjes. You can read more about this in [How It Works](https://docs.ousd.com/how-it-works).
+Para fomentar la retención a largo plazo de OUSD y proteger el protocolo de los atacantes, se cobra una tarifa de salida del 0,5% en todos los canjes. Puede leer más sobre esto en [Cómo funciona](https://docs.ousd.com/how-it-works).
 
 **¿Qué tan pronto aumentará mi saldo una vez que tenga OUSD?**
 
@@ -22,7 +22,7 @@ De forma predeterminada, los eventos de rebase no afectan el suministro de OUSD 
 
 **¿Cómo es posible que el APY sea tan alto?**
 
-Puede leer sobre nuestras diversas estrategias en [Generación de Rendimientos](https://docs.ousd.com/core-concepts/yield-generation). We currently get most of the yield from harvesting rewards tokens (namely COMP and CRV). Además, el rendimiento aumenta a medida que se mantiene más OUSD en contratos inteligentes que no optan por reajustar, ya que la garantía subyacente continúa ganando para el holder promedio de OUSD.
+Puede leer sobre nuestras diversas estrategias en [Generación de Rendimientos](https://docs.ousd.com/core-concepts/yield-generation). Actualmente obtenemos la mayor parte del rendimiento de la recolección de tokens de recompensa (como, COMP y CRV). Además, el rendimiento aumenta a medida que se mantiene más OUSD en contratos inteligentes que no optan por reajustar, ya que la garantía subyacente continúa ganando para el holder promedio de OUSD.
 
 **¿Por qué mi saldo aumenta a un ritmo más lento que el APY anunciado?**
 
