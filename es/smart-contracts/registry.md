@@ -3,12 +3,12 @@
 Aquí está el registro completo de los contratos inteligentes de OUSD que se han implementado en la red principal de Ethereum.
 
 {% hint style="success" %}
-The main ERC20 address for Origin Dollar (OUSD) is: \ **0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86**
+La dirección ERC20 principal de Origin Dollar(OUSD) es: \ **0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86**
 {% endhint %}
 
 {% tabs %}
 {% tab title="Core" %}
-Well-known addresses (often proxy wrappers):
+Direcciones conocidas (a menudo envoltorios de proxy):
 
 | Contrato | Dirección                                                                                                             | ENS                                                               |
 | -------- | --------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- |
@@ -23,17 +23,17 @@ Contratos de ejecución interna. El bóveda se divide en VaultAdmin y VaultCore 
 | OUSD                       | [0x33db8d52d65F75E4cdDA1b02463760c9561A2aa1](https://etherscan.io/address/0x33db8d52d65F75E4cdDA1b02463760c9561A2aa1) |
 | Administrador de la Bóveda | [0x3EB68D8f4992A0e34aA58cc3dF86A40814078cF6](https://etherscan.io/address/0x3EB68D8f4992A0e34aA58cc3dF86A40814078cF6) |
 | Bóveda Central             | [0x226de75867B2f785BA19600e2a7e6eFccD57157B](https://etherscan.io/address/0x226de75867B2f785BA19600e2a7e6eFccD57157B) |
-| Chainlink Oracle           | [0xa7695eED05094E28AA575CB0cCa3CF17848a7981](https://etherscan.io/address/0xa7695eED05094E28AA575CB0cCa3CF17848a7981) |
+| Oráculo de Chainlink       | [0xa7695eED05094E28AA575CB0cCa3CF17848a7981](https://etherscan.io/address/0xa7695eED05094E28AA575CB0cCa3CF17848a7981) |
 {% endtab %}
 
 {% tab title="Strategies" %}
-Well-known addresses (proxy wrappers):
+Direcciones conocidas (envoltorios de proxy):
 
-| Estrategia | Dirección                                                                                                                  | Asignación automática      |
-| ---------- | -------------------------------------------------------------------------------------------------------------------------- | -------------------------- |
-| Aave       | [0x5e3646A1Db86993f73E6b74A57D8640B69F7e259](https://etherscan.io/address/0x5e3646A1Db86993f73E6b74A57D8640B69F7e259)      | Manual allocation          |
-| Compound   | [0x9c459eeb3FA179a40329b81C1635525e9A0Ef094](https://etherscan.io/address/0x9c459eeb3FA179a40329b81C1635525e9A0Ef094)      | 100% of USDC, USDT and DAI |
-| Convex     | [0xEA2Ef2e2E5A749D4A66b41Db9aD85a38Aa264cb3](https://etherscan.io/address/0xEA2Ef2e2E5A749D4A66b41Db9aD85a38Aa264cb3#code) | Asignación manual          |
+| Estrategia | Dirección                                                                                                                  | Asignación automática    |
+| ---------- | -------------------------------------------------------------------------------------------------------------------------- | ------------------------ |
+| Aave       | [0x5e3646A1Db86993f73E6b74A57D8640B69F7e259](https://etherscan.io/address/0x5e3646A1Db86993f73E6b74A57D8640B69F7e259)      | Asignación manual        |
+| Compound   | [0x9c459eeb3FA179a40329b81C1635525e9A0Ef094](https://etherscan.io/address/0x9c459eeb3FA179a40329b81C1635525e9A0Ef094)      | 100% de USDC, USDT y DAI |
+| Convex     | [0xEA2Ef2e2E5A749D4A66b41Db9aD85a38Aa264cb3](https://etherscan.io/address/0xEA2Ef2e2E5A749D4A66b41Db9aD85a38Aa264cb3#code) | Asignación manual        |
 
 Contratos de ejecución interna:
 
