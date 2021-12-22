@@ -1,15 +1,15 @@
 # Seguro
 
-OUSD holders can buy smart contract insurance to cover any losses that might result from any bugs or vulnerabilities in the OUSD contracts, including economic exploits (such as flash loans attacks). Además, cualquier persona que quiera hacer una apuesta económica por la seguridad de nuestros contratos puede obtener un rendimiento proporcionando cobertura.
+Los holders de OUSD pueden comprar un seguro de contrato inteligente para cubrir cualquier pérdida que pueda resultar de cualquier error o vulnerabilidad en los contratos de OUSD, incluidas las exploits económicos (como los ataques de préstamos flash). Además, cualquier persona que quiera hacer una apuesta económica por la seguridad de nuestros contratos puede obtener un rendimiento proporcionando cobertura.
 
-DeFi coverage for OUSD is currently available via[ Nexus Mutual](https://nexusmutual.io) and [InsurAce Protocol](https://www.insurace.io). These partnerships allow for more effective risk management by OUSD holders while creating new opportunities for coverage providers to profit.
+La cobertura DeFi para OUSD está disponible actualmente a través de [Nexus Mutual](https://nexusmutual.io) y [InsurAce Protocol](https://www.insurace.io). Estas asociaciones permiten una gestión de riesgos más eficaz por parte de los holders de OUSD al tiempo que crean nuevas oportunidades para que los proveedores de cobertura se beneficien.
 
-Read our [announcement post](https://medium.com/originprotocol/origin-partners-with-nexus-mutual-to-offer-defi-insurance-for-origin-dollar-ousd-6eb3432ee042) to learn how to [buy coverage](https://app.nexusmutual.io/cover/buy/get-quote?address=0xE75D77B1865Ae93c7eaa3040B038D7aA7BC02F70), [provide coverage](https://app.nexusmutual.io/staking), or [participate in shield mining campaigns](https://app.nexusmutual.io/rewards) with Nexus Mutual. You can learn more about InsurAce and how to buy coverage on their [user guide](https://docs.insurace.io/landing-page/documentation-1/user-guide) or [documentation](https://docs.insurace.io/landing-page/).
+Lea nuestro [anuncios](https://medium.com/originprotocol/origin-partners-with-nexus-mutual-to-offer-defi-insurance-for-origin-dollar-ousd-6eb3432ee042) para aprender cómo [comprar cobertura](https://app.nexusmutual.io/cover/buy/get-quote?address=0xE75D77B1865Ae93c7eaa3040B038D7aA7BC02F70), [proporcionar cobertura](https://app.nexusmutual.io/staking) o [participar en campañas de minería de escudo](https://app.nexusmutual.io/rewards) con Nexus Mutual. Puede obtener más información sobre InsurAce y cómo comprar cobertura en su [guía de usuario](https://docs.insurace.io/landing-page/documentation-1/user-guide) o [documentación](https://docs.insurace.io/landing-page/).
 
-**Nexus Mutual Coverage**
+**Cobertura de Nexus Mutual**
 
-Read our[ announcement post](https://medium.com/originprotocol/origin-partners-with-nexus-mutual-to-offer-defi-insurance-for-origin-dollar-ousd-6eb3432ee042) to learn how to[ buy coverage](https://app.nexusmutual.io/cover/buy/get-quote?address=0xE75D77B1865Ae93c7eaa3040B038D7aA7BC02F70),[ provide coverage](https://app.nexusmutual.io/staking), and[ participate in shield mining campaigns](https://app.nexusmutual.io/rewards) with Nexus Mutual.
+Lea nuestra [publicación](https://medium.com/originprotocol/origin-partners-with-nexus-mutual-to-offer-defi-insurance-for-origin-dollar-ousd-6eb3432ee042) para aprender cómo [comprar cobertura](https://app.nexusmutual.io/cover/buy/get-quote?address=0xE75D77B1865Ae93c7eaa3040B038D7aA7BC02F70), [ proporcionar cobertura](https://app.nexusmutual.io/staking) y [ participar en campañas de minería de escudo](https://app.nexusmutual.io/rewards) con Nexus Mutual.
 
-**InsurAce Protocol Coverage**
+**Cobertura de InsurAce Protocol**
 
-Read InsurAce Protocol’s [User Guide](https://docs.insurace.io/landing-page/documentation-1/user-guide) to learn how to [buy coverage](https://docs.insurace.io/landing-page/documentation-1/user-guide/dashboard) and participate in [underwriting mining](https://docs.insurace.io/landing-page/documentation-1/user-guide/how-to-stake) for OUSD.
+Lea la [Guía del usuario](https://docs.insurace.io/landing-page/documentation-1/user-guide) para aprender cómo [comprar cobertura](https://docs.insurace.io/landing-page/documentation-1/user-guide/dashboard) y participar [en la minería de suscripción](https://docs.insurace.io/landing-page/documentation-1/user-guide/how-to-stake) para OUSD.
