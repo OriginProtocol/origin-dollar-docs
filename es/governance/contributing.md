@@ -91,13 +91,13 @@ Origin tiene tanto que ver con la comunidad como con nuestra tecnología.
 
 Necesitamos ayuda constante para mejorar nuestra documentación, crear nuevas herramientas para interactuar con nuestra plataforma, hacer correr la voz a nuevos usuarios, ayudar a los nuevos usuarios a configurar y mucho más.
 
-Póngase en contacto si desea ayudar. Our `discussion` channel on [Discord](https://www.originprotocol.com/discord) is a great place to share ideas and volunteer to help.
+Póngase en contacto si desea ayudar. Nuestro canal `discussion` en [Discord](https://www.originprotocol.com/discord) es un gran lugar para compartir ideas y ofrecerte como voluntario para ayudar.
 
 #### Posiciones de Tiempo Completo
 
-Origin occasionally hires developers for part-time or full-time positions.
+Origin ocasionalmente contrata desarrolladores para puestos a tiempo parcial o completo.
 
-We have a strong preference for hiring people who have already started contributing to the project. If you want a full-time position on our team, your best shot is to engage with our team and start contributing code. It is very unlikely that we would offer you a full-time position on our engineering team unless you’ve had at least a few pull requests merged.
+Tenemos una fuerte preferencia por contratar personas que ya han comenzado a contribuir al proyecto. Si desea un puesto de tiempo completo en nuestro equipo, lo mejor que puede hacer es interactuar con nuestro equipo y comenzar a contribuir con el código. Es muy poco probable que le ofrezcamos un puesto de tiempo completo en nuestro equipo de ingeniería a menos que haya fusionado al menos algunas solicitudes de extracción.
 
-If you are interested, check out [the Origin Protocol job listings](https://angel.co/originprotocol/jobs). If you’d like to help in other ways, please propose your ideas in [our Discord channel](https://www.originprotocol.com/discord).
+Si está interesado, consulte [las listas de trabajos de Origin Protocol](https://angel.co/originprotocol/jobs). Si desea ayuda de otras maneras, por favor proponer sus ideas en [nuestro canal de Discord](https://www.originprotocol.com/discord).
 
