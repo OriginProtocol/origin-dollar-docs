@@ -4,7 +4,7 @@
 
 OUSD genera rendimiento al depositar monedas estables en plataformas de préstamos y grupos de liquidez de los creadores de mercado. Es importante comprender que estas plataformas conllevan riesgos tecnológicos y se pueden perder fondos si hay un evento de seguridad importante. Estamos eligiendo trabajar con las plataformas que han auditado sus contratos inteligentes y que creemos que son más seguras.
 
-Currently, OUSD earns yield from the following platform(s):
+Actualmente, OUSD obtiene rendimiento de las siguientes plataformas:
 
 {% content-ref url="compound.md" %}
 [compound.md](compound.md)
@@ -22,6 +22,6 @@ Currently, OUSD earns yield from the following platform(s):
 [convex.md](convex.md)
 {% endcontent-ref %}
 
-Although DeFi has grown very quickly and there are now billions of dollars worth of value deposited on these platforms, several of these projects are still in beta and are highly experimental. There may be hidden vulnerabilities in the smart contracts that power these platforms, and there have been multi-million dollar losses caused by vulnerabilities in Ethereum applications in the past.
+Aunque DeFi ha crecido muy rápidamente y ahora hay miles de millones de dólares en valor depositado en estas plataformas, varios de estos proyectos aún se encuentran en fase beta y son altamente experimentales. Puede haber vulnerabilidades ocultas en los contratos inteligentes que impulsan estas plataformas, y ha habido pérdidas multimillonarias causadas por vulnerabilidades en las aplicaciones de Ethereum en el pasado.
 
-We closely monitor security events on the platforms we support and will immediately move to secure OUSD holder funds if we identify any threats.
+Supervisamos de cerca los eventos de seguridad en las plataformas que apoyamos e inmediatamente nos moveremos para asegurar los fondos de los holders de OUSD si identificamos alguna amenaza.
