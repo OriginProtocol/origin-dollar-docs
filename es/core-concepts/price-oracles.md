@@ -6,7 +6,7 @@ descripción: OUSD usa Chainlink para proteger el protocolo de ataques de precio
 
 OUSD está diseñado para permanecer vinculado a 1 USD y tener un respaldo 1:1 con sus monedas estables subyacentes. Esto es más complicado de lo que parece porque estas monedas estables subyacentes se desvían constantemente de sus propias clavijas de 1 USD deseadas. Si bien la mayoría de las fluctuaciones diarias son menores, ha habido cambios importantes en el precio que se han producido en el pasado y es probable que vuelvan a ocurrir en el futuro.
 
-| Moneda | **Low**                                              | **High**                                             | **Delta** | **Source**                                                                  |
+| Moneda | **Bajo**                                             | **Alto**                                             | **Delta** | **Fuente**                                                                  |
 | ------ | ---------------------------------------------------- | ---------------------------------------------------- | --------- | --------------------------------------------------------------------------- |
 | USDC   | <p>$0.929222</p><p>13 de marzo de 2020</p>   | <p>1,11 USD</p><p>15 de octubre de 2018</p>   | $0.180778 | [CoinMarketCap](https://coinmarketcap.com/currencies/usd-coin/)             |
 | USDC   | <p>$0.924188</p><p>02 de agosto de 2020</p>   | <p>1,17 USD</p><p>08 de mayo de 2019</p>   | $0.245812 | [CoinGecko](https://www.coingecko.com/en/coins/usd-coin)                    |
