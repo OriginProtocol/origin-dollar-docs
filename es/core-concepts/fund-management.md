@@ -1,21 +1,21 @@
 # Gestión de Fondos
 
-The OUSD smart contract aggregates all users' stablecoin deposits into a single pool of assets that are then deployed into earning strategies based on preset allocations. In contrast to Yearn Vaults, TokenSets, or Zapper opportunities, users do not select individual strategies. All deposited stablecoins and consequently all OUSD tokens are fungible.&#x20;
+El contrato inteligente de OUSD agrega los depósitos de monedas estables de todos los usuarios en un solo pool de activos que luego se implementan en estrategias de ganancias basadas en asignaciones preestablecidas. A diferencia de las oportunidades de Yearn Vaults, TokenSets o Zapper, los usuarios no seleccionan estrategias individuales. Todas las monedas estables depositadas y, en consecuencia, todos los tokens OUSD son fungibles.&#x20;
 
-The weighting of how assets are distributed between the supported strategies is decided by OGN holders using weekly snapshot voting. These votes happen offchain and do not cost any gas. The results of the weekly poll will then be executed onchain by members of the [Strategist multi-sig](https://etherscan.io/address/0xF14BBdf064E3F67f51cd9BD646aE3716aD938FDC) (known as "Strategists").
+Los holders de OGN deciden la ponderación de cómo se distribuyen los activos entre las estrategias admitidas mediante votación semanal. Estos votos ocurren offchain y no cuestan gas. Los resultados de la encuesta semanal serán ejecutados en cadena por miembros de [Estrategas multi-firma](https://etherscan.io/address/0xF14BBdf064E3F67f51cd9BD646aE3716aD938FDC) (conocidos como "Estrategas").
 
-Ultimately, we believe it should be up to the community to decide what the right balance of risk/reward is appropriate for OUSD. We encourage the community to favor high-yield strategies while still maintaining diversification across multiple strategies to remove single points of failure and minimize risk.&#x20;
+En última instancia, creemos que debería depender de la comunidad decidir cuál es el equilibrio correcto de riesgo/beneficio apropiado para OUSD. Alentamos a la comunidad a favorecer las estrategias de alto rendimiento y, al mismo tiempo, mantener la diversificación en múltiples estrategias para eliminar los puntos únicos de falla y minimizar el riesgo.&#x20;
 
-**How strategy allocation voting works:**
+**Cómo funciona la votación de asignación de estrategia:**
 
-* New snapshot proposals will open for voting on the [OGN governance portal ](https://vote.orignprotocol.com)at midnight Tuesday UTC (7pm eastern Monday). The poll will be open for 48 hours, ending at midnight Thursday UTC (7pm eastern on Wednesday).
-* During this time, those interested can discuss allocation changes in a thread in the #governance channel on [Origin's Discord](https://www.originprotocol.com/discord).
-* Each proposal will use "weighted voting", with options for each coin/strategy combination. OGN holders can spread their votes among different listed strategies.
-* After the voting time has ended, Strategists will submit, verify, and execute transactions to change OUSD to the determined allocation percentages for the week.
-* These allocations will be executed for strategies that use all stablecoins first (like Convex), then each stablecoin will be allocated to the remaining strategies according to the ratio of votes for that stablecoin / strategy combination.
-* If the Strategists deem any of the allocations unsafe to the funds behind OUSD, they may choose to not execute those. In addition, Strategists may decline to execute minor adjustments where the gas costs would be greater than the expected benefits.&#x20;
-* From a security standpoint, it is important to know that while Strategists have the ability to move funds between approved strategies or instantly pause rebasing in the case of an emergency, Strategists do not have the power to add new strategies or withdraw funds without going through the timelock. Community members can use the Strategy Validator tools to more easily [create](https://analytics.ousd.com/strategist/creator) and [decode](https://analytics.ousd.com/strategist) which actions are being performed by the Strategists.
-* When voting, please remember it is inefficient to move in and out of the Convex strategy frequently and some funds need to always remain outside of Convex in order to accommodate withdrawals.
+* Las nuevas propuestas se abrirán para votación en el [portal de gobernanza de OGN](https://vote.orignprotocol.com) a la medianoche del Martes UTC (Lunes 7pm hora Este). La votación estará abierta durante 48 horas y finalizará a la medianoche del jueves UTC (Miércoles 7pm hora Este).
+* Durante este tiempo, los interesados pueden discutir los cambios de asignación en un hilo en el canal #governance en el [Discord de Origin](https://www.originprotocol.com/discord).
+* Cada propuesta utilizará "votación ponderada", con opciones para cada combinación de moneda/estrategia. Los holders de OGN pueden repartir sus votos entre diferentes estrategias enumeradas.
+* Una vez finalizado el tiempo de votación, los Estrategas enviarán, verificarán y ejecutarán transacciones para cambiar el OUSD a los porcentajes de asignación determinados para la semana.
+* Estas asignaciones se ejecutarán para las estrategias que usan todas las monedas estables primero (como Convex), luego cada moneda estable se asignará a las estrategias restantes de acuerdo con la proporción de votos para esa combinación de moneda estable/estrategia.
+* Si los Estrategas consideran que alguna de las asignaciones no es segura para los fondos detrás de OUSD, pueden optar por no ejecutarlas. Además, los Estrategas pueden negarse a realizar ajustes menores cuando los costos del gas sean mayores que los beneficios esperados.&#x20;
+* Desde el punto de vista de la seguridad, es importante saber que si bien los Estrategas tienen la capacidad de mover fondos entre estrategias aprobadas o pausar instantáneamente el rebase en caso de una emergencia, los Estrategas no tienen el poder de agregar nuevas estrategias o retirar fondos sin pasar por el bloqueo de tiempo. Los miembros de la comunidad pueden utilizar las herramientas del Validador de estrategias para [crear](https://analytics.ousd.com/strategist/creator) y [decodificar](https://analytics.ousd.com/strategist) más fácilmente qué acciones están realizando los estrategas.
+* Al votar, recuerde que es ineficiente entrar y salir de la estrategia Convex con frecuencia y algunos fondos deben permanecer siempre fuera de Convex para poder realizar retiros.
 
 
 
