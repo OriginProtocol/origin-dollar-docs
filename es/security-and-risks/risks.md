@@ -30,9 +30,9 @@ Si bien es imposible garantizar que nuestros contratos sean 100% seguros, hemos 
 
 Regularmente tenemos nuestro trabajo [auditado](audits.md) por los mejores auditores de la industria.
 
-[DeFi insurance](insurance.md) is availble  to offer smart contract coverage as an optional add-on service for OUSD holders.
+[Seguros DeFi](insurance.md) están disponibles para ofrecer cobertura de contrato inteligente como un servicio adicional opcional para los holders de OUSD.
 
-We have retained [Certora](https://www.certora.com) to formally verify the various security properties of our contracts. Nos ayudaron a establecer verificaciones automatizadas que se ejecutarán cada vez que actualicemos nuestro código de contrato. Hemos automatizado la comprobación de errores comunes con las pruebas [Slither](https://github.com/crytic/slither) y [Echidna](https://github.com/crytic/echidna) Juntos, alertan a nuestro equipo sobre problemas de seguridad comunes, además de nuestro propio conjunto de pruebas.
+Hemos retenido a [Certora](https://www.certora.com) para verificar formalmente las diversas propiedades de seguridad de nuestros contratos. Nos ayudaron a establecer verificaciones automatizadas que se ejecutarán cada vez que actualicemos nuestro código de contrato. Hemos automatizado la comprobación de errores comunes con las pruebas [Slither](https://github.com/crytic/slither) y [Echidna](https://github.com/crytic/echidna) Juntos, alertan a nuestro equipo sobre problemas de seguridad comunes, además de nuestro propio conjunto de pruebas.
 
 Las revisiones de código que involucran nuestros contratos inteligentes son increíblemente rigurosas. Requerimos que al menos dos ingenieros revisen cada cambio con una lista de verificación detallada y damos prioridad a las revisiones de seguridad sobre el desarrollo de nuevas funciones.
 
