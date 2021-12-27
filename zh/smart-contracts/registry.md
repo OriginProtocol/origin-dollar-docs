@@ -1,6 +1,6 @@
-# 登记处
+# Registry
 
-这是已部署到以太坊主网的 OUSD 智能合约的完整注册表。
+Here is the full registry of OUSD smart contracts that have been deployed to the Ethereum mainnet.
 
 {% hint style="success" %}
 The main ERC20 address for Origin Dollar (OUSD) is: \ **0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86**
@@ -10,10 +10,10 @@ The main ERC20 address for Origin Dollar (OUSD) is: \ **0x2A8e1E676Ec238d8A99230
 {% tab title="Core" %}
 Well-known addresses (often proxy wrappers):
 
-| 合约          | 地址                                                                                                                    | ENS                                                             |
-| ----------- | --------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
-| OUSD        | [0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86](https://etherscan.io/address/0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86) | <p><a href="https://etherscan.io/address/ousd.eth">ousd.eth</a> </p><p><a href="https://etherscan.io/address/origindollar.eth">origindollar.eth</a></p>              |
-| 保险库 （Vault） | [0xE75D77B1865Ae93c7eaa3040B038D7aA7BC02F70](https://etherscan.io/address/0xe75d77b1865ae93c7eaa3040b038d7aa7bc02f70) | [originvault.eth](https://etherscan.io/address/originvault.eth) |
+| Contract | Address                                                                                                               | ENS                                                             |
+| -------- | --------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
+| OUSD     | [0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86](https://etherscan.io/address/0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86) | <p><a href="https://etherscan.io/address/ousd.eth">ousd.eth</a> </p><p><a href="https://etherscan.io/address/origindollar.eth">origindollar.eth</a></p>              |
+| Vault    | [0xE75D77B1865Ae93c7eaa3040B038D7aA7BC02F70](https://etherscan.io/address/0xe75d77b1865ae93c7eaa3040b038d7aa7bc02f70) | [originvault.eth](https://etherscan.io/address/originvault.eth) |
 
 
 
@@ -21,7 +21,7 @@ Internal implementation contracts. The Vault is split into VaultAdmin and VaultC
 
 
 
-| 合约         | 地址                                                                                                                    |
+| Contract   | Address                                                                                                               |
 | ---------- | --------------------------------------------------------------------------------------------------------------------- |
 | OUSD       | [0x33db8d52d65F75E4cdDA1b02463760c9561A2aa1](https://etherscan.io/address/0x33db8d52d65F75E4cdDA1b02463760c9561A2aa1) |
 | VaultAdmin | [0x3EB68D8f4992A0e34aA58cc3dF86A40814078cF6](https://etherscan.io/address/0x3EB68D8f4992A0e34aA58cc3dF86A40814078cF6) |
@@ -47,23 +47,20 @@ Internal implementation contracts:
 {% endtab %}
 
 {% tab title="Oracles" %}
-The following oracles are used to fetch or compute a price for **DAI/USD:**
+The following Chainlink oracles are used to protect the vault in case a backing stablecoin loses value. They also offer slippage protection when harvesting rewards tokens or executing the OGN buyback.
 
-| Oracle    | Pair    | Contract                                                                                                              |
-| --------- | ------- | --------------------------------------------------------------------------------------------------------------------- |
-| Chainlink | DAI/USD | [0xAed0c38402a5d19df6E4c03F4E2DceD6e29c1ee9](https://etherscan.io/address/0xAed0c38402a5d19df6E4c03F4E2DceD6e29c1ee9) |
 
-The following oracles are used to fetch a price for **USDT/USD:**
 
-| Oracle    | Pair     | Contract                                                                                                              |
-| --------- | -------- | --------------------------------------------------------------------------------------------------------------------- |
-| Chainlink | USDT/USD | [0x3E7d1eAB13ad0104d2750B8863b489D65364e32D](https://etherscan.io/address/0x3E7d1eAB13ad0104d2750B8863b489D65364e32D) |
-
-The following oracles are used to fetch a price for **USDC/USD:**
-
-| Oracle    | Pair     | Contract                                                                                                              |
-| --------- | -------- | --------------------------------------------------------------------------------------------------------------------- |
-| Chainlink | USDC/USD | [0x8fFfFfd4AfB6115b954Bd326cbe7B4BA576818f6](https://etherscan.io/address/0x8fFfFfd4AfB6115b954Bd326cbe7B4BA576818f6) |
+| Pair                                                                      | Contract                                                                                                              |
+| ------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| [USDT/USD](https://data.chain.link/ethereum/mainnet/stablecoins/usdt-usd) | [0x3E7d1eAB13ad0104d2750B8863b489D65364e32D](https://etherscan.io/address/0x3E7d1eAB13ad0104d2750B8863b489D65364e32D) |
+| [USDC/USD](https://data.chain.link/ethereum/mainnet/stablecoins/usdc-usd) | [0x8fFfFfd4AfB6115b954Bd326cbe7B4BA576818f6](https://etherscan.io/address/0x8fFfFfd4AfB6115b954Bd326cbe7B4BA576818f6) |
+| [DAI/USD](https://data.chain.link/ethereum/mainnet/stablecoins/dai-usd)   | [0xAed0c38402a5d19df6E4c03F4E2DceD6e29c1ee9](https://etherscan.io/address/0xAed0c38402a5d19df6E4c03F4E2DceD6e29c1ee9) |
+| [COMP/USD](https://data.chain.link/ethereum/mainnet/crypto-usd/comp-usd)  | [0xdbd020caef83efd542f4de03e3cf0c28a4428bd5](https://etherscan.io/address/0xdbd020caef83efd542f4de03e3cf0c28a4428bd5) |
+| [AAVE/USD](https://data.chain.link/ethereum/mainnet/crypto-usd/aave-usd)  | [0x547a514d5e3769680Ce22B2361c10Ea13619e8a9](https://etherscan.io/address/0x547a514d5e3769680Ce22B2361c10Ea13619e8a9) |
+| [CRV/USD](https://data.chain.link/ethereum/mainnet/crypto-usd/crv-usd)    | [0xcd627aa160a6fa45eb793d19ef54f5062f20f33f](https://etherscan.io/address/0xcd627aa160a6fa45eb793d19ef54f5062f20f33f) |
+| CVX/USD                                                                   | Coming soon                                                                                                           |
+| [OGN/ETH](https://data.chain.link/ethereum/mainnet/crypto-eth/ogn-eth)    | [0x2c881b6f3f6b5ff6c975813f87a4dad0b241c15b](https://etherscan.io/address/0x2c881b6f3f6b5ff6c975813f87a4dad0b241c15b) |
 {% endtab %}
 
 {% tab title="Governance" %}
