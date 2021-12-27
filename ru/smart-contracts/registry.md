@@ -47,23 +47,20 @@ Well-known addresses (proxy wrappers):
 {% endtab %}
 
 {% tab title="Oracles" %}
-Следующие оракулы используются для получения или вычисления цены **DAI/USD:**
+The following Chainlink oracles are used to protect the vault in case a backing stablecoin loses value. They also offer slippage protection when harvesting rewards tokens or executing the OGN buyback.
 
-| Оракул    | Пара    | Контракт                                                                                                              |
-| --------- | ------- | --------------------------------------------------------------------------------------------------------------------- |
-| Chainlink | DAI/USD | [0xAed0c38402a5d19df6E4c03F4E2DceD6e29c1ee9](https://etherscan.io/address/0xAed0c38402a5d19df6E4c03F4E2DceD6e29c1ee9) |
 
-Следующие оракулы используются для извлечения или вычисления цены **USDT/USD:**
 
-| Oracle    | Пара     | Контракт                                                                                                              |
-| --------- | -------- | --------------------------------------------------------------------------------------------------------------------- |
-| Chainlink | USDT/USD | [0x3E7d1eAB13ad0104d2750B8863b489D65364e32D](https://etherscan.io/address/0x3E7d1eAB13ad0104d2750B8863b489D65364e32D) |
-
-Следующие оракулы используются для извлечения или вычисления цены **USDC/USD:**
-
-| Oracle    | Pair     | Contract                                                                                                              |
-| --------- | -------- | --------------------------------------------------------------------------------------------------------------------- |
-| Chainlink | USDC/USD | [0x8fFfFfd4AfB6115b954Bd326cbe7B4BA576818f6](https://etherscan.io/address/0x8fFfFfd4AfB6115b954Bd326cbe7B4BA576818f6) |
+| Pair                                                                      | Contract                                                                                                              |
+| ------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| [USDT/USD](https://data.chain.link/ethereum/mainnet/stablecoins/usdt-usd) | [0x3E7d1eAB13ad0104d2750B8863b489D65364e32D](https://etherscan.io/address/0x3E7d1eAB13ad0104d2750B8863b489D65364e32D) |
+| [USDC/USD](https://data.chain.link/ethereum/mainnet/stablecoins/usdc-usd) | [0x8fFfFfd4AfB6115b954Bd326cbe7B4BA576818f6](https://etherscan.io/address/0x8fFfFfd4AfB6115b954Bd326cbe7B4BA576818f6) |
+| [DAI/USD](https://data.chain.link/ethereum/mainnet/stablecoins/dai-usd)   | [0xAed0c38402a5d19df6E4c03F4E2DceD6e29c1ee9](https://etherscan.io/address/0xAed0c38402a5d19df6E4c03F4E2DceD6e29c1ee9) |
+| [COMP/USD](https://data.chain.link/ethereum/mainnet/crypto-usd/comp-usd)  | [0xdbd020caef83efd542f4de03e3cf0c28a4428bd5](https://etherscan.io/address/0xdbd020caef83efd542f4de03e3cf0c28a4428bd5) |
+| [AAVE/USD](https://data.chain.link/ethereum/mainnet/crypto-usd/aave-usd)  | [0x547a514d5e3769680Ce22B2361c10Ea13619e8a9](https://etherscan.io/address/0x547a514d5e3769680Ce22B2361c10Ea13619e8a9) |
+| [CRV/USD](https://data.chain.link/ethereum/mainnet/crypto-usd/crv-usd)    | [0xcd627aa160a6fa45eb793d19ef54f5062f20f33f](https://etherscan.io/address/0xcd627aa160a6fa45eb793d19ef54f5062f20f33f) |
+| CVX/USD                                                                   | Coming soon                                                                                                           |
+| [OGN/ETH](https://data.chain.link/ethereum/mainnet/crypto-eth/ogn-eth)    | [0x2c881b6f3f6b5ff6c975813f87a4dad0b241c15b](https://etherscan.io/address/0x2c881b6f3f6b5ff6c975813f87a4dad0b241c15b) |
 {% endtab %}
 
 {% tab title="Governance" %}
