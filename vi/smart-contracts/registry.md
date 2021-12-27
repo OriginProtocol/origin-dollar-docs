@@ -12,7 +12,7 @@ Well-known addresses (often proxy wrappers):
 
 | Hợp đồng | Địa chỉ                                                                                                               | ENS                                                               |
 | -------- | --------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- |
-| OUSD     | [0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86](https://etherscan.io/address/0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86) | [ousd.eth](https://etherscan.io/address/ousd.eth)                 |
+| OUSD     | [0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86](https://etherscan.io/address/0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86) | <p><a href="https://etherscan.io/address/ousd.eth">ousd.eth</a> </p><p><a href="https://etherscan.io/address/origindollar.eth">origindollar.eth</a></p>                |
 | Vault    | [0xE75D77B1865Ae93c7eaa3040B038D7aA7BC02F70](https://etherscan.io/address/0xe75d77b1865ae93c7eaa3040b038d7aa7bc02f70) | [originvault.eth](https://etherscan.io/address/originvault.eth)   |
 | Oracle   | [0x843530DC8005e13dEA30CEa2394FF60635f38cc4](https://etherscan.io/address/0x843530DC8005e13dEA30CEa2394FF60635f38cc4) | [originoracle.eth](https://etherscan.io/address/originoracle.eth) |
 
@@ -53,15 +53,15 @@ Các oracle sau được sử dụng để tìm nạp hoặc tính giá cho **DA
 
 Các oracle sau được sử dụng để định giá **USDT/USD:**
 
-| O**racle** | Cặp      | Hợp đồng                                                                                                              |
-| ---------- | -------- | --------------------------------------------------------------------------------------------------------------------- |
-| Chainlink  | USDT/USD | [0x3E7d1eAB13ad0104d2750B8863b489D65364e32D](https://etherscan.io/address/0x3E7d1eAB13ad0104d2750B8863b489D65364e32D) |
+| Oracle    | Cặp      | Hợp đồng                                                                                                              |
+| --------- | -------- | --------------------------------------------------------------------------------------------------------------------- |
+| Chainlink | USDT/USD | [0x3E7d1eAB13ad0104d2750B8863b489D65364e32D](https://etherscan.io/address/0x3E7d1eAB13ad0104d2750B8863b489D65364e32D) |
 
 Các oracle sau được sử dụng để định giá **USDT/USD:**
 
-| O**racle** | Cặp      | Hợp đồng                                                                                                              |
-| ---------- | -------- | --------------------------------------------------------------------------------------------------------------------- |
-| Chainlink  | USDC/USD | [0x8fFfFfd4AfB6115b954Bd326cbe7B4BA576818f6](https://etherscan.io/address/0x8fFfFfd4AfB6115b954Bd326cbe7B4BA576818f6) |
+| Oracle    | Cặp      | Hợp đồng                                                                                                              |
+| --------- | -------- | --------------------------------------------------------------------------------------------------------------------- |
+| Chainlink | USDC/USD | [0x8fFfFfd4AfB6115b954Bd326cbe7B4BA576818f6](https://etherscan.io/address/0x8fFfFfd4AfB6115b954Bd326cbe7B4BA576818f6) |
 {% endtab %}
 
 {% tab title="Governance" %}
