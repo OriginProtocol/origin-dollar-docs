@@ -10,20 +10,22 @@ La dirección ERC20 principal de Origin Dollar(OUSD) es: \ **0x2A8e1E676Ec238d8A
 {% tab title="Core" %}
 Direcciones conocidas (a menudo envoltorios de proxy):
 
-| Contrato | Dirección                                                                                                             | ENS                                                               |
-| -------- | --------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- |
-| OUSD     | [0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86](https://etherscan.io/address/0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86) | <p><a href="https://etherscan.io/address/ousd.eth">ousd.eth</a> </p><p><a href="https://etherscan.io/address/origindollar.eth">origindollar.eth</a></p>                |
-| Bóveda   | [0xE75D77B1865Ae93c7eaa3040B038D7aA7BC02F70](https://etherscan.io/address/0xe75d77b1865ae93c7eaa3040b038d7aa7bc02f70) | [originvault.eth](https://etherscan.io/address/originvault.eth)   |
-| Oráculo  | [0x843530DC8005e13dEA30CEa2394FF60635f38cc4](https://etherscan.io/address/0x843530DC8005e13dEA30CEa2394FF60635f38cc4) | [originoracle.eth](https://etherscan.io/address/originoracle.eth) |
+| Contrato | Dirección                                                                                                             | ENS                                                             |
+| -------- | --------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
+| OUSD     | [0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86](https://etherscan.io/address/0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86) | <p><a href="https://etherscan.io/address/ousd.eth">ousd.eth</a> </p><p><a href="https://etherscan.io/address/origindollar.eth">origindollar.eth</a></p>              |
+| Bóveda   | [0xE75D77B1865Ae93c7eaa3040B038D7aA7BC02F70](https://etherscan.io/address/0xe75d77b1865ae93c7eaa3040b038d7aa7bc02f70) | [originvault.eth](https://etherscan.io/address/originvault.eth) |
+
+
 
 Contratos de ejecución interna. El bóveda se divide en VaultAdmin y VaultCore para solucionar el límite máximo de tamaño de contrato en Ethereum:
+
+
 
 | Contrato                   | Dirección                                                                                                             |
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------- |
 | OUSD                       | [0x33db8d52d65F75E4cdDA1b02463760c9561A2aa1](https://etherscan.io/address/0x33db8d52d65F75E4cdDA1b02463760c9561A2aa1) |
 | Administrador de la Bóveda | [0x3EB68D8f4992A0e34aA58cc3dF86A40814078cF6](https://etherscan.io/address/0x3EB68D8f4992A0e34aA58cc3dF86A40814078cF6) |
 | Bóveda Central             | [0x226de75867B2f785BA19600e2a7e6eFccD57157B](https://etherscan.io/address/0x226de75867B2f785BA19600e2a7e6eFccD57157B) |
-| Oráculo de Chainlink       | [0xa7695eED05094E28AA575CB0cCa3CF17848a7981](https://etherscan.io/address/0xa7695eED05094E28AA575CB0cCa3CF17848a7981) |
 {% endtab %}
 
 {% tab title="Strategies" %}
