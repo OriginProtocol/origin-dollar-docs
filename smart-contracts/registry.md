@@ -54,15 +54,15 @@ The following oracles are used to fetch or compute a price for **DAI/USD:**
 
 The following oracles are used to fetch a price for **USDT/USD:**
 
-| O**racle** | Pair     | Contract                                                                                                              |
-| ---------- | -------- | --------------------------------------------------------------------------------------------------------------------- |
-| Chainlink  | USDT/USD | [0x3E7d1eAB13ad0104d2750B8863b489D65364e32D](https://etherscan.io/address/0x3E7d1eAB13ad0104d2750B8863b489D65364e32D) |
+| Oracle    | Pair     | Contract                                                                                                              |
+| --------- | -------- | --------------------------------------------------------------------------------------------------------------------- |
+| Chainlink | USDT/USD | [0x3E7d1eAB13ad0104d2750B8863b489D65364e32D](https://etherscan.io/address/0x3E7d1eAB13ad0104d2750B8863b489D65364e32D) |
 
 The following oracles are used to fetch a price for **USDC/USD:**
 
-| O**racle** | Pair     | Contract                                                                                                              |
-| ---------- | -------- | --------------------------------------------------------------------------------------------------------------------- |
-| Chainlink  | USDC/USD | [0x8fFfFfd4AfB6115b954Bd326cbe7B4BA576818f6](https://etherscan.io/address/0x8fFfFfd4AfB6115b954Bd326cbe7B4BA576818f6) |
+| Oracle    | Pair     | Contract                                                                                                              |
+| --------- | -------- | --------------------------------------------------------------------------------------------------------------------- |
+| Chainlink | USDC/USD | [0x8fFfFfd4AfB6115b954Bd326cbe7B4BA576818f6](https://etherscan.io/address/0x8fFfFfd4AfB6115b954Bd326cbe7B4BA576818f6) |
 {% endtab %}
 
 {% tab title="Governance" %}
