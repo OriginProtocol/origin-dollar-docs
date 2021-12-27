@@ -10,20 +10,22 @@ The main ERC20 address for Origin Dollar (OUSD) is: \ **0x2A8e1E676Ec238d8A99230
 {% tab title="Core" %}
 Well-known addresses (often proxy wrappers):
 
-| Kontrak | Alamat                                                                                                                | ENS                                                               |
-| ------- | --------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- |
-| OUSD    | [0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86](https://etherscan.io/address/0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86) | <p><a href="https://etherscan.io/address/ousd.eth">ousd.eth</a> </p><p><a href="https://etherscan.io/address/origindollar.eth">origindollar.eth</a></p>                |
-| Vault   | [0xE75D77B1865Ae93c7eaa3040B038D7aA7BC02F70](https://etherscan.io/address/0xe75d77b1865ae93c7eaa3040b038d7aa7bc02f70) | [originvault.eth](https://etherscan.io/address/originvault.eth)   |
-| Oracle  | [0x843530DC8005e13dEA30CEa2394FF60635f38cc4](https://etherscan.io/address/0x843530DC8005e13dEA30CEa2394FF60635f38cc4) | [originoracle.eth](https://etherscan.io/address/originoracle.eth) |
+| Kontrak | Alamat                                                                                                                | ENS                                                             |
+| ------- | --------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
+| OUSD    | [0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86](https://etherscan.io/address/0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86) | <p><a href="https://etherscan.io/address/ousd.eth">ousd.eth</a> </p><p><a href="https://etherscan.io/address/origindollar.eth">origindollar.eth</a></p>              |
+| Vault   | [0xE75D77B1865Ae93c7eaa3040B038D7aA7BC02F70](https://etherscan.io/address/0xe75d77b1865ae93c7eaa3040b038d7aa7bc02f70) | [originvault.eth](https://etherscan.io/address/originvault.eth) |
+
+
 
 Kontrak implementasi internal. Vault dibagi menjadi VaultAdmin dan VaultCore untuk bekerja berdasarkan batas ukuran kontrak maksimum pada Ethereum:
 
-| Kontrak          | Alamat                                                                                                                |
-| ---------------- | --------------------------------------------------------------------------------------------------------------------- |
-| OUSD             | [0x33db8d52d65F75E4cdDA1b02463760c9561A2aa1](https://etherscan.io/address/0x33db8d52d65F75E4cdDA1b02463760c9561A2aa1) |
-| VaultAdmin       | [0x3EB68D8f4992A0e34aA58cc3dF86A40814078cF6](https://etherscan.io/address/0x3EB68D8f4992A0e34aA58cc3dF86A40814078cF6) |
-| VaultCore        | [0x226de75867B2f785BA19600e2a7e6eFccD57157B](https://etherscan.io/address/0x226de75867B2f785BA19600e2a7e6eFccD57157B) |
-| Chainlink Oracle | [0xa7695eED05094E28AA575CB0cCa3CF17848a7981](https://etherscan.io/address/0xa7695eED05094E28AA575CB0cCa3CF17848a7981) |
+
+
+| Kontrak    | Alamat                                                                                                                |
+| ---------- | --------------------------------------------------------------------------------------------------------------------- |
+| OUSD       | [0x33db8d52d65F75E4cdDA1b02463760c9561A2aa1](https://etherscan.io/address/0x33db8d52d65F75E4cdDA1b02463760c9561A2aa1) |
+| VaultAdmin | [0x3EB68D8f4992A0e34aA58cc3dF86A40814078cF6](https://etherscan.io/address/0x3EB68D8f4992A0e34aA58cc3dF86A40814078cF6) |
+| VaultCore  | [0x226de75867B2f785BA19600e2a7e6eFccD57157B](https://etherscan.io/address/0x226de75867B2f785BA19600e2a7e6eFccD57157B) |
 {% endtab %}
 
 {% tab title="Strategies" %}
