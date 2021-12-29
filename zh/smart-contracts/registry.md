@@ -1,6 +1,6 @@
-# 登记处
+# Registry
 
-这是已部署到以太坊主网的 OUSD 智能合约的完整注册表。
+Here is the full registry of OUSD smart contracts that have been deployed to the Ethereum mainnet.
 
 {% hint style="success" %}
 The main ERC20 address for Origin Dollar (OUSD) is: \ **0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86**
@@ -8,20 +8,22 @@ The main ERC20 address for Origin Dollar (OUSD) is: \ **0x2A8e1E676Ec238d8A99230
 
 {% tabs %}
 {% tab title="Core" %}
-Well-known addresses (often proxy wrappers):
-
-| 合约          | 地址                                                                                                                    | ENS                                                             |
-| ----------- | --------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
-| OUSD        | [0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86](https://etherscan.io/address/0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86) | <p><a href="https://etherscan.io/address/ousd.eth">ousd.eth</a> </p><p><a href="https://etherscan.io/address/origindollar.eth">origindollar.eth</a></p>              |
-| 保险库 （Vault） | [0xE75D77B1865Ae93c7eaa3040B038D7aA7BC02F70](https://etherscan.io/address/0xe75d77b1865ae93c7eaa3040b038d7aa7bc02f70) | [originvault.eth](https://etherscan.io/address/originvault.eth) |
+Well-known addresses (proxy wrappers):
 
 
 
-Internal implementation contracts. The Vault is split into VaultAdmin and VaultCore to work-around the maximum contract size limit on Ethereum:
+| Contract | Address                                                                                                               | ENS                                                             |
+| -------- | --------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
+| OUSD     | [0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86](https://etherscan.io/address/0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86) | <p><a href="https://etherscan.io/address/ousd.eth">ousd.eth</a> </p><p><a href="https://etherscan.io/address/origindollar.eth">origindollar.eth</a></p>              |
+| Vault    | [0xE75D77B1865Ae93c7eaa3040B038D7aA7BC02F70](https://etherscan.io/address/0xe75d77b1865ae93c7eaa3040b038d7aa7bc02f70) | [originvault.eth](https://etherscan.io/address/originvault.eth) |
 
 
 
-| 合约         | 地址                                                                                                                    |
+Internal implementation contracts. The Vault is split into VaultAdmin and VaultCore to work around the maximum contract size limit on Ethereum:
+
+
+
+| Contract   | Address                                                                                                               |
 | ---------- | --------------------------------------------------------------------------------------------------------------------- |
 | OUSD       | [0x33db8d52d65F75E4cdDA1b02463760c9561A2aa1](https://etherscan.io/address/0x33db8d52d65F75E4cdDA1b02463760c9561A2aa1) |
 | VaultAdmin | [0x3EB68D8f4992A0e34aA58cc3dF86A40814078cF6](https://etherscan.io/address/0x3EB68D8f4992A0e34aA58cc3dF86A40814078cF6) |
@@ -31,13 +33,19 @@ Internal implementation contracts. The Vault is split into VaultAdmin and VaultC
 {% tab title="Strategies" %}
 Well-known addresses (proxy wrappers):
 
+
+
 | Strategy | Address                                                                                                                    | Auto-Allocation            |
 | -------- | -------------------------------------------------------------------------------------------------------------------------- | -------------------------- |
 | Aave     | [0x5e3646A1Db86993f73E6b74A57D8640B69F7e259](https://etherscan.io/address/0x5e3646A1Db86993f73E6b74A57D8640B69F7e259)      | Manual allocation          |
 | Compound | [0x9c459eeb3FA179a40329b81C1635525e9A0Ef094](https://etherscan.io/address/0x9c459eeb3FA179a40329b81C1635525e9A0Ef094)      | 100% of USDC, USDT and DAI |
 | Convex   | [0xEA2Ef2e2E5A749D4A66b41Db9aD85a38Aa264cb3](https://etherscan.io/address/0xEA2Ef2e2E5A749D4A66b41Db9aD85a38Aa264cb3#code) | Manual allocation          |
 
+
+
 Internal implementation contracts:
+
+
 
 | Strategy | Address                                                                                                                    |
 | -------- | -------------------------------------------------------------------------------------------------------------------------- |
@@ -87,13 +95,21 @@ The following Chainlink oracles are used to protect the vault in case a backing 
 | ----------- | --------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
 | OGN Staking | [0x501804B374EF06fa9C427476147ac09F1551B9A0](https://etherscan.io/address/0x501804B374EF06fa9C427476147ac09F1551B9A0) | [originstaking.eth](https://etherscan.io/address/originstaking.eth) |
 
+
+
 Internal implementation contracts:
+
+
 
 | Contract    | Address                                                                                                               |
 | ----------- | --------------------------------------------------------------------------------------------------------------------- |
 | OGN Staking | [0x8cd68a1e0b79150455c5498882d5d5d3df2dde08](https://etherscan.io/address/0x8cd68a1e0b79150455c5498882d5d5d3df2dde08) |
 
+
+
 OUSD compensation contract ([details](https://medium.com/originprotocol/origin-delivers-on-compensation-promise-claim-your-ousd-and-ogn-now-a9fa9b840476)):
+
+
 
 | Contract          | Address                                                                                                               |
 | ----------------- | --------------------------------------------------------------------------------------------------------------------- |
