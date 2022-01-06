@@ -1,6 +1,6 @@
 # Daftar Isi
 
-* [Pengantar](README.md)
+* [Introducing OUSD](README.md)
 * [Cara kerjanya](how-it-works.md)
 * [Mulai](getting-started.md)
 * [Dasbor Analisis](analytics-dashboard.md)
