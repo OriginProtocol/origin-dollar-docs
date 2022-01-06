@@ -1,6 +1,6 @@
 # Sommario
 
-* [Introduzione](README.md)
+* [Introducing OUSD](README.md)
 * [Come funziona](how-it-works.md)
 * [Come Iniziare](getting-started.md)
 * [Analytics Dashboard](analytics-dashboard.md)
