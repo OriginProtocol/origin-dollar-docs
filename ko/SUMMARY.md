@@ -1,6 +1,6 @@
 # 목차
 
-* [소개](README.md)
+* [Introducing OUSD](README.md)
 * [작동 방법](how-it-works.md)
 * [시작](getting-started.md)
 * [Analytics Dashboard](analytics-dashboard.md)
