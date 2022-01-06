@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Introduction](README.md)
+* [Introducing OUSD](README.md)
 * [How It Works](how-it-works.md)
 * [Getting Started](getting-started.md)
 * [Analytics Dashboard](analytics-dashboard.md)
