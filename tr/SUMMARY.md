@@ -1,6 +1,6 @@
 # İçindekiler
 
-* [Giriş](README.md)
+* [Introducing OUSD](README.md)
 * [Nasıl çalışır](how-it-works.md)
 * [Başlamak](getting-started.md)
 * [Analytics Dashboard](analytics-dashboard.md)
