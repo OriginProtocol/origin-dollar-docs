@@ -1,6 +1,6 @@
 # Phụ lục
 
-* [Giới thiệu](README.md)
+* [Introducing OUSD](README.md)
 * [Cơ chế hoạt động](how-it-works.md)
 * [Các bước cơ bản](getting-started.md)
 * [Bảng phân tích](analytics-dashboard.md)
