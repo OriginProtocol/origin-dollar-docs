@@ -8,7 +8,7 @@ Ultimately, we believe it should be up to the community to decide what the right
 
 **How strategy allocation voting works:**
 
-* New snapshot proposals will open for voting on the [OGN governance portal ](https://vote.orignprotocol.com)at midnight Tuesday UTC (7pm eastern Monday). The poll will be open for 48 hours, ending at midnight Thursday UTC (7pm eastern on Wednesday).
+* New snapshot proposals will open for voting on the [OGN governance portal ](http://vote.originprotocol.com)at midnight Tuesday UTC (7pm eastern Monday). The poll will be open for 48 hours, ending at midnight Thursday UTC (7pm eastern on Wednesday).
 * During this time, those interested can discuss allocation changes in a thread in the #governance channel on [Origin's Discord](https://www.originprotocol.com/discord).
 * Each proposal will use "weighted voting", with options for each coin/strategy combination. OGN holders can spread their votes among different listed strategies.
 * After the voting time has ended, Strategists will submit, verify, and execute transactions to change OUSD to the determined allocation percentages for the week.
