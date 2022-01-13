@@ -8,7 +8,7 @@ En última instancia, creemos que debería depender de la comunidad decidir cuá
 
 **Cómo funciona la votación de asignación de estrategia:**
 
-* Las nuevas propuestas se abrirán para votación en el [portal de gobernanza de OGN](https://vote.orignprotocol.com) a la medianoche del Martes UTC (Lunes 7pm hora Este). La votación estará abierta durante 48 horas y finalizará a la medianoche del jueves UTC (Miércoles 7pm hora Este).
+* New snapshot proposals will open for voting on the [OGN governance portal ](http://vote.originprotocol.com)at midnight Tuesday UTC (7pm eastern Monday). La votación estará abierta durante 48 horas y finalizará a la medianoche del jueves UTC (Miércoles 7pm hora Este).
 * Durante este tiempo, los interesados pueden discutir los cambios de asignación en un hilo en el canal #governance en el [Discord de Origin](https://www.originprotocol.com/discord).
 * Cada propuesta utilizará "votación ponderada", con opciones para cada combinación de moneda/estrategia. Los holders de OGN pueden repartir sus votos entre diferentes estrategias enumeradas.
 * Una vez finalizado el tiempo de votación, los Estrategas enviarán, verificarán y ejecutarán transacciones para cambiar el OUSD a los porcentajes de asignación determinados para la semana.
