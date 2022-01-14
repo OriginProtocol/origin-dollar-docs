@@ -1,6 +1,6 @@
-# 登记处
+# Registry
 
-这是已部署到以太坊主网的 OUSD 智能合约的完整注册表。
+Here is the full registry of OUSD smart contracts that have been deployed to the Ethereum mainnet.
 
 {% hint style="success" %}
 The main ERC20 address for Origin Dollar (OUSD) is: \ **0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86**
@@ -12,10 +12,10 @@ Well-known addresses (proxy wrappers):
 
 
 
-| 合约          | 地址                                                                                                                    | ENS                                                             |
-| ----------- | --------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
-| OUSD        | [0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86](https://etherscan.io/address/0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86) | <p><a href="https://etherscan.io/address/ousd.eth">ousd.eth</a> </p><p><a href="https://etherscan.io/address/origindollar.eth">origindollar.eth</a></p>              |
-| 保险库 （Vault） | [0xE75D77B1865Ae93c7eaa3040B038D7aA7BC02F70](https://etherscan.io/address/0xe75d77b1865ae93c7eaa3040b038d7aa7bc02f70) | [originvault.eth](https://etherscan.io/address/originvault.eth) |
+| Contract | Address                                                                                                               | ENS                                                             |
+| -------- | --------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
+| OUSD     | [0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86](https://etherscan.io/address/0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86) | <p><a href="https://etherscan.io/address/ousd.eth">ousd.eth</a> </p><p><a href="https://etherscan.io/address/origindollar.eth">origindollar.eth</a></p>              |
+| Vault    | [0xE75D77B1865Ae93c7eaa3040B038D7aA7BC02F70](https://etherscan.io/address/0xe75d77b1865ae93c7eaa3040b038d7aa7bc02f70) | [originvault.eth](https://etherscan.io/address/originvault.eth) |
 
 
 
@@ -23,7 +23,7 @@ Internal implementation contracts. The Vault is split into VaultAdmin and VaultC
 
 
 
-| 合约         | 地址                                                                                                                    |
+| Contract   | Address                                                                                                               |
 | ---------- | --------------------------------------------------------------------------------------------------------------------- |
 | OUSD       | [0x33db8d52d65F75E4cdDA1b02463760c9561A2aa1](https://etherscan.io/address/0x33db8d52d65F75E4cdDA1b02463760c9561A2aa1) |
 | VaultAdmin | [0x3EB68D8f4992A0e34aA58cc3dF86A40814078cF6](https://etherscan.io/address/0x3EB68D8f4992A0e34aA58cc3dF86A40814078cF6) |
@@ -50,7 +50,7 @@ Internal implementation contracts:
 | Strategy | Address                                                                                                                    |
 | -------- | -------------------------------------------------------------------------------------------------------------------------- |
 | Aave     | [0xA050eBE34Be464902F7E0F7F451f4B5253d57114](https://etherscan.io/address/0xA050eBE34Be464902F7E0F7F451f4B5253d57114)      |
-| Compound | [0xF37B4C48fd3ce4C8E7E8b2ad391a9480842F0b8E](https://etherscan.io/address/0xF37B4C48fd3ce4C8E7E8b2ad391a9480842F0b8E)      |
+| Compound | [0x47f3eb71b5507df5ab6ac7f8660ef282ab0e560f](https://etherscan.io/address/0x47f3eb71b5507dF5Ab6aC7F8660Ef282Ab0E560f)      |
 | Convex   | [0x08f3a0637851aA1B0E0750aA3d46E0E356f349aC](https://etherscan.io/address/0x08f3a0637851aa1b0e0750aa3d46e0e356f349ac#code) |
 {% endtab %}
 
