@@ -50,7 +50,7 @@ Các hợp đồng thực hiện nội bộ:
 | Chiến lược | Địa chỉ                                                                                                                    |
 | ---------- | -------------------------------------------------------------------------------------------------------------------------- |
 | Aave       | [0xA050eBE34Be464902F7E0F7F451f4B5253d57114](https://etherscan.io/address/0xA050eBE34Be464902F7E0F7F451f4B5253d57114)      |
-| Compound   | [0xF37B4C48fd3ce4C8E7E8b2ad391a9480842F0b8E](https://etherscan.io/address/0xF37B4C48fd3ce4C8E7E8b2ad391a9480842F0b8E)      |
+| Compound   | [0x47f3eb71b5507df5ab6ac7f8660ef282ab0e560f](https://etherscan.io/address/0x47f3eb71b5507dF5Ab6aC7F8660Ef282Ab0E560f)      |
 | Convex     | [0x08f3a0637851aA1B0E0750aA3d46E0E356f349aC](https://etherscan.io/address/0x08f3a0637851aa1b0e0750aa3d46e0e356f349ac#code) |
 {% endtab %}
 
