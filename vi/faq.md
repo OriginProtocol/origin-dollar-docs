@@ -10,7 +10,7 @@ Tương tự với các giao dịch trên Ethereum, người dùng sẽ cần Et
 
 Bất cứ khi nào bạn mint hoặc redeem OUSD, sẽ có 1 tỉ giá hối đoái được áp dụng giữa OUSD và các stablecoin được nạp vào hoặc rút ra. Đọc thêm tại [Price Oracles](https://docs.ousd.com/core-concepts/price-oracles).
 
-Để khuyến khích người dùng nắm giữ OUSD lâu dài và để bảo vệ giao thức khỏi các đợt tấn công, người dùng redeem OUSD sẽ chịu 1 khoản phí 0,5%. You can read more about this in [How It Works](https://docs.ousd.com/how-it-works).
+To encourage long-term holding of OUSD and to protect the protocol from attackers, an exit fee of 0.25% is charged on all redeems. You can read more about this in [How It Works](https://docs.ousd.com/how-it-works).
 
 **Số dư của tôi sẽ bắt đầu tăng từ lúc nào kể từ khi bắt đầu nắm giữ OUSD?**
 
