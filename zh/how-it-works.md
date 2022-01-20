@@ -1,10 +1,10 @@
-# OUSD 如何运作
+# How It Works
 
-#### 100％ 稳定以由其他稳定比支持
+#### 100% Backed and Stable
 
 Origin Dollar (OUSD) is an ERC-20 compliant token for the Ethereum network.&#x20;
 
-OUSD 是个由 USDT，USDC 和 DAI 等其他经过验证的稳定币以 1：1 支持的稳定货币。 因此，1 OUSD 的价值应该始终非常接近 1 USD。
+OUSD is a stable currency that is backed 1:1 by other stablecoins like USDT, USDC and DAI. As a result, 1 OUSD should always be very close to 1 USD in value.
 
 {% hint style="success" %}
 1 OUSD = 1 USD&#x20;
@@ -28,11 +28,11 @@ Upon redemption, the vault will determine which stablecoin(s) to return to the u
 Redemptions on the OUSD vault incur a **0.25% exit fee** and the user doesn't get to pick which stablecoins they receive. Users can often avoid this fee by selling to an AMM instead.
 {% endhint %}
 
-#### 自**动收益耕作**
+#### A**utomated Yield Farming**
 
 OUSD generates yields by deploying the underlying stablecoins that were deposited to the OUSD smart contract to other DeFi protocols such as Compound, Aave, and Curve. There may be new diversified strategies added to the vault in the future. Collected interest, trading fees, and rewards tokens are pooled and converted to stablecoins to produce OUSD-denominated yields. Over time, the protocol will move assets in and out of different liquidity pools in order to provide the best yield to the holders of OUSD.&#x20;
 
-#### **弹性供应**
+#### **Elastic Supply**
 
 The generated returns are passed on to the holders of OUSD via constant rebasing of the money supply. OUSD constantly adjusts the money supply in response to the yield the protocol has generated. This allows the price of OUSD to stay pegged at $1 while the balances in token holders' wallets adjust in real-time to reflect yields that have been earned by the protocol.
 
