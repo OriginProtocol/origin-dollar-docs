@@ -10,7 +10,7 @@ As with any Ethereum transaction, you will need Ether to interact with the OUSD 
 
 Anytime you mint or redeem OUSD, there will be an exchange rate applied to your stablecoins deposited or withdrawn. You can read more about this in [Price Oracles](https://docs.ousd.com/core-concepts/price-oracles).
 
-To encourage long-term holding of OUSD and to protect the protocol from attackers, an exit fee of 0.5% is charged on all redeems. You can read more about this in [How It Works](https://docs.ousd.com/how-it-works).
+To encourage long-term holding of OUSD and to protect the protocol from attackers, an exit fee of 0.25% is charged on all redeems. You can read more about this in [How It Works](https://docs.ousd.com/how-it-works).
 
 **How soon will my balance increase once I have OUSD?**
 
