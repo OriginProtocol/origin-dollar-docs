@@ -104,7 +104,7 @@ OUSD는 1 USD로 고정되고 기본 스테이블 코인과 1: 1로 지원되도
   </tbody>
 </table>
 
-The rebasing function treats 1 stablecoin as 1 OUSD for simplicity and to protect OUSD balances from being affected by the daily fluctuations in the price of the underlying stablecoins. Since the rebase function only counts coins, OUSD balances should only increase.
+리베이스 기능은 단순성을 위해 1개의 스테이블 코인을 1개의 OUSD로 취급하고 기본 스테이블 코인 가격의 일일 변동에 의해 영향을 받는 OUSD 잔액을 보호합니다. Since the rebase function only counts coins, OUSD balances should only increase.
 
 In order to mint and redeem the appropriate number of OUSD on entry and exit, the smart contracts need to accurately price the USDT, USDC, and DAI that is entering and exiting the system. As a decentralized protocol, OUSD must rely on non-centralized sources for these prices.
 
