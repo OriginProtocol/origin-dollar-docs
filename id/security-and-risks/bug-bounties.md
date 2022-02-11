@@ -2,7 +2,7 @@
 
 **Bug Bounties**
 
-Bug bounty diberikan atas kebijakan penuh dari Origin Protocol. The rewards range in size from **$100 OUSD** for minor issues to **$250,000 OUSD **for major vulnerabilities. Saat ini program bounty hanya berlaku untuk OUSD dan bukan produk lain dari Origin.
+Bug bounty diberikan atas kebijakan penuh dari Origin Protocol. The rewards range in size from **$100 OUSD** for minor issues to **$250,000 OUSD** for major vulnerabilities. Saat ini program bounty hanya berlaku untuk OUSD dan bukan produk lain dari Origin.
 
 {% hint style="warning" %}
 Agar memenuhi syarat untuk menerima bug bounty, Anda harus mengikuti aturan Pengungkapan yang Bertanggung Jawab yang diuraikan di bawah.
@@ -16,11 +16,11 @@ Jika Anda menemukan kerentanan, kami ingin segera mengetahuinya sehingga kami da
 
 Jika Anda menemukan kerentanan, lakukan hal berikut:
 
-* Laporkan temuan Anda ke[security@originprotocol.com](mailto:security@originprotocol.com) atau hubungi [Josh Fraser di Keybase](https://keybase.io/joshfraser)
+* Report your findings to [security@originprotocol.com](mailto:security@originprotocol.com) or contact [Josh Fraser on Keybase](https://keybase.io/joshfraser). Here is an example of a [well written disclosure](https://gist.github.com/DanielVF/66f459da88804d1fd917c47576c68523).
 * Jangan memanfaatkan kerentanan atau masalah yang Anda temukan
 * Jangan mengungkapkan masalah kepada orang lain sampai masalah tersebut diselesaikan
 * Jangan menggunakan serangan terhadap keamanan fisik, rekayasa sosial, penyangkalan layanan terdistribusi, spam atau aplikasi pihak ketiga
-* Berikan informasi yang memadai untuk mereproduksi masalah, sehingga kami akan dapat menyelesaikannya secepat mungkin. Kerentanan yang kompleks mungkin memerlukan penjelasan lebih lanjut sehingga kami mungkin meminta informasi tambahan dari Anda.
+* Berikan informasi yang memadai untuk mereproduksi masalah, sehingga kami akan dapat menyelesaikannya secepat mungkin. Complex vulnerabilities may require further explanation so we might ask you for additional information.&#x20;
 
 Sebagai gantinya, kami berjanji:
 
@@ -29,4 +29,4 @@ Sebagai gantinya, kami berjanji:
 * Kami akan menangani laporan Anda dengan kerahasiaan yang ketat, dan tidak memberikan informasi pribadi Anda kepada pihak ketiga tanpa izin Anda
 * Jika Anda menginginkannya, kami akan terus memberi tahu Anda tentang kemajuan dalam menyelesaikan masalah
 * In the public information concerning the problem reported, we will give your name as the discoverer of the problem (unless you desire otherwise)
-* Sebagai tanda terima kasih kami atas bantuan Anda, kami menawarkan hadiah untuk setiap laporan masalah keamanan yang belum kami ketahui. Jumlah hadiah akan ditentukan berdasarkan tingkat keparahan kebocoran, kualitas laporan, dan bantuan tambahan yang Anda berikan.  
+* Sebagai tanda terima kasih kami atas bantuan Anda, kami menawarkan hadiah untuk setiap laporan masalah keamanan yang belum kami ketahui. Jumlah hadiah akan ditentukan berdasarkan tingkat keparahan kebocoran, kualitas laporan, dan bantuan tambahan yang Anda berikan. &#x20;
