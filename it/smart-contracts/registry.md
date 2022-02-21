@@ -116,10 +116,14 @@ OUSD compensation contract ([details](https://medium.com/originprotocol/origin-d
 | OUSD Compensation | [0x9C94df9d594BA1eb94430C006c269C314B1A8281](https://etherscan.io/address/0x9C94df9d594BA1eb94430C006c269C314B1A8281) |
 {% endtab %}
 
-{% tab title="Swap" %}
-| Contract | Address                                                                                                               | ENS                                                           |
-| -------- | --------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- |
-| Swap     | [0xcecaD69d7D4Ed6D52eFcFA028aF8732F27e08F70](https://etherscan.io/address/0xcecaD69d7D4Ed6D52eFcFA028aF8732F27e08F70) | [originswap.eth](https://etherscan.io/address/originswap.eth) |
+{% tab title="Flipper" %}
+Flipper is a gas-optimized way for users to swap in and out of OUSD at a fixed 1:1 rate with other stablecoins. This contract may become bankrupt on one side (e.g., contain 0 OUSD balance), and thus sometimes provides limited swap routes.
+
+
+
+| Contract | Address                                                                                                               | ENS                                                                 |
+| -------- | --------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
+| Flipper  | [0xcecaD69d7D4Ed6D52eFcFA028aF8732F27e08F70](https://etherscan.io/address/0xcecaD69d7D4Ed6D52eFcFA028aF8732F27e08F70) | [originflipper.eth](https://etherscan.io/address/originflipper.eth) |
 {% endtab %}
 {% endtabs %}
 
