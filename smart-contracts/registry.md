@@ -53,6 +53,14 @@ Internal implementation contracts:
 | Aave     | [0xA050eBE34Be464902F7E0F7F451f4B5253d57114](https://etherscan.io/address/0xA050eBE34Be464902F7E0F7F451f4B5253d57114)      |
 | Compound | [0x47f3eb71b5507df5ab6ac7f8660ef282ab0e560f](https://etherscan.io/address/0x47f3eb71b5507dF5Ab6aC7F8660Ef282Ab0E560f)      |
 | Convex   | [0x08f3a0637851aA1B0E0750aA3d46E0E356f349aC](https://etherscan.io/address/0x08f3a0637851aa1b0e0750aa3d46e0e356f349ac#code) |
+
+Yield harvesting and collection:
+
+|           |                                            |   |
+| --------- | ------------------------------------------ | - |
+| Contract  | Address                                    |   |
+| Harvester | 0x21fb5812d70b3396880d30e90d9e5c1202266c89 |   |
+| Dripper   | 0x80c898ae5e56f888365e235ceb8cea3eb726cb58 |   |
 {% endtab %}
 
 {% tab title="Oracles" %}
@@ -118,7 +126,7 @@ OUSD compensation contract ([details](https://medium.com/originprotocol/origin-d
 {% endtab %}
 
 {% tab title="Flipper" %}
-Flipper is a gas-optimized way for users to swap in and out of OUSD at a fixed 1:1 rate with other stablecoins. This contract may become bankrupt on one side (e.g., contain 0 OUSD balance), and thus sometimes provides limited swap routes.
+Flipper is a gas-optimized way for users to swap in and out of OUSD at a fixed 1:1 rate with other stablecoins. This contract may become empty on one side (e.g., contain 0 OUSD balance), and thus sometimes provides limited swap routes.
 
 
 
