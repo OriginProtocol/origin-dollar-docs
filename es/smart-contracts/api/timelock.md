@@ -9,7 +9,7 @@ El bloqueo de tiempo es una medida de seguridad que les da a los holders de OUSD
 OUSD está utilizando una versión ligeramente modificada del [Bloqueo de Tiempo de Compound](https://compound.finance/docs/governance) que ha sido [auditado por OpenZeppelin](https://blog.openzeppelin.com/compound-finance-patch-audit/). Las dos diferencias notables son:
 
 1. OUSD utilizará inicialmente un período de espera más corto (48 horas) que el de Compoung (72 horas) para permitir una respuesta más rápida si se descubre algún problema.&#x20;
-2. Algunas acciones, como la reasignación de fondos entre las estrategias existentes y la congelación de depósitos, pueden solicitarse de inmediato sin requerir el período de espera de 48 años. Esto es en caso de que se descubra una vulnerabilidad importante.
+2. Some actions, such as reallocating funds between existing strategies and freezing deposits can be called immediately by a multisig wallet without requiring the 48 waiting period. Esto es en caso de que se descubra una vulnerabilidad importante.
 
 
 
