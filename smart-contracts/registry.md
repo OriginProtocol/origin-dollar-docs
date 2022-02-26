@@ -63,6 +63,13 @@ Yield harvesting and collection:
 | Dripper   | 0x80c898ae5e56f888365e235ceb8cea3eb726cb58 |   |
 {% endtab %}
 
+{% tab title="Harvests" %}
+| Contract  | Address                                                                                                                     | ENS                 |
+| --------- | --------------------------------------------------------------------------------------------------------------------------- | ------------------- |
+| Harvester | ``[`0x21fb5812d70b3396880d30e90d9e5c1202266c89`](https://etherscan.io/address/0x21fb5812d70b3396880d30e90d9e5c1202266c89)`` | originharvester.eth |
+| Dripper   | [0x80c898ae5e56f888365e235ceb8cea3eb726cb58](https://etherscan.io/address/0x80c898ae5e56f888365e235ceb8cea3eb726cb58)       | origindripper.eth   |
+{% endtab %}
+
 {% tab title="Oracles" %}
 The following Chainlink oracles are used to protect the vault in case a backing stablecoin loses value. They also offer slippage protection when harvesting rewards tokens or executing the OGN buyback.
 
