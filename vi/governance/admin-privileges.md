@@ -6,10 +6,27 @@ Các hợp đồng thông minh OUSD được thiết kế để có thể nâng 
 Việc trì hoãn thời gian thực thi thay đổi hợp đồng thông minh cho phép người dùng có thời gian rút khỏi giao thức khi nhận thấy bất kỳ thay đổi đáng nghi ngờ nào của người sở hữu hoặc chỉ đơn giản là bạn không thích các thay đổi được đề xuất.
 {% endhint %}
 
-Bất kỳ sự thay đổi về code của giao thức nào cũng cần có sự đồng ý của 5 trong tổng số 8 chữ ký hợp đồng. OUSD chỉ có thể được nâng cấp từ khi có sự đồng ý của 5 trên 8 ví đa chữ ký này. Điểm mấu chốt của hình thức đa chữ ký này là quyền quyết định sẽ không chỉ thuộc về sáng lập viên của Origin. In addition, the OUSD contracts are owned by the [timelock](../smart-contracts/api/timelock.md) which allows the Origin team to continue making changes to the protocol, but only after a time delay.&#x20;
+### Admin
 
-Một số chức năng, chẳng hạn như tái cân bằng tiền giữa các chiến lược hoặc tạm dừng tiền gửi, có thể được kích hoạt mà không cần tới khoá thời gian và yêu cầu chữ ký từ ít hơn 5 người. Điều này cho phép nhóm Origin phản ứng nhanh hơn với các điều kiện thị trường hoặc các mối đe dọa bảo mật. These signers, known as Strategists,  have the ability to execute a limited number of functions __ with only 2 of 9 signers.
+Bất kỳ sự thay đổi về code của giao thức nào cũng cần có sự đồng ý của 5 trong tổng số 8 chữ ký hợp đồng. OUSD chỉ có thể được nâng cấp từ khi có sự đồng ý của 5 trên 8 ví đa chữ ký này. Điểm mấu chốt của hình thức đa chữ ký này là quyền quyết định sẽ không chỉ thuộc về sáng lập viên của Origin. In addition, the OUSD contracts are owned by a [timelock](../smart-contracts/api/timelock.md) which places a 48 hour time deplay before any changes to the protocol can be made.&#x20;
 
-Đặc quyền quản trị viên là cần thiết trong giai đoạn đầu để đảm bảo giao thức được bảo mật và lợi nhuận được tối ưu đồng thời giảm thiểu rủi ro. Chúng tôi dự kiến sẽ tiếp tục cải tiến hợp đồng thông minh của Ousd trong vài tháng đầu.
+### Strategist
 
-Sau khi hoàn thành một số chu kỳ nâng cấp, chúng tôi có kế hoạch chuyển quyền sở hữu từ cơ chế công ty kiểm soát sang cơ chế kiếm soát bằng hợp đồng quản trị phi tập trung, từ đó cho phép cộng đồng bỏ phiếu và tham gia vào các cập nhật giao thức trong tương lai.
+Some functionality, such as rebalancing funds between strategies or pausing deposits, can be triggered without the timelock and with far fewer signers. Điều này cho phép nhóm Origin phản ứng nhanh hơn với các điều kiện thị trường hoặc các mối đe dọa bảo mật. These signers, known as Strategists,  have the ability to execute a limited number of functions __ with only 2 of 9 signers.
+
+The strategist multisig can take the following actions on the vault.
+
+* reallocate
+* setVaultBuffer
+* setAssetDefaultStrategy
+* withdrawAllFromStrategy
+* withdrawAllFromStrategies
+* pauseRebase
+* pauseCapital
+* unpauseCapital
+
+### Future
+
+Having these admin privileges is necessary in the early days to ensure that the protocol is secure and optimized for earning yields while minimizing risks. We expect to release multiple iterations of our smart contracts in the first several months of the protocol's existence.
+
+Once several upgrade cycles have been completed, we intend to transfer ownership from our company control to a decentralized governance contract, thereby allowing the community to vote and participate in future protocol updates.
