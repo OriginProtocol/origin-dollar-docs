@@ -41,7 +41,6 @@
   * [Vault](smart-contracts/api/vault.md)
   * [ERC-20](smart-contracts/api/erc-20-1.md)
   * [Timelock](smart-contracts/api/timelock.md)
-  * [Oracles](smart-contracts/api/oracle.md)
   * [Strategies](smart-contracts/api/strategies.md)
 
 ## Security & Risks
