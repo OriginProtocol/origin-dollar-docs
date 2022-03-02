@@ -6,7 +6,7 @@ Tether (USDT) is a fiat-pegged stablecoin that was initially built on top of Bit
 
 Dolaşıma sokulan her Tether'in, kripto para borsası Bitfinex ile yakın bağları olan Hong Kong merkezli bir şirket olan Tether Limited tarafından bir gözetim hesabında tutulan eşdeğer miktarda itibari para ile bire bir oranla desteklendiği söyleniyor.
 
-Despite the controversy** **around** **the company's failure to provide a promised audit showing adequate reserves backing tether, USDT is still the world's largest stablecoin by market cap and currently the fourth-largest cryptocurrency after BTC, ETH and XRP.
+Despite the controversy **** around **** the company's failure to provide a promised audit showing adequate reserves backing tether, USDT is still the world's largest stablecoin by market cap and currently the fourth-largest cryptocurrency after BTC, ETH and XRP.
 
 | Önemli gerçekler |                                                                                                                  |
 | ---------------- | ---------------------------------------------------------------------------------------------------------------- |
