@@ -1,6 +1,6 @@
 # Phần thưởng
 
-**Collecting Rewards **
+**Collecting Rewards**&#x20;
 
 Ngoài việc thu lãi từ cho vay và phí từ tạo lập thị trường, chúng tôi dự định sẽ tự động thu về và chuyển đổi phần tiền lãi thu được từ nhiều giao thức DeFi. Ví dụ: Compound tặng token COMP, Curve tặng token CRV. Những phần thưởng tiền thưởng này sẽ thường xuyên được chuyển đổi thành stablecoin, tiếp tục đưa đi tìm kiếm lợi nhuận và sau đó phân phối cho những người nắm giữ OUSD dưới dạng lợi nhuận bổ sung.
 
