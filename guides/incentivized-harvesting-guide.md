@@ -4,13 +4,13 @@ The OUSD Harvester contract collects reward tokens earned by the OUSD strategies
 
 ### When to call
 
-You'll want to call this contract when it is profitable to do so. You gain from the 1% harvest USDT given by the contract, and spend the gas cost to send the transaction.
+You'll want to call this contract when it is profitable to do so. You gain the 1% harvest USDT given by the contract, and spend the gas cost to send the transaction.
 
 The simplest way to calculate both of these is to simulate the transaction. You can then look at the resulting transfers to know the income received, and you can look at the gas amount used, the current gas prices, and the current cost of ETH, to find out the cost.
 
-Alternatively you can be precompute the gas used, look up the pending reward tokens using various online services, then do your calculations without using the blockchain.
+Alternatively you can be precompute the gas used for a given strategy's harvest, look up the pending reward tokens using various online services, then do your calculations without using the blockchain.
 
-The amount of rewards increases at a fairly steady, predictable rate. The real variation is in gas prices, which will make a much bigger minute to minute difference on when you should call this.
+The amount of rewards increases at a fairly steady, predictable rate. The primary variation is in gas prices, which will make a much bigger minute to minute difference on when you should call this.
 
 When calculating profitability, remember to account for the cost to swap back to ETH from USDT.
 
