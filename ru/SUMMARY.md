@@ -41,8 +41,7 @@
   * [Хранилище](smart-contracts/api/vault.md)
   * [ERC-20](smart-contracts/api/erc-20-1.md)
   * [Временная блокировка](smart-contracts/api/timelock.md)
-  * [Оракулы](smart-contracts/api/oracle.md)
-  * [Стратегии](smart-contracts/api/strategies.md)
+  * [Strategies](smart-contracts/api/strategies.md)
 
 ## Угрозы & Безопасность
 
