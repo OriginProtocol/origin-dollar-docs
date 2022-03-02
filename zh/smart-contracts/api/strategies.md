@@ -1,4 +1,4 @@
-# Strategies
+# 策略
 
 {% hint style="info" %}
 Documentation coming soon.
