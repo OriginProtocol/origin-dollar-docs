@@ -6,10 +6,27 @@ Kontrak pintar OUSD dirancang agar dapat diupgrade oleh pemilik. Tim Origin meng
 Tindakan admin yang menunda waktu memberi pengguna kesempatan untuk keluar dari OUSD jika adminnya menjadi jahat, disusupi, atau membuat perubahan yang tidak disukai pengguna.
 {% endhint %}
 
-Admin utama adalah kontrak multisig 5 dari 8 yang diperlukan untuk membuat perubahan kode apa pun pada protokol. OUSD hanya dapat ditingkatkan dari dompet multi-sig 5 dari 8 ini. Kunci multi-sig ini dipegang oleh individu yang memiliki hubungan dekat dengan perusahaan, dan bahkan pendiri Origin yang bertindak bersama tidak memiliki kontrol yang cukup untuk menjalankan fungsi pemilik sendiri. In addition, the OUSD contracts are owned by the [timelock](../smart-contracts/api/timelock.md) which allows the Origin team to continue making changes to the protocol, but only after a time delay.&#x20;
+### Admin
 
-Beberapa fungsi, seperti menyeimbangkan dana di antara strategi atau menjeda setoran, dapat dipicu tanpa timelock dan dengan penanda tangan yang jauh lebih sedikit. Hal ini memungkinkan tim Origin untuk bereaksi lebih cepat terhadap kondisi pasar atau ancaman keamanan. These signers, known as Strategists,  have the ability to execute a limited number of functions __ with only 2 of 9 signers.
+Admin utama adalah kontrak multisig 5 dari 8 yang diperlukan untuk membuat perubahan kode apa pun pada protokol. OUSD hanya dapat ditingkatkan dari dompet multi-sig 5 dari 8 ini. Kunci multi-sig ini dipegang oleh individu yang memiliki hubungan dekat dengan perusahaan, dan bahkan pendiri Origin yang bertindak bersama tidak memiliki kontrol yang cukup untuk menjalankan fungsi pemilik sendiri. In addition, the OUSD contracts are owned by a [timelock](../smart-contracts/api/timelock.md) which places a 48 hour time deplay before any changes to the protocol can be made.&#x20;
 
-Memiliki hak istimewa admin diperlukan di hari-hari awal untuk memastikan bahwa protokol aman dan dioptimalkan untuk mendapatkan hasil sekaligus meminimalkan risiko. Kami berharap untuk merilis beberapa iterasi kontrak pintar kami dalam beberapa bulan pertama keberadaan protokol.
+### Strategist
 
-Setelah beberapa siklus peningkatan selesai, kami bermaksud untuk mengalihkan kepemilikan dari kendali perusahaan kami ke kontrak tata kelola terdesentralisasi, sehingga memungkinkan komunitas untuk memilih dan berpartisipasi dalam pembaruan protokol di masa mendatang.
+Some functionality, such as rebalancing funds between strategies or pausing deposits, can be triggered without the timelock and with far fewer signers. Hal ini memungkinkan tim Origin untuk bereaksi lebih cepat terhadap kondisi pasar atau ancaman keamanan. These signers, known as Strategists,  have the ability to execute a limited number of functions __ with only 2 of 9 signers.
+
+The strategist multisig can take the following actions on the vault.
+
+* reallocate
+* setVaultBuffer
+* setAssetDefaultStrategy
+* withdrawAllFromStrategy
+* withdrawAllFromStrategies
+* pauseRebase
+* pauseCapital
+* unpauseCapital
+
+### Future
+
+Having these admin privileges is necessary in the early days to ensure that the protocol is secure and optimized for earning yields while minimizing risks. We expect to release multiple iterations of our smart contracts in the first several months of the protocol's existence.
+
+Once several upgrade cycles have been completed, we intend to transfer ownership from our company control to a decentralized governance contract, thereby allowing the community to vote and participate in future protocol updates.
