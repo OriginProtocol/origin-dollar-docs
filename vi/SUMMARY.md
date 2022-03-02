@@ -41,8 +41,7 @@
   * [Vault](smart-contracts/api/vault.md)
   * [ERC-20](smart-contracts/api/erc-20-1.md)
   * [Khoá thời gian (timelock)](smart-contracts/api/timelock.md)
-  * [Oracle](smart-contracts/api/oracle.md)
-  * [Chiến lược](smart-contracts/api/strategies.md)
+  * [Strategies](smart-contracts/api/strategies.md)
 
 ## Bảo mật & Rủi ro
 
