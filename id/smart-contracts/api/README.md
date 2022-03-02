@@ -1,10 +1,9 @@
 # API
 
-Dokumentasi API kontrak yang digunakan oleh protokol:
+Documentation of contracts API used by the protocol:&#x20;
 
 * [Vault](vault.md)
 * [ERC-20](erc-20-1.md)
 * [Timelock](timelock.md)
-* [Oracle](oracle.md)
-* [Strategi](strategies.md)
+* [Stategies](strategies.md)
 
