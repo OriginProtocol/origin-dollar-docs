@@ -1,4 +1,4 @@
-# Principles
+# 原则
 
 **Governance Portal**
 
