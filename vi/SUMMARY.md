@@ -54,6 +54,7 @@
 ## Hướng dẫn
 
 * [Hướng dẫn tích hợp cho các sàn giao dịch](guides/integration-guide-for-exchanges.md)
+* [Incentivized Harvesting Guide](guides/incentivized-harvesting-guide.md)
 
 ## Danh sách các kênh
 
