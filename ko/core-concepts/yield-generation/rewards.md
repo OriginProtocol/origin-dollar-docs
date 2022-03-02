@@ -1,6 +1,6 @@
 # 보상
 
-**Collecting Rewards **
+**Collecting Rewards**&#x20;
 
 대출이자 및 시장 조성 수수료 외에도 많은 디파이(DeFi) 프로토콜에 의해 배포되는 보너스 인센티브를 자동으로 청구하고 전환 할 계획입니다. For example, Compound gives away COMP tokens and Curve gives away CRV tokens. 이러한 보너스 보상은 정기적으로 스테이블 코인으로 전환되고, 시장에 배포되며 추가 수익의 형태로 OUSD 보유자에게 배포됩니다.
 
