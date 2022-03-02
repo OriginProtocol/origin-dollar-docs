@@ -6,10 +6,27 @@
 Задержка действий администратора дает пользователям возможность выхода из OUSD, если его администраторы станут злонамеренными, будут скомпрометированы или внесут изменения, которые не нравятся пользователям.
 {% endhint %}
 
-Основной администратор - это контракт с 5 из 8 подписей, которые требуются для внесения любых изменений кода в протоколе. OUSD можно обновить только из этого кошелька с 5 из 8 подписей. Ключи к этой мульти-подписке принадлежат лицам, имеющим тесные связи с компанией, и даже действующие вместе основатели Origin не обладают достаточным контролем, чтобы самостоятельно выполнять функции владельца. In addition, the OUSD contracts are owned by the [timelock](../smart-contracts/api/timelock.md) which allows the Origin team to continue making changes to the protocol, but only after a time delay.&#x20;
+### Admin
 
-Некоторые функции, такие как перераспределение средств между стратегиями или приостановка депозитов, могут быть запущены без временной блокировки и с гораздо меньшим количеством подписей. Это позволяет команде Origin быстрее реагировать на рыночные условия или угрозы безопасности. These signers, known as Strategists,  have the ability to execute a limited number of functions __ with only 2 of 9 signers.
+Основной администратор - это контракт с 5 из 8 подписей, которые требуются для внесения любых изменений кода в протоколе. OUSD можно обновить только из этого кошелька с 5 из 8 подписей. Ключи к этой мульти-подписке принадлежат лицам, имеющим тесные связи с компанией, и даже действующие вместе основатели Origin не обладают достаточным контролем, чтобы самостоятельно выполнять функции владельца. In addition, the OUSD contracts are owned by a [timelock](../smart-contracts/api/timelock.md) which places a 48 hour time deplay before any changes to the protocol can be made.&#x20;
 
-На первых порах необходимо иметь эти права администратора, чтобы гарантировать безопасность протокола и его оптимизацию для получения прибыли при условии минимизации рисков. Мы собираемся выпустить несколько итераций наших смарт-контрактов в первые несколько месяцев существования протокола.
+### Strategist
 
-После завершения нескольких циклов обновления мы намерены передать право собственности от нашей компании к контракту децентрализованного управления, что позволит сообществу голосовать и принимать участие в будущих обновлениях протокола.
+Some functionality, such as rebalancing funds between strategies or pausing deposits, can be triggered without the timelock and with far fewer signers. Это позволяет команде Origin быстрее реагировать на рыночные условия или угрозы безопасности. These signers, known as Strategists,  have the ability to execute a limited number of functions __ with only 2 of 9 signers.
+
+The strategist multisig can take the following actions on the vault.
+
+* reallocate
+* setVaultBuffer
+* setAssetDefaultStrategy
+* withdrawAllFromStrategy
+* withdrawAllFromStrategies
+* pauseRebase
+* pauseCapital
+* unpauseCapital
+
+### Future
+
+Having these admin privileges is necessary in the early days to ensure that the protocol is secure and optimized for earning yields while minimizing risks. We expect to release multiple iterations of our smart contracts in the first several months of the protocol's existence.
+
+Once several upgrade cycles have been completed, we intend to transfer ownership from our company control to a decentralized governance contract, thereby allowing the community to vote and participate in future protocol updates.
