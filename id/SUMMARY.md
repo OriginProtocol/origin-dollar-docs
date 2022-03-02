@@ -54,6 +54,7 @@
 ## Panduan
 
 * [Panduan Integrasi Untuk Pertukaran](guides/integration-guide-for-exchanges.md)
+* [Incentivized Harvesting Guide](guides/incentivized-harvesting-guide.md)
 
 ## Tautan
 
