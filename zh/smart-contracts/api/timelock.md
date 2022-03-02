@@ -1,4 +1,4 @@
-# 时间锁
+# Timelock
 
 The timelock contract enforces a 48 hour wait period before any changes to the OUSD contracts can be executed. The timelock can be called by our multi-sig and is the owner of our [ERC-20](../architecture.md), [Vault](vault.md), and [Strategies](strategies.md) contracts. Time-delaying admin actions gives users a chance to exit OUSD if its admins become malicious, are compromised, or make a change that the users do not like.
 
