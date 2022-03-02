@@ -41,8 +41,7 @@
   * [금고(Vault)](smart-contracts/api/vault.md)
   * [ERC-20](smart-contracts/api/erc-20-1.md)
   * [타임락(TimeLock)](smart-contracts/api/timelock.md)
-  * [오라클](smart-contracts/api/oracle.md)
-  * [전략](smart-contracts/api/strategies.md)
+  * [Strategies](smart-contracts/api/strategies.md)
 
 ## 보안 & 위험
 
