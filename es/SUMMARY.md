@@ -54,6 +54,7 @@
 ## Guías
 
 * [Guía de Integración para Exchanges](guides/integration-guide-for-exchanges.md)
+* [Incentivized Harvesting Guide](guides/incentivized-harvesting-guide.md)
 
 ## Enlaces
 
