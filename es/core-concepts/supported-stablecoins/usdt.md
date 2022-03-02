@@ -6,7 +6,7 @@ Tether (USDT) es una moneda estable con vinculación fiduciaria que se construy�
 
 Se dice que cada Tether emitido en circulación está respaldado por una proporción de uno a uno con la cantidad equivalente de moneda fiduciaria mantenida en una cuenta de custodia de Tether Limited, una empresa con sede en Hong Kong con estrechos vínculos con el intercambio de criptomonedas, Bitfinex.
 
-A pesar de la controversia ** **alrededor** **, la compañía no proporcionó una auditoría prometida que muestre las reservas adecuadas que respaldan a tether, USDT sigue siendo la moneda estable más grande del mundo por capitalización de mercado y actualmente la cuarta criptomoneda más grande después de BTC, ETH y XRP.
+Despite the controversy **** around **** the company's failure to provide a promised audit showing adequate reserves backing tether, USDT is still the world's largest stablecoin by market cap and currently the fourth-largest cryptocurrency after BTC, ETH and XRP.
 
 | Hechos Clave  |                                                                                                                  |
 | ------------- | ---------------------------------------------------------------------------------------------------------------- |
