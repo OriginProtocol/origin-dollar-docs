@@ -41,8 +41,7 @@
   * [Bóveda](smart-contracts/api/vault.md)
   * [ERC-20](smart-contracts/api/erc-20-1.md)
   * [Bloqueo de Tiempo](smart-contracts/api/timelock.md)
-  * [Oráculos](smart-contracts/api/oracle.md)
-  * [Estrategias](smart-contracts/api/strategies.md)
+  * [Strategies](smart-contracts/api/strategies.md)
 
 ## Seguridad & Riesgos
 
