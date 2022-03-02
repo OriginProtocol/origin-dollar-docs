@@ -1,6 +1,6 @@
 # Ricompense
 
-**Collecting Rewards **
+**Collecting Rewards**&#x20;
 
 Oltre che raccogliere interessi dai prestiti e le commissioni dal market making, intendiamo richiedere e convertire automaticamente gli incentivi bonus che vengono distribuiti da molti dei protocolli DeFi. For example, Compound gives away COMP tokens and Curve gives away CRV tokens. Questi premi bonus saranno regolarmente convertiti in stablecoin, rilasciati sul mercato e distribuiti ai possessori di OUSD nella forma di rendimento aggiuntivo.
 
