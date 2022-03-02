@@ -41,8 +41,7 @@
   * [Kasa](smart-contracts/api/vault.md)
   * [ERC-20](smart-contracts/api/erc-20-1.md)
   * [zaman kilidi](smart-contracts/api/timelock.md)
-  * [Oracle'lar](smart-contracts/api/oracle.md)
-  * [Stratejiler](smart-contracts/api/strategies.md)
+  * [Strategies](smart-contracts/api/strategies.md)
 
 ## Güvenlik & Riskler
 
