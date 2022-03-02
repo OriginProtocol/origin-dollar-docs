@@ -1,6 +1,6 @@
-# 发展阶段
+# Phases
 
-渐进式去中心化将分四个阶段。
+Progressive decentralization will follow four phases as outlined below.
 
 ![](../.gitbook/assets/ousd_docs_graphics_2%20%282%29.png)
 
