@@ -54,6 +54,7 @@
 ## Руководства
 
 * [Руководство по интеграции для бирж](guides/integration-guide-for-exchanges.md)
+* [Incentivized Harvesting Guide](guides/incentivized-harvesting-guide.md)
 
 ## Ссылки
 
