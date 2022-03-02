@@ -1,6 +1,6 @@
 # Ödüller
 
-**Collecting Rewards **
+**Collecting Rewards**&#x20;
 
 Borç verme faizinden ve piyasa yapıcılığından ücret toplamaya ek olarak, birçok DeFi protokolü tarafından dağıtılan bonus teşviklerini otomatik olarak talep etmeyi ve dönüştürmeyi planlıyoruz. For example, Compound gives away COMP tokens and Curve gives away CRV tokens. Bu bonus ödüller düzenli olarak stabilcoinlere dönüştürülecek, pazarda konuşlandırılacak ve OUSD sahiplerine ek getiri şeklinde dağıtılacaktır.
 
