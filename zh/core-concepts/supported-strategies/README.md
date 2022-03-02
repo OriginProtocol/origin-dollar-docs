@@ -1,8 +1,8 @@
-# Supported Strategies
+# 支持策略
 
-**Supported DeFi Platforms**
+**支持的DeFi平台**
 
-OUSD generates yield by depositing stablecoins into lending platforms and market maker liquidity pools. It is important to understand that these platforms do carry technological risk and funds can be lost if there is a major security event. We are choosing to work with the platforms that have had their smart contracts audited and that we feel are most secure.
+OUSD 通过将稳定币存入贷款平台和做市商流动性池来产生收益。 请注意，这些平台都带来技术风险。如果发生重大安全事件，可能会导致资金的亏损。 我们选择使用已经过智能合约审核并且我们认为是最安全的平台。
 
 Currently, OUSD earns yield from the following platform(s):
 
