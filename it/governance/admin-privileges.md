@@ -14,16 +14,16 @@ The primary admin is a 5 of 8 multisig contract which is required to make any co
 
 Some functionality, such as rebalancing funds between strategies or pausing deposits, can be triggered without the timelock and with far fewer signers. This allows the Origin team to react more quickly to market conditions or security threats. These signers, known as Strategists,  have the ability to execute a limited number of functions __ with only 2 of 9 signers.
 
-The strategist multisig can take the following actions on the vault.
+The strategist multisig can do the following actions on the vault:
 
-* reallocate
-* setVaultBuffer
-* setAssetDefaultStrategy
-* withdrawAllFromStrategy
-* withdrawAllFromStrategies
-* pauseRebase
-* pauseCapital
-* unpauseCapital
+* reallocate - move funds between strategies
+* setVaultBuffer - adjust the amount of funds held outside strategies for cheaper redeems.
+* setAssetDefaultStrategy - which strategy mints and redeems pull from for a particular strategy
+* withdrawAllFromStrategy - remove funds from a single strategy and send them to the vault
+* withdrawAllFromStrategies - remove funds from all active strategies and send them to the vault
+* pauseRebase - pause all rebases
+* pauseCapital - pause all mints and redeems
+* unpauseCapital - allow all mints and redeems
 
 ### Future
 
