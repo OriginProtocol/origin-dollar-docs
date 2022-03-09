@@ -8,7 +8,7 @@ Las acciones administrativas que retrasan el tiempo les dan a los usuarios la op
 
 ### Admin
 
-El administrador principal es un contrato multifirma 5 de 8 que se requiere para realizar cualquier cambio de código en el protocolo. OUSD solo se puede actualizar desde esta billetera multi-sig de 5 de 8. Las claves de este multi-sig están en manos de personas con vínculos estrechos con la empresa, y ni siquiera los fundadores de Origin que actúan juntos tienen suficiente control para ejecutar las funciones de propietario por su cuenta. In addition, the OUSD contracts are owned by a [timelock](../smart-contracts/api/timelock.md) which places a 48 hour time deplay before any changes to the protocol can be made.&#x20;
+El administrador principal es un contrato multifirma 5 de 8 que se requiere para realizar cualquier cambio de código en el protocolo. OUSD solo se puede actualizar desde esta billetera multi-sig de 5 de 8. Las claves de este multi-sig están en manos de personas con vínculos estrechos con la empresa, y ni siquiera los fundadores de Origin que actúan juntos tienen suficiente control para ejecutar las funciones de propietario por su cuenta. In addition, the OUSD contracts are owned by a [timelock](../smart-contracts/api/timelock.md) which places a 48 hour time delay before any changes to the protocol can be made.&#x20;
 
 ### Strategist
 
