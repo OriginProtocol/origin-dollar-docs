@@ -8,7 +8,7 @@ Việc trì hoãn thời gian thực thi thay đổi hợp đồng thông minh c
 
 ### Admin
 
-Bất kỳ sự thay đổi về code của giao thức nào cũng cần có sự đồng ý của 5 trong tổng số 8 chữ ký hợp đồng. OUSD chỉ có thể được nâng cấp từ khi có sự đồng ý của 5 trên 8 ví đa chữ ký này. Điểm mấu chốt của hình thức đa chữ ký này là quyền quyết định sẽ không chỉ thuộc về sáng lập viên của Origin. In addition, the OUSD contracts are owned by a [timelock](../smart-contracts/api/timelock.md) which places a 48 hour time deplay before any changes to the protocol can be made.&#x20;
+Bất kỳ sự thay đổi về code của giao thức nào cũng cần có sự đồng ý của 5 trong tổng số 8 chữ ký hợp đồng. OUSD chỉ có thể được nâng cấp từ khi có sự đồng ý của 5 trên 8 ví đa chữ ký này. Điểm mấu chốt của hình thức đa chữ ký này là quyền quyết định sẽ không chỉ thuộc về sáng lập viên của Origin. In addition, the OUSD contracts are owned by a [timelock](../smart-contracts/api/timelock.md) which places a 48 hour time delay before any changes to the protocol can be made.&#x20;
 
 ### Strategist
 
