@@ -8,7 +8,7 @@ Tindakan admin yang menunda waktu memberi pengguna kesempatan untuk keluar dari 
 
 ### Admin
 
-Admin utama adalah kontrak multisig 5 dari 8 yang diperlukan untuk membuat perubahan kode apa pun pada protokol. OUSD hanya dapat ditingkatkan dari dompet multi-sig 5 dari 8 ini. Kunci multi-sig ini dipegang oleh individu yang memiliki hubungan dekat dengan perusahaan, dan bahkan pendiri Origin yang bertindak bersama tidak memiliki kontrol yang cukup untuk menjalankan fungsi pemilik sendiri. In addition, the OUSD contracts are owned by a [timelock](../smart-contracts/api/timelock.md) which places a 48 hour time deplay before any changes to the protocol can be made.&#x20;
+Admin utama adalah kontrak multisig 5 dari 8 yang diperlukan untuk membuat perubahan kode apa pun pada protokol. OUSD hanya dapat ditingkatkan dari dompet multi-sig 5 dari 8 ini. Kunci multi-sig ini dipegang oleh individu yang memiliki hubungan dekat dengan perusahaan, dan bahkan pendiri Origin yang bertindak bersama tidak memiliki kontrol yang cukup untuk menjalankan fungsi pemilik sendiri. In addition, the OUSD contracts are owned by a [timelock](../smart-contracts/api/timelock.md) which places a 48 hour time delay before any changes to the protocol can be made.&#x20;
 
 ### Strategist
 
