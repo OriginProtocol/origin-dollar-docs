@@ -32,6 +32,7 @@
 * [Hak Istimewa Admin](governance/admin-privileges.md)
 * [Staking OGN](governance/ogn-staking.md)
 * [Berkontribusi](governance/contributing.md)
+* [Vote Delegation](governance/vote-delegation.md)
 
 ## Kontrak Pintar
 
