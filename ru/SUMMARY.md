@@ -32,6 +32,7 @@
 * [Права администратора](governance/admin-privileges.md)
 * [Стейкинг токенов OGN](governance/ogn-staking.md)
 * [Сотрудничество](governance/contributing.md)
+* [Vote Delegation](governance/vote-delegation.md)
 
 ## Смарт-контракты
 
