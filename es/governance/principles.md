@@ -4,25 +4,27 @@
 
 Se anima a los holders de OGN a participar en la creación y votación de propuestas que afecten al protocolo en [el portal de gobernanza de OGN](https://vote.originprotocol.com). Cualquiera con al menos 1,000 OGN en su billetera o puestos en staking en nuestro contrato de OGN Staking puede crear una nueva propuesta usando Snapshot. Todos los holders de OGN pueden votar en propuestas. Nuestro deseo es que nuestra comunidad tenga un fuerte impacto en la dirección de los productos de Origin, la base de código de fuente abierta y tenga voz en las decisiones comerciales clave y la dirección general del proyecto.
 
-**Descentralización progresiva**
+OGN holders can also [delegate votes](vote-delegation.md) to another account.
 
-OUSD está diseñado para ser un protocolo descentralizado gobernado por muchas partes interesadas en todo el mundo. Creemos que los mineros y holders de OUSD deben determinar colectivamente las decisiones importantes sobre el protocolo lo antes posible.
+**Progressive Decentralization**
 
-Dicho esto, en los primeros días, es imperativo que el equipo de ingeniería central pueda actuar de manera rápida y decisiva para construir las partes fundamentales del protocolo.
+OUSD is designed to be a decentralized protocol governed by many stakeholders all over the world. We believe that the holders of OUSD should collectively determine important protocol decisions as soon as possible.&#x20;
 
-La descentralización progresará rápidamente en cuatro fases durante los próximos meses. Nuestra intención es ceder el control y la gobernanza a la comunidad lo antes posible.
+That being said, in the very early days, it is imperative that the core engineering team can act quickly and decisively to build the foundational parts of the protocol.
 
-![](../.gitbook/assets/ousd_docs_graphics\_2 (2).png)
+Decentralization will progress across four phases rapidly over the next few months. It is our intent to relinquish control and governance to the community as soon as possible.
 
-**Bloqueo de Tiempo**
+![](../.gitbook/assets/ousd\_docs\_graphics\_2 (2).png)
 
-Antes de la gobernanza descentralizada total, implementaremos un [bloqueo de tiempo](../smart-contracts/api/timelock.md) frente a todas las llamadas de funciones de administración, lo que dará a los usuarios de OUSD tiempo \(horas\) para retirar sus fondos si tienen objeciones a nuestras actualizaciones propuestas.
+**Timelock**
 
-**Partes interesadas nuevas y existentes**
+Prior to full decentralized governance, we will implement a [timelock](../smart-contracts/api/timelock.md) in front of all admin function calls, giving OUSD users time to withdraw their funds if they have objections to our proposed upgrades. &#x20;
 
-OUSD es un nuevo proyecto fundado por el [equipo](https://www.originprotocol.com/team) de Origin Protocol y contará con el apoyo de la comunidad existente de Origin, así como de muchas nuevas partes interesadas que elijan acuñar, mantener, usar y proporcionar liquidez para OUSD.
+**New and Existing Stakeholders**
 
-Además, también queremos garantizar una alta participación de nuestros holder de Origin Token (OGN) existentes y de los millones de personas de nuestra comunidad. Los holders de OGN existentes podrán colocar en staking sus OGN para participar en la gobernanza y ganar incentivos por generar valor para OUSD.
+OUSD is a new project founded by Origin Protocol [team](https://www.originprotocol.com/team) and will be supported by the existing Origin community as well as many new stakeholders that choose to mint, hold, use, and provide liquidity for OUSD.&#x20;
 
-La fuerte conexión entre OUSD y el resto de la plataforma de comercio de Origin impulsará el crecimiento de ambas iniciativas.
+In addition, we also want to ensure high participation from our existing Origin Token (OGN) holders and the millions of people in our community. Existing OGN holders are able to [stake their OGN](ogn-staking.md) to participate in governance and earn incentives for driving value to OUSD.&#x20;
+
+The strong connection between OUSD and the rest of the Origin commerce platform will fuel growth in both initiatives.
 
