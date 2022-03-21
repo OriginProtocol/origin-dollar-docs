@@ -32,6 +32,7 @@
 * [管理员权限](governance/admin-privileges.md)
 * [OGN Staking](governance/ogn-staking.md)
 * [Contributing](governance/contributing.md)
+* [Vote Delegation](governance/vote-delegation.md)
 
 ## 智能合约
 
