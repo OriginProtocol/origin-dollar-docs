@@ -32,6 +32,7 @@
 * [Privilegios de Administrador](governance/admin-privileges.md)
 * [Staking de OGN](governance/ogn-staking.md)
 * [Contribuyendo](governance/contributing.md)
+* [Vote Delegation](governance/vote-delegation.md)
 
 ## Contratos Inteligentes
 
