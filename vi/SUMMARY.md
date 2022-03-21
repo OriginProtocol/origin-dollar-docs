@@ -32,6 +32,7 @@
 * [Đặc quyền của quản trị viên](governance/admin-privileges.md)
 * [Stake OGN](governance/ogn-staking.md)
 * [Đóng góp](governance/contributing.md)
+* [Vote Delegation](governance/vote-delegation.md)
 
 ## Hợp đồng thông minh
 
