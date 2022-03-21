@@ -32,6 +32,7 @@
 * [Privilegi di amministratore](governance/admin-privileges.md)
 * [OGN Staking](governance/ogn-staking.md)
 * [Contributing](governance/contributing.md)
+* [Vote Delegation](governance/vote-delegation.md)
 
 ## Smart Contract
 
