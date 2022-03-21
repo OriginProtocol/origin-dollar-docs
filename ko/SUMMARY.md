@@ -32,6 +32,7 @@
 * [관리자 권한](governance/admin-privileges.md)
 * [OGN Staking](governance/ogn-staking.md)
 * [Contributing](governance/contributing.md)
+* [Vote Delegation](governance/vote-delegation.md)
 
 ## 스마트 컨트랙트
 
