@@ -8,7 +8,7 @@ Lea nuestro [anuncios](https://medium.com/originprotocol/origin-partners-with-ne
 
 **Cobertura de Nexus Mutual**
 
-Lea nuestra [publicación](https://medium.com/originprotocol/origin-partners-with-nexus-mutual-to-offer-defi-insurance-for-origin-dollar-ousd-6eb3432ee042) para aprender cómo [comprar cobertura](https://app.nexusmutual.io/cover/buy/get-quote?address=0xE75D77B1865Ae93c7eaa3040B038D7aA7BC02F70), [ proporcionar cobertura](https://app.nexusmutual.io/staking) y [ participar en campañas de minería de escudo](https://app.nexusmutual.io/rewards) con Nexus Mutual.
+Read our[ announcement post](https://medium.com/originprotocol/origin-partners-with-nexus-mutual-to-offer-defi-insurance-for-origin-dollar-ousd-6eb3432ee042) to learn how to[ buy coverage](https://app.nexusmutual.io/cover/buy/get-quote?address=0x0000000000000000000000000000000000000016),[ provide coverage](https://app.nexusmutual.io/staking), and[ participate in shield mining campaigns](https://app.nexusmutual.io/rewards) with Nexus Mutual.
 
 **Cobertura de InsurAce Protocol**
 
