@@ -1,6 +1,6 @@
-# Getting Started
+# 开始
 
-These docs are intended to explain how OUSD works, communicate the potential risks and benefits, and provide a guide for developers who wish to contribute to our codebase or integrate OUSD into their products. Here are a few ways for you to dive in and get started.
+这些文档的目的是说明 OUSD 如何运作、传达潜在的风险和益处，并为希望为我们的代码库做出贡献或将 OUSD 集成到其产品中的开发人员提供指南。 您可以通过以下几种方法开始。
 
 **Buying OUSD**
 
