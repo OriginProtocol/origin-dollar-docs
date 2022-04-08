@@ -30,7 +30,9 @@ OUSD hiện có sẵn trên các sàn giao dịch tập trung sau. Vui lòng ki�
 * Mua OUSD trên Virgox 
     * [OUSD/USDT](https://trade.kucoin.com/OUSD-USDT)
   * [OUSD/BTC](https://trade.kucoin.com/OUSD-BTC)
-* Mua OUSD trên Virgox 
+* Buy OUSD on Gate.io 
+    * [OUSD/USDT](https://www.gate.io/trade/OUSD\_USDT)
+* Buy OUSD on Virgox 
     * [OUSD/USDT](https://virgox.com/exchange/141)
 * [Buy OUSD on Dharma App](https://www.dharma.io) (US only)
 
@@ -40,7 +42,8 @@ Chúng tôi đang tiếp tục nỗ lực để niêm yết OUSD trên các sàn
 
 {% hint style="success" %}
 
-The main ERC20 address for Origin Dollar (OUSD) is: \ **0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86** 
+The main ERC20 address for Origin Dollar (OUSD) is: \
+**0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86** 
 
 {% endhint %}
 
