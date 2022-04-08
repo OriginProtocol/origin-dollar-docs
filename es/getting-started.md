@@ -27,16 +27,19 @@ OUSD está disponible actualmente en los siguientes exchanges centralizados. Ase
 * Compre OUSD en KuCoin
   * [OUSD/USDT](https://trade.kucoin.com/OUSD-USDT)
   * [OUSD/BTC](https://trade.kucoin.com/OUSD-BTC)
-* Compre OUSD en Virgox
+* Buy OUSD on Gate.io
+  * [OUSD/USDT](https://www.gate.io/trade/OUSD\_USDT)
+* Buy OUSD on Virgox
   * [OUSD/USDT](https://virgox.com/exchange/141)
-* [Compre OUSD en la App de Dharma](https://www.dharma.io) (solo en EE. UU.)
+* [Buy OUSD on Dharma App](https://www.dharma.io) (US only)
 
 Seguimos trabajando para que OUSD esté disponible en exchanges centralizados adicionales.
 
 **Agregando OUSD a su billetera**
 
 {% hint style="success" %}
-La dirección ERC20 principal de Origin Dollar(OUSD) es: \ **0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86**
+La dirección ERC20 principal de Origin Dollar(OUSD) es: \
+**0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86**
 {% endhint %}
 
 Si su OUSD no aparece automáticamente en su billetera, debería poder agregarlo manualmente usando la dirección anterior. Si usted está planeando en [almacenar su OUSD en una billetera de múltiples firmas](core-concepts/elastic-supply/rebasing-and-smart-contracts.md), asegúrese de optar para recibir el rendimiento. Queremos que OUSD sea compatible con tantas billeteras como sea posible y que se incluya en todas las diversas listas de tokens conocidos. Agradeceríamos enormemente cualquier ayuda que pueda ofrecer en esta área.&#x20;
