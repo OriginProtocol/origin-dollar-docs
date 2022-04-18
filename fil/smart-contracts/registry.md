@@ -3,7 +3,8 @@
 Here is the full registry of OUSD smart contracts that have been deployed to the Ethereum mainnet.
 
 {% hint style="success" %}
-The main ERC20 address for Origin Dollar (OUSD) is: \ **0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86**
+The main ERC20 address for Origin Dollar (OUSD) is: \
+**0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86**
 {% endhint %}
 
 {% tabs %}
@@ -137,7 +138,16 @@ Flipper is a gas-optimized way for users to swap in and out of OUSD at a fixed 1
 | -------- | --------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
 | Flipper  | [0xcecaD69d7D4Ed6D52eFcFA028aF8732F27e08F70](https://etherscan.io/address/0xcecaD69d7D4Ed6D52eFcFA028aF8732F27e08F70) | [originflipper.eth](https://etherscan.io/address/originflipper.eth) |
 {% endtab %}
+
+{% tab title="Wrapped" %}
+Wrapped OUSD\
+\ **Well known proxy address:** - [0xD2af830E8CBdFed6CC11Bab697bB25496ed6FA62](https://etherscan.io/address/0xD2af830E8CBdFed6CC11Bab697bB25496ed6FA62)
+
+Internal implementation address - [0xbf3b9b141cb3629f5bb8f721cba9265c92494539](https://etherscan.io/address/0xbf3b9b141cb3629f5bb8f721cba9265c92494539)
+{% endtab %}
 {% endtabs %}
+
+
 
 
 
