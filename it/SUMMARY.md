@@ -14,17 +14,18 @@
   * [Prestito](core-concepts/yield-generation/lending.md)
   * [Market Making](core-concepts/yield-generation/market-making.md)
   * [Ricompense](core-concepts/yield-generation/rewards.md)
-* [Stablecoin supportate](core-concepts/supported-stablecoins/README.md)
+* [Wrapped OUSD](core-concepts/wrapped-ousd.md)
+* [Supported Stablecoins](core-concepts/supported-stablecoins/README.md)
   * [USDT](core-concepts/supported-stablecoins/usdt.md)
   * [USDC](core-concepts/supported-stablecoins/usdc.md)
   * [DAI](core-concepts/supported-stablecoins/dai.md)
-* [Strategie supportate](core-concepts/supported-strategies/README.md)
+* [Supported Strategies](core-concepts/supported-strategies/README.md)
   * [Compound](core-concepts/supported-strategies/compound.md)
   * [Aave](core-concepts/supported-strategies/aave.md)
   * [Curve](core-concepts/supported-strategies/curve.md)
   * [Convex](core-concepts/supported-strategies/convex.md)
-* [Gestione dei fondi](core-concepts/fund-management.md)
-* [Oracoli di prezzo](core-concepts/price-oracles.md)
+* [Fund Management](core-concepts/fund-management.md)
+* [Price Oracles](core-concepts/price-oracles.md)
 
 ## Governance
 
