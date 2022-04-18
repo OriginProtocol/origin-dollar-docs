@@ -138,7 +138,17 @@ Flipper is a gas-optimized way for users to swap in and out of OUSD at a fixed 1
 | -------- | --------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
 | Flipper  | [0xcecaD69d7D4Ed6D52eFcFA028aF8732F27e08F70](https://etherscan.io/address/0xcecaD69d7D4Ed6D52eFcFA028aF8732F27e08F70) | [originflipper.eth](https://etherscan.io/address/originflipper.eth) |
 {% endtab %}
+
+{% tab title="Wrapped" %}
+Wrapped OUSD\
+\
+**Well known proxy address:** - [0xD2af830E8CBdFed6CC11Bab697bB25496ed6FA62](https://etherscan.io/address/0xD2af830E8CBdFed6CC11Bab697bB25496ed6FA62)
+
+Internal implementation address - [0xbf3b9b141cb3629f5bb8f721cba9265c92494539](https://etherscan.io/address/0xbf3b9b141cb3629f5bb8f721cba9265c92494539)
+{% endtab %}
 {% endtabs %}
+
+
 
 
 
