@@ -14,6 +14,7 @@
   * [Lending](core-concepts/yield-generation/lending.md)
   * [Market Making](core-concepts/yield-generation/market-making.md)
   * [Rewards](core-concepts/yield-generation/rewards.md)
+* [Wrapped OUSD](core-concepts/wrapped-ousd.md)
 * [Supported Stablecoins](core-concepts/supported-stablecoins/README.md)
   * [USDT](core-concepts/supported-stablecoins/usdt.md)
   * [USDC](core-concepts/supported-stablecoins/usdc.md)
