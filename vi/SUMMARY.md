@@ -14,17 +14,18 @@
   * [Cho vay](core-concepts/yield-generation/lending.md)
   * [Tạo lập thị trường](core-concepts/yield-generation/market-making.md)
   * [Nhận thưởng](core-concepts/yield-generation/rewards.md)
-* [Stablecoin được hỗ trợ](core-concepts/supported-stablecoins/README.md)
+* [Wrapped OUSD](core-concepts/wrapped-ousd.md)
+* [Supported Stablecoins](core-concepts/supported-stablecoins/README.md)
   * [USDT](core-concepts/supported-stablecoins/usdt.md)
   * [USDC](core-concepts/supported-stablecoins/usdc.md)
   * [DAI](core-concepts/supported-stablecoins/dai.md)
-* [Các chiến lược được hỗ trợ](core-concepts/supported-strategies/README.md)
+* [Supported Strategies](core-concepts/supported-strategies/README.md)
   * [Compound](core-concepts/supported-strategies/compound.md)
   * [Aave](core-concepts/supported-strategies/aave.md)
   * [Curve](core-concepts/supported-strategies/curve.md)
   * [Convex](core-concepts/supported-strategies/convex.md)
-* [Quản lý quỹ](core-concepts/fund-management.md)
-* [Ước tính giá](core-concepts/price-oracles.md)
+* [Fund Management](core-concepts/fund-management.md)
+* [Price Oracles](core-concepts/price-oracles.md)
 
 ## Quản trị
 
