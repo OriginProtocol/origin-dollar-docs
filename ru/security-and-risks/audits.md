@@ -9,10 +9,12 @@ OUSD прошел аудит в нескольких уважаемых комп
 * [Solidified, аудит стейкинга OGN, декабрь 2020 г](https://github.com/OriginProtocol/security/blob/master/audits/Solidified%20-%20OGN%20Staking%20-%20Dec%202020.pdf)
 * [Certora, OUSD Formal Verification Audit, January 2021](https://www.certora.com/pubs/OriginFeb2021.pdf)
 * [OpenZeppelin, OUSD Audit, August 2021](https://github.com/OriginProtocol/security/blob/master/audits/OpenZeppelin%20-%20Origin%20Dollar%20-%20October%202021.pdf)
+* [Solidified, wOUSD, ERC721a, Governance, Harvester & Dripper Audit, May 2022](https://github.com/OriginProtocol/security/blob/master/audits/Solidified%20-%20OGV%2C%20wOUSD%2C%20and%20ERC721a%20-%20May%202022.pdf)
 
-The governance token, Origin Token (OGN), was also audited by Trail of Bits in 2018:
+Both our initial and future governance tokens have been audited as well:
 
 * [Trail of Bits, аудит OGN, ноябрь 2018 г](https://github.com/OriginProtocol/security/blob/master/audits/Trail%20of%20Bits%20-%20Origin%20Marketplace%20and%20OGN%20Token%20-%20Nov%202018.pdf)
+* [Solidified, OGV Audit, May 2022](https://github.com/OriginProtocol/security/blob/master/audits/Solidified%20-%20OGV%2C%20wOUSD%2C%20and%20ERC721a%20-%20May%202022.pdf)
 
 Кроме того, основные стратегии и зависимости, которые использует OUSD, были тщательно проверены различными компаниями.
 
