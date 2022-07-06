@@ -8,6 +8,8 @@ These docs are a great starting point for understanding how OUSD works. Here are
 
 We're assuming the answer will be yes and we highly encourage this as well! However, there may be some instances where you would prefer to move fast and list OUSD without participating in the [rebasing nature of OUSD](../core-concepts/elastic-supply/rebasing-and-smart-contracts.md) since it's the fastest and simplest integration. For exchanges that want to list OUSD, but are strapped for engineering resources, you may want to launch the non-rebasing version first while your engineers make whatever changes are necessary. To make OUSD non-rebasing you can call `rebaseOptOut()` from each EOA wallet that holds OUSD, or do nothing if you are storing OUSD on smart contracts. Non-rebasing OUSD behaves just like any other ERC-20 token.&#x20;
 
+Another option is to list [wrapped OUSD](../core-concepts/wrapped-ousd.md) (wOUSD) which is a non-rebasing version of OUSD that still earns yield. wOUSD can be wrapped or unwrapped anytime for native OUSD.
+
 **Are you storing customer balances on smart contracts (ie. multi-sigs) or EOA wallets?**
 
 Any smart contract that is holding OUSD needs to manually opt-in to receive the yield by calling `rebaseOptIn()`. This is due to the [elastic supply](../core-concepts/elastic-supply/) and the [rebasing nature of OUSD](../core-concepts/elastic-supply/rebasing-and-smart-contracts.md). Many exchanges sweep customer funds into a multi-sig wallet for cold storage. If you do this, you'll want to make sure that you opt-in to rebasing so that you are always earning.
