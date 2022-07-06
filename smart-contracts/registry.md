@@ -98,11 +98,11 @@ The following Chainlink oracles are used to protect the vault in case a backing 
 {% tab title="OGV" %}
 
 
-| Contract      | Address                                                                                                               | ENS     |
-| ------------- | --------------------------------------------------------------------------------------------------------------------- | ------- |
-| OGV           | [0x9c354503c38481a7a7a51629142963f98ecc12d0](https://etherscan.io/address/0x9c354503c38481a7a7a51629142963f98ecc12d0) | ogv.eth |
-| veOGV         | [0x0c4576ca1c365868e162554af8e385dc3e7c66d9](https://etherscan.io/address/0x0c4576ca1c365868e162554af8e385dc3e7c66d9) |         |
-| RewardsSource | [0x7d82e86cf1496f9485a8ea04012afeb3c7489397](https://etherscan.io/address/0x0c4576ca1c365868e162554af8e385dc3e7c66d9) |         |
+| Contract      | Address                                                                                                               | ENS            |
+| ------------- | --------------------------------------------------------------------------------------------------------------------- | -------------- |
+| OGV           | [0x9c354503c38481a7a7a51629142963f98ecc12d0](https://etherscan.io/address/0x9c354503c38481a7a7a51629142963f98ecc12d0) | ogv.eth        |
+| veOGV         | [0x0c4576ca1c365868e162554af8e385dc3e7c66d9](https://etherscan.io/address/0x0c4576ca1c365868e162554af8e385dc3e7c66d9) | veogv.eth      |
+| RewardsSource | [0x7d82e86cf1496f9485a8ea04012afeb3c7489397](https://etherscan.io/address/0x7d82e86cf1496f9485a8ea04012afeb3c7489397) | ogvstaking.eth |
 {% endtab %}
 
 {% tab title="Stablecoins" %}
