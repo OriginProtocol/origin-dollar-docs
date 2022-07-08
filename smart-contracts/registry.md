@@ -27,11 +27,11 @@ Most of our contracts are upgradable via a well-known proxy wrapper and an imple
 
 OGV **** can be locked in exchange for veOGV to get economic and governance rights over OUSD.&#x20;
 
-| Contract    | Address                                                                                                               | ENS                                                           |
-| ----------- | --------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- |
-| OGV         | [0x9c354503c38481a7a7a51629142963f98ecc12d0](https://etherscan.io/address/0x9c354503c38481a7a7a51629142963f98ecc12d0) | [ogv.eth](https://etherscan.io/address/ogv.eth)               |
-| veOGV       | [0x0c4576ca1c365868e162554af8e385dc3e7c66d9](https://etherscan.io/address/0x0c4576ca1c365868e162554af8e385dc3e7c66d9) | [veogv.eth](https://etherscan.io/address/veogv.eth)           |
-| OGV Staking | [0x7d82e86cf1496f9485a8ea04012afeb3c7489397](https://etherscan.io/address/0x7d82e86cf1496f9485a8ea04012afeb3c7489397) | [ogvstaking.eth](https://etherscan.io/address/ogvstaking.eth) |
+| Contract      | Address                                                                                                               | ENS                                                                                                                                               |
+| ------------- | --------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| OGV           | [0x9c354503c38481a7a7a51629142963f98ecc12d0](https://etherscan.io/address/0x9c354503c38481a7a7a51629142963f98ecc12d0) | [ogv.eth](https://etherscan.io/address/ogv.eth)                                                                                                   |
+| veOGV         | [0x0c4576ca1c365868e162554af8e385dc3e7c66d9](https://etherscan.io/address/0x0c4576ca1c365868e162554af8e385dc3e7c66d9) | <p><a href="https://etherscan.io/address/veogv.eth">veogv.eth</a><br><a href="https://etherscan.io/address/ogvstaking.eth">ogvstaking.eth</a></p> |
+| RewardsSource | [0x7d82e86cf1496f9485a8ea04012afeb3c7489397](https://etherscan.io/address/0x7d82e86cf1496f9485a8ea04012afeb3c7489397) |                                                                                                                                                   |
 
 ****
 
