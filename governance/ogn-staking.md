@@ -1,18 +1,12 @@
-# OGN Staking
+# OGV Staking
 
-Origin Token (OGN) is intended as the governance token for OUSD and OGN will play an increasingly important role as the Origin Platform becomes more decentralized. Today, users can stake their OGN tokens to earn additional OGN after a chosen staking period has elapsed.
+Origin Dollar Governance (OGV) is the governance and value accrual token for Origin Dollar (OUSD). OGV uses a veOGV (vote-escrowed OGV) mechanism that distributes economic and governance power to those most committed to the long-term success of the protocol. **** veOGV was originally inspired by Curve’s veCRV token model, but we have introduced some major improvements to drastically reduce the code complexity and gas costs. We’ve also added the ability to stake OGV for multiple periods of time from the same wallet, enabled vote delegation, and are using an exponential instead of linear decay function for determining voter power.
+
+OGV holders are able to stake their OGV anywhere from 1 month to 4 years to receive veOGV in return. Vote locking OGV is nonreversible and veOGV is nontransferable. While we recognize the commitment level required to maximize your voting and economic power is high, we believe it is only appropriate to delegate control of the protocol to those who are invested for the long term. In the future, we anticipate other protocols like Convex may offer liquid staking options to serve those who wish to participate on shorter time horizons.
 
 {% hint style="info" %}
-Visit the [OUSD DApp](https://www.ousd.com/stake) in a web3-enabled browser to stake your OGN.
+Visit [the OUSD Governance DApp](https://governance.ousd.com/stake) in a web3-enabled browser to stake your OGV.
 {% endhint %}
 
-The initial staking program offers three staking periods and respective yields:
-
-* 30-day staking period: Earn 7.5% annualized interest
-* 90-day staking period: Earn 12.5% annualized interest
-* 365-day staking period: Earn 25% annualized interest
-
-Staked tokens will be locked for the duration of the staking period. After each staking period ends, you will be able to claim both your initial OGN (principal) and yield.
-
-OGN is currently trading on top exchanges like [Coinbase](https://www.coinbase.com/price/origin-token), [Binance](https://www.binance.com/en/register?ref=NPPYAEAE), [Huobi](https://www.huobi.com/en-us/exchange/ogn_usdt/), [Upbit](https://upbit.com/exchange?code=CRIX.UPBIT.BTC-OGN), [Bittrex Global](https://global.bittrex.com/Market/Index?MarketName=BTC-OGN), and [dozens more](https://coinmarketcap.com/currencies/origin-protocol/markets/). Visit the Origin website to [learn more about OGN](https://www.originprotocol.com/ogn-token) or check out the [OGN Dashboard](https://www.originprotocol.com/dashboard) to track important token metrics.
+OGV is currently available on [Huobi](https://www.huobi.com/exchange/ogv\_usdt/), [Gate.io](https://www.gate.io/trade/OGV\_USDT), and [Uniswap](https://app.uniswap.org/#/swap?outputCurrency=0x9c354503C38481a7A7a51629142963F98eCC12D0\&chain=mainnet).
 
