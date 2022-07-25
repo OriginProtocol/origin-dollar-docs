@@ -2,7 +2,7 @@
 description: The first stablecoin that earns a yield while it's still in your wallet
 ---
 
-# Introduction
+# Introducing OUSD
 
 ## **A Better Form of Money**
 
@@ -14,7 +14,7 @@ Origin Dollar (OUSD) is a new stablecoin that was initially launched in Septembe
 
 In 1999, Yu Pan, Origin’s R\&D engineer, and his fellow PayPal co-founders [conceived](https://www.cnbc.com/2017/08/14/david-sacks-cryptocurrency-interview.html) of creating “the new world currency”, complete with interest yielding strategies and debit cards without having to connect to traditional banking systems. Several pivots and an eBay acquisition later, PayPal dropped its ambitions in this area.
 
-Almost two decades later, Tether introduced the concept of a USD-denominated stablecoin in 2014. Since then, stablecoins have proven themselves as an ideal way of transferring value without exposing users to the price volatility of free-floating currencies. Today, more value is [transferred via Tether](https://www.bloomberg.com/news/articles/2019-10-01/tether-not-bitcoin-likely-the-world-s-most-used-cryptocurrency) than with Bitcoin. Meanwhile, Decentralized Finance (DeFi) has experienced an explosion of growth with [billions of dollars](https://defipulse.com) of capital now locked up in smart contracts that generate yields from lending and trading protocols.
+Almost two decades later, Tether introduced the concept of a USD-denominated stablecoin in 2014. Since then, stablecoins have proven themselves as an ideal way of transferring value without exposing users to the price volatility of free-floating currencies. Today, more value is [transferred via Tether](https://www.bloomberg.com/news/articles/2019-10-01/tether-not-bitcoin-likely-the-world-s-most-used-cryptocurrency) than with Bitcoin. Meanwhile, Decentralized Finance (DeFi) has experienced an explosion of growth with [billions of dollars](https://defipulse.com/) of capital now locked up in smart contracts that generate yields from lending and trading protocols.
 
 One of the problems with existing stablecoins is that users have to constantly choose between holding an easily spendable coin and earning yields by locking their tokens up in smart contracts. For example, users that lock up USDC in Aave cannot spend a portion of that USDC simultaneously. Expensive Ethereum gas fees serve as "switching costs" each time those users want to switch between spending mode and earning mode.
 

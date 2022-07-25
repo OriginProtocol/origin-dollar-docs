@@ -15,6 +15,6 @@ Despite the controversy **** around **** the company's failure to provide a prom
 | Symbol        | USDT                                                                                                             |
 | Address       | [0xdac17f958d2ee523a2206206994597c13d831](https://etherscan.io/token/0xdac17f958d2ee523a2206206994597c13d831ec7) |
 | Decimals      | 6                                                                                                                |
-| Official site | [https://tether.to/ ](https://tether.to)                                                                         |
+| Official site | [https://tether.to/ ](https://tether.to/)                                                                        |
 | Holders       | Over 3.4M addresses                                                                                              |
 

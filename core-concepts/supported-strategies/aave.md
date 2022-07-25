@@ -14,7 +14,7 @@ Aave has undergone security audits by OpenZeppelin, Trail of Bits, and Consensys
 
 | Resources      |                                                                                |
 | -------------- | ------------------------------------------------------------------------------ |
-| Official site  | [https://aave.com/](https://aave.com)                                          |
-| Developer docs | [http://docs.aave.com/](http://docs.aave.com)                                  |
+| Official site  | [https://aave.com/](https://aave.com/)                                         |
+| Developer docs | [http://docs.aave.com/](http://docs.aave.com/)                                 |
 | GitHub         | [https://github.com/aave/aave-protocol](https://github.com/aave/aave-protocol) |
 | Discord        | [https://aave.com/discord](https://aave.com/discord)                           |

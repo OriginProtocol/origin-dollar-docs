@@ -8,11 +8,11 @@ Convex is one of the few protocols whitelisted to participate in Curve governanc
 
 Convex has been audited by MixBytes.
 
-|                |                                                                  |
-| -------------- | ---------------------------------------------------------------- |
-| Resources      |                                                                  |
-| Official site  | [https://www.convexfinance.com](https://www.convexfinance.com)   |
-| Developer docs | [https://docs.convexfinance.com](https://docs.convexfinance.com) |
-| GitHub         | [https://github.com/convex-eth](https://github.com/convex-eth)   |
-| Discord        | [https://discord.gg/uAwvZfs9qU](https://discord.gg/uAwvZfs9qU)   |
+|                |                                                                   |
+| -------------- | ----------------------------------------------------------------- |
+| Resources      |                                                                   |
+| Official site  | [https://www.convexfinance.com](https://www.convexfinance.com/)   |
+| Developer docs | [https://docs.convexfinance.com](https://docs.convexfinance.com/) |
+| GitHub         | [https://github.com/convex-eth](https://github.com/convex-eth)    |
+| Discord        | [https://discord.gg/uAwvZfs9qU](https://discord.gg/uAwvZfs9qU)    |
 

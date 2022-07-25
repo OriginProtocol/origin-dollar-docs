@@ -35,10 +35,10 @@ Your development flow should look like:
 
 For critical smart contract code to be merged it must pass the following checklist:
 
-*  Code reviewed by 2 reviewers
-*  Unit tests pass
-*  Slither tests pass with no warning
-*  Echidna tests pass
+* &#x20;Code reviewed by 2 reviewers
+* &#x20;Unit tests pass
+* &#x20;Slither tests pass with no warning
+* &#x20;Echidna tests pass
 
 The `master` branch is locked so that only members of the [core team](https://github.com/orgs/OriginProtocol/teams/core) are able to merge your pull requests. Pull requests that are peer-reviewed by other trusted contributors will be fast-tracked and merged faster! Check in the `#engineering` Discord channel for appropriate reviewers.
 
@@ -46,7 +46,7 @@ The `master` branch is locked so that only members of the [core team](https://gi
 
 We use a variety of programming languages in our repositories. When contributing, please follow existing coding conventions and refer to the CONTRIBUTING.md file in the repository, if one exists.
 
-For JavaScript, we use [NPM’s style](https://docs.npmjs.com/misc/coding-style), which is automatically enforced via [prettier](https://prettier.io).
+For JavaScript, we use [NPM’s style](https://docs.npmjs.com/misc/coding-style), which is automatically enforced via [prettier](https://prettier.io/).
 
 For Solidity, we use two-space indents.
 

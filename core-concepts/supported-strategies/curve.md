@@ -14,7 +14,7 @@ Curve has undergone two audits by Trail of Bits and maintains a bug bounty progr
 
 | Resources      |                                                                          |
 | -------------- | ------------------------------------------------------------------------ |
-| Official site  | [https://www.curve.fi/](https://www.curve.fi)                            |
+| Official site  | [https://www.curve.fi/](https://www.curve.fi/)                           |
 | Developer docs | [https://www.curve.fi/devdocs](https://www.curve.fi/devdocs)             |
 | GitHub         | [https://github.com/curvefi](https://github.com/curvefi)                 |
 | Discord        | [https://discord.com/invite/9uEHakc](https://discord.com/invite/9uEHakc) |
