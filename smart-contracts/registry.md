@@ -54,7 +54,7 @@ OGV **** can be locked in exchange for veOGV to get economic and governance righ
 | ------------- | -------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
 | Harvester     | [0x21fb5812d70b3396880d30e90d9e5c1202266c89](https://etherscan.io/address/0x21fb5812d70b3396880d30e90d9e5c1202266c89#code) | [originharvester.eth](https://etherscan.io/address/originharvester.eth) |
 | Dripper       | [0x80c898ae5e56f888365e235ceb8cea3eb726cb58](https://etherscan.io/address/0x80c898ae5e56f888365e235ceb8cea3eb726cb58#code) | [origindripper.eth](https://etherscan.io/address/origindripper.eth)     |
-| Token Buyback | [0x77314EB392b2be47C014cde0706908b3307Ad6a9](https://etherscan.io/address/0x77314EB392b2be47C014cde0706908b3307Ad6a9)      | [originbuyback.eth](https://etherscan.io/address/originbuyback.eth)     |
+| Token Buyback | [0x6C5cdfB47150EFc52072cB93Eea1e0F123529748](https://etherscan.io/address/0x6c5cdfb47150efc52072cb93eea1e0f123529748)      | [originbuyback.eth](https://etherscan.io/address/originbuyback.eth)     |
 
 ****
 
