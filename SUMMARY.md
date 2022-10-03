@@ -16,6 +16,7 @@
   * [Rewards](core-concepts/yield-generation/rewards.md)
 * [Wrapped OUSD](core-concepts/wrapped-ousd.md)
 * [Supported Stablecoins](core-concepts/supported-stablecoins/README.md)
+  * [Stablecoin Evaluation Framework](core-concepts/supported-stablecoins/stablecoin-evaluation-framework.md)
   * [USDT](core-concepts/supported-stablecoins/usdt.md)
   * [USDC](core-concepts/supported-stablecoins/usdc.md)
   * [DAI](core-concepts/supported-stablecoins/dai.md)
