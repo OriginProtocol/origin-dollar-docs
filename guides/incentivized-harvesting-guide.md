@@ -16,11 +16,11 @@ When calculating profitability, remember to account for the cost to swap back to
 
 ### How to call
 
-When you call the harvest, **you will want to use some form of MEV protection**. Otherwise bots will see that your transaction is profitable, and execute it ahead of you, leaving you no gain and only gas fees.
+When you call the harvest, **you will want to use some form of MEV protection** such as [Flashbots](https://docs.flashbots.net/flashbots-protect/rpc/quick-start/). Otherwise bots will see that your transaction is profitable, and execute it ahead of you, leaving you no gain and only gas fees.
 
 To harvest, you call `harvester.harvestAndSwap(strategyAddress, rewardTo)`.
 
-The harvester address and strategyAddresses can be found in the strategy tab of the [contract registry](../smart-contracts/registry.md). The `rewardTo` address is the account that will receive the USDT funds as a reward for calling the function - use your own address for it.
+The harvester address and strategyAddresses can be found in the [contract registry](../smart-contracts/registry.md). The `rewardTo` address is the account that will receive the USDT funds as a reward for calling the function - use your own address for it.
 
 Below is the harvestAndSwap ABI:
 
