@@ -9,7 +9,7 @@ Risks are broken down into 4 main buckets:
 * Security Risk
 * Legal & Regulatory Risk
 
-These risks are then measured through a [S**tablecoin Scorecard**](stablecoin-scorecard.md) methodology to provide a quantitative measurement of a given stablecoin's risk. Below you will find some of the various inputs that go into the scorecard. Of course, even a stablecoin that scores well overall could still be unsuitable for OUSD, so it important to take all data into context.
+These risks are then measured through a [**Stablecoin Scorecard**](stablecoin-scorecard.md) methodology to provide a quantitative measurement of a given stablecoin's risk. Below you will find some of the various inputs that go into the scorecard. Of course, even a stablecoin that scores well overall could still be unsuitable for OUSD, so it important to take all data into context.
 
 ### Financial Risk
 
