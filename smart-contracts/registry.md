@@ -37,11 +37,14 @@ OGV **** can be locked in exchange for veOGV to get economic and governance righ
 
 **Strategies**
 
-| Contract | Address                                                                                                                    |
-| -------- | -------------------------------------------------------------------------------------------------------------------------- |
-| Aave     | [0x5e3646A1Db86993f73E6b74A57D8640B69F7e259](https://etherscan.io/address/0x5e3646A1Db86993f73E6b74A57D8640B69F7e259)      |
-| Compound | [0x9c459eeb3FA179a40329b81C1635525e9A0Ef094](https://etherscan.io/address/0x9c459eeb3FA179a40329b81C1635525e9A0Ef094)      |
-| Convex   | [0xEA2Ef2e2E5A749D4A66b41Db9aD85a38Aa264cb3](https://etherscan.io/address/0xEA2Ef2e2E5A749D4A66b41Db9aD85a38Aa264cb3#code) |
+| Contract                | Address                                                                                                                    |
+| ----------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| Aave                    | [0x5e3646A1Db86993f73E6b74A57D8640B69F7e259](https://etherscan.io/address/0x5e3646A1Db86993f73E6b74A57D8640B69F7e259)      |
+| Aave Implementation     | [0x4f424c6f066ae74784f3595a3a84923ad36d5471](https://etherscan.io/address/0x4f424c6f066ae74784f3595a3a84923ad36d5471)      |
+| Compound                | [0x9c459eeb3FA179a40329b81C1635525e9A0Ef094](https://etherscan.io/address/0x9c459eeb3FA179a40329b81C1635525e9A0Ef094)      |
+| Compound Implementation | [0xc697eab7b9f5c5ce2d35b9b69917f96001712ad5](https://etherscan.io/address/0xc697eab7b9f5c5ce2d35b9b69917f96001712ad5)      |
+| Convex                  | [0xEA2Ef2e2E5A749D4A66b41Db9aD85a38Aa264cb3](https://etherscan.io/address/0xEA2Ef2e2E5A749D4A66b41Db9aD85a38Aa264cb3#code) |
+| Convex Implementation   | [0xee83f8ebb435373f6c231173995cc990697af1b8](https://etherscan.io/address/0xee83f8ebb435373f6c231173995cc990697af1b8)      |
 
 ****
 
@@ -88,7 +91,7 @@ OUSD **** is backed by the following stablecoins:
 
 **Oracles**
 
-The following Chainlink oracles are used to protect the vault in case a backing stablecoin loses value. They also offer slippage protection when harvesting rewards tokens or executing the OGN buyback.
+The following Chainlink oracles are used to protect the vault in case a backing stablecoin loses value. They also offer slippage protection when harvesting rewards tokens.
 
 | Pair                                                                      | Contract                                                                                                              |
 | ------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
@@ -99,7 +102,6 @@ The following Chainlink oracles are used to protect the vault in case a backing 
 | [AAVE/USD](https://data.chain.link/ethereum/mainnet/crypto-usd/aave-usd)  | [0x547a514d5e3769680Ce22B2361c10Ea13619e8a9](https://etherscan.io/address/0x547a514d5e3769680Ce22B2361c10Ea13619e8a9) |
 | [CRV/USD](https://data.chain.link/ethereum/mainnet/crypto-usd/crv-usd)    | [0xcd627aa160a6fa45eb793d19ef54f5062f20f33f](https://etherscan.io/address/0xcd627aa160a6fa45eb793d19ef54f5062f20f33f) |
 | [CVX/USD](https://data.chain.link/ethereum/mainnet/crypto-usd/cvx-usd)    | [0xd962fC30A72A84cE50161031391756Bf2876Af5D](https://etherscan.io/address/0xd962fC30A72A84cE50161031391756Bf2876Af5D) |
-| [OGN/ETH](https://data.chain.link/ethereum/mainnet/crypto-eth/ogn-eth)    | [0x2c881b6f3f6b5ff6c975813f87a4dad0b241c15b](https://etherscan.io/address/0x2c881b6f3f6b5ff6c975813f87a4dad0b241c15b) |
 
 **Deprecated**
 
