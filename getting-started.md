@@ -29,8 +29,6 @@ OUSD is currently available on the following centralized exchanges. Be sure to c
   * [OUSD/BTC](https://trade.kucoin.com/OUSD-BTC)
 * Buy OUSD on Gate.io
   * [OUSD/USDT](https://www.gate.io/trade/OUSD\_USDT)
-* Buy OUSD on Virgox
-  * [OUSD/USDT](https://virgox.com/exchange/141)
 * [Buy OUSD on Dharma App](https://www.dharma.io/) (US only)
 
 We're continuing to work on making OUSD available on additional centralized exchanges.
