@@ -18,7 +18,7 @@ OUSD is currently available on the following decentralized exchanges. These are 
 * [Buy OUSD on Curve](https://curve.fi/factory/9)
 * [Buy OUSD on Uniswap v3](https://app.uniswap.org/#/swap?inputCurrency=0xdac17f958d2ee523a2206206994597c13d831ec7\&outputCurrency=0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86)
 * [Buy OUSD on Uniswap v2](https://app.uniswap.org/#/swap?inputCurrency=0xdac17f958d2ee523a2206206994597c13d831ec7\&outputCurrency=0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86\&use=v2)
-* [Buy OUSD on Sushiswap](https://exchange.sushiswapclassic.org/#/swap?inputCurrency=0xdac17f958d2ee523a2206206994597c13d831ec7\&outputCurrency=0x2a8e1e676ec238d8a992307b495b45b3feaa5e86)
+* [Buy OUSD on Sushiswap](https://app.sushi.com/swap?inputCurrency=0xdAC17F958D2ee523a2206206994597C13D831ec7\&outputCurrency=0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86\&chainId=1)
 
 **Centralized Exchanges**
 
