@@ -24,7 +24,8 @@ OUSD uses the following high-level strategies for generating yield:
 
 OUSD is able to generate higher yields than competing protocols due to a combination of important design decisions that amplify the rewards that are returned to OUSD holders:
 
-* Exit fees are returned to the pool, rewarding long term holders&#x20;
-* Price oracles favor the collective over the individual, again rewarding long term holders&#x20;
+* Exit fees are returned to the pool, rewarding long-term holders&#x20;
+* Price oracles favor the collective over the individual, again rewarding long-term holders&#x20;
 * Smart contracts must manually opt-in to earn yield. This allows the protocol to put more capital to work than would be otherwise possible.
 * Smart strategies balance risk and reward more effectively than deploying capital in any single underlying strategy.
+* Yields tend to get compressed as more funds are deployed into a given strategy. By spreading capital across multiple strategies at once, OUSD is able to able to deploy more capital with less yield compression.
