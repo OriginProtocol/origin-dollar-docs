@@ -9,10 +9,9 @@ This is convenient when users want someone they trust or even one of Origin's te
 
 * Go to: [https://snapshot.org/#/delegate](https://snapshot.org/#/delegate).
 * Type in the address or ENS name you want to delegate to.
-* There is an option to limit the delegation power to only Origin’s products by selecting _Limit delegation to a specific space_ and typing in “origingov.eth”.
-* Click confirm to save your delegation.\
+* There is an option to limit the delegation power to only OUSD by selecting "Limit delegation to a specific space" and typing in “ousdgov.eth”.
+* Click confirm to save your delegation.
 
-
-![](<../.gitbook/assets/Screenshot 2022-03-20 at 10.47.43.png>)
+<figure><img src="../.gitbook/assets/Screen Shot 2022-11-10 at 3.13.59 AM.png" alt=""><figcaption><p>Delegating your voting power only for the ousdgov.eth Snapshot space</p></figcaption></figure>
 
 After completing these steps, the veOGV voting power is successfully delegated to the address specified.
