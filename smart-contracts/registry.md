@@ -37,14 +37,12 @@ OGV **** can be locked in exchange for veOGV to get economic and governance righ
 
 **Strategies**
 
-| Contract                | Address                                                                                                                    |
-| ----------------------- | -------------------------------------------------------------------------------------------------------------------------- |
-| Aave                    | [0x5e3646A1Db86993f73E6b74A57D8640B69F7e259](https://etherscan.io/address/0x5e3646A1Db86993f73E6b74A57D8640B69F7e259)      |
-| Aave Implementation     | [0x4f424c6f066ae74784f3595a3a84923ad36d5471](https://etherscan.io/address/0x4f424c6f066ae74784f3595a3a84923ad36d5471)      |
-| Compound                | [0x9c459eeb3FA179a40329b81C1635525e9A0Ef094](https://etherscan.io/address/0x9c459eeb3FA179a40329b81C1635525e9A0Ef094)      |
-| Compound Implementation | [0xc697eab7b9f5c5ce2d35b9b69917f96001712ad5](https://etherscan.io/address/0xc697eab7b9f5c5ce2d35b9b69917f96001712ad5)      |
-| Convex                  | [0xEA2Ef2e2E5A749D4A66b41Db9aD85a38Aa264cb3](https://etherscan.io/address/0xEA2Ef2e2E5A749D4A66b41Db9aD85a38Aa264cb3#code) |
-| Convex Implementation   | [0xee83f8ebb435373f6c231173995cc990697af1b8](https://etherscan.io/address/0xee83f8ebb435373f6c231173995cc990697af1b8)      |
+| Contract                 | Address                                                                                                                    |
+| ------------------------ | -------------------------------------------------------------------------------------------------------------------------- |
+| Aave                     | [0x5e3646A1Db86993f73E6b74A57D8640B69F7e259](https://etherscan.io/address/0x5e3646A1Db86993f73E6b74A57D8640B69F7e259)      |
+| Compound                 | [0x9c459eeb3FA179a40329b81C1635525e9A0Ef094](https://etherscan.io/address/0x9c459eeb3FA179a40329b81C1635525e9A0Ef094)      |
+| Convex                   | [0xEA2Ef2e2E5A749D4A66b41Db9aD85a38Aa264cb3](https://etherscan.io/address/0xEA2Ef2e2E5A749D4A66b41Db9aD85a38Aa264cb3#code) |
+| OUSD Convex Metastrategy | [0x89eb88fedc50fc77ae8a18aad1ca0ac27f777a90](https://etherscan.io/address/0x89eb88fedc50fc77ae8a18aad1ca0ac27f777a90#code) |
 
 ****
 
