@@ -43,6 +43,7 @@ OGV **** can be locked in exchange for veOGV to get economic and governance righ
 | Compound                 | [0x9c459eeb3FA179a40329b81C1635525e9A0Ef094](https://etherscan.io/address/0x9c459eeb3FA179a40329b81C1635525e9A0Ef094)      |
 | Convex                   | [0xEA2Ef2e2E5A749D4A66b41Db9aD85a38Aa264cb3](https://etherscan.io/address/0xEA2Ef2e2E5A749D4A66b41Db9aD85a38Aa264cb3#code) |
 | OUSD Convex Metastrategy | [0x89eb88fedc50fc77ae8a18aad1ca0ac27f777a90](https://etherscan.io/address/0x89eb88fedc50fc77ae8a18aad1ca0ac27f777a90#code) |
+| Morpho Compound          | [0x5A4eEe58744D1430876d5cA93cAB5CcB763C037D](https://etherscan.io/address/0x5A4eEe58744D1430876d5cA93cAB5CcB763C037D)      |
 
 ****
 
