@@ -265,60 +265,6 @@ Optionally, the list can be returned as a structured object
 {% endswagger-response %}
 {% endswagger %}
 
-{% swagger method="get" path="" baseUrl="https://analytics.ousd.com" summary="" %}
-{% swagger-description %}
-
-{% endswagger-description %}
-{% endswagger %}
-
-{% swagger method="get" path="" baseUrl="https://analytics.ousd.com" summary="" %}
-{% swagger-description %}
-
-{% endswagger-description %}
-{% endswagger %}
-
-{% swagger method="get" path="" baseUrl="https://analytics.ousd.com" summary="" %}
-{% swagger-description %}
-
-{% endswagger-description %}
-{% endswagger %}
-
-{% swagger method="get" path="" baseUrl="https://analytics.ousd.com" summary="" %}
-{% swagger-description %}
-
-{% endswagger-description %}
-{% endswagger %}
-
-{% swagger method="get" path="" baseUrl="https://analytics.ousd.com" summary="" %}
-{% swagger-description %}
-
-{% endswagger-description %}
-{% endswagger %}
-
-{% swagger method="get" path="" baseUrl="https://analytics.ousd.com" summary="" %}
-{% swagger-description %}
-
-{% endswagger-description %}
-{% endswagger %}
-
-{% swagger method="get" path="" baseUrl="https://analytics.ousd.com" summary="" %}
-{% swagger-description %}
-
-{% endswagger-description %}
-{% endswagger %}
-
-{% swagger method="get" path="" baseUrl="https://analytics.ousd.com" summary="" %}
-{% swagger-description %}
-
-{% endswagger-description %}
-{% endswagger %}
-
-{% swagger method="get" path="" baseUrl="https://analytics.ousd.com" summary="" %}
-{% swagger-description %}
-
-{% endswagger-description %}
-{% endswagger %}
-
 ### Origin Protocol
 
 {% swagger method="get" path="/circulating-ogn" baseUrl="https://originprotocol.com" summary="The circulating supply of Origin Token (OGN)" %}
