@@ -6,8 +6,10 @@ The are two separate hostnames where different endpoints are hosted. The source 
 
 ### OUSD Analytics
 
-{% swagger method="get" path="/api/v1/apr/trailing/{days}" baseUrl="https://analytics.ousd.com" summary="The annualized trailing yield for OUSD over given number of days" %}
+{% swagger method="get" path="/api/v1/apr/trailing/{days}" baseUrl="https://analytics.ousd.com" summary="OUSD trailing yield" %}
 {% swagger-description %}
+The annualized trailing yield for OUSD over given number of days
+
 Numbers greater than 365 may produce unexpected results
 {% endswagger-description %}
 
@@ -25,9 +27,9 @@ Number of days
 {% endswagger-response %}
 {% endswagger %}
 
-{% swagger method="get" path="/api/v1/apr/history" baseUrl="https://analytics.ousd.com" summary="The recent annualized historical yield for OUSD" %}
+{% swagger method="get" path="/api/v1/apr/history" baseUrl="https://analytics.ousd.com" summary="OUSD yield history" %}
 {% swagger-description %}
-
+The recent annualized historical yield for OUSD
 {% endswagger-description %}
 
 {% swagger-response status="200: OK" description="" %}
@@ -81,9 +83,9 @@ Number of days
 {% endswagger-response %}
 {% endswagger %}
 
-{% swagger method="get" path="/collateral" baseUrl="https://analytics.ousd.com" summary="A list of stablecoins and their balances held by OUSD" %}
+{% swagger method="get" path="/collateral" baseUrl="https://analytics.ousd.com" summary="OUSD collateral" %}
 {% swagger-description %}
-
+A list of stablecoins and their balances held by OUSD
 {% endswagger-description %}
 
 {% swagger-response status="200: OK" description="" %}
@@ -112,9 +114,9 @@ Number of days
 {% endswagger-response %}
 {% endswagger %}
 
-{% swagger method="get" path="/strategies{?structured}" baseUrl="https://analytics.ousd.com" summary="A list of OUSD's yield-earning strategies and their token balances" %}
+{% swagger method="get" path="/strategies{?structured}" baseUrl="https://analytics.ousd.com" summary="OUSD strategies" %}
 {% swagger-description %}
-Optionally, the list can be returned as a structured object
+A list of OUSD's yield-earning strategies and their token balances
 {% endswagger-description %}
 
 {% swagger-parameter in="query" name="structured" required="false" %}
@@ -267,9 +269,9 @@ Optionally, the list can be returned as a structured object
 
 ### Origin Protocol
 
-{% swagger method="get" path="/circulating-ogn" baseUrl="https://originprotocol.com" summary="The circulating supply of Origin Token (OGN)" %}
+{% swagger method="get" path="/circulating-ogn" baseUrl="https://originprotocol.com" summary="OGN circulating supply" %}
 {% swagger-description %}
-
+The number of Origin Tokens (OGN) in circulation
 {% endswagger-description %}
 
 {% swagger-response status="200: OK" description="" %}
@@ -279,9 +281,9 @@ Optionally, the list can be returned as a structured object
 {% endswagger-response %}
 {% endswagger %}
 
-{% swagger method="get" path="/circulating-ogv" baseUrl="https://originprotocol.com" summary="The circulating supply of Origin Dollar Governance (OGV)" %}
+{% swagger method="get" path="/circulating-ogv" baseUrl="https://originprotocol.com" summary="OGV circulating supply" %}
 {% swagger-description %}
-
+The number of Origin Dollar Governance (OGV) tokens in circulation
 {% endswagger-description %}
 
 {% swagger-response status="200: OK" description="" %}
@@ -291,9 +293,9 @@ Optionally, the list can be returned as a structured object
 {% endswagger-response %}
 {% endswagger %}
 
-{% swagger method="get" path="/total-ogn" baseUrl="https://originprotocol.com" summary="The total supply of Origin Token (OGN)" %}
+{% swagger method="get" path="/total-ogn" baseUrl="https://originprotocol.com" summary="OGN total supply" %}
 {% swagger-description %}
-
+The total number of Origin Tokens (OGN) in existence
 {% endswagger-description %}
 
 {% swagger-response status="200: OK" description="OK" %}
@@ -303,9 +305,9 @@ Optionally, the list can be returned as a structured object
 {% endswagger-response %}
 {% endswagger %}
 
-{% swagger method="get" path="/total-ogv" baseUrl="https://originprotocol.com" summary="The total supply of Origin Dollar Governance (OGV)" %}
+{% swagger method="get" path="/total-ogv" baseUrl="https://originprotocol.com" summary="OGV total supply" %}
 {% swagger-description %}
-
+The total number of Origin Dollar Governance (OGV) tokens in existence
 {% endswagger-description %}
 
 {% swagger-response status="200: OK" description="OK" %}
@@ -315,9 +317,9 @@ Optionally, the list can be returned as a structured object
 {% endswagger-response %}
 {% endswagger %}
 
-{% swagger method="get" path="/total-ousd" baseUrl="https://originprotocol.com" summary="The total supply of Origin Dollar (OUSD)" %}
+{% swagger method="get" path="/total-ousd" baseUrl="https://originprotocol.com" summary="OUSD total supply" %}
 {% swagger-description %}
-
+The total number of Origin Dollar (OUSD) tokens in existence
 {% endswagger-description %}
 
 {% swagger-response status="200: OK" description="" %}
