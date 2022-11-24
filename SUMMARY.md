@@ -59,6 +59,10 @@
 * [Integration Guide For Exchanges](guides/integration-guide-for-exchanges.md)
 * [Incentivized Harvesting Guide](guides/incentivized-harvesting-guide.md)
 
+## Data
+
+* [API](data/api.md)
+
 ## Links
 
 * [Github](https://www.github.com/originprotocol/origin-dollar)
