@@ -26,6 +26,7 @@
   * [Aave](core-concepts/supported-strategies/aave.md)
   * [Curve](core-concepts/supported-strategies/curve.md)
   * [Convex](core-concepts/supported-strategies/convex.md)
+  * [Curve MetaPools](core-concepts/supported-strategies/curve-metapools.md)
   * [Morpho](core-concepts/supported-strategies/morpho.md)
 * [Fund Management](core-concepts/fund-management.md)
 * [Price Oracles](core-concepts/price-oracles.md)
