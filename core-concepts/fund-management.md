@@ -8,7 +8,7 @@ Ultimately, we believe it should be up to the community to decide what the right
 
 **How strategy allocation voting works:**
 
-* New snapshot proposals will open for voting on [the OUSD governance portal](https://vote.ousd.com) at midnight Tuesday UTC (7pm Eastern Monday). The poll will be open for 48 hours, ending at midnight Thursday UTC (7pm Eastern on Wednesday).
+* New snapshot proposals will open for voting on [the OUSD governance portal](https://vote.ousd.com) every Monday at 20:00 UTC. The poll will be open for 48 hours, ending on Wednesday at 20:00 UTC.
 * During this time, those interested can discuss allocation changes in a thread in the #governance channel on [Origin's Discord](https://www.originprotocol.com/discord).
 * Each proposal will use "weighted voting", with options for each coin/strategy combination and an option to keep the existing allocation unchanged. veOGV holders can spread their votes among different listed strategies or the existing allocation.
 * After the voting time has ended, Strategists will submit, verify, and execute transactions to change OUSD to the determined allocation percentages for the week. If more than 50% of the weighted votes are cast for the existing allocation, Strategists may choose to take no action.
