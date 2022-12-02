@@ -18,13 +18,15 @@ In the interest of causing a minimal negative effect to MetaPool balance, we dep
 
 This approach of providing (in most cases) double the liquidity to the OUSD MetaPool has a non-negligible, positive effect of the funds deployed to that pool earning double the rewards.
 
-#### Non-Backed OUSD
+OUSD's Meta strategy collects and sells CRV and CVX tokens. The resulting stablecoins are added to the OUSD vault and distributed as yield.
 
-It is important to note that OUSD deployed to OUSD MetaPool isn't minted by the Vault in a classic manner where it would be backed by a stablecoin. All OUSD minted for providing pool liquidity is not backed. When the strategy removes liquidity from the MetaPool alongside 3Pool tokens, the OUSD is also removed and burned.
+#### Protocol Owned  OUSD
 
-We recognize that remaining fully collateralized is an important bedrock component of OUSD. _The non-backed OUSD held in the MetaPool is controlled by the protocol and it never enters circulation without generating profit for the protocol._ When traders add or remove OUSD from the MetaPool, it has an effect similar to redeeming or minting OUSD since our strategy is capable of burning or creating new supply to maintain the pool's balance. Ultimately, OUSD can still be redeemed at any time for the underlying collateral on a 1:1 basis.
+It is important to note that OUSD deployed to OUSD MetaPool isn't minted by the Vault in a classic manner where it would be backed by a stablecoin. All OUSD minted for providing pool liquidity is  backed by itself. When the strategy removes liquidity from the MetaPool alongside 3Pool tokens, the OUSD is also removed and burned.
 
-We have completed extensive testing in forked Mainnet node environment simulating how flash loans could mint large amounts of OUSD, deploy liquidity to OUSD and then redeem it, manipulating the MetaPool at various stages of that procedure. No vulnerabilities have been found. It is also important to consider that funds can never be deployed to OUSD MetaPool as a result of OUSD mint (we have disabled this option of the OUSD MetaPool strategy) or withdrawn from MetaPool as a result of OUSD redeem. On top of that our approach of deploying & withdrawing from OUSD MetaPool has also been audited by OpenZeppelin.
+We recognize that remaining fully collateralized is an important bedrock component of OUSD. _The protocol owned OUSD held in the MetaPool is controlled by the protocol and it never enters circulation without generating profit for the protocol._ When traders add or remove OUSD from the MetaPool, it has an effect similar to redeeming or minting OUSD since our strategy is capable of burning or creating new supply to maintain the pool's balance. Ultimately, OUSD can still be redeemed at any time for the underlying collateral on a 1:1 basis.
+
+We have completed extensive testing in forked Mainnet node environment simulating how flash loans could mint large amounts of OUSD, deploy liquidity to OUSD and then redeem it, manipulating the MetaPool at various stages of that procedure. No vulnerabilities have been found. It is also important to consider that funds can never be deployed to OUSD MetaPool as a result of OUSD mint (we have disabled this option of the OUSD MetaPool strategy) or withdrawn from MetaPool as a result of OUSD redeem. Our approach of deploying & withdrawing from OUSD MetaPool has also been audited by OpenZeppelin.
 
 | Resources      |                                                                                  |
 | -------------- | -------------------------------------------------------------------------------- |

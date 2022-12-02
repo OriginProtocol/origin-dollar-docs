@@ -12,6 +12,8 @@ Curve has a Total Value Locked (TVL) of over $20.4 billion by liquidity provider
 
 Curve has undergone two audits by Trail of Bits and maintains a bug bounty program.
 
+OUSD's Curve strategy collects and sells CRV tokens. The resulting stablecoins are added to the OUSD vault and distributed as yield.
+
 | Resources      |                                                                          |
 | -------------- | ------------------------------------------------------------------------ |
 | Official site  | [https://www.curve.fi/](https://www.curve.fi/)                           |

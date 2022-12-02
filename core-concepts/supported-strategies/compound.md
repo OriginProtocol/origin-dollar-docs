@@ -10,6 +10,8 @@ Compound's total value locked (TVL) has quickly grown to over $10 billion, makin
 
 Compound has undergone multiple security audits by OpenZeppelin and Trail of Bits. The Compound protocol was formally verified by CertiK and has undergone economic stress testing by Gauntlet. Compound maintains a bug bounty program.
 
+OUSD's Compound strategy collects and sells COMP tokens. The resulting stablecoins are added to the OUSD vault and distributed as yield.
+
 | Resources      |                                                                                                                |
 | -------------- | -------------------------------------------------------------------------------------------------------------- |
 | Official site  | [https://compound.finance/](https://compound.finance/)                                                         |

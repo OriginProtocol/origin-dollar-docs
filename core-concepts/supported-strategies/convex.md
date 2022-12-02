@@ -8,6 +8,8 @@ Convex is one of the few protocols whitelisted to participate in Curve governanc
 
 Convex has been audited by MixBytes.
 
+OUSD's Convex strategy collects and sells CRV and CVX tokens. The resulting stablecoins are added to the OUSD vault and distributed as yield.
+
 |                |                                                                   |
 | -------------- | ----------------------------------------------------------------- |
 | Resources      |                                                                   |

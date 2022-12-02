@@ -12,6 +12,8 @@ Aave's total value locked (TVL) has quickly grown to over $15.5 billion, making 
 
 Aave has undergone security audits by OpenZeppelin, Trail of Bits, and Consensys Diligence. Aave maintains a bug bounty program.
 
+OUSD's AAVE strategy collects and sells AAVE tokens during times that AAVE incentivizes deposits. The resulting stablecoins are added to the OUSD vault and distributed as yield.
+
 | Resources      |                                                                                |
 | -------------- | ------------------------------------------------------------------------------ |
 | Official site  | [https://aave.com/](https://aave.com/)                                         |

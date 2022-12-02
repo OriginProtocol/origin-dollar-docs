@@ -6,6 +6,8 @@ Existing protocols like Compound and Aave are inefficient when utlitization is l
 
 Morpho's total value locked (TVL) has quickly grown to over $100 million prior to the release of its governance token, MORPHO. Multiple security audits have been conducted by respected auditors including Trail of Bits, Certora, ChainSecurity, and others. Morpho maintains a bug bounty program.
 
+OUSD's Morpho strategy collects MORPHO tokens, and collects and sells passthru COMP tokens. The resulting stablecoins are added to the OUSD vault and distributed as yield.
+
 | Resources      |                                                                                |
 | -------------- | ------------------------------------------------------------------------------ |
 | Official site  | [https://www.morpho.xyz](https://www.morpho.xyz/)                              |
