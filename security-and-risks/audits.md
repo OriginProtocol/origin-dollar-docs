@@ -50,3 +50,8 @@ Morpho has been audited by [Trail of Bits](https://www.trailofbits.com/), [Solid
 
 Chainlink has been audited by [Quantstamp](https://github.com/smartcontractkit/chainlink/tree/bafa91c), [SigmaPrime](https://github.com/smartcontractkit/chainlink/tree/cee356), [Callisto](https://gist.github.com/yuriy77k/c3a70d212a7f9ecda715252e45073158), and [Nick Johnson](https://github.com/smartcontractkit/chainlink/tree/5327f9).&#x20;
 
+
+
+
+
+The full list of audits can be found on our [GitHub repo](https://github.com/OriginProtocol/security/tree/master/audits), including [spontaneous community audits](https://github.com/OriginProtocol/security/tree/master/audits/community).
