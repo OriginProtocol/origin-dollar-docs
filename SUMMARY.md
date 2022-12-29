@@ -33,7 +33,7 @@
 
 ## Governance
 
-* [Overview](governance/principles.md)
+* [Overview](governance/overview.md)
 * [Admin Privileges](governance/admin-privileges.md)
 * [OGV Staking](governance/ogv-staking.md)
 * [Contributing](governance/contributing.md)
