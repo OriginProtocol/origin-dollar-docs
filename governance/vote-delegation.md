@@ -1,6 +1,6 @@
 # Vote Delegation
 
-There are two different ways that vote delegation plays a role in Origin Dollar Governance. First, veOGV holders must register to vote by either self-delegating or delegating their voting power to another Ethereum account. This is the result of a design decision to minimize gas costs for OGV stakers, many of whom do not intend to participate in governance directly. In the near future, this requirement will registration step will likely be integrated into all staking transactions so that new OGV stakers automatically self-delegate and are able to exercise voting power without submitting a separate transaction. You can follow the progress of this issue in [GitHub](https://github.com/OriginProtocol/ousd-governance/issues/312).
+There are two different ways that vote delegation plays a role in Origin Dollar Governance. First, veOGV holders must register to vote by either self-delegating or delegating their voting power to another Ethereum account. This is the result of a design decision to minimize gas costs for OGV stakers, many of whom do not intend to participate in governance directly. In the near future, this registration step will likely be integrated into first-time staking transactions so that new OGV stakers automatically self-delegate and are able to exercise voting power without submitting a separate transaction. You can follow the progress of this issue in [GitHub](https://github.com/OriginProtocol/ousd-governance/issues/312).
 
 **How to Register** (on-chain)
 
