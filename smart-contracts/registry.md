@@ -37,15 +37,15 @@ OGV **** can be locked in exchange for veOGV to get economic and governance righ
 
 **Strategies**
 
-| Contract                 | Address                                                                                                                    |
-| ------------------------ | -------------------------------------------------------------------------------------------------------------------------- |
-| Aave                     | [0x5e3646A1Db86993f73E6b74A57D8640B69F7e259](https://etherscan.io/address/0x5e3646A1Db86993f73E6b74A57D8640B69F7e259)      |
-| Compound                 | [0x9c459eeb3FA179a40329b81C1635525e9A0Ef094](https://etherscan.io/address/0x9c459eeb3FA179a40329b81C1635525e9A0Ef094)      |
-| Convex                   | [0xEA2Ef2e2E5A749D4A66b41Db9aD85a38Aa264cb3](https://etherscan.io/address/0xEA2Ef2e2E5A749D4A66b41Db9aD85a38Aa264cb3#code) |
-| OUSD Convex Metastrategy | [0x89eb88fedc50fc77ae8a18aad1ca0ac27f777a90](https://etherscan.io/address/0x89eb88fedc50fc77ae8a18aad1ca0ac27f777a90#code) |
-| Morpho Compound          | [0x5A4eEe58744D1430876d5cA93cAB5CcB763C037D](https://etherscan.io/address/0x5A4eEe58744D1430876d5cA93cAB5CcB763C037D)      |
-| Morpho AAVE              | [0x79F2188EF9350A1dC11A062cca0abE90684b0197](https://etherscan.io/address/0x79f2188ef9350a1dc11a062cca0abe90684b0197)      |
-| LUSD Convex              | [0x7A192DD9Cc4Ea9bdEdeC9992df74F1DA55e60a19](https://etherscan.io/address/0x7A192DD9Cc4Ea9bdEdeC9992df74F1DA55e60a19)      |
+| Contract             | Address                                                                                                                    |
+| -------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| Aave                 | [0x5e3646A1Db86993f73E6b74A57D8640B69F7e259](https://etherscan.io/address/0x5e3646A1Db86993f73E6b74A57D8640B69F7e259)      |
+| Compound             | [0x9c459eeb3FA179a40329b81C1635525e9A0Ef094](https://etherscan.io/address/0x9c459eeb3FA179a40329b81C1635525e9A0Ef094)      |
+| Convex DAI+USDC+USDT | [0xEA2Ef2e2E5A749D4A66b41Db9aD85a38Aa264cb3](https://etherscan.io/address/0xEA2Ef2e2E5A749D4A66b41Db9aD85a38Aa264cb3#code) |
+| Convex LUSD+3Crv     | [0x7A192DD9Cc4Ea9bdEdeC9992df74F1DA55e60a19](https://etherscan.io/address/0x7A192DD9Cc4Ea9bdEdeC9992df74F1DA55e60a19)      |
+| Convex OUSD+3Crv     | [0x89eb88fedc50fc77ae8a18aad1ca0ac27f777a90](https://etherscan.io/address/0x89eb88fedc50fc77ae8a18aad1ca0ac27f777a90#code) |
+| Morpho Compound      | [0x5A4eEe58744D1430876d5cA93cAB5CcB763C037D](https://etherscan.io/address/0x5A4eEe58744D1430876d5cA93cAB5CcB763C037D)      |
+| Morpho Aave          | [0x79F2188EF9350A1dC11A062cca0abE90684b0197](https://etherscan.io/address/0x79f2188ef9350a1dc11a062cca0abe90684b0197)      |
 
 ****
 
