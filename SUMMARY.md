@@ -60,6 +60,10 @@
 
 * [Integration Guide For Exchanges](guides/integration-guide-for-exchanges.md)
 * [Incentivized Harvesting Guide](guides/incentivized-harvesting-guide.md)
+* [Governance Templates](guides/governance-templates/README.md)
+  * [OUSD Strategy Proposal](guides/governance-templates/ousd-strategy-proposal.md)
+  * [Integration Proposal](guides/governance-templates/integration-proposal.md)
+  * [General Proposal](guides/governance-templates/general-proposal.md)
 
 ## Data
 
