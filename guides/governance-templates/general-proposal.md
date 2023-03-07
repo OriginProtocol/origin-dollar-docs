@@ -77,6 +77,8 @@ _What are the risks to Origin if this proposal were to pass? How is each risk mi
 
 #### Vote
 
+_Can be binary, or have multiple options with a "No" option._
+
 * **Yes** - Approve \[proposal name]
 * **No** - Do not approve \[proposal name]
 

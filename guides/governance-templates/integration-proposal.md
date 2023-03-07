@@ -83,6 +83,8 @@ _What are the potential risks to Origin if this integration proposal were to pas
 
 #### Vote
 
+_Can be binary, or have multiple options with a "No" option._
+
 * **Yes** - Approve \[integration proposal name]
 * **No** - Do not approve \[integration proposal name]
 
