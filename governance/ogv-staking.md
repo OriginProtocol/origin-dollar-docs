@@ -51,5 +51,5 @@ Visit [the OUSD Governance DApp](https://governance.ousd.com/stake) in a web3-en
 
 ### Buying OGV
 
-OGV is currently available on [Huobi](https://www.huobi.com/exchange/ogv\_usdt/), [KuCoin](https://www.kucoin.com/trade/OGV-USDT), [Gate.io](https://www.gate.io/trade/OGV\_USDT), [MEXC](https://www.mexc.com/exchange/OGV\_USDT), [Bitget](https://www.bitget.com/spot/OGVUSDT\_SPBL), and [Uniswap](https://app.uniswap.org/#/swap?outputCurrency=0x9c354503C38481a7A7a51629142963F98eCC12D0\&chain=mainnet).
+OGV is currently available on [Curve](https://curve.fi/#/ethereum/pools/factory-crypto-205/swap), [Huobi](https://www.huobi.com/exchange/ogv\_usdt/), [KuCoin](https://www.kucoin.com/trade/OGV-USDT), [Gate.io](https://www.gate.io/trade/OGV\_USDT), [MEXC](https://www.mexc.com/exchange/OGV\_USDT), [Bitget](https://www.bitget.com/spot/OGVUSDT\_SPBL), and [Uniswap](https://app.uniswap.org/#/swap?outputCurrency=0x9c354503C38481a7A7a51629142963F98eCC12D0\&chain=mainnet).
 

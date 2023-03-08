@@ -25,7 +25,7 @@ Two high-level criteria are required to vote and make proposals:
 
 Here are the step-by-step instructions to vote and create a proposal:
 
-1. Buy OGV from [Uniswap](https://app.uniswap.org/#/swap?outputCurrency=0x9c354503C38481a7A7a51629142963F98eCC12D0\&chain=mainnet) or an exchange such as [Huobi](https://www.huobi.com/en-in/exchange/ogv\_usdt), [KuCoin](https://www.kucoin.com/trade/OGV-USDT), [Gate](https://gate.io/trade/OGV\_USDT), [Bitget](https://www.bitget.com/en/spot/OGVUSDT\_SPBL), or [MEXC Global](https://www.mexc.com/exchange/OGV\_USDT?inviteCode=1498J)
+1. Buy OGV from [Curve](https://curve.fi/#/ethereum/pools/factory-crypto-205/swap), [Uniswap](https://app.uniswap.org/#/swap?outputCurrency=0x9c354503C38481a7A7a51629142963F98eCC12D0\&chain=mainnet) or an exchange such as [Huobi](https://www.huobi.com/en-in/exchange/ogv\_usdt), [KuCoin](https://www.kucoin.com/trade/OGV-USDT), [Gate](https://gate.io/trade/OGV\_USDT), [Bitget](https://www.bitget.com/en/spot/OGVUSDT\_SPBL), or [MEXC Global](https://www.mexc.com/exchange/OGV\_USDT?inviteCode=1498J)
 2. Stake OGV at [governance.ousd.com/stake](https://governance.ousd.com/stake)
 3. Register by self-delegating at [governance.ousd.com/register-vote](https://governance.ousd.com/register-vote)
 4. Discuss the proposal in the [Origin Protocol Discord server](https://originprotocol.com/discord)
