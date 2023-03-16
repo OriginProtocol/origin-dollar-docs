@@ -10,7 +10,7 @@ When you wrap OUSD, you get back a fixed number of wOUSD tokens. This number wil
 
 For example, if you wrap 10,000 OUSD, you might receive 9,423 wOUSD. If you hold for a while, you will still have 9,423 wOUSD, but when you unwrap the wOUSD, you receive 11,500 OUSD.
 
-Both OUSD and wOUSD earn at the same rate and can be transferred just like any other ERC-20 token. wOUSD is one of the first implementations of [EIP-4626](https://eips.ethereum.org/EIPS/eip-4626), which is an extension on ERC-20 that provides basic functionality for depositing and withdrawing tokens and reading balances on a tokenized vault. wOUSD was independently [audited by Solidified](https://github.com/OriginProtocol/security/blob/3dc8c1dec2f6fbf4f7d0bdf92408f79262624647/audits/Solidified%20-%20OGV,%20wOUSD,%20and%20ERC721a%20-%20May%202022.pdf) in May 2022 and is ready for production use.
+Both OUSD and wOUSD earn at the same rate and can be transferred just like any other ERC-20 token. wOUSD is one of the first implementations of [ERC-4626](https://eips.ethereum.org/EIPS/eip-4626), which is an extension on ERC-20 that provides basic functionality for depositing and withdrawing tokens and reading balances on a tokenized vault. wOUSD was independently [audited by Solidified](https://github.com/OriginProtocol/security/blob/3dc8c1dec2f6fbf4f7d0bdf92408f79262624647/audits/Solidified%20-%20OGV,%20wOUSD,%20and%20ERC721a%20-%20May%202022.pdf) in May 2022 and is ready for production use.
 
 ### Wrapping
 
