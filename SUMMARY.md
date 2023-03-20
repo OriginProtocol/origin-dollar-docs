@@ -38,6 +38,7 @@
 * [OGV Staking](governance/ogv-staking.md)
 * [Contributing](governance/contributing.md)
 * [Vote Delegation](governance/vote-delegation.md)
+* [University Governance Program](governance/university-governance-program.md)
 
 ## Smart Contracts
 
