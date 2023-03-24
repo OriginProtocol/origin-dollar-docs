@@ -19,4 +19,3 @@ OUSD's AAVE strategy collects and sells AAVE tokens during times that AAVE incen
 | Official site  | [https://aave.com/](https://aave.com/)                                         |
 | Developer docs | [http://docs.aave.com/](http://docs.aave.com/)                                 |
 | GitHub         | [https://github.com/aave/aave-protocol](https://github.com/aave/aave-protocol) |
-| Discord        | [https://aave.com/discord](https://aave.com/discord)                           |

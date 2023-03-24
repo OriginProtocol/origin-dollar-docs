@@ -16,5 +16,4 @@ OUSD's Convex strategy collects and sells CRV and CVX tokens. The resulting stab
 | Official site  | [https://www.convexfinance.com](https://www.convexfinance.com/)   |
 | Developer docs | [https://docs.convexfinance.com](https://docs.convexfinance.com/) |
 | GitHub         | [https://github.com/convex-eth](https://github.com/convex-eth)    |
-| Discord        | [https://discord.gg/uAwvZfs9qU](https://discord.gg/uAwvZfs9qU)    |
 

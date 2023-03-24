@@ -17,4 +17,3 @@ OUSD's Compound strategy collects and sells COMP tokens. The resulting stablecoi
 | Official site  | [https://compound.finance/](https://compound.finance/)                                                         |
 | Developer docs | [https://compound.finance/docs](https://compound.finance/docs)                                                 |
 | GitHub         | [https://github.com/compound-finance/compound-protocol](https://github.com/compound-finance/compound-protocol) |
-| Discord        | [https://discord.com/invite/cU7vmVW](https://discord.com/invite/cU7vmVW)                                       |

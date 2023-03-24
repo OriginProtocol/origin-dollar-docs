@@ -33,4 +33,3 @@ We have completed extensive testing in forked Mainnet node environment simulatin
 | Official site  | [https://www.convexfinance.com/](https://www.convexfinance.com/)                 |
 | Developer docs | [https://docs.convexfinance.com/](https://docs.convexfinance.com/convexfinance/) |
 | GitHub         | [https://github.com/convex-eth](https://github.com/convex-eth)                   |
-| Discord        | [https://discord.com/invite/uAwvZfs9qU](https://discord.com/invite/uAwvZfs9qU)   |

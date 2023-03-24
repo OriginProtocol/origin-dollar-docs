@@ -14,9 +14,8 @@ Curve has undergone two audits by Trail of Bits and maintains a bug bounty progr
 
 OUSD's Curve strategy collects and sells CRV tokens. The resulting stablecoins are added to the OUSD vault and distributed as yield.
 
-| Resources      |                                                                          |
-| -------------- | ------------------------------------------------------------------------ |
-| Official site  | [https://www.curve.fi/](https://www.curve.fi/)                           |
-| Developer docs | [https://www.curve.fi/devdocs](https://www.curve.fi/devdocs)             |
-| GitHub         | [https://github.com/curvefi](https://github.com/curvefi)                 |
-| Discord        | [https://discord.com/invite/9uEHakc](https://discord.com/invite/9uEHakc) |
+| Resources      |                                                              |
+| -------------- | ------------------------------------------------------------ |
+| Official site  | [https://www.curve.fi/](https://www.curve.fi/)               |
+| Developer docs | [https://www.curve.fi/devdocs](https://www.curve.fi/devdocs) |
+| GitHub         | [https://github.com/curvefi](https://github.com/curvefi)     |

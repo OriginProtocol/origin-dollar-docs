@@ -8,9 +8,8 @@ Morpho's total value locked (TVL) has quickly grown to over $100 million prior t
 
 OUSD's Morpho strategy collects MORPHO tokens, and collects and sells passthru COMP tokens. The resulting stablecoins are added to the OUSD vault and distributed as yield.
 
-| Resources      |                                                                                |
-| -------------- | ------------------------------------------------------------------------------ |
-| Official site  | [https://www.morpho.xyz](https://www.morpho.xyz/)                              |
-| Developer docs | [https://docs.morpho.xyz](https://docs.morpho.xyz/)                            |
-| GitHub         | [https://github.com/morpho-labs](https://github.com/morpho-labs)               |
-| Discord        | [https://discord.com/invite/uB7vaJ4JGs](https://discord.com/invite/uB7vaJ4JGs) |
+| Resources      |                                                                  |
+| -------------- | ---------------------------------------------------------------- |
+| Official site  | [https://www.morpho.xyz](https://www.morpho.xyz/)                |
+| Developer docs | [https://docs.morpho.xyz](https://docs.morpho.xyz/)              |
+| GitHub         | [https://github.com/morpho-labs](https://github.com/morpho-labs) |
