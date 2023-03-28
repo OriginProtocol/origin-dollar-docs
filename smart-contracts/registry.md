@@ -77,6 +77,14 @@ Flipper is a gas-optimized way for users to swap in and out of OUSD at a fixed 1
 | 5 of 8              | [0xbe2AB3d3d8F6a32b96414ebbd865dBD276d3d899](https://etherscan.io/address/0xbe2AB3d3d8F6a32b96414ebbd865dBD276d3d899) | [originprotocol.eth](https://etherscan.io/address/originprotocol.eth)                                                                       |
 | 2 of 9              | [0xF14BBdf064E3F67f51cd9BD646aE3716aD938FDC](https://etherscan.io/address/0xF14BBdf064E3F67f51cd9BD646aE3716aD938FDC) | [originstrategist.eth](https://etherscan.io/address/originstrategist.eth)                                                                   |
 
+**Chainlink Keepers**
+
+Chainlink Keepers are an automated and decentralized way for OUSD to perform regularly scheduled tasks.
+
+| Keeper                                                    | Address                                                                                                               | Purpose                  |
+| --------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- | ------------------------ |
+| [OUSD Keeper 3](https://automation.chain.link/mainnet/71) | [0x321e130c0a9cadb0f1ff07f024d6adb290788efb](https://etherscan.io/address/0x321e130c0a9cadb0f1ff07f024d6adb290788efb) | Executing a daily rebase |
+
 ****
 
 **Stablecoins**
