@@ -34,7 +34,7 @@
 ## Governance
 
 * [Overview](governance/overview.md)
-* [Admin Privileges](governance/admin-privileges.md)
+* [Governance](governance/admin-privileges.md)
 * [OGV Staking](governance/ogv-staking.md)
 * [Contributing](governance/contributing.md)
 * [Vote Delegation](governance/vote-delegation.md)
