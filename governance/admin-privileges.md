@@ -2,7 +2,7 @@
 
 ### Fully decentralized governance
 
-The OUSD smart contracts are governed entirely by [OGV stakers](ogv-staking.md). The smart contracts are owner upgradable. Proposals can be submitted by anyone with 10,000,000 or more veOGV. A minimum of 20% of the veOGV supply is required to reach quorum. There is no minimum to vote on existing proposals. All passing proposals are subject to the [48 hour timelock](../smart-contracts/api/timelock.md) before being executed.
+The OUSD smart contracts are governed entirely by [OGV stakers](ogv-staking.md). Proposals can be submitted by anyone with 10,000,000 or more veOGV. A minimum of 20% of the veOGV supply is required to reach quorum. There is no minimum to vote on existing proposals. All passing proposals are subject to the [48 hour timelock](../smart-contracts/api/timelock.md) before being executed.
 
 {% hint style="info" %}
 Time-delayed admin actions give users a chance to exit OUSD if any malicious proposals are passed or the protocol is changing in a way that users do not like.
