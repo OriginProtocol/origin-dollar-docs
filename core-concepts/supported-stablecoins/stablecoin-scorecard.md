@@ -11,7 +11,7 @@ The Stablecoin Scorecard is a quantitative framework for evaluating risk, but is
 
 When it comes to stablecoins, the best place to start is understanding the assets or collateral that help support its purported value, and then diving into the people and processes that support it. Risk is broken down into 4 separate scores with weighting that reflects their aggregate level of importance across each of these key areas.&#x20;
 
-Scores are calculated based on the guidelines below and templates have been provided for both centralized and decentralized stablecoins - please create a copy when producing a score:
+Scores are calculated based on the guidelines below and templates have been provided for both [centralized](https://docs.google.com/spreadsheets/d/1eX85MBj1l9NLGWZwwlXtFg6fSz0PnRhdohVseblQ8RE/edit#gid=1053910649) and [decentralized](https://docs.google.com/spreadsheets/d/1YEyNqE7P2iGDm3zXcsdIXXVgllLKrlR74EivT2a74pc/edit#gid=1418231256) stablecoins.
 
 {% embed url="https://docs.google.com/spreadsheets/d/1eX85MBj1l9NLGWZwwlXtFg6fSz0PnRhdohVseblQ8RE/edit?usp=sharing" %}
 Scorecard Template for Centralized Stablecoin - Tether as an example
