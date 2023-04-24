@@ -1,0 +1,25 @@
+# 支持的穩定幣
+
+**支持的穩定幣**
+
+必須了解的是，OUSD 僅與支持它的穩定幣一樣強大。 底層資產的任何損失都將造成 OUSD 相似的損失。
+
+目前，OUSD 支持以下穩定幣：
+
+{% content-ref url="usdt.md" %}
+[usdt.md](usdt.md)
+{% endcontent-ref %}
+
+{% content-ref url="usdc.md" %}
+[usdc.md](usdc.md)
+{% endcontent-ref %}
+
+{% content-ref url="dai.md" %}
+[dai.md](dai.md)
+{% endcontent-ref %}
+
+None of these stablecoins are perfect, but we selected them because of their widespread usage. While these stablecoins have lost their USD peg on multiple occasions, they have demonstrated resiliency in eventually getting back to their 1 USD targets.
+
+It is important to note that all these stablecoins introduce non-trivial counter-party risk. Tether, in particular, has had well-documented banking troubles and regulatory challenges. In addition, both USDT and USDC have backdoors that grant their issuers the power to freeze money in their holder's wallets. While DAI does not have any direct backdoors, its assets can also be negatively impacted since USDC and USDT are accepted as collateral for minting DAI.
+
+Despite these concerns, there are already billions of dollars betting on the security of these stablecoins. It is possible that additional stablecoins will be added to the protocol over time. Support may also be removed if any of these stablecoins prove to be too unreliable or put OUSD holder's funds in jeopardy. 
